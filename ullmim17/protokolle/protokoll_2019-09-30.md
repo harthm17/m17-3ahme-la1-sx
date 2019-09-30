@@ -10,6 +10,7 @@
   ## Inhaltsverzeichnis
   1. Github
      1. Branches
+     1. Git-Befehle
 
 
   ## Github 
@@ -19,6 +20,9 @@
   ### Branches
   ![Branches](https://guides.github.com/activities/hello-world/branching.png)
 Wenn man an einem Projekt mit mehreren Leuten an einem Projekt arbeitet gibt es sehr viele Unterschiedliche Ideen und Funktionen. Einige davon sind einsatzbereit, manche nicht. Um eine Umgebung zu schaffen in der frei experimentieren kann man eine Art Verzweigung(Branch) schaffen. In dieser Branch kann man nun frei experimentieren, ohne dass die Master-Branch beeinflusst wird. Die Master-Branch ist immer funktionsfähig. Wenn man seinen Branch erstellt hat kann man auch schon Änderungen vornehmen. Wenn man eine Datei verändert, erstellt oder löscht macht man einen commit(etwas übergeben). Über Pull-Anfragen löst man  eine Diskussion über seine Commits aus. Da sie eng in das zugrunde liegende Git-Repository integriert sind, kann jeder genau sehen, welche Änderungen zusammengeführt werden, wenn er Ihre Anfrage akzeptiert. Mit GitHub können Sie aus einem Zweig einen endgültigen Test in der Produktion durchführen, bevor Sie zum Master zusammenführen(Deploy). Nachdem die Änderungen überprüft wurden kann man sie mit dem Master-Branch zusammenführen(Merge).
+
+ ### Git-Befehle
+ ![Befehle](https://qph.fs.quoracdn.net/main-qimg-d151c0543baa145e6252c1ec95199963.webp)
 
   
   
