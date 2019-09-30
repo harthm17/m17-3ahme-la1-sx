@@ -1,7 +1,7 @@
 # 1. Protokoll | AHME17 
 # Uller Lucas
 -------------------------------------------------------------------------
-* **Thema:** Versionsverwaltungssystem, Linux-Befehle
+* **Thema:** Versionsverwaltungssystem, Git-Befehle(Shell)
 * **Datum:** 30.09.2019
 * **Gefehlt:** --
 * **Erstellt von:** ulllum17
@@ -23,6 +23,7 @@
     1. [Links](#links)
         1. [Inline](#inline)
         1. [Referenz](#referenz)
+1. [Git-Befehle](#Git-Befehle)        
 
 --------------------------------------------------------------------------
 
@@ -93,8 +94,7 @@ Es gibt zwei möglichkeiten um etwas Aufzuzählen:
 **- und * sind möglich**
 
 ### Code
-Um zu Kennzeichnen das es sich um Computer code    
-Mit dem 
+Um zu Kennzeichnen das es sich um Computercode handelt
 
  ```C
     ``` <Computersprache>
@@ -135,3 +135,4 @@ Es gibt zwei Möglichkeit um Links einzufügen:
 **Vorteile**
   * Links *können* gebündelt z.B. am Ende zusammengefasst werden
   
+## Git-Befehle
