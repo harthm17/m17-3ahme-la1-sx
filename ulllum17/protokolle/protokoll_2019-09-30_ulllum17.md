@@ -14,8 +14,11 @@
     1. [Zeilenumbruch](#zeilenumbruch)
     1. [Überschrift](#überschrift)
     1. [Hervorheben](#hervorheben)
+    1. [Aufzählungen](#aufzählungen)
+        1. [Sortiert](#sortiert)
+        1. [Unsortiert](#unsortiert)
     1. [Code](#code)
-    1. [Text Grau hinterlegen](#text_grau_hinterlegen)
+    1. [Text Grau hinterlegen](#text-grau-hinterlegen)
     1. [Zitat](#zitate)
     1. [Links](#links)
         1. [Inline](#inline)
@@ -25,7 +28,7 @@
 
 ## Versionverwaltungssystem
 
-Hier einige wichtige Beispiel Syntax für die Formatierung bei Markdown.
+Hier einige *wichtige* Beispiel Syntax für die Formatierung bei Markdown.
 
 ### Absatz
 Absätze werden mit einer leer Zeile erzeugt.
@@ -52,12 +55,42 @@ Es sind **maximal 6** Überschiftsstufen möglich!
 
 
 ### Hervorheben
-Um wichtiges hervorzuheben gibt es x möglichkeiten
+Um wichtiges hervorzuheben gibt es 5 möglichkeiten!
 
     **Fett**
     *Kursiv*
     ***Fett-und-Kursiv***
     ~~Durchgestrichen~~
+
+### Aufzählungen
+Es gibt zwei möglichkeiten um etwas Aufzuzählen:    
+* sortiert
+* unsortiert 
+#### Sortiert
+        1. Auzählung1
+        1. Auzählung2
+        1. Auzählung3
+            1.Aufzählunga
+            1.Aufzählungb
+            1.Aufzählungc        
+        1. Auzählung4
+        1. Auzählung5
+        1. Auzählung6
+**1. ist immer möglich da *markdown* von sich aus weiter Zählt**        
+      
+      
+
+#### Unsortiert
+        *Punkt1
+        *Punkt2
+        *Punkt3
+            *Punkta
+            *Punktb
+            *Punktc
+        -Punkt4
+        -Punkt5
+        -Punkt6  
+**- und * sind möglich**
 
 ### Code
 Um zu Kennzeichnen das es sich um Computer code    
@@ -81,7 +114,7 @@ Zitate werden mit **>** eingeleitet
     > Zitat
    
 ### Links
-Es gibt zwei Möglichkeit um Links einzufügen
+Es gibt zwei Möglichkeit um Links einzufügen:
 * inline 
 * Referenz
 
