@@ -11,6 +11,7 @@
    * [Überschriften](#überschriften)
    * [Markdown](#markdown)
    * [Inhaltsverzeichnis erstellen](#inhaltsverzeichnis-erstellen)
+   * [Text Grau hinterlegen](#text-grau-hinterlegen)
    * [Fett/Kursiv schreiben](#fett/kursiv-schrieben)
    * [Liste/Aufzählungen erstellen](#liste/aufzühlungen-erstellen)
 2. [Git](#git)
@@ -35,6 +36,10 @@ Es können bis zu 6 verschidene Überschriften gewählt werden indem man ein has
 Bei der Erstellung eines Inhaltsverzeichnis in Markdown setzt man die einzelnen Überschriften in Eckige Klammern. Wenn man die Überschrift so hervorheben möchte das sie so aussieht wie ein Link muss man dahinter in runden Klammern die Überschrift nochmal mit einem Hashtag davor nochmals schreiben.
   
       [Beispiel Verzeichnis](#beispiel-verzeichnis)
+### Text Grau hinterlegen
+In Markdown kann man den Text grau hinterlegen indem 2 mal die Tabolator-Taste gedrückt wird.
+
+    beispiel
 
 ### Fett/Kursiv schreiben
 
@@ -62,3 +67,9 @@ oder
     2. Beispiel
     3. Beispiel
 Markdown zählt automatisch mit.
+--------------------------------------------------------------------------------------------------------------------------------
+# Git
+
+
+
+
