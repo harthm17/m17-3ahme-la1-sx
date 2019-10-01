@@ -150,7 +150,7 @@ https://www.patrickzahnd.ch/uploads/git-transport-v1.png
 [Mehr Details zum Stash][Stash]
 
 **Workspace:**    
-Hier sind deine Arbeitsdateien gespeichert
+Hier sind die Arbeitsdateien des Repository gespeichert
 
 **Index:**    
 Hier werden die Daten *hingebracht*, welche im nächsten Schritt commiten werden
@@ -163,9 +163,15 @@ Verzeichnis auf einem Git-Server(nicht Lokal)
 
 ### Branch
 ![Branch][Branch]
+https://www.patrickzahnd.ch/uploads/gitflow.png
 
-Beim Erstellen eines Neuen Repository gibt es nur einen ***master** branch    
-Im master branch befinden sich *funktionsfähige* Versionen(Sieh Bild) 
+Beim Erstellen eines neuen Repository gibt es nur einen **master** branch    
+Im master branch befinden sich *funktionsfähige* Versionen   
+Um am Projekt zu arbeiten erstellt man zum Beispiel:
+* feature branches
+* release branches
+* hotfix branches
+(Sieh Bild) 
 
 ----------------------------------------------------------------------------------
 
