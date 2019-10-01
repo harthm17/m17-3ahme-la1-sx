@@ -19,15 +19,20 @@
         1. [Unsortiert](#unsortiert)
     1. [Code](#code)
     1. [Text Grau hinterlegen](#text-grau-hinterlegen)
-    1. [Zitat](#zitate)
+    1. [Zitat](#zitat)
     1. [Links](#links)
         1. [Inline](#inline)
         1. [Referenz](#referenz)
-1. [Git-Befehle](#Git-Befehle)        
+1. [Git-Befehle](#git-befehle)   
+        1. [Clonen]
+        1. [Bearbeiten]
+        1. [Server hochladen]
 
 --------------------------------------------------------------------------
 
 ## Versionverwaltungssystem
+
+[Github][Github] ist ein Onlinedienst, der Software-Entwicklungsprojekte auf seinen Servern bereitstellt.
 
 Hier einige *wichtige* Beispiel Syntax für die Formatierung bei Markdown.
 
@@ -44,7 +49,7 @@ Absätze werden mit einer leer Zeile erzeugt.
     Text....    
     Text....
 
-### Überschriften
+### Überschrift
 Es sind **maximal 6** Überschiftsstufen möglich!
 
     # Überschrift 1
@@ -136,3 +141,7 @@ Es gibt zwei Möglichkeit um Links einzufügen:
   * Links *können* gebündelt z.B. am Ende zusammengefasst werden
   
 ## Git-Befehle
+![Alt]https://camo.githubusercontent.com/f7d3f1fc948460d025b60041ba963b84eebe66ab/68747470733a2f2f6769742d73636d2e636f6d2f666967757265732f3138333333666967303230312d746e2e706e67
+----------------------------------------------------------------------------------
+#### Links:
+[Github]:https://de.wikipedia.org/wiki/GitHub
