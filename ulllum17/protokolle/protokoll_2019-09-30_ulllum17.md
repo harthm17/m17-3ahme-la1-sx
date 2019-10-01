@@ -25,7 +25,8 @@
         1. [Referenz](#referenz)
 1. [Git](#git)
     1. [Branches](#branches)
-    1. [Klonen](#Klonen)
+    1. [Merge](#merge)
+    1. [Klonen](#klonen)
 1. [Shell](#shell) 
 
 
@@ -148,7 +149,7 @@ Quelle:https://www.patrickzahnd.ch/uploads/git-transport-v1.png
 
 **Stash:** 
 > Beim Stashen werden die aus Deinem Arbeitsverzeichnis noch nicht committeten Änderungen – also Deine geänderten beobachteten Dateien und die in der Staging-Area enthaltenen Dateien – in einem Stack voller unfertiger Änderungen gespeichert. Diese kannst Du dann jederzeit wieder vom Stack holen und auf Dein Arbeitsverzeichnis anwenden.    
-[Mehr Details zum Stash][Stash]
+[Mehr Details][Stash]
 
 **Workspace:**    
 Hier sind die Arbeitsdateien des Repository gespeichert
@@ -177,29 +178,43 @@ Im master branch befinden sich *funktionsfähige* Versionen
 Um am Projekt zu arbeiten erstellt man zum Beispiel:
 * feature branches
 * release branches
-* hotfix branches    
-(Sieh Bild) 
+* hotfix branches     
+
+### Merge 
+Beim Merge(verschmelzen) werden die Änderungen der einzelnen Commits des Branches zusammengefasst und bei dem Ziel Branch angewendet.
+
+
+
 ----------------------------------------------------------------------------------
 ## Shell
-
+Die Shell ist eine Benutzerschnittstelle die auf Unix läuft.    
+[Mehr Details][Shell]
 ````bash
 git --version
 ````
 Gibt die aktuelle Versionsnummer von Git aus
 
 ````bash
-cd <Verzeichnisname>
+ls <-l>
+````
+Zeigt die Ordnerstruktur an    
+Mit dem Argument *-l* kann man es in Listenform anzeigen lassen
+
+````bash
+cd Verzeichnisname
 ````
 Wechseld das Verzeichnis
 
 ````bash
-gedit <>
+gedit Dateiname
 ````
+Zum bearbeiten von Textdateien
 
 ----------------------------------------------------------------------------------
 
 [Github]:https://de.wikipedia.org/wiki/GitHub
 [Stash]:https://git-scm.com/book/de/v1/Git-Tools-Stashen
+[Shell]:https://de.wikipedia.org/wiki/Unix-Shell
 
 [Git-Data Trasport]:https://www.patrickzahnd.ch/uploads/git-transport-v1.png
 [Branches]:https://www.patrickzahnd.ch/uploads/gitflow.png
