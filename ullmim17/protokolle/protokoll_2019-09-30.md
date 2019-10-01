@@ -11,6 +11,8 @@
   1. [Github](#github)
      1. [Branches](#branches)
      1. [Git-Befehle](#git-befehle)
+  2. [Markdown](#markdown)<br>
+     2. [Vorteile von Markdown](#vorteilevonmarkdown)
 
 
   ## Github 
@@ -33,5 +35,10 @@ Wenn man an einem Projekt mit mehreren Leuten arbeitet gibt es sehr viele Unters
  **git checkout:** Änderungen einer Datei verwerfen.<br><br>
  **git reset:** Alle Änderungen seit dem letzen commit verwerfen<br><br>
  
-  
-  
+  ------------------------------------------------------------------------------------------
+  ## Markdown
+  Laut [Wikiepdia](https://de.wikipedia.org/wiki/Markdown)<br>
+  Markdown ist eine vereinfachte Auszeichnungssprache, die von John Gruber und Aaron Swartz entworfen und im Dezember 2004 mit Version 1.0.1 spezifiziert wurde. Ein Ziel von Markdown ist, dass schon die Ausgangsform ohne weitere Konvertierung leicht lesbar ist. Als Auszeichnungselemente wurden daher vor allem Auszeichnungsarten verwendet, die in Plain text und E-Mails üblich sind. Auch andere Auszeichnungssprachen mit ähnlichen Zielen zur Lesbarkeit – wie reStructuredText oder Textile – hatten Einfluss auf die Syntax. Der MIME-Type lautet text/markdown.
+Eine Markdown-Konvertierungssoftware wandelt Text in gültiges und W3C-konformes XHTML um. Die Referenzimplementierung in Perl steht unter einer BSD-artigen Lizenz. Weiter sind inzwischen Implementierungen in den gängigsten Programmiersprachen wie PHP (z. B.[3]), Python (z. B.[4]) oder JavaScript (z. B.[5]) sowie R verfügbar.
+
+  ### Vorteile von Markdown
