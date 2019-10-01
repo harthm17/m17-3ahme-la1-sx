@@ -23,10 +23,11 @@
     1. [Links](#links)
         1. [Inline](#inline)
         1. [Referenz](#referenz)
-1. [Git-Befehle](#git-befehle)   
-        1. [Clonen]
-        1. [Bearbeiten]
-        1. [Server hochladen]
+1. [Git](#git)
+    1. [Branches](#branches)
+    1. [Klonen](#Klonen)
+1. [Shell](#shell) 
+
 
 --------------------------------------------------------------------------
 
@@ -96,7 +97,7 @@ Es gibt zwei möglichkeiten um etwas Aufzuzählen:
         -Punkt4
         -Punkt5
         -Punkt6  
-**- und * sind möglich**
+**- und * sind mögliche Aufzählungszeichen**
 
 ### Code
 Um zu Kennzeichnen das es sich um Computercode handelt
@@ -139,11 +140,11 @@ Es gibt zwei Möglichkeit um Links einzufügen:
     
 **Vorteile**
   * Links *können* gebündelt z.B. am Ende zusammengefasst werden
-  
+------------------------------------------------------------------------------------------------------  
 ## Git
 ### Git-Kommandos und Ebenen
 ![Git-Data Trasport][Git-Data Trasport]
-https://www.patrickzahnd.ch/uploads/git-transport-v1.png
+Quelle:https://www.patrickzahnd.ch/uploads/git-transport-v1.png
 
 **Stash:** 
 > Beim Stashen werden die aus Deinem Arbeitsverzeichnis noch nicht committeten Änderungen – also Deine geänderten beobachteten Dateien und die in der Staging-Area enthaltenen Dateien – in einem Stack voller unfertiger Änderungen gespeichert. Diese kannst Du dann jederzeit wieder vom Stack holen und auf Dein Arbeitsverzeichnis anwenden.    
@@ -161,17 +162,39 @@ Sind die Lokalen änderungen gespeichert
 **Remote Repository:**    
 Verzeichnis auf einem Git-Server(nicht Lokal)
 
-### Branch
-![Branch][Branch]
-https://www.patrickzahnd.ch/uploads/gitflow.png
+### Klonen
+Ein vorhandes Repository klonen
+````bash
+git clone https://github.com/ulllum17/labor 
+````
+
+### Branches
+![Branches][Branches]
+Quelle:https://www.patrickzahnd.ch/uploads/gitflow.png
 
 Beim Erstellen eines neuen Repository gibt es nur einen **master** branch    
 Im master branch befinden sich *funktionsfähige* Versionen   
 Um am Projekt zu arbeiten erstellt man zum Beispiel:
 * feature branches
 * release branches
-* hotfix branches
+* hotfix branches    
 (Sieh Bild) 
+----------------------------------------------------------------------------------
+## Shell
+
+````bash
+git --version
+````
+Gibt die aktuelle Versionsnummer von Git aus
+
+````bash
+cd <Verzeichnisname>
+````
+Wechseld das Verzeichnis
+
+````bash
+gedit <>
+````
 
 ----------------------------------------------------------------------------------
 
@@ -179,6 +202,6 @@ Um am Projekt zu arbeiten erstellt man zum Beispiel:
 [Stash]:https://git-scm.com/book/de/v1/Git-Tools-Stashen
 
 [Git-Data Trasport]:https://www.patrickzahnd.ch/uploads/git-transport-v1.png
-[Branch]:https://www.patrickzahnd.ch/uploads/gitflow.png
+[Branches]:https://www.patrickzahnd.ch/uploads/gitflow.png
 
 
