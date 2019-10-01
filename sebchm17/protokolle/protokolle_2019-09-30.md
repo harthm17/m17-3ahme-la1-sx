@@ -76,6 +76,15 @@ Markdown zählt automatisch mit.
 ![Git-Data Trasport][Git-Data Trasport]
 https://www.patrickzahnd.ch/uploads/git-transport-v1.png
 
+#### Stash
+
+#### Workplace
+
+#### Index
+
+#### Local Repository
+
+#### Remote Repository
 --------------------------------------------------------------------------------------------------------------------------------
 [Git-Data Trasport]:https://www.patrickzahnd.ch/uploads/git-transport-v1.png
 
