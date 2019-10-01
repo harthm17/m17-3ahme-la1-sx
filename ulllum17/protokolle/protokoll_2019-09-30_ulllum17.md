@@ -140,8 +140,39 @@ Es gibt zwei Möglichkeit um Links einzufügen:
 **Vorteile**
   * Links *können* gebündelt z.B. am Ende zusammengefasst werden
   
-## Git-Befehle
-![Alt]https://camo.githubusercontent.com/f7d3f1fc948460d025b60041ba963b84eebe66ab/68747470733a2f2f6769742d73636d2e636f6d2f666967757265732f3138333333666967303230312d746e2e706e67
+## Git
+### Git-Kommandos und Ebenen
+![Git-Data Trasport][Git-Data Trasport]
+https://www.patrickzahnd.ch/uploads/git-transport-v1.png
+
+**Stash:** 
+> Beim Stashen werden die aus Deinem Arbeitsverzeichnis noch nicht committeten Änderungen – also Deine geänderten beobachteten Dateien und die in der Staging-Area enthaltenen Dateien – in einem Stack voller unfertiger Änderungen gespeichert. Diese kannst Du dann jederzeit wieder vom Stack holen und auf Dein Arbeitsverzeichnis anwenden.    
+[Mehr Details zum Stash][Stash]
+
+**Workspace:**    
+Hier sind deine Arbeitsdateien gespeichert
+
+**Index:**    
+Hier werden die Daten *hingebracht*, welche im nächsten Schritt commiten werden
+
+**Local Repository:**    
+Sind die Lokalen änderungen gespeichert
+
+**Remote Repository:**    
+Verzeichnis auf einem Git-Server(nicht Lokal)
+
+### Branch
+![Branch][Branch]
+
+Beim Erstellen eines Neuen Repository gibt es nur einen ***master** branch    
+Im master branch befinden sich *funktionsfähige* Versionen(Sieh Bild) 
+
 ----------------------------------------------------------------------------------
-#### Links:
+
 [Github]:https://de.wikipedia.org/wiki/GitHub
+[Stash]:https://git-scm.com/book/de/v1/Git-Tools-Stashen
+
+[Git-Data Trasport]:https://www.patrickzahnd.ch/uploads/git-transport-v1.png
+[Branch]:https://www.patrickzahnd.ch/uploads/gitflow.png
+
+
