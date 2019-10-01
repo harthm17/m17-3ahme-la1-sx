@@ -32,15 +32,22 @@ Github kostet erst etwas wenn die Dokumente privat bleiben sollen.
 
 Es können bis zu 6 verschidene Überschriften gewählt werden indem man ein hash davor setzt.
 
-## Inhaltsverzeichnis erstellen
+### Inhaltsverzeichnis erstellen
 Bei der Erstellung eines Inhaltsverzeichnis in Markdown setzt man die einzelnen Überschriften in Eckige Klammern. Wenn man die Überschrift so hervorheben möchte das sie so aussieht wie ein Link muss man dahinter in runden Klammern die Überschrift nochmal mit einem Hashtag davor nochmals schreiben.
   
       [Beispiel Verzeichnis](#beispiel-verzeichnis)
 
-## Fett/Kursiv schreiben
+### Fett/Kursiv schreiben
+
+    fett schreiben **....**
+    kursiv schreiben *....*
+    durchgestrichen ~~...~~
 
 
-## Markdown
+### Markdown
 
 Aus [Wikipedia][https://de.wikipedia.org/wiki/Markdown]
 >Markdown ist eine vereinfachte Auszeichnungssprache, die von John Gruber und Aaron Swartz entworfen und im Dezember 2004 mit Version 1.0.1 spezifiziert wurde. Ein Ziel von Markdown ist, dass schon die Ausgangsform ohne weitere Konvertierung leicht lesbar ist. Als Auszeichnungselemente wurden daher vor allem Auszeichnungsarten verwendet, die in Plain text und E-Mails üblich sind. Auch andere Auszeichnungssprachen mit ähnlichen Zielen zur Lesbarkeit – wie reStructuredText oder Textile – hatten Einfluss auf die Syntax.
+
+### Liste erstellen
+
