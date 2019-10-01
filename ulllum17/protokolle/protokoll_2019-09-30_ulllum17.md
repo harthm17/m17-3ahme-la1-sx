@@ -9,7 +9,7 @@
 --------------------------------------------------------------------------
 ## Inhaltsverzeichnis
 
-1. [Versionsverwaltungssystem](#versionsverwaltungssystem)
+1. [Versionsverwaltungssystem](#versionverwaltungssystem)
     1. [Absatz](#absatz)
     1. [Zeilenumbruch](#zeilenumbruch)
     1. [Überschrift](#überschrift)
