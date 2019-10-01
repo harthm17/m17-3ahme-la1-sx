@@ -31,7 +31,7 @@ Github kostet erst etwas wenn die Dokumente privat bleiben sollen.
 
 Es können bis zu 6 verschidene Überschriften gewählt werden indem man ein hash davor setzt.
 
-##Inhaltsverzeichnis erstellen
+## Inhaltsverzeichnis erstellen
 Bei der Erstellung eines Inhaltsverzeichnis in Markdown setzt man die einzelnen Überschriften in Eckige Klammern. Wenn man die Überschrift so hervorheben möchte das sie so aussieht wie ein Link muss man dahinter in runden Klammern die Überschrift nochmal mit einem Hashtag davor nochmals schreiben.
   
       [Beispiel Verzeichnis](#beispiel-verzeichnis)
