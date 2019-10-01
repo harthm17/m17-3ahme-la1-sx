@@ -26,7 +26,7 @@ Wenn man an einem Projekt mit mehreren Leuten arbeitet gibt es sehr viele Unters
  ### Git-Befehle
  ![Befehle](https://i.pinimg.com/originals/cd/7c/15/cd7c15691839a4eaf41c71274f7ae98c.png)
  
- **git clone:** Kopiert remote repository, um auf einer eigenen Kopie arbeiten zu können. <br><br>
+ **git clone:** Kopiert remote repository, um auf einer eigenen Kopie arbeiten zu können.<br> z.B git clone https://github.com/ullmim17/Labor <br><br>
  **git add:** Mit git add werden Dateien in die sog. Index Area aufgenommen. Die Index Area umfasst alle Dateien, deren Inhalt vom nächsten commit erfasst werden sollen. Somit müssen vor einem commit alle zu erfassenden Dateien zur Index Area hinzugefügt werden.<br><br><br>
  **git status:** Der Befehl git status liefert Informationen über Dateien der eigenen Arbeitskopie und listet u.a Dateien, die seit dem letzen commit modifiziert oder hinzugefügt wurden. <br><br>
  **git commit**: Nachdem alle Dateien oder Änderungen mit git add hinzugefügt wurden, kann man nun über den Befehl git commit diese in local repository hochladen.<br><br>
