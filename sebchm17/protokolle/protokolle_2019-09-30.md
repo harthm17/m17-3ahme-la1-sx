@@ -14,8 +14,7 @@
    * [Fett/Kursiv schreiben](#fett/kursiv-schrieben)
    * [Liste/Aufzählungen erstellen](#liste/aufzühlungen-erstellen)
 2. [Git](#git)
-3. [Zurück auf den Server bringen](#zurück-auf-den-server-bringen)
-4. [Branch](#branch)
+3. [Branch](#branch)
 -----------------------------------------------------------------------------------------------------------------------------------
 ## Einführung Github
 Github ist ein Versionsverwaltungssystem und der Zweck ist, dass Dokumente nicht so einfach verschwinden. Natürlich wird jede Änderung an Dokumenten genau aufgezeichnet. Solche Versionsverwaltungssysteme ist die Vorraussetzung für eine gute Gruppenarbeit. Am Anfang ist es wichtig sich rechtlich mit einer Liecense abzusichern, da diese Datei ein jeder lesen kann.
@@ -62,3 +61,4 @@ oder
     1. Beispiel
     2. Beispiel
     3. Beispiel
+Markdown zählt automatisch mit.
