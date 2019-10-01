@@ -76,6 +76,8 @@ Markdown zählt automatisch mit.
 ![Git-Data Trasport][Git-Data Trasport]
 https://www.patrickzahnd.ch/uploads/git-transport-v1.png
 
+--------------------------------------------------------------------------------------------------------------------------------
+[Git-Data Trasport]:https://www.patrickzahnd.ch/uploads/git-transport-v1.png
 
 
 
