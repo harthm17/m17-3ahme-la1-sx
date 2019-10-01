@@ -1,9 +1,9 @@
 # 1. Protokoll | AHME17 
 # Uller Lucas
 -------------------------------------------------------------------------
-* **Thema:** Versionsverwaltungssystem, Git-Befehle(Shell)
+* **Thema:** Versionsverwaltungssystem, Git-Befehle(Shell), Shell
 * **Datum:** 30.09.2019
-* **Gefehlt:** --
+* **Gefehlt:** ---
 * **Erstellt von:** ulllum17
 * **Protokoll nächste Einheit:**
 --------------------------------------------------------------------------
@@ -148,8 +148,8 @@ Es gibt zwei Möglichkeit um Links einzufügen:
 Quelle:https://www.patrickzahnd.ch/uploads/git-transport-v1.png
 
 **Stash:** 
+[Aus Git-SCM][Stash]
 > Beim Stashen werden die aus Deinem Arbeitsverzeichnis noch nicht committeten Änderungen – also Deine geänderten beobachteten Dateien und die in der Staging-Area enthaltenen Dateien – in einem Stack voller unfertiger Änderungen gespeichert. Diese kannst Du dann jederzeit wieder vom Stack holen und auf Dein Arbeitsverzeichnis anwenden.    
-[Mehr Details][Stash]
 
 **Workspace:**    
 Hier sind die Arbeitsdateien des Repository gespeichert
