@@ -85,8 +85,17 @@ https://www.patrickzahnd.ch/uploads/git-transport-v1.png
 #### Local Repository
 
 #### Remote Repository
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+# Branch
+![Branch][Branch]
+Quelle:https://iamchuka.com/gitflow-workflow-continuous-integration-continu/
+
+
 --------------------------------------------------------------------------------------------------------------------------------
 [Git-Data Trasport]:https://www.patrickzahnd.ch/uploads/git-transport-v1.png
+[Branch]:https://iamchuka.com/gitflow-workflow-continuous-integration-continu/
 
 
 
