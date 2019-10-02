@@ -20,7 +20,7 @@
      1. [Listen](#listen)
      1. [Fett](#Fett)
      1. [Kursiv](#kursiv)
-     1.[Überschrift](#überschrift)
+     1. [Überschrift](#überschrift)
      1. [Links](#links)
      1. [Horizontale Linien](#horizontalelinien)
      1. [Bilder](#bilder)
