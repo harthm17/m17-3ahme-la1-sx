@@ -56,7 +56,7 @@ Eine Markdown-Konvertierungssoftware wandelt Text in gültiges und W3C-konformes
   * Markdown-Textdateien sind leichtgewichtig. <br>
   * Markdown-Texte sind auf jeder Plattform lesbar.<br>
   * Markdown wird von zahlreichen (kostenlosen) Programmen, Programmiersprachen und Plattformen unterstützt.<br>
-  * Wenn man etwas auf Papier schreibt ist man zwar schnell, aber Papier geht leicht verloren und über Textverarbeitungsprogramme geschriebene Dokumente gehen zwar nicht verloren, aber man braucht aufgrund der vielen Formatierungsmöglichkeiten länger. Markdown verbindet die Vorteile von Schreiben über Textverarbeitung und Schreiben mit Hand, weil das Geschriebene nicht verloren gehen kann, man mit Markdown schneller ist und es trotzdem ein paar Formatierungen gibt.<br> <br>
+  * Wenn man etwas per Hand auf Papier schreibt ist man zwar schnell, aber Papier geht leicht verloren und über Textverarbeitungsprogramme geschriebene Dokumente gehen zwar nicht verloren, aber man braucht aufgrund der vielen Formatierungsmöglichkeiten länger. Markdown verbindet die Vorteile von Schreiben über Textverarbeitung und Handschrift, weil das Geschriebene nicht verloren gehen kann, man mit Markdown schneller ist und es trotzdem ein paar Formatierungen gibt.<br> <br>
   
   ### Formatieren von Text mit Markdown
   
