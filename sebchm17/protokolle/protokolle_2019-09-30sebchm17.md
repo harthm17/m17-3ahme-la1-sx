@@ -128,7 +128,7 @@ Der Befehl löscht alle letzten Änderungen.
 
 ```git reset--hard```
 
-Mit diesem löscht alle nicht festgeschriebenen Änderungen.
+Mit diesem Befehl löscht alle nicht festgeschriebenen Änderungen.
 
 ```git status```
 
