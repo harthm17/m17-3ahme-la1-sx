@@ -135,8 +135,9 @@ Der Befehl git push ist für das hochladen vom lokalen repository in das remote 
 
 # Branch
 ![Branch][Branch]
+Quelle:https://www.patrickzahnd.ch/uploads/gitflow.png
 
-https://infos.seibert-media.net/display/Productivity/Git-Workflows+-+Der+Gitflow-Workflow?preview=/23691976/54527653/Gitflow-Workflow-1.png
+
 
 
 Ein Branch in Git ist nichts anderes als ein simpler Zeiger auf Commits.
@@ -151,6 +152,6 @@ Beim Merging(Zusammenführen) werden die verschiedenen commit zum Ziel branch zu
 
 --------------------------------------------------------------------------------------------------------------------------------
 [Git-Data Trasport]:https://www.patrickzahnd.ch/uploads/git-transport-v1.png
-[Branch]:https://infos.seibert-media.net/display/Productivity/Git-Workflows+-+Der+Gitflow-Workflow?preview=/23691976/54527653/Gitflow-Workflow-1.png
+[Branch]:https://www.patrickzahnd.ch/uploads/gitflow.png
 
 
