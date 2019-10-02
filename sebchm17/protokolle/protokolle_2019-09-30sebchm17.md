@@ -80,7 +80,7 @@ oder
 Markdown zählt automatisch mit.
 ### Code
 
-```C
+```bash
 int main () {
   printf("Hallo");
   return 0;
@@ -114,29 +114,29 @@ In diesem Repository sind die lokalen Änderungen gespeichert. Diese Änderungen
 
 Repository auf dem Server (NICHT LOKAL)
 
-**git add**
+```**git add**```
 
-Der Befehl *git add* fügt eien Änderung in das Arbeitsverzeichnis hinzu.
+Dieser Befehl fügt eien Änderung in das Arbeitsverzeichnis hinzu.
 
-**git commit**
+```**git commit**```
 
-Der Befehl *git commit* erfasst einen Schnappschuss der eigenen bereitgestelten Änderung des Projekts.
+Dieser Befehl erfasst einen Schnappschuss der eigenen bereitgestelten Änderung des Projekts.
 
-**git reset**
+```**git reset**```
 
-Der Befehl *git reset* löscht alle letzten Änderungen.
+Der Befehl löscht alle letzten Änderungen.
 
-**git reset--hard**
+```**git reset--hard**```
 
-Mit *git reset hard* löscht alle nicht festgeschriebenen Änderungen.
+Mit diesem löscht alle nicht festgeschriebenen Änderungen.
 
-**git status**
+```**git status**```
 
-Mit *"git status"* kann man den aktuellen status abfragen. Man kann sehen welche Änderungen gespeichert wurden.
+Mit diesem Befehl kann man den aktuellen status abfragen. Man kann sehen welche Änderungen gespeichert wurden.
 
-**git push**
+```**git push**```
 
-Der Befehl git push ist für das hochladen vom lokalen repository in das remote repository zuständig. Dabei wird im terminal eine Benutzer und Passwort abfrage durchgeführt.
+Der Befehl ist für das hochladen vom lokalen repository in das remote repository zuständig. Dabei wird im terminal eine Benutzer und Passwort abfrage durchgeführt.
 
 --------------------------------------------------------------------------------------------------------------------------------
 
