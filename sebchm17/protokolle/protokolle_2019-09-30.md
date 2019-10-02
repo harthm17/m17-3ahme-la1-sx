@@ -86,16 +86,24 @@ https://www.patrickzahnd.ch/uploads/git-transport-v1.png
 
 #### Remote Repository
 
+**git add**
+**git commit**
+
+**git status**
+Mit *"git status"* kann man den aktuellen status abfragen.
+**git push**
+Der Befehl git push ist für das hochladen zuständig. Dabei wird im terminal eine Benutzer und Passwort abfrage durchgeführt.
+
 --------------------------------------------------------------------------------------------------------------------------------
 
 # Branch
 ![Branch][Branch]
-Quelle:https://iamchuka.com/gitflow-workflow-continuous-integration-continu/
+https://iamchuka.com/gitflow-workflow-continuous-integration-continu/
 
 
 --------------------------------------------------------------------------------------------------------------------------------
 [Git-Data Trasport]:https://www.patrickzahnd.ch/uploads/git-transport-v1.png
-[Branch]:https://iamchuka.com/gitflow-workflow-continuous-integration-continu/
+[Branch]:https://iamchuka.com/gitflow-workflow-continuous-integration-continu
 
 
 
