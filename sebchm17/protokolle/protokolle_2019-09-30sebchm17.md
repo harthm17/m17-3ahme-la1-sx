@@ -14,6 +14,7 @@
    * [Text Grau hinterlegen](#text-grau-hinterlegen)
    * [Fett/Kursiv schreiben](#fett/kursiv-schrieben)
    * [Liste/Aufzählungen erstellen](#liste/aufzühlungen-erstellen)
+   * [Code](#code)
 2. [Git](#git)
 3. [Branch](#branch)
 -----------------------------------------------------------------------------------------------------------------------------------
@@ -69,6 +70,15 @@ oder
     3. Beispiel
     
 Markdown zählt automatisch mit.
+### Code
+
+```C
+int main () {
+  printf("Hallo");
+  return 0;
+  }
+```
+In markdown kann man auch einen code hinzufügen.
 
 --------------------------------------------------------------------------------------------------------------------------------
 # Git
@@ -78,25 +88,47 @@ https://www.patrickzahnd.ch/uploads/git-transport-v1.png
 
 #### Stash
 
+Beim Stash werden die Änderungen versteckt.
+
 #### Workplace
+
+***workspace*** bedeuted im deutschen Arbeitskopie und dort sind die repositories gespeichert.
 
 #### Index
 
+
+
 #### Local Repository
+
+In diesem Repository sind die lokalen Änderungen gespeichert. Diese Änderungen befinden sich am eigenen Rechner. 
 
 #### Remote Repository
 
+Repository auf dem Server (NICHT LOKAL)
+
 **git add**
+
+Der Befehl *git add* fügt eien Änderung in das Arbeitsverzeichnis hinzu.
 
 **git commit**
 
+Der Befehl *git commit* erfasst einen Schnappschuss der eigenen bereitgestelten Änderung des Projekts.
+
+**git reset**
+
+Der Befehl *git reset* löscht alle letzten Änderungen.
+
+**git reset--hard**
+
+Mit *git reset hard* löscht alle nicht festgeschriebenen Änderungen.
+
 **git status**
 
-Mit *"git status"* kann man den aktuellen status abfragen.
+Mit *"git status"* kann man den aktuellen status abfragen. Man kann sehen welche Änderungen gespeichert wurden.
 
 **git push**
 
-Der Befehl git push ist für das hochladen zuständig. Dabei wird im terminal eine Benutzer und Passwort abfrage durchgeführt.
+Der Befehl git push ist für das hochladen vom lokalen repository in das remote repository zuständig. Dabei wird im terminal eine Benutzer und Passwort abfrage durchgeführt.
 
 --------------------------------------------------------------------------------------------------------------------------------
 
