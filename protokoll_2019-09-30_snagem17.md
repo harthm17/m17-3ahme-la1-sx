@@ -22,5 +22,5 @@ Die Syntax von Markdown oder wird vor allem auf Entwicklerplattformen verwendet.
 
 
 ### GitHub
-[GitHub](https://de.wikipedia.org/wiki/GitHub)
+[GitHub](https://de.wikipedia.org/wiki/GitHub) ist ein [Versionsverwaltungssystem](https://de.wikipedia.org/wiki/Versionsverwaltung) und ist dazu gedacht keine Daten, Mitschriften zu verlieren dient aber auch sehr gut für Projektarbeiten.
 
