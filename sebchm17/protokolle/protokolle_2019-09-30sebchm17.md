@@ -17,6 +17,7 @@
    * [Code](#code)
 2. [Git](#git)
 3. [Branch](#branch)
+4. [Merge](#merge)
 -----------------------------------------------------------------------------------------------------------------------------------
 ## Einführung Github
 Github ist ein Versionsverwaltungssystem und der Zweck ist, dass Dokumente nicht so einfach verschwinden. Natürlich wird jede Änderung an Dokumenten genau aufgezeichnet. Solche Versionsverwaltungssysteme ist die Vorraussetzung für eine gute Gruppenarbeit. Am Anfang ist es wichtig sich rechtlich mit einer Liecense abzusichern, da diese Datei ein jeder lesen kann.
@@ -135,13 +136,21 @@ Der Befehl git push ist für das hochladen vom lokalen repository in das remote 
 # Branch
 ![Branch][Branch]
 
-https://www.flickr.com/photos/miguelpdl/4994396370
+https://infos.seibert-media.net/display/Productivity/Git-Workflows+-+Der+Gitflow-Workflow?preview=/23691976/54527653/Gitflow-Workflow-1.png
 
 
+Ein Branch in Git ist nichts anderes als ein simpler Zeiger auf Commits.
+Der Standardname eines Branches lautet master. 
+Mit jedem Commit bewegt sich branch automatisch vorwärts.
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+# Merge
+
+Beim Merging(Zusammenführen) werden die verschiedenen commit zum Ziel branch zusammengeschmolzen.
 
 --------------------------------------------------------------------------------------------------------------------------------
 [Git-Data Trasport]:https://www.patrickzahnd.ch/uploads/git-transport-v1.png
-[Branch]:https://www.flickr.com/photos/miguelpdl/4994396370
-
+[Branch]:https://infos.seibert-media.net/display/Productivity/Git-Workflows+-+Der+Gitflow-Workflow?preview=/23691976/54527653/Gitflow-Workflow-1.png
 
 
