@@ -42,3 +42,70 @@ Wenn man an einem Projekt mit mehreren Leuten arbeitet gibt es sehr viele Unters
 Eine Markdown-Konvertierungssoftware wandelt Text in gültiges und W3C-konformes XHTML um. Die Referenzimplementierung in Perl steht unter einer BSD-artigen Lizenz. Weiter sind inzwischen Implementierungen in den gängigsten Programmiersprachen wie PHP (z. B.[3]), Python (z. B.[4]) oder JavaScript (z. B.[5]) sowie R verfügbar.
 
   ### Vorteile von Markdown
+  * Markdown-Texte editiert man mit jedem Textwerkzeug. <br>
+  * Markdown-Textdateien sind leichtgewichtig. <br>
+  * Markdown-Texte sind auf jeder Plattform lesbar.<br>
+  * Markdown wird von zahlreichen (kostenlosen) Programmen, Programmiersprachen und Plattformen unterstützt.<br>
+  * Wenn man etwas auf Papier schreibt ist man zwar schnell, aber Papier geht leicht verloren und über Textverarbeitungsprogramme geschriebene Dokumente gehen zwar nicht verloren, aber man braucht aufgrund der vielen Formatierungsmöglichkeiten länger. Markdown verbindet die Vorteile von Schreiben über Textverarbeitung und Schreiben mit Hand, weil das Geschriebene nicht verloren gehen kann, man mit Markdown schneller ist und es trotzdem ein paar Formatierungen gibt.<br> <br>
+  
+  ### Formatieren von Text mit Markdown
+  
+  #### Absatz
+  Einen Absatz kann man über eine leere Zeile einfügen
+  
+    Text1
+
+    Text2
+  
+  #### Text grau hervorheben
+  Um einen Text grau hervorzuheben muss man zweimal hintereinander die Tabulatortaste betätigen.
+  
+    Beispiel
+    
+  #### Zitat
+  Über das > Zeichen kann ein Zitat erstellen
+  
+  > Beispiel
+  
+  #### Listen
+  Um eine unsortierte Liste zu erstellen einen Stern vor das zu Listende schreiben. 
+  * A
+  * B
+  * C
+  * D<br>
+  Bei einer sortierten Liste das Gleiche mit Zahlen.
+  1. A
+  2. B
+  3. C
+  4. D
+  
+  #### Fett
+  Um etwas Fett zu schreiben Text mit zwei * einklammern.
+  
+  **Beispiel**
+  
+  #### Kursiv
+  Um etwas Kursiv zu schreiben Text mit einem * einklammern. z.B * Bsp *
+  
+  *Beispiel*
+  
+  #### Überschrift
+  Um Überschriften zu erstellen einen oder mehr # vor die Überschrift schreiben.
+  
+  # Überschrift1
+  ## Überschrift2
+  ### Überschrift3
+  #### Überschrift4
+  
+  #### Code
+  Um einen Code zu kennzeichnen. Beispiel mit einem C-Code: 
+  ```C
+  int main()
+{
+    printf("Hello world!\n");
+    return 0;
+}
+```
+
+  #### 
+
