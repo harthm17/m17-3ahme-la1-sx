@@ -114,27 +114,27 @@ In diesem Repository sind die lokalen Änderungen gespeichert. Diese Änderungen
 
 Repository auf dem Server (NICHT LOKAL)
 
-```**git add**```
+```git add```
 
 Dieser Befehl fügt eien Änderung in das Arbeitsverzeichnis hinzu.
 
-```**git commit**```
+```git commit```
 
 Dieser Befehl erfasst einen Schnappschuss der eigenen bereitgestelten Änderung des Projekts.
 
-```**git reset**```
+```git reset```
 
 Der Befehl löscht alle letzten Änderungen.
 
-```**git reset--hard**```
+```git reset--hard```
 
 Mit diesem löscht alle nicht festgeschriebenen Änderungen.
 
-```**git status**```
+```git status```
 
 Mit diesem Befehl kann man den aktuellen status abfragen. Man kann sehen welche Änderungen gespeichert wurden.
 
-```**git push**```
+```git push```
 
 Der Befehl ist für das hochladen vom lokalen repository in das remote repository zuständig. Dabei wird im terminal eine Benutzer und Passwort abfrage durchgeführt.
 
