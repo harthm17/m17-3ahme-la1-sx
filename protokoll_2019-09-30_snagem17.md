@@ -18,7 +18,7 @@ Die Extension ist meist **.md** oder **.markdown**.
 
 #### Weiterentwicklung von Markdown
 * Markdown Extra: bietet an die Markdown Syntax innerhalb von HTML Blöcken zu erweitern um
-* Common Mark: ist eine vereinfachte Aufzeichnungssprache.
+* [Common Mark](https://de.wikipedia.org/wiki/CommonMark): ist eine vereinfachte Aufzeichnungssprache.
 
 
 
