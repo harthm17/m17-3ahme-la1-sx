@@ -21,6 +21,6 @@ Die Syntax von Markdown oder wird vor allem auf Entwicklerplattformen verwendet.
 
 
 
-###GitHub
+### GitHub
 [GitHub](https://de.wikipedia.org/wiki/GitHub)
 
