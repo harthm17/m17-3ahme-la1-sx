@@ -155,7 +155,7 @@ Mit jedem Commit bewegt sich branch automatisch vorwärts.
 
 # Merge
 
-Beim Merging(Zusammenführen) werden die verschiedenen commit zum Ziel branch zusammengeschmolzen.
+Beim Merging(Zusammenführen) werden die verschiedenen commit's zum Ziel branch zusammengeschmolzen.
 
 --------------------------------------------------------------------------------------------------------------------------------
 [Git-Data Trasport]:https://www.patrickzahnd.ch/uploads/git-transport-v1.png
