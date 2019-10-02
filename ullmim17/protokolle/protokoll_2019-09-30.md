@@ -12,8 +12,21 @@
      1. [Branches](#branches)
      1. [Git-Befehle](#git-befehle)
   
-  2. [Markdown](#markdown)
-     2. [Vorteile von Markdown](#vorteilevonmarkdown)
+  1. [Markdown](#markdown)
+     1. [Vorteile von Markdown](#vorteilevonmarkdown)
+  
+  1. [Formatieren von Text mit Markdown](#formatierenvontextenmitmarkdown)
+     1. [Absatz](#absatz)
+     1. [Text grau hervorheben](#textgrauhervorheben)
+     1. [Zitat](#zitat)
+     1. [Listen](#listen)
+     1. [Fett](#Fett)
+     1. [Kursiv](#kursiv)
+     1.[Überschrift](#überschrift)
+     1. [Links](#links)
+     1. [Horizontale Linien](#horizontalelinien)
+     1. [Bilder](#bilder)
+     
 
 
   ## Github 
