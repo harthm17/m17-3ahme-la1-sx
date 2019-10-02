@@ -11,10 +11,8 @@
   1. [Github](#github)
      1. [Branches](#branches)
      1. [Git-Befehle](#git-befehle)
-  
   1. [Markdown](#markdown)
      1. [Vorteile von Markdown](#vorteilevonmarkdown)
-  
   1. [Formatieren von Text mit Markdown](#formatierenvontextenmitmarkdown)
      1. [Absatz](#absatz)
      1. [Text grau hervorheben](#textgrauhervorheben)
@@ -30,9 +28,7 @@
 
 
   ## Github 
-  Laut [Wikipedia](https://de.wikipedia.org/wiki/GitHub)
-
-  GitHub ist ein Onlinedienst, der Software-Entwicklungsprojekte auf seinen Servern bereitstellt (Filehosting). Die Dateien und Dokumente von jemandem, der mit der Gratisversion von Github arbeitet sind Open-Source(Das heißt jeder kann deine Software einlesen, verwenden und ändern). Damit man selbst nicht haftet, falls Dritte deine Software verwenden und jemand dabei zu Schaden kommt, kann man seine Software mit einer Lizenz versehen. Namensgebend war das [Versionsverwaltungssystem](https://de.wikipedia.org/wiki/Versionsverwaltung) [Git](https://de.wikipedia.org/wiki/Git). Ein Versionsverwaltungssystem erfasst Änderungen an Dokumenten oder Dateien. Alle vorherigen Versionen werden gesichert. Es kann eingesehen wer eine Datei verändert hat und wann jemand eine Datei verändert hat. Quelltext wird bei Github in Quelltext-Datenbanken den sogenannten Repositories gespeichert.
+[Github](https://de.wikipedia.org/wiki/GitHub) ist ein Onlinedienst, der Software-Entwicklungsprojekte auf seinen Servern bereitstellt (Filehosting). Die Dateien und Dokumente von jemandem, der mit der Gratisversion von Github arbeitet sind Open-Source(Das heißt jeder kann deine Software einlesen, verwenden und ändern). Damit man selbst nicht haftet, falls Dritte deine Software verwenden und jemand dabei zu Schaden kommt, kann man seine Software mit einer Lizenz versehen. Namensgebend war das [Versionsverwaltungssystem](https://de.wikipedia.org/wiki/Versionsverwaltung) [Git](https://de.wikipedia.org/wiki/Git). Ein Versionsverwaltungssystem erfasst Änderungen an Dokumenten oder Dateien. Alle vorherigen Versionen werden gesichert. Es kann eingesehen wer eine Datei verändert hat und wann jemand eine Datei verändert hat. Quelltext wird bei Github in Quelltext-Datenbanken den sogenannten Repositories gespeichert.
   ### Branches
   ![Branches](https://guides.github.com/activities/hello-world/branching.png)
 Wenn man an einem Projekt mit mehreren Leuten arbeitet gibt es sehr viele Unterschiedliche Ideen und Funktionen. Einige davon sind einsatzbereit, manche nicht. Um eine Umgebung zu schaffen in der frei experimentieren kann man eine Art Verzweigung(Branch) schaffen. In dieser Branch kann man nun frei experimentieren, ohne dass die Master-Branch beeinflusst wird. Die Master-Branch ist immer funktionsfähig. Wenn man seinen Branch erstellt hat kann man auch schon Änderungen vornehmen. Wenn man eine Datei verändert, erstellt oder löscht macht man einen commit(etwas übergeben). Über Pull-Anfragen löst man  eine Diskussion über seine Commits aus. Da sie eng in das zugrunde liegende Git-Repository integriert sind, kann jeder genau sehen, welche Änderungen zusammengeführt werden, wenn er Ihre Anfrage akzeptiert. Mit GitHub können Sie aus einem Zweig einen endgültigen Test in der Produktion durchführen, bevor Sie zum Master zusammenführen(Deploy). Nachdem die Änderungen überprüft wurden kann man sie mit dem Master-Branch zusammenführen(Merge).
@@ -52,7 +48,7 @@ Wenn man an einem Projekt mit mehreren Leuten arbeitet gibt es sehr viele Unters
   ------------------------------------------------------------------------------------------
   ## Markdown
   Laut [Wikiepdia](https://de.wikipedia.org/wiki/Markdown)<br>
-  Markdown ist eine vereinfachte Auszeichnungssprache, die von John Gruber und Aaron Swartz entworfen und im Dezember 2004 mit Version 1.0.1 spezifiziert wurde. Ein Ziel von Markdown ist, dass schon die Ausgangsform ohne weitere Konvertierung leicht lesbar ist. Als Auszeichnungselemente wurden daher vor allem Auszeichnungsarten verwendet, die in Plain text und E-Mails üblich sind. Auch andere Auszeichnungssprachen mit ähnlichen Zielen zur Lesbarkeit – wie reStructuredText oder Textile – hatten Einfluss auf die Syntax. Der MIME-Type lautet text/markdown.
+ > Markdown ist eine vereinfachte Auszeichnungssprache, die von John Gruber und Aaron Swartz entworfen und im Dezember 2004 mit Version 1.0.1 spezifiziert wurde. Ein Ziel von Markdown ist, dass schon die Ausgangsform ohne weitere Konvertierung leicht lesbar ist. Als Auszeichnungselemente wurden daher vor allem Auszeichnungsarten verwendet, die in Plain text und E-Mails üblich sind. Auch andere Auszeichnungssprachen mit ähnlichen Zielen zur Lesbarkeit – wie reStructuredText oder Textile – hatten Einfluss auf die Syntax. Der MIME-Type lautet text/markdown.
 Eine Markdown-Konvertierungssoftware wandelt Text in gültiges und W3C-konformes XHTML um. Die Referenzimplementierung in Perl steht unter einer BSD-artigen Lizenz. Weiter sind inzwischen Implementierungen in den gängigsten Programmiersprachen wie PHP (z. B.[3]), Python (z. B.[4]) oder JavaScript (z. B.[5]) sowie R verfügbar.
 
   ### Vorteile von Markdown
