@@ -9,6 +9,7 @@
 ## Inhaltsverzeichnis
 1. [Einführung Github](#einführung-github)
    * [Überschriften](#überschriften)
+   * [Zitate](#zitate)
    * [Markdown](#markdown)
    * [Inhaltsverzeichnis erstellen](#inhaltsverzeichnis-erstellen)
    * [Text Grau hinterlegen](#text-grau-hinterlegen)
@@ -34,6 +35,12 @@ Github kostet erst etwas wenn die Dokumente privat bleiben sollen.
 
 Es können bis zu 6 verschidene Überschriften gewählt werden indem man ein hash davor setzt.
 
+### Zitate
+
+In Markdown kann man kopierte Texte als Zitat kennzeichnen.
+
+      > Beispiel
+      
 ### Inhaltsverzeichnis erstellen
 Bei der Erstellung eines Inhaltsverzeichnis in Markdown setzt man die einzelnen Überschriften in Eckige Klammern. Wenn man die Überschrift so hervorheben möchte das sie so aussieht wie ein Link muss man dahinter in runden Klammern die Überschrift nochmal mit einem Hashtag davor nochmals schreiben.
   
