@@ -87,11 +87,15 @@ https://www.patrickzahnd.ch/uploads/git-transport-v1.png
 #### Remote Repository
 
 **git add**
+
 **git commit**
 
 **git status**
+
 Mit *"git status"* kann man den aktuellen status abfragen.
+
 **git push**
+
 Der Befehl git push ist für das hochladen zuständig. Dabei wird im terminal eine Benutzer und Passwort abfrage durchgeführt.
 
 --------------------------------------------------------------------------------------------------------------------------------
