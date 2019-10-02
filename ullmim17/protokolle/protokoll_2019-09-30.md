@@ -13,6 +13,8 @@
      1. [Git-Befehle](#git-befehle)
   2. [Markdown](#markdown)<br>
      2. [Vorteile von Markdown](#vorteilevonmarkdown)
+  3. [Formatieren von Text mit Markdown](#formatierenvontextmitmarkdown)
+     3. [Absatz](#absatz)
 
 
   ## Github 
@@ -107,5 +109,23 @@ Eine Markdown-Konvertierungssoftware wandelt Text in gültiges und W3C-konformes
 }
 ```
 
-  #### 
-
+  #### Links
+ Um einen Inline-Link zu erstellen schreibt man direkt hinter der schließenden eckigen Klammer normale Klammern. In diese Klammern wird die URL geschrieben auf die verlinkt werden soll zusammen mit einem optionalen Titel für den Link in Anführungsstrichen. Beispiele:
+ 
+    [Wikipedia](https://de.wikipedia.org/wiki/GitHub)
+ [Wikipedia](https://de.wikipedia.org/wiki/GitHub)<br>
+ 
+ Ein Referenz-Link wird folgendermaßen erstellt. Links können gebündelt an einer Stelle des Dokuments eingefügt werden.
+ 
+ [Name][id]<br>
+ [1]https:///github.com
+ 
+ #### Horizontale Linien
+ Der Tag für horizontale Linien kann generiert werden indem 3 oder mehr Bindestriche oder Sternchen allein auf einer Zeile geschrieben werden. Leerzeichen zwischen den Zeichen sind auch erlaubt. Alle folgenden Beispiele würden eine horizontale Linie generieren:<br>
+  
+    --------
+    *********
+    - - -
+  #### Bilder
+    ![Alt-Text](/Pfad/zum/Bild.jpg)
+  
