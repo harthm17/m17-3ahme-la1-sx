@@ -78,7 +78,7 @@ int main () {
   return 0;
   }
 ```
-In markdown kann man auch einen code hinzufügen.
+In Markdown kann man auch eine Programmiersprache kenzeichnen.
 
 --------------------------------------------------------------------------------------------------------------------------------
 # Git
@@ -96,7 +96,7 @@ Beim Stash werden die Änderungen versteckt.
 
 #### Index
 
-
+Hier befindet sich jene Datei, die als nächste commited wird.
 
 #### Local Repository
 
@@ -134,12 +134,14 @@ Der Befehl git push ist für das hochladen vom lokalen repository in das remote 
 
 # Branch
 ![Branch][Branch]
-https://iamchuka.com/gitflow-workflow-continuous-integration-continu/
+
+https://www.flickr.com/photos/miguelpdl/4994396370
+
 
 
 --------------------------------------------------------------------------------------------------------------------------------
 [Git-Data Trasport]:https://www.patrickzahnd.ch/uploads/git-transport-v1.png
-[Branch]:https://iamchuka.com/gitflow-workflow-continuous-integration-continu
+[Branch]:https://www.flickr.com/photos/miguelpdl/4994396370
 
 
 
