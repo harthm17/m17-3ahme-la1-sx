@@ -16,9 +16,9 @@ Was ist Markdown?
 Die Syntax von Markdown oder wird vor allem auf Entwicklerplattformen verwendet. (im speziellen GitHub)
 Die Extension ist meist **.md** oder **.markdown**.
 
-#### Weiterentwicklung von Markdown
-* Markdown Extra: bietet an die Markdown Syntax innerhalb von HTML Blöcken zu erweitern um
-* [Common Mark](https://de.wikipedia.org/wiki/CommonMark): ist eine vereinfachte Aufzeichnungssprache.
+#### 2Bsp zur Weiterentwicklung von Markdown
+* [Common Mark](https://de.wikipedia.org/wiki/CommonMark): ist eine vereinfachte Aufzeichnungssprache. Unterschiede zu Markdown findet man z.B. bei Verschachtelten Aufzählungen oder bei Blöcken, da bei Common Mark durch ein Leerzeichen der Block beendet wird was bei Markdown nicht der Fall ist.
+* GitHub Flavored Markdown: ist eine Erweiterung die auf Common Mark aufgebaut ist. Es erweitert die Syntax.
 
 
 
