@@ -7,15 +7,20 @@
 * **Protokoll nächste Einheit**:
 ----------------------------------------------------------------------------------------------------------------------------------------
 ## Inhaltsverzeichnis
-      1. [Github](#github)
-          * [Vorteile](#vorteile)
-          * [Grundsachen](#grundsachen)
-      2. [Git](#git)
-      3. 
-      4. 
+   1. [Github](#github)
+         * [Vorteile](#vorteile) 
+         * [Grundsachen](#grundsachen)    
+   2. [Terminal](#terminal)
+         * [Befehle](#befehle)      
+   3. [Git](#git)
+         * [Remote repository](#remote-repository) 
+         * [Local repository](#local-repository)
+         * [Merge](#merge)
+         * [Branch](#branch)
+            
 ----------------------------------------------------------------------------------------------------------------------------------------
 ## Github
-  ### Vorteile:
+  ### Vorteile
       1. es kann nichts verschwinden
       2. es ist alles nachvollziehbar
       3. es ist sehr gut für Gruppenarbeiten (erforderlich bei professionellen Gruppenarbeiten)
@@ -25,7 +30,7 @@
       7. es kann kein anderer ein Patent auf deine hochgeladenen Sachen anmelden 
       8. andere könnten Fehler entdecken und dich darauf hinweisen
             
-  ### Grundsachen:
+  ### Grundsachen
    1. Die Lizens ist sehr wichtig damit man rechtlich abgesischert ist.
    2. Überschriften macht man mit Hashtags (bis zu 6 hashtags): 
    
@@ -77,6 +82,23 @@
     ```
  ```
   12. Text grau hinterlegen: zweimal Tabulatoren Taste drücken
-    
-  ## Git:
-   Man kann sich die eigenen Daten von Github auf seinen eigenen Rechner clonen. 
+  
+  ## Terminal
+      strg + oder -: größer oder kleiner
+  ### Befehle
+      strg l: Bildschirm wird nach oben geschoben
+      reset: löscht den Bildschirm
+      history: zeigt die eingegebenen Befehle
+      exit: zum Schließen damit die history nicht gelöscht wird
+      Pfeil nach oben oder !<Befehl>: Kommandos können wiederholt werden
+      cd <Verzeichniss>: in ein anderes Verzeichniss kommen
+      ls <-l>: aktuelle Versionsnummer von Github
+      
+  ## Git
+   Man kann sich die eigenen Daten von Github auf seinen eigenen Rechner clonen.
+   Die Daten kann man dann am eigenen Rechner im Terminal bearbeiten.
+   Nachdem man sie bearbeitet hat kann man sie wieder hochladen.
+   Bei einem Projekt mit mehreren Leuten ist es gut wenn sich ein jeder die Daten clonen würde da es sicherer ist.
+   
+   
+   
