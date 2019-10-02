@@ -15,3 +15,6 @@ Was ist Markdown?
 
 Die Syntax von Markdown oder wird vor allem auf Entwicklerplattformen verwendet. (im speziellen GitHub)
 
+#### Weiterentwicklung von Markdown
+* Markdown Extra: bietet an die Markdown Syntax innerhalb von HTML Blöcken zu erweitern
+
