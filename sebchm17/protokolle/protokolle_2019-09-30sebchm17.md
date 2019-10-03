@@ -17,8 +17,10 @@
    * [Liste/Aufzählungen erstellen](#liste/aufzühlungen-erstellen)
    * [Code](#code)
 2. [Git](#git)
-3. [Branch](#branch)
-4. [Merge](#merge)
+3. [Shell Kommandos](#shell-kommandos)
+4. [Branch](#branch)
+5. [Merge](#merge)
+
 -----------------------------------------------------------------------------------------------------------------------------------
 ## Einführung Github
 Github ist ein Versionsverwaltungssystem und der Zweck ist, dass Dokumente nicht so einfach verschwinden. Natürlich wird jede Änderung an Dokumenten genau aufgezeichnet. Solche Versionsverwaltungssysteme ist die Vorraussetzung für eine gute Gruppenarbeit. Am Anfang ist es wichtig sich rechtlich mit einer Liecense abzusichern, da diese Datei ein jeder lesen kann.
@@ -140,6 +142,16 @@ Der Befehl ist für das hochladen vom lokalen repository in das remote repositor
 
 --------------------------------------------------------------------------------------------------------------------------------
 
+# Shell Komandos
+
+Jedes Betriebssystem hat seine eigene Eingabekonsole. Bei Linux hat sie den Namen Shell und man kann sher viel mit ihr machen.
+
+Mit ``ls       list directory content`` gibt man dateien und verzeichnisse aus.
+Mit ``cd       change directory ``wechselt man in ein andreres Verzeichnis.
+Mit ``gedit`` kann man Textdateien bearbeiten.
+
+
+--------------------------------------------------------------------------------------------------------------------------------
 # Branch
 ![Branch][Branch]
 Quelle:https://www.patrickzahnd.ch/uploads/gitflow.png
