@@ -1,6 +1,6 @@
 # Protokoll Labor/SX 3AHME (2019/20)
 
-* **Thema:** Markdown,GitHub,Grundkenntnisse Linux
+* **Thema:** Markdown,GitHub,Git
 * **Datum:** 30.09.2019
 * **Gefehlt:** Niemand
 * **Erstellt von:** Georg Schnabel
