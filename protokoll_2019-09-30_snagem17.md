@@ -25,6 +25,18 @@ Die Extension ist meist **.md** oder **.markdown**.
 ### GitHub
 [GitHub](https://de.wikipedia.org/wiki/GitHub) ist ein [Versionsverwaltungssystem](https://de.wikipedia.org/wiki/Versionsverwaltung) und ist dazu gedacht keine Daten, Mitschriften zu verlieren. Dient aber auch sehr gut für Projektarbeiten da die Aufzeichnungen der anderen Gruppenmitglieder zugänglich sind. Ein dadurch entstandener Nachteil ist, dass man keine Erfindungen und Entwicklungsprozesse mit GitHub dokumentieren soll da jemand anders die Daten lesen könnte.
 
+* **etwas verlinken:**
+[Wort](https:....)
+
+* **etwas kursiv stellen:**
+*Wort*
+
+* **etwas fett machen:**
+**Wort**
+
+* **etwas zitieren:**
+>Wort
+
 ### Git
 Quelle:[Wiki](https://de.wikipedia.org/wiki/Git)
 >Git ist eine freie Software zur verteilten Versionsverwaltung von Dateien, die durch Linus Torvalds initiiert wurde. 
