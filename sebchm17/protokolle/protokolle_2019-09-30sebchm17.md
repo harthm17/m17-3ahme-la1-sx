@@ -176,6 +176,6 @@ Beim Merging(Zusammenführen) werden die verschiedenen commit's zum Ziel branch 
 --------------------------------------------------------------------------------------------------------------------------------
 
 [Git-Data Trasport]:https://www.patrickzahnd.ch/uploads/git-transport-v1.png
-[Branch]:https://www.patrickzahnd.ch/uploads/gitflow.png
+[Branch]:https://www.patrickzahnd.ch/uploads/gitflow.png 
 
 
