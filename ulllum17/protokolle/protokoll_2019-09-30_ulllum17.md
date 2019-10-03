@@ -193,7 +193,7 @@ git status
 ````
 Der aktulle Status des lokalen Repository    
 
-[Mehr Befehl](#shell)
+[Mehr Befehle](#shell)
 
 ### Branches
 ![Branches][Branches]
