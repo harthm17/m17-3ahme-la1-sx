@@ -27,6 +27,7 @@
     1. [Branches](#branches)
     1. [Merge](#merge)
     1. [Klonen](#klonen)
+    1. [Uploud eines Repository][#uploud-eines-repositorys]
 1. [Shell](#shell) 
 
 
@@ -145,7 +146,7 @@ Es gibt zwei Möglichkeit um Links einzufügen:
 ## Git
 ### Git-Kommandos und Ebenen
 ![Git-Data Trasport][Git-Data Trasport]
-Quelle:https://www.patrickzahnd.ch/uploads/git-transport-v1.png
+Quelle: https://www.patrickzahnd.ch/uploads/git-transport-v1.png
 
 **Stash:** 
 [Aus Git-SCM][Stash]
@@ -155,7 +156,7 @@ Quelle:https://www.patrickzahnd.ch/uploads/git-transport-v1.png
 Hier sind die Arbeitsdateien des Repository gespeichert
 
 **Index:**    
-Hier werden die Daten *hingebracht*, welche im nächsten Schritt commiten werden
+Hier werden die Daten *hingebracht*, welche im nächsten Schritt commitet werden
 
 **Local Repository:**    
 Sind die Lokalen änderungen gespeichert
@@ -169,9 +170,32 @@ Ein vorhandes Repository klonen
 git clone https://github.com/ulllum17/labor 
 ````
 
+### Uploud eines Repositorys
+````bash
+git add
+````
+Hier wird dem Repository mitgeteil das eine Änderung getätigt wurde.
+
+````bash
+git commit
+````
+Die Änderungen die in den Index hinzugefügt wurden, werden als Snapshot lokal gespeichert
+
+````bash
+git push
+````
+Hier wird der Snapshot des lokalen Repository auf den *Git-Server* hochgeladen( remote Repository)
+
+````bash
+git status
+````
+Der aktulle Status des lokalen Repository    
+
+[Mehr Befehl][#shell]
+
 ### Branches
 ![Branches][Branches]
-Quelle:https://www.patrickzahnd.ch/uploads/gitflow.png
+Quelle: https://www.patrickzahnd.ch/uploads/gitflow.png
 
 Beim Erstellen eines neuen Repository gibt es nur einen **master** branch    
 Im master branch befinden sich *funktionsfähige* Versionen   
@@ -188,7 +212,7 @@ Beim Merge(verschmelzen) werden die Änderungen der einzelnen Commits des Branch
 ----------------------------------------------------------------------------------
 ## Shell
 Die Shell ist eine Benutzerschnittstelle die auf Unix läuft.    
-[Mehr Details][Shell]
+[Mehr Details][Shell_url]
 ````bash
 git --version
 ````
@@ -214,7 +238,7 @@ Zum bearbeiten von Textdateien
 
 [Github]:https://de.wikipedia.org/wiki/GitHub
 [Stash]:https://git-scm.com/book/de/v1/Git-Tools-Stashen
-[Shell]:https://de.wikipedia.org/wiki/Unix-Shell
+[Shell_url]:https://de.wikipedia.org/wiki/Unix-Shell
 
 [Git-Data Trasport]:https://www.patrickzahnd.ch/uploads/git-transport-v1.png
 [Branches]:https://www.patrickzahnd.ch/uploads/gitflow.png
