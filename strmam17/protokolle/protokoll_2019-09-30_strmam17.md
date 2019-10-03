@@ -13,8 +13,8 @@
    2. [Terminal](#terminal)
          * [Befehle](#befehle)      
    3. [Git](#git)
-         * [Remote repository](#remote-repository) 
-         * [Local repository](#local-repository)
+         * [Clonen](#clonen)
+         * [Datei zurück auf den Server bringen](#datei-zurück-auf-den-server-bringen)
          * [Merge](#merge)
          * [Branch](#branch)
             
@@ -92,7 +92,7 @@
       exit: zum Schließen damit die history nicht gelöscht wird
       Pfeil nach oben oder !<Befehl>: Kommandos können wiederholt werden
       cd <Verzeichniss>: in ein anderes Verzeichniss kommen
-      ls <-l>: aktuelle Versionsnummer von Github
+      ls -l: abgelegte Dateien
       
   ## Git
    Man kann sich die eigenen Daten von Github auf seinen eigenen Rechner clonen.
@@ -100,5 +100,24 @@
    Nachdem man sie bearbeitet hat kann man sie wieder hochladen.
    Bei einem Projekt mit mehreren Leuten ist es gut wenn sich ein jeder die Daten clonen würde da es sicherer ist.
    
+  ### Clonen
+      
+         Terminal eingabe: zum clonen der Datei: git clone https://github.com/<Autor>/<Datei>
+                           ins richtige Verzeichniss: cd <Datei>
+                           die Datei öffnen: gedit README.md
+                           Microsft Visual Studio: code ~/<Datei>/README.md
+                           
+  ### Datei zurück auf den Server bringen
+  
+         Terminal eingabe: git add README.md
+                           git status
+                           git commit -m "Update README.md"
+                           Eingabe des Benutzers damit der Rechner weiß wer man ist: git config --global user.email "<Email>"
+                                                                                     git config --global user.name "<Name>"
+                           git commit -m "Update README.md"
+                           git push
+                           Dann muss man noch Benutzername und Passwort eingeben
+                           
+                           
    
    
