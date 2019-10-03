@@ -29,11 +29,15 @@ Die Extension ist meist **.md** oder **.markdown**.
 Quelle:[Wiki](https://de.wikipedia.org/wiki/Git)
 >Git ist eine freie Software zur verteilten Versionsverwaltung von Dateien, die durch Linus Torvalds initiiert wurde. 
 
-#### Kommandos in Git:
+#### Kommandos für das Terminal:
 * history = man sieht welche Kommandos man schon verwendet hat.
 * reset = damit beendet man immer, da man nachher auch noch auf die history zurückgreifen kann.
+* strg + = man vergrößert die Schrift
+* strg - = man verkleinert die Schrift
+
+#### Kommandos für Git:
 * git clone = 
 * git add =
 * git commit = dort muss immer stehen wer du bist
-* git push =
-* git Status = zeigt ob etwas verändert wurde
+* git push = sendet die Veränderungen an den master branch
+* git Status = zeigt die files wo etwas verändert wurde
