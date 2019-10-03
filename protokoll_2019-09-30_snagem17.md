@@ -32,3 +32,8 @@ Quelle:[Wiki](https://de.wikipedia.org/wiki/Git)
 #### Kommandos in Git:
 * history = man sieht welche Kommandos man schon verwendet hat.
 * reset = damit beendet man immer, da man nachher auch noch auf die history zurückgreifen kann.
+* git clone = 
+* git add =
+* git commit = dort muss immer stehen wer du bist
+* git push =
+* git Status = zeigt ob etwas verändert wurde
