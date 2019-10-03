@@ -29,3 +29,6 @@ Die Extension ist meist **.md** oder **.markdown**.
 Quelle:[Wiki](https://de.wikipedia.org/wiki/Git)
 >Git ist eine freie Software zur verteilten Versionsverwaltung von Dateien, die durch Linus Torvalds initiiert wurde. 
 
+#### Kommandos in Git:
+* history = man sieht welche Kommandos man schon verwendet hat.
+* reset = damit beendet man immer, da man nachher auch noch auf die history zurückgreifen kann.
