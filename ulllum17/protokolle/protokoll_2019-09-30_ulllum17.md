@@ -37,7 +37,7 @@
 
 [Github][Github] ist ein Onlinedienst, der Software-Entwicklungsprojekte auf seinen Servern bereitstellt.
 
-Hier einige *wichtige* Beispiel Syntax für die Formatierung bei Markdown.
+Beispiele für die Formatierung in Markdown:
 
 ### Absatz
 Absätze werden mit einer leer Zeile erzeugt.
@@ -139,8 +139,10 @@ Es gibt zwei Möglichkeit um Links einzufügen:
 
     [Anzeige_Name][1]
     [1]:https://test.org "POP UP Fenster, wenn mit der Maus auf dem Link"
-    
-**Vorteile**
+
+[Mehr Formatierungsmöglichkeiten][cheatsheet]
+
+**Vorteile einer Referenz**
   * Links *können* gebündelt z.B. am Ende zusammengefasst werden
 ------------------------------------------------------------------------------------------------------  
 ## Git
@@ -239,6 +241,7 @@ Zum bearbeiten von Textdateien
 [Github]:https://de.wikipedia.org/wiki/GitHub
 [Stash]:https://git-scm.com/book/de/v1/Git-Tools-Stashen
 [Shell_url]:https://de.wikipedia.org/wiki/Unix-Shell
+[cheatsheet]:https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#emphasis
 
 [Git-Data Trasport]:https://www.patrickzahnd.ch/uploads/git-transport-v1.png
 [Branches]:https://www.patrickzahnd.ch/uploads/gitflow.png
