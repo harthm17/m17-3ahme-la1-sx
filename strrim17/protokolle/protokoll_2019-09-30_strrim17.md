@@ -23,6 +23,7 @@
    7. [Inline-Code](#inline-code)
 3. [Git](#git)
    1. [Befehle](#befehle)
+   2. [Branche](#branche)
 4. [Was ist Markdown?](#was-ist-markdown)
 5. [Markdown](#markdown)
 
@@ -89,7 +90,7 @@ Ungeordnet bezeichnet man in diesem Fall als aufgezählt (z. B.: aufgereit nach 
 Geordnet bezeichnet man in diesem Fall als nummeriert.
 
 ### Bilder
-Es können Bilder als Link eingefügt werden. Hinweis: Bilderlinks werden mit einem ! am Anfang angegeben.
+Es können selbst Bilder eingefügt werden. Hinweis: Bilder werden mit einem ! am Anfang angegeben.
 
 ```
 ![GitHub Logo](/images/logo.png)
@@ -149,6 +150,16 @@ Hinweis: Es werden nur ein paar aufgezählt die es gibt. Anbei wird ein Link zu 
 
 Quelle des Dokuments: [https://pgi-jcns.fz-juelich.de/pub/doc/git_gitflow.pdf]
 
+### Branche
+Laut Wikipedia:
+
+Verzweigung in der Versionskontrolle und im Software-Konfigurationsmanagement ist das Duplizieren eines Objekts, das der Versionskontrolle unterliegt (z. B. eine Quellcodedatei oder ein Verzeichnisbaum), sodass Änderungen parallel in mehreren Verzweigungen erfolgen können.
+Zweige werden auch als Bäume, Bäche oder Codelines bezeichnet. Der Ursprungszweig wird manchmal als übergeordneter Zweig, als vorgelagerter Zweig (oder einfach als vorgelagerter Zweig, insbesondere wenn die Zweige von verschiedenen Organisationen oder Einzelpersonen verwaltet werden) oder als Hintergrundzweig bezeichnet. Untergeordnete Zweige sind Zweige mit einem übergeordneten Element. Ein Zweig ohne Elternteil wird als Stamm oder Hauptleitung bezeichnet.
+In einigen verteilten Revisionskontrollsystemen, wie z. B. Darcs, wird nicht zwischen Repositorys und Zweigen unterschieden. In diesen Systemen entspricht das Abrufen einer Kopie eines Repositorys dem Verzweigen.
+Verzweigung impliziert im Allgemeinen auch die Möglichkeit, Änderungen später wieder in die übergeordnete Verzweigung einzufügen oder zu integrieren. Häufig werden die Änderungen wieder in den Trunk übernommen, auch wenn dies nicht der übergeordnete Zweig ist. Ein Zweig, der nicht zum Zusammenführen vorgesehen ist (z. B. weil er von einem Dritten unter einer inkompatiblen Lizenz erneut lizenziert wurde oder einen anderen Zweck zu erfüllen versucht), wird normalerweise als Fork bezeichnet.
+
+Quelle: [https://en.wikipedia.org/wiki/Branching_(version_control)]
+
 ------------------------------------------------------------------------------------------------------------------------
 
 ## Was ist Markdown?
@@ -181,5 +192,6 @@ Hier sind alle Links aufgelistet die oben angegeben worden sind:
 [Mastering-Markdown]: https://guides.github.com/features/mastering-markdown/
 [Git]: [https://en.wikipedia.org/wiki/Git]
 [Befehle]: https://pgi-jcns.fz-juelich.de/pub/doc/git_gitflow.pdf
+[Branche]: https://en.wikipedia.org/wiki/Branching_(version_control)
 [Was-ist-Markdown]: https://guides.github.com/features/mastering-markdown/
 [Markdown]: https://de.wikipedia.org/wiki/Markdown
