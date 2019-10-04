@@ -55,6 +55,8 @@ liegt an einem server oder Rechner der entfernt von dir ist
 
 * **local repository:**
 
+Bildquelle zu local- und remote repository: https://i.stack.imgur.com/UvZ0M.png
+
 
 #### Kommandos für das Terminal:
 * history = man sieht welche Kommandos man schon verwendet hat.
