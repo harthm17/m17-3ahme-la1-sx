@@ -29,7 +29,7 @@ Die Extension ist meist **.md** oder **.markdown**.
 
 * **etwas verlinken:** 
 ```
-[Wort](Link)
+[Name](Link)
 ```
 
 * **etwas kursiv stellen:**
