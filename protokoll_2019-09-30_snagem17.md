@@ -46,6 +46,10 @@ Als Editor wird [gedit](https://de.wikipedia.org/wiki/Gedit) verwendet. Es wird 
 * **remote repository:**
 liegt an einem server oder Rechner der entfernt von dir ist
 
+
+* **local repository:**
+
+
 #### Kommandos für das Terminal:
 * history = man sieht welche Kommandos man schon verwendet hat.
 * reset = damit beendet man immer, da man nachher auch noch auf die history zurückgreifen kann.
