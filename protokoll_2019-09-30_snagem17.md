@@ -6,13 +6,13 @@
 * **Erstellt von:** Georg Schnabel
 
 ## Inhaltsverzeichnis
-1. [Markdown](https://de.wikipedia.org/wiki/Markdown)
-    I. Weiterentwicklung von Markdown
-2. [GitHub](https://de.wikipedia.org/wiki/GitHub)
-    I. Grundkenntnisse
-3. [Git](https://de.wikipedia.org/wiki/Git)
-    I. Kommandos für das Terminal
-    II.Kommandos für Git
+I. [Markdown](https://de.wikipedia.org/wiki/Markdown)
+    1. Weiterentwicklung von Markdown
+II. [GitHub](https://de.wikipedia.org/wiki/GitHub)
+    1. Grundkenntnisse
+III. [Git](https://de.wikipedia.org/wiki/Git)
+    1. Kommandos für das Terminal
+    2.Kommandos für Git
 
 ### Markdown
 Was ist Markdown?
@@ -81,3 +81,4 @@ Bildquelle zu local- und remote repository: https://i.stack.imgur.com/UvZ0M.png
 * git push = sendet die Veränderungen an den master branch
 * git Status = zeigt die files wo etwas verändert wurde
 * git reset = man macht lokale Veränderungen
+* git merge = 2 Änderungen zusammenführen
