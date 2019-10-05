@@ -14,6 +14,7 @@
     a. local/remote repository
     b. Kommandos für das Terminal
     c.Kommandos für Git
+4.[Merge](https://de.wikipedia.org/wiki/Merge)    
 
 ### Markdown
 Was ist Markdown?
@@ -79,3 +80,6 @@ Bildquelle zu local- und remote repository: https://i.stack.imgur.com/UvZ0M.png
 * git Status = zeigt die files wo etwas verändert wurde
 * git reset = man macht lokale Veränderungen
 * git merge = 2 Änderungen zusammenführen
+
+### Merge:
+Es werden 2 Änderungen zusammengeführt. Das ist ein oft verwendeter Vorgang bei Versionsverwaltungssystemen.
