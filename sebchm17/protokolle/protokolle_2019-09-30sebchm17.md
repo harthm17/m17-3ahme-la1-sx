@@ -154,6 +154,10 @@ Mit ``cd       change directory ``wechselt man in ein andreres Verzeichnis.
 
 Mit ``gedit`` kann man Textdateien bearbeiten.
 
+Mit ``history`` zeigt man alle bisherigen eingegebenen Befehle an.
+
+Mit ``exit`` schließt man die Shell ohne das die history gelöscht.
+
 --------------------------------------------------------------------------------------------------------------------------------
 
 ## Branch
