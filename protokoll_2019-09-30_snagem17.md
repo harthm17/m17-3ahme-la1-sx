@@ -11,8 +11,9 @@
 2. [GitHub](https://de.wikipedia.org/wiki/GitHub)
     a. Grundkenntnisse
 3. [Git](https://de.wikipedia.org/wiki/Git)
-    a. Kommandos für das Terminal
-    b.Kommandos für Git
+    a. local/remote repository
+    b. Kommandos für das Terminal
+    c.Kommandos für Git
 
 ### Markdown
 Was ist Markdown?
