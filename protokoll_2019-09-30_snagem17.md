@@ -57,11 +57,7 @@ Quelle:[Wiki](https://de.wikipedia.org/wiki/Git)
 
 Als Editor wird [gedit](https://de.wikipedia.org/wiki/Gedit) verwendet. Es wird zwischen remote repository und local repository unterschieden.
 
-* **remote repository:**
-liegt an einem server oder Rechner der entfernt von dir ist
-
-
-* **local repository:**
+#### local/remote repository
 
 Bildquelle zu local- und remote repository: https://i.stack.imgur.com/UvZ0M.png
 
