@@ -6,13 +6,13 @@
 * **Erstellt von:** Georg Schnabel
 
 ## Inhaltsverzeichnis
-I. [Markdown](https://de.wikipedia.org/wiki/Markdown)
-    1. Weiterentwicklung von Markdown
-II. [GitHub](https://de.wikipedia.org/wiki/GitHub)
-    1. Grundkenntnisse
-III. [Git](https://de.wikipedia.org/wiki/Git)
-    1. Kommandos für das Terminal
-    2.Kommandos für Git
+1. [Markdown](https://de.wikipedia.org/wiki/Markdown)
+    a. Weiterentwicklung von Markdown
+2. [GitHub](https://de.wikipedia.org/wiki/GitHub)
+    a. Grundkenntnisse
+3. [Git](https://de.wikipedia.org/wiki/Git)
+    a. Kommandos für das Terminal
+    b.Kommandos für Git
 
 ### Markdown
 Was ist Markdown?
