@@ -68,15 +68,16 @@ Bildquelle zu local- und remote repository: https://i.stack.imgur.com/UvZ0M.png
 
 #### Kommandos für das Terminal:
 * history = man sieht welche Kommandos man schon verwendet hat.
-* reset = damit beendet man immer, da man nachher auch noch auf die history zurückgreifen kann.
+* reset = löscht den Bildschirm
 * strg + = man vergrößert die Schrift
 * strg - = man verkleinert die Schrift
 * ALT = man macht die Menüleiste sichtbar
+* exit = damit schließt man, um auch nachher auf die history zurückgreifen zu können
 
 #### Kommandos für Git:
-* git clone = 
-* git add =
+* git clone = damit kann man eine Kopie vom local repository kreieren 
+* git add = damit markiert man die geänderte Datei
 * git commit = dort muss immer stehen wer du bist
 * git push = sendet die Veränderungen an den master branch
 * git Status = zeigt die files wo etwas verändert wurde
-* git reset = 
+* git reset = man macht lokale Veränderungen
