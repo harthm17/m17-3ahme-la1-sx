@@ -7,13 +7,13 @@
 
 ## Inhaltsverzeichnis
 1. [Markdown](https://de.wikipedia.org/wiki/Markdown)
-    a. Weiterentwicklung von Markdown
+    * Weiterentwicklung von Markdown
 2. [GitHub](https://de.wikipedia.org/wiki/GitHub)
-    a. Grundkenntnisse
+    * Grundkenntnisse
 3. [Git](https://de.wikipedia.org/wiki/Git)
-    a. local/remote repository
-    b. Kommandos für das Terminal
-    c. Kommandos für Git
+    * local/remote repository
+    * Kommandos für das Terminal
+    * Kommandos für Git
 4. [Merge](https://de.wikipedia.org/wiki/Merge)    
 
 ### Markdown
