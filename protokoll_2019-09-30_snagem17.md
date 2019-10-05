@@ -13,8 +13,8 @@
 3. [Git](https://de.wikipedia.org/wiki/Git)
     a. local/remote repository
     b. Kommandos für das Terminal
-    c.Kommandos für Git
-4.[Merge](https://de.wikipedia.org/wiki/Merge)    
+    c. Kommandos für Git
+4. [Merge](https://de.wikipedia.org/wiki/Merge)    
 
 ### Markdown
 Was ist Markdown?
