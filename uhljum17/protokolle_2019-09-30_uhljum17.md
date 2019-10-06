@@ -133,4 +133,71 @@ int main ()
 
 -------------------------
 
+1. **Zentrales Repository klonen, um auf einer eigenen Kopie arbeiten zu können: 
+
+    • **Lokales Repository klonen:** git clone <Pfad-zum-Repository> [Verzeichnis-Name] 
+    
+    • **Repository von einem Server klonen:** git clone <Server-Name>:<Pfad-zum-Repository> [Verzeichnis-Name]
+    
+--------------------------------    
+    
+1.  **Hat man ein ganz neues leeres Git-Repository geklont, so muss dies zunächst noch initialisiert werden: **
+
+    cd <Repository-Name> 
+    
+    touch .gitignore 
+    
+    git add .gitignore git commit -a -m "Initial commit" 
+    
+    git push -u origin master
+--------------------------------
+
+1.  **Dateien oder ganze Verzeichnisse unter Git-Verwaltung stellen: **
+
+    git add <Datei-/Verzeichnisname>
+    
+------------------------------
+
+1. **NachdemalleDateienfürdennächstenCommit mitgit addhinzugefügtwurden, so kann dieser abgesetzt werden:** 
+
+    git commit -m"..." 
+--------------------------------
+
+1. **Alternativ kann die Einstellung auf Git beschränkt werden:**
+
+    git config --global core.editor "<Editor-Name>" 
+    
+    Die Option --global bewirkt, dass die Einstellung für alle Git-Repositories übernommenwird.OhneAngabevon --global   
+    werdenOptionennurindem Repository angewendet, in dem man sich gerade beﬁndet.  
+    
+------------------
+
+1. **Repository-Status abfragen: **
+
+    git status
+    
+------------------
+
+1. **Lokalen Arbeitsstand in das entfernte Repository einpﬂegen: **
+
+    git push
+ 
+-----------------
+
+1. **Neuesten Stand eines entfernten Zweiges in den lokalen tracking branch einﬂießen lassen: **
+
+    git merge origin/<Zweig-Name>
+    
+-----------------
+
+1. **Alle Änderungen seit dem letzten Commit verwerfen: **
+    
+    git reset --hard HEAD 
+ 
+ **[quelle:]**(https://pgi-jcns.fz-juelich.de/pub/doc/git_gitflow.pdf) 
+ 
+------------------------------
+
+
+
 
