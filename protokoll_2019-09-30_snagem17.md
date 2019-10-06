@@ -9,7 +9,6 @@
 
 ## Inhaltsverzeichnis
 1. [Markdown](https://de.wikipedia.org/wiki/Markdown)
-    * Weiterentwicklung von Markdown
 2. [GitHub](https://de.wikipedia.org/wiki/GitHub)
     * Vorteile
     * Nachteile
@@ -86,7 +85,7 @@ Die Extension ist meist **.md** oder **.markdown**.
 * **grau hinterlegen:** 2mal Tabulatortaste
 
 ### Git
-
+Quelle : https://www.stephenmarron.com/wp-content/uploads/2017/02/git.png
 ![Git data transport](https://www.stephenmarron.com/wp-content/uploads/2017/02/git.png)
 
 Quelle:[Wiki](https://de.wikipedia.org/wiki/Git)
