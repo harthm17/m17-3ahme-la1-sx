@@ -125,3 +125,11 @@ Als Editor wird [gedit](https://de.wikipedia.org/wiki/Gedit) verwendet. Es wird 
 
 Quelle:[wiki](https://de.wikipedia.org/wiki/Merge)
 >Merge ist der Vorgang des Abgleichens mehrerer Änderungen, die an verschiedenen Versionen derselben Datei getätigt wurden. Das Zusammenführen verschiedener Datei-Versionen ist ein zentraler Vorgang bei den meisten Versionsverwaltungssystemen, weshalb diese meist unterschiedliche Merge-Algorithmen unterstützen. Viele Versionsverwaltungssysteme werden zudem mit grafischen Hilfsprogrammen ausgeliefert, die das Mergen vereinfachen sollen.
+
+
+[Merge]:https://de.wikipedia.org/wiki/Merge
+[gedit]:https://de.wikipedia.org/wiki/Gedit
+[Git]:https://de.wikipedia.org/wiki/Git
+[Versionsverwaltungssystem]:https://de.wikipedia.org/wiki/Versionsverwaltung
+[GitHub]:https://de.wikipedia.org/wiki/GitHub
+[Markdown]:https://de.wikipedia.org/wiki/Markdown
