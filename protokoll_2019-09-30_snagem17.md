@@ -54,6 +54,9 @@ Die Extension ist meist **.md** oder **.markdown**.
 >Zitat
 ```
 ### Git
+
+![Git data transport](https://www.stephenmarron.com/wp-content/uploads/2017/02/git.png)
+
 Quelle:[Wiki](https://de.wikipedia.org/wiki/Git)
 >Git ist eine freie Software zur verteilten Versionsverwaltung von Dateien, die durch Linus Torvalds initiiert wurde. 
 
