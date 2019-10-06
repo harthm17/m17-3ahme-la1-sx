@@ -53,6 +53,9 @@ Die Extension ist meist **.md** oder **.markdown**.
 ```
 >Zitat
 ```
+
+* **grau hinterlegen:**
+      (2mal Tabulatortaste)
 ### Git
 
 ![Git data transport](https://www.stephenmarron.com/wp-content/uploads/2017/02/git.png)
