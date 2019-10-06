@@ -193,9 +193,11 @@ int main ()
 1. **Alle Änderungen seit dem letzten Commit verwerfen: **
     
     git reset --hard HEAD 
+    
  
- **[quelle:]**(https://pgi-jcns.fz-juelich.de/pub/doc/git_gitflow.pdf) 
- 
+Quelle: https://pgi-jcns.fz-juelich.de/pub/doc/git_gitflow.pdf
+
+
 ------------------------------
 
 
