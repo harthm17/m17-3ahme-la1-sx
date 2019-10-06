@@ -37,6 +37,9 @@ Die Extension ist meist **.md** oder **.markdown**.
       1. man verliert nur sehr schwer Daten und Mitschriften
       2. mit ein bisschen Übung ist es sehr leicht zu bedienen
 
+#### Nachteile
+      1. man benötigt einen PC (Kosten)
+      2. 
 #### Grundkenntnisse
 
 * **Computersprache:**
@@ -50,11 +53,7 @@ Die Extension ist meist **.md** oder **.markdown**.
     ```
 
 * **Überschriften:**
-      1. #Ü1
-      2. ##Ü2
-      3. ###Ü3
-      4. ####Ü4
-      ....(bis 6# möglich)
+            
 
 * **etwas verlinken:** 
 ```
