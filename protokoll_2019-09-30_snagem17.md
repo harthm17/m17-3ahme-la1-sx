@@ -76,13 +76,12 @@ Als Editor wird [gedit](https://de.wikipedia.org/wiki/Gedit) verwendet. Es wird 
 * exit = damit schließt man, um auch nachher auf die history zurückgreifen zu können
 
 #### Kommandos für Git:
-* git clone = damit kann man eine Kopie vom local repository kreieren 
-* git add = damit markiert man die geänderte Datei
-* git commit = dort muss immer stehen wer du bist
+* git clone = damit kann man eine Kopie vom local repository machen
+* git add = damit sagt man, dass eine Datei geändert wurde.
+* git commit = dort muss immer stehen wer du bist, Änderungen werden lokal gespeichert
 * git push = sendet die Veränderungen an den master branch
 * git Status = zeigt die files wo etwas verändert wurde
 * git reset = man macht lokale Veränderungen
-* git merge = 2 Änderungen zusammenführen
 
 ### Merge:
 Es werden 2 Änderungen zusammengeführt. Das ist ein oft verwendeter Vorgang bei Versionsverwaltungssystemen.
