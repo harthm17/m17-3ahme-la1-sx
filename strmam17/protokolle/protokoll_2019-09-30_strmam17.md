@@ -82,7 +82,7 @@
     ```
  ```
   12. Text grau hinterlegen: zweimal Tabulatoren Taste drücken
-  
+----------------------------------------------------------------------------------------------------------------------------------  
   ## Terminal
       strg + oder -: größer oder kleiner
   ### Befehle
@@ -93,12 +93,19 @@
       Pfeil nach oben oder !<Befehl>: Kommandos können wiederholt werden
       cd <Verzeichniss>: in ein anderes Verzeichniss kommen
       ls -l: abgelegte Dateien
-      
+ ---------------------------------------------------------------------------------------------------------------------------------     
   ## Git
    Man kann sich die eigenen Daten von Github auf seinen eigenen Rechner clonen.
    Die Daten kann man dann am eigenen Rechner im Terminal bearbeiten.
    Nachdem man sie bearbeitet hat kann man sie wieder hochladen.
    Bei einem Projekt mit mehreren Leuten ist es gut wenn sich ein jeder die Daten clonen würde da es sicherer ist.
+                     
+        Remote repository: Dein repository am Server
+        Local repository: Dein repository am eigenen Rechner
+        Stash: Zwischenspeicher für Änderungen
+        Workspace: Speicherplatz für deine Dateien des repository
+   ![Git](https://softganz.com/upload/pics/git-transport-v1.png)
+   Quelle: https://softganz.com/upload/pics/git-transport-v1.png
    
   ### Clonen
       
@@ -109,7 +116,7 @@
                            
   ### Datei zurück auf den Server bringen
   
-         Terminal eingabe: git add README.md
+         Terminal eingabe: git add README.md          //Wenn man alles hinzufügen will dann: git add -A
                            git status
                            git commit -m "Update README.md"
                            Eingabe des Benutzers damit der Rechner weiß wer man ist: git config --global user.email "<Email>"
@@ -118,6 +125,24 @@
                            git push
                            Dann muss man noch Benutzername und Passwort eingeben
                            
+  ### Merge
+      (zusammenführen)
+      Beim Merge werden die Änderungen von verschiedenen Personen in deren Projekt zusammengeführt.
+   ![Merge](https://cdn-images-1.medium.com/max/1600/1*RTgn1s0GY8r0rSPsAzf8NQ.png)
+   Quelle: https://cdn-images-1.medium.com/max/1600/1*RTgn1s0GY8r0rSPsAzf8NQ.png
+      
+  ### Branch
+      (Ast)
+      Der Master Branch ist der Hauptast, wenn man nicht im Master Branch arbeiten will, 
+      dann macht man sich einen Nebenbranch, 
+      danach kann man den Nebenbrunch wieder in den Master Brunch zurück bringen
+      
+      Branch erstellen: git checkout -b <Name des neuen Branch>
+      Nach einer Änderung der Datei: git push --set-upstream origin <Name des neuen Branch>
+      Zurück in den Master Branch bringen: git checkout master C
+                                         git merge work C
+                                         git status
+                                         git push
+      
+      Nach diesem Vorgang sind beide Braches wieder zusammengeführt.
                            
-   
-   
