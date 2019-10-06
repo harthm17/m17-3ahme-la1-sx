@@ -135,7 +135,7 @@ int main ()
 
 -------------------------
 
-1. **Zentrales Repository klonen, um auf einer eigenen Kopie arbeiten zu können: 
+1. **Zentrales Repository klonen, um auf einer eigenen Kopie arbeiten zu können:**
 
     • **Lokales Repository klonen:** git clone <Pfad-zum-Repository> [Verzeichnis-Name] 
     
@@ -143,7 +143,7 @@ int main ()
     
 --------------------------------    
     
-1.  **Hat man ein ganz neues leeres Git-Repository geklont, so muss dies zunächst noch initialisiert werden: **
+1.  **Hat man ein ganz neues leeres Git-Repository geklont, so muss dies zunächst noch initialisiert werden:**
 
     cd <Repository-Name> 
     
@@ -154,7 +154,7 @@ int main ()
     git push -u origin master
 --------------------------------
 
-1.  **Dateien oder ganze Verzeichnisse unter Git-Verwaltung stellen: **
+1.  **Dateien oder ganze Verzeichnisse unter Git-Verwaltung stellen:**
 
     git add <Datei-/Verzeichnisname>
     
