@@ -41,11 +41,19 @@ Die Extension ist meist **.md** oder **.markdown**.
 
 * **Computersprache:**
 
+    ```C
+    int main () 
+    {
+    printf("Hallo");
+    return 0;
+    }
+    ```
 
 * **Überschriften:**
-      #Ü1
-      ##Ü2
-      ###Ü3
+      1. #Ü1
+      2. ##Ü2
+      3. ###Ü3
+      4. ####Ü4
       ....(bis 6# möglich)
 
 * **etwas verlinken:** 
