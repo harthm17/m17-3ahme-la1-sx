@@ -113,6 +113,7 @@ Als Editor wird [gedit](https://de.wikipedia.org/wiki/Gedit) verwendet. Es wird 
 * git push = sendet die Veränderungen an den master branch
 * git Status = zeigt die files wo etwas verändert wurde
 * git reset = man macht lokale Veränderungen
+* git merge = einen anderen Branch zu deinem aktiven Branch hinzufügen
 
 ### Merge:
 [Merge](https://de.wikipedia.org/wiki/Merge) bedeutet, dass 2 Änderungen zusammengeführt werden. Das ist ein oft verwendeter Vorgang bei Versionsverwaltungssystemen.
