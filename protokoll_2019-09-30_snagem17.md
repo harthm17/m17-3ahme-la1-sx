@@ -67,9 +67,6 @@ Als Editor wird [gedit](https://de.wikipedia.org/wiki/Gedit) verwendet. Es wird 
 * local repository = sind die lokalen Änderungen
 * remote repository = sind an einem z.B. Server gespeichert der nicht lokal ist
 
-![Bildquelle zu local- und remote repository](https://i.stack.imgur.com/UvZ0M.png)
-
-
 #### Kommandos für das Terminal:
 * history = man sieht welche Kommandos man schon verwendet hat.
 * reset = löscht den Bildschirm
