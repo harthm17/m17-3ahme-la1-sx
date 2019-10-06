@@ -249,3 +249,5 @@ Quelle: https://www.htl-mechatronik.at/e-books/sx/html/git/git.html#(4)
 Eine Verzweigung besteht im Kern aus einer eindeutigen Reihe von Codeänderungen mit einem eindeutigen Namen. Jedes Repository kann einen oder mehrere Branches haben.
 
 Standardmäßig heißt der erste Branch "master".
+
+Quelle: https://www.digitalocean.com/community/tutorials/how-to-use-git-branches
