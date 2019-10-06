@@ -21,6 +21,7 @@
     1. [Links](#links)
     1. [C-Code](#c-code)
 1. [Git-Befehle](#git-befehle)
+1. [Git-Ebenen](#git-ebenen)
 
 
 ---------------------------------------------
@@ -197,9 +198,38 @@ int main ()
  
 Quelle: https://pgi-jcns.fz-juelich.de/pub/doc/git_gitflow.pdf
 
-
 ------------------------------
 
+### Git-Ebenen
 
+
+Dateien bzw Aktionen werden einer der folgenden fünf Ebenen zugeordnet:
+
+**Stash (verstecken)**
+
+Hier "parkt" man Änderungen während etwas anderes gemacht wird.
+
+
+**Workspace (Arbeitskopie)**
+
+Hier ist der lokale checkout aus dem Repository
+
+
+**Index (staging area, staged files)**
+
+Hier sind jene Dateien die im nächsten commit enthalten sind
+
+
+**Local repository**
+
+Lokales Repository im Verzeichnis .git
+
+
+**Remote Repository (Upstream Repository)**
+
+Repository auf einem entfernten Git-Server.
+
+
+Quelle: https://www.htl-mechatronik.at/e-books/sx/html/git/git.html#(4)
 
 
