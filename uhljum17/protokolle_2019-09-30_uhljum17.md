@@ -38,8 +38,8 @@ Für normale schrift schreibt man einfach was ohne jedliche zeichen.
 #### Überschriften
 Überschriften werden mit  # gemacht kann bis zu sechs überschriten haben.
 
-Bsp. 
-
+# ... (#)
+## ... (##)
 ### ... (###)
 #### ... (####)
 ##### ... (#####)
