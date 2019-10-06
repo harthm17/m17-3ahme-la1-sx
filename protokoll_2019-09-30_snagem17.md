@@ -55,8 +55,13 @@ Die Extension ist meist **.md** oder **.markdown**.
     }
     ```
 
-* **Überschriften:**
+* **Überschriften:** ( je mehr # desto kleiner wird die Überschrift)
             
+      #Ü1
+      ##Ü2
+      ###Ü3
+      ####Ü4
+      ....(max 6#)
 
 * **etwas verlinken:** 
 ```
