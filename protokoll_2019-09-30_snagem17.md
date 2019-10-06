@@ -4,11 +4,15 @@
 * **Datum:** 30.09.2019
 * **Gefehlt:** Niemand
 * **Erstellt von:** Georg Schnabel
+* **Protokoll letzte Einheit:**
+* **Protokoll nächste Einheit:**
 
 ## Inhaltsverzeichnis
 1. [Markdown](https://de.wikipedia.org/wiki/Markdown)
     * Weiterentwicklung von Markdown
 2. [GitHub](https://de.wikipedia.org/wiki/GitHub)
+    * Vorteile
+    * Nachteile
     * Grundkenntnisse
 3. [Git](https://de.wikipedia.org/wiki/Git)
     * local/remote repository
@@ -24,10 +28,6 @@ Was ist Markdown?
 Die Syntax von [Markdown](https://de.wikipedia.org/wiki/Markdown) oder wird vor allem auf Entwicklerplattformen verwendet. (z.B. GitHub)
 Die Extension ist meist **.md** oder **.markdown**.
 
-#### 2Bsp zur Weiterentwicklung von Markdown
-* [Common Mark](https://de.wikipedia.org/wiki/CommonMark): ist eine vereinfachte Aufzeichnungssprache. Unterschiede zu Markdown findet man z.B. bei Verschachtelten Aufzählungen oder bei Blöcken, da bei Common Mark durch ein Leerzeichen der Block beendet wird was bei Markdown nicht der Fall ist.
-* GitHub Flavored Markdown: ist eine Erweiterung die auf Common Mark aufgebaut ist. Es erweitert die Syntax.
-
 
 
 ### GitHub
@@ -36,10 +36,14 @@ Die Extension ist meist **.md** oder **.markdown**.
 #### Vorteile
       1. man verliert nur sehr schwer Daten und Mitschriften
       2. mit ein bisschen Übung ist es sehr leicht zu bedienen
+      3. es eignet sich sehr gut für Gruppenarbeiten da jeder den Arbeitsstand und Daten vom anderen sehen kann
+      4. Es is kostenlos
+      5. man hat die Möglichkeit alles in einer übersichtlichen und nachvollziehbaren Form zu machen
 
 #### Nachteile
       1. man benötigt einen PC (Kosten)
-      2. 
+      2. man kann keine Neuen Erfindungen oder Entwicklungsstände dokumentieren, weil es andere sehen können
+      
 #### Grundkenntnisse
 
 * **Computersprache:**
