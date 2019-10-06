@@ -9,16 +9,22 @@
 --------------------------------------------
 
 ## Inhaltsverzeichnis
-1. [Git](#git)
+1. [Versionsverwaltung](#versionsverwaltung)
     1. [Möglichkeiten zur formatierung](#Möglichkeitenzurformatierung)
     1. [Überschriften](#überschriften)
     1. [Listen](#listen)
-    1. [Schrift Fett, Kursiv beides machen](#Schrift Fett, Kursiv beides machen)
+    1. [Schriftarten](#schriftarten)
+    1. [Ziate](#zitate)
+    1. [Trennstriche](#trennstriche)
+    1. [Absätze](#absätze)
+    1. [Links](#links)
+    1. [C-Code](#c-code)
+1. [Git-Befehle](#git-befehle)
 
 
 ---------------------------------------------
 
-## Git
+## Versionsverwaltung
 Git ist eine freie Software zur Versionsverwaltung von Dateien. Man sollte mit Git arbeiten keine Daten/Informationen verloren gehen.
 
 ### möglichkeiten zur formatierung
@@ -49,7 +55,8 @@ Bsp.
 .
 ------------------------------------------------
 
-#### Schrift Fett, Kursiv beides machen
+#### Schriftarten
+
 Man kann Schrift Fett, Kursiv oder beides machen um z.B. einzelne Sachen hervorzuheben. Man macht Sachen fett wenn man vor und nach dem Wort oder einen Satz ** mach (**ABC**). Mit Kursiv funktioniert es gleich jedoch nur mit einem * (*ABC*). Beides kann man auch dann mit mit *** vor und nach dem Wort machen. (***ABC***)
 
 ----------------------------------------------
@@ -105,5 +112,24 @@ um z.B. am Ende dieses Protkolls alle Links gebündelt zu schreiben kann man es 
 
 [1] : https://lms.at
 
+------------------------
+
+#### C-Code
+
+wenn man über und unter den Text (``` C)  macht wird der Text wie in z.B. Code Blocks dagestellt.
+
+```C
+int main () 
+{
+    printf("Hallo");
+    return 0;
+}
+```
+
 -------------------------
+
+### Git-Befehle 
+
+-------------------------
+
 
