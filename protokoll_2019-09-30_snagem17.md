@@ -35,6 +35,9 @@ Die Extension ist meist **.md** oder **.markdown**.
 
 #### Grundkenntnisse
 
+* **Computersprache:**
+
+
 * **Überschriften:**
       #Ü1
       ##Ü2
