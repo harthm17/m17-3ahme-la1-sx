@@ -4,7 +4,6 @@
 * **Datum:** 30.09.2019
 * **Gefehlt:** -
 * **Erstellt von:** Uhl Julian
-* **Protokoll lezter Einheit:** 
 * **Protokoll nächste Einheit:**
 
 --------------------------------------------
