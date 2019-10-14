@@ -8,3 +8,6 @@
 * Protokoll nächste Einheit:
 
 ## Inhaltsverzeichnis
+1. [Datenträger](https://de.wikipedia.org/wiki/Datenspeicher)
+2. [DLL](https://de.wikipedia.org/wiki/Dynamic_Link_Library)
+3. [Linux Shell](https://de.wikipedia.org/wiki/Bash_(Shell))
