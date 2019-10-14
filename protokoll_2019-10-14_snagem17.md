@@ -1,4 +1,4 @@
-# 2.Protokoll Labor / SX 3AHME(2019/20)
+# 2.Protokoll Labor/SX 3AHME (2019/20)
 
 * Thema: Labortest, Linux Grundlagen
 * Datum: 14.10.2019
