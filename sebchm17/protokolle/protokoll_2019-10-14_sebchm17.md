@@ -18,7 +18,7 @@
 
 --------------------------------------------------------------------------------------------------------------------------------------
 
-## Datenträger
+## Datenträger und Partitionen
 ! [Datenträger] [Datenträger]
 Quelle: https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjmv8a5q5zlAhUQsKQKHWowAnQQjB16BAgBEAM&url=https%3A%2F%2Fwww.chip.de%2Fdownloads%2FGParted-Live-64-Bit-ZIP-Version_66494949.html&psig=AOvVaw2abJxzhW5nvtWy66sY54JW&ust=1571160995931674
 
