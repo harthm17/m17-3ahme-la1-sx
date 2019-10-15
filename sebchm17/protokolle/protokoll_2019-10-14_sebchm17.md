@@ -82,7 +82,22 @@ root@chris:~# nano /etc/shadow
 
 ## Rechte vergeben und verändern in der Shell
 
+Datei :
+        
+        r .... Inhalt nur lesen
+        
+        w .... Inhalt modifizieren
+        
+        x .... Inhalt als programm ausfühern
+ 
 
+Verzeichnis: 
+
+        r .... Inhalt zu sehen
+             
+        w .... Inhalt verändern
+             
+        x .... In das Verzeichnis wechseln
 
 
 
