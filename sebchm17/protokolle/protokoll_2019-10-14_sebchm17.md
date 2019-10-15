@@ -41,7 +41,7 @@ In Linux werden Partitionen als Block Device im verzeichniss /dev bereitgestellt
 
 Der Befehl ``mount`` zeigt an was alles im System eingehängt ist.
 
-``bash
+```bash
 
 chris@chris:~$ mount
 sysfs on /sys type sysfs (rw,nosuid,nodev,noexec,relatime)
@@ -51,7 +51,7 @@ devpts on /dev/pts type devpts (rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmod
 tmpfs on /run type tmpfs (rw,nosuid,noexec,relatime,size=514880k,mode=755)
 /dev/sda1 on / type ext4 (rw,relatime,errors=remount-ro)
 
-``
+```
 
 In der letzten Zeile wird angezeigt, dass es sich um die Hauptfestplatte handelt und sie in ext4 formatiert ist.
 
