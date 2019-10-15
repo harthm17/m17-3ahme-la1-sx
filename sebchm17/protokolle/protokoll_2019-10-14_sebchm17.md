@@ -8,12 +8,12 @@
 --------------------------------------------------------------------------------------------------------------------------------------
 
 ## Inhaltsverzeichnis
-1.  [Datenträger und Partitionen] (#datenträger-und-partitionen)
-2.  [Verzeichnisse] (#verzeichnisse)
-3.  [Mount] (#mount)
-      * [Gerät einloggen/ausloggen] (#gerät einloggen/ausloggen)
-4.  [Neuen Benutzer anlegen] (#neuen benutzer anlegen)
-5.   [Rechte vergeben und verändern in der Shell] (#rechte vergeben und verändern in der shell)
+1.  [Datenträger und Partitionen](#datenträger-und-partitionen)
+2.  [Verzeichnisse](#verzeichnisse)
+3.  [Mount](#mount)
+      * [Gerät einloggen/ausloggen](#gerät einloggen/ausloggen)
+4.  [Neuen Benutzer anlegen](#neuen benutzer anlegen)
+5.   [Rechte vergeben und verändern in der Shell](#rechte vergeben und verändern in der shell)
 
 --------------------------------------------------------------------------------------------------------------------------------------
 
