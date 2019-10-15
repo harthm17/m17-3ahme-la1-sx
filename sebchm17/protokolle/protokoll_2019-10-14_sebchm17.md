@@ -41,13 +41,15 @@ In Linux werden Partitionen als Block Device im verzeichniss /dev bereitgestellt
 
 Der Befehl ``mount`` zeigt an was alles im System eingehängt ist.
 
-``chris@chris:~$ mount
+``bash
+chris@chris:~$ mount
 sysfs on /sys type sysfs (rw,nosuid,nodev,noexec,relatime)
 proc on /proc type proc (rw,nosuid,nodev,noexec,relatime)
 udev on /dev type devtmpfs (rw,nosuid,relatime,size=2550532k,nr_inodes=637633,mode=755)
 devpts on /dev/pts type devpts (rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000)
 tmpfs on /run type tmpfs (rw,nosuid,noexec,relatime,size=514880k,mode=755)
-/dev/sda1 on / type ext4 (rw,relatime,errors=remount-ro)``
+/dev/sda1 on / type ext4 (rw,relatime,errors=remount-ro)
+``
 
 In der letzten Zeile wird angezeigt, dass es sich um die Hauptfestplatte handelt und sie in ext4 formatiert ist.
 
@@ -59,7 +61,7 @@ In der letzten Zeile wird angezeigt, dass es sich um die Hauptfestplatte handelt
 
 Einen neuen Benutzer in der Shell anzulegen funktioniert mit dem Befehl ``adduser``  aber es funktioniert auch über eine etwas altmodischere Art quasi den Benutzer mit der Hand anzulegen. Dafür muss zuerst in den superuser mode (root) gewechselt werden.
 
-```
+``bash
 chris@chris:~# sudo-i
 
 root@chris:~# nano /etc/passwd
@@ -68,8 +70,8 @@ chris:x:1000:1000:chris,,,:/home/chris:/bin/bash#
 root@chris:~# nano /etc/group
 chris:x:1000:
 
-root@chris:~# nano /etc/shadow```
-
+root@chris:~# nano /etc/shadow
+``
 --------------------------------------------------------------------------------------------------------------------------------------
 
 
