@@ -61,7 +61,8 @@ In der letzten Zeile wird angezeigt, dass es sich um die Hauptfestplatte handelt
 
 Einen neuen Benutzer in der Shell anzulegen funktioniert mit dem Befehl ``adduser``  aber es funktioniert auch über eine etwas altmodischere Art quasi den Benutzer mit der Hand anzulegen. Dafür muss zuerst in den superuser mode (root) gewechselt werden.
 
-``bash
+```bash
+
 chris@chris:~# sudo-i
 
 root@chris:~# nano /etc/passwd
@@ -71,7 +72,8 @@ root@chris:~# nano /etc/group
 chris:x:1000:
 
 root@chris:~# nano /etc/shadow
-``
+
+```
 --------------------------------------------------------------------------------------------------------------------------------------
 
 
