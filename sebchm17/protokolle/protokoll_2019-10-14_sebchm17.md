@@ -13,13 +13,7 @@
 3. [Mount] (#mount)
     * [Gerät einloggen/ausloggen] (#gerät einloggen/ausloggen)
 4. [Neuen Benutzer anlegen] (#neuen benutzer anlegen)
-5. [Rechte vergeben und ändern in der Shell] (#rechte vergeben und ändern in der shell)
-
-
-
-
-
-
+5. [Rechte vergeben und verändern in der Shell] (#rechte vergeben und verändern in der shell)
 
 --------------------------------------------------------------------------------------------------------------------------------------
 
@@ -34,6 +28,13 @@ In Linux werden Partitionen als Block Device im verzeichniss /dev bereitgestellt
 --------------------------------------------------------------------------------------------------------------------------------------
 
 ## Verzeichnisse
+
+
+
+
+
+
+
 
 --------------------------------------------------------------------------------------------------------------------------------------
 
@@ -55,8 +56,9 @@ tmpfs on /run type tmpfs (rw,nosuid,noexec,relatime,size=514880k,mode=755)
 
 In der letzten Zeile wird angezeigt, dass es sich um die Hauptfestplatte handelt und sie in ext4 formatiert ist.
 
+### Gerät einloggen/ausloggen
 
-
+Früher musste man einen Usb Stick immer einloggen und wieder aussloggen. Heute wird dies automatischdurchgeführt.
 
 --------------------------------------------------------------------------------------------------------------------------------------
 ## Neuen Benutzer anlegen
@@ -78,7 +80,7 @@ root@chris:~# nano /etc/shadow
 ```
 --------------------------------------------------------------------------------------------------------------------------------------
 
-
+# Rechte vergeben und verändern in der Shell
 
 
 
