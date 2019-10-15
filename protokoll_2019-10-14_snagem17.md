@@ -17,6 +17,6 @@
 [Datenträger](https://de.wikipedia.org/wiki/Datenspeicher) laut Wiki:
 
 >Ein Datenspeicher oder Speichermedium dient zur Speicherung von Daten. Der Begriff Speichermedium wird auch als Synonym für einen konkreten Datenträger verwendet. 
-Im engeren Sinne bezeichnet man mit Datenträger oder Speichermedium Medien, die als Datenspeicher dienen 
-1. für Unterhaltung (Musik, Sprache, Film etc.), die mit Hilfe elektronischer Geräte abgespielt oder auch gespeichert wird; und
-2. für Daten jeglicher Art (auch Unterhaltung), die von Computern bzw. Computeranlagen oder Peripheriegeräten nur gelesen oder auch       geschrieben werden.
+>Im engeren Sinne bezeichnet man mit Datenträger oder Speichermedium Medien, die als Datenspeicher dienen 
+>1. für Unterhaltung (Musik, Sprache, Film etc.), die mit Hilfe elektronischer Geräte abgespielt oder auch gespeichert wird; und
+>2. für Daten jeglicher Art (auch Unterhaltung), die von Computern bzw. Computeranlagen oder Peripheriegeräten nur gelesen oder auch       geschrieben werden.
