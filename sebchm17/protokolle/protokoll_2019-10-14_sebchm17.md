@@ -11,9 +11,11 @@
 1.  [Datenträger und Partitionen](#datenträger-und-partitionen)
 2.  [Verzeichnisse](#verzeichnisse)
 3.  [Mount](#mount)
-      * [Gerät einloggen/ausloggen](#gerät-einloggen/ausloggen)
+      * [Gerät einloggen](#gerät-einloggen)
+      * [Gerät ausloggen](#gerät-ausloggen)
 4.  [Neuen Benutzer anlegen](#neuen-benutzer-anlegen)
-5.   [Rechte vergeben und verändern in der Shell](#rechte-vergeben-und-verändern-in-der-shell)
+5.  [Rechte](#rechte)
+      * [Rechte ändern](#rechte-ändern)
 
 --------------------------------------------------------------------------------------------------------------------------------------
 
@@ -28,6 +30,8 @@ In Linux werden Partitionen als Block Device im verzeichniss /dev bereitgestellt
 --------------------------------------------------------------------------------------------------------------------------------------
 
 ## Verzeichnisse
+
+Das /tmp ist ein Temporäres verzeichnis bei einem reboot sind alle gespeicherten Dateien gelöscht.
 
 
 
@@ -56,9 +60,14 @@ tmpfs on /run type tmpfs (rw,nosuid,noexec,relatime,size=514880k,mode=755)
 
 In der letzten Zeile wird angezeigt, dass es sich um die Hauptfestplatte handelt und sie in ext4 formatiert ist.
 
-### Gerät einloggen/ausloggen
+### Gerät einloggen
 
 Früher musste man einen Usb Stick immer einloggen und wieder aussloggen. Heute wird dies automatischdurchgeführt.
+Mit dem Komando ```mount``` kann man ein man manuelles Einhängen durchführen.
+
+### Gerät ausloggen
+
+Ein eingehängtes Dateisystem kann mit dem Befehl umount entfernt werden.
 
 --------------------------------------------------------------------------------------------------------------------------------------
 ## Neuen Benutzer anlegen
@@ -80,7 +89,7 @@ root@chris:~# nano /etc/shadow
 ```
 --------------------------------------------------------------------------------------------------------------------------------------
 
-## Rechte vergeben und verändern in der Shell
+## Rechte 
 
 Datei :
         
@@ -98,8 +107,12 @@ Verzeichnis:
         w .... Inhalt verändern
              
         x .... In das Verzeichnis wechseln
+     
 
 
+### Rechte ändern
+
+Rechte werden mit dem oktalsystemgerechnet, dh 111 entspircht 7.
 
 
 
