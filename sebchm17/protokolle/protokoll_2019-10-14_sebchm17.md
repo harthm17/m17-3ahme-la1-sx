@@ -14,7 +14,7 @@
       * [Gerät einloggen](#gerät-einloggen)
       * [Gerät ausloggen](#gerät-ausloggen)
 4.  [Neuen Benutzer anlegen](#neuen-benutzer-anlegen)
-5.  [Dll]((https://de.wikipedia.org/wiki/Dynamic_Link_Library)
+5.  [Dll](#dll)
 6.  [Rechte](#rechte)
       * [Rechte ändern](#rechte-ändern)
 
@@ -93,7 +93,7 @@ root@chris:~# nano /etc/shadow
 ```
 --------------------------------------------------------------------------------------------------------------------------------------
 ## Dll
-[DLL](https://de.wikipedia.org/wiki/Dynamic_Link_Library)
+[Wikipedia](https://de.wikipedia.org/wiki/Dynamic_Link_Library)
 
 >Dynamic Link Library (DLL) bezeichnet allgemein eine dynamische Programmbibliothek; meist bezieht sich der Begriff jedoch auf die für die Betriebssysteme Microsoft Windows und OS/2 verwendete Variante. DLL-Dateien verwenden das auch für ausführbare EXE-Dateien gebräuchliche Dateiformat, das in 16-Bit-Programmen das New-Executable-Format (NE)[1] und in 32- und 64-Bit-Programmen das Portable-Executable-Format (PE) ist. Diese Dateien können Programmcode (Maschinencode), Daten und Ressourcen in beliebiger Kombination enthalten.
 
