@@ -65,9 +65,19 @@ In der letzten Zeile wird angezeigt, dass es sich um die Hauptfestplatte handelt
 Früher musste man einen Usb Stick immer einloggen und wieder aussloggen. Heute wird dies automatischdurchgeführt.
 Mit dem Komando ```mount``` kann man ein man manuelles Einhängen durchführen.
 
+
+
+
+
 ### Gerät ausloggen
 
-Ein eingehängtes Dateisystem kann mit dem Befehl umount entfernt werden.
+Ein eingehängtes Dateisystem kann mit dem Befehl umount wieder entfernt werden.
+
+
+
+
+
+
 
 --------------------------------------------------------------------------------------------------------------------------------------
 ## Neuen Benutzer anlegen
@@ -114,23 +124,24 @@ Verzeichnis:
 
 Rechte werden mit dem oktalsystemgerechnet, dh 111 entspircht 7.
 
+```bash
+
+chris@chris:~$ ls -l
+insgesamt 76
+drwxr-xr-x 2 chris chris 4096 Okt 12 19:47 Bilder
+drwxr-xr-x 2 chris chris 4096 Okt 15 21:44 Dokumente
+-rw-r--r-- 1 chris chris    7 Okt 13 15:17 test1.odt
+-rw-r--r-- 1 chris chris   27 Okt 13 15:28 testdatei.odt
+-rw-r--r-- 1 chris chris   20 Okt 13 15:13 test.odt
+```
+
+Alle neu erstellten Dateien haben das Recht x noch nicht. Um den Inhalt als programm ausführen zu können ändert man es wie in deisem Beispiel.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+```bash
+chris@chris:~$ chmod 750 /home/Dokumente/test1.odt
+-rwxr-x--- 1 chris chris    7 Okt 16 20:36  test1.odt
+````
 
 --------------------------------------------------------------------------------------------------------------------------------------
 [Protokoll]:https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/sebchm17/sebchm17/protokolle/protokolle_2019-09-30sebchm17.md
