@@ -33,13 +33,6 @@ In Linux werden Partitionen als Block Device im verzeichniss /dev bereitgestellt
 
 Das /tmp ist ein Temporäres verzeichnis bei einem reboot sind alle gespeicherten Dateien gelöscht.
 
-
-
-
-
-
-
-
 --------------------------------------------------------------------------------------------------------------------------------------
 
 ## Mount 
