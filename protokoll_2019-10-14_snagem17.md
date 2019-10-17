@@ -1,6 +1,6 @@
 # 2.Protokoll Labor/SX 3AHME (2019/20)
 
-* Thema: Datenträger, DLL, Linux Grundlagen
+* Thema: Datenträger, DLL, Linux Shell
 * Datum: 14.10.2019
 * Gefehlt: Niemand
 * Erstellt von: Georg Schnabel
