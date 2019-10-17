@@ -60,18 +60,18 @@ Oct 17 21:19:19 chris kernel: [  126.333132] audit: type=1400 audit(1571339959.6
 Oct 17 21:19:53 chris PackageKit: get-updates transaction /136_edaaacdd from uid 1000 finished with success after 785ms
 
 chris@chris:~$ cat /proc/cpuinfo
-processor	     : 0
-vendor_id	     : GenuineIntel
-cpu family	: 6
-model		: 142
-model name	: Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz
-stepping	     : 10
-cpu MHz		: 1991.999
-cache size	: 8192 KB
-physical id	: 0
-siblings	     : 4
-core id		: 0
-cpu cores	     : 4
+processor	  : 0
+vendor_id	  : GenuineIntel
+cpu family  : 6
+model	  : 142
+model name  : Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz
+stepping	  : 10
+cpu MHz	  : 1991.999
+cache size  : 8192 KB
+physical id : 0
+siblings	  : 4
+core id	  : 0
+cpu cores	  : 4
 ```
 --------------------------------------------------------------------------------------------------------------------------------------
 
