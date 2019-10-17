@@ -22,7 +22,7 @@
 --------------------------------------------------------------------------------------------------------------------------------------
 
 ## Datenträger und Partitionen
-![Datenträger] [1]
+[Datenträger][1]
 
 Ein Datenträger muss mit einem Dateisystem(ext4) formatiert sein damit darauf Dateien und Verzeichnisse gespeichert werden können.
 Eine Partition ist ein Teil auf dem Datenträger, die von anderen Partitionen getrennt ist.
