@@ -36,12 +36,12 @@ Das /tmp ist ein Temporäres-verzeichnis bei einem reboot sind alle gespeicherte
 Im Verzeichnis /lib sind die Bibliotheksdateinen enthalten.
 ```bash
 chris@chris:~$ ls /var/log
-alternatives.log  	    dist-upgrade     	    installer         	syslog.1
-apt               	    dpkg.log         	    journal             	syslog.2.gz
-auth.log         	    faillog         	    kern.log           	syslog.3.gz
-auth.log.1        	    fontconfig.log   	    kern.log.1        	tallylog
-bootstrap.log     	    gdm3             	    lastlog             	unattended-upgrades
-btmp              	    gpu-manager.log  	    speech-dispatcher   	wtmp
+alternatives.log  	    dist-upgrade     	    installer           syslog.1
+apt               	    dpkg.log         	    journal             syslog.2.gz
+auth.log         	    faillog         	    kern.log            syslog.3.gz
+auth.log.1        	    fontconfig.log   	    kern.log.1          tallylog
+bootstrap.log     	    gdm3             	    lastlog             unattended-upgrades
+btmp              	    gpu-manager.log  	    speech-dispatcher   wtmp
 cups              	    hp               	    syslog
 
 chris@chris:~$ ls /var/log/syslog
