@@ -8,4 +8,4 @@
   ## Inhaltsverzeichnis
   -------------------------------------------------------
   ## Partitionen
-  Laut (Wikipedia)[https://de.wikipedia.org/wiki/Partition_(Datentr%C3%A4ger)]
+  Laut (Wikipedia)[https://de.wikipedia.org/wiki/Partition_(Datenträger)]
