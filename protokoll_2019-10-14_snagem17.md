@@ -26,4 +26,10 @@
 >Dynamic Link Library (DLL) bezeichnet allgemein eine dynamische Programmbibliothek; meist bezieht sich der Begriff jedoch auf die für die Betriebssysteme Microsoft Windows und OS/2 verwendete Variante. 
 DLL-Dateien verwenden das auch für ausführbare EXE-Dateien gebräuchliche Dateiformat, das in 16-Bit-Programmen das New-Executable-Format (NE)[1] und in 32- und 64-Bit-Programmen das Portable-Executable-Format (PE) ist. Diese Dateien können Programmcode (Maschinencode), Daten und Ressourcen in beliebiger Kombination enthalten.
 
+### DLL-Hülle
+Mit [DLL-Hölle](https://de.wikipedia.org/wiki/DLL-Konflikt) werden Probleme bezeichnet, die nach der Installation von [DLLs](https://de.wikipedia.org/wiki/Dynamic_Link_Library) am Betriebssystem auftreten und nur schwer lösbar sind.
+
+Quelle: [Wiki](https://de.wikipedia.org/wiki/DLL-Konflikt)
+>Der Ausdruck DLL-Konflikt (auch DLL Hell, deutsch: „DLL-Hölle“ genannt) bezeichnet ein Problem, das durch die Installation von Dynamic Link Library (DLLs) auf den Betriebssystemen der Windows-Reihe entstehen kann. Vorwiegend sind ältere Windowsversionen betroffen,[1] da diese nur beschränkte Möglichkeiten besitzen, um System-Dateien und DLL-Bibliotheken zu verwalten.
+
 ## Linux Shell
