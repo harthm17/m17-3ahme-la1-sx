@@ -8,9 +8,9 @@
 
 ## Inhaltsverzeichnis
 1. [Datenträger](https://de.wikipedia.org/wiki/Datenspeicher)
-* Partition
+* [Partition](https://de.wikipedia.org/wiki/Partition_(Datenträger))
 2. [DLL](https://de.wikipedia.org/wiki/Dynamic_Link_Library)
-* DLL Hölle
+* [DLL Hölle](https://de.wikipedia.org/wiki/DLL-Konflikt)
 3. [Linux Shell](https://de.wikipedia.org/wiki/Bash_(Shell))
 
 
@@ -33,7 +33,7 @@ Wenn man einen Datenträger [partitioniert](https://de.wikipedia.org/wiki/Partit
 >Dynamic Link Library (DLL) bezeichnet allgemein eine dynamische Programmbibliothek; meist bezieht sich der Begriff jedoch auf die für die Betriebssysteme Microsoft Windows und OS/2 verwendete Variante. 
 DLL-Dateien verwenden das auch für ausführbare EXE-Dateien gebräuchliche Dateiformat, das in 16-Bit-Programmen das New-Executable-Format (NE)[1] und in 32- und 64-Bit-Programmen das Portable-Executable-Format (PE) ist. Diese Dateien können Programmcode (Maschinencode), Daten und Ressourcen in beliebiger Kombination enthalten.
 
-### DLL-Hülle
+### DLL-Hölle
 Mit [DLL-Hölle](https://de.wikipedia.org/wiki/DLL-Konflikt) werden Probleme bezeichnet, die nach der Installation von [DLLs](https://de.wikipedia.org/wiki/Dynamic_Link_Library) am Betriebssystem auftreten und nur schwer lösbar sind.
 
 Quelle: [Wiki](https://de.wikipedia.org/wiki/DLL-Konflikt)
