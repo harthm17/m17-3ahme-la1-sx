@@ -26,7 +26,7 @@ Mit Datenträger können Daten in Form von [Bitketten](https://de.wikipedia.org/
 [Bitketten](https://de.wikipedia.org/wiki/Bitkette) werden in der Einheit Byte angegeben (1Byte = 8 Bit)
 
 ### Partition
-Wenn man einen Datenträger [partitioniert](https://de.wikipedia.org/wiki/Partition_(Datenträger)) bedeutet das, dass man ihn in mehrer Teile aufteilt. Das ist ein sehr wichtige Vorgang, da [Dateisysteme](https://de.wikipedia.org/wiki/Dateisystem) erst nach dem Partitionieren [formatiert](https://de.wikipedia.org/wiki/Formatierung) werden können
+Wenn man einen Datenträger [partitioniert](https://de.wikipedia.org/wiki/Partition_(Datenträger)) bedeutet das, dass man ihn in mehrer Teile aufteilt. Das ist ein sehr wichtige Vorgang, da [Dateisysteme](https://de.wikipedia.org/wiki/Dateisystem) erst nach dem Partitionieren [formatiert](https://de.wikipedia.org/wiki/Formatierung) werden können und auch eingebunden werden können.
 
 ## DLL
 [DLL](https://de.wikipedia.org/wiki/Dynamic_Link_Library)
