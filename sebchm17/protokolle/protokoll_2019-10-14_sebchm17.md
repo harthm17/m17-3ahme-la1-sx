@@ -15,14 +15,15 @@
       * [Gerät ausloggen](#gerät-ausloggen)
 4.  [Neuen Benutzer anlegen](#neuen-benutzer-anlegen)
 5.  [Dll](#dll)
+      * [Dll-Hölle](#dll-hölle)
 6.  [Rechte](#rechte)
       * [Rechte ändern](#rechte-ändern)
 
 --------------------------------------------------------------------------------------------------------------------------------------
 
 ## Datenträger und Partitionen
-! [Datenträger] [Datenträger]
-Quelle: https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjmv8a5q5zlAhUQsKQKHWowAnQQjB16BAgBEAM&url=https%3A%2F%2Fwww.chip.de%2Fdownloads%2FGParted-Live-64-Bit-ZIP-Version_66494949.html&psig=AOvVaw2abJxzhW5nvtWy66sY54JW&ust=1571160995931674
+![Datenträger] 
+[Datenträger](https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjmv8a5q5zlAhUQsKQKHWowAnQQjB16BAgBEAM&url=https%3A%2F%2Fwww.chip.de%2Fdownloads%2FGParted-Live-64-Bit-ZIP-Version_66494949.html&psig=AOvVaw2abJxzhW5nvtWy66sY54JW&ust=1571160995931674)
 
 Ein Datenträger muss mit einem Dateisystem(ext4) formatiert sein damit darauf Dateien und Verzeichnisse gespeichert werden können.
 Eine Partition ist ein Teil auf dem Datenträger, die von anderen Partitionen getrennt ist.
@@ -33,6 +34,9 @@ In Linux werden Partitionen als Block Device im verzeichniss /dev bereitgestellt
 ## Verzeichnisse
 
 Das /tmp ist ein Temporäres verzeichnis bei einem reboot sind alle gespeicherten Dateien gelöscht.
+
+
+
 
 --------------------------------------------------------------------------------------------------------------------------------------
 
@@ -97,7 +101,9 @@ root@chris:~# nano /etc/shadow
 
 >Dynamic Link Library (DLL) bezeichnet allgemein eine dynamische Programmbibliothek; meist bezieht sich der Begriff jedoch auf die für die Betriebssysteme Microsoft Windows und OS/2 verwendete Variante. DLL-Dateien verwenden das auch für ausführbare EXE-Dateien gebräuchliche Dateiformat, das in 16-Bit-Programmen das New-Executable-Format (NE)[1] und in 32- und 64-Bit-Programmen das Portable-Executable-Format (PE) ist. Diese Dateien können Programmcode (Maschinencode), Daten und Ressourcen in beliebiger Kombination enthalten.
 
+### Dll Hölle
 
+Der Ausdruck "Dll-Hölle" beschreibt ein Problem, das durch die Installation von Dynamic Link Library bei Betriebssystemen entstehen kann.
 
 --------------------------------------------------------------------------------------------------------------------------------------
 
