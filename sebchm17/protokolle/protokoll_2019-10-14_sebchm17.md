@@ -33,6 +33,7 @@ In Linux werden Partitionen als Block Device im verzeichniss /dev bereitgestellt
 ## Verzeichnisse
 
 Das /tmp ist ein Temporäres-verzeichnis bei einem reboot sind alle gespeicherten Dateien gelöscht.
+
 Im Verzeichnis /lib sind die Bibliotheksdateinen enthalten.
 ```bash
 chris@chris:~$ ls /var/log
