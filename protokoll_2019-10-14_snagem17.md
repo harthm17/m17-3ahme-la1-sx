@@ -23,7 +23,7 @@
 >2. für Daten jeglicher Art (auch Unterhaltung), die von Computern bzw. Computeranlagen oder Peripheriegeräten nur gelesen oder auch       geschrieben werden.
 
 Mit Datenträger können Daten in Form von [Bitketten](https://de.wikipedia.org/wiki/Bitkette) gespeichert werden. 
-[Bitketten](https://de.wikipedia.org/wiki/Bitkette) werden in der Einheit Byte angegeben (1Byte = 8 Bit)
+[Bitketten](https://de.wikipedia.org/wiki/Bitkette) werden in der Einheit Byte angegeben (1Byte = 8 Bit). Datenträger können sehr viele Bytes speichern, meist werden sie in Gigabyte oder Terrabyte angegeben.
 
 ### Partition
 Wenn man einen Datenträger [partitioniert](https://de.wikipedia.org/wiki/Partition_(Datenträger)) bedeutet das, dass man ihn in mehrer Teile aufteilt. Das ist ein sehr wichtige Vorgang, da [Dateisysteme](https://de.wikipedia.org/wiki/Dateisystem) erst nach dem Partitionieren [formatiert](https://de.wikipedia.org/wiki/Formatierung) werden können und auch eingebunden werden können.
