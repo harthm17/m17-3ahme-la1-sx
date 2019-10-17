@@ -34,3 +34,5 @@ Frühe Dateisysteme hatten nur ein einzelnes Verzeichnis, das dann Verweise auf 
 Dadurch entsteht eine Verzeichnisstruktur, die oft als Verzeichnisbaum dargestellt wird. Das Festplattenlaufwerk C: unter Windows beinhaltet beispielsweise neben Dateien wie boot.ini und ntldr auch Verzeichnisse wie Programme, Dokumente und Einstellungen usw. Ein Verzeichnis wie zum Beispiel Eigene Dateien kann dann wieder Unterverzeichnisse wie Eigene Bilder oder Texte enthalten. In Texte können dann beispielsweise die normalen Dateien Brief1.txt und Brief2.txt stehen.
  
  ![Dateisysteme](https://upload.wikimedia.org/wikipedia/de/thumb/1/1f/Filesystem.svg/800px-Filesystem.svg.png)
+#### Mount
+Der Befehl Mount zeigt an welche Partitionen bzw. Datenträger im Moment eingehängt(eng. mount) sind. 
