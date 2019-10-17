@@ -8,6 +8,7 @@
 
 ## Inhaltsverzeichnis
 1. [Datenträger](https://de.wikipedia.org/wiki/Datenspeicher)
+* Partition
 2. [DLL](https://de.wikipedia.org/wiki/Dynamic_Link_Library)
 * DLL Hölle
 3. [Linux Shell](https://de.wikipedia.org/wiki/Bash_(Shell))
@@ -20,6 +21,12 @@
 >Im engeren Sinne bezeichnet man mit Datenträger oder Speichermedium Medien, die als Datenspeicher dienen 
 >1. für Unterhaltung (Musik, Sprache, Film etc.), die mit Hilfe elektronischer Geräte abgespielt oder auch gespeichert wird; und
 >2. für Daten jeglicher Art (auch Unterhaltung), die von Computern bzw. Computeranlagen oder Peripheriegeräten nur gelesen oder auch       geschrieben werden.
+
+Mit Datenträger können Daten in Form von [Bitketten](https://de.wikipedia.org/wiki/Bitkette) gespeichert werden. 
+[Bitketten](https://de.wikipedia.org/wiki/Bitkette) werden in der Einheit Byte angegeben (1Byte = 8 Bit)
+
+### Partition
+Wenn man einen Datenträger [partitioniert](https://de.wikipedia.org/wiki/Partition_(Datenträger)) bedeutet das, dass man ihn in mehrer Teile aufteilt. Das ist ein sehr wichtige Vorgang, da [Dateisysteme](https://de.wikipedia.org/wiki/Dateisystem) erst nach dem Partitionieren [formatiert](https://de.wikipedia.org/wiki/Formatierung) werden können
 
 ## DLL
 [DLL](https://de.wikipedia.org/wiki/Dynamic_Link_Library)
