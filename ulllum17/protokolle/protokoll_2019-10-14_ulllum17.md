@@ -19,11 +19,11 @@ Ein Datenträger ist unter Partitionen unterteilt und auf den Partitionen befind
 
 Mit dem Kommando '''mount''' werden alle eingehängten Datenträger angezeigt
 
-'''bash
-ulllum17@ulllum17:~$ mount
-'''
+```bash
+mount
+```
 
-'''bash
+```bash
 sysfs on /sys type sysfs (rw,nosuid,nodev,noexec,relatime)
 proc on /proc type proc (rw,nosuid,nodev,noexec,relatime)
 udev on /dev type devtmpfs (rw,nosuid,relatime,size=2099000k,nr_inodes=524750,mode=755)
@@ -56,19 +56,57 @@ fusectl on /sys/fs/fuse/connections type fusectl (rw,relatime)
 configfs on /sys/kernel/config type configfs (rw,relatime)
 tmpfs on /run/user/1000 type tmpfs (rw,nosuid,nodev,relatime,size=425092k,mode=700,uid=1000,gid=1000)
 gvfsd-fuse on /run/user/1000/gvfs type fuse.gvfsd-fuse (rw,nosuid,nodev,relatime,user_id=1000,group_id=1000)
-'''
+```
 
 #### Mount Gerät aushängen
-Mit dem Kommando '''umount''' wird der Datenträger ausgehängt
+Mit dem Kommando ```umount``` wird der Datenträger ausgehängt
 
-'''bash
-ulllum17@ulllum17:~$ umount /mnt
-'''
+```bash
+umount /mnt
+```
 
 Früher musste jeder USB-Stick manuell eingehängt bzw. ausgehängt werden.
 
 ----------
 
-Dateien für Systemsteuerung werden in '''/etc''' gespeichert
+Dateien für Systemsteuerung werden in ```etc``` gespeichert
 
-Für 
+### Benutzer anlegen
+Um in den Superuser(Root) zuwechseln
+```bash
+sudo -i
+```
+
+Öffne die passwd Datei im nano um den Benutzer hinzuzufügen
+```bash
+nano /etc/passwd
+```
+
+```bash
+benutzer:x:1000:1000:benutzer,,,:/home/benutzer:/bin/bash
+```
+
+Öffne die group Datei im nano um die Gruppe des Benutzer hinzuzufügen
+```bash
+nano /etc/group
+```
+
+```bash
+benutzer:x:1000:
+```
+
+Öffne die shadow Datei im nano um das Passwort für den Benutzer hinzuzufügen
+```bash
+nano /etc/shadow
+```
+
+```bash
+benutzer:$6$V3MJD/zs$OZ0kBdnquiE0olDFMldDA45Hh4XI.op.siyaQ7FNsU3bkGoBy3umBOPsC/Y$:::::
+```
+
+Das Passwort ändern vom Benutzer
+
+```bash
+nano passwd benutzer
+```
+
