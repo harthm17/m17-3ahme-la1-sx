@@ -25,14 +25,38 @@ Unter Windows wird zum Beispiel das Dateisystem [NTFS](https://de.wikipedia.org/
 
 Mit dem Tool GParted kann man Partitionen erstellen, löschen und editieren.
 
-### Arten von Dateisystemen 
-#### Lineare Dateisysteme
-Die historisch ersten Dateisysteme waren lineare Dateisysteme auf Lochband oder Lochkarte sowie die noch heute für die Sicherung von Daten eingesetzten Magnetbandsysteme.
-#### Hierarchische Dateisysteme
-Frühe Dateisysteme hatten nur ein einzelnes Verzeichnis, das dann Verweise auf alle Dateien des Massenspeichers enthielt. Mit wachsender Kapazität der Datenträger wurde es immer schwieriger, den Überblick über hunderte und tausende Dateien zu bewahren, deshalb wurde das Konzept der Unterverzeichnisse eingeführt. Ein hierarchisches Dateisystem wurde für das Betriebssystem Multics entwickelt und, nachdem dessen Entwicklung eingestellt wurde, von AT&T Unix Version 1 von 1971 übernommen. Damit war die Grundlage für die meisten modernen Dateisysteme gelegt, die im Wurzelverzeichnis neben regulären Dateien auch Verweise auf weitere Verzeichnisse, die Unterverzeichnisse, enthalten können, mit möglicherweise wiederum weiteren Unterverzeichnissen.
+--------------------------
+#### Verzeichnisse unter Linux
+```bash
+michael@michael-GL752VW:/$ ls -l
+insgesamt 2097256
+drwxr-xr-x   2 root root       4096 Okt  8 19:44 bin
+drwxr-xr-x   4 root root       4096 Okt  8 19:43 boot
+drwxrwxr-x   2 root root       4096 Okt  7 18:41 cdrom
+drwxr-xr-x  21 root root       5120 Okt 18 15:12 dev
+drwxr-xr-x 124 root root      12288 Okt 17 20:13 etc
+drwxr-xr-x   4 root root       4096 Okt 12 17:21 home
+lrwxrwxrwx   1 root root         32 Okt  7 18:50 initrd.img -> boot/initrd.img-5.0.0-23-generic
+lrwxrwxrwx   1 root root         32 Okt  7 18:50 initrd.img.old -> boot/initrd.img-5.0.0-23-generic
+drwxr-xr-x  22 root root       4096 Okt 12 11:32 lib
+drwxr-xr-x   2 root root       4096 Aug  5 20:58 lib64
+drwx------   2 root root      16384 Okt  7 18:38 lost+found
+drwxr-xr-x   3 root root       4096 Okt  7 19:07 media
+drwxr-xr-x   2 root root       4096 Aug  5 20:58 mnt
+drwxr-xr-x   3 root root       4096 Okt  7 19:13 opt
+dr-xr-xr-x 337 root root          0 Okt 18 15:12 proc
+drwx------   4 root root       4096 Okt 14 13:56 root
+drwxr-xr-x  30 root root        900 Okt 18 16:44 run
+drwxr-xr-x   2 root root      12288 Okt  8 19:42 sbin
+drwxr-xr-x  16 root root       4096 Okt  7 20:20 snap
+drwxr-xr-x   2 root root       4096 Aug  5 20:58 srv
+-rw-------   1 root root 2147483648 Okt  7 18:39 swapfile
+dr-xr-xr-x  13 root root          0 Okt 18 15:12 sys
+drwxrwxrwt  17 root root       4096 Okt 18 16:44 tmp
+drwxr-xr-x  11 root root       4096 Aug  5 21:03 usr
+drwxr-xr-x  14 root root       4096 Aug  5 21:11 var
+lrwxrwxrwx   1 root root         29 Okt  7 18:50 vmlinuz -> boot/vmlinuz-5.0.0-23-generic
+```
 
-Dadurch entsteht eine Verzeichnisstruktur, die oft als Verzeichnisbaum dargestellt wird. Das Festplattenlaufwerk C: unter Windows beinhaltet beispielsweise neben Dateien wie boot.ini und ntldr auch Verzeichnisse wie Programme, Dokumente und Einstellungen usw. Ein Verzeichnis wie zum Beispiel Eigene Dateien kann dann wieder Unterverzeichnisse wie Eigene Bilder oder Texte enthalten. In Texte können dann beispielsweise die normalen Dateien Brief1.txt und Brief2.txt stehen.
- 
- ![Dateisysteme](https://upload.wikimedia.org/wikipedia/de/thumb/1/1f/Filesystem.svg/800px-Filesystem.svg.png)
 #### Mount
 Der Befehl Mount zeigt an welche Partitionen bzw. Datenträger im Moment eingehängt(eng. mount) sind. 
