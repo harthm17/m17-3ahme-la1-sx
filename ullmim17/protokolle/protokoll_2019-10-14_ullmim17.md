@@ -194,4 +194,18 @@ Jeder Klasse kann eines oder mehrere der folgenden Rechte gegeben werden.
 
 **execute**: Bei einer Datei heißt das ich kann sie als Programm ausführen und bei einem Verzeichnis ich kann in das Verzeichnis wechseln.
 
+Sehr verbreitet ist die Notation der Dateirechte in der Oktalnotation. Diese besteht aus einer drei bzw. vier Ziffern langen Oktalzahl. Jeweils eine Ziffer repräsentiert dabei eine Benutzerklasse, in der Reihenfolge Eigentümer, Gruppe, Sonstige. Eine Ziffer setzt sich dabei als Summe aus den drei Rechten zusammen:
+
+1 für Ausführen<br>
+2 für Schreiben<br>
+4 für Lesen<br>
+ 
+Die symbolische Notation ist mit z.B xwr ist die Handlichere.
+
+#### Ändern von Rechten
+
+
+
+
+
  
