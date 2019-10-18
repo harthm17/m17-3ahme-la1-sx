@@ -26,7 +26,8 @@ Unter Windows wird zum Beispiel das Dateisystem [NTFS](https://de.wikipedia.org/
 Mit dem Tool GParted kann man Partitionen erstellen, löschen und editieren.
 
 --------------------------
-#### Verzeichnisse unter Linux
+### Verzeichnisse unter Linux
+
 ```bash
 michael@michael-GL752VW:/$ ls -l
 insgesamt 2097256
@@ -57,6 +58,58 @@ drwxr-xr-x  11 root root       4096 Aug  5 21:03 usr
 drwxr-xr-x  14 root root       4096 Aug  5 21:11 var
 lrwxrwxrwx   1 root root         29 Okt  7 18:50 vmlinuz -> boot/vmlinuz-5.0.0-23-generic
 ```
+**/etc**: Im Ordner etc findet man Dateien für die Systemsteuerung.<br>
+**/root**: Home Verzeichniss des Super Users.<br>
+**/home**: Im home Verzeichnis liegen die home Verzeichnisse aller Benutzer.<br>
+**/boot**: Im boot Order liegen Dateien, die den Bootvorgang steuern.<br>
+**/dev**: Im dev Ordner liegen Gerätdateien über die der Zugriff auf Geräte erfolgt.<br>
+**/media**: Hier liegen die Gerätdateien von Wechselmedien(USB-Sticks, DVDs.)<br>
+**/mnt**: Im mnt Verzeichnis liegen Geräte, die manuell temporär eingebunden wurden.<br>
+**/bin** Im bin Verzeichnis liegen wichtige Systemprogramme.<br>
+**/tmp**: Im tmp(temporär) Ordner liegen temporäre Dateien, die beim nächsten Systemstart gelöscht werden.<br>
+**/run**: Hier liegen Dateien, die für laufende Programme wichtig sind.<br>
+**/usr**: Unix System Resources<br>
+**/var**: Hier liegen variable Daten.
+**/proc und /sys**: sind virtuelle Verzeichnisse, über die der Benutzer direkt mit dem Kernel kommunizieren kann.
+```bash
+michael@michael-GL752VW:/$ cat /proc/cpuinfo
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 94
+model name	: Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz
+stepping	: 3
+microcode	: 0xcc
+cpu MHz		: 800.010
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 8
+core id		: 0
+cpu cores	: 4
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+...
+```
+--------------------------
+### Einhängen von Dateisystemen
+Laut [Linux-1](https://lms.at/dotlrn/classes/informatik/610437.3AHME_LA1SX.19_20/xolrn/7BF1B31508DF3.symlink?resource_id=0-385942208&m=view#150959512)
+>In Windows wird jedes unterstützte Dateisystem auf einem formatierten Datenträger bzw. einer Partition über einen Laufwerksbuchstaben als Verzeichniswurzel verfügbar gemacht. A: und B: sind für Floppy-Laufwerke vorgesehen. C: ist daher normaler­ weise das erste Festplatten-Dateisystem. Die Einbindung funktioniert automatisch.<br>
+In Linux gibt es nur eine Verzeichniswurzel. Diese wird mit / (dem Slash) benannt.
+Für Dateisysteme auf Floppy-Laufwerken, CD/DVD-Laufwerken, Festplatten, Netzlauf­ werken, ... wird ein Verzeichnis an einer beliebigen Stelle im Verzeichnisbaum erstellt, und dieses Verzeichnis, der mount-point, wird mit dem Dateisystem verbunden.
+Wir sprechen vom „mounten eines Device“, zu deutsch „einhängen eines Geräts“. In aktuelle Linux-Desktop-Distributionen geschieht der Vorgang voll automatisch. Die Geräte sind unter dem Verzeichnis /media zu finden.
 
-#### Mount
-Der Befehl Mount zeigt an welche Partitionen bzw. Datenträger im Moment eingehängt(eng. mount) sind. 
+Die aktuell gemounteten Dateisysteme lassen sich mit dem Befehl mount anzeigen.
+```bash
+michael@michael-GL752VW:/$ mount
+...
+/dev/sda1 on / type ext4 (rw,errors=remount-ro)
+/dev/sdb1 on /media/816E-DD42 type vfat (rw,nosuid,nodev,uid=1000,gid=1000, ...)
+/dev/sdc1 on /media/6F112B4136D46EAE type fuseblk (rw,nosuid, ...)
+```
+Die Informationen in den Klammern geben an in welchem Modus die Geräte eingebunden sind. Mehr Informationen findet man mit man mount.
+
+ 
