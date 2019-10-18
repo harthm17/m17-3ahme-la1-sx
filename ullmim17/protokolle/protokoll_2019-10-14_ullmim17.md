@@ -114,6 +114,57 @@ Die Informationen in den Klammern geben an in welchem Modus die Geräte eingebun
 
 #### Manuelles Einhängen von Geräten
 
+Über den Befehl mount können Geräte auch manuell eingehängt werden.
+```bash
+mount Gerätename mount-point -Optionen
+michael@michael-GL752VW:~$ sudo mount /dev/sdb1 /mnt 
+```
+#### Manuelles Aushängen von Geräten
 
+Ein eingehängtes Gerät kann über den Befehl unmount entfernt werden.
+```bash
+unmount Gerätename
+michael@michael-GL752VW:~$ sudo umount /dev/sdb1
+```
+### Einen neuen Benutzer hinzufügen
+
+Man kann einen neuen Benutzer entweder über den Befehl adduser anlegen oder manuell über die Shell. Dazu muss man lediglich ein paar Dateien bearbeiten.
+
+1) Die Datei /etc/passwd
+
+Die Datei /etc/passwd ist die zentrale Benutzerdatenbank. Mit cat/etc/passwd oder nano /etc/passwd kann man diese Datei anschauen. Hier werden alle Benutzer des Systems aufgelistet.
+
+Ein Benutzerkonto in dieser Datei hat folgende Syntax:
+
+**Benutzername : Passwort : UID : GID : Info : Heimatverzeichnis : Shell**
+
+**Benutzername:**	Dies ist der Benutzername in druckbaren Zeichen, meistens in Kleinbuchstaben.<br>
+**Passwort:**	Hier steht verschlüsselt das Passwort des Benutzers (bei alten Systemen). Meist finden Sie dort ein x. Dies bedeutet, dass das Passwort verschlüsselt in der Datei /etc/shadow steht. <br>
+**UID:**	Die Benutzer-ID des Benutzers. <br>
+**GID:**	Die Gruppen-ID des Benutzers. <br>
+**Info:**	Hier kann weitere Information vermerkt werden.<br>
+**Heimatverzeichnis:**	Das Heimatverzeichnis des Benutzers bzw. das Startverzeichnis nach dem Login.<br>
+**Shell:**	Die Shell, die nach der Anmeldung gestartet werden soll. Bleibt dieses Feld frei, dann wird die Standardshell /bin/sh gestartet.<br>
+
+```bash
+michael@michael-GL752VW:~$ sudo nano /etc/passwd
+ullmi17:schueler:500:500::/home/ullmi17:/bin/bash
+```
+2)Die Datei /etc/group
+
+In dieser Datei findet man die Benutzergruppen und ihre Mitglieder.
+
+Der Eintrag einer Gruppe in die Datei sieht so aus:
+
+**Gruppenname : Passwort : GID : Benutzernamen (Mitgliederliste)**
+
+**Gruppenname:**	Der Name der Gruppe in druckbare Zeichen, auch hier meistens Kleinbuchstaben.<br>
+**Passwort:**	Die Besonderheit hier ist folgende: Wenn das Passwort eingerichtet ist, können auch Nichtmitglieder der Gruppe Zugang zu den Daten der Gruppe erhalten, wenn ihnen das Passwort bekannt ist. Ein x sagt hier aus, das das Passwort in /etc/gshadow abgelegt ist. Der Eintrag kann auch entfallen, dann ist die Gruppe nicht durch ein Passwort geschützt. In diesem Fall kann jedoch auch kein Benutzer in die Gruppe wechseln, der nicht in diese Gruppe eingetragen ist.<br>
+**GID:**	Gruppen-ID der Gruppe<br>
+**Benutzernamen:**	Hier werden die Mitglieder der Gruppe eingetragen. Diese sind durch ein einfaches Komma getrennt.
+```bash
+michael@michael-GL752VW:~$ sudo nano /etc/group
+ullmi17::500:ullmi17
+```
 
  
