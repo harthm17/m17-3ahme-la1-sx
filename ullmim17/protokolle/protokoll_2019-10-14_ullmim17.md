@@ -126,6 +126,7 @@ Ein eingehängtes Gerät kann über den Befehl unmount entfernt werden.
 unmount Gerätename
 michael@michael-GL752VW:~$ sudo umount /dev/sdb1
 ```
+--------
 ### Einen neuen Benutzer hinzufügen
 
 Man kann einen neuen Benutzer entweder über den Befehl adduser anlegen oder manuell über die Shell. Dazu muss man lediglich ein paar Dateien bearbeiten.
@@ -170,7 +171,7 @@ ullmi17::500:ullmi17
 
 Bei früheren Versionen von Linux speicherte man die die Passwörter direkt in die passwd-Datei. Allerdings war dies durch einen sogenannten Wörterbuchangriff und der beispielsweise mit Hilfe des Programmes crypt möglich, diese Passwörter in vielen Fällen zu entschlüsseln und auszulesen.
 Deshalb hat man die Datei /etc/shadow eingeführt, in der die Angaben über die Passwörter durch ein spezielles System besser geschützt werden.
-
+-----
 ### Dateirechte unter Linux
 
 Laut [Wikipedia](https://de.wikipedia.org/wiki/Unix-Dateirechte)
@@ -221,7 +222,15 @@ drwxr-xr-x 2 michael michael     4096 Okt  7 19:04 Bilder
 ---x-w-rwx 1 michael michael  2424470 Jän  6  2018 codeblocks_17.12-1_amd64.deb
 -rw-r--r-- 1 michael michael 13759596 Jän  6  2018 codeblocks_17.12-1_amd64_stable.tar.xz
 ```
-``
+-----
+### DLL
+Laut [Wikipedia](https://de.wikipedia.org/wiki/Dynamic_Link_Library#Schw%C3%A4chen)
+>Dynamic Link Library (DLL) bezeichnet allgemein eine dynamische Programmbibliothek; meist bezieht sich der Begriff jedoch auf die für die Betriebssysteme Microsoft Windows und OS/2 verwendete Variante.<br>
+DLL-Dateien verwenden das auch für ausführbare EXE-Dateien gebräuchliche Dateiformat, das in 16-Bit-Programmen das New-Executable-Format (NE)[1] und in 32- und 64-Bit-Programmen das Portable-Executable-Format (PE) ist. Diese Dateien können Programmcode (Maschinencode), Daten und Ressourcen in beliebiger Kombination enthalten.<br>
+Die Windows-Dateinamenserweiterung für solche Bibliotheken ist gewöhnlich DLL, es können auch andere Dateiendungen wie OCX (für Bibliotheken mit ActiveX-Steuerelementen), DRV oder CPL (für die Systemsteuerung) sein.
+
+### Schwächen
+Ein bei Windows auch DLL-Hölle genanntes Problem tritt auf, wenn mehrere Anwendungen verschiedene Versionen der gleichen DLL benötigen. Falls einem Programm die erforderliche Version fehlt, kann das zu Problemen, wie fehlerhaften Installationen, führen. Dieser Konflikt kann oft behoben werden, indem die jeweils richtige Version der Programmbibliothek in den Programmordner des jeweiligen Programms kopiert wird. Der Effekt der Speicherersparnis wird dadurch allerdings wieder zunichtegemacht. 
 
 
 
