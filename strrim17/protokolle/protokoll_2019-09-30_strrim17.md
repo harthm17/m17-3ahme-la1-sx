@@ -3,8 +3,7 @@
 * **Datum:** 30.09.2019
 * **Gefehlt:** ---
 * **Erstellt von:** strrim17
-* **Protokoll letzte Einheit:**
-* **Protokoll nächste Einheit:**
+* **Protokoll nächste Einheit:** [Linux / Shell](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/edit/strrim17/strrim17/protokolle/protokoll_2019-10-14_strrim17.md)
 
 ------------------------------------------------------------------------------------------------------------------------
 
