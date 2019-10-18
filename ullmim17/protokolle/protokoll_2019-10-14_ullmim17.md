@@ -8,7 +8,7 @@
   ## Inhaltsverzeichnis
   1.  [Paritionen](#partitionen)
   2.  [Dateisysteme](#dateisysteme)
-  3.  [Verzeichnisse unter Linux](###VerzeichnisseunterLinux)
+  3.  [Verzeichnisse unter Linux](#VerzeichnisseunterLinux)
   4.  [Einhängen von Dateisystemen](#einhängenvondateisystemen)
       * [Manuelles Einhängen von Geräten](#manuelleseinhängenvongeräten)
       * [Manuelles Aushängen von Geräten](#manuellesaushängenvongeräten)
