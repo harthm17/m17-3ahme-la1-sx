@@ -166,5 +166,32 @@ Der Eintrag einer Gruppe in die Datei sieht so aus:
 michael@michael-GL752VW:~$ sudo nano /etc/group
 ullmi17::500:ullmi17
 ```
+3)Die Datei /etc/shadow
+
+Bei früheren Versionen von Linux speicherte man die die Passwörter direkt in die passwd-Datei. Allerdings war dies durch einen sogenannten Wörterbuchangriff und der beispielsweise mit Hilfe des Programmes crypt möglich, diese Passwörter in vielen Fällen zu entschlüsseln und auszulesen.
+Deshalb hat man die Datei /etc/shadow eingeführt, in der die Angaben über die Passwörter durch ein spezielles System besser geschützt werden.
+
+### Dateirechte unter Linux
+
+Laut [Wikipedia](https://de.wikipedia.org/wiki/Unix-Dateirechte)
+>Die Unix-Dateirechte sind Dateiberechtigungen bei Unix und Unix-Derivaten wie Linux und Mac OS X. Die Berechtigungsaufteilung in Eigentümer, Gruppe und Andere gibt es seit UNIX-V4 (1974). In früheren UNIX-Versionen gab es nur 6 Bit für die Dateirechte (Lesen/Schreiben für Eigentümer und Nicht-Eigentümer, Execute und Set-UID). Die aktuellen UNIX-Dateirechte zeichnen sich durch eine einfache Struktur aus, die einerseits intuitiv von Menschen verwendet werden kann und andererseits keine hohen Ansprüche an Computer stellt. Trotzdem lassen sich mit diesen Dateirechten selbst komplexe Alltagsprobleme in einem Mehrbenutzerumfeld lösen.
+
+In Linux besitzt jede Datei(auch Verzeichnisse) Zugriffsrechte.
+
+Es gibt drei Benutzerklassen, denen unterschiedliche Rechte vergeben werden können.
+
+1)Eigentümer(user)
+
+2)Gruppe(group)
+
+3)Alle Anderen(others)
+
+Jeder Klasse kann eines oder mehrere der folgenden Rechte gegeben werden.
+
+**read**: Bei einer Datei heißt das ich kann sie lesen und bei einem  Verzeichnis ich kann den Inhalt sehen.
+
+**write**: Bei einer Datei und einem Verzeichnis heißt das ich kann den Inhalt verändern.
+
+**execute**: Bei einer Datei heißt das ich kann sie als Programm ausführen und bei einem Verzeichnis ich kann in das Verzeichnis wechseln.
 
  
