@@ -6,8 +6,21 @@
   * **Erstellt von:** Michael Ully 
   --------------------------------------------------
   ## Inhaltsverzeichnis
+  1.  [Paritionen](#partitionen)
+  2.  [Dateisysteme](#dateisysteme)
+  3.  [Verzeichnisse unter Linux](#verzeichnisseunterlinux)
+  4.  [Einhängen von Dateisystemen](#einhängenvondateisystemen)
+      * [Manuelles Einhängen von Geräten](#manuelleseinhängenvongeräten)
+      * [Manuelles Aushängen von Geräten](#manuellesaushängenvongeräten)
+  5.  [Einen neuen Benutzer hinzufügen](#einenneuenBenutzerhinzufügen)
+  6. [Dateirechte unter Linux](#dateirechteunterlinux)
+      * [Ändern von Rechten](#ändernvonrechten)
+6.  [Dll](#dll)
+      * [Schwächen](#schwächen)
+
+
   -------------------------------------------------------
-  ## Partitionen <br>
+  ## Partitionen 
   
   Laut 
   [Wikipedia](https://de.wikipedia.org/wiki/Partition_(Datenträger))
