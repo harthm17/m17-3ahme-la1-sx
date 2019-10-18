@@ -112,4 +112,8 @@ michael@michael-GL752VW:/$ mount
 ```
 Die Informationen in den Klammern geben an in welchem Modus die Geräte eingebunden sind. Mehr Informationen findet man mit man mount.
 
+#### Manuelles Einhängen von Geräten
+
+
+
  
