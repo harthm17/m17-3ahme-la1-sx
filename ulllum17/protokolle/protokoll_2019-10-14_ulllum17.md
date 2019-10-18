@@ -107,6 +107,6 @@ benutzer:$6$V3MJD/zs$OZ0kBdnquiE0olDFMldDA45Hh4XI.op.siyaQ7FNsU3bkGoBy3umBOPsC/Y
 Das Passwort ändern vom Benutzer
 
 ```bash
-nano passwd benutzer
+sudo passwd benutzer
 ```
 
