@@ -203,6 +203,16 @@ Sehr verbreitet ist die Notation der Dateirechte in der Oktalnotation. Diese bes
 Die symbolische Notation ist mit z.B xwr ist die Handlichere.
 
 #### Ändern von Rechten
+Mit dem Befehl chmod kann ich die Zugriffsrechte einer Datei verändern.
+```bash
+michael@michael-GL752VW:~$ ls -l
+insgesamt 31632
+drwxr-xr-x 2 michael michael     4096 Okt  7 19:04 Bilder
+-rw-r--r-- 1 michael michael    16319 Jän  6  2018 codeblocks_17.12-1_amd64.buildinfo
+-rw-r--r-- 1 michael michael     7482 Jän  6  2018 codeblocks_17.12-1_amd64.changes
+-rw-r--r-- 1 michael michael  2424470 Jän  6  2018 codeblocks_17.12-1_amd64.deb
+-rw-r--r-- 1 michael michael 13759596 Jän  6  2018 codeblocks_17.12-1_amd64_stable.tar.xz
+
 
 
 
