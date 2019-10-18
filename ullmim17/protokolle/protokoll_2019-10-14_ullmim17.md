@@ -10,7 +10,7 @@
   2.  [Dateisysteme](#dateisysteme)
   3.  [Verzeichnisse unter Linux](#VerzeichnisseunterLinux)
   4.  [Einhängen von Dateisystemen](#einhängenvondateisystemen)
-      * [Manuelles Einhängen von Geräten](#manuelleseinhaengenvongeräten)
+      * [Manuelles Einhängen von Geräten](#manuelleseinhängenvongeräten)
       * [Manuelles Aushängen von Geräten](#manuellesaushängenvongeräten)
   5.  [Einen neuen Benutzer hinzufügen](#einenneuenBenutzerhinzufügen)
   6. [Dateirechte unter Linux](#dateirechteunterlinux)
