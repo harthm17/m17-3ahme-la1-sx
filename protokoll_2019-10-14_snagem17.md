@@ -53,6 +53,6 @@ Rechte in der EDV, dienen zum Regeln, wer die Dateien lesen, schreiben, ändern 
 Es gibt 3 verschiedene Rechte: 
 
 **Datei:**                                        **Verzeichnis:**
-r = read(lesen)                                   r = Inhalt sehen
-w = write(schreiben,modifizieren)                 w = Inhalt veränderbar
-x = execute(ausführen)                            x = In das Verzeichnis wechseln
+* r = read(lesen)                                 * r = Inhalt sehen
+* w = write(schreiben,modifizieren)               * w = Inhalt veränderbar
+* x = execute(ausführen)                          * x = In das Verzeichnis wechseln
