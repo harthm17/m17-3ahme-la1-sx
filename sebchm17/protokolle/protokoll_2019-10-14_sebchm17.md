@@ -1,6 +1,6 @@
 # Protokoll Labor/SX 3AHME (2019/20)
 
-* **Thema** : Shell, Linux
+* **Thema** : Shell; Datenträger
 * **Datum** : 14.10.2019
 * **Gruppe** : 4
 * **Protokollverfasser** : Christoph Sebernegg
@@ -20,7 +20,6 @@
       * [Rechte ändern](#rechte-ändern)
 
 --------------------------------------------------------------------------------------------------------------------------------
-
 ## Datenträger und Partitionen
 [Datenträger][1]
 
@@ -131,9 +130,16 @@ Einen neuen Benutzer in der Shell anzulegen funktioniert mit dem Befehl ``adduse
 
 ```bash
 chris@chris:~# sudo-i
+```
 
+
+```bash
 root@chris:~# nano /etc/passwd
 sebchm17:schueler:1000:1000::/home/sebchm17:/bin/bash
+```
+
+
+```bash
 
 root@chris:~# nano /etc/group
 sebchm17::1000:sebchm17
