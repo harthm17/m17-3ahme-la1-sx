@@ -22,43 +22,60 @@ Ein Datenträger ist unter Partitionen unterteilt und auf den Partitionen befind
 Mit dem Kommando ```mount``` werden alle eingehängten Datenträger angezeigt
 
 ```bash
-mount
-```
-
-```bash
+ulllum17@ulllum17:~/Schreibtisch$ mount
 sysfs on /sys type sysfs (rw,nosuid,nodev,noexec,relatime)
 proc on /proc type proc (rw,nosuid,nodev,noexec,relatime)
-udev on /dev type devtmpfs (rw,nosuid,relatime,size=2099000k,nr_inodes=524750,mode=755)
+udev on /dev type devtmpfs (rw,nosuid,relatime,size=2711196k,nr_inodes=677799,mode=755)
 devpts on /dev/pts type devpts (rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000)
-tmpfs on /run type tmpfs (rw,nosuid,noexec,relatime,size=425096k,mode=755)
-/dev/sda1 on / type ext4 (rw,relatime,errors=remount-ro,data=ordered)
+tmpfs on /run type tmpfs (rw,nosuid,noexec,relatime,size=547016k,mode=755)
 securityfs on /sys/kernel/security type securityfs (rw,nosuid,nodev,noexec,relatime)
 tmpfs on /dev/shm type tmpfs (rw,nosuid,nodev)
 tmpfs on /run/lock type tmpfs (rw,nosuid,nodev,noexec,relatime,size=5120k)
 tmpfs on /sys/fs/cgroup type tmpfs (ro,nosuid,nodev,noexec,mode=755)
-cgroup on /sys/fs/cgroup/unified type cgroup2 (rw,nosuid,nodev,noexec,relatime)
+cgroup on /sys/fs/cgroup/unified type cgroup2 (rw,nosuid,nodev,noexec,relatime,nsdelegate)
 cgroup on /sys/fs/cgroup/systemd type cgroup (rw,nosuid,nodev,noexec,relatime,xattr,name=systemd)
 pstore on /sys/fs/pstore type pstore (rw,nosuid,nodev,noexec,relatime)
-cgroup on /sys/fs/cgroup/devices type cgroup (rw,nosuid,nodev,noexec,relatime,devices)
-cgroup on /sys/fs/cgroup/freezer type cgroup (rw,nosuid,nodev,noexec,relatime,freezer)
-cgroup on /sys/fs/cgroup/net_cls,net_prio type cgroup (rw,nosuid,nodev,noexec,relatime,net_cls,net_prio)
-cgroup on /sys/fs/cgroup/cpu,cpuacct type cgroup (rw,nosuid,nodev,noexec,relatime,cpu,cpuacct)
 cgroup on /sys/fs/cgroup/pids type cgroup (rw,nosuid,nodev,noexec,relatime,pids)
-cgroup on /sys/fs/cgroup/cpuset type cgroup (rw,nosuid,nodev,noexec,relatime,cpuset)
-cgroup on /sys/fs/cgroup/rdma type cgroup (rw,nosuid,nodev,noexec,relatime,rdma)
-cgroup on /sys/fs/cgroup/perf_event type cgroup (rw,nosuid,nodev,noexec,relatime,perf_event)
-cgroup on /sys/fs/cgroup/blkio type cgroup (rw,nosuid,nodev,noexec,relatime,blkio)
 cgroup on /sys/fs/cgroup/memory type cgroup (rw,nosuid,nodev,noexec,relatime,memory)
+cgroup on /sys/fs/cgroup/net_cls,net_prio type cgroup (rw,nosuid,nodev,noexec,relatime,net_cls,net_prio)
+cgroup on /sys/fs/cgroup/freezer type cgroup (rw,nosuid,nodev,noexec,relatime,freezer)
+cgroup on /sys/fs/cgroup/cpu,cpuacct type cgroup (rw,nosuid,nodev,noexec,relatime,cpu,cpuacct)
+cgroup on /sys/fs/cgroup/perf_event type cgroup (rw,nosuid,nodev,noexec,relatime,perf_event)
+cgroup on /sys/fs/cgroup/rdma type cgroup (rw,nosuid,nodev,noexec,relatime,rdma)
+cgroup on /sys/fs/cgroup/cpuset type cgroup (rw,nosuid,nodev,noexec,relatime,cpuset)
+cgroup on /sys/fs/cgroup/devices type cgroup (rw,nosuid,nodev,noexec,relatime,devices)
 cgroup on /sys/fs/cgroup/hugetlb type cgroup (rw,nosuid,nodev,noexec,relatime,hugetlb)
-systemd-1 on /proc/sys/fs/binfmt_misc type autofs (rw,relatime,fd=30,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=12345)
+cgroup on /sys/fs/cgroup/blkio type cgroup (rw,nosuid,nodev,noexec,relatime,blkio)
+systemd-1 on /proc/sys/fs/binfmt_misc type autofs (rw,relatime,fd=25,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=12621)
+debugfs on /sys/kernel/debug type debugfs (rw,relatime)
 mqueue on /dev/mqueue type mqueue (rw,relatime)
 hugetlbfs on /dev/hugepages type hugetlbfs (rw,relatime,pagesize=2M)
-debugfs on /sys/kernel/debug type debugfs (rw,relatime)
-fusectl on /sys/fs/fuse/connections type fusectl (rw,relatime)
 configfs on /sys/kernel/config type configfs (rw,relatime)
-tmpfs on /run/user/1000 type tmpfs (rw,nosuid,nodev,relatime,size=425092k,mode=700,uid=1000,gid=1000)
+fusectl on /sys/fs/fuse/connections type fusectl (rw,relatime)
+/var/lib/snapd/snaps/gnome-system-monitor_100.snap on /snap/gnome-system-monitor/100 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-logs_81.snap on /snap/gnome-logs/81 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-3-28-1804_67.snap on /snap/gnome-3-28-1804/67 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-calculator_406.snap on /snap/gnome-calculator/406 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/core_7270.snap on /snap/core/7270 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-characters_317.snap on /snap/gnome-characters/317 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/core18_1066.snap on /snap/core18/1066 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gtk-common-themes_1353.snap on /snap/gtk-common-themes/1353 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-characters_296.snap on /snap/gnome-characters/296 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/core18_1223.snap on /snap/core18/1223 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-3-28-1804_71.snap on /snap/gnome-3-28-1804/71 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gtk-common-themes_1313.snap on /snap/gtk-common-themes/1313 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/core_7917.snap on /snap/core/7917 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-logs_61.snap on /snap/gnome-logs/61 type squashfs (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-calculator_501.snap on /snap/gnome-calculator/501 type squashfs (ro,nodev,relatime,x-gdu.hide)
+tmpfs on /run/user/1000 type tmpfs (rw,nosuid,nodev,relatime,size=547012k,mode=700,uid=1000,gid=1000)
 gvfsd-fuse on /run/user/1000/gvfs type fuse.gvfsd-fuse (rw,nosuid,nodev,relatime,user_id=1000,group_id=1000)
+/dev/sr0 on /media/mrrobot/VBox_GAs_5.2.26 type iso9660 (ro,nosuid,nodev,relatime,nojoliet,check=s,map=n,blocksize=2048,uid=1000,gid=1000,dmode=500,fmode=400,uhelper=udisks2)
+/dev/sda1 on / type ext4 (rw,relatime,errors=remount-ro)
+
 ```
+*/dev/sda1 on / type ext4 (rw,relatime,errors=remount-ro)* ist die Hauptfestplatte
+
+#### Mount Gerät einhängen
 
 #### Mount Gerät aushängen
 Mit dem Kommando ```umount``` wird der Datenträger ausgehängt
@@ -143,9 +160,9 @@ Es wird unterschieden in Datei- und Verzeichnisrechte
 * x...Datei als Programm ausführen (execute)
 
 **Verzeichnis:**    
-* r...Inhalt des Verzeichnises sehen (read)
-* w...Inhalt des Verzeicnises ändern (write)
-* x...In das Verzeichnis wechseln (execute)
+* r...Inhalt des Verzeichnisses sehen (read)
+* w...Inhalt des Verzeichnisses ändern (write)
+* x...In das Verzeichniss wechseln (execute)
 
 
 #### Rechte ändern
@@ -163,17 +180,15 @@ Die Rechte werden in Form einer dreistelligen Oktal-Zahl angegeben, wobei jede Z
 
 rwxr-xr-x    
  7 - 5 - 3  (oktal)
- 
- **Verzeichnis hat die Rechte *rwxr-xr-x*, wir möchten sie ändern auf *drwxr-x-wx***
- 
+  
  ```bash
 ulllum17@MrRobotsPC:~/Schreibtisch$ ls -l
 insgesamt 4
-drwxr-x--- 2 ulllum17 ulllum17 4096 Okt 19 19:32 Verzeichnis
-ulllum17@ulllum17:~/Schreibtisch$ chmod 753 Verzeichnis/
+drwxr-xr-x 2 ulllum17 ulllum17 4096 Okt 19 19:32 Verzeichnis
+ulllum17@ulllum17:~/Schreibtisch$ chmod 750 Verzeichnis/
 ulllum17@ulllum17:~/Schreibtisch$ ls -l
 insgesamt 4
-drwxr-x-wx 2 ulllum17 ulllum17 4096 Okt 19 19:32 Verzeichnis
+drwxr-x--- 2 ulllum17 ulllum17 4096 Okt 19 19:32 Verzeichnis
  ```
 #### Simbolischeverfahren
 
@@ -184,16 +199,14 @@ o..others
 +...rechte geben    
 -...rechte entziehen    
 
-
-**Wir möchten der group, write und execute rechte geben**
 ```bash
 ulllum17@ulllum17:~/Schreibtisch$ ls -l
 insgesamt 4
-drwx---r-x 2 ulllum17 ulllum17 4096 Okt 19 20:00 Verzeichnis
-ulllum17@ulllum17:~/Schreibtisch$ chmod g+wx Verzeichnis/
+drwxr-xr-x 2 ulllum17 ulllum17 4096 Okt 19 20:00 Verzeichnis
+ulllum17@ulllum17:~/Schreibtisch$ chmod o-rwx Verzeichnis/
 ulllum17@ulllum17:~/Schreibtisch$ ls -l
 insgesamt 4
-drwx-wxr-x 2 ulllum17 ulllum17 4096 Okt 19 20:00 Verzeichnis
+drwxr-x--- 2 ulllum17 ulllum17 4096 Okt 19 20:00 Verzeichnis
 ```
 
 
