@@ -34,6 +34,7 @@ Wenn man einen Datenträger [partitioniert](https://de.wikipedia.org/wiki/Partit
 >Dynamic Link Library (DLL) bezeichnet allgemein eine dynamische Programmbibliothek; meist bezieht sich der Begriff jedoch auf die für die Betriebssysteme Microsoft Windows und OS/2 verwendete Variante. 
 DLL-Dateien verwenden das auch für ausführbare EXE-Dateien gebräuchliche Dateiformat, das in 16-Bit-Programmen das New-Executable-Format (NE)[1] und in 32- und 64-Bit-Programmen das Portable-Executable-Format (PE) ist. Diese Dateien können Programmcode (Maschinencode), Daten und Ressourcen in beliebiger Kombination enthalten.
 
+**DLL** = (Dynamic Link Library) sind sogennannte so-Dateien (Static Optic File)
 DLL's dienen dazu, den Speicher möglichst wenig zu belasten.
 
 ### DLL-Hölle
@@ -43,6 +44,12 @@ Quelle: [Wiki](https://de.wikipedia.org/wiki/DLL-Konflikt)
 >Der Ausdruck DLL-Konflikt (auch DLL Hell, deutsch: „DLL-Hölle“ genannt) bezeichnet ein Problem, das durch die Installation von Dynamic Link Library (DLLs) auf den Betriebssystemen der Windows-Reihe entstehen kann. Vorwiegend sind ältere Windowsversionen betroffen, da diese nur beschränkte Möglichkeiten besitzen, um System-Dateien und DLL-Bibliotheken zu verwalten.
 
 ## Linux Shell
+
+### Gerät ein-/aushängen
+Mit [mount](https://wiki.ubuntuusers.de/mount/#Dateisysteme-einbinden) kann man das Gerät einhängen, jedoch sind hinter dem mount noch weitere Kommandos nötig.
+
+
+Mit [umount](https://wiki.ubuntuusers.de/mount/#Dateisysteme-aushaengen) kann das Gerät wieder ausgehängt werden.
 
 ##  Rechte
 
