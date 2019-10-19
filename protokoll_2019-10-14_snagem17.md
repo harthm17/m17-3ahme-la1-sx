@@ -66,7 +66,7 @@ Es gibt 3 verschiedene Rechte:
 0=nicht zulässig
 1=zulässig
 
-uuu ggg ooo
-rwx rwx rwx
-110 100 000 = Dateirechte
+* uuu ggg ooo
+* rwx rwx rwx
+* 110 100 000 = Dateirechte
 
