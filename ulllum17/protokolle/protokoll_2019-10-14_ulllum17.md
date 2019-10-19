@@ -15,6 +15,8 @@
 
 Ein Datenträger ist unter Partitionen unterteilt und auf den Partitionen befindet sich das Dateisysteme(Linux ext4, Windows NTFS)
 
+
+
 ### Mount Gerät einhängen
 
 Mit dem Kommando '''mount''' werden alle eingehängten Datenträger angezeigt
@@ -72,6 +74,13 @@ Früher musste jeder USB-Stick manuell eingehängt bzw. ausgehängt werden.
 Dateien für Systemsteuerung werden in ```etc``` gespeichert
 
 ### Benutzer anlegen
+
+Es gibt zwei möglichkeiten einen neuen Benutzer anzulegen:
+* Mit dem Befehl *adduser*
+* Manuell
+
+Benutzer Manuell anlegen:
+
 **Um in den Superuser(Root) zuwechseln**
 ```bash
 sudo -i
@@ -117,10 +126,10 @@ sudo passwd benutzer
 
 #### DLL-Hölle
 [Wikipedia](https://de.wikipedia.org/wiki/DLL-Konflikt)
-> Der Ausdruck DLL-Konflikt (auch DLL Hell, deutsch: „DLL-Hölle“ genannt) bezeichnet äein Problem, das durch die Installation von Dynamic Link Library (DLLs) auf den Betriebssystemen der Windows-Reihe entstehen kann.
+> Der Ausdruck DLL-Konflikt (auch DLL Hell, deutsch: „DLL-Hölle“ genannt) bezeichnet ein Problem, das durch die Installation von Dynamic Link Library (DLLs) auf den Betriebssystemen der Windows-Reihe entstehen kann.
 
 **Problem:**    
-DLLs werden von verschiedenen Programmen in unterschiedlichen Versionen benötigt, welche in der Regel an einem zentraler Ort (im Windows- oder Systemverzeichnis) abgelegt werden. Das spart Speicherplatz und kann die Programmausführung deutlich beschleunigen, da das System weniger Zeit benötigt, um die für das Programm jeweils richtige DLL-Version zu finden. Andererseits kann die Installation eines neuen Programms dazu führen, dass eine neue DLL die alte Version überschreibt. Obwohl die noch von einem andren Programm benötigt wird.
+DLLs werden von verschiedenen Programmen in unterschiedlichen Versionen benötigt, welche in der Regel an einem zentralem Ort (im Windows- oder Systemverzeichnis) gespeichert. Das spart Speicherplatz und kann die Programmausführung deutlich beschleunigen, da das System weniger Zeit benötigt, um die für das Programm jeweils richtige DLL-Version zu finden. Andererseits kann die Installation eines neuen Programms dazu führen, dass eine neue DLL die alte Version überschreibt. Obwohl die noch von einem anderem Programm benötigt wird.
 
 ----------------------
 
@@ -137,5 +146,54 @@ Es wird unterschieden in Datei- und Verzeichnisrechte
 * r...Inhalt des Verzeichnises sehen (read)
 * w...Inhalt des Verzeicnises ändern (write)
 * x...In das Verzeichnis wechseln (execute)
+
+
+#### Rechte ändern
+Es gibt drei Benutzerklassen, denen man unterschiedliche Rechte geben kann
+* user (Eigentümer)
+* group (Gruppe)
+* others (alle anderen)
+
+Es gibt zwei möglichkeiten Rechte zu ändern:
+* Oktalverfahren
+* Symbolischeverfahren
+    
+#### Oktaleverfahren    
+Die Rechte werden in Form einer dreistelligen Oktal-Zahl angegeben, wobei jede Ziffer für die Rechte einer Gruppe steht.
+
+rwxr-xr-x    
+ 7 - 5 - 3  (oktal)
+ 
+ **Verzeichnis hat die Rechte *rwxr-xr-x*, wir möchten sie ändern auf *drwxr-x-wx***
+ 
+ ```bash
+ulllum17@MrRobotsPC:~/Schreibtisch$ ls -l
+insgesamt 4
+drwxr-x--- 2 ulllum17 ulllum17 4096 Okt 19 19:32 Verzeichnis
+ulllum17@ulllum17:~/Schreibtisch$ chmod 753 Verzeichnis/
+ulllum17@ulllum17:~/Schreibtisch$ ls -l
+insgesamt 4
+drwxr-x-wx 2 ulllum17 ulllum17 4096 Okt 19 19:32 Verzeichnis
+ ```
+#### Simbolischeverfahren
+
+u...user    
+g...group    
+o..others    
+
++...rechte geben    
+-...rechte entziehen    
+
+
+**Wir möchten der group, write und execute rechte geben**
+```bash
+ulllum17@ulllum17:~/Schreibtisch$ ls -l
+insgesamt 4
+drwx---r-x 2 ulllum17 ulllum17 4096 Okt 19 20:00 Verzeichnis
+ulllum17@ulllum17:~/Schreibtisch$ chmod g+wx Verzeichnis/
+ulllum17@ulllum17:~/Schreibtisch$ ls -l
+insgesamt 4
+drwx-wxr-x 2 ulllum17 ulllum17 4096 Okt 19 20:00 Verzeichnis
+```
 
 
