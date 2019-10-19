@@ -12,6 +12,7 @@
 2. [DLL](https://de.wikipedia.org/wiki/Dynamic_Link_Library)
 * [DLL Hölle](https://de.wikipedia.org/wiki/DLL-Konflikt)
 3. [Linux Shell](https://de.wikipedia.org/wiki/Bash_(Shell))
+4. Rechte
 
 
 ## Datenträger
@@ -26,7 +27,7 @@ Mit Datenträger können Daten in Form von [Bitketten](https://de.wikipedia.org/
 [Bitketten](https://de.wikipedia.org/wiki/Bitkette) werden in der Einheit Byte angegeben (1Byte = 8 Bit). Datenträger können sehr viele Bytes speichern, meist werden sie in Gigabyte oder Terrabyte angegeben.
 
 ### Partition
-Wenn man einen Datenträger [partitioniert](https://de.wikipedia.org/wiki/Partition_(Datenträger)) bedeutet das, dass man ihn in mehrer Teile aufteilt. Das ist ein sehr wichtige Vorgang, da [Dateisysteme](https://de.wikipedia.org/wiki/Dateisystem) erst nach dem Partitionieren [formatiert](https://de.wikipedia.org/wiki/Formatierung) werden können und auch eingebunden werden können.
+Wenn man einen Datenträger [partitioniert](https://de.wikipedia.org/wiki/Partition_(Datenträger)) bedeutet das, dass man ihn in mehrer Teile aufteilt. Das ist ein sehr wichtige Vorgang, da [Dateisysteme](https://de.wikipedia.org/wiki/Dateisystem) erst nach dem Partitionieren [formatiert](https://de.wikipedia.org/wiki/Formatierung) und eingebunden werden können.
 
 ## DLL
 [DLL](https://de.wikipedia.org/wiki/Dynamic_Link_Library)
@@ -42,3 +43,9 @@ Quelle: [Wiki](https://de.wikipedia.org/wiki/DLL-Konflikt)
 >Der Ausdruck DLL-Konflikt (auch DLL Hell, deutsch: „DLL-Hölle“ genannt) bezeichnet ein Problem, das durch die Installation von Dynamic Link Library (DLLs) auf den Betriebssystemen der Windows-Reihe entstehen kann. Vorwiegend sind ältere Windowsversionen betroffen, da diese nur beschränkte Möglichkeiten besitzen, um System-Dateien und DLL-Bibliotheken zu verwalten.
 
 ## Linux Shell
+
+##  Rechte
+
+Rechte in der EDV, dienen zum Regeln, wer die Dateien lesen, schreiben, ändern oder ausführen darf. Es wird zwischen **Eigentümer**, **Gruppe**, und **Alle anderen** unterschieden.
+
+![Bild](https://upload.wikimedia.org/wikipedia/de/1/19/Zugriffsrecht.png)
