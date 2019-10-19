@@ -34,8 +34,7 @@ Wenn man einen Datenträger [partitioniert](https://de.wikipedia.org/wiki/Partit
 >Dynamic Link Library (DLL) bezeichnet allgemein eine dynamische Programmbibliothek; meist bezieht sich der Begriff jedoch auf die für die Betriebssysteme Microsoft Windows und OS/2 verwendete Variante. 
 DLL-Dateien verwenden das auch für ausführbare EXE-Dateien gebräuchliche Dateiformat, das in 16-Bit-Programmen das New-Executable-Format (NE)[1] und in 32- und 64-Bit-Programmen das Portable-Executable-Format (PE) ist. Diese Dateien können Programmcode (Maschinencode), Daten und Ressourcen in beliebiger Kombination enthalten.
 
-**DLL** = (Dynamic Link Library) sind sogennannte so-Dateien (Static Optic File)
-DLL's dienen dazu, den Speicher möglichst wenig zu belasten.
+**DLL** = (Dynamic Link Library) sind sogennannte so-Dateien (Static Optic File) und dienen dazu, den Speicher möglichst wenig zu belasten.
 
 ### DLL-Hölle
 Mit [DLL-Hölle](https://de.wikipedia.org/wiki/DLL-Konflikt) werden Probleme bezeichnet, die nach der Installation von [DLLs](https://de.wikipedia.org/wiki/Dynamic_Link_Library) am Betriebssystem auftreten und nur schwer lösbar sind.
