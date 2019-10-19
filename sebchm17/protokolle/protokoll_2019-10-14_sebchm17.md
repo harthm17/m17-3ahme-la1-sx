@@ -4,7 +4,7 @@
 * **Datum** : 14.10.2019
 * **Gruppe** : 4
 * **Protokollverfasser** : Christoph Sebernegg
-* **Protokoll letzte Einheit** : [Protokoll](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/sebchm17/sebchm17/protokolle/protokolle_2019-09-30sebchm17.md)
+* **Protokoll letzte Einheit** : [1.Protokoll](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/sebchm17/sebchm17/protokolle/protokolle_2019-09-30sebchm17.md)
 
 --------------------------------------------------------------------------------------------------------------------------------
 ## Inhaltsverzeichnis
@@ -95,7 +95,6 @@ wp		: yes
 Der Befehl ``mount`` zeigt alle aktuelle gemounteten Dateisysteme an, die im System eingehängt sind.
 
 ```bash
-
 chris@chris:~$ mount
 sysfs on /sys type sysfs (rw,nosuid,nodev,noexec,relatime)
 proc on /proc type proc (rw,nosuid,nodev,noexec,relatime)
@@ -103,7 +102,6 @@ udev on /dev type devtmpfs (rw,nosuid,relatime,size=2550532k,nr_inodes=637633,mo
 devpts on /dev/pts type devpts (rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000)
 tmpfs on /run type tmpfs (rw,nosuid,noexec,relatime,size=514880k,mode=755)
 /dev/sda1 on / type ext4 (rw,relatime,errors=remount-ro)
-
 ```
 
 In der letzten Zeile wird angezeigt, dass es sich um die Hauptfestplatte handelt und sie in ext4 formatiert ist.
@@ -126,27 +124,27 @@ chris@chris:~$ sudo umount /dev/sdb1
 --------------------------------------------------------------------------------------------------------------------------------
 ## Neuen Benutzer anlegen
 
-Einen neuen Benutzer in der Shell anzulegen funktioniert mit dem Befehl ``adduser``  aber es funktioniert auch über eine etwas altmodischere Art quasi den Benutzer mit der Hand anzulegen. Dafür muss zuerst in den superuser mode (root) gewechselt werden.
+Einen neuen Benutzer in der Shell anzulegen funktioniert mit dem Befehl ``adduser``  aber es funktioniert auch über eine etwas altmodischere Art quasi den Benutzer mit der Hand anzulegen. 
 
 ```bash
 chris@chris:~# sudo-i
 ```
-
-
+Dafür muss zuerst in den superuser mode (root) gewechselt werden.
 ```bash
 root@chris:~# nano /etc/passwd
 sebchm17:schueler:1000:1000::/home/sebchm17:/bin/bash
 ```
-
-
+Um diese Datei anschauen zu können gibt man entweder cat oder nano ein. Hier werden alle Benutzer des Systems aufgelistet.
 ```bash
-
 root@chris:~# nano /etc/group
 sebchm17::1000:sebchm17
-
-root@chris:~# nano /etc/shadow
-
 ```
+Hier sind die Benutzergruppen und ihre Mitglieder zu finden.
+```bash
+root@chris:~# nano /etc/shadow
+```
+In älteren Ubuntu-Versionen wurden die Passwörter in passwd Dateien gespeichert. Diese Methode um Passwörter zu speichern war sehr naiv, weil man die Passtwörter sehr leicht entschlüsseln und auslesen konnte. Deswegen gibt es etc/passwd, in der die Angaben über die Passwörter durch ein spezielles System besser geschützt werden.
+
 --------------------------------------------------------------------------------------------------------------------------------
 ## Dll
 [Wikipedia](https://de.wikipedia.org/wiki/Dynamic_Link_Library)
@@ -203,8 +201,7 @@ Die Zeilen, die mit einem d anfangen sind Verzeichnisse. Nach dem d kommen die e
 chris@chris:~$ chmod 750 /home/Dokumente/test1.odt
 -rwxr-x--- 1 chris chris    7 Okt 16 20:36  test1.odt
 ````
---------------------------------------------------------------------------------------------------------------------------------------
-
+--------------------------------------------------------------------------------------------------------------------------------
 [Protokoll]:https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/sebchm17/sebchm17/protokolle/protokolle_2019-09-30sebchm17.md
 
 [1]:https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&ved=2ahUKEwiDguKV-6PlAhXECuwKHVEUALYQjRx6BAgBEAQ&url=https%3A%2F%2Faskubuntu.com%2Fquestions%2F738750%2Fcant-install-windows-10-alongside-ubuntu-mbr-error&psig=AOvVaw2vhHPiv5KrXulP44vjbXqN&ust=1571424375747436
