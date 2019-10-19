@@ -12,6 +12,7 @@
 2. [DLL](https://de.wikipedia.org/wiki/Dynamic_Link_Library)
 * [DLL Hölle](https://de.wikipedia.org/wiki/DLL-Konflikt)
 3. [Linux Shell](https://de.wikipedia.org/wiki/Bash_(Shell))
+* Befehle
 4. Rechte
 
 
@@ -49,6 +50,15 @@ Mit [mount](https://wiki.ubuntuusers.de/mount/#Dateisysteme-einbinden) kann man 
 
 
 Mit [umount](https://wiki.ubuntuusers.de/mount/#Dateisysteme-aushaengen) kann das Gerät wieder ausgehängt werden.
+
+### Befehle
+
+sudo -i = man wird zum Superuser (Superuser root)
+
+**Verwaltung:**
+* nano/etc/passwd
+* nano/etc/group
+* nano/etc/shadow
 
 ##  Rechte
 
