@@ -10,8 +10,8 @@
 ## Inhaltsverzeichnis
 1. [Datenträger](#datenträger)
     * [Partitionstabellen](#partitionstabellen)
-    * [Gerät einhengen](#gerät-einhengen)
-    * [Gerät aushengen](#gerät-aushengen)
+    * [Gerät einhängen](#gerät-einhängen)
+    * [Gerät aushängen](#gerät-aushängen)
     * [Dateien für Systemsteuerung](#dateien-für-systemsteuerung)
 2. [Benutzer erstellen](#benutzer-erstellen)
 3. [Benutzer zu einer Gruppe hinzufügen](#benutzer-zu-einer-gruppe-hinzufügen)
@@ -22,7 +22,7 @@
 7. [Befehle](befehle)
 -------------------------------------------------------------------------------------------------------------------------------------
 ## Datenträger
-Ein Datenträger besteht aus Partitionen, kleinere und größere, in diesen Partitionen befindet sich das Dateisystem (bei Linux: ext4,
+Ein Datenträger besteht aus Partitionen, Kleinere und Größere, in diesen Partitionen befindet sich das Dateisystem (bei Linux: ext4,
 bei Microsoft: NTFS).
 ![Datenträger](\Documents/Datenträger.png)
 ### Partitionstabellen
@@ -30,15 +30,15 @@ bei Microsoft: NTFS).
 sudo -i                   // Man muss zuerst in den Superuser sonst hat man keinen Zugriff
 fdisk /dev/sda            // Auflistung der Partitionstabellen
 ```
-### Gerät einhengen
-Früher musste man den USB-Stick immer ein- und aushengen.
+### Gerät einhängen
+Früher musste man den USB-Stick immer ein- und aushängen.
 ```
 mount                     // Zeigt an was alles im System eingehenkt ist (Hauptfestplatte: /dev/sda1 on
 ll /mnt 
 mount /dev/sda1/mnt
 ls /mnt
 ```
-### Gerät aushengen
+### Gerät aushängen
 ```
 umount /mnt
 ```
@@ -64,7 +64,7 @@ chown <eigener Benutzer>: <eigener Benutzer> /home/<eigener Benutzer>
 ```
 ------------------------------------------------------------------------------------------------------------------------------
 ## Benutzer zu einer Gruppe hinzufügen
-Wenn man einen anderen benutzer zu deiner Gruppe hinzufügen will dann muss man in seinen eigenen Verzeichnis sein
+Wenn man einen anderen Benutzer zu deiner Gruppe hinzufügen will, dann muss man in seinen eigenen Verzeichnis sein.
 ```
 ll /etc/group 
 ```
