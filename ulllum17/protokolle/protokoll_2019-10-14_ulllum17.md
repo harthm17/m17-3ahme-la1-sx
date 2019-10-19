@@ -72,12 +72,12 @@ Früher musste jeder USB-Stick manuell eingehängt bzw. ausgehängt werden.
 Dateien für Systemsteuerung werden in ```etc``` gespeichert
 
 ### Benutzer anlegen
-Um in den Superuser(Root) zuwechseln
+**Um in den Superuser(Root) zuwechseln**
 ```bash
 sudo -i
 ```
 
-Öffne die passwd Datei im nano um den Benutzer hinzuzufügen
+**Öffne die passwd Datei im nano um den Benutzer hinzuzufügen**
 ```bash
 nano /etc/passwd
 ```
@@ -86,7 +86,7 @@ nano /etc/passwd
 benutzer:x:1000:1000:benutzer,,,:/home/benutzer:/bin/bash
 ```
 
-Öffne die group Datei im nano um die Gruppe des Benutzer hinzuzufügen
+**Öffne die group Datei im nano um die Gruppe des Benutzer hinzuzufügen**
 ```bash
 nano /etc/group
 ```
@@ -95,7 +95,7 @@ nano /etc/group
 benutzer:x:1000:
 ```
 
-Öffne die shadow Datei im nano um das Passwort für den Benutzer hinzuzufügen
+**Öffne die shadow Datei im nano um das Passwort für den Benutzer hinzuzufügen**
 ```bash
 nano /etc/shadow
 ```
@@ -103,8 +103,9 @@ nano /etc/shadow
 ```bash
 benutzer:$6$V3MJD/zs$OZ0kBdnquiE0olDFMldDA45Hh4XI.op.siyaQ7FNsU3bkGoBy3umBOPsC/Y$:::::
 ```
+*Als passwort kann eine beliebige Passwortzeile kopiert werden.*
 
-Das Passwort ändern vom Benutzer
+**Das Passwort ändern vom Benutzer**
 
 ```bash
 sudo passwd benutzer
@@ -118,8 +119,23 @@ sudo passwd benutzer
 [Wikipedia](https://de.wikipedia.org/wiki/DLL-Konflikt)
 > Der Ausdruck DLL-Konflikt (auch DLL Hell, deutsch: „DLL-Hölle“ genannt) bezeichnet äein Problem, das durch die Installation von Dynamic Link Library (DLLs) auf den Betriebssystemen der Windows-Reihe entstehen kann.
 
-**Problem:**
+**Problem:**    
 DLLs werden von verschiedenen Programmen in unterschiedlichen Versionen benötigt, welche in der Regel an einem zentraler Ort (im Windows- oder Systemverzeichnis) abgelegt werden. Das spart Speicherplatz und kann die Programmausführung deutlich beschleunigen, da das System weniger Zeit benötigt, um die für das Programm jeweils richtige DLL-Version zu finden. Andererseits kann die Installation eines neuen Programms dazu führen, dass eine neue DLL die alte Version überschreibt. Obwohl die noch von einem andren Programm benötigt wird.
 
+----------------------
+
+### Rechte
+
+Es wird unterschieden in Datei- und Verzeichnisrechte
+
+**Datei:**    
+* r...Inahlt lesen (read)    
+* w...Inhalt modifizieren (write)
+* x...Datei als Programm ausführen (execute)
+
+**Verzeichnis:**    
+* r...Inhalt des Verzeichnises sehen (read)
+* w...Inhalt des Verzeicnises ändern (write)
+* x...In das Verzeichnis wechseln (execute)
 
 
