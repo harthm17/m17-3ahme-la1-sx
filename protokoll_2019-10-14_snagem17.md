@@ -46,7 +46,7 @@ Quelle: [Wiki](https://de.wikipedia.org/wiki/DLL-Konflikt)
 
 ##  Rechte
 
-Rechte in der EDV, dienen zum Regeln, wer die Dateien lesen, schreiben, ändern oder ausführen darf. Es wird zwischen **Eigentümer**, **Gruppe** und **Alle anderen** unterschieden.
+Rechte in der EDV, dienen zum Regeln, wer die Dateien lesen, schreiben, ändern oder ausführen darf. Es wird zwischen **Eigentümer=user=u**, **Gruppe=group=g** und **Alle anderen=others=o** unterschieden.
 
 ![Bild](https://upload.wikimedia.org/wikipedia/de/1/19/Zugriffsrecht.png)
 
@@ -61,3 +61,12 @@ Es gibt 3 verschiedene Rechte:
 * r = Inhalt sehen
 * w = Inhalt veränderbar
 * x = In das Verzeichnis wechseln
+
+**Beispiel:**
+0=nicht zulässig
+1=zulässig
+
+uuu ggg ooo
+rwx rwx rwx
+110 100 000 = Dateirechte
+
