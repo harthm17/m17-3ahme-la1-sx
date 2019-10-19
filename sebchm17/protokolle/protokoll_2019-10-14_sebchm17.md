@@ -8,15 +8,14 @@
 --------------------------------------------------------------------------------------------------------------------------------
 ## Inhaltsverzeichnis
 1.  [Datenträger und Partitionen](#datenträger-und-partitionen)
-2.  [Dateisysteme](#dateisysteme)
-3.  [Verzeichnisse](#verzeichnisse)
-4.  [Mount](#mount)
+1.  [Verzeichnisse](#verzeichnisse)
+1.  [Mount](#mount)
       * [Gerät einloggen](#gerät-einloggen)
       * [Gerät ausloggen](#gerät-ausloggen)
-5.  [Neuen Benutzer anlegen](#neuen-benutzer-anlegen)
-6.  [Dll](#dll)
+1.  [Neuen Benutzer anlegen](#neuen-benutzer-anlegen)
+1.  [Dll](#dll)
       * [Dll-Hölle](#dll-hölle)
-7.  [Rechte](#rechte)
+1.  [Rechte](#rechte)
       * [Rechte ändern](#rechte-ändern)
 
 --------------------------------------------------------------------------------------------------------------------------------
