@@ -13,13 +13,13 @@
 --------------------------------------------------------------------------
 ## Datenträger
 
-Ein Datenträger ist unter Partitionen unterteilt und auf den Partitionen befindet sich das Dateisysteme(Linux ext4, Windows NTFS)
-
+Ein Datenträger ist unter Partitionen unterteilt und auf den Partitionen befindet sich das Dateisystem(Linux ext4, Windows NTFS)
+![Datenträger](https://user-images.githubusercontent.com/55395678/67149888-2d05d180-f2b1-11e9-9e4c-383a3caf429c.png)
 
 
 ### Mount Gerät einhängen
 
-Mit dem Kommando '''mount''' werden alle eingehängten Datenträger angezeigt
+Mit dem Kommando ```mount``` werden alle eingehängten Datenträger angezeigt
 
 ```bash
 mount
