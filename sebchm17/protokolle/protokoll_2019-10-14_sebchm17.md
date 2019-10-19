@@ -5,36 +5,46 @@
 * **Gruppe** 4
 * **Protokoll letzte Einheit** : [Protokoll](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/sebchm17/sebchm17/protokolle/protokolle_2019-09-30sebchm17.md)
 
---------------------------------------------------------------------------------------------------------------------------------------
-
+--------------------------------------------------------------------------------------------------------------------------------
 ## Inhaltsverzeichnis
 1.  [Datenträger und Partitionen](#datenträger-und-partitionen)
-2.  [Verzeichnisse](#verzeichnisse)
-3.  [Mount](#mount)
+2.  [Dateisysteme](#dateisysteme)
+3.  [Verzeichnisse](#verzeichnisse)
+4.  [Mount](#mount)
       * [Gerät einloggen](#gerät-einloggen)
       * [Gerät ausloggen](#gerät-ausloggen)
-4.  [Neuen Benutzer anlegen](#neuen-benutzer-anlegen)
-5.  [Dll](#dll)
+5.  [Neuen Benutzer anlegen](#neuen-benutzer-anlegen)
+6.  [Dll](#dll)
       * [Dll-Hölle](#dll-hölle)
-6.  [Rechte](#rechte)
+7.  [Rechte](#rechte)
       * [Rechte ändern](#rechte-ändern)
 
---------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------
 
 ## Datenträger und Partitionen
 [Datenträger][1]
 
-Ein Datenträger muss mit einem Dateisystem(ext4) formatiert sein damit darauf Dateien und Verzeichnisse gespeichert werden können.
+Ein Datenträger muss mit einem Dateisystem formatiert sein damit darauf Dateien und Verzeichnisse gespeichert werden können.
 Eine Partition ist ein Teil auf dem Datenträger, die von anderen Partitionen getrennt ist.
 In Linux werden Partitionen als Block Device im verzeichniss /dev bereitgestellt. In Ubuntu können die Partitionstabellen mit dem Programm Gparted angezeigt werden.
 
---------------------------------------------------------------------------------------------------------------------------------------
-
+--------------------------------------------------------------------------------------------------------------------------------
 ## Verzeichnisse
 
-Das /tmp ist ein Temporäres-verzeichnis bei einem reboot sind alle gespeicherten Dateien gelöscht.
+/etc: Im Ordner etc findet man Dateien für die Systemsteuerung.
+/root: Das ist das "Home Verzeichnis" des Super Users.
+/tmp: ist ein Temporäres-verzeichnis, dass bei einem reboot alle gespeicherten Dateien löscht.
+/lib: Im Ornder lib sind die Bibliotheksdateinen enthalten.
+/home: Hier befinden sich alle Verzeichnisse aller Benutzer
+/boot: Das ist der Boot-ordner und hier liegen die datein die für den Bootvorgang zuständig sind.
+/dev: enthält alle Gerätedateien, über die die Hardware im Betrieb angesprochen werden.
+/var: enthält variable Dateien. 
+/mnt: Im mnt Verzeichnis liegen Geräte, die manuell temporär eingebunden wurden.
+/bin: Im dem Verzeichnis bin liegen wichtige Systemprogramme wie zum Beispiel die Shell.
+/run: Hier liegen Dateien, die für laufende Programme wichtig sind.
+/usr: enthält die meisten Systemtools, Bibliotheken und installierten Programme.
+/proc und /sys: sind virtuelle Verzeichnisse, über die der Benutzer direkt mit dem Kernel komunizieren kann.
 
-Im Verzeichnis /lib sind die Bibliotheksdateinen enthalten.
 ```bash
 chris@chris:~$ ls /var/log
 alternatives.log  	    dist-upgrade     	    installer           syslog.1
@@ -61,24 +71,29 @@ Oct 17 21:19:19 chris kernel: [  126.333132] audit: type=1400 audit(1571339959.6
 Oct 17 21:19:53 chris PackageKit: get-updates transaction /136_edaaacdd from uid 1000 finished with success after 785ms
 
 chris@chris:~$ cat /proc/cpuinfo
-processor	      : 0
-vendor_id	      : GenuineIntel
-cpu family      : 6
-model	      : 142
-model name      : Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz
-stepping	      : 10
-cpu MHz	      : 1991.999
-cache size      : 8192 KB
-physical id     : 0
-siblings	      : 4
-core id	      : 0
-cpu cores	      : 4
-```
---------------------------------------------------------------------------------------------------------------------------------------
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 142
+model name	: Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz
+stepping	: 10
+cpu MHz		: 1991.999
+cache size	: 8192 KB
+physical id	: 0
+siblings	: 4
+core id		: 0
+cpu cores	: 4
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
 
-## Mount 
+```  
+--------------------------------------------------------------------------------------------------------------------------------## Mount 
 
-Der Befehl ``mount`` zeigt an was alles im System eingehängt ist.
+Der Befehl ``mount`` zeigt alle aktuelle gemounteten Dateisysteme an, die im System eingehängt sind.
 
 ```bash
 
@@ -98,12 +113,18 @@ In der letzten Zeile wird angezeigt, dass es sich um die Hauptfestplatte handelt
 
 Früher musste man einen Usb Stick immer einloggen und wieder aussloggen. Heute wird dies automatischdurchgeführt.
 Mit dem Komando ```mount``` kann man ein man manuelles Einhängen durchführen.
+ ```bash
+ chris@chris:~$ sudo mount /dev/sdb1/mnt
+ ```
 
 ### Gerät ausloggen
 
 Ein eingehängtes Dateisystem kann mit dem Befehl umount wieder entfernt werden.
+```bash
+chris@chris:~$ sudo umount /dev/sdb1
+```
 
---------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------
 ## Neuen Benutzer anlegen
 
 Einen neuen Benutzer in der Shell anzulegen funktioniert mit dem Befehl ``adduser``  aber es funktioniert auch über eine etwas altmodischere Art quasi den Benutzer mit der Hand anzulegen. Dafür muss zuerst in den superuser mode (root) gewechselt werden.
@@ -112,14 +133,15 @@ Einen neuen Benutzer in der Shell anzulegen funktioniert mit dem Befehl ``adduse
 chris@chris:~# sudo-i
 
 root@chris:~# nano /etc/passwd
-chris:x:1000:1000:chris,,,:/home/chris:/bin/bash#
+sebchm17:schueler:1000:1000::/home/sebchm17:/bin/bash
 
 root@chris:~# nano /etc/group
-chris:x:1000:
+sebchm17::1000:sebchm17
 
 root@chris:~# nano /etc/shadow
+
 ```
---------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------
 ## Dll
 [Wikipedia](https://de.wikipedia.org/wiki/Dynamic_Link_Library)
 
@@ -131,7 +153,7 @@ Windows braucht bei Updates 8-10 mal mehr GB als Linux.
 
 Der Ausdruck "Dll-Hölle" beschreibt ein Problem, das durch die Installation von Dynamic Link Library bei Betriebssystemen entstehen kann.
 
---------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------
 ## Rechte 
 
 Datei :
