@@ -70,3 +70,4 @@ Es gibt 3 verschiedene Rechte:
 * rwx rwx rwx
 * 110 100 000 = Dateirechte
 
+ieses Beispiel üwrde jetzt bedeuten, dass der User (Eigentümer) die Datei lesen und veränderndarf aber nicht ausführen darf und dass die Gruppe lesen darf. Alle anderen dürfen mit der Datei gar nichts machen.
