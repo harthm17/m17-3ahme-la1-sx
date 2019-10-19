@@ -109,4 +109,17 @@ Das Passwort ändern vom Benutzer
 ```bash
 sudo passwd benutzer
 ```
+-----------------
+### DLL
+[Wikipedia](https://de.wikipedia.org/wiki/Dynamic_Link_Library)
+> Dynamic Link Library (DLL) bezeichnet allgemein eine dynamische Programmbibliothek; meist bezieht sich der Begriff jedoch auf die für die Betriebssysteme Microsoft Windows und OS/2 verwendete Variante. 
+
+#### DLL-Hölle
+[Wikipedia](https://de.wikipedia.org/wiki/DLL-Konflikt)
+> Der Ausdruck DLL-Konflikt (auch DLL Hell, deutsch: „DLL-Hölle“ genannt) bezeichnet äein Problem, das durch die Installation von Dynamic Link Library (DLLs) auf den Betriebssystemen der Windows-Reihe entstehen kann.
+
+**Problem:**
+DLLs werden von verschiedenen Programmen in unterschiedlichen Versionen benötigt, welche in der Regel an einem zentraler Ort (im Windows- oder Systemverzeichnis) abgelegt werden. Das spart Speicherplatz und kann die Programmausführung deutlich beschleunigen, da das System weniger Zeit benötigt, um die für das Programm jeweils richtige DLL-Version zu finden. Andererseits kann die Installation eines neuen Programms dazu führen, dass eine neue DLL die alte Version überschreibt. Obwohl die noch von einem andren Programm benötigt wird.
+
+
 
