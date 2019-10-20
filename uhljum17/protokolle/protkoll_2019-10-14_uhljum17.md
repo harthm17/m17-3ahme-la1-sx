@@ -181,9 +181,15 @@ Der Besitzer einer Datei (dazu zählen auch Verzeichnisse) kann mit Hilfe des Ko
 
 Soll auch die Gruppe gleich mit geändert werden, kann hinter dem Namen ein Doppelpunkt und die neue Gruppe angegeben werden.
 
+```
 user@ubuntu:~$ sudo chown user text.txt
+
 user@ubuntu:~$ sudo chown user:schueler text.txt
+```
 
 Die Gruppe einer Datei kann mit dem Kommando chgrp geändert werden:
 
+````
 user@ubuntu:~$ sudo chgrp schueler text.txt
+````
+
