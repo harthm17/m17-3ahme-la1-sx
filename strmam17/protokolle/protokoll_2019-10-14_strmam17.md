@@ -24,7 +24,7 @@
 ## Datenträger
 Ein Datenträger besteht aus Partitionen, Kleinere und Größere, in diesen Partitionen befindet sich das Dateisystem (bei Linux: ext4,
 bei Microsoft: NTFS).
-![Datenträger](\Documents/Datenträger.png)
+![Datenträger](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/strmam17/template/Datentr%C3%A4ger.png)
 ### Partitionstabellen
 ```
 sudo -i                   // Man muss zuerst in den Superuser sonst hat man keinen Zugriff
