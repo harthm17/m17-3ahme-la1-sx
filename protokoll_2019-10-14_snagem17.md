@@ -13,7 +13,7 @@
 * [DLL Hölle](https://de.wikipedia.org/wiki/DLL-Konflikt)
 3. [Linux Shell](https://de.wikipedia.org/wiki/Bash_(Shell))
 * Befehle
-4. Rechte
+4. [Rechte](https://wiki.ubuntuusers.de/Homeverzeichnis/#Rechte)
 5. [Verzeichnisse](https://de.wikipedia.org/wiki/Verzeichnisstruktur)
 * [Home-Verzeichnis](https://wiki.ubuntuusers.de/Homeverzeichnis/)
 
