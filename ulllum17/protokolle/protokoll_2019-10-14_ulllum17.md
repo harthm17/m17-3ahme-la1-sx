@@ -9,6 +9,15 @@
 * **Protokoll nächste Einheit:**
 --------------------------------------------------------------------------
 ## Inhaltsverzeichnis
+1. [Datenträger](#datenträger)
+    1. [Mount Gerät einhängen](#mount_gerät_einhängen)
+    1. [Mount Gerät aushängen](#mount_gerät_aushängen)
+1. [Benutzer anlegen](#benutzer_anlegen)
+1. [DLL](#dll)
+    1. [DLL-Hölle](#dll-hölle)
+1. [Rechte](#rechte)
+    1. [Oktalverfahren](#oktlverfahren)
+    1. [Symbolischeverfahren](#symbolischeverfahren)
 
 --------------------------------------------------------------------------
 ## Datenträger
@@ -73,9 +82,7 @@ gvfsd-fuse on /run/user/1000/gvfs type fuse.gvfsd-fuse (rw,nosuid,nodev,relatime
 /dev/sda1 on / type ext4 (rw,relatime,errors=remount-ro)
 
 ```
-*/dev/sda1 on / type ext4 (rw,relatime,errors=remount-ro)* ist die Hauptfestplatte
-
-#### Mount Gerät einhängen
+*/dev/sda1 on / type ext4 (rw,relatime,errors=remount-ro)* ist die **Hauptfestplatte**
 
 #### Mount Gerät aushängen
 Mit dem Kommando ```umount``` wird der Datenträger ausgehängt
@@ -93,7 +100,7 @@ Dateien für Systemsteuerung werden in ```etc``` gespeichert
 ### Benutzer anlegen
 
 Es gibt zwei möglichkeiten einen neuen Benutzer anzulegen:
-* Mit dem Befehl *adduser*
+* Mit dem Befehl ```adduser```
 * Manuell
 
 Benutzer Manuell anlegen:
