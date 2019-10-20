@@ -14,6 +14,7 @@
 3. [Linux Shell](https://de.wikipedia.org/wiki/Bash_(Shell))
 * Befehle
 4. Rechte
+5. [Verzeichnisse](https://de.wikipedia.org/wiki/Verzeichnisstruktur)
 
 
 ## Datenträger
@@ -88,3 +89,5 @@ Es gibt 3 verschiedene Rechte:
 * 110 100 000 = Dateirechte
 
 Dieses Beispiel würde jetzt bedeuten, dass der User (Eigentümer) die Datei lesen und verändern darf aber nicht ausführen darf und dass die Gruppe lesen darf. Alle anderen dürfen mit der Datei gar nichts machen.
+
+## Verzeichnisse
