@@ -68,6 +68,9 @@ sudo -i = man wird zum Superuser (Superuser root)
 nano/etc/passwd
 nano/etc/group
 nano/etc/shadow
+passwd <Benutzer>
+nano /etc/shadow
+chown <Benutzer>: <Benutzer> /home/<Benutzer>
 ```
 ##  Rechte
 
@@ -108,7 +111,7 @@ Das [Home - Verzeichnis](https://wiki.ubuntuusers.de/Homeverzeichnis/)ist das Ve
 ```
 /home
 ```
-* Beispiel mit der ID snagem:
+* Beispiel mit der ID **snagem**:
 ```
 /home/snagem
 ```
