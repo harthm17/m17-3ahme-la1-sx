@@ -70,7 +70,7 @@ nano/etc/group
 nano/etc/shadow
 passwd <Benutzer>
 nano /etc/shadow
-chown <Benutzer>: <Benutzer> /home/<Benutzer>
+chown <Benutzer>:<Benutzer> /home/<Benutzer>
 ```
 ##  Rechte
 
