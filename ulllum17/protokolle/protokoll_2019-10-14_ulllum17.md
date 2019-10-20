@@ -10,14 +10,16 @@
 --------------------------------------------------------------------------
 ## Inhaltsverzeichnis
 1. [Datenträger](#datenträger)
-    1. [Mount Gerät einhängen](#mount_gerät_einhängen)
-    1. [Mount Gerät aushängen](#mount_gerät_aushängen)
+1. [Verzeichnisse unter Linux](#verzeichnisse_unter_linux)
+1. [Dateisysteme einhängen](#dateisystem_einhängen)
+    1. [Manuell Gerät einhängen](#manuell_gerät_einhängen)
+    1. [Manuell Gerät aushängen](#manuell_gerät_aushängen)
 1. [Benutzer anlegen](#benutzer_anlegen)
 1. [DLL](#dll)
     1. [DLL-Hölle](#dll-hölle)
 1. [Rechte](#rechte)
-    1. [Oktalverfahren](#oktlverfahren)
-    1. [Symbolischeverfahren](#symbolischeverfahren)
+    1. [Oktalverfahren](#oktaleverfahren)
+    1. [symbolische Verfahren](#symbolische_verfahren)
 
 --------------------------------------------------------------------------
 ## Datenträger
@@ -25,8 +27,17 @@
 Ein Datenträger ist unter Partitionen unterteilt und auf den Partitionen befindet sich das Dateisystem(Linux ext4, Windows NTFS)
 ![Datenträger](https://user-images.githubusercontent.com/55395678/67149888-2d05d180-f2b1-11e9-9e4c-383a3caf429c.png)
 
+## Verzeichnisse unter Linux
+**/bin** Hier befinden sich wichtige Programme für den Benutzer z.B. Shell    
+**/dev** Hier befinden sich die Gerätedatein    
+**/etc** Hier befinde sich die Daten für die Systemsteuerung    
+**/root** Dies ist das Heimatverzeichnis des Systemverwalters root    
+**/lib** Hier sind wichtige Funktionsbibliotheken    
+**/tmp** Hier werden Daten temporär gespeichtert. Bei einem neustart des Systems sind diese gelöscht    
 
-### Mount Gerät einhängen
+
+
+### Dateisysteme einhängen
 
 Mit dem Kommando ```mount``` werden alle eingehängten Datenträger angezeigt
 
@@ -84,18 +95,25 @@ gvfsd-fuse on /run/user/1000/gvfs type fuse.gvfsd-fuse (rw,nosuid,nodev,relatime
 ```
 */dev/sda1 on / type ext4 (rw,relatime,errors=remount-ro)* ist die **Hauptfestplatte**
 
-#### Mount Gerät aushängen
-Mit dem Kommando ```umount``` wird der Datenträger ausgehängt
+#### Manuell Gerät einhängen
+
+**Hängt ein Gerät /dev/sdb1 ein und macht es unter /mnt/usbstick verfügrbar. Der Ordner /mnt/usbstick muss vorher erstellt werden**
 
 ```bash
-umount /mnt
+mount /dev/sdb1 /mnt/usbstick
 ```
 
-Früher musste jeder USB-Stick manuell eingehängt bzw. ausgehängt werden.
+#### Manuell Gerät aushängen
+Mit dem Kommando ```umount``` wird das Gerät ausgehängt
+
+```bash
+umount /dev/sdb1
+```
+
+Früher mussten die USB-Stick manuell eingehängt bzw. ausgehängt werden.
 
 ----------
 
-Dateien für Systemsteuerung werden in ```etc``` gespeichert
 
 ### Benutzer anlegen
 
@@ -103,7 +121,7 @@ Es gibt zwei möglichkeiten einen neuen Benutzer anzulegen:
 * Mit dem Befehl ```adduser```
 * Manuell
 
-Benutzer Manuell anlegen:
+### Benutzer Manuell anlegen:
 
 **Um in den Superuser(Root) zuwechseln**
 ```bash
@@ -197,7 +215,7 @@ ulllum17@ulllum17:~/Schreibtisch$ ls -l
 insgesamt 4
 drwxr-x--- 2 ulllum17 ulllum17 4096 Okt 19 19:32 Verzeichnis
  ```
-#### Simbolischeverfahren
+#### symbolische Verfahren
 
 u...user    
 g...group    
