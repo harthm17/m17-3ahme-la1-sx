@@ -17,6 +17,7 @@
    1. [Patitionen](#patitionen)
    1. [Verzeichnisse](#verzeichnisse)
 1. [Einhängen von Dateisystemen](#Einhängen-von-Dateisystemen)
+1. [Benutzer erstellen](#benutzer erstellen)
 1. [Dll](#dll)
 1. [Rechte](#rechte)
    1. [Dateirechte](#dateirechte)
@@ -146,7 +147,34 @@ Ein solches Aushängen ist allerdings nur dann möglich, wenn das Gerät (Verzei
 
 
 --------------------
-  
+
+## Benutzer erstellen
+
+------------------------
+
+Um einen neuen Benutzer zu erstellen muss man fogendes machen:
+
+zuerst zum superuser modus wechseln 
+
+```
+sudo -i
+
+nano /etc/passwd
+
+nano /etc/group        
+
+nano /etc /shadow
+
+nano /etc/passwd
+
+pw eingeben: 
+
+pw widerholen:
+
+
+```
+----------------------
+
 ## Dll  
 
 -----------------------------
