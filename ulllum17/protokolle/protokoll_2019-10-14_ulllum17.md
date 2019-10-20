@@ -11,7 +11,7 @@
 ## Inhaltsverzeichnis
 1. [Datenträger](#datenträger)
 1. [Verzeichnisse unter Linux](#verzeichnisse_unter_linux)
-1. [Dateisysteme einhängen](#dateisystem_einhängen)
+1. [Dateisysteme einhängen](#dateisysteme_einhängen)
     1. [Manuell Gerät einhängen](#manuell_gerät_einhängen)
     1. [Manuell Gerät aushängen](#manuell_gerät_aushängen)
 1. [Benutzer anlegen](#benutzer_anlegen)
