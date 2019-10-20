@@ -15,11 +15,13 @@
 ## Inhatlverzeichniss
 1. [Datenträger](#datenträger)
    1. [Patitionen](#patitionen)
-   1. [Verzeichnisse](#verzeichnisse)  
+   1. [Verzeichnisse](#verzeichnisse)
+1. [Einhängen von Dateisystemen](#Einhängen-von-Dateisystemen)
+1. [Dll](#dll)
 1. [Rechte](#rechte)
    1. [Dateirechte](#dateirechte)
    1. [Verzeichnisrechte](#verzeichnisrechte)
-   1. [Ändern von Besitzer und Gruppe](#Ändern von Besitzer und Gruppe)
+   1. [Ändern von Besitzer und Gruppe](#Ändern-von-Besitzer-und-Gruppe)
 
 -------------------------------
 
@@ -42,7 +44,7 @@ Patitionen sind aufteilungen eines Datenträgers in unterschliedlich vielen und 
 ### Verzeichnisse
 
 ---------------------
-```bsah
+```
 
  Mit dem Befehl ls -l / lässt sicht der Verzeichnisbaum sichtbar machen.
 
@@ -113,8 +115,51 @@ Alle Zeilen, die mit einem "d" beginnen sind Verzeichnisse (directory). Danach f
     /tmp: Temporäres Verzeichnis
     /srv: Daten, die von Diensten angeboten werden (zum Beispiel Web-Server)
     /run: ersetzt das ursprüngliche /var/run. Hier werden Dateien die für laufende Prozesse wichtig sind abgelegt.
-    
+ 
+---------------------------
+
+### Einhängen von Dateisystemen
+
+--------------------------------------
+
+**Der Befehl mount**
+
+Der aktuelle „Mount“-Zustand lässt sich mit dem Kommando mount feststellen:
+
+```
+schueler@pcxx:~$ mount
+...
+/dev/sda1 on / type ext4 (rw,errors=remount-ro)
+/dev/sdb1 on /media/816E-DD42 type vfat (rw,nosuid,nodev,uid=1000,gid=1000, ...)
+/dev/sdc1 on /media/6F112B4136D46EAE type fuseblk (rw,nosuid, ...)
+````
+
+**Der Befehl umount**
+
+Ein eingehängtes Dateisystem kann mit dem Befehl umount entfernt werden.
+
+Hinter dem Kommando umount muss dabei entweder der Device-Name oder das mit dem Device verbundene Verzeichnis angegeben werden.
+
+Beispiel: schueler@pcxx:~$ **sudo umount /dev/sdb1**
+
+Ein solches Aushängen ist allerdings nur dann möglich, wenn das Gerät (Verzeichnis) nicht mehr verwendet wird. Das Systemlaufwerk / kann daher nicht ausgehängt werden.
+
+
+--------------------
+  
+## Dll  
+
 -----------------------------
+
+Dynamic Link Library (DLL) bezeichnet allgemein eine dynamische Programmbibliothek; meist bezieht sich der Begriff jedoch auf die für die Betriebssysteme Microsoft Windows und OS/2 verwendete Variante.
+
+DLL-Dateien verwenden das auch für ausführbare EXE-Dateien gebräuchliche Dateiformat, das in 16-Bit-Programmen das New-Executable-Format (NE)[1] und in 32- und 64-Bit-Programmen das Portable-Executable-Format (PE) ist. Diese Dateien können Programmcode (Maschinencode), Daten und Ressourcen in beliebiger Kombination enthalten.
+
+Die Windows-Dateinamenserweiterung für solche Bibliotheken ist gewöhnlich DLL, es können auch andere Dateiendungen wie OCX (für Bibliotheken mit ActiveX-Steuerelementen), DRV oder CPL (für die Systemsteuerung) sein. 
+
+Quelle: https://de.wikipedia.org/wiki/Dynamic_Link_Library
+
+-------------------------------
 
 ## Rechte
 
