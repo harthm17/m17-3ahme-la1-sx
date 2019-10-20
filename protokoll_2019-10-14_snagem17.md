@@ -91,3 +91,5 @@ Es gibt 3 verschiedene Rechte:
 Dieses Beispiel würde jetzt bedeuten, dass der User (Eigentümer) die Datei lesen und verändern darf aber nicht ausführen darf und dass die Gruppe lesen darf. Alle anderen dürfen mit der Datei gar nichts machen.
 
 ## Verzeichnisse
+
+[Verzeichnisse](https://de.wikipedia.org/wiki/Verzeichnisstruktur) sind spezielle Dateien in denen weitere Dateien (also weitere Verzeichnisse) abgelegt werden können. Verzeichnisse haben eine Baumstruktur, das bedeutet, dass sich die Wurzel(root) oben befindet und sich sich die Äste nach unten verbreiten.
