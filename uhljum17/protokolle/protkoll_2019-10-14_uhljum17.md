@@ -17,7 +17,7 @@
    1. [Patitionen](#patitionen)
    1. [Verzeichnisse](#verzeichnisse)
 1. [Einhängen von Dateisystemen](#Einhängen-von-Dateisystemen)
-1. [Benutzer erstellen](#benutzer erstellen)
+1. [Benutzer erstellen](#benutzer-erstellen)
 1. [Dll](#dll)
 1. [Rechte](#rechte)
    1. [Dateirechte](#dateirechte)
