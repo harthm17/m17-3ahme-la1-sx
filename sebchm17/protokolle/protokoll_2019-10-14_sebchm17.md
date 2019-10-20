@@ -21,7 +21,6 @@
 
 --------------------------------------------------------------------------------------------------------------------------------
 ## Datenträger und Partitionen
-[Datenträger]
 
 Ein Datenträger muss mit einem Dateisystem formatiert sein damit darauf Dateien und Verzeichnisse gespeichert werden können.
 Eine Partition ist ein Teil auf dem Datenträger, die von anderen Partitionen getrennt ist.
