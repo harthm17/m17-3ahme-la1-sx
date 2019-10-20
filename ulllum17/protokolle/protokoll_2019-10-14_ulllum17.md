@@ -37,8 +37,7 @@ Ein Datenträger ist unter Partitionen unterteilt und auf den Partitionen befind
 
 
 
-### Dateisysteme einhängen
-
+## Dateisysteme einhängen
 Mit dem Kommando ```mount``` werden alle eingehängten Datenträger angezeigt
 
 ```bash
@@ -95,7 +94,7 @@ gvfsd-fuse on /run/user/1000/gvfs type fuse.gvfsd-fuse (rw,nosuid,nodev,relatime
 ```
 */dev/sda1 on / type ext4 (rw,relatime,errors=remount-ro)* ist die **Hauptfestplatte**
 
-#### Manuell Gerät einhängen
+### Manuell Gerät einhängen
 
 **Hängt ein Gerät /dev/sdb1 ein und macht es unter /mnt/usbstick verfügrbar. Der Ordner /mnt/usbstick muss vorher erstellt werden**
 
@@ -103,7 +102,7 @@ gvfsd-fuse on /run/user/1000/gvfs type fuse.gvfsd-fuse (rw,nosuid,nodev,relatime
 mount /dev/sdb1 /mnt/usbstick
 ```
 
-#### Manuell Gerät aushängen
+### Manuell Gerät aushängen
 Mit dem Kommando ```umount``` wird das Gerät ausgehängt
 
 ```bash
@@ -115,7 +114,7 @@ Früher mussten die USB-Stick manuell eingehängt bzw. ausgehängt werden.
 ----------
 
 
-### Benutzer anlegen
+## Benutzer anlegen
 
 Es gibt zwei möglichkeiten einen neuen Benutzer anzulegen:
 * Mit dem Befehl ```adduser```
