@@ -10,16 +10,16 @@
 --------------------------------------------------------------------------
 ## Inhaltsverzeichnis
 1. [Datenträger](#datenträger)
-1. [Verzeichnisse unter Linux](#verzeichnisse_unter_linux)
-1. [Dateisysteme einhängen](#dateisysteme_einhängen)
-    1. [Manuell Gerät einhängen](#manuell_gerät_einhängen)
-    1. [Manuell Gerät aushängen](#manuell_gerät_aushängen)
+1. [Verzeichnisse unter Linux](#verzeichnisse-unter-linux)
+1. [Dateisysteme einhängen](#dateisysteme-einhängen)
+    1. [Manuell Gerät einhängen](#manuell-gerät-einhängen)
+    1. [Manuell Gerät aushängen](#manuell-gerät-aushängen)
 1. [Benutzer anlegen](#benutzer_anlegen)
 1. [DLL](#dll)
     1. [DLL-Hölle](#dll-hölle)
 1. [Rechte](#rechte)
     1. [Oktalverfahren](#oktaleverfahren)
-    1. [symbolische Verfahren](#symbolische_verfahren)
+    1. [symbolische Verfahren](#symbolische-verfahren)
 
 --------------------------------------------------------------------------
 ## Datenträger
