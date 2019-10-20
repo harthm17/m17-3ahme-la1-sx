@@ -21,11 +21,11 @@
 
 --------------------------------------------------------------------------------------------------------------------------------
 ## Datenträger und Partitionen
-[Datenträger][1]
+[Datenträger]
 
 Ein Datenträger muss mit einem Dateisystem formatiert sein damit darauf Dateien und Verzeichnisse gespeichert werden können.
 Eine Partition ist ein Teil auf dem Datenträger, die von anderen Partitionen getrennt ist.
-In Linux werden Partitionen als Block Device im verzeichniss /dev bereitgestellt. In Ubuntu können die Partitionstabellen mit dem Programm Gparted angezeigt werden.
+In Linux werden Partitionen als Block Device im verzeichniss /dev bereitgestellt. In Ubuntu können die Partitionstabellen mit dem Programm Gparted angezeigt werden.(ext4 bei Linux, Ntfs bei Windows)
 
 --------------------------------------------------------------------------------------------------------------------------------
 ## Verzeichnisse
@@ -111,7 +111,7 @@ In der letzten Zeile wird angezeigt, dass es sich um die Hauptfestplatte handelt
 Früher musste man einen Usb Stick immer einloggen und wieder aussloggen. Heute wird dies automatischdurchgeführt.
 Mit dem Komando ```mount``` kann man ein man manuelles Einhängen durchführen.
  ```bash
- chris@chris:~$ sudo mount /dev/sdb1/mnt
+ chris@chris:~$ sudo mount /dev/sdb1/mnt/usbstick
  ```
 
 ### Gerät ausloggen
@@ -137,14 +137,19 @@ sebchm17:schueler:1000:1000::/home/sebchm17:/bin/bash
 Um diese Datei anschauen zu können gibt man entweder cat oder nano ein. Hier werden alle Benutzer des Systems aufgelistet.
 ```bash
 root@chris:~# nano /etc/group
-sebchm17::1000:sebchm17
+sebchm17:x:1000:
 ```
 Hier sind die Benutzergruppen und ihre Mitglieder zu finden.
 ```bash
 root@chris:~# nano /etc/shadow
+sebchm17:$6$MfUde.ex$eVObAcouf65p7XIUdO9Nx3kd7BEHIP5559EFMMjcbqt6.IJ0wQhW2ADT5nLW$
 ```
-In älteren Ubuntu-Versionen wurden die Passwörter in passwd Dateien gespeichert. Diese Methode um Passwörter zu speichern war sehr naiv, weil man die Passtwörter sehr leicht entschlüsseln und auslesen konnte. Deswegen gibt es etc/passwd, in der die Angaben über die Passwörter durch ein spezielles System besser geschützt werden.
-
+In älteren Ubuntu-Versionen wurden die Passwörter in passwd Dateien gespeichert. Diese Methode um Passwörter zu speichern war sehr naiv, weil man die Passtwörter sehr leicht entschlüsseln und auslesen konnte. Deswegen gibt es etc/passwd, in der die Angaben über die Passwörter durch ein spezielles System besser geschützt werden. Das Passwort kann man beliebig aus einer Passwortzeile wählen.
+```bash
+sudo passwd sebchm17
+```
+Schlussendlich muss man das passwort vom benutzer aus verändern.
+ 
 --------------------------------------------------------------------------------------------------------------------------------
 ## Dll
 [Wikipedia](https://de.wikipedia.org/wiki/Dynamic_Link_Library)
@@ -181,8 +186,6 @@ Verzeichnis:
 
 ### Rechte ändern
 
-Rechte werden mit dem oktalsystemgerechnet, dh 111 entspircht 7.
-
 ```bash
 
 chris@chris:~$ ls -l
@@ -194,14 +197,30 @@ drwxr-xr-x 2 chris chris 4096 Okt 15 21:44 Dokumente
 -rw-r--r-- 1 chris chris   20 Okt 13 15:13 test.odt
 ```
 
-Die Zeilen, die mit einem d anfangen sind Verzeichnisse. Nach dem d kommen die ersten drei Rechte und diese beziehen sich auf den Besitzer (Owner). Die nächsten drei Rechte beziehen sich auf die Gruppe (group) und zum schluss kommen die Rechte für alle Anderen (others). Alle neu erstellten Dateien haben das Recht x noch nicht. Um den Inhalt als programm ausführen zu können ändert man es wie in deisem Beispiel.
+Die Zeilen, die mit einem d anfangen sind Verzeichnisse. Nach dem d kommen die ersten drei Rechte und diese beziehen sich auf den Besitzer (Owner). 
 
-
+**Oktales Verfahren**
 ```bash
 chris@chris:~$ chmod 750 /home/Dokumente/test1.odt
 -rwxr-x--- 1 chris chris    7 Okt 16 20:36  test1.odt
 ````
+Nach dem d kommen die ersten drei Rechte und diese beziehen sich auf den Besitzer (Owner). Die nächsten drei Rechte beziehen sich auf die Gruppe (group) und zum schluss kommen die Rechte für alle Anderen (others). Alle neu erstellten Dateien haben das Recht x noch nicht. Um den Inhalt als programm ausführen zu können ändert man es wie in deisem Beispiel.
+
+**Symbolisches Verfahren**
+
+Die verteilung der Rechte ist wieder die Selbe(user,group,others,)
+
++...rechte geben
+-...rechte entziehen
+
+```bash
+chris@chris:~$ ls -l
+insgesamt 88
+drwxr-xr-x 2 chris chris  4096 Okt 12 19:47  Bilder
+chris@chris:~$ chmod o-rwx Bilder/
+chris@chris:~$ ls -l
+insgesamt 88
+drwxr-x--- 2 chris chris  4096 Okt 12 19:47  Bilder
+```
 --------------------------------------------------------------------------------------------------------------------------------
 [Protokoll]:https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/sebchm17/sebchm17/protokolle/protokolle_2019-09-30sebchm17.md
-
-[1]:https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&ved=2ahUKEwiDguKV-6PlAhXECuwKHVEUALYQjRx6BAgBEAQ&url=https%3A%2F%2Faskubuntu.com%2Fquestions%2F738750%2Fcant-install-windows-10-alongside-ubuntu-mbr-error&psig=AOvVaw2vhHPiv5KrXulP44vjbXqN&ust=1571424375747436
