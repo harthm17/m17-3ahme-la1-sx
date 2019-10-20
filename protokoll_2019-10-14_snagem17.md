@@ -50,6 +50,12 @@ Quelle: [Wiki](https://de.wikipedia.org/wiki/DLL-Konflikt)
 ### Gerät ein-/aushängen
 Mit [mount](https://wiki.ubuntuusers.de/mount/#Dateisysteme-einbinden) kann man das Gerät einhängen, jedoch sind hinter dem mount noch weitere Kommandos nötig.
 
+```
+mount
+ll /mnt    (einhängen)
+mount /grep/dev/sda1
+ls /mnt
+```
 
 Mit [umount](https://wiki.ubuntuusers.de/mount/#Dateisysteme-aushaengen) kann das Gerät wieder ausgehängt werden.
 
