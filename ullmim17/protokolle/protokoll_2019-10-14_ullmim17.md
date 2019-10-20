@@ -12,7 +12,7 @@
   4.  [Einhängen von Dateisystemen](#einhängen-von-dateisystemen)
       * [Manuelles Einhängen von Geräten](#manuelles-einhängen-von-geräten)
       * [Manuelles Aushängen von Geräten](#manuelles-aushängen-von-geräten)
-  5.  [Einen neuen Benutzer hinzufügen](#einenneuen-benutzer-hinzufügen)
+  5.  [Einen neuen Benutzer hinzufügen](#einen-neuen-benutzer-hinzufügen)
   6. [Dateirechte unter Linux](#dateirechte-unter-linux)
       * [Ändern von Rechten](#ändern-von-rechten)
 6.  [Dll](#dll)
