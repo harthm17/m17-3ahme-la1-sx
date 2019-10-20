@@ -51,15 +51,16 @@ Mit [mount](https://wiki.ubuntuusers.de/mount/#Dateisysteme-einbinden) kann man 
 
 Mit [umount](https://wiki.ubuntuusers.de/mount/#Dateisysteme-aushaengen) kann das Gerät wieder ausgehängt werden.
 
-### Befehle
-
+### Neuer Benutzer
+Zuerst muss man zum Superuser werden
+```
 sudo -i = man wird zum Superuser (Superuser root)
-
-**Verwaltung:**
-* nano/etc/passwd
-* nano/etc/group
-* nano/etc/shadow
-
+```
+```
+nano/etc/passwd
+nano/etc/group
+nano/etc/shadow
+```
 ##  Rechte
 
 Rechte in der EDV, dienen zum Regeln, wer die Dateien lesen, schreiben, ändern oder ausführen darf. Es wird zwischen **Eigentümer=user=u**, **Gruppe=group=g** und **Alle anderen=others=o** unterschieden.
