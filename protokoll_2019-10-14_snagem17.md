@@ -15,6 +15,7 @@
 * Befehle
 4. Rechte
 5. [Verzeichnisse](https://de.wikipedia.org/wiki/Verzeichnisstruktur)
+* Home-Verzeichnis
 
 
 ## Datenträger
@@ -93,3 +94,16 @@ Dieses Beispiel würde jetzt bedeuten, dass der User (Eigentümer) die Datei les
 ## Verzeichnisse
 
 [Verzeichnisse](https://de.wikipedia.org/wiki/Verzeichnisstruktur) sind spezielle Dateien in denen weitere Dateien (also weitere Verzeichnisse) abgelegt werden können. Verzeichnisse haben eine Baumstruktur, das bedeutet, dass sich die Wurzel(root) oben befindet und sich sich die Äste nach unten verbreiten.
+
+### Home-Verzeichnis
+Das ist das Verzeichnis des aktuellen Benutzers.(dort kann nur er seine Daten ablegen)
+
+* Zu finden (Linux):
+```
+/home
+```
+* Beispiel mitder ID snagem:
+```
+/home/snagem
+```
+
