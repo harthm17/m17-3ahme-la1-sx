@@ -12,7 +12,8 @@
 2. [DLL](https://de.wikipedia.org/wiki/Dynamic_Link_Library)
 * [DLL Hölle](https://de.wikipedia.org/wiki/DLL-Konflikt)
 3. [Linux Shell](https://de.wikipedia.org/wiki/Bash_(Shell))
-* Befehle
+* Gerät ein-/aushängen
+* Neuer Benutzer
 4. [Rechte](https://wiki.ubuntuusers.de/Homeverzeichnis/#Rechte)
 5. [Verzeichnisse](https://de.wikipedia.org/wiki/Verzeichnisstruktur)
 * [Home-Verzeichnis](https://wiki.ubuntuusers.de/Homeverzeichnis/)
