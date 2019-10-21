@@ -1,6 +1,8 @@
 # m17-3ahme-la1-sx
 3AHME (2019/20) LA1 SX
 
+Wir schreiben eine Markdown Datei.
+
 Das ist eine Beispieltext mit einigen Worten. Die Umbrüche werden automatisch durchgeführt.
 
 **Liste**:
