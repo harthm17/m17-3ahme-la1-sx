@@ -20,7 +20,7 @@ Quelle: [Wikipedia][Wikipedia-GitHub] (Stand: 22.10.2019)
 
 ### Git-Ebenen und Kommands
 
-Abbildung![](https://www.patrickzahnd.ch/uploads/git-transport-v1.png)
+Bild ![](https://wortwuchs.net/wp-content/uploads/2015/01/blocksatz-fliesstext.jpg)
 
 
 ### Markdown (* .md)
