@@ -8,6 +8,9 @@
 * bei Verlust oder Fehlfunktion einer Datei kann die vorherige Version verwendet werden
 * **Teamwork ohne CVS (Code Version System) nicht denkbar!**
 
+* repository.........Datenbank in der sämtliche Dateien enthalten sind
+* * .git..............das lokale repository 
+
 ## Git
 > Git ist eine freie Software zur verteilten Versionsverwaltung von Dateien, die durch Linus Torvalds initiiert wurde.
 
@@ -22,13 +25,12 @@ Quelle: [Wikipedia][Wikipedia-GitHub] (Stand: 22.10.2019)
 
 Abbildung 1 ![](https://readsahil.files.wordpress.com/2016/09/git_cheat_sheet.png?w=636g)
 
-Kommand | Erklärung
------------|-----------
-git status |
-git reset  |
-git reset --hard |
-git commit -m *text* |
-git checkout *branch* |
+
+* git status 
+* git reset  
+* git reset --hard 
+* git commit -m *text* 
+* git checkout *branch* 
 
 
 ### Markdown (* .md)
