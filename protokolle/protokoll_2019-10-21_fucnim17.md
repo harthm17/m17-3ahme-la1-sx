@@ -20,7 +20,7 @@ Quelle: [Wikipedia][Wikipedia-GitHub] (Stand: 22.10.2019)
 
 ### Git-Ebenen und Kommands
 
-Abbildung 1 ![](https://www.patrickzahnd.ch/uploads/git-transport-v1.png)
+Abbildung ![](https://www.patrickzahnd.ch/uploads/git-transport-v1.png)
 
 
 ### Markdown (* .md)
