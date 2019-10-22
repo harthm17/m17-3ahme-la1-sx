@@ -20,7 +20,7 @@ Quelle: [Wikipedia][Wikipedia-GitHub] (Stand: 22.10.2019)
 
 ### Git-Ebenen und Kommands
 
-Abbildung 1 ![her](https://wortwuchs.net/wp-content/uploads/2015/01/blocksatz-fliesstext.jpg)
+Abbildung 1 ![](https://readsahil.files.wordpress.com/2016/09/git_cheat_sheet.png?w=636g)
 
 
 ### Markdown (* .md)
