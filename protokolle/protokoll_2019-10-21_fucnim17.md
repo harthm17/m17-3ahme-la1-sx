@@ -10,10 +10,8 @@
 
 -------------------
 
-```
-* repository.........Datenbank in der sämtliche Dateien enthalten sind
-* .git...............das lokale repository
-```
+* repository ≙ Datenbank in der sämtliche Dateien enthalten sind
+* .git ≙ das lokale repository
 
 ## Git
 > Git ist eine freie Software zur verteilten Versionsverwaltung von Dateien, die durch Linus Torvalds initiiert wurde.
