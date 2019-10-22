@@ -10,7 +10,9 @@
 ### Git
 > Git ist eine freie Software zur verteilten Versionsverwaltung von Dateien, die durch Linus Torvalds initiiert wurde.
 
-Quelle: [Wikipedia][Wikipedia-Git]
+Quelle: [Wikipedia][Wikipedia-Git] (Stand: 22.10.2019)
+
+
 
 
 [Wikipedia-Git]: https://de.wikipedia.org/wiki/Git
