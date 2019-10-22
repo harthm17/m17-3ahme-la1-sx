@@ -7,7 +7,7 @@
 * mehrere Leute können zeitgleich an einem Projekt arbeiten
 * bei Verlust oder Fehlfunktion einer Datei kann die vorherige Version verwendet werden
 * **Teamwork ohne CVS (Code Version System) nicht denkbar!**
-
+-------------------
 * repository.........Datenbank in der sämtliche Dateien enthalten sind
 * .git...............das lokale repository 
 
