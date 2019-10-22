@@ -35,11 +35,18 @@ Abbildung 1 ![](https://readsahil.files.wordpress.com/2016/09/git_cheat_sheet.pn
 * git commit -m *text* 
 * git checkout *branch* 
 
+### Git-Workflow
+
+Abbildung 2 ![](https://www.htl-mechatronik.at/e-books/sx/html/git/images/git-cheat2.png)
+
 
 ### Markdown (* .md)
 > Markdown ist eine vereinfachte Auszeichnungssprache, die von John Gruber und Aaron Swartz entworfen und im Dezember 2004 mit Version 1.0.1 spezifiziert wurde. Ein Ziel von Markdown ist, dass schon die Ausgangsform ohne weitere Konvertierung leicht lesbar ist. Als Auszeichnungselemente wurden daher vor allem Auszeichnungsarten verwendet, die in Plain text und E-Mails üblich sind.
 
 Quelle: [Wikipedia][Wikipedia-Markdown] (Stand 22.10.2019)
+
+
+
 
 
 
