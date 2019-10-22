@@ -7,7 +7,9 @@
 * mehrere Leute können zeitgleich an einem Projekt arbeiten
 * bei Verlust oder Fehlfunktion einer Datei kann die vorherige Version verwendet werden
 * **Teamwork ohne CVS (Code Version System) nicht denkbar!**
+
 -------------------
+
 * repository.........Datenbank in der sämtliche Dateien enthalten sind
 * .git...............das lokale repository 
 
@@ -24,6 +26,7 @@ Quelle: [Wikipedia][Wikipedia-GitHub] (Stand: 22.10.2019)
 ### Git-Ebenen und Kommands
 
 Abbildung 1 ![](https://readsahil.files.wordpress.com/2016/09/git_cheat_sheet.png?w=636g)
+
 -------------
 
 * git status 
