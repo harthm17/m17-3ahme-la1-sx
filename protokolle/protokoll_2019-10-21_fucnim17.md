@@ -20,7 +20,7 @@
 1. [Ebenen und Kommands](#git-ebenen-und-kommands)
 1. [Workflow](#git-workflow)
 1. [.gitignore](#gitignore)
-1. [Markdown](#markdown-(*-.md))
+1. [Markdown](#markdown)
 
 ## Git
 > Git ist eine freie Software zur verteilten Versionsverwaltung von Dateien, die durch Linus Torvalds initiiert wurde.
@@ -55,7 +55,8 @@ Abbildung 2 ![](https://arccwiki.uwyo.edu/images/1/19/GitHub_Flow_steps.png)
 
 Quelle: [Git][Git-gitignore] (Stand: 23.10.2019)
 
-## Markdown (* .md)
+## Markdown
+Endung: * .md
 > Markdown ist eine vereinfachte Auszeichnungssprache, die von John Gruber und Aaron Swartz entworfen und im Dezember 2004 mit Version 1.0.1 spezifiziert wurde. Ein Ziel von Markdown ist, dass schon die Ausgangsform ohne weitere Konvertierung leicht lesbar ist. Als Auszeichnungselemente wurden daher vor allem Auszeichnungsarten verwendet, die in Plain text und E-Mails üblich sind.
 
 Quelle: [Wikipedia][Wikipedia-Markdown] (Stand 22.10.2019)
