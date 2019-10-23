@@ -9,7 +9,9 @@
    1. [Git](#git)
    1. [GitHub](#github)
    1. [Ebenen und Kommands](#git-ebenen-und-kommands)
-
+   1. [Workflow](#git-workflow)
+   1. [.gitignore](#gitignore)
+   1. [Markdown](#markdown)
 
 # Versionsverwaltung
 * mehrere Leute können zeitgleich an einem Projekt arbeiten
