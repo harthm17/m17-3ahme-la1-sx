@@ -37,7 +37,7 @@ Abbildung 1 ![](https://readsahil.files.wordpress.com/2016/09/git_cheat_sheet.pn
 
 ### Git-Workflow
 
-Abbildung 2 ![](https://www.htl-mechatronik.at/e-books/sx/html/git/images/git-cheat2.png)
+Abbildung 2 ![](https://arccwiki.uwyo.edu/images/1/19/GitHub_Flow_steps.png)
 
 
 ### Markdown (* .md)
