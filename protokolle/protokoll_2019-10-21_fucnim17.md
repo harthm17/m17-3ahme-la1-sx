@@ -3,16 +3,6 @@
 * **Erstellt von:** Niklas Fuchshofer
 -----------------------------------------
 
-## Inhaltsverzeichniss
-
-1. [Versionsverwaltung](#versionsverwaltung)
-   1. [Git](#git)
-   1. [GitHub](#github)
-   1. [Ebenen und Kommands](#git-ebenen-und-kommands)
-   1. [Workflow](#git-workflow)
-   1. [.gitignore](#gitignore)
-   1. [Markdown](#markdown)
-
 # Versionsverwaltung
 * mehrere Leute können zeitgleich an einem Projekt arbeiten
 * bei Verlust oder Fehlfunktion einer Datei kann die vorherige Version verwendet werden
@@ -22,6 +12,15 @@
 
 * repository ≙ Datenbank in der sämtliche Dateien enthalten sind
 * .git ≙ das lokale repository
+
+## Inhaltsverzeichniss
+
+1. [Git](#git)
+1. [GitHub](#github)
+1. [Ebenen und Kommands](#git-ebenen-und-kommands)
+1. [Workflow](#git-workflow)
+1. [.gitignore](#gitignore)
+1. [Markdown](#markdown-(*-.md))
 
 ## Git
 > Git ist eine freie Software zur verteilten Versionsverwaltung von Dateien, die durch Linus Torvalds initiiert wurde.
