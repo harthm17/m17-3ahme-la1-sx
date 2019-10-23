@@ -3,6 +3,12 @@
 * **Erstellt von:** Niklas Fuchshofer
 -----------------------------------------
 
+## Inhaltsverzeichniss
+
+1. [Versionsverwaltung](#versionsverwaltung)
+  1. [Git](#git)
+
+
 # Versionsverwaltung
 * mehrere Leute können zeitgleich an einem Projekt arbeiten
 * bei Verlust oder Fehlfunktion einer Datei kann die vorherige Version verwendet werden
