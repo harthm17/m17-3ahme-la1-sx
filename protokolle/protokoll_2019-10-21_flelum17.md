@@ -7,12 +7,33 @@
 
 ## Inhaltsverzeichnis    
 1) [Git](#git)  
+   * [Ebenen](#ebenen)  
+   * [Befehle](#befehle)  
 2) [GitHub](#github)
-* [Grundwissen](#grundwissen)
+   * [Grundwissen](#grundwissen)
 
 ----------------------------
 
 ## Git  
+* erfunden von Linus Torvalds  
+* freie Software    
+* zur Versionsverwaltung von Dateien  
+* [mehr über Git](https://de.wikipedia.org/wiki/Git)  
+
+
+![Bild](https://www.stephenmarron.com/wp-content/uploads/2017/02/git.png)  
+Bild: https://www.stephenmarron.com/wp-content/uploads/2017/02/git.png  
+
+### Ebenen  
+* **stash** Zwischenablage um etwas anderes zu machen   
+* **workspace** Arbeitsplatz  
+* **index** 
+* **local repository**  Repository auf dem eigenen Rechner  
+* **remote repository** Repository auf einem Server  
+
+### Befehle  
+[Hier](http://ndpsoftware.com/git-cheatsheet.html#loc=remote_repo;) werden alle Befehle sehr gut erklärt.  
+ 
 ----------------------------
 ## GitHub  
  ### Grundwissen  
@@ -80,10 +101,43 @@
     
 8) **Tabelle**  
   Um eine Tabelle zu machen, werden je nach größe der Spalte beliebig viele Bindestriche gesetzt und  
-  Spalten werden mit senkrechten Strichen abgetrennt.  
+  Spalten werden mit senkrechten Strichen abgetrennt. Vor und nach dem senkrechten Strichen muss ein Leerzeichen sein.  
   
  Beispiel:  
  
+    ----------- | --------- | ----------    
+    text | text | text   
+ 
+9) **Inhaltsverzeichnis**  
+  Um ein Inhaltsverzeichnis zu machen, werden vor und nach der Überschrift eine eckige Klammer gesetzt. 
+  Danach kommt der gleiche Text klein geschrieben und mit einem Hastag davor in zwei runde Klammern.  
+  
+ Beispiel:  
+ 
+    [Überschrift](#überschrift)  
+    
+10) **Link**  
+   Um einen Link einzufügen, wird der Name in eckigen Klammern gesetzt und danach der eigentliche Link in runden Klammern.  
+
+  Beispiel:  
+
+    [Name](Link)  
+    
+11) **Programmiersprache**  
+   Um z.B ein C- Programm zu schreiben, werden davor drei Hochkomma und ein großes C und dahinter wieder drei Hochkomma gesetzt. 
+   Auch Syntaxhighlighting wird automatisch gemacht.
+   
+  Beispiel:  
+  
+     ```C  
+     int main() 
+     {
+     printf("text\n");  
+     return 0;  
+     }  
+     ```  
+
+
     
     
   
