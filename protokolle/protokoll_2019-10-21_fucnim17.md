@@ -6,7 +6,9 @@
 ## Inhaltsverzeichniss
 
 1. [Versionsverwaltung](#versionsverwaltung)
-       1. [Git](#git)
+   1. [Git](#git)
+   1. [GitHub](#github)
+   1. [Ebenen und Kommands](#git-ebenen-und-kommands)
 
 
 # Versionsverwaltung
@@ -24,12 +26,12 @@
 
 Quelle: [Wikipedia][Wikipedia-Git] (Stand: 22.10.2019)
 
-### GitHub
+## GitHub
 > GitHub ist ein Onlinedienst, der Software-Entwicklungsprojekte auf seinen Servern bereitstellt (Filehosting). Namensgebend war das Versionsverwaltungssystem Git. Die GitHub, Inc. hat ihren Sitz in San Francisco in den USA. Ähnliche Dienste sind GitLab und Bitbucket.
 
 Quelle: [Wikipedia][Wikipedia-GitHub] (Stand: 22.10.2019)
 
-### Git-Ebenen und Kommands
+## Git-Ebenen und Kommands
 
 Abbildung 1 ![](https://readsahil.files.wordpress.com/2016/09/git_cheat_sheet.png?w=636g)
 
@@ -41,22 +43,18 @@ Abbildung 1 ![](https://readsahil.files.wordpress.com/2016/09/git_cheat_sheet.pn
 * git commit -m *text* 
 * git checkout *branch* 
 
-### Git-Workflow
+## Git-Workflow
 
 Abbildung 2 ![](https://arccwiki.uwyo.edu/images/1/19/GitHub_Flow_steps.png)
 
 -------------
 
-### .gitignore
+## .gitignore
 > A gitignore file specifies intentionally untracked files that Git should ignore. Files already tracked by Git are not affected.
 
 Quelle: [Git][Git-gitignore] (Stand: 23.10.2019)
 
-### .gitkeep
-
-
-
-### Markdown (* .md)
+## Markdown (* .md)
 > Markdown ist eine vereinfachte Auszeichnungssprache, die von John Gruber und Aaron Swartz entworfen und im Dezember 2004 mit Version 1.0.1 spezifiziert wurde. Ein Ziel von Markdown ist, dass schon die Ausgangsform ohne weitere Konvertierung leicht lesbar ist. Als Auszeichnungselemente wurden daher vor allem Auszeichnungsarten verwendet, die in Plain text und E-Mails üblich sind.
 
 Quelle: [Wikipedia][Wikipedia-Markdown] (Stand 22.10.2019)
