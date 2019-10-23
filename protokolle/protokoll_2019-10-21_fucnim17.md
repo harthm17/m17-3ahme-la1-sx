@@ -6,7 +6,7 @@
 ## Inhaltsverzeichniss
 
 1. [Versionsverwaltung](#versionsverwaltung)
-  1. [Git](#git)
+       1. [Git](#git)
 
 
 # Versionsverwaltung
