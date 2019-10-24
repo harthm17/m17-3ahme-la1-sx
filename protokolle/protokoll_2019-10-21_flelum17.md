@@ -8,7 +8,8 @@
 ## Inhaltsverzeichnis    
 1) [Git](#git)  
    * [Ebenen](#ebenen)  
-   * [Befehle](#befehle)  
+   * [Befehle](#befehle) 
+   * [Branch](#branch)  
 2) [GitHub](#github)
    * [Grundwissen](#grundwissen)
 
@@ -33,6 +34,18 @@ Bild: https://www.stephenmarron.com/wp-content/uploads/2017/02/git.png
 
 ### Befehle  
 [Hier](http://ndpsoftware.com/git-cheatsheet.html#loc=remote_repo;) werden alle Befehle sehr gut erklärt.  
+
+![Bild](https://guides.github.com/activities/hello-world/branching.png)  
+Bild: https://guides.github.com/activities/hello-world/branching.png  
+
+### Branch  
+* **master branch** ist der Hauptzweig  
+* **feature branch** ist ein Nebenzweig  
+Im master branch sollte immer die funktionsfähige Software sein.  
+Wenn man arbeiten möchte erstellt man einen feature branch,  
+dort können mehrere arbeiten ohne den Hauptzweig zu verändern.  
+Wenn der neue Zweig fertig ist, kann man ihn in den master branch einspielen.  
+
  
 ----------------------------
 ## GitHub  
@@ -136,7 +149,24 @@ Bild: https://www.stephenmarron.com/wp-content/uploads/2017/02/git.png
      return 0;  
      }  
      ```  
+     
+12) **Trennstrich**  
+   Um einen Trennstrich zu machen, werden beliebig viele Bindestriche gesetzt.  
+   
+  Beispiel:  
+  
+    ------------------------------  
+    
 
+13) **Bilder**  
+   Um ein Bild einzufügen, wird ein Rufzeichen vor zwei  leeren eckigen Klammern gesetzt.  
+   Danch wird in zwei runden Klammern der Link eingefügt.  
+   
+  Beispiel:  
+  
+    ![](link)  
+    
+  
 
     
     
