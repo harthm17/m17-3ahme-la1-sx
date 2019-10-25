@@ -28,7 +28,9 @@
 Quelle: [Wikipedia][Wikipedia-Git] (Stand: 22.10.2019)
 
 ## GitHub
-> GitHub ist ein Onlinedienst, der Software-Entwicklungsprojekte auf seinen Servern bereitstellt (Filehosting). Namensgebend war das Versionsverwaltungssystem Git. Die GitHub, Inc. hat ihren Sitz in San Francisco in den USA. Ähnliche Dienste sind GitLab und Bitbucket.
+> GitHub ist ein Onlinedienst, der Software-Entwicklungsprojekte auf seinen Servern bereitstellt (Filehosting).
+Namensgebend war das Versionsverwaltungssystem Git. Die GitHub, Inc. hat ihren Sitz in San Francisco in den USA.
+Ähnliche Dienste sind GitLab und Bitbucket.
 
 Quelle: [Wikipedia][Wikipedia-GitHub] (Stand: 22.10.2019)
 
@@ -50,6 +52,17 @@ Abbildung 2 ![](https://arccwiki.uwyo.edu/images/1/19/GitHub_Flow_steps.png)
 
 -------------
 
+### Verwendeter Workflow
+
+1. git clone <link>
+2. git pull <name>
+3. cd <name>
+3. git checkout <branch>
+3. (nano <dateiname>)
+3. git add <dateiname>
+3. git commit -m <text>
+3. git push
+
 ## .gitignore
 > A gitignore file specifies intentionally untracked files that Git should ignore. Files already tracked by Git are not affected.
 
@@ -57,17 +70,22 @@ Quelle: [Git][Git-gitignore] (Stand: 23.10.2019)
 
 ## Markdown
 Endung: * .md
-> Markdown ist eine vereinfachte Auszeichnungssprache, die von John Gruber und Aaron Swartz entworfen und im Dezember 2004 mit Version 1.0.1 spezifiziert wurde. Ein Ziel von Markdown ist, dass schon die Ausgangsform ohne weitere Konvertierung leicht lesbar ist. Als Auszeichnungselemente wurden daher vor allem Auszeichnungsarten verwendet, die in Plain text und E-Mails üblich sind.
+> Markdown ist eine vereinfachte Auszeichnungssprache, die von John Gruber und Aaron Swartz entworfen und im Dezember 2004 mit Version 1.0.1 spezifiziert wurde.
+Ein Ziel von Markdown ist, dass schon die Ausgangsform ohne weitere Konvertierung leicht lesbar ist.
+Als Auszeichnungselemente wurden daher vor allem Auszeichnungsarten verwendet, die in Plain text und E-Mails üblich sind.
 
 Quelle: [Wikipedia][Wikipedia-Markdown] (Stand 22.10.2019)
 
+[Markdown-Formatierung][Markdown-Formatierung]
 
 
 
 
-air bnb
+
+
 
 [Wikipedia-Git]: https://de.wikipedia.org/wiki/Git
 [Wikipedia-Markdown]: https://de.wikipedia.org/wiki/Markdown
 [Wikipedia-GitHub]: https://de.wikipedia.org/wiki/GitHub
 [Git-gitignore]: https://git-scm.com/docs/gitignore
+[Markdown-Formatierung]: https://support.zendesk.com/hc/de/articles/203691016-Formatieren-von-Text-mit-Markdown
