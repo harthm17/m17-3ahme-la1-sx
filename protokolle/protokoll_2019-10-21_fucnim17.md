@@ -54,13 +54,13 @@ Abbildung 2 ![](https://arccwiki.uwyo.edu/images/1/19/GitHub_Flow_steps.png)
 
 ### Verwendeter Workflow
 
-1. git clone <link>
-2. git pull <name>
-3. cd <name>
-3. git checkout <branch>
-3. (nano <dateiname>)
-3. git add <dateiname>
-3. git commit -m <text>
+1. git clone *link*
+2. git pull *name*
+3. cd *name*
+3. git checkout *branch*
+3. (nano *dateiname*)
+3. git add *dateiname*
+3. git commit -m *text*
 3. git push
 
 ## .gitignore
