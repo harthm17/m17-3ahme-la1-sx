@@ -59,6 +59,8 @@ Es gibt also den *remote-Repository* auf den alle Mitglieder zugreifen können u
 ![Bild](https://arccwiki.uwyo.edu/images/1/19/GitHub_Flow_steps.png)  
 *Quelle:* https://arccwiki.uwyo.edu/images/1/19/GitHub_Flow_steps.png 
 
+-----
+
 ## Markdown:
 
 >*Markdown* ist eine vereinfachte Auszeichnungssprache, die von John Gruber und Aaron Swartz entworfen und im Dezember 2004 mit Version 1.0.1 spezifiziert wurde. Ein Ziel von Markdown ist, dass schon die Ausgangsform ohne weitere Konvertierung leicht lesbar ist. Als Auszeichnungselemente wurden daher vor allem Auszeichnungsarten verwendet, die in Plain text und E-Mails üblich sind. Auch andere Auszeichnungssprachen mit ähnlichen Zielen zur Lesbarkeit – wie reStructuredText oder Textile – hatten Einfluss auf die Syntax. Der MIME-Type lautet text/markdown.
@@ -66,6 +68,8 @@ Es gibt also den *remote-Repository* auf den alle Mitglieder zugreifen können u
 Quelle: [Wikipedia] [Markdown]
 
 * Der Vorteil bei Markdown ist, das man es überall leserlich abrufen kann und das es mit den meisten Open Source Programmen kompatibel ist.
+
+-----
 
 ## Formatierung:
 
@@ -89,6 +93,9 @@ Arial         | 12          | Libre Office
 
 Ein Zitat wird mit (>) vor dem Text gemacht.  
 > Das ist ein sinnloses Zitat.
+
+Ein Trennstrich wird mit beliebig vielen Bindestrichen gemacht.
+-----
 
 Aufzählungen kann man mit ( * ) oder mit ( 1) ) machen. Man kann bei der Aufzählungen immer 1) schreiben da die Nummierung selbst stattfindet. Das hat den Vorteil das wenn man etwas in einer Liste Hinzufügt muss man nicht alle Nummern selbst wechseln.  
 
