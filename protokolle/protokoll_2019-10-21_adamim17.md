@@ -9,6 +9,14 @@
  1) [Versionsverwaltung](#versionenverwaltung)
  2) [git](#git)
  3) [GitHub](#github)
+ 4) [Git Ebenen und Commands](#git-ebenen-und-commands)
+    * [Ebenen](#ebenen)
+    * [Commands](#commands)
+ 5) [Github Workflow](#github-workflow)
+    * [Ablauf](#ablauf)
+ 6) [GitWeb](#gitweb)
+ 7) [Markdown](#markdown)
+ 8) [Formatierung bei Markdown](#formatierung-bei-markdown)
 -----------------------------
  ## Versionenverwaltung:
  * ermöglicht **mehreren** leuten an **einem** Projekt zu arbeiten
@@ -54,8 +62,63 @@ Quelle: [Wikipedia][Wikipedia - Markdown]
 
 --------------------------------------
 ## Formatierung bei Markdown:
+## Titel Formatierung:
+  Ein Titel setzt man mit einem "Hash" (#) vor dem Text.
+# Titel (#)
+## Untertitel (##)
+### Kleiner Untertitel (###)
+
+## Bild Formatierung:
+Ein Bild fügt man mit ![](adresse des bildes) ein.
+
+![](https://webserver.x-technik.com/upload/images/113087.jpg)
+
+## Aufzählen/Listen:
+
+Eine Auflistung fügt man mit entweder 1), oder * ein.
+
+### Automarken und Modelle:
+1) BMW ( 1) )
+* X1 ( * )
+* X2
+2) Audi
+* A3
+* A4
+3) Mercedes Benz
+* A
+* CLA
+4) VW
+* Golf
+* Polo
+
+## Tabellen:
+
+Version    | Name       | Datum
+-----------|------------|------------
+V 1.0      | Protokoll.docx | 27.10.2019
 
 
+## Programm:
+
+```C
+#include <stdio.h>
+
+int main () {
+ printf("Hello");
+ return 0;
+ }
+```
+## Schriftformatierung
+* *Kursiv* ( * )
+* **Fett** ( ** )
+* ***Fett und Kursiv*** ( *** )
+* ~~Durchgestrichen~~ ( ~~ )
+## Zitieren
+
+Texte kann man mit ">" vor dem Text zitieren
+>Es macht keinen Sinn zu erwähnen, dass dieser Text eigentlich gar keinen Sinn hat. Schließlich habe ich ihn ja „Text ohne Sinn“ genannt.
+
+Quelle: [schattenengel.wordpress][schattenengel - wordpress]
 
 
 
@@ -63,3 +126,4 @@ Quelle: [Wikipedia][Wikipedia - Markdown]
 
 
 [Wikipedia - Markdown]: https://de.wikipedia.org/wiki/Markdown
+[schattenengel - wordpress]: https://schattenengel.wordpress.com/2015/02/15/text-ohne-sinn/
