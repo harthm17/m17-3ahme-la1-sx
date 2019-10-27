@@ -63,19 +63,19 @@ Quelle: [Wikipedia][Wikipedia - Markdown]
 --------------------------------------
 ## Formatierung bei Markdown:
 ## Titel Formatierung:
-  Ein Titel setzt man mit einem "Hash" (#) vor dem Text.
+ Ein Titel wird mit einem "Hash" (#) vor dem Text eingefügt.
 # Titel (#)
 ## Untertitel (##)
 ### Kleiner Untertitel (###)
 
 ## Bild Formatierung:
-Ein Bild fügt man mit ![](adresse des bildes) ein.
+Ein Bild wird mit ![](adresse des bildes) eingefügt.
 
 ![](https://webserver.x-technik.com/upload/images/113087.jpg)
 
 ## Aufzählen/Listen:
 
-Eine Auflistung fügt man mit entweder 1), oder * ein.
+Eine Auflistung wird mit entweder 1), oder * eingefügt.
 
 ### Automarken und Modelle:
 1) BMW ( 1) )
@@ -100,6 +100,8 @@ V 1.0      | Protokoll.docx | 27.10.2019
 
 ## Programm:
 
+Ein Programm wird mit ( ´´´(Programiersprache) Programm... ´´´) eingefügt.
+
 ```C
 #include <stdio.h>
 
@@ -108,12 +110,12 @@ int main () {
  return 0;
  }
 ```
-## Schriftformatierung
+## Schriftformatierung:
 * *Kursiv* ( * )
 * **Fett** ( ** )
 * ***Fett und Kursiv*** ( *** )
 * ~~Durchgestrichen~~ ( ~~ )
-## Zitieren
+## Zitieren:
 
 Texte kann man mit ">" vor dem Text zitieren
 >Es macht keinen Sinn zu erwähnen, dass dieser Text eigentlich gar keinen Sinn hat. Schließlich habe ich ihn ja „Text ohne Sinn“ genannt.
