@@ -10,18 +10,19 @@
      1. [Branches](#branches)
      1. [Git-Befehle](#git-befehle)
   1. [Markdown](#markdown)
-     1. [Vorteile](#vorteile)
-  1. [Textformatierung im Markdown](#textformatierung-im-markdown)
-     1. [Absätze](#absätze)
-     1. [Text mit grauen Hintergrund hervorheben](#text-mit-grauen-hintergrund-hervorheben)
-     1. [Zitate](#zitate)
-     1. [Listen](#listen)
-     1. [Fette Wörter](#fette-wörter)
-     1. [Kursive Wörter](#kursive-wörter)
-     1. [Überschriften](#überschriften)
-     1. [Verlinken](#verlinken)
-     1. [Horizontale Linien einfügen](#horizontale-linien-einfügen)
-     1. [Bilder einfügen](#bilder-einfügen)
+     1. [Vorteile des Markdowns](#vorteile-des-markdowns)
+     1. [Textformatierung im Markdown](#textformatierung-im-markdown)
+        1. [Absätze](#absätze)
+        1. [Text mit grauen Hintergrund hervorheben](#text-mit-grauen-hintergrund-hervorheben)
+        1. [Zitate](#zitate)
+        1. [Listen](#listen)
+        1. [Fette Wörter](#fette-wörter)
+        1. [Kursive Wörter](#kursive-wörter)
+        1. [Überschriften](#überschriften)
+        1. [Verlinken](#verlinken)
+        1. [Horizontale Linien einfügen](#horizontale-linien-einfügen)
+        1. [Bilder einfügen](#bilder-einfügen)
+        1. [Tabellen erstellen](#tabellen-erstellen)
   
   ## Github
 [Github](https://de.wikipedia.org/wiki/GitHub) ist ein Onlinedienst, der Software-Entwicklungsprojekte auf seinen Servern bereitstellt. Github stellt auch eine Gratisversion zur verfügung (Open-Source), jedoch kann jeder deine Software einlesen, verwenden und ändern. Zum Schutze gegen eine Anklage falls deine Software nicht funktioniert kann man die besagte Software mit einer Lizenz versehen. Namensgebend war das [Versionsverwaltungssystem](https://de.wikipedia.org/wiki/Versionsverwaltung) [Git](https://de.wikipedia.org/wiki/Git). Ein Versionsverwaltungssystem erfasst Änderungen an Dokumenten oder Dateien. Es werden alle vorherigen Versionen gesichert. Der Quelltext wird bei Github in sogenannte Repositories (Quelltext-Datenbanken) gespeichert.
@@ -55,7 +56,7 @@ git clone https://github.com/HTLMechatronics/m17-3ahme-la1-sx.git
   Laut [Wikipedia](https://de.wikipedia.org/wiki/Markdown)
   >Markdown ist eine vereinfachte Auszeichnungssprache, die von John Gruber und Aaron Swartz entworfen und im Dezember 2004 mit Version 1.0.1 spezifiziert wurde. Ein Ziel von Markdown ist, dass schon die Ausgangsform ohne weitere Konvertierung leicht lesbar ist. Als Auszeichnungselemente wurden daher vor allem Auszeichnungsarten verwendet, die in Plain text und E-Mails üblich sind. Auch andere Auszeichnungssprachen mit ähnlichen Zielen zur Lesbarkeit – wie reStructuredText oder Textile – hatten Einfluss auf die Syntax. Der MIME-Type lautet text/markdown.
 Eine Markdown-Konvertierungssoftware wandelt Text in gültiges und W3C-konformes XHTML um. Die Referenzimplementierung in Perl steht unter einer BSD-artigen Lizenz. Weiter sind inzwischen Implementierungen in den gängigsten Programmiersprachen wie PHP (z. B.[3]), Python (z. B.[4]) oder JavaScript (z. B.[5]) sowie R verfügbar.
-  ### Vorteile
+  ### Vorteile des Markdowns
   * Markdown-Texte werden mit jedem Textwerkzeug editiert.
   * Diese Texte sind auf jeder Plattform aufrufbar, lesbar und editierbar.
   * Viele Open-Source Programme, Programmiersprachen und Plattformen unterstützen Markdown.
@@ -121,3 +122,13 @@ Eine Markdown-Konvertierungssoftware wandelt Text in gültiges und W3C-konformes
    #### Bilder einfügen
    Hier fast das gleiche wie beim verlinken jedoch wird vorne ein ! hinzugefügt.
    `[Alt-Text](/Pfad/zum/Bild.jpg)`
+   #### Tabellen erstellen
+   Tabellen erstellt man mit dem Zeichen | und dazwischen mehrere Bindestriche:
+   ```
+  | A    | B    |   C  |
+  |------|------|------|
+  | Adam | Bdam | Cdam |
+   ```
+  | A    | B    |   C  |
+  |------|------|------|
+  | Adam | Bdam | Cdam |
