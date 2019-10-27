@@ -1,1 +1,32 @@
-##Protokoll
+# Protokoll La1 dansem16
+**Datum:** 26.10.2019
+**Erstellt:** Danko Sebastian
+----------------------------------------
+##Inhalverzeichnis
+
+1. [Git](#git)
+2. [GitHub](#github)
+3. [Ebenen und Kommands](#git-ebenen-und-kommands)
+4. [Workflow](#git-workflow)
+5. [.gitignore](#gitignore)
+6. [Markdown](#markdown)
+-----------------------------------------------------------
+### Git
+>Git [ɡɪt] ist eine freie Software zur verteilten Versionsverwaltung von Dateien, die durch Linus Torvalds initiiert wurde.
+Quelle:[Wikipedia].[wikipedia.Git] Stand(26.10.2019)
+-----------------------------------------------------------
+### Github
+>GitHub ist ein Onlinedienst, der Software-Entwicklungsprojekte auf seinen Servern bereitstellt (Filehosting). Namensgebend war das Versionsverwaltungssystem Git. Die GitHub, Inc. hat ihren Sitz in San Francisco in den USA. Ähnliche Dienste sind GitLab und Bitbucket.
+Quelle:[Wikipedia].[wikipedia.GitHub] Stand(26.10.2019)
+-----------------------------------------------------------
+###Git_Ebene_und_Comands
+####Ebene
+ * Stash 
+ * Workspace
+ * Index
+ * Local repository
+ * Remote repository
+ ####Comands
+ Abbildung  ![](https://readsahil.files.wordpress.com/2016/09/git_cheat_sheet.png?w=636g)
+ ----------------------------------------------------------
+ ###Workflow
