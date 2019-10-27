@@ -118,10 +118,6 @@ Eine Markdown-Konvertierungssoftware wandelt Text in gültiges und W3C-konformes
   **************
    _ _ _ 
    ```
-   --------------------
-   ********************
-   _ _ _
    #### Bilder einfügen
    Hier fast das gleiche wie beim verlinken jedoch wird vorne ein ! hinzugefügt.
    `[Alt-Text](/Pfad/zum/Bild.jpg)`
-   ![Befehle](https://i.pinimg.com/originals/cd/7c/15/cd7c15691839a4eaf41c71274f7ae98c.png)
