@@ -99,7 +99,7 @@ Eine Markdown-Konvertierungssoftware wandelt Text in gültiges und W3C-konformes
   ### Cdam
   #### Bob
   #### Programiersprachen
-  Um eine bestimmte Programmiersprache zu kennzeichnen muss man das gleiche wie bei Bsp. 2 im Punkt "*Text mit grauen Hintergrund hervorheben*" nur mit drei Zeichen machen und danach die Programiersprache angeben einen Absatz Abstand und dann am Ende nochmal dreimal das Zeichen.
+  Um eine bestimmte Programmiersprache zu kennzeichnen muss man das gleiche wie bei Bsp. 2 im Punkt [Text mit grauen Hintergrund hervorheben](#text-mit-grauen-hintergrund-hervorheben) nur mit drei Zeichen machen und danach die Programiersprache angeben einen Absatz Abstand und dann am Ende nochmal dreimal das Zeichen.
   ```C
   int main()
 {
