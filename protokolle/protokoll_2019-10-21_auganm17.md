@@ -16,7 +16,7 @@
 1) [Git](#git)
 1) [Markdown](#markdown)
 1) [Formatierung](#formatierung)
-  * [Schriftformatierung](#Schriftformatierung) 
+    * [Schriftformatierung](#Schriftformatierung) 
 
 -----
 
