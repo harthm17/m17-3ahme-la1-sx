@@ -95,6 +95,7 @@ Ein Zitat wird mit (>) vor dem Text gemacht.
 > Das ist ein sinnloses Zitat.
 
 Ein Trennstrich wird mit beliebig vielen Bindestrichen gemacht.
+
 -----
 
 Aufzählungen kann man mit ( * ) oder mit ( 1) ) machen. Man kann bei der Aufzählungen immer 1) schreiben da die Nummierung selbst stattfindet. Das hat den Vorteil das wenn man etwas in einer Liste Hinzufügt muss man nicht alle Nummern selbst wechseln.  
