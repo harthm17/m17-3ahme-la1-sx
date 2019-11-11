@@ -16,6 +16,7 @@ Das ist eine Beispieltext mit einigen Worten. Die Umbrüche werden automatisch d
   1. Slowenien
      * Marburg
      * Laibach
+     * Kapla
 ----------------------------------------------
 
 Laut [Wikipedia](https://de.wikipedia.org/wiki/Markdown):
