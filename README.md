@@ -13,7 +13,8 @@ Das ist eine Beispieltext mit einigen Worten. Die Umbrüche werden automatisch d
   1. ***Deutschland***
   1. Tschechien
   1. Österreich
-  1. Slowenien
+  1. Ungarn
+  1. Slowenien 
      * Marburg
      * Laibach
 ----------------------------------------------
