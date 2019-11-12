@@ -20,8 +20,7 @@ Quelle: [Wikipedia][Wikipedia-Shell] (Stand: 12.11.2019)
 1. [Kommandos](#kommandos)
 1. [Berechtigungen](#berechtigungen)
 1. [Neuen Benutzer erstellen](#neuen-benutzer-erstellen)
-1. [.gitignore](#gitignore)
-1. [Markdown](#markdown)
+
 
 ## Features
   * Autovervollständigung durch die Tabulatortaste<br>
@@ -66,6 +65,8 @@ umount  | unmount a filesystem   |   Eingebundene Partition trennen<br>
 
 ## Berechtigungen
 
+Abbildung 1 ![](https://it-learner.de/wp-content/uploads/2015/05/Linux-Zugriffsrechte.jpg)
+
 > Grundlegende Dateirechte
 Die grundlegenden Dateirechte lauten lesen (engl. read, kurz r), schreiben (engl. write, kurz w) und ausführen (engl. execute, kurz x):<br>
 Lesen (r)<br>
@@ -76,6 +77,13 @@ Ausführen (x)<br>
 Der Benutzer darf die Datei ausführen (als Programm) bzw. im Falle eines Verzeichnisses in dieses Verzeichnis wechseln und dort Dateien oder Unterverzeichnisse erreichen. Eine Datei oder ein Verzeichnis kann nur erreicht werden, wenn für alle übergeordneten Verzeichnisse ebenfalls das Ausführen-Recht vergeben wurde. Ohne das Lesen-Recht kann der Verzeichnisinhalt jedoch nicht aufgelistet werden.<br>
 
 Quelle: [Variomedia][variomedia] (Stand: 12.11.2019)
+
+-------------------------------
+
+
+
+Abbildung 2 ![](https://geek-university.com/wp-content/images/linux-deutsch/berechtigung_wert.jpg?x67341)
+
 
 ## Neuen Benutzer erstellen
 
