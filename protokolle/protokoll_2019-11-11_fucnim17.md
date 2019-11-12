@@ -18,8 +18,8 @@ Quelle: [Wikipedia][Wikipedia-Shell] (Stand: 12.11.2019)
 
 1. [Features](#features)
 1. [Kommandos](#kommandos)
-1. [Ebenen und Kommands](#git-ebenen-und-kommands)
-1. [Workflow](#git-workflow)
+1. [Berechtigungen](#berechtigungen)
+1. [Neuen Benutzer erstellen](#neuen-benutzer-erstellen)
 1. [.gitignore](#gitignore)
 1. [Markdown](#markdown)
 
@@ -34,9 +34,7 @@ Quelle: [Wikipedia][Wikipedia-Shell] (Stand: 12.11.2019)
 
 ## Kommandos
 > In einem Linux-System stehen viele Kommandos zur Verfügung. Da Kommandos oftmals nur Skripte sind, lässt sich das System durch eigene Skripte leicht erweitern.<br>
-
 Eigene Skripte können vorzugsweise im Verzeichnis ~/bin abgelegt werden (das Verzeichnis muss eventuell erst angelegt werden). Beim Hochlauf wird geprüft, ob das Verzeichnis ~/bin vorhanden ist. Falls es existiert, wird es automatisch in die Umgebungsvariable PATH eingefügt.<br>
-
 Natürlich können auch übersetzte C oder C++ Programme bzw. in anderen Programmier- oder Skriptsprachen wie Perl oder Phyton erstellte Programme anstelle von Skripts verwendet werden.<br>
 
 Quelle: [LMS][lms] (Stand: 12.11.2019)
@@ -79,19 +77,17 @@ Der Benutzer darf die Datei ausführen (als Programm) bzw. im Falle eines Verzei
 
 Quelle: [Variomedia][variomedia] (Stand: 12.11.2019)
 
--------------
+## Neuen Benutzer erstellen
 
-* git status 
-* git reset  
-* git reset --hard 
-* git commit -m *text* 
-* git checkout *branch* 
+1. In den Superuser Modus wechseln mit............................sudo -i
+2. Die passwd Datei bearbeiten mit................................nano /etc/passwd
+2. Ein Passwort eingeben mit......................................sudo passwd *name*
+2. Home Verzeichniss erstellen mit................................mkdir /home/*name*
+2. Besitzer vom Home Verzeichniss ändern mit......................chown *name* /home/*name*
+2. Die group Datei ändern mit.....................................nano /etc/group
+2. Gruppe vom neuen Benutzer ändern mit...........................chgrp *name* /home/*name*
+3. Die shadow Datei ändern mit....................................nano /etc/shadow
 
-## Git-Workflow
-
-Abbildung 2 ![](https://arccwiki.uwyo.edu/images/1/19/GitHub_Flow_steps.png)
-
--------------
 
 ### Verwendeter Workflow
 
