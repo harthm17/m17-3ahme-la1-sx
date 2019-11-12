@@ -89,32 +89,6 @@ Quelle: [Variomedia][variomedia] (Stand: 12.11.2019)
 3. Die shadow Datei ändern mit....................................nano /etc/shadow
 
 
-### Verwendeter Workflow
-
-1. git clone *link*
-2. git pull *name*
-3. cd *name*
-3. git checkout *branch*
-3. (nano *dateiname*)
-3. git add *dateiname*
-3. git commit -m *text*
-3. git push
-
-## .gitignore
-> A gitignore file specifies intentionally untracked files that Git should ignore. Files already tracked by Git are not affected.
-
-Quelle: [Git][Git-gitignore] (Stand: 23.10.2019)
-
-## Markdown
-Endung: * .md
-> Markdown ist eine vereinfachte Auszeichnungssprache, die von John Gruber und Aaron Swartz entworfen und im Dezember 2004 mit Version 1.0.1 spezifiziert wurde.
-Ein Ziel von Markdown ist, dass schon die Ausgangsform ohne weitere Konvertierung leicht lesbar ist.
-Als Auszeichnungselemente wurden daher vor allem Auszeichnungsarten verwendet, die in Plain text und E-Mails üblich sind.
-
-Quelle: [Wikipedia][Wikipedia-Markdown] (Stand 22.10.2019)
-
-[Markdown-Formatierung][Markdown-Formatierung]
-
 
 
 
@@ -123,6 +97,3 @@ Quelle: [Wikipedia][Wikipedia-Markdown] (Stand 22.10.2019)
 [variomedia]: https://www.variomedia.de/faq/Wie-funktionieren-die-Datei--und-Verzeichnisrechte-auf-den-Webservern/article/290
 [Wikipedia-Shell]: https://de.wikipedia.org/wiki/Bash_(Shell)
 [lms]: https://lms.at/dotlrn/classes/informatik/610437.3AHME_LA1SX.19_20/xolrn/7BF1B31508DF3.symlink?resource_id=0-385942208&m=view#154334970
-[Wikipedia-GitHub]: https://de.wikipedia.org/wiki/GitHub
-[Git-gitignore]: https://git-scm.com/docs/gitignore
-[Markdown-Formatierung]: https://support.zendesk.com/hc/de/articles/203691016-Formatieren-von-Text-mit-Markdown
