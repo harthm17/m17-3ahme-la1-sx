@@ -78,11 +78,14 @@ Der Benutzer darf die Datei ausführen (als Programm) bzw. im Falle eines Verzei
 
 Quelle: [Variomedia][variomedia] (Stand: 12.11.2019)
 
--------------------------------
+
 
 
 
 Abbildung 2 ![](https://geek-university.com/wp-content/images/linux-deutsch/berechtigung_wert.jpg?x67341)
+
+
+-----------------------------
 
 
 ## Neuen Benutzer erstellen
