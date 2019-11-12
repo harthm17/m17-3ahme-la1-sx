@@ -25,8 +25,6 @@ Quelle: [Wikipedia][Wikipedia-Shell] (Stand: 12.11.2019)
 
 ## Features
   * Autovervollständigung durch die Tabulatortaste<br>
-
-**Hotkeys:** 
   * Strg + l ... Löschen des Bildschirms
   * Strg + c ... Abbrechen eines Kommandos
   * Strg + z ... Pausieren eines Kommandos
@@ -35,11 +33,13 @@ Quelle: [Wikipedia][Wikipedia-Shell] (Stand: 12.11.2019)
   * Strg + Shift + v ... Einfügen 
 
 ## Kommandos
-> GitHub ist ein Onlinedienst, der Software-Entwicklungsprojekte auf seinen Servern bereitstellt (Filehosting).
-Namensgebend war das Versionsverwaltungssystem Git. Die GitHub, Inc. hat ihren Sitz in San Francisco in den USA.
-Ähnliche Dienste sind GitLab und Bitbucket.
+> In einem Linux-System stehen viele Kommandos zur Verfügung. Da Kommandos oftmals nur Skripte sind, lässt sich das System durch eigene Skripte leicht erweitern.<br>
 
-Quelle: [Wikipedia][Wikipedia-GitHub] (Stand: 22.10.2019)
+Eigene Skripte können vorzugsweise im Verzeichnis ~/bin abgelegt werden (das Verzeichnis muss eventuell erst angelegt werden). Beim Hochlauf wird geprüft, ob das Verzeichnis ~/bin vorhanden ist. Falls es existiert, wird es automatisch in die Umgebungsvariable PATH eingefügt.<br>
+
+Natürlich können auch übersetzte C oder C++ Programme bzw. in anderen Programmier- oder Skriptsprachen wie Perl oder Phyton erstellte Programme anstelle von Skripts verwendet werden.<br>
+
+Quelle: [LMS][lms] (Stand: 12.11.2019)
 
 ### Kommandos für Dateien und Verzeichnisse
 Befehl | Bedeutung | Erklärung
@@ -66,9 +66,18 @@ du   |    disk usage           |     Byte-Verbrauch in Verzeichnis(sen) zeigen<b
 mount  |  mount a filesystem    |    Partition einbinden<br>
 umount  | unmount a filesystem   |   Eingebundene Partition trennen<br>
 
-## Git-Ebenen und Kommands
+## Berechtigungen
 
-Abbildung 1 ![](https://readsahil.files.wordpress.com/2016/09/git_cheat_sheet.png?w=636g)
+> Grundlegende Dateirechte
+Die grundlegenden Dateirechte lauten lesen (engl. read, kurz r), schreiben (engl. write, kurz w) und ausführen (engl. execute, kurz x):<br>
+Lesen (r)<br>
+Der Benutzer darf die Inhalte einer Datei auslesen bzw. im Falle eines Verzeichnisses dessen Inhalt auflisten.<br>
+Schreiben (w)<br>
+Der Benutzer darf in eine Datei schreiben bzw. im Falle eines Verzeichnisses Dateien und Unterverzeichnisse in diesem Verzeichnis erstellen, umbenennen und löschen sowie  deren Dateirechte ändern.<br>
+Ausführen (x)<br>
+Der Benutzer darf die Datei ausführen (als Programm) bzw. im Falle eines Verzeichnisses in dieses Verzeichnis wechseln und dort Dateien oder Unterverzeichnisse erreichen. Eine Datei oder ein Verzeichnis kann nur erreicht werden, wenn für alle übergeordneten Verzeichnisse ebenfalls das Ausführen-Recht vergeben wurde. Ohne das Lesen-Recht kann der Verzeichnisinhalt jedoch nicht aufgelistet werden.<br>
+
+Quelle: [Variomedia][variomedia] (Stand: 12.11.2019)
 
 -------------
 
@@ -115,9 +124,9 @@ Quelle: [Wikipedia][Wikipedia-Markdown] (Stand 22.10.2019)
 
 
 
-
+[variomedia]: https://www.variomedia.de/faq/Wie-funktionieren-die-Datei--und-Verzeichnisrechte-auf-den-Webservern/article/290
 [Wikipedia-Shell]: https://de.wikipedia.org/wiki/Bash_(Shell)
-[Wikipedia-Markdown]: https://de.wikipedia.org/wiki/Markdown
+[lms]: https://lms.at/dotlrn/classes/informatik/610437.3AHME_LA1SX.19_20/xolrn/7BF1B31508DF3.symlink?resource_id=0-385942208&m=view#154334970
 [Wikipedia-GitHub]: https://de.wikipedia.org/wiki/GitHub
 [Git-gitignore]: https://git-scm.com/docs/gitignore
 [Markdown-Formatierung]: https://support.zendesk.com/hc/de/articles/203691016-Formatieren-von-Text-mit-Markdown
