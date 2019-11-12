@@ -45,51 +45,51 @@ Quelle: [Wikipedia][Wikipedia-GitHub] (Stand: 22.10.2019)
 
 pwd      print working directory   Aktuelles Arbeitsverzeichnis (.) ausgeben<br>
 ls       list directory content<br>
-           ls                      -> Dateien und Verzeichnisse von ./ ausgegeben
-           ls /etc/apt             -> Dateien und Verzeichnisse von /etc/apt ausgeben
-           ls -l                   -> Line-Mode, mehr Infos anzeigen
-           ls -a                   -> all, auch verborgene Dateien anzeigen
-           ls -L                   -> Link anwenden und nicht anzeigen
-           ls -d                   -> Verzeichnis selbst ohne Inhalt anzeigen
-           ls --full-time          -> Kompletten Zeitstempel anzeigen
-cd       change directory          In ein (anderes) Verzeichnis wechseln
-           cd /etc/apt             -> in das verzeichnis /etc/apt wechseln
-           cd ..                   -> in das übergeordnete Verzeichnis wechseln
-touch    touch file                Leere Datei anlegen oder Zeitstempel ändern
-mkdir    make directory            Verzeichnis erstellen
-mv       move                      Datei/Verzeichnis verschieben oder umbenennen
-cp       copy                      Date/Verzeichnis kopieren
-           cp -r d1 d2             -> Verzeichnis d1 samt Inhalt nach d2 kopieren
-           cp -p f1 f2             -> Datei f1 kopieren, Mode/Owner/Time behalten
-scp      secure copy               copy über Netzwerk via ssh (secure shell)
-           scp datei user@host:ziel  -> datei über das Netzwerk kopieren
-rm       remove                    Datei oder löschen
-           rm -r                   -> Datei oder Verzeichnis samt Inhalt löschen
-rmdir    remove directory          Verzeichnis löschen (muss leer sein!)
-ln       link                      Links erstellen
-           ln f1 lf1               -> Hard-Link von f1 als Name lf1 erstellen
-           ls -s f1 lf1            -> Symbolic-Link lf1 erstellen (zeigt auf f1)
-cat      concatenate               Dateien verbinden und auf stdout ausgeben
-           cat f                   -> Datei f am Bildschirm (=stdout) ausgeben
-less     less (is more)            Dateiinhalt im Viewer less anzeigen
-           less -S f               -> Inhalt ohne automatische Zeilenumbrüche zeigen
-hexdump  hexadecimal file dump     Dateiinhalt als Hexdump ausgeben
-           hexdump -C file.elf     Inhalt von file.elf mit ASCII ausgeben
-grep     global search for a       Auf ein Suchmuster passende Zeilen ausgeben
+           ls                      -> Dateien und Verzeichnisse von ./ ausgegeben<br>
+           ls /etc/apt             -> Dateien und Verzeichnisse von /etc/apt ausgeben<br>
+           ls -l                   -> Line-Mode, mehr Infos anzeigen<br>
+           ls -a                   -> all, auch verborgene Dateien anzeigen<br>
+           ls -L                   -> Link anwenden und nicht anzeigen<br>
+           ls -d                   -> Verzeichnis selbst ohne Inhalt anzeigen<br>
+           ls --full-time          -> Kompletten Zeitstempel anzeigen<br>
+cd       change directory          In ein (anderes) Verzeichnis wechseln<br>
+           cd /etc/apt             -> in das verzeichnis /etc/apt wechseln<br>
+           cd ..                   -> in das übergeordnete Verzeichnis wechseln<br>
+touch    touch file                Leere Datei anlegen oder Zeitstempel ändern<br>
+mkdir    make directory            Verzeichnis erstellen<br>
+mv       move                      Datei/Verzeichnis verschieben oder umbenennen<br>
+cp       copy                      Date/Verzeichnis kopieren<br>
+           cp -r d1 d2             -> Verzeichnis d1 samt Inhalt nach d2 kopieren<br>
+           cp -p f1 f2             -> Datei f1 kopieren, Mode/Owner/Time behalten<br>
+scp      secure copy               copy über Netzwerk via ssh (secure shell)<br>
+           scp datei user@host:ziel  -> datei über das Netzwerk kopieren<br>
+rm       remove                    Datei oder löschen<br>
+           rm -r                   -> Datei oder Verzeichnis samt Inhalt löschen<br>
+rmdir    remove directory          Verzeichnis löschen (muss leer sein!)<br>
+ln       link                      Links erstellen<br>
+           ln f1 lf1               -> Hard-Link von f1 als Name lf1 erstellen<br>
+           ls -s f1 lf1            -> Symbolic-Link lf1 erstellen (zeigt auf f1)<br>
+cat      concatenate               Dateien verbinden und auf stdout ausgeben<br>
+           cat f                   -> Datei f am Bildschirm (=stdout) ausgeben<br>
+less     less (is more)            Dateiinhalt im Viewer less anzeigen<br>
+           less -S f               -> Inhalt ohne automatische Zeilenumbrüche zeigen<br>
+hexdump  hexadecimal file dump     Dateiinhalt als Hexdump ausgeben<br>
+           hexdump -C file.elf     Inhalt von file.elf mit ASCII ausgeben<br>
+grep     global search for a       Auf ein Suchmuster passende Zeilen ausgeben<br>
          regular expression and
          print out matched lines
-find     find files                Dateien oder Verzeichnisse finden
-           find / -type f -name "*.c" -> Alle C-Dateien finden
-           find . -type d             -> Alle Unterverzeichnisse in . finden
-dd       duplicate data            Daten 1:1 kopieren (auch auf Geräte anwendbar) 
-df       disk free space           Freien Speicher auf Dateisystemen anzeigen
-           df -h                   -> "Human readable" mit K,M,G ...
-du       disk usage                Byte-Verbrauch in Verzeichnis(sen) zeigen
-           du -s                   -> Nur die Gesamtsumme anzeigen
-           du -h                   -> "Human readable" mit K,M,G ...
-           du -sh * | sort -rh     -> "Human readable" und sortiert
-mount    mount a filesystem        Partition einbinden
-umount   unmount a filesystem      Eingebundene Partition trennen
+find     find files                Dateien oder Verzeichnisse finden<br>
+           find / -type f -name "*.c" -> Alle C-Dateien finden<br>
+           find . -type d             -> Alle Unterverzeichnisse in . finden<br>
+dd       duplicate data            Daten 1:1 kopieren (auch auf Geräte anwendbar) <br>
+df       disk free space           Freien Speicher auf Dateisystemen anzeigen<br>
+           df -h                   -> "Human readable" mit K,M,G ...<br>
+du       disk usage                Byte-Verbrauch in Verzeichnis(sen) zeigen<br>
+           du -s                   -> Nur die Gesamtsumme anzeigen<br>
+           du -h                   -> "Human readable" mit K,M,G ...<br>
+           du -sh * | sort -rh     -> "Human readable" und sortiert<br>
+mount    mount a filesystem        Partition einbinden<br>
+umount   unmount a filesystem      Eingebundene Partition trennen<br>
 
 ## Git-Ebenen und Kommands
 
