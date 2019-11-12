@@ -42,54 +42,29 @@ Namensgebend war das Versionsverwaltungssystem Git. Die GitHub, Inc. hat ihren S
 Quelle: [Wikipedia][Wikipedia-GitHub] (Stand: 22.10.2019)
 
 ### Kommandos für Dateien und Verzeichnisse
-
-pwd      print working directory   Aktuelles Arbeitsverzeichnis (.) ausgeben<br>
-ls       list directory content<br>
-           ls                      -> Dateien und Verzeichnisse von ./ ausgegeben<br>
-           ls /etc/apt             -> Dateien und Verzeichnisse von /etc/apt ausgeben<br>
-           ls -l                   -> Line-Mode, mehr Infos anzeigen<br>
-           ls -a                   -> all, auch verborgene Dateien anzeigen<br>
-           ls -L                   -> Link anwenden und nicht anzeigen<br>
-           ls -d                   -> Verzeichnis selbst ohne Inhalt anzeigen<br>
-           ls --full-time          -> Kompletten Zeitstempel anzeigen<br>
-cd       change directory          In ein (anderes) Verzeichnis wechseln<br>
-           cd /etc/apt             -> in das verzeichnis /etc/apt wechseln<br>
-           cd ..                   -> in das übergeordnete Verzeichnis wechseln<br>
-touch    touch file                Leere Datei anlegen oder Zeitstempel ändern<br>
-mkdir    make directory            Verzeichnis erstellen<br>
-mv       move                      Datei/Verzeichnis verschieben oder umbenennen<br>
-cp       copy                      Date/Verzeichnis kopieren<br>
-           cp -r d1 d2             -> Verzeichnis d1 samt Inhalt nach d2 kopieren<br>
-           cp -p f1 f2             -> Datei f1 kopieren, Mode/Owner/Time behalten<br>
-scp      secure copy               copy über Netzwerk via ssh (secure shell)<br>
-           scp datei user@host:ziel  -> datei über das Netzwerk kopieren<br>
-rm       remove                    Datei oder löschen<br>
-           rm -r                   -> Datei oder Verzeichnis samt Inhalt löschen<br>
-rmdir    remove directory          Verzeichnis löschen (muss leer sein!)<br>
-ln       link                      Links erstellen<br>
-           ln f1 lf1               -> Hard-Link von f1 als Name lf1 erstellen<br>
-           ls -s f1 lf1            -> Symbolic-Link lf1 erstellen (zeigt auf f1)<br>
-cat      concatenate               Dateien verbinden und auf stdout ausgeben<br>
-           cat f                   -> Datei f am Bildschirm (=stdout) ausgeben<br>
-less     less (is more)            Dateiinhalt im Viewer less anzeigen<br>
-           less -S f               -> Inhalt ohne automatische Zeilenumbrüche zeigen<br>
-hexdump  hexadecimal file dump     Dateiinhalt als Hexdump ausgeben<br>
-           hexdump -C file.elf     Inhalt von file.elf mit ASCII ausgeben<br>
-grep     global search for a       Auf ein Suchmuster passende Zeilen ausgeben<br>
-         regular expression and
-         print out matched lines
-find     find files                Dateien oder Verzeichnisse finden<br>
-           find / -type f -name "*.c" -> Alle C-Dateien finden<br>
-           find . -type d             -> Alle Unterverzeichnisse in . finden<br>
-dd       duplicate data            Daten 1:1 kopieren (auch auf Geräte anwendbar) <br>
-df       disk free space           Freien Speicher auf Dateisystemen anzeigen<br>
-           df -h                   -> "Human readable" mit K,M,G ...<br>
-du       disk usage                Byte-Verbrauch in Verzeichnis(sen) zeigen<br>
-           du -s                   -> Nur die Gesamtsumme anzeigen<br>
-           du -h                   -> "Human readable" mit K,M,G ...<br>
-           du -sh * | sort -rh     -> "Human readable" und sortiert<br>
-mount    mount a filesystem        Partition einbinden<br>
-umount   unmount a filesystem      Eingebundene Partition trennen<br>
+Befehl | Bedeutung | Erklärung
+-------- | -------- | --------
+pwd |      print working directory |  Aktuelles Arbeitsverzeichnis (.) ausgeben<br>
+ls |      list directory content | Dateien und Verzeichnisse von ./ ausgegeben
+cd  |    change directory       |   In ein (anderes) Verzeichnis wechseln<br>
+touch |    touch file        |        Leere Datei anlegen oder Zeitstempel ändern<br>
+mkdir |   make directory     |       Verzeichnis erstellen<br>
+mv    |   move              |        Datei/Verzeichnis verschieben oder umbenennen<br>
+cp   |    copy           |           Date/Verzeichnis kopieren<br>
+scp  |    secure copy     |          copy über Netzwerk via ssh (secure shell)<br>
+rm   |    remove             |       Datei oder löschen<br>
+rmdir |   remove directory     |     Verzeichnis löschen (muss leer sein!)<br>
+ln   |    link               |       Links erstellen<br>
+cat   |   concatenate        |       Dateien verbinden und auf stdout ausgeben<br>
+less   |  less     |       Dateiinhalt im Viewer less anzeigen<br>
+hexdump | hexadecimal file dump |    Dateiinhalt als Hexdump ausgeben<br>
+grep   |  global search for a   |    Auf ein Suchmuster passende Zeilen ausgeben<br>
+find |    find files           |     Dateien oder Verzeichnisse finden<br>
+dd   |    duplicate data      |      Daten 1:1 kopieren (auch auf Geräte anwendbar) <br>
+df   |    disk free space     |      Freien Speicher auf Dateisystemen anzeigen<br>
+du   |    disk usage           |     Byte-Verbrauch in Verzeichnis(sen) zeigen<br>
+mount  |  mount a filesystem    |    Partition einbinden<br>
+umount  | unmount a filesystem   |   Eingebundene Partition trennen<br>
 
 ## Git-Ebenen und Kommands
 
