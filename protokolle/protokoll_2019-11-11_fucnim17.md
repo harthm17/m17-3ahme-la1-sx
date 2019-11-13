@@ -99,6 +99,8 @@ Abbildung 2 ![](https://geek-university.com/wp-content/images/linux-deutsch/bere
 2. Gruppe vom neuen Benutzer ändern mit...........................chgrp *name* /home/*name*
 3. Die shadow Datei ändern mit....................................nano /etc/shadow
 
+-----------------------------
+
 
 
 
