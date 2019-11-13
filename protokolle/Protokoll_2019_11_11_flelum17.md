@@ -38,12 +38,34 @@ Steuerung/Konfiguration des Systems mit textuellen Kommandos
 
 
 ## Kommandos  
-
-
+* **Interne Kommandos**  
+  Stellt die Shell selbst zur Verfügung  
+  Hilfe: **help**  
+  
+* **Externe Kommandos**  
+  Dort wirt ein externes Programm aufgerufen  
+  Hilfe: **man**   
+  
 
 
 ## Features  
+* **Autovervollstänigung** Tabulatortaste  
+* **History** Pfeiltasten auf und ab  
+* **Cursor** Pfeiltasten links und rechts  
+* **Tastenkombinationen**  
+  
+             Strg + Shift + c ... Kopieren in Zwischenablage  
+             Strg + Shift + v ... Einfügen aus Zwischenablage  
+             Strg + r ........... Suchen nach früheren Kommandos  
+             Strg + l ........... Löschen des Bildschirms  
+             Strg + c ........... Abbrechen eines Kommandos  
+             Strg + z ........... Pausieren eines Kommandos  
+             Strg + d ........... Shell beenden  
+             Strg + t ........... Die Zeichen unter dem Cursor tauschen  
 
+
+* **Verkettung von Kommandos** mit |  
+* **Mehrere Kommandos in der Zeile** mit ;  
 
 
 ## Rechte  
@@ -54,7 +76,7 @@ Steuerung/Konfiguration des Systems mit textuellen Kommandos
 ## Benutzer  
 
 ## Quellen  
-[Shell](https://lms.at/dotlrn/classes/informatik/610437.3AHME_LA1SX.19_20/xolrn/7BF1B31508DF3.symlink?resource_id=0-385942208&m=view#150960423)  
+[Shell](https://lms.at/dotlrn/classes/informatik/610437.3AHME_LA1SX.19_20/xolrn/7BF1B31508DF3.symlink?resource_id=0-385942208&m=view#150960423) (12.11.2019)  
 
 
 
