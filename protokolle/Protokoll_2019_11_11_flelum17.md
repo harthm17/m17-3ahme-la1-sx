@@ -45,7 +45,35 @@ Steuerung/Konfiguration des Systems mit textuellen Kommandos
 * **Externe Kommandos**  
   Dort wirt ein externes Programm aufgerufen  
   Hilfe: **man**   
-  
+    
+**Kommandos für Verzeichnisse und Dateien**  
+pwd      print working directory   Aktuelles Arbeitsverzeichnis (.) ausgeben  
+ls       list directory content    Dateien und Verzeichnisse von ./ ausgegeben  
+cd       change directory          In ein (anderes) Verzeichnis wechseln  
+touch    touch file                Leere Datei anlegen oder Zeitstempel ändern  
+mkdir    make directory            Verzeichnis erstellen  
+mv       move                      Datei/Verzeichnis verschieben oder umbenennen   
+cp       copy                      Date/Verzeichnis kopieren  
+scp      secure copy               copy über Netzwerk via ssh (secure shell)  
+rm       remove                    Datei oder löschen  
+rmdir    remove directory          Verzeichnis löschen (muss leer sein!)  
+ln       link                      Links erstellen  
+cat      concatenate               Dateien verbinden und auf stdout ausgeben  
+less     less (is more)            Dateiinhalt im Viewer less anzeigen  
+hexdump  hexadecimal file dump     Dateiinhalt als Hexdump ausgeben  
+grep     global search for a       Auf ein Suchmuster passende Zeilen ausgeben
+         regular expression and  
+         print out matched lines    
+find     find files                Dateien oder Verzeichnisse finden  
+dd       duplicate data            Daten 1:1 kopieren (auch auf Geräte anwendbar)  
+df       disk free space           Freien Speicher auf Dateisystemen anzeigen  
+du       disk usage                Byte-Verbrauch in Verzeichnis(sen) zeigen  
+mount    mount a filesystem        Partition einbinden  
+umount   unmount a filesystem      Eingebundene Partition trennen
+Bei Ubuntu kann anstelle des Kommandos find kann auch das Kommando   
+
+
+
 
 
 ## Features  
