@@ -117,9 +117,6 @@ Steuerung/Konfiguration des Systems mit textuellen Kommandos
 **dpkg**     |     debian package       |      Pakete installiern/deinstallieren  
 **apt-cache**  |   packet cache commands   |   Kommandos für lokalen APT cache am Rechner  
 
-  
-  
-
 
 ## Features  
 * **Autovervollstänigung** Tabulatortaste  
@@ -142,8 +139,22 @@ Steuerung/Konfiguration des Systems mit textuellen Kommandos
 
 
 ## Rechte  
+* **r** Lesen (englisch read)  
+Der Benutzer darf aus der Datei lesen oder, im Falle eines Verzeichnisses,  
+seinen Inhalt auslesen, allerdings keine Dateirechte dieser Dateien erfahren.  
+Oktalzahl: **4**  
 
+* **w** Schreiben (englisch write)  
+Der Benutzer darf in die Datei schreiben bzw. Dateien und Unterverzeichnisse  
+in dem Verzeichnis erstellen, umbenennen, löschen und deren Dateirechte verändern.  
+Oktalzahl: **2**  
 
+* **x** Ausführen (englisch execute)  
+Der Benutzer darf die Datei als Programm ausführen bzw. in das Verzeichnis  
+wechseln und dort Dateien oder Unterverzeichnisse erreichen.  
+Oktalzahl: **1**  
+
+![Bild1](http://www.easylinux.de/Artikel/ausgabe/2003/09/071-guru-chmod/rwx-grafix_s.jpg)  
 
 
 ## Benutzer  
@@ -151,6 +162,8 @@ Steuerung/Konfiguration des Systems mit textuellen Kommandos
 ## Quellen  
 [LMS(Shell)](https://lms.at/dotlrn/classes/informatik/610437.3AHME_LA1SX.19_20/xolrn/7BF1B31508DF3.symlink?resource_id=0-385942208&m=view#150960423) (14.11.2019)  
 [Wikipedia(SSH)](https://de.wikipedia.org/wiki/Secure_Shell) (14.11.2019)  
+[Wikipedia(Rechte)](https://de.wikipedia.org/wiki/Unix-Dateirechte) (14.11.2019)  
+
 
 
 
