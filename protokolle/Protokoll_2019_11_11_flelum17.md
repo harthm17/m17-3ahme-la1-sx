@@ -31,7 +31,13 @@ Steuerung/Konfiguration des Systems mit textuellen Kommandos
 
 
 ## SSH  
-  Secure Shell oder SSH bezeichnet sowohl ein Netzwerkprotokoll als auch entsprechende Programme, mit deren Hilfe man auf eine sichere     Art und Weise eine verschlüsselte Netzwerkverbindung mit einem entfernten Gerät herstellen kann. Häufig wird diese Methode verwendet,   um lokal eine entfernte Kommandozeile verfügbar zu machen, das heißt, auf einer lokalen Konsole werden die Ausgaben der entfernten   Konsole ausgegeben und die lokalen Tastatureingaben werden an den entfernten Rechner gesendet. Genutzt werden kann dies beispielsweise    zur Fernwartung eines in einem entfernten Rechenzentrum stehenden Servers.
+  **Secure Shell** oder **SSH** bezeichnet sowohl ein *Netzwerkprotokoll* als auch entsprechende *Programme*,  
+  mit deren Hilfe man auf eine sichere Art und Weise eine *verschlüsselte Netzwerkverbindung* mit   
+  einem entfernten Gerät herstellen kann. Häufig wird diese Methode verwendet, um lokal eine   
+  entfernte Kommandozeile verfügbar zu machen, das heißt, auf einer lokalen Konsole werden die  
+  Ausgaben der entfernten Konsole ausgegeben und die lokalen Tastatureingaben werden an den   
+  entfernten Rechner gesendet. Genutzt werden kann dies beispielsweise zur *Fernwartung* eines  
+  in einem entfernten Rechenzentrum stehenden Servers.  
 
 
 
@@ -143,7 +149,7 @@ Steuerung/Konfiguration des Systems mit textuellen Kommandos
 ## Benutzer  
 
 ## Quellen  
-[LMS(Shell](https://lms.at/dotlrn/classes/informatik/610437.3AHME_LA1SX.19_20/xolrn/7BF1B31508DF3.symlink?resource_id=0-385942208&m=view#150960423) (14.11.2019)  
+[LMS(Shell)](https://lms.at/dotlrn/classes/informatik/610437.3AHME_LA1SX.19_20/xolrn/7BF1B31508DF3.symlink?resource_id=0-385942208&m=view#150960423) (14.11.2019)  
 [Wikipedia(SSH)](https://de.wikipedia.org/wiki/Secure_Shell) (14.11.2019)  
 
 
