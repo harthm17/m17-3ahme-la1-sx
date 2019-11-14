@@ -159,6 +159,17 @@ Oktalzahl: **1**
 
 ## Benutzer  
 
+**Bedeutung** | **Eingabe** 
+---------- | ----------
+Wechseln in den Superuser- Modus       |       **sudo -i**  
+passwd Datei bearbeiten                |        **nano /etc/passwd**  
+Passwort eingeben                      |         **sudo passwd name**  
+Erstellen eines Home Verzeichnis        |         **mkdir /home/name**  
+Besitzer des Home Verzeichnis ändern     |       **chown name /home/name**  
+group Datei ändern                       |         **nano /etc/group**  
+Gruppe des neuen Benutzers ändern        |         **chgrp name /home/name**  
+shadow Datei ändern                      |         **nano /etc/shadow**  
+
 ## Quellen  
 [LMS(Shell)](https://lms.at/dotlrn/classes/informatik/610437.3AHME_LA1SX.19_20/xolrn/7BF1B31508DF3.symlink?resource_id=0-385942208&m=view#150960423) (14.11.2019)  
 [Wikipedia(SSH)](https://de.wikipedia.org/wiki/Secure_Shell) (14.11.2019)  
