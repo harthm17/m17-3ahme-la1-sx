@@ -5,9 +5,16 @@
 * Mike Adam
 --------------------------------
 ## Inhaltsverzeichnis:
-* [Die Linux Shell](#die-linux-shell)
-* [Arbeiten mit der Shell](#arbeiten-mit-der-shell)
-* [SSH](#ssh)
+1) [Die Linux Shell](#die-linux-shell)
+2) [Arbeiten mit der Shell](#arbeiten-mit-der-shell)
+3) [SSH](#ssh)
+   * [Autovervollständigung](#autovervollständigung)
+   * [Kommandos durchblättern](#kommandos-durchblättern)
+   * [Cursor bewegen](#cursor-bewegen)
+   * [Grundlegende Kommandos](#grundlegende-kommandos)
+   * [Suchmuster für Dateien](#suchmuster-für-dateien)
+4) [Einen neuen Benutzer anlegen](#einen-neuen-benutzer-anlegen)
+5) [Dateirechte](#dateirechte)
 
 
 
