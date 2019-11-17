@@ -6,8 +6,9 @@
 --------------------------------
 ## Inhaltsverzeichnis:
 1) [Die Linux Shell](#die-linux-shell)
-2) [Arbeiten mit der Shell](#arbeiten-mit-der-shell)
-3) [SSH](#ssh)
+2) [SSH](#ssh)
+3) [Arbeiten mit der Shell](#arbeiten-mit-der-shell)
+
    * [Autovervollständigung](#autovervollständigung)
    * [Kommandos durchblättern](#kommandos-durchblättern)
    * [Cursor bewegen](#cursor-bewegen)
