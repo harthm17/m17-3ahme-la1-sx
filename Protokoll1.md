@@ -27,16 +27,16 @@ Vorteile von einem solchem System sind:
 ### Git
 Git ist ein sogenanntes Versionsverwaltungssystem, welches von Linus Thorwald erschaffen wurde. Dies ist eine freie software.
 
-Siehe [Wikipedia](https://de.wikipedia.org/wiki/Git)
+Siehe [Wikipedia](https://de.wikipedia.org/wiki/Git).
 
-Die Version kann man auf einem Linuxrechner mit dem command *git --version* sehen.
+Die Version kann man auf einem Linuxrechner mit dem command *git --version* aufrufen.
 
 ## Github 
-Github ist eine Web-Plattform für Git verwaltete Projekte. 
+Github ist eine Web-Plattform für Git verwaltete Projekte, welche sehr erfolgreich war. Deshalb wurde sie von Microsoft gekauft.
 
 ### Grundlagen
-Wenn man registriert ist kann man sich einloggen, indem man github.com/<Benutzername> hineinschreibt und dann seine E-Mail Adresse und sein Passwort eingibt.
-Ein neues Repository kann man unter dem Reiter Repository und dann New anlegen. Dann kann man den Namen, eine Programmiersprache und eine Lizens hinzufügen. Noch dazu haben wir ausgewählt, dass die Datenbank öffentlich ist, da eine Private kostenpflichtig ist. Weiters haben wir angekreuzt, eine readme Datei anzulegen.
+Wenn man registriert ist kann man sich einloggen, indem man github.com/<Benutzername> hineinschreibt und dann seine E-Mail Adresse und sein Passwort eingibt.  
+Ein neues Repository kann man unter dem Reiter Repository und dann New anlegen. Dann kann man den Namen, eine Programmiersprache und eine Lizens hinzufügen. Noch dazu haben wir ausgewählt, dass die Datenbank öffentlich ist, da eine Private kostenpflichtig ist. Weiters haben wir angekreuzt, eine readme Datei anzulegen.  
 Danach waren drei Dateien angelegt, README.md, license und .gitignore. Darin kann man schreiben, die Lizens durchlesen und die Dateitypen sehen oder auch ändern, welche unterstützt werden.
   
   ## Dokumentieren
@@ -101,5 +101,5 @@ laut [Wikipedia](https://de.wikipedia.org/wiki/Markdown)
    ```
  9. **Zitat :** Vor dem Zitat ein '>'  
  
-Diese Befehle/Sachen findet man zusammengefasst [hier](https://github.com/mastering-markdown)
+Diese Befehle/Sachen findet man zusammengefasst [hier](https://github.com/mastering-markdown).
 
