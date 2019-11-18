@@ -75,15 +75,31 @@ Danach waren drei Dateien angelegt, README.md, license und .gitignore. Darin kan
  * einfach
  
  ## Markdown
- Markdown wird bei Github verwendet. Es ist eine schnelle und einfache Aufzeichnungsart. 
+laut [Wikipedia](https://de.wikipedia.org/wiki/Markdown)
+>Markdown ist eine vereinfachte Auszeichnungssprache, die von John Gruber und Aaron Swartz entworfen und im Dezember 2004 mit Version 1.0.1 spezifiziert wurde.
  
  1. **Überschriften** schreibt man, indem man ein # vor dem Wort, dass die Überschrift sein soll, macht. Man kann auch Unterüberschriften machen. Dafür muss man 2 oder mehr Hashtags vor das Wort stellen. Maximal sind 6 möglich.
  1. **Zeilenumbruch:** Das erledigt man mit zwei Leerzeichen hintereinander.
  1. **Fett**, *Kursiv*, oder ***Fett und Kursiv*** macht man mit 2, 1, oder 3 Sternchen nach und vor dem Wort.
  1. **Liste :** Eine Liste kann man erstellen, wenn man untereinander die Zeilen mit einem Stern beginnt. Dies ist auch mit Auflistungen möglich also mit <Zahl>.
  1. **Tabellen :** Tabellenünerschrift | Tabellenünerschrift, Zeile darunter : -------- | --------
- 1. **Links :** [Nam
- 1.
- 1.
- 1.
+  Beispiel:
+ Katalognummer | name
+ ------------  | ----
+             1 | Adam 
+             2 | Augustin
+             3 | Danko
+ 1. **Links :** [angezeigter Name] (Link)
+ 1. **Bild :** ![angezeigter Name] (Link)
+ 1. **Programm** Wir schreiben folgende C-Funktion `main()`:
+
+  ```C
+  int main () {
+  printf("Willkommen");
+  return 0;
+  }
+   ```
+ 9. **Zitat :** Vor dem Zitat ein '>'  
  
+Diese Befehle/Sachen findet man zusammengefasst [hier](https://github.com/mastering-markdown)
+
