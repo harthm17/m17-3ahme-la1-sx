@@ -1,2 +1,2 @@
-# Laborprotokolle Georg Kaufmann 11
+# Labor Protokolle Georg Kaufmann 11
 
