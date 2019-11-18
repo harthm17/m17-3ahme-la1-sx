@@ -110,12 +110,12 @@ Es gibt verschiedene Ebenen zwischen die man mit Hilfe von commands tauscht. Die
 ![Abbildung 2](https://camo.githubusercontent.com/5a4967992d07a6f0f97422e6de4296edcbbe6050/68747470733a2f2f72656164736168696c2e66696c65732e776f726470726573732e636f6d2f323031362f30392f6769745f63686561745f73686565742e706e673f773d36333667)
 
 Um zwischen diesen Ebenen switchen zu können werden folgende Befehle benötigt.
-* git clone (link)
-* ls
-* cd [Verzeichnis]
-* git status
-* git checkout [branch]
-* gedit []
-* git add
-* git commit 
-* git push
+* git clone (link), link Kopieren
+* ls, Verzeichnisse anzeigen
+* cd [Verzeichnis], Verzeichnis öffnen
+* git status, status anzeigen lassen
+* git checkout [branch], branch auswählen
+* gedit [], Datei öffnen
+* git add, hinzufügen
+* git commit, speichern
+* git push, hochladen
