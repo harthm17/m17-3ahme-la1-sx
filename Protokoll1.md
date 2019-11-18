@@ -13,7 +13,7 @@
 2. [Github](github)
 3. [Dokumentieren](dokumentieren)
 4. [Markdown](markdown)
-
+5. [Ebenen und Branches](ebenen-und-branches)
 ----------------------------------------------------------------------------------------------
 
 ## Versionsverwaltungssysteme
@@ -82,16 +82,10 @@ laut [Wikipedia](https://de.wikipedia.org/wiki/Markdown)
  1. **Zeilenumbruch:** Das erledigt man mit zwei Leerzeichen hintereinander.
  1. **Fett**, *Kursiv*, oder ***Fett und Kursiv*** macht man mit 2, 1, oder 3 Sternchen nach und vor dem Wort.
  1. **Liste :** Eine Liste kann man erstellen, wenn man untereinander die Zeilen mit einem Stern beginnt. Dies ist auch mit Auflistungen möglich also mit <Zahl>.
- 1. **Tabellen :** Tabellenünerschrift | Tabellenünerschrift, Zeile darunter : -------- | --------
-  Beispiel:
- Katalognummer | name
- ------------  | ----
-             1 | Adam 
-             2 | Augustin
-             3 | Danko
+ 1. **Tabellen :** 1. Zeile: Tabellenüberschrift | Tabellenüberschrift 2.Zeile : -------- | --------, in den weiteren Zeilen kann man den Inhalt eintragen
  1. **Links :** [angezeigter Name] (Link)
  1. **Bild :** ![angezeigter Name] (Link)
- 1. **Programm** Wir schreiben folgende C-Funktion `main()`:
+ 1. **Programm** `main()`:
 
   ```C
   int main () {
@@ -103,3 +97,24 @@ laut [Wikipedia](https://de.wikipedia.org/wiki/Markdown)
  
 Diese Befehle/Sachen findet man zusammengefasst [hier](https://github.com/mastering-markdown).
 
+## Ebenen und Branches
+Branches sind Verzweigungen. Es gibt einen masterbranch und weiter branches wie man in der Abbildung 1 sehen kann.
+![Abbildung 1](https://camo.githubusercontent.com/fe7346b2099985eecb0aa828d84a84432187fbec/68747470733a2f2f6172636377696b692e7577796f2e6564752f696d616765732f312f31392f4769744875625f466c6f775f73746570732e706e67)
+
+
+
+### Ebenen
+Es gibt verschiedene Ebenen zwischen die man mit Hilfe von commands tauscht. Diese Ebenen werden in Abbildung 2 dargestellt.
+
+![Abbildung 2](https://camo.githubusercontent.com/5a4967992d07a6f0f97422e6de4296edcbbe6050/68747470733a2f2f72656164736168696c2e66696c65732e776f726470726573732e636f6d2f323031362f30392f6769745f63686561745f73686565742e706e673f773d36333667)
+
+Um zwischen diesen Ebenen switchen zu können werden folgende Befehle benötigt.
+* git clone (link)
+* ls
+* cd [Verzeichnis]
+* git status
+* git checkout [branch]
+* gedit []
+* git add
+* git commit 
+* git push
