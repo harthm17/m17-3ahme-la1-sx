@@ -78,7 +78,7 @@ Textverarbeitung        | leserlich, übersichtlich, elektronisches Suchen, ver�
 **Video**               | gleich wie bei "Bild"
 **Quelltext**           | drei ´´´ Hochstriche am Anfang und drei ´´´Hochstriche am Ende
 **Zitat**               | > Beispiel Satz nicht vorhanden
-**Tabelle**             | siehe ![Tabelle](https://thoughtbot.com/blog/align-github-flavored-markdown-tables-in-vim)
+**Tabelle**             | siehe [Tabelle](https://thoughtbot.com/blog/align-github-flavored-markdown-tables-in-vim)
 
 #### Grundlagen
 #### Anmeldung
