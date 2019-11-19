@@ -25,9 +25,10 @@
     * [Nachteile](#nachteile)
     * [Grundkenntnisse](grundkenntnisse)
 1. [Git](https://de.wikipedia.org/wiki/Git)
-    * local/remote repository
-    * Kommandos für das Terminal
-    * Kommandos für Git
+    * [local/remote repository & stash](#local/remote-repository-&-stash)
+    * [Grundlegendes](#grundlegendes)
+    * [Kommandos für das Terminal](#kommandos-für-das-Terminal)
+    * [Kommandos für Git](#Kommandos-für-Git)
 1. [Merge](https://de.wikipedia.org/wiki/Merge) 
 
 ----------------------------------------------------------------
@@ -90,20 +91,20 @@ Die Dateiendung ist meist **.md** oder **.markdown**.
 [GitHub](https://de.wikipedia.org/wiki/GitHub) ist eine Web-Plattform für Git verwaltete Projekte. Github ist die ideale Open Source Software in Sachen [Versionsverwaltungssysteme](https://de.wikipedia.org/wiki/Versionsverwaltung).
 
 ##### Vorteile
-      1. man verliert nur sehr schwer Daten und Mitschriften
-      1. mit ein bisschen Übung ist es sehr leicht zu bedienen
-      1. es eignet sich sehr gut für Gruppenarbeiten da jeder den Arbeitsstand und Daten vom anderen sehen kann
-      1. Es ist kostenlos (außer man will seine Daten nicht veröffentlichen)
-      1. man hat die Möglichkeit alles in einer übersichtlichen und nachvollziehbaren Form zu machen
-      1. es ist alles nachvollziehbar
-      1. es geht sehr schnell
-      1. es kann keiner was stehlen, da es sowieso schon öffentlich ist
-      1. es kann kein anderer ein Patent auf deine hochgeladenen Sachen anmelden (solange man die Rechte richtig einschränkt)
-      1. andere könnten Fehler entdecken und dich darauf hinweisen
+1. man verliert nur sehr schwer Daten und Mitschriften
+1. mit ein bisschen Übung ist es sehr leicht zu bedienen
+1. es eignet sich sehr gut für Gruppenarbeiten da jeder den Arbeitsstand und Daten vom anderen sehen kann
+1. Es ist kostenlos (außer man will seine Daten nicht veröffentlichen)
+1. man hat die Möglichkeit alles in einer übersichtlichen und nachvollziehbaren Form zu machen
+1. es ist alles nachvollziehbar
+1. es geht sehr schnell
+1. es kann keiner was stehlen, da es sowieso schon öffentlich ist
+1. es kann kein anderer ein Patent auf deine hochgeladenen Sachen anmelden (solange man die Rechte richtig einschränkt)
+1. andere könnten Fehler entdecken und dich darauf hinweisen
 
 ##### Nachteile
-      1. man benötigt einen PC (Kosten)
-      2. man kann keine neuen Erfindungen oder Entwicklungsstände dokumentieren, da es andere sehen können
+1. man benötigt einen PC (Kosten)
+2. man kann keine neuen Erfindungen oder Entwicklungsstände dokumentieren, da es andere sehen können
       
 ##### Grundkenntnisse
 
@@ -192,7 +193,7 @@ Zweimaliges Drücken der Tabulatortaste.
 ```
 ![](adresse des bildes) eingefügt.
 ```
-*Beispiel;*
+*Beispiel:* Quelle: https://webserver.x-technik.com/upload/images/113087.jpg
 ![](https://webserver.x-technik.com/upload/images/113087.jpg)
 
 
