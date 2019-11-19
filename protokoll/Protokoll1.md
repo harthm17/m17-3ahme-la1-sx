@@ -22,7 +22,8 @@ Anwesend:      Felix Hamrle, Stefan Haring, Thomas Harrer, Georg Kaufmann, Andre
     * [Verschiedene Systeme](#verschiedene-systeme)
 1) [Dokumentation](#dokumentation) 
 1) [Markdown](#markdown)
-    * [Formatierung](#formatierung) 
+    * [Formatierung](#formatierung)
+    * [Grundlagen](#grundlagen)
     * [Anmeldung](#anmeldung) 
   
 -------------------------------------------------
@@ -39,6 +40,7 @@ Anwesend:      Felix Hamrle, Stefan Haring, Thomas Harrer, Georg Kaufmann, Andre
 Immer wenn es eine neue **Version** entsteht wird diese in einer Datenbank hochgeladen.   
 Es ist z.B. feststellbar wer die neue Version hochgeladen hat, wann diese hochgeladen wurde, was hochgeladen wurde und vieles mehr. 
 
+
 Ein gutes Beispiel für solch eine Versionsverwaltung ist [Wikipedia](https://www.wikipedia.org/). 
 Zu aller erst wird ein Eintrag über ein bestimmtes Thema erstellt, anschließend kann man diesen verändern und es werden verschiedene Versionen gespeichert.
 
@@ -53,14 +55,30 @@ Zu aller erst wird ein Eintrag über ein bestimmtes Thema erstellt, anschließen
 -------------------------------------------------
 
 ### Dokumentation
-Arten der Dokumenatiotn | Pro | Kontra
------------------------ | --- | ------
-handschriftlich | flexibel, schnell | unleserlich, elektronischen Suchen, unübersichtlich
-Schreibmaschine | |
-Textverarbeitung | leserlich, übersichtlich, elektronisches Suchen, veränderbar | Zeitbedarf
+Arten der Dokumenatiotn | Pro                                                          | Kontra
+----------------------- | ---                                                          | ------
+handschriftlich         | flexibel, schnell                                            | unleserlich, elektronischen Suchen, unübersichtlich
+Schreibmaschine         |                                                              |
+Textverarbeitung        | leserlich, übersichtlich, elektronisches Suchen, veränderbar | Zeitbedarf
 
 -------------------------------------------------
 
 ### Markdown
 #### Formatierung
+***Anwendungsname***    | ***Umsetzung/Anwendung***
+--------------          | -------------------
+**Überschrift**         | #
+**Unterüberschrift**    | ## bis zu sechs Unterüberschriften/Hashtags
+**Zeilenumbruch**       | 2 * Tabulator
+**Text fett**           | **Beispiel** - 2 Sternchen vorher und 2 Sternchen danach 
+**Text kursiv**         | *Beispiel* - 1 Sternchen vorher und 1 Sternchen danach
+**Text kursiv + fett**  | ***Beispiel*** - 3 Sternchen vorher und 3 Sternchen danach
+**Link**                | Siehe_[Beispiel](https:// ... )
+**Bild**                | Siehe_![Beispiel](https:// ... )
+**Video**               | gleich wie bei "Bild"
+**Quelltext**           | drei ´´´ Hochstriche am Anfang und drei ´´´Hochstriche am Ende
+**Zitat**               | > Beispiel Satz nicht vorhanden
+**Tabelle**             | siehe ![Tabelle](https://thoughtbot.com/blog/align-github-flavored-markdown-tables-in-vim)
+
+#### Grundlagen
 #### Anmeldung
