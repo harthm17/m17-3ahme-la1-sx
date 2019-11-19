@@ -13,23 +13,24 @@
 
 ## Inhaltsverzeichnis
 1. [Themen der Einheiten](#themen-der-einheit)
-1. [Versionsverwaltung](https://de.wikipedia.org/wiki/Versionsverwaltung)
+1. [Versionsverwaltung](#versionsverwaltung)
     * [Definition](#definition)
     * [Vorteile](#vorteile)
     * [Nachteile](#nachteile)
 1. [Dokumentieren](#dokumentieren)
     * [Arten](#arten)
-1. [Markdown](https://de.wikipedia.org/wiki/Markdown)
-1. [GitHub](https://de.wikipedia.org/wiki/GitHub)
+1. [Markdown](markdown)
+1. [GitHub](github)
     * [Vorteile](#vorteile)
     * [Nachteile](#nachteile)
     * [Grundkenntnisse](grundkenntnisse)
-1. [Git](https://de.wikipedia.org/wiki/Git)
+1. [Git](#git)
     * [local/remote repository & stash](#local/remote-repository-&-stash)
     * [Grundlegendes](#grundlegendes)
     * [Kommandos für das Terminal](#kommandos-für-das-Terminal)
     * [Kommandos für Git](#Kommandos-für-Git)
-1. [Merge](https://de.wikipedia.org/wiki/Merge) 
+1. [Merge](#merge) 
+1. [Branch](#branch)
 
 ----------------------------------------------------------------
 
@@ -280,10 +281,17 @@ Datei zurück auf den Server bringen
 Quelle:[wiki](https://de.wikipedia.org/wiki/Merge)
 >Merge ist der Vorgang des Abgleichens mehrerer Änderungen, die an verschiedenen Versionen derselben Datei getätigt wurden. Das Zusammenführen verschiedener Datei-Versionen ist ein zentraler Vorgang bei den meisten Versionsverwaltungssystemen, weshalb diese meist unterschiedliche Merge-Algorithmen unterstützen. Viele Versionsverwaltungssysteme werden zudem mit grafischen Hilfsprogrammen ausgeliefert, die das Mergen vereinfachen sollen.
 
-[Versionsverwaltungssysteme](https://de.wikipedia.org/wiki/Versionsverwaltung)
-[Merge]:https://de.wikipedia.org/wiki/Merge
-[gedit]:https://de.wikipedia.org/wiki/Gedit
-[Git]:https://de.wikipedia.org/wiki/Git
-[Versionsverwaltung]:https://de.wikipedia.org/wiki/Versionsverwaltung
-[GitHub]:https://de.wikipedia.org/wiki/GitHub
-[Markdown]:https://de.wikipedia.org/wiki/Markdown
+ ### Branch
+(Ast)
+Der Master Branch ist der Hauptast, wenn man nicht im Master Branch arbeiten will, 
+dann macht man sich einen Nebenbranch, 
+danach kann man den Nebenbrunch wieder in den Master Brunch zurück bringen
+      
+Branch erstellen: git checkout -b <Name des neuen Branch>
+Nach einer Änderung der Datei: git push --set-upstream origin <Name des neuen Branch>
+Zurück in den Master Branch bringen: git checkout master C
+                                         git merge work C
+                                         git status
+                                         git push
+      
+Nach diesem Vorgang sind beide Braches wieder zusammengeführt.
