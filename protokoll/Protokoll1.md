@@ -18,7 +18,7 @@ Verfasser:     Kaufmann Georg
 1) [Versionsverwaltungssysteme](#versionsverwaltungssysteme) 
     * [Grundlagen](#grundlagen) 
     * [Vorteile](#vorteile) 
-    * [Verschiedene Systeme](#verschiedene systeme)
+    * [Verschiedene Systeme](#verschiedene-systeme)
 1) [Dokumentation](#dokumentation) 
 1) [Markdown](#markdown)
     * [Formatierung](#formatierung) 
