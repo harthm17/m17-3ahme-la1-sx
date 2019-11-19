@@ -1,6 +1,6 @@
 # 1. Protokoll
 -------------------------------------------------
-##Thema: Versionsverwaltung bzw. Markdown
+## Thema: Versionsverwaltung bzw. Markdown
 -------------------------------------------------
 Übungsdatum:  Montag, 18.11.2019
 Übungszeit:   14:10 bis 16:20
@@ -8,7 +8,7 @@
 Abwesend:     keiner
 Verfasser:    Kaufmann Georg
 -------------------------------------------------
-###Inhaltsverzeichnis
+### Inhaltsverzeichnis
 1. Versionsverwaltungssysteme
   1.1 Grundlagen
   1.1 Vorteile
@@ -23,8 +23,8 @@ Verfasser:    Kaufmann Georg
 1. LINUX Grundlagen Teil 1
 1. LINUX Grundlagen Teil 2 (Test + Protokoll)
 -------------------------------------------------
-###Versionsverwaltungssysteme
-####Grundlagen
+### Versionsverwaltungssysteme
+#### Grundlagen
 Immer wenn es eine neue **Version** entsteht wird diese in einer Datenbank hochgeladen.   
 Es ist z.B. feststellbar wer die neue Version hochgeladen hat, wann diese hochgeladen wurde, was hochgeladen wurde und vieles mehr. 
 
