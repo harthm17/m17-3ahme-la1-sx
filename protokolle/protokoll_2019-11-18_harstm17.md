@@ -14,7 +14,7 @@
 ## Inhaltsverzeichnis
 1. Themen der Einheiten
 1. [Versionsverwaltung](https://de.wikipedia.org/wiki/Versionsverwaltung)
-    * Definition
+    * [Definition](#definition)
     * Vorteile
     * Nachteile
 1. Dokumentieren //TODO
@@ -39,7 +39,7 @@
 
 ### Versionsverwaltung
 
-* Definition:
+* #### Definition:
 [Wikipedia](https://de.wikipedia.org/wiki/Versionsverwaltung) definiert folgendes:
 >Eine Versionsverwaltung ist ein System, das zur Erfassung von Änderungen an Dokumenten oder Dateien verwendet wird. Alle Versionen werden in einem Archiv mit Zeitstempel und Benutzerkennung gesichert und können später wiederhergestellt werden. Versionsverwaltungssysteme werden typischerweise in der Softwareentwicklung eingesetzt, um Quelltexte zu verwalten. Versionsverwaltung kommt auch bei Büroanwendungen oder Content-Management-Systemen zum Einsatz.
 >Eigene Definition: Unter Versionsverwaltung versteht man, das Speichern von Daten in einer Datenbank unter verschiedenen Versionen.
