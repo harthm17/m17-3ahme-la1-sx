@@ -5,11 +5,12 @@
 ## Thema: Versionsverwaltung bzw. Markdown
 
 -------------------------------------------------
-Übungsdatum:  Montag, 18.11.2019
-Übungszeit:   14:10 bis 16:20
-Übungsort:    Arnfels, CAD-Saal 
-Abwesend:     keiner 
-Verfasser:    Kaufmann Georg 
+
+Übungsdatum:   Montag, 18.11.2019     
+Übungszeit:    14:10 bis 16:20      
+Übungsort:     Arnfels, CAD-Saal     
+Abwesend:      keiner     
+Verfasser:     Kaufmann Georg     
 
 -------------------------------------------------
 
@@ -48,5 +49,5 @@ Siehe auch ![Bild](https://www.computer-automation.de/steuerungsebene/steuern-re
 *Ich habe von überall Zugriff über einen anderen PC.
 ***Wichtig** Schutz vor sich selbst. Wenn ich eine Datei zerstöre kann ich einfach zu einer vorigen springen.
 
-####Verschiedene Systeme
+#### Verschiedene Systeme
 ...
