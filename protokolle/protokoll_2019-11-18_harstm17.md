@@ -4,25 +4,26 @@
 
 * **Thema:** Versionsverwaltung
 * **Datum:** 18.11.2019
-* **Gefehlt:** Keiner
-* **Erstellt von:** Haring Stefan
+* **Gefehlt:** -
+* **Erstellt von:** Haring Stefan (harstm17)
 * **Protokoll letzte Einheit:**
 * **Protokoll nächste Einheit:**
 
 ------------------------------------------------------------
 
 ## Inhaltsverzeichnis
-1. Themen der Einheiten
+1. [Themen der Einheiten](#themen-der-einheit)
 1. [Versionsverwaltung](https://de.wikipedia.org/wiki/Versionsverwaltung)
     * [Definition](#definition)
-    * Vorteile
-    * Nachteile
-1. Dokumentieren //TODO
+    * [Vorteile](#vorteile)
+    * [Nachteile](#nachteile)
+1. [Dokumentieren](#dokumentieren)
+    * [Arten](#arten)
 1. [Markdown](https://de.wikipedia.org/wiki/Markdown)
 1. [GitHub](https://de.wikipedia.org/wiki/GitHub)
-    * Vorteile
-    * Nachteile
-    * Grundkenntnisse
+    * [Vorteile](#vorteile)
+    * [Nachteile](#nachteile)
+    * [Grundkenntnisse](grundkenntnisse)
 1. [Git](https://de.wikipedia.org/wiki/Git)
     * local/remote repository
     * Kommandos für das Terminal
@@ -44,27 +45,45 @@
 >Eine Versionsverwaltung ist ein System, das zur Erfassung von Änderungen an Dokumenten oder Dateien verwendet wird. Alle Versionen werden in einem Archiv mit Zeitstempel und Benutzerkennung gesichert und können später wiederhergestellt werden. Versionsverwaltungssysteme werden typischerweise in der Softwareentwicklung eingesetzt, um Quelltexte zu verwalten. Versionsverwaltung kommt auch bei Büroanwendungen oder Content-Management-Systemen zum Einsatz.
 >Eigene Definition: Unter Versionsverwaltung versteht man, das Speichern von Daten in einer Datenbank unter verschiedenen Versionen.
 
-* Vorteile:
+* #### Vorteile:
     1. Rückgriff auf die Vorgängerversion aufgrund von Fehler in der neuen Version
     1. Teamworking möglich
     1. auch über das Netzwerk abrufbar
     1. man kann genau nachweisen, wer welche Fehler gemacht hat
     1. auch nach dem irrtümlichen Löschen von Daten, kann man wieder auf sie zugreifen
     
- * Nachteile:
+ * #### Nachteile:
     1. hohe Anschaffungskosten (besorgen eines PC´s)
     1. ohne Anschaffung der kostenpflichtigen Version, ist der Einblick in Daten jedem gewehrt
 --------------------------------------------------------------------------------------------------
 
+### Dokumentieren
+#### Arten:
+##### handschriftlich:
+* **Vorteile-->** flexibel, schnell
+* **Nachteile-->** unleserlich, Kopie umständlich, manchmal unübersichtlich, schnelles Suchen von Daten nicht möglich, nur temporär nützlich
+                              
+##### Schreibmaschine:
+(nicht relevant, da diese Art der Dokumentierung nur mehr selten bis gar nicht auftritt)
+      
+##### Textverarbeitung:
+* **Vorteile-->** leserlich, übersichtlich, veränderbar, einfache Suche, copy-paste möglich
+* **Nachteile-->** teilweise sehr umstädnlich, Zeitbedarf hoch 
+                               
+---------------------------------------------------------------------------------------------------------------------------------
+
+
 ### Markdown
-Was ist Markdown?
+*Was ist Markdown?*
 * Laut [Wikipedia](https://de.wikipedia.org/wiki/Markdown):
 >Markdown ist eine vereinfachte Auszeichnungssprache, die von John Gruber und Aaron Swartz entworfen und im Dezember 2004 mit Version 1.0.1 spezifiziert wurde. Ein Ziel von Markdown ist, dass schon die Ausgangsform ohne weitere Konvertierung leicht lesbar ist. Als Auszeichnungselemente wurden daher vor allem Auszeichnungsarten verwendet, die in Plain text und E-Mails üblich sind. Auch andere Auszeichnungssprachen mit ähnlichen Zielen zur Lesbarkeit hatten Einfluss auf die Syntax.
->Eigendefinition: Markdown ist die Mischung von Der Handschriftdokumentation und der Textverarbeitung. Hierbei werden die Vorteile beider Techniken genutzt.
 
-Die Syntax von [Markdown](https://de.wikipedia.org/wiki/Markdown) oder wird vor allem auf Entwicklerplattformen verwendet. (z.B. GitHub)
+>*Eigendefinition:* Markdown ist die Mischung von der Handschriftdokumentation und der Textverarbeitung. Hierbei werden die Vorteile beider Techniken genutzt.
+
+Die Syntax von [Markdown](https://de.wikipedia.org/wiki/Markdown) wird vor allem auf Entwicklerplattformen verwendet. (z.B. GitHub)
 Die Dateiendung ist meist **.md** oder **.markdown**.
--------------------------------------------------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------------------------------------
 
 
 ### GitHub
@@ -74,14 +93,24 @@ Die Dateiendung ist meist **.md** oder **.markdown**.
       1. man verliert nur sehr schwer Daten und Mitschriften
       1. mit ein bisschen Übung ist es sehr leicht zu bedienen
       1. es eignet sich sehr gut für Gruppenarbeiten da jeder den Arbeitsstand und Daten vom anderen sehen kann
-      1. Es is kostenlos
+      1. Es ist kostenlos (außer man will seine Daten nicht veröffentlichen)
       1. man hat die Möglichkeit alles in einer übersichtlichen und nachvollziehbaren Form zu machen
+      1. es ist alles nachvollziehbar
+      1. es geht sehr schnell
+      1. es kann keiner was stehlen, da es sowieso schon öffentlich ist
+      1. es kann kein anderer ein Patent auf deine hochgeladenen Sachen anmelden (solange man die Rechte richtig einschränkt)
+      1. andere könnten Fehler entdecken und dich darauf hinweisen
 
 ##### Nachteile
       1. man benötigt einen PC (Kosten)
-      2. man kann keine Neuen Erfindungen oder Entwicklungsstände dokumentieren, weil es andere sehen können
+      2. man kann keine neuen Erfindungen oder Entwicklungsstände dokumentieren, da es andere sehen können
       
 ##### Grundkenntnisse
+
+* **Lizenz**
+
+Die Lizenz spielt eine große Rolle in Sachen Rechtslage.
+
 
 * **Computersprache:**
 
@@ -102,7 +131,7 @@ Die Dateiendung ist meist **.md** oder **.markdown**.
       ....(max 6#)
 
 * **etwas Nummerieren** (Nummerierung passt sich selbst auf 1,2,3... an)
-                        (Vorteil: falls man eine Nummerierung später hinzufügen möchte,
+                        (*Vorteil:* falls man eine Nummerierung später hinzufügen möchte,
                          muss man nicht alle nachfolgenden Nummerierungen wieder ausbessern)
 ```
 1. A
@@ -112,7 +141,7 @@ Die Dateiendung ist meist **.md** oder **.markdown**.
 
 * **etwas verlinken:** 
 ```
-[Name](Link)
+[Name](link)
 ```
 
 * **etwas durchstreichen:**
@@ -124,6 +153,16 @@ Die Dateiendung ist meist **.md** oder **.markdown**.
 ```
 *Wort*
 ```
+* **Liste erstellen:** 
+```
+     *text
+     *text
+     *text
+   
+     1.
+     1.
+     1.
+```
 * **etwas fett machen:**
 ```
 **Wort**
@@ -134,50 +173,108 @@ Die Dateiendung ist meist **.md** oder **.markdown**.
 >Zitat
 ```
 
-* **grau hinterlegen:** 2mal Tabulatortaste
+* **grau hinterlegen:** 
+```
+Zweimaliges Drücken der Tabulatortaste.
+```
+* **Inhaltsverzeichnis:** 
+```
+    [Überschrift](#überschrift)
+```
 
-* **Tabelle erstellen:**
-//TODO
+* **Programm einfügen**
+```
+( ´´´(Programiersprache) Programm... ´´´) 
 
-* **Abteilung durch einen Strich kennzeichnen:** (einfach die Minustaste länger gedrückt halten)
+```
+
+* **Einfügen von Bildern**
+```
+![](adresse des bildes) eingefügt.
+```
+*Beispiel;*
+![](https://webserver.x-technik.com/upload/images/113087.jpg)
+
+
+
+* **Abteilung durch einen Strich kennzeichnen:** 
+(einfach die Minustaste länger gedrückt halten)
 ```
 ----------------------------------------------------------------------------------------------
 ```
-//TODO
-------------------------------------------------------------------
+
+* **Tabelle erstellen:**
+```
+Version    | Name       | Datum
+-----------|------------|------------
+V 1.0      | Protokoll.docx | 18.11.2019
+
+```
+------------------------------------------------------------------------------------------------
 ### Git
 Quelle: https://www.stephenmarron.com/wp-content/uploads/2017/02/git.png
 ![Git data transport](https://www.stephenmarron.com/wp-content/uploads/2017/02/git.png)
 
 Quelle:[Wiki](https://de.wikipedia.org/wiki/Git)
->Git ist eine freie Software zur verteilten Versionsverwaltung von Dateien, die durch Linus Torvalds initiiert wurde. 
+>Git ist eine freie Software zur verteilten Versionsverwaltung von Dateien, die durch Linus Torvalds initiiert wurde.
 
-Als Editor wird [gedit](https://de.wikipedia.org/wiki/Gedit) verwendet. Es wird zwischen remote repository und local repository unterschieden.
+Als Editor wird [gedit](https://de.wikipedia.org/wiki/Gedit) verwendet. Es wird zwischen remote repository und local repository unterschieden. Es ist auch Offline zugänglich.
 
-#### local/remote repository
+#### local/remote repository & stash
 
 * local repository = sind die lokalen Änderungen
-* remote repository = sind an einem z.B. Server gespeichert der nicht lokal ist
+* remote repository = sind zB. an einem Server gespeichert, der nicht lokal ist
+* stash: Zwischenspeicher für Änderungen
 
+#### Grundlegendes
+   Man kann sich die eigenen Daten von Github auf seinen eigenen Rechner clonen.
+   Die Daten kann man dann am eigenen Rechner im Terminal bearbeiten.
+   Nachdem man sie bearbeitet hat kann man sie wieder hochladen.
+   Bei einem Projekt mit mehreren Leuten ist es gut wenn sich ein jeder die Daten clonen würde da es sicherer ist.
+   
 #### Kommandos für das Terminal:
 * history = man sieht welche Kommandos man schon verwendet hat.
-* reset oder clear = löscht den Bildschirm
+* reset = löscht den Bildschirm
 * strg + = man vergrößert die Schrift
 * strg - = man verkleinert die Schrift
+* strg l = Bildschirm wird nach oben geschoben
+* ls -l = abgelegte Dateien
 * ALT = man macht die Menüleiste sichtbar
+* Pfeil nach oben oder !<Befehl> = Kommandos können wiederholt werden
+* cd <Verzeichniss> = in ein anderes Verzeichniss kommen
 * exit = damit schließt man, um auch nachher auf die history zurückgreifen zu können
 
 #### Kommandos für Git:
 * git clone = damit kann man eine Kopie vom local repository machen
+```
+Terminal eingabe: zum clonen der Datei: git clone https://github.com/<Autor>/<Datei>
+                           ins richtige Verzeichniss: cd <Datei>
+                           die Datei öffnen: gedit README.md
+                           Microsft Visual Studio: code ~/<Datei>/README.md
+```
 * git add = damit sagt man, dass eine Datei geändert wurde.
+```
+Datei zurück auf den Server bringen
+  
+         Terminal eingabe: git add README.md          //Wenn man alles hinzufügen will dann: git add -A
+                           git status
+                           git commit -m "Update README.md"
+                           Eingabe des Benutzers damit der Rechner weiß wer man ist: git config --global user.email "<Email>"
+                                                                                     git config --global user.name "<Name>"
+                           git commit -m "Update README.md"
+                           git push
+                           Dann muss man noch Benutzername und Passwort eingeben
+```
 * git commit = dort muss immer stehen wer du bist, Änderungen werden lokal gespeichert
 * git push = sendet die Veränderungen an den master branch
-* git Status = zeigt die files wo etwas verändert wurde
+* git status = zeigt die files wo etwas verändert wurde
 * git reset = man macht lokale Veränderungen
 * git merge = einen anderen Branch zu deinem aktiven Branch hinzufügen
 
+-----------------------------------------------------------------------------------------------------------
+
 ### Merge:
-[Merge](https://de.wikipedia.org/wiki/Merge) bedeutet, dass 2 Änderungen zusammengeführt werden. Das ist ein oft verwendeter Vorgang bei Versionsverwaltungssystemen.
+[Merge](https://de.wikipedia.org/wiki/Merge) bedeutet, dass 2 Änderungen zusammengeführt werden. Das ist ein oft verwendeter Vorgang in Versionsverwaltungssystemen.
 
 Quelle:[wiki](https://de.wikipedia.org/wiki/Merge)
 >Merge ist der Vorgang des Abgleichens mehrerer Änderungen, die an verschiedenen Versionen derselben Datei getätigt wurden. Das Zusammenführen verschiedener Datei-Versionen ist ein zentraler Vorgang bei den meisten Versionsverwaltungssystemen, weshalb diese meist unterschiedliche Merge-Algorithmen unterstützen. Viele Versionsverwaltungssysteme werden zudem mit grafischen Hilfsprogrammen ausgeliefert, die das Mergen vereinfachen sollen.
