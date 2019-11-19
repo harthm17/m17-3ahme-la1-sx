@@ -49,12 +49,17 @@ Zu aller erst wird ein Eintrag über ein bestimmtes Thema erstellt, anschließen
 * **Wichtig** ist der Schutz vor sich selbst. Wenn ich eine Datei zerstöre kann ich einfach zu einer vorigen springen.
 
 #### Verschiedene Systeme
+
+-------------------------------------------------
+
 ### Dokumentation
 Arten der Dokumenatiotn | Pro | Kontra
 ----------------------- | --- | ------
 handschriftlich | flexibel, schnell | unleserlich, elektronischen Suchen, unübersichtlich
 Schreibmaschine | |
 Textverarbeitung | leserlich, übersichtlich, elektronisches Suchen, veränderbar | Zeitbedarf
+
+-------------------------------------------------
 
 ### Markdown
 #### Formatierung
