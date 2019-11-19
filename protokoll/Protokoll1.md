@@ -8,9 +8,9 @@
 
 Übungsdatum:   Montag, 18.11.2019     
 Übungszeit:    14:10 bis 16:20      
-Übungsort:     Arnfels, CAD-Saal
-Verfasser:     Georg Kaufmann
-Abwesend:      keiner
+Übungsort:     Arnfels, CAD-Saal    
+Verfasser:     Georg Kaufmann    
+Abwesend:      keiner      
 Anwesend:      Felix Hamrle, Stefan Haring, Thomas Harrer, Georg Kaufmann, Andreas Kogler, Franz Lieleg, Simon Marcher
 
 -------------------------------------------------
@@ -42,16 +42,20 @@ Es ist z.B. feststellbar wer die neue Version hochgeladen hat, wann diese hochge
 Ein gutes Beispiel für solch eine Versionsverwaltung ist [Wikipedia](https://www.wikipedia.org/). 
 Zu aller erst wird ein Eintrag über ein bestimmtes Thema erstellt, anschließend kann man diesen verändern und es werden verschiedene Versionen gespeichert.
 
-Siehe auch ![Bild](https://www.computer-automation.de/steuerungsebene/steuern-regeln/artikel/79313/1/)
-
 #### Vorteile
 * Wenn ein Fehler entsteht kann man einfach zu einer Funktionierenden Version zurückspringen.
 * Team working, diese Art von zusammenarbeit ist es perfekt dafür geeignet. 
 * Ich habe von überall Zugriff über einen anderen PC.
-* **Wichtig** Schutz vor sich selbst. Wenn ich eine Datei zerstöre kann ich einfach zu einer vorigen springen.
+* **Wichtig** ist der Schutz vor sich selbst. Wenn ich eine Datei zerstöre kann ich einfach zu einer vorigen springen.
 
 #### Verschiedene Systeme
 ### Dokumentation
+Arten der Dokumenatiotn | Pro | Kontra
+----------------------- | --- | ------
+handschriftlich | flexibel, schnell | unleserlich, elektronischen Suchen, unübersichtlich
+Schreibmaschine | |
+Textverarbeitung | leserlich, übersichtlich, elektronisches Suchen, veränderbar | Zeitbedarf
+
 ### Markdown
 #### Formatierung
 #### Anmeldung
