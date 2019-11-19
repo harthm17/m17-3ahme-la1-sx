@@ -48,15 +48,15 @@
 >Eigene Definition: Unter Versionsverwaltung versteht man, das Speichern von Daten in einer Datenbank unter verschiedenen Versionen.
 
 * #### Vorteile:
-    1. Rückgriff auf die Vorgängerversion aufgrund von Fehler in der neuen Version
-    1. Teamworking möglich
-    1. auch über das Netzwerk abrufbar
-    1. man kann genau nachweisen, wer welche Fehler gemacht hat
-    1. auch nach dem irrtümlichen Löschen von Daten, kann man wieder auf sie zugreifen
+1. Rückgriff auf die Vorgängerversion aufgrund von Fehler in der neuen Version
+1. Teamworking möglich
+1. auch über das Netzwerk abrufbar
+1. man kann genau nachweisen, wer welche Fehler gemacht hat
+1. auch nach dem irrtümlichen Löschen von Daten, kann man wieder auf sie zugreifen
     
  * #### Nachteile:
-    1. hohe Anschaffungskosten (besorgen eines PC´s)
-    1. ohne Anschaffung der kostenpflichtigen Version, ist der Einblick in Daten jedem gewehrt
+1. hohe Anschaffungskosten (besorgen eines PC´s)
+1. ohne Anschaffung der kostenpflichtigen Version, ist der Einblick in Daten jedem gewehrt
 --------------------------------------------------------------------------------------------------
 
 ### Dokumentieren
@@ -283,7 +283,7 @@ Quelle:[wiki](https://de.wikipedia.org/wiki/Merge)
 
  ### Branch
 (Ast)
-Der Master Branch ist der Hauptast, wenn man nicht im Master Branch arbeiten will, 
+Der Master [Branch](https://git-scm.com/book/en/v1/Git-Branching-What-a-Branch-Is) ist der Hauptast, wenn man nicht im Master Branch arbeiten will, 
 dann macht man sich einen Nebenbranch, 
 danach kann man den Nebenbrunch wieder in den Master Brunch zurück bringen
       
@@ -294,4 +294,4 @@ Zurück in den Master Branch bringen: git checkout master C
                                          git status
                                          git push
       
-Nach diesem Vorgang sind beide Braches wieder zusammengeführt.
+Nach diesem Vorgang sind beide Branches wieder zusammengeführt.
