@@ -8,9 +8,10 @@
 
 Übungsdatum:   Montag, 18.11.2019     
 Übungszeit:    14:10 bis 16:20      
-Übungsort:     Arnfels, CAD-Saal     
-Abwesend:      keiner     
-Verfasser:     Kaufmann Georg     
+Übungsort:     Arnfels, CAD-Saal
+Verfasser:     Georg Kaufmann
+Abwesend:      keiner
+Anwesend:      Felix Hamrle, Stefan Haring, Thomas Harrer, Georg Kaufmann, Andreas Kogler, Franz Lieleg, Simon Marcher
 
 -------------------------------------------------
 
