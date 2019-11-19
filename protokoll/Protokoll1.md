@@ -16,13 +16,13 @@ Verfasser:     Kaufmann Georg
 
 ### Inhaltsverzeichnis
 1) [Versionsverwaltungssysteme](#versionsverwaltungssysteme) 
-    * Grundlagen 
-    * Vorteile 
-    * Verschiedene Systeme
-1) Dokumentation 
-1) Markdown
-    * Formatierung 
-    * Anmeldung 
+    * [Grundlagen](#grundlagen) 
+    * [Vorteile](#vorteile) 
+    * [Verschiedene Systeme](#verschiedene systeme)
+1) [Dokumentation](#dokumentation) 
+1) [Markdown](#markdown)
+    * [Formatierung](#formatierung) 
+    * [Anmeldung](#anmeldung) 
   
 -------------------------------------------------
 
@@ -50,4 +50,7 @@ Siehe auch ![Bild](https://www.computer-automation.de/steuerungsebene/steuern-re
 * **Wichtig** Schutz vor sich selbst. Wenn ich eine Datei zerstöre kann ich einfach zu einer vorigen springen.
 
 #### Verschiedene Systeme
-...
+### Dokumentation
+### Markdown
+#### Formatierung
+#### Anmeldung
