@@ -44,10 +44,10 @@ Zu aller erst wird ein Eintrag über ein bestimmtes Thema erstellt, anschließen
 Siehe auch ![Bild](https://www.computer-automation.de/steuerungsebene/steuern-regeln/artikel/79313/1/)
 
 #### Vorteile
-*Wenn ein Fehler entsteht kann man einfach zu einer Funktionierenden Version zurückspringen.
-*Team working, diese Art von zusammenarbeit ist es perfekt dafür geeignet. 
-*Ich habe von überall Zugriff über einen anderen PC.
-***Wichtig** Schutz vor sich selbst. Wenn ich eine Datei zerstöre kann ich einfach zu einer vorigen springen.
+* Wenn ein Fehler entsteht kann man einfach zu einer Funktionierenden Version zurückspringen.
+* Team working, diese Art von zusammenarbeit ist es perfekt dafür geeignet. 
+* Ich habe von überall Zugriff über einen anderen PC.
+* **Wichtig** Schutz vor sich selbst. Wenn ich eine Datei zerstöre kann ich einfach zu einer vorigen springen.
 
 #### Verschiedene Systeme
 ...
