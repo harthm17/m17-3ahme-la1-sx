@@ -28,9 +28,9 @@ Anwesend:      Felix Hamrle, Stefan Haring, Thomas Harrer, Georg Kaufmann, Andre
 -------------------------------------------------
 
 ### Themen des ersten Laborzyklus:
-1. Versionsverwaltung, Markdown (Protokoll)
-1. LINUX Grundlagen Teil 1
-1. LINUX Grundlagen Teil 2 (Test + Protokoll)
+1. Versionsverwaltung, Markdown (Protokoll) - 18.11.2019
+1. LINUX Grundlagen Teil 1 - 25.11.2019
+1. LINUX Grundlagen Teil 2 (Test + Protokoll) - 02.12.2019
 
 -------------------------------------------------
 
