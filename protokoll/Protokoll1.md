@@ -40,7 +40,6 @@ Anwesend:      Felix Hamrle, Stefan Haring, Thomas Harrer, Georg Kaufmann, Andre
 Immer wenn es eine neue **Version** entsteht wird diese in einer Datenbank hochgeladen.   
 Es ist z.B. feststellbar wer die neue Version hochgeladen hat, wann diese hochgeladen wurde, was hochgeladen wurde und vieles mehr. 
 
-
 Ein gutes Beispiel für solch eine Versionsverwaltung ist [Wikipedia](https://www.wikipedia.org/). 
 Zu aller erst wird ein Eintrag über ein bestimmtes Thema erstellt, anschließend kann man diesen verändern und es werden verschiedene Versionen gespeichert.
 
