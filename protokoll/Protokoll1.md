@@ -41,7 +41,7 @@ Anwesend:      Felix Hamrle, Stefan Haring, Thomas Harrer, Georg Kaufmann, Andre
 
 ### Versionsverwaltungssysteme
 #### Grundlagen
-Immer wenn eine neue **Version** entsteht wird diese in einer Datenbank hochgeladen.   
+Immer wenn eine neue **Version** entsteht, wird diese in einer Datenbank hochgeladen.   
 Es ist z.B. feststellbar wer die neue Version hochgeladen hat, wann diese hochgeladen wurde, was hochgeladen wurde und vieles mehr. 
 
 Laut Wikipedia:
@@ -64,8 +64,8 @@ Der Name ist folgendermaßen Zustande gekommen:
 Git ist im britischen der Ausdruck für "Blödmann" und Linus Torvald begründete seine Namens Entscheidung mit folgendem Satz.
 >“I’m an egotistical bastard, and I name all my projects after myself. First ‘Linux’, now ‘Git’.”
 
-Die Web-Plattform für solche GIT verwaltete Projekte ist Github. Vor gut einem Jahr kaufte sich Microsoft für umgerechnet 6,4 Milliarden Euro Github. Seither hat sich schon einiges geändert, zwecks einfacher Handhabung. 
-Die Web-Plattform ist eine Open Source Plattform und jeder kann die Dinge anderer einsehen und lesen.  
+Die Web-Plattform für solche GIT verwaltete Projekte ist Github. Vor gut einem Jahr kaufte sich Microsoft für umgerechnet 6,4 Milliarden Euro Github. Seither hat sich schon einiges geändert.
+Die Web-Plattform ist eine Open-Source-Plattform und jeder kann die Dinge anderer einsehen und lesen.  
 
 ![Bild](https://upload.wikimedia.org/wikipedia/commons/a/a3/SVNvsGITServer_2.png)
 
