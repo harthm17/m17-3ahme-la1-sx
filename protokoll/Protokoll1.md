@@ -41,11 +41,12 @@ Anwesend:      Felix Hamrle, Stefan Haring, Thomas Harrer, Georg Kaufmann, Andre
 
 ### Versionsverwaltungssysteme
 #### Grundlagen
-Immer wenn es eine neue **Version** entsteht wird diese in einer Datenbank hochgeladen.   
+Immer wenn eine neue **Version** entsteht wird diese in einer Datenbank hochgeladen.   
 Es ist z.B. feststellbar wer die neue Version hochgeladen hat, wann diese hochgeladen wurde, was hochgeladen wurde und vieles mehr. 
 
 Laut Wikipedia:
 > Eine Versionsverwaltung ist ein System, das zur Erfassung von Änderungen an Dokumenten oder Dateien verwendet wird.
+Quelle:https://de.wikipedia.org/wiki/Versionsverwaltung
 
 Ein gutes Beispiel für solch eine Versionsverwaltung ist [Wikipedia](https://www.wikipedia.org/). 
 Zu aller erst wird ein Eintrag über ein bestimmtes Thema erstellt, anschließend kann man diesen verändern und es werden verschiedene Versionen gespeichert.
@@ -53,7 +54,7 @@ Zu aller erst wird ein Eintrag über ein bestimmtes Thema erstellt, anschließen
 #### Vorteile
 * Wenn ein Fehler entsteht kann man einfach zu einer Funktionierenden Version zurückspringen.
 * Team working, eine Versionsverwaltung ist perfekt dafür geeignet. 
-* Ich habe von überall Zugriff über einen anderen PC.
+* Man kann auch offline arbeiten.
 * **Wichtig** ist der Schutz vor sich selbst. Wenn ich eine Datei zerstöre kann ich einfach zu einer vorigen springen.
 
 #### Verschiedene Systeme
@@ -71,9 +72,9 @@ Die Web-Plattform ist eine Open Source Plattform und jeder kann die Dinge andere
 -------------------------------------------------
 
 ### Dokumentation
-Arten der Dokumenatiotn | Pro                                                          | Kontra
+Arten der Dokumentation | Pro                                                          | Kontra
 ----------------------- | ---                                                          | ------
-handschriftlich         | flexibel, schnell                                            | unleserlich, elektronischen Suchen, unübersichtlich
+handschriftlich         | flexibel, schnell                                            | unleserlich, elektronisches Suchen, unübersichtlich
 Schreibmaschine         |                                                              |
 Textverarbeitung        | leserlich, übersichtlich, elektronisches Suchen, veränderbar | Zeitbedarf
 
@@ -81,7 +82,7 @@ Textverarbeitung        | leserlich, übersichtlich, elektronisches Suchen, ver�
 
 ### Markdown
 #### Formatierung
-***Anwendungsname***       | ***Umsetzung/Anwendung***
+***Anwendung***            | ***Umsetzung***
 --------------             | -------------------
 **Überschrift**            | #
 **Unterüberschrift**       | ## bis zu sechs Unterüberschriften/Hashtags
@@ -89,6 +90,7 @@ Textverarbeitung        | leserlich, übersichtlich, elektronisches Suchen, ver�
 **Text fett**              | **Beispiel** - \*\*Beispiel** 
 **Text kursiv**            | *Beispiel* - \*Beispiel*
 **Text kursiv + fett**     | ***Beispiel*** - \*\*\*Beispiel***
+**Text durchgestrichen**   | ~Beispiel~ - \~Beispiel\~
 **Link**                   | Siehe \[Beispiel](https:// ... )
 **Bild**                   | Siehe \![Beispiel](https:// ... )
 **Video**                  | gleich wie bei "Bild"
@@ -99,8 +101,7 @@ Textverarbeitung        | leserlich, übersichtlich, elektronisches Suchen, ver�
 **Tabelle**                | siehe [Tabelle](https://thoughtbot.com/blog/align-github-flavored-markdown-tables-in-vim)
 
 #### Grundlagen
-Markdown ist eine Auszeichnungssprache. Das Ziel ist es, Texte mit wenig Aufwand übersichtlich darstellen zu können. Die Formatierung geschieht durch einfache Befehle (siehe oben).
-Meistens werden für die Auszeichnung Satzzeichen verwendet.  
+Markdown ist eine Auszeichnungssprache. Das Ziel ist es, Texte mit wenig Aufwand übersichtlich darstellen zu können. Die Formatierung geschieht durch einfache Befehle (siehe oben). 
 
 -------------------------------------------------
 
@@ -113,7 +114,7 @@ Es gibt verschiedene Ebenen um auch offline arbeiten zu können.
 Die Befehle die man dafür benötigt sind unten angeführt.
 
 ##### Branches
-Um sich nicht in die quere zu kommen gibt es sogenannte Branches. Diese dienen dazu das man ungestört arbeiten kann.
+Um sich nicht in die quere zu kommen gibt es sogenannte Branches. Diese dienen dazu, dass man ungestört arbeiten kann.
 
 ![Bild](https://camo.githubusercontent.com/fe7346b2099985eecb0aa828d84a84432187fbec/68747470733a2f2f6172636377696b692e7577796f2e6564752f696d616765732f312f31392f4769744875625f466c6f775f73746570732e706e67)
 
