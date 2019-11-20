@@ -109,16 +109,18 @@ Meistens werden für die Auszeichnung Satzzeichen verwendet.
 ##### Ebenen
 Es gibt verschiedene Ebenen um auch offline arbeiten zu können.
 ![Bild](https://camo.githubusercontent.com/5a4967992d07a6f0f97422e6de4296edcbbe6050/68747470733a2f2f72656164736168696c2e66696c65732e776f726470726573732e636f6d2f323031362f30392f6769745f63686561745f73686565742e706e673f773d36333667)
+
 Die Befehle die man dafür benötigt sind unten angeführt.
 
 ##### Branches
 Um sich nicht in die quere zu kommen gibt es sogenannte Branches. Diese dienen dazu das man ungestört arbeiten kann.
+
 ![Bild](https://camo.githubusercontent.com/fe7346b2099985eecb0aa828d84a84432187fbec/68747470733a2f2f6172636377696b692e7577796f2e6564752f696d616765732f312f31392f4769744875625f466c6f775f73746570732e706e67)
 
 ##### Befehle
-git clone https://...
-git checkout maxmuster
-gedit README.md
-git add README.md
-git commit -m"UpdateREADME"
-git push
+git clone https://...      
+git checkout maxmuster     
+gedit README.md      
+git add README.md    
+git commit -m"UpdateREADME"      
+git push    
