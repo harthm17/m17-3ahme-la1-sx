@@ -66,7 +66,7 @@ Git ist im britischen der Ausdruck für "Blödmann" und Linus Torvald begründet
 Die Web-Plattform für solche GIT verwaltete Projekte ist Github. Vor gut einem Jahr kaufte sich Microsoft für umgerechnet 6,4 Milliarden Euro Github. Seither hat sich schon einiges geändert, zwecks einfacher Handhabung. 
 Die Web-Plattform ist eine Open Source Plattform und jeder kann die Dinge anderer einsehen und lesen.  
 
-Dieses ![Bild](https://de.wikipedia.org/wiki/Git#/media/Datei:SVNvsGITServer_2.png) beschreibt den Aufbau.
+![Bild](https://de.wikipedia.org/wiki/Git#/media/Datei:SVNvsGITServer_2.png)
 
 -------------------------------------------------
 
