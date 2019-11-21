@@ -25,6 +25,7 @@ Eine Besonderheit von Git ist, dass jeder lokal eine gesamte Kopie des Repositor
 
 ### Wie benutzt man Git?
 Git ist ein Programm ohne GUI, heißt es muss alles von einem Terminal aus geschehen. Um ein neues Repository anzulegen muss man sein Arbeitsverzeichnis auf den Ordner ändern, in dem man später sein lokes Repository haben möchte. Mit dem Befehl `git init` wird ein leeres Repository initaialisiert und ein `.git`-Ordner erstellt, in dem für Git relevante Dateien gespeichert sind. Falls man bereits ein Repository auf einem Server hat, das man auf einen Rechner herunterladen möchte kann man in einem gewünschten Arbeitsverzeichnis den Befehl `git clone <Link-zum-Repository>` ausführen. Nachem man sein lokales Repository erstellt hat kann man darin alle Dateien ansehen, bearbeiten, löschen oder neue Datien erstellen. Mit `git checkout <Branch>` kann man zu einem beliebigen Branch wechseln. Sobald eine Änderung des Repositories gemacht wird ist diese aber nicht autommatisch im Repository. Mit dem Befehl `git add <Dateiname>` wird eine Datei auf die "Warteliste" gesetzt um ins lokale Repository geladen zu werden. Mit dem Befehl `git commit -m "Kommentar zur Änderung"` werden alle Änderungen auf der Warteliste ins lokale Repository übernommen. Nun fehlt nur noch `git push` um das lokale Repository mit dem, auf dem Server zu synchronisieren. Falls sich das Repository auf dem Server in der Zwischenzeit geändert hat wird ein Algorithmus verwendet um zu entscheiden welche Änderungen übernommen werden. Zum Hochladen werden Benutzername und Passwort abgefragt. Vor dem erstmaligen ausführen von `git push` muss die email und der Name einmalig bekannt gegeben werden. Dies geschieht mit den Befehlen `git config --global user.email "email@example.com"` und `git config --global user.name "Max Mustermann"`. Um das lokale Repository auf den neuesten Stand zu bringen kann man den Befehl `git pull` verwenden. Eine erweiterte Liste mit Git-Befehlen findet man mit `git help`.
+
 ---------
 ## Github
 [GitHub](https://de.wikipedia.org/wiki/GitHub) ist eine Online-GUI für Git die einen Server für private Projekte bereitstellt. GitHub ist auch für die Popularität von Git verantwortlich. Bei der Anlegung eines Repositories hat man die Wahl zwischen einem kostenfreien, öfftnelichen und einem kostenpflichtigen privaten Repository. Dadurch, dass öffentliche Projekte nun für jeden zugänglichh sind führt GitHub auch Lizenzen ein. Mit ihnen legt man fest was man bei der Verwendung seiner Dateien gefolgen muss. Legt man keine Lizenz fest kann man schnell in rechtliche Schwierigkeiten kommen. Auch eine README.md Datei wird hier als Standard eingeführt, in der der Ersteller des Projektes alle nötigen Informationen preisgibt. GitHub unterstützt auch die dirrekte Anzeige von Markdown.
@@ -64,13 +65,13 @@ Dies kann man beliebig groß machen. Auf die Maße der Tabelle hat man jedoch ke
 #### Code
 Um code in einem Satz zu schreiben verwendet man `\`Code\``. Um Code auf mehrere Zeilen zu verteilen, verwendet man
 ```
-\`\`\`
+{```
 Codezeile 1
 Codezeile 2
 Codezeile 3
-\`\`\`
+```}
 ```
-In diesem Format unterstützt Markdown auchh Syntax-Highlighting. Man muss nur die Sprache nach den ersten `\`\`\`` stellen. Zum Beispiel:
+In diesem Format unterstützt Markdown auchh Syntax-Highlighting. Man muss nur die Sprache nach den ersten ``` stellen. Zum Beispiel:
 ```
 \`\`\`C
 C-Code
