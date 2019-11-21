@@ -64,13 +64,13 @@ a31|a32|a33
 Dies kann man beliebig groß machen. Auf die Maße der Tabelle hat man jedoch keinen Einfluss
 #### Code
 Um code in einem Satz zu schreiben verwendet man `\`Code\``. Um Code auf mehrere Zeilen zu verteilen, verwendet man
-```
-{```
-Codezeile 1
-Codezeile 2
-Codezeile 3
-```}
-```
+
+    ```
+    Codezeile 1
+    Codezeile 2
+    Codezeile 3
+    ```
+
 In diesem Format unterstützt Markdown auchh Syntax-Highlighting. Man muss nur die Sprache nach den ersten ``` stellen. Zum Beispiel:
 ```
 \`\`\`C
