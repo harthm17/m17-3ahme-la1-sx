@@ -61,9 +61,9 @@ a21|a22|a23
 -----------
 a31|a32|a33
 ```
-Dies kann man beliebig groß machen. Auf die Maße der Tabelle hat man jedoch keinen Einfluss
+Man benötigt zur Trennung mehrerer Zeilen theoretisch nur 3 Bindestriche Auf die Maße der Tabelle hat man jedoch keinen Einfluss.
 #### Code
-Um code in einem Satz zu schreiben verwendet man `\`Code\``. Um Code auf mehrere Zeilen zu verteilen, verwendet man
+Um code in einem Satz zu schreiben verwendet man `` `Code` ``. Um Code auf mehrere Zeilen zu verteilen, verwendet man
 
     ```
     Codezeile 1
@@ -72,20 +72,29 @@ Um code in einem Satz zu schreiben verwendet man `\`Code\``. Um Code auf mehrere
     ```
 
 In diesem Format unterstützt Markdown auchh Syntax-Highlighting. Man muss nur die Sprache nach den ersten ``` stellen. Zum Beispiel:
-```
-\`\`\`C
-C-Code
-\`\`\`
-```
-```
-\`\`\`Java
-Java-Code
-\`\`\`
-```
-```
-\`\`\`LaTex
-LaTex-Code
-\`\`\`
-```
+    
+    ```C
+    C-Code
+    ```
+
+    ```Java
+    Java-Code
+    ```
+
+    ```LaTex
+    LaTex-Code
+    ```
+
+#### Horizontale Linien
+Für eine Horizontale Linie braucht man mindestens 3 Bindestriche, umgeben von jeweils einer Leerzeile. Ist diese Leerzeile nicht vorhanden, interpretiert Markdown die direkt angrenzenden Paragraphen als Header 1.
+
+#### Hyperlinks
+Um einen anklickbaren Link zu generieren kann man `[Anzeigetext](https://www.link-zu-einer-Webquelle.com)` schreiben.
+
+#### Bilder
+Bilder implementiert man ähnlich wie Hyperlinks und zwar mit `![Alternativtext](https://www.irgendeine-seite.com/image.png)`
+
+
+[Hier](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/marsim17/protokolle/beispielseite.md) befindet sich eine Beispieldatei, in der alle oben genannten Befehle visualisiert werden.
 
 
