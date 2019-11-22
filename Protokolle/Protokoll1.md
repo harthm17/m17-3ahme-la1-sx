@@ -10,10 +10,10 @@
 ## Inhaltsverzeichnis
 
 1. [Versionsverwaltungssysteme](#versionsverwaltungssysteme)
-2. [Github](github)
-3. [Dokumentieren](dokumentieren)
-4. [Markdown](markdown)
-5. [Ebenen und Branches](ebenen-und-branches)
+2. [Github](#github)
+3. [Dokumentieren](#dokumentieren)
+4. [Markdown](#markdown)
+5. [Ebenen und Branches](#ebenen-und-branches)
 ----------------------------------------------------------------------------------------------
 
 ## Versionsverwaltungssysteme
