@@ -20,6 +20,8 @@
 
 Ein Versionsverwaltungssystem dient zur Verwaltung von verschiedenen Versionen einer Repository. Dies läuft so ab, dass alle Versionen auf ein Repository, Datenbank, hochgeladen werden und diese Versionen immer aktualisiert werden.
 Vorteile von einem solchem System sind:
+
+### Vorteile
 * Wenn eine neue Version nicht funktioniert, kann man zur letzten stabilen wechseln
 * man kann dadurch sehr gut im Team arbeiten
 * und man hat einen Schutz vor sich selbst, angenommen man löscht versehentlich etwas raus, dann kann man das fehlende aus einer älteren Version holen
@@ -38,7 +40,7 @@ Github ist eine Web-Plattform für Git verwaltete Projekte, welche sehr erfolgre
 
 ### Grundlagen
 Wenn man registriert ist kann man sich einloggen, indem man github.com/Benutzername hineinschreibt und dann seine E-Mail Adresse und sein Passwort eingibt.  
-Ein neues Repository kann man unter dem Reiter Repository und dann New anlegen. Dann kann man den Namen, eine Programmiersprache und eine Lizens hinzufügen. Noch dazu haben wir ausgewählt, dass die Datenbank öffentlich ist, da eine Private kostenpflichtig ist. Weiters haben wir angekreuzt, eine readme Datei anzulegen.  
+Ein neues Repository kann man unter dem Reiter Repository und dann New anlegen. Dann kann man den Namen, eine Programmiersprache und eine Lizens hinzufügen. Die Lizens ist sehr wichtig, was die Rechtslage betrifft. Noch dazu haben wir ausgewählt, dass die Datenbank öffentlich ist, da eine Private kostenpflichtig ist. Weiters haben wir angekreuzt, eine readme Datei anzulegen.  
 Danach waren drei Dateien angelegt, README.md, license und .gitignore. Darin kann man schreiben, die Lizens durchlesen und die Dateitypen sehen oder auch ändern, welche unterstützt werden.
 
 ----------------------------------------------------------------------------------------------
@@ -78,17 +80,20 @@ Danach waren drei Dateien angelegt, README.md, license und .gitignore. Darin kan
  Vorteile:
  * schnell
  * einfach
+ * übersichtlich
  
  ----------------------------------------------------------------------------------------------
  
  ## Markdown
 laut [Wikipedia](https://de.wikipedia.org/wiki/Markdown)
 >Markdown ist eine vereinfachte Auszeichnungssprache, die von John Gruber und Aaron Swartz entworfen und im Dezember 2004 mit Version 1.0.1 spezifiziert wurde.
+
+Die Dateiendung lautet meistens .md oder .markdown.
  
  1. **Überschriften** schreibt man, indem man ein # vor dem Wort, dass die Überschrift sein soll, macht. Man kann auch Unterüberschriften machen. Dafür muss man 2 oder mehr Hashtags vor das Wort stellen. Maximal sind 6 möglich.
  1. **Zeilenumbruch:** Das erledigt man mit zwei Leerzeichen hintereinander.
  1. **Fett**, *Kursiv*, oder ***Fett und Kursiv*** macht man mit 2, 1, oder 3 Sternchen nach und vor dem Wort.
- 1. **Liste :** Eine Liste kann man erstellen, wenn man untereinander die Zeilen mit einem Stern beginnt. Dies ist auch mit Auflistungen möglich also mit <Zahl>.
+ 1. **Liste :** Eine Liste kann man erstellen, wenn man untereinander die Zeilen mit einem Stern beginnt. Dies ist auch mit Auflistungen möglich. Dazu muss man eine beliebige Zahl vor einen Punkt setzen, gezählt wird automatisch.
  1. **Tabellen :** 1. Zeile: Tabellenüberschrift | Tabellenüberschrift 2.Zeile : -------- | --------, in den weiteren Zeilen kann man den Inhalt eintragen
  1. **Links :** [angezeigter Name] (Link)
  1. **Bild :** ![angezeigter Name] (Link)
@@ -102,7 +107,7 @@ laut [Wikipedia](https://de.wikipedia.org/wiki/Markdown)
    ```
  9. **Zitat :** Vor dem Zitat ein '>'  
  
-Diese Befehle/Sachen findet man zusammengefasst [hier](https://github.com/mastering-markdown).
+Diese Befehle/Sachen findet man ausführlicher [hier](https://github.com/mastering-markdown).
 
 ----------------------------------------------------------------------------------------------
 
