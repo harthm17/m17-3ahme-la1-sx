@@ -18,9 +18,23 @@
 
 [Markdown](#markdown)
 
-   [Überschriften](#überschriften)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Überschriften](#überschriften)
    
-   [Fett, kursiv, durchgestrichen](#fett-kursiv-durchgestrichen)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Fett, kursiv, durchgestrichen](#fett-kursiv-durchgestrichen)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Numerierungen](#numerierungen)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Tabellen](#tabellen)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Code](#code)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Horizontale Linien](#horizontale-linien)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Hyperlinks](#hyperlinks)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Bilder](#bilder)
+   
+   
 
 ---------
 ## Versionsverwaltungssysteme
@@ -48,7 +62,7 @@ Git ist ein Programm ohne GUI, heißt es muss alles von einem Terminal aus gesch
 [Markdown](https://www.wikipedia.org/wiki/Markdown) ist eine Skriptsprache mit der man besonders schnell und effizient formatierten Text schreiben kann. Zuerst beginnt man mit einer `*.md` Datei. Diese besteht rein aus plain-text und kann daher mit jedem beliebigen Texteditor bearbeitet werden. Nachdem man seine `*.md` Datei fertiggestellt hat braucht man einen Markdown-Interpreter um den Text formatiert anzeigen zu lassen. Bei GitHub ist bereits ein integrierter Markdown-Interpreter vorhanden. 
 #### Überschriften
 Es gibt 6 verschieden große Überschriften, die von `# Sehr große Überschrift` bis `###### Sehr kleine Überschrift` gehen. Die Anzahl der Hashes am Beginn bestimmen die Größe. Zwischen den Hashes und dem Text muss ein Leerzeichen sein.
-#### Fett, kursiv, durchgeschtrichen
+#### Fett, kursiv, durchgestrichen
 `**Dieser Text wird fett angezeigt werden**`, `*Dieser Text wird kursiv angezeigt werden*` und `~Dieser Text wird durchgestrichen angezeigt werden~`. Dabei sind auch kombinationen wie `***Fett und kursiv***`, `~*kursiv und durchgestrichen*~` und `~**Fett und durchgestrichen**~` möglich. Dabei dürfen weder nach dem ersten, noch vor dem letzten Steuerzeichen Leerzeichen stehen.
 #### Numerierungen
 Für eine ungeordnete Liste schreibt man einfach jeden Listenpunkt in eine neue Zeile mit einem `*` und einem Leeerzeichen davor.
