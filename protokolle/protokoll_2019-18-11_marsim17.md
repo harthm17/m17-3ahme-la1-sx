@@ -9,12 +9,18 @@
 ## Inhaltsverzeichnis
 
 [Versionsverwaltungssysteme](#versionsverwaltungssysteme)
+
 [Git](#git)
+
 [Wie benutzt man Git?](#wie-benutzt-man-git)
+
 [Github](#github)
+
 [Markdown](#markdown)
+
    [Überschriften](#überschriften)
-   [Fett, kursiv, durchgestrichen](#fett,-kursiv,-durchgesrichen);
+   
+   [Fett, kursiv, durchgestrichen](#fett-kursiv-durchgestrichen)
 
 ---------
 ## Versionsverwaltungssysteme
