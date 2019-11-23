@@ -8,9 +8,11 @@
 ---------
 ## Inhaltsverzeichnis
 
-[Versionsverwaltungssysteme](#Versionsverwaltungssysteme)
-[Git](#Git)
-[Wie benutzt man Git?](#Wie benutzt man Git?)
+[Versionsverwaltungssysteme](#versionsverwaltungssysteme)
+
+[Git](#git)
+
+[Wie benutzt man Git?](#wie-benutzt-man-git?)
 
 ---------
 ## Versionsverwaltungssysteme
