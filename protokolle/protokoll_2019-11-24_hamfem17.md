@@ -139,6 +139,10 @@ Bei Github kann jeder ein Repository erstellen. Ein Repository ist ein Platz wo 
 jedem Branch gespeichert werden. Jedes Repository hat einen Master Branch. Dan kann man noch weitere Branchs erstelen 
 wo zB. neben projekte gespeichert sind.
 
+Bei Github kann mann auch offlin arbeiten.
+
+Um offline zu arbeiten muss man 
+
 
 
 
