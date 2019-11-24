@@ -11,7 +11,7 @@
 2. [Dokumentation](#dokumentation)
 3. [Markdown](#markdown)
    1. [Überschrift](#überschrift)
-   2. [Fett Kursiv Fett & Kursiv](#kursiv fett fett & fursiv)
+   2. [Schriftart](#schriftart)
         1.[Fett](#fett)
         2.[Kursiv](#kursiv)
         3.[Fett & Kursiv](#fett & kursiv)
@@ -46,7 +46,7 @@ Textverarbeitung      | leserlich, übersichtlich, elektronisches Suchen, verän
 Um eine Überschrift da zu stellen git man vor dem Text ein hashtag zB. `# Markdown`. Desto mehr hashtags desto kleiner wird
 die Überschrift zB. `#### Markdown`.
 
-## Fett Kursiv Fett & Kursiv
+## Schriftart
 
 #### Fett
 Damit der Text **Fett** ist muss mann nur am Anfang und am Ende zwei * stellen.  
