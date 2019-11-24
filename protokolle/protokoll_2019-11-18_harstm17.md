@@ -29,7 +29,6 @@
     * [Grundlegendes](#grundlegendes)
     * [Kommandos für das Terminal](#kommandos-für-das-Terminal)
     * [Kommandos für Git](#Kommandos-für-Git)
-1. [Merge](#merge) 
 1. [Branch](#branch)
 
 ----------------------------------------------------------------
@@ -41,7 +40,7 @@
 ----------------------------------------------------------------------
 
 ### Versionsverwaltung
-
+------------------------------------------------------------------------------
 * #### Definition:
 [Wikipedia](https://de.wikipedia.org/wiki/Versionsverwaltung) definiert folgendes:
 >Eine Versionsverwaltung ist ein System, das zur Erfassung von Änderungen an Dokumenten oder Dateien verwendet wird. Alle Versionen werden in einem Archiv mit Zeitstempel und Benutzerkennung gesichert und können später wiederhergestellt werden. Versionsverwaltungssysteme werden typischerweise in der Softwareentwicklung eingesetzt, um Quelltexte zu verwalten. Versionsverwaltung kommt auch bei Büroanwendungen oder Content-Management-Systemen zum Einsatz.
@@ -275,23 +274,5 @@ Datei zurück auf den Server bringen
 
 -----------------------------------------------------------------------------------------------------------
 
-### Merge:
-Wikipedia definiert folgendes unter einem [Merge](https://de.wikipedia.org/wiki/Merge):
-
-Quelle:[wiki](https://de.wikipedia.org/wiki/Merge)
->Merge ist der Vorgang des Abgleichens mehrerer Änderungen, die an verschiedenen Versionen derselben Datei getätigt wurden. Das Zusammenführen verschiedener Datei-Versionen ist ein zentraler Vorgang bei den meisten Versionsverwaltungssystemen, weshalb diese meist unterschiedliche Merge-Algorithmen unterstützen. Viele Versionsverwaltungssysteme werden zudem mit grafischen Hilfsprogrammen ausgeliefert, die das Mergen vereinfachen sollen.
-
- ### Branch
-(Ast)
+### Branch (Ast)
 Der Master [Branch](https://git-scm.com/book/en/v1/Git-Branching-What-a-Branch-Is) ist der Hauptast, wenn man nicht im Master Branch arbeiten will, macht man sich einen Nebenbranch, danach kann man den Nebenbranch wieder in den Master Branch zurück bringen.
-```
-Branch erstellen: git checkout -b <Name des neuen Branch>
-   
-Nach einer Änderung der Datei: git push --set-upstream origin <Name des neuen Branch>
-   
-Zurück in den Master Branch bringen: git checkout master C
-                                         git merge work C
-                                         git status
-                                         git push
-```
-Nach diesem Vorgang sind beide Branches wieder zusammengeführt.
