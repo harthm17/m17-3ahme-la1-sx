@@ -34,6 +34,7 @@
 ----------------------------------------------------------------
 
 ### Themen der Einheiten
+-----------------------------------------------------------------------
 1. Einheit: Versionsverwaltung, Markdown, Git, Github (Protokoll benötigt)
 1. Einheit: Linux Grundlagen Teil 1
 1. Einheit: Test, Linux Grundlagen Teil 2 (Protokoll benötigt)
@@ -59,6 +60,7 @@
 --------------------------------------------------------------------------------------------------
 
 ### Dokumentieren
+--------------------------------------------------------------------------------------
 #### Arten:
 ##### handschriftlich:
 * **Vorteile-->** flexibel, schnell
@@ -75,6 +77,7 @@
 
 
 ### Markdown
+--------------------------------------------------------------------------------------------
 *Was ist Markdown?*
 * Laut [Wikipedia](https://de.wikipedia.org/wiki/Markdown):
 >Markdown ist eine vereinfachte Auszeichnungssprache, die von John Gruber und Aaron Swartz entworfen und im Dezember 2004 mit Version 1.0.1 spezifiziert wurde. Ein Ziel von Markdown ist, dass schon die Ausgangsform ohne weitere Konvertierung leicht lesbar ist. Als Auszeichnungselemente wurden daher vor allem Auszeichnungsarten verwendet, die in Plain text und E-Mails üblich sind. Auch andere Auszeichnungssprachen mit ähnlichen Zielen zur Lesbarkeit hatten Einfluss auf die Syntax.
@@ -88,6 +91,7 @@ Die Dateiendung ist meist **.md** oder **.markdown**.
 
 
 ### GitHub
+------------------------------------------------------------------------------------------------------
 [GitHub](https://de.wikipedia.org/wiki/GitHub) ist eine Web-Plattform für Git verwaltete Projekte. Github ist die ideale Open Source Software in Sachen [Versionsverwaltungssysteme](https://de.wikipedia.org/wiki/Versionsverwaltung).
 
 ##### Vorteile
@@ -213,6 +217,7 @@ V 1.0      | Protokoll.docx | 18.11.2019
 ```
 ------------------------------------------------------------------------------------------------
 ### Git
+---------------------------------------------------------------------------------------
 Quelle: https://www.stephenmarron.com/wp-content/uploads/2017/02/git.png
 ![Git data transport](https://www.stephenmarron.com/wp-content/uploads/2017/02/git.png)
 
@@ -275,4 +280,5 @@ Datei zurück auf den Server bringen
 -----------------------------------------------------------------------------------------------------------
 
 ### Branch (Ast)
+----------------------------------------------------------------------------------------------------
 Der Master [Branch](https://git-scm.com/book/en/v1/Git-Branching-What-a-Branch-Is) ist der Hauptast, wenn man nicht im Master Branch arbeiten will, macht man sich einen Nebenbranch, danach kann man den Nebenbranch wieder in den Master Branch zurück bringen.
