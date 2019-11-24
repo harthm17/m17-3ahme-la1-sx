@@ -81,13 +81,13 @@ wird der erste Punkt `1.`, der zweite `2.` usw. sein. Jedoch legt die erste Zahl
 #### Tabellen
 Eine Tabelle zu erstellen sieht folgendermaßen aus:
 ```
-a11|a12|a13
------------
-a21|a22|a23
------------
-a31|a32|a33
+| ü01 | ü02 | ü03 |
+| --- | --- | --- |
+| a11 | a12 | a13 |
+| a21 | a22 | a23 |
+| a31 | a32 | a33 |
 ```
-Man benötigt zur Trennung mehrerer Zeilen theoretisch nur 3 Bindestriche Auf die Maße der Tabelle hat man jedoch keinen Einfluss.
+Die erste Zeile wird fett formatiert.
 #### Code
 Um Code in einem Satz zu schreiben verwendet man `` `Code` ``. Um Code auf mehrere Zeilen zu verteilen, verwendet man
 
