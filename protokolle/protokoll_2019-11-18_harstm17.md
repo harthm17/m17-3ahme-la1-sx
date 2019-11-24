@@ -38,6 +38,7 @@
 1. Einheit: Versionsverwaltung, Markdown, Git, Github (Protokoll benötigt)
 1. Einheit: Linux Grundlagen Teil 1
 1. Einheit: Test, Linux Grundlagen Teil 2 (Protokoll benötigt)
+
 ----------------------------------------------------------------------
 
 ### Versionsverwaltung
@@ -57,6 +58,7 @@
  * #### Nachteile:
 1. hohe Anschaffungskosten (besorgen eines PC´s)
 1. ohne Anschaffung der kostenpflichtigen Version, ist der Einblick in Daten jedem gewehrt
+
 --------------------------------------------------------------------------------------------------
 
 ### Dokumentieren
@@ -75,7 +77,6 @@
                                
 ---------------------------------------------------------------------------------------------------------------------------------
 
-
 ### Markdown
 --------------------------------------------------------------------------------------------
 *Was ist Markdown?*
@@ -88,7 +89,6 @@ Die Syntax von [Markdown](https://de.wikipedia.org/wiki/Markdown) wird vor allem
 Die Dateiendung ist meist **.md** oder **.markdown**.
 
 ----------------------------------------------------------------------------------------------------------------------------------------
-
 
 ### GitHub
 ------------------------------------------------------------------------------------------------------
@@ -216,6 +216,7 @@ V 1.0      | Protokoll.docx | 18.11.2019
 
 ```
 ------------------------------------------------------------------------------------------------
+
 ### Git
 ---------------------------------------------------------------------------------------
 Quelle: https://www.stephenmarron.com/wp-content/uploads/2017/02/git.png
