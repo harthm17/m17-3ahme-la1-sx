@@ -96,7 +96,6 @@ Die Dateiendung ist meist **.md** oder **.markdown** .
 1. es eignet sich sehr gut für Gruppenarbeiten da jeder den Arbeitsstand und Daten vom anderen sehen kann
 1. Es ist kostenlos (außer man will seine Daten nicht veröffentlichen)
 1. man hat die Möglichkeit alles in einer übersichtlichen und nachvollziehbaren Form zu machen
-1. es ist alles nachvollziehbar
 1. es geht sehr schnell
 1. es kann keiner was stehlen, da es sowieso schon öffentlich ist
 1. es kann kein anderer ein Patent auf deine hochgeladenen Sachen anmelden (solange man die Rechte richtig einschränkt)
