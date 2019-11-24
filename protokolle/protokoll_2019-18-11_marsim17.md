@@ -115,7 +115,7 @@ In diesem Format unterstützt Markdown auch Syntax-Highlighting. Man muss nur di
 Für eine Horizontale Linie braucht man mindestens 3 Bindestriche, umgeben von jeweils einer Leerzeile. Ist diese Leerzeile nicht vorhanden, interpretiert Markdown die direkt angrenzenden Paragraphen als Header 1.
 
 #### Links
-Um einen anklickbaren Hyperink zu generieren kann man `[Anzeigetext](https://www.link-zu-einer-Webquelle.com)` schreiben. Will man einen dokumentinternen Link zu einer überschrift haben verwendet man `[Anzeigetext](#Überschrift)`.
+Um einen anklickbaren Hyperink zu generieren kann man `[Anzeigetext](https://www.link-zu-einer-Webquelle.com)` schreiben. Will man einen dokumentinternen Link zu einer überschrift haben verwendet man `[Anzeigetext](#überschrift)`. Dabei wird alles klein geschrieben, Sonderzeichen werden ignoriert und Leerzeichen müssen durch Bindestriche ausgetauscht werden.
 
 
 #### Bilder
