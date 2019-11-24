@@ -66,7 +66,7 @@
 * **Nachteile-->** unleserlich, Kopie umständlich, manchmal unübersichtlich, schnelles Suchen von Daten nicht möglich, nur temporär nützlich
                               
 ##### Schreibmaschine:
-(nicht relevant, da diese Art der Dokumentierung nur mehr selten bis gar nicht auftritt)
+(nicht relevant, da diese Art der Dokumentierung nur mehr selten bis gar nicht mehr auftritt)
       
 ##### Textverarbeitung:
 * **Vorteile-->** leserlich, übersichtlich, veränderbar, einfache Suche, copy-paste möglich
