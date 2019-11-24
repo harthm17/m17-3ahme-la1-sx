@@ -79,7 +79,8 @@
 * Laut [Wikipedia](https://de.wikipedia.org/wiki/Markdown):
 >Markdown ist eine vereinfachte Auszeichnungssprache, die von John Gruber und Aaron Swartz entworfen und im Dezember 2004 mit Version 1.0.1 spezifiziert wurde. Ein Ziel von Markdown ist, dass schon die Ausgangsform ohne weitere Konvertierung leicht lesbar ist. Als Auszeichnungselemente wurden daher vor allem Auszeichnungsarten verwendet, die in Plain text und E-Mails üblich sind. Auch andere Auszeichnungssprachen mit ähnlichen Zielen zur Lesbarkeit hatten Einfluss auf die Syntax.
 
->*Eigendefinition:* Markdown ist die Mischung von der Handschriftdokumentation und der Textverarbeitung. Hierbei werden die Vorteile beider Techniken genutzt.
+* Eigendefinition:
+>Markdown ist die Mischung von der Handschriftdokumentation und der Textverarbeitung. Hierbei werden die Vorteile beider Techniken genutzt.
 
 Die Syntax von [Markdown](https://de.wikipedia.org/wiki/Markdown) wird vor allem auf Entwicklerplattformen verwendet. (z.B. GitHub)
 Die Dateiendung ist meist **.md** oder **.markdown**.
