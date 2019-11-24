@@ -83,7 +83,7 @@
 >Markdown ist die Mischung von der Handschriftdokumentation und der Textverarbeitung. Hierbei werden die Vorteile beider Techniken genutzt.
 
 Die Syntax von [Markdown](https://de.wikipedia.org/wiki/Markdown) wird vor allem auf Entwicklerplattformen verwendet. (z.B. GitHub)
-Die Dateiendung ist meist **.md** oder **.markdown**.
+Die Dateiendung ist meist **.md** oder **.markdown** .
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
