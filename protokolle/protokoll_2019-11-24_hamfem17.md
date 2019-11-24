@@ -7,7 +7,20 @@
 * **Protokoll nächste Einheit:** 02.12.2019
 
 ## Inhaltsverzeichniss
-
+1. [Versionsverwaltung](#versionsverwaltung)  
+2. [Dokumentation](#dokumentation)
+3. [Markdown](#markdown)
+   1. [Überschrift](#überschrift)
+   2. [Kursiv, Fett, Fett & Kursiv](#kursiv, fett, fett & fursiv)
+        1.[Fett](#fett)
+        2.[Kursiv](#kursiv)
+        3.[Fett & Kursiv](#fett & kursiv)
+   3. [Listen](#listen)
+   4. [Code](#code)
+   5. [Tabele](#tabele)
+   5. [Links](#links)
+   5. [Bilder](#bilder)
+4. [Github](#github)
 
 
 # Versionsverwaltung
@@ -143,12 +156,8 @@ Bei Github kann mann auch offlin arbeiten.
 
 Um offline zu arbeiten muss man das Repository auf dem Computer speichern das geht mit dem Befehl `git clone <Link zum Repository>` dan hat man das Repository am Computer.
 
-Mit `git checkout <Branch>`
+Mit `git checkout <Branch>` kann mann zwischen den Branchs wechseln
 
+Wenn mann was geändert hat und man wil es speichern dan geht das mit dem Befehl `git add <Dateiname>`. Damit währe es auf der Warteschlange vom lokalem Repository. Um es komplet zu speicher braucht man den Befehl `git commit -m "Kommentar"`.
 
-
-
-
-
-
-
+Um es dan online zu stehlen braucht man nur mehr den Befehl `git push`. Beim ersten mall muss man email und seinen Namen eingeben.
