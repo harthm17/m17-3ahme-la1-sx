@@ -141,7 +141,10 @@ wo zB. neben projekte gespeichert sind.
 
 Bei Github kann mann auch offlin arbeiten.
 
-Um offline zu arbeiten muss man 
+Um offline zu arbeiten muss man das Repository auf dem Computer speichern das geht mit dem Befehl `git clone <Link zum Repository>` dan hat man das Repository am Computer.
+
+Mit `git checkout <Branch>`
+
 
 
 
