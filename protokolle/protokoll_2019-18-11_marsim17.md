@@ -53,7 +53,7 @@ Git ist ein Programm ohne GUI, heißt es muss alles vom Terminal aus geschehen. 
 ## Github
 [GitHub](https://de.wikipedia.org/wiki/GitHub) ist eine Online-GUI für Git die einen Server für Projekte bereitstellt. GitHub ist auch für die Popularität von Git verantwortlich. Bei der Anlegung eines Repositories hat man die Wahl zwischen einem kostenfreien, öfftnelichen und einem kostenpflichtigen privaten Repository. Dadurch, dass öffentliche Projekte nun für jeden zugänglichh sind führt GitHub auch Lizenzen ein. Github hat 3 Dateien eingeführt, die an der Spitze jedes Branches automatisch erstellt werden.
 1. **.gitignore** - In dieser Datei wird festgelegt, welche Dateien eines Repositories von git erfasst und verwaltet werden sollen
-2. **Licence** - Hier wird festgelegt welche Lizenz dein Projekt hat.
+2. **LICENCE** - Hier wird festgelegt welche Lizenz dein Projekt hat.
 3. **README.md** - In dieser Markdown-Datei kann der Eigentümer Informationen über sein Projekt preisgeben
 
 ## Markdown
