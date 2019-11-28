@@ -1,3 +1,3 @@
-# Labor Protokolle Franz Lieleg
+# Labor Protokolle - Franz Lieleg
 
-Datum: 18.11.2019
+[Protokoll vom 18.11.2019]()
