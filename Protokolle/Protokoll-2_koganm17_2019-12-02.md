@@ -10,7 +10,7 @@
 
 ## Inhaltsverzeichnis
 
-1. [Dateiechte grundlegend](#dateirechte-grundlegend)
+1. [Dateirechte](#dateirechte-grundlegend)
 1. [Rechtekommandos](#rechtekommandos)
 2. [Benutzer anlegen](#benutzer-anlegen)
 
@@ -60,6 +60,8 @@ drwxr-xr-x
 ```
 Es handelt sich um ein Verzeichnis, indem der Eigentümer alle drei Rechte hat. Die Gruppe und alle anderen haben jeweils das read- und das execute-Recht.
 
+----------------------------------------------------------------------------------------------
+
 ### Rechtekommandos
 Wenn man die Rechte dazu hat kann man in der shell die Rechte anderer mit Hilfe von Befehlen verwalten.
 ```
@@ -75,6 +77,7 @@ chmod ...g+x Datei //Gruppe darf nun ausführen
 chmod ...o-rw Datei //Besitzer darf nun nicht mehr lesen und verändern
 chmod 751 Datei //Rechte in Oktalzahlen: 111101001 = rwxr-x--x
 ```
+----------------------------------------------------------------------------------------------
 
 ### Benutzer anlegen
 Zuerst muss man zum Superuser werden. Der Superuser weiß, kann und darf alles.
