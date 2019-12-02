@@ -10,8 +10,9 @@
 
 ## Inhaltsverzeichnis
 
-1.[Dateiechte grundlegend](#dateirechte-grundlegend)
-1.[Benutzer anlegen](#Benutzer-anlegen)
+1. [Dateiechte grundlegend](#dateirechte-grundlegend)
+1. [Rechtekommandos](#rechtekommandos)
+2. [Benutzer anlegen](#benutzer-anlegen)
 
 
 ----------------------------------------------------------------------------------------------
@@ -59,16 +60,39 @@ drwxr-xr-x
 ```
 Es handelt sich um ein Verzeichnis, indem der Eigentümer alle drei Rechte hat. Die Gruppe und alle anderen haben jeweils das read- und das execute-Recht.
 
+### Rechtekommandos
+Wenn man die Rechte dazu hat kann man in der shell die Rechte anderer mit Hilfe von Befehlen verwalten.
+```
+chown(change owner) ... Datei //Eigentümer verändern
+chown ...:... Datei //Eigentümer + Gruppe verändern
+```
+```
+chgrp(change group) ... Datei //Gruppe ändern
+```
+```
+chmod(Rechte ändern)
+chmod ...g+x Datei //Gruppe darf nun ausführen
+chmod ...o-rw Datei //Besitzer darf nun nicht mehr lesen und verändern
+chmod 751 Datei //Rechte in Oktalzahlen: 111101001 = rwxr-x--x
+```
+
 ### Benutzer anlegen
-Zuerst muss man zum Superuser werden
+Zuerst muss man zum Superuser werden. Der Superuser weiß, kann und darf alles.
 ```
-sudo -i = man wird zum Superuser (Superuser root)
+sudo -i 
 ```
+Mit dem Befehl *less /etc/passwd* lassen wir uns die Einträge über die Benutzer anzeigen.
+
+Mit den folgenden Befehlen tragen wir uns in den folgenden Dateien nach dem Muster, das man bei den anderen Einträgen ablesen kann, ein.
 ```
 nano/etc/passwd
 nano/etc/group
 nano/etc/shadow
-passwd <Benutzer>
-nano /etc/shadow
-chown <Benutzer>:<Benutzer> /home/<Benutzer>
+nano /etc/home
 ```
+Diese Vorgänge speichern wir immer mit Strg+O ab und beenden sie mit Strg+X.
+
+Danach kann man mit dem Befehl *id Benutzerkürzel* Daten über den angelegten Benutzer ausgeben.
+Das Passwort kann man mit dem Befehl *passwd Benutzername* geändert werden.
+Anmelden kann man sich mit dem Befehl *login Benutzername*.
+
