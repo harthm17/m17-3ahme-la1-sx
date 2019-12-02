@@ -8,3 +8,5 @@ Die Protokolle sind im eigenen Branch unter dem Verzeichnis `protokolle` abzuleg
   * `YYYY-MM-DD` ist durch das Datum der Übung (Jahr Monat Tag, also zB `2020-01-09`) zu ersetzen
 
 Beispiel: **protokolle/protokoll-1_koganm17_2019-10-03.md**
+
+In der Datei `README.md` des eigenen Branch ist die Überschrift geeignet anzupassen (zB Laborprotokolle von ...). Weiters ist hier eine Liste oder Tabelle mit den Protokollen zu führen (Datum, Inhalt, Link auf das Protokoll). 
