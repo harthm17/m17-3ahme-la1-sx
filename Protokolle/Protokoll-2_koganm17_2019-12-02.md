@@ -1,4 +1,4 @@
-# Protokoll LABOR/SX 3AHME (2019/20)
+# Protokoll-2 LABOR/SX 3AHME (2019/20)
 
 * **Thema:** Dateirechte
 * **Datum:** 02.12.2019
@@ -84,7 +84,7 @@ Zuerst muss man zum Superuser werden. Der Superuser weiß, kann und darf alles.
 ```
 sudo -i 
 ```
-Mit dem Befehl *less /etc/passwd* lassen wir uns die Einträge über die Benutzer anzeigen.
+Mit dem Befehl *less /etc/passwd* lassen wir uns die bisherigen Einträge über die Benutzer anzeigen.
 
 Mit den folgenden Befehlen tragen wir uns in den folgenden Dateien nach dem Muster, das man bei den anderen Einträgen ablesen kann, ein.
 ```
@@ -96,7 +96,7 @@ nano /etc/home
 Diese Vorgänge speichern wir immer mit Strg+O ab und beenden sie mit Strg+X.
 
 Danach kann man mit dem Befehl *id Benutzerkürzel* Daten über den angelegten Benutzer ausgeben.  
-Das Passwort kann man mit dem Befehl *passwd Benutzername* geändert werden.  
+Das Passwort kann mit dem Befehl *passwd Benutzername* geändert werden.  
 Anmelden kann man sich mit dem Befehl *login Benutzername*.  
 Die sudoers kann man sich mit dem Befehl *sudo/nano/etc/sudoers* anzeigen lassen.
 
