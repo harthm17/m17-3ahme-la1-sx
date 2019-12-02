@@ -10,7 +10,7 @@
 
 ## Inhaltsverzeichnis
 
-1. [Dateirechte](#dateirechte-grundlegend)
+1. [Dateirechte grundlegend](#dateirechte-grundlegend)
 1. [Rechtekommandos](#rechtekommandos)
 2. [Benutzer anlegen](#benutzer-anlegen)
 
