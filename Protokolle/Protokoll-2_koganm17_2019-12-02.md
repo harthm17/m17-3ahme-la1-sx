@@ -95,7 +95,9 @@ nano /etc/home
 ```
 Diese Vorgänge speichern wir immer mit Strg+O ab und beenden sie mit Strg+X.
 
-Danach kann man mit dem Befehl *id Benutzerkürzel* Daten über den angelegten Benutzer ausgeben.
-Das Passwort kann man mit dem Befehl *passwd Benutzername* geändert werden.
-Anmelden kann man sich mit dem Befehl *login Benutzername*.
+Danach kann man mit dem Befehl *id Benutzerkürzel* Daten über den angelegten Benutzer ausgeben.  
+Das Passwort kann man mit dem Befehl *passwd Benutzername* geändert werden.  
+Anmelden kann man sich mit dem Befehl *login Benutzername*.  
+Die sudoers kann man sich mit dem Befehl *sudo/nano/etc/sudoers* anzeigen lassen.
 
+----------------------------------------------------------------------------------------------
