@@ -32,6 +32,7 @@ Linux ist als Mehrbenutzer-Betriebssystem konzipiert. Alle benutzer haben nicht 
 * */etc/group* (Alle Gruppen + Mitglieder werden in /etc/group festgelegt)
 * */etc/shadow*
 
+Mann sollte darauf achten, dass Benutzer, sowie Gruppennamen, mit einem Kleinbuchstaben beginnen, dahinter können z.B. auch Ziffern und Underlines folgen. Aber Achtung!!! Verwendete Namen dürfen nur einmalig im System Vorkommen.
 
 
 **In Linux gibt es viele Möglichkeiten um Benutzer und Gruppen anlegen zu können, oder auch um sie zu löschen. Unsere Methode der Veränderung:**
@@ -62,7 +63,7 @@ Der Super-User root kann auch das Kennwort jedes Benutzers neu vergeben!
 
 
 Was aber passiert wenn man das Benutzer Passwort und das root Passwort vergisst?
-Wenn man das Passwort doch vergessen sollte, dann kann man es durch ein paar Schritte händisch zurücksetzten, ist die einfachste Methode. 
+Wenn man das Passwort doch vergessen sollte, dann kann man es durch ein paar Schritte händisch auf physischen zurücksetzten, ist die einfachste Methode. 
 
 -------------------------------------------------------------------------------------------------------------------------------------------
 ## Dateirechte:
