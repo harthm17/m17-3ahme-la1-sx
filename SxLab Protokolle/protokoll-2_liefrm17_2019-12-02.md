@@ -25,7 +25,7 @@
 ## Benutzer:
 Linux ist als Mehrbenutzer-Betriebssystem konzipiert. Alle benutzer haben nicht unbedingt dieselben Rechte und Privilegien. Ein Standardbenutzerkonto erhält vollen Zugriff auf das eigene Home-Verzeichnis, aber nicht auf alle Ordner, nur auf sehr wenige. Das Systemverwalterkonto „root“ hat dagegen alle Rechte im gesamten Dateisystem. Dazwischen liegen aber viele Abstufungen. Deswegen kommt es immer zu Problemen aufgrund mangelnder Benutzerrechte. Dann ist z.B. kein Zugriff auf eine zweite Festplatte möglich. Jedes Element im Dateisystem hat unter Linux einen Eigentümer und es gehört einer Gruppe. Die Zugriffsrechte werden getrennt für Eigentümer und Gruppe.
 
-Für Verwaltung von Gruppen, Benutzern und Passwörter gibt es folgende Dateien:
+**Für Verwaltung von Gruppen, Benutzern und Passwörter gibt es folgende Dateien:**
 
 * */etc/passwd* 
 * */etc/group* (Alle Gruppen + Mitglieder werden in /etc/group festgelegt)
@@ -34,7 +34,7 @@ Für Verwaltung von Gruppen, Benutzern und Passwörter gibt es folgende Dateien:
 ## Löschen und Anlegen von Benutzern oder Gruppen:
 In Linux gibt es verschiedene Möglichkeiten. Unsere verwendete Möglichkeit:
 
-* **In der Shell durch Veränderung der dieser Textdateien:
+* **In der Shell durch Veränderung der dieser Textdateien:**
 /etc/passwd, /etc/group und /etc/shadow
 
 -------------------------------------------------------------------------------------------------------------------------------------------
