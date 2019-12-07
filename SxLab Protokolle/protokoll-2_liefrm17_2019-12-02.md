@@ -25,6 +25,12 @@
 ## Benutzer:
 Linux ist als Mehrbenutzer-Betriebssystem konzipiert. Alle benutzer haben nicht unbedingt dieselben Rechte und Privilegien. Ein Standardbenutzerkonto erhält vollen Zugriff auf das eigene Home-Verzeichnis, aber nicht auf alle Ordner, nur auf sehr wenige. Das Systemverwalterkonto „root“ hat dagegen alle Rechte im gesamten Dateisystem. Dazwischen liegen aber viele Abstufungen. Deswegen kommt es immer zu Problemen aufgrund mangelnder Benutzerrechte. Dann ist z.B. kein Zugriff auf eine zweite Festplatte möglich.
 
+Für Verwaltung von Gruppen, Benutzern und Passwörter gibt es folgende Dateien:
+
+* */etc/passwd*
+* */etc/group*
+* */etc/shadow*
+
 -------------------------------------------------------------------------------------------------------------------------------------------
 ## Dateirechte:
 
