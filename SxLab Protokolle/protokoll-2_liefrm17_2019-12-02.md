@@ -84,5 +84,5 @@ Jedes Element im Dateisystem hat unter Linux einen Eigentümer und gehört einer
 
 1. r...read: Lesen (Dateien dürfen gelesen werden)
 2. w...write: Schreiben (Dateien dürfen angelegt,gelöscht, aber auch geändert weden)
-3. x...execute: Ausführen/Suchen (Es darf auf Eigenschaften der datei zugegriffen werden)
+3. x...execute: Ausführen/Suchen (Es darf auf Eigenschaften der aktuellen Datei zugegriffen werden)
 
