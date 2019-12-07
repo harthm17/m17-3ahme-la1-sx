@@ -35,6 +35,7 @@ Linux ist als Mehrbenutzer-Betriebssystem konzipiert. Alle benutzer haben nicht 
 
 
 **In Linux gibt es viele Möglichkeiten um Benutzer und Gruppen anlegen zu können, oder auch um sie zu löschen. Unsere Methode der Veränderung:**
+
  **In der Shell durch Veränderung der folgenden Textdateien:**
 * */etc/passwd*
 * */etc/group*
@@ -51,6 +52,9 @@ Wenn man ein Passwort in der Shell ändern möchte, so lässt es sich unter dem 
 ![](https://static.giga.de/wp-content/uploads/2015/04/linux-passwort-%C3%A4ndern-terminal.jpg)
 
 Der Super-User root kann auch das Kennwort jedes Benutzers neu vergeben! 
+
+**Was aber passiert wenn man das Benutzer Passwort und das root Passwort vergistt?**
+Dann kann man das Passwort durch ein paar Schritte häöndisch zurücksetzten, ist einfacher:
 
 -------------------------------------------------------------------------------------------------------------------------------------------
 ## Dateirechte:
