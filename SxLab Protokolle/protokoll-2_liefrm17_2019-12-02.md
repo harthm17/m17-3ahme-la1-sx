@@ -86,5 +86,7 @@ Jedes Element im Dateisystem hat unter Linux einen Eigentümerund gehört einer 
 2. w...write: Schreiben (Dateien dürfen angelegt,gelöscht, aber auch geändert weden)
 3. x...execute: Ausführen/Suchen (Es darf auf Eigenschaften der aktuellen Datei zugegriffen werden)
 
-Wenn die jeweiligen rechte zutreffen, sieht man bei der aufgelisteten Datei die entsprechenden buchstaben dazu, ansonsten werden diese durch ein```-```ersetzt
+Wenn die jeweiligen Rechte zutreffen, sieht man bei der aufgelisteten Datei die entsprechenden buchstaben dazu, ansonsten werden diese durch ein```-```ersetzt
+
+Bsp.: ![](http://i.imgur.com/OzXZ6.png)
 
