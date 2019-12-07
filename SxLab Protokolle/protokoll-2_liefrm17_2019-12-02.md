@@ -108,6 +108,12 @@ Der erste Buchstabe kennzeichnet datei Typ:
 
  ![](http://i.imgur.com/OzXZ6.png)
  
+ Wie im oben angeführte Bsp. sieht man, dass die ersten 9 Zeichen die Zugriffsrechte managen.
+ ```
+ Zeichen 2-4 für Eigentümer....user
+ Zeichen 5-7 für Gruppe....group
+ Zeichen 8-9 für Andere....others
+ ```
 
 
 Mit dem Kommando ```ll```, ander geschrieben```ls-alF``` weden alle Dateien im derzeitigen Ordner aufgelistet:
