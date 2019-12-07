@@ -29,8 +29,8 @@ Linux ist als Mehrbenutzer-Betriebssystem konzipiert. Alle benutzer haben nicht 
 **Für Verwaltung von Gruppen, Benutzern und Passwörter gibt es folgende Dateien:**
 
 * */etc/passwd* 
-* */etc/group* (Alle Gruppen + Mitglieder werden in /etc/group festgelegt)
-* */etc/shadow*
+* */etc/group*  (Alle Gruppen + Mitglieder werden in /etc/group festgelegt)
+* */etc/shadow* (Passwörter/Kennwörter werden in Datei /ect/shadow in Form von Hash-Prüfsummen gespeichert(Achtung,mann kann hier sehr vieles falsch machen!!!)
 
 Mann sollte darauf achten, dass Benutzer, sowie Gruppennamen, mit einem Kleinbuchstaben beginnen, dahinter können z.B. auch Ziffern und Underlines folgen. Aber Achtung!!! Verwendete Namen dürfen nur einmalig im System Vorkommen.
 
