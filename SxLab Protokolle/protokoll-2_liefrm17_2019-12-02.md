@@ -31,7 +31,7 @@ Linux ist als Mehrbenutzer-Betriebssystem konzipiert. Alle benutzer haben nicht 
 * */etc/group* (Alle Gruppen + Mitglieder werden in /etc/group festgelegt)
 * */etc/shadow*
 
-In Linux gibt es auch viele Möglichkeiten um Benutzer und Gruppen anlegen zu können, oder auch um sie zu löschen. Unsere Methode der Veränderung::
+**In Linux gibt es auch viele Möglichkeiten um Benutzer und Gruppen anlegen zu können, oder auch um sie zu löschen. Unsere Methode der Veränderung:**
 
 * **In der Shell durch Veränderung der dieser Textdateien:**
 /etc/passwd, /etc/group und /etc/shadow
