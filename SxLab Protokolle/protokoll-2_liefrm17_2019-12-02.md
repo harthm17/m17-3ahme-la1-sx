@@ -96,11 +96,11 @@ Der erste Buchstabe kennzeichnet datei Typ:
 | d | Directory |
 
 
-**Bsp.:**
+**Bsp.:** In diesem Beispiel ist es eine Verzeichnisdatei
 
  ![](http://i.imgur.com/OzXZ6.png)
  
-Gleiches gilt auch für Ordner/Verzeichnisse. Die sind am Anfang mit einem d gekennzeichnet
+
 
 Mit dem Kommando ```ll```, ander geschrieben```ls-alF``` weden alle Dateien im derzeitigen Ordner aufgelistet:
 
