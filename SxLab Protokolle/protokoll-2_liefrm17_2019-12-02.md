@@ -15,7 +15,7 @@
     * [Benutzer:](#benutzer)
     * [Passwörter:](#passwörter)
 1. [Datei-und Ordnerrechte](#datei-und-ordnerrechte)
-    * [Datei+Ordnerrechte in Linux:](#datei-ordnerrechte-in-linux)
+    * [Datei+Ordnerrechte in Linux:](#datei-+-ordnerrechte-in-linux)
 
 
 
