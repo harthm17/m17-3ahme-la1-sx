@@ -35,8 +35,7 @@ Linux ist als Mehrbenutzer-Betriebssystem konzipiert. Alle benutzer haben nicht 
 
 
 **In Linux gibt es viele Möglichkeiten um Benutzer und Gruppen anlegen zu können, oder auch um sie zu löschen. Unsere Methode der Veränderung:**
-
-* **In der Shell durch Veränderung der folgenden Textdateien:**
+ **In der Shell durch Veränderung der folgenden Textdateien:**
 * */etc/passwd*
 * */etc/group*
 * */etc/shadow*
