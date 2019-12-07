@@ -15,7 +15,7 @@
     * [Benutzer:](#benutzer)
     * [Passwörter:](#passwörter)
 1. [Dateirechte](#dateirechte)
-    * [Dateirechte im Allgemeinen:](#dateirechte-im-allgeminen)
+    * [Dateirechte im Allgemeinen:](#dateirechte-im-allgemeinen)
 
 
 
