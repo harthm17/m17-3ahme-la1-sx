@@ -76,5 +76,5 @@ Wenn man das Passwort doch vergessen sollte, dann kann man es durch ein paar Sch
 -------------------------------------------------------------------------------------------------------------------------------------------
 ## Dateirechte:
 
-Dateirechte im Allgemeinen:
+### Dateirechte im Allgemeinen:
 
