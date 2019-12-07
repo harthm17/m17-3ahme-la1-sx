@@ -11,10 +11,11 @@
 ## Inhaltsverzeichnis:
 
 1. [Letzte Einheit](#letzte-einheit)
-1. [Benutzerverwaltung in der Shell:](#benutzerverwaltung-in-der-shell)
+1. [Benutzerverwaltung in der Shell](#benutzerverwaltung-in-der-shell)
     * [Benutzer:](#benutzer)
     * [Passwörter:](#passwörter)
-1. [Dateirechte:](#dateirechte)
+1. [Dateirechte](#dateirechte)
+    * [Dateirechte im Allgemeinen:](#dateirechte-im-allgeminen)
 
 
 
@@ -75,4 +76,5 @@ Wenn man das Passwort doch vergessen sollte, dann kann man es durch ein paar Sch
 -------------------------------------------------------------------------------------------------------------------------------------------
 ## Dateirechte:
 
+Dateirechte im Allgemeinen:
 
