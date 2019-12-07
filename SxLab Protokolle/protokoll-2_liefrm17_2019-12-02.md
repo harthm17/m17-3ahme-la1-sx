@@ -67,7 +67,7 @@ Der Super-User root kann auch das Kennwort jedes Benutzers neu vergeben!
 
 
 Was aber passiert wenn man das Benutzer Passwort und das root Passwort vergisst?
-Wenn man das Passwort doch vergessen sollte, dann kann man es durch ein paar Schritte händisch auf physischen zurücksetzten, ist die einfachste Methode. 
+Wenn man das Passwort doch vergessen sollte, dann kann man es durch ein paar Schritte händisch auf dem Rechner zurücksetzten, ist die einfachste Methode. 
 
 -------------------------------------------------------------------------------------------------------------------------------------------
 ## Dateirechte:
