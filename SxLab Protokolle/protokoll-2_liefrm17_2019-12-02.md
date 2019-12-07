@@ -11,7 +11,7 @@
 ## Inhaltsverzeichnis:
 
 1. [Letzte Einheit](#letzte-einheit)
-1. [Benutzerverwaltung:](#benutzerverwaltung)
+1. [Benutzerverwaltung in der Shell:](#benutzerverwaltung-in-der-shell)
     * [Benutzer:](#benutzer)
     * [Passwörter:](#passwörter)
 1. [Dateirechte:](#dateirechte)
@@ -24,7 +24,9 @@
 -------------------------------------------------------------------------------------------------------------------------------------------
 ## Letzte Einheit:
 -------------------------------------------------------------------------------------------------------------------------------------------
-## Benutzer:
+## Benutzerverwaltung in der Shell
+
+### Benutzer:
 Linux ist als Mehrbenutzer-Betriebssystem konzipiert. Alle benutzer haben nicht unbedingt dieselben Rechte und Privilegien. Ein Standardbenutzerkonto erhält vollen Zugriff auf das eigene Home-Verzeichnis, aber nicht auf alle Ordner, nur auf sehr wenige. Das Systemverwalterkonto „root“ hat dagegen alle Rechte im gesamten Dateisystem. Dazwischen liegen aber viele Abstufungen. Deswegen kommt es immer zu Problemen aufgrund mangelnder Benutzerrechte. Dann ist z.B. kein Zugriff auf eine zweite Festplatte möglich. Jedes Element im Dateisystem hat unter Linux einen Eigentümer und es gehört einer Gruppe. Die Zugriffsrechte werden getrennt für Eigentümer und Gruppe.
 
 **Für Verwaltung von Gruppen, Benutzern und Passwörter gibt es folgende Dateien:**
@@ -51,7 +53,7 @@ Bei dieser Variante muss vielleicht das Home-Verzeichnis des Benutzers manuell e
 
 
 
-## Passwörter:
+### Passwörter:
 
 Wenn man ein Passwort in der Shell ändern möchte, so lässt es sich unter dem Kommando passwd ändern.
 
