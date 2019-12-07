@@ -19,7 +19,7 @@
 
 ### Dateirechte grundlegend
 
-Rechte benötigt man, wenn man ein Multiusersystem hat.  
+Rechte benötigt man, wenn man mit einem Multiusersystem arbeitet.  
 In der Shell, welche man mit Strg+Alt+T öffnet, kann man mit dem Befehl *ll* die Rechte aller Dateien und Verzeichnisse im aktuellen Verzeichnis ausgeben. Dieser Befehl ist ein Alias für *ls -alF*.
 
 Die Rechte für eine Datei gibt man in 10 Zeichen an.
@@ -37,17 +37,17 @@ Die anderen neun Zeichen werden auf drei Arten von Benutzer aufgeteilt.
 * Zeichen 8-10 für alle anderen ... o
 
 #### Rechte
-Es gibt drei Arten von Rechten. 
+Es gibt drei Arten von Rechten:
 * r ... read
 * w ... write
 * x ... execute
 
-Bei Dateien:
+##### Dateien:
 * r entspricht lesen
 * w entspricht ändern
 * x entspricht ausführen (binäre Dateien, Skript)
 
-Bei Verzeichnissen:
+##### Verzeichnisse:
 * r entspricht Inhalt lesen
 * w entspricht Inhalt löschen, ändern
 * x entspricht ins Verzeichnis wechseln
@@ -63,7 +63,7 @@ Es handelt sich um ein Verzeichnis, indem der Eigentümer alle drei Rechte hat. 
 ----------------------------------------------------------------------------------------------
 
 ### Rechtekommandos
-Wenn man die Rechte dazu hat kann man in der shell die Rechte anderer mit Hilfe von Befehlen verwalten.
+Wenn man die Rechte dazu hat, kann man in der shell die Rechte anderer mit Hilfe von Befehlen verwalten.
 ```
 chown(change owner) ... Datei //Eigentümer verändern
 chown ...:... Datei //Eigentümer + Gruppe verändern
@@ -95,9 +95,10 @@ nano /etc/home
 ```
 Diese Vorgänge speichern wir immer mit Strg+O ab und beenden sie mit Strg+X.
 
-Danach kann man mit dem Befehl *id Benutzerkürzel* Daten über den angelegten Benutzer ausgeben.  
-Das Passwort kann mit dem Befehl *passwd Benutzername* geändert werden.  
-Anmelden kann man sich mit dem Befehl *login Benutzername*.  
-Die sudoers kann man sich mit dem Befehl *sudo/nano/etc/sudoers* anzeigen lassen.
+#### Weitere Befehle
+* danach kann man mit dem Befehl *id Benutzerkürzel* Daten über den angelegten Benutzer ausgeben  
+* das Passwort kann mit dem Befehl *passwd Benutzername* geändert werden
+* anmelden ist mit dem Befehl *login Benutzername* möglich  
+* die sudoers kann man sich mit dem Befehl *sudo/nano/etc/sudoers* anzeigen lassen
 
 ----------------------------------------------------------------------------------------------
