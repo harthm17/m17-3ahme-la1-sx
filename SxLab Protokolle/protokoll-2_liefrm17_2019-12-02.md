@@ -74,9 +74,9 @@ Was aber passiert wenn man das Benutzer Passwort und das root Passwort vergisst?
 Wenn man das Passwort doch vergessen sollte, dann kann man es durch ein paar Schritte händisch auf dem Rechner zurücksetzten, ist die einfachste Methode. 
 
 -------------------------------------------------------------------------------------------------------------------------------------------
-## Datei-und Ordnerrechte:
+## Datei-und Ordnerrechte
 
-### Dateirechte im Allgemeinen:
+### Dateirechte in Linux:
 
 Linux ist ein Multiusersystem, dass heißt, das jeder auf alles zugreifen kann. Um dies zu vermeiden benötigt Linux diverse Datei-und Ordnerrechte die man in der Shell festlegen kann und sollte.
 
