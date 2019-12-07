@@ -53,9 +53,10 @@ Wenn man ein Passwort in der Shell ändern möchte, so lässt es sich unter dem 
 
 Der Super-User root kann auch das Kennwort jedes Benutzers neu vergeben!
 
+**Beispiel:**
 ```
  user@ubuntu:~$ sudo-i
- root@ubuntu:~$ passwd liefrm
+ root@ubuntu:~# passwd liefrm
  
 ```
 
