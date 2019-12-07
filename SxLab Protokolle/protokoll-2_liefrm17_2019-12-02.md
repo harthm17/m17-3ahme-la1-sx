@@ -78,7 +78,7 @@ Wenn man das Passwort doch vergessen sollte, dann kann man es durch ein paar Sch
 
 ### Dateirechte im Allgemeinen:
 
+Linux ist ein Multiusersystem, dass heißt, das jeder auf alles zugreifen kann. Um dies zu vermeiden benötigt Linux diverse Datei-und Ordnerrechte die man in der Shell festlegen kann und sollte.
 
-
-Jedes Element im Dateisystem hat unter Linux einen Eigentümer und es gehört einer Gruppe. Die Zugriffsrechte werden getrennt für Eigentümer und Gruppe über die Modi „Lesen“, „Schreiben“ und „Ausführen/ Suchen“ bestimmt. Letzterer bezieht sich bei Ordnern auf das fundamentale Recht, den Ordner zu öffnen, bei Dateien hingegen auf das Ausführungsrecht. Wenn dieses fehlt, lässt sich eine Datei nicht als Programm starten. Ist ein Benutzer weder Eigentümer noch Mitglied der definierten Gruppe, gehört er zu „Andere“. Auch für ihn lassen sich die drei genannten Modi einstellen.
+Jedes Element im Dateisystem hat unter Linux einen Eigentümer und gehört einer Gruppe an. Die Zugriffsrechte werden getrennt für Eigentümer,Gruppe und Andere,also fremden Benutzern. Über die Wörter „Lesen“, „Schreiben“ und „Ausführen/ Suchen“ werden diese Modi definiert. Letzterer bezieht sich bei Ordnern auf das fundamentale Recht, den Ordner zu öffnen, bei Dateien hingegen auf das Ausführungsrecht. Wenn dieses fehlt, lässt sich eine Datei nicht starten. 
 
