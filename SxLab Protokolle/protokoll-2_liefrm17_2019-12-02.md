@@ -14,7 +14,7 @@
 1. [Benutzerverwaltung in der Shell](#benutzerverwaltung-in-der-shell)
     * [Benutzer:](#benutzer)
     * [Passwörter:](#passwörter)
-1. [Dateirechte](#dateirechte)
+1. [Datei-und Ordnerrechte](#datei-und-ordnerrechte)
     * [Dateirechte im Allgemeinen:](#dateirechte-im-allgemeinen)
 
 
@@ -74,7 +74,11 @@ Was aber passiert wenn man das Benutzer Passwort und das root Passwort vergisst?
 Wenn man das Passwort doch vergessen sollte, dann kann man es durch ein paar Schritte händisch auf dem Rechner zurücksetzten, ist die einfachste Methode. 
 
 -------------------------------------------------------------------------------------------------------------------------------------------
-## Dateirechte:
+## Dateirechte-und Ordnerrechte:
 
 ### Dateirechte im Allgemeinen:
+
+
+
+Jedes Element im Dateisystem hat unter Linux einen Eigentümer und es gehört einer Gruppe. Die Zugriffsrechte werden getrennt für Eigentümer und Gruppe über die Modi „Lesen“, „Schreiben“ und „Ausführen/ Suchen“ bestimmt. Letzterer bezieht sich bei Ordnern auf das fundamentale Recht, den Ordner zu öffnen, bei Dateien hingegen auf das Ausführungsrecht. Wenn dieses fehlt, lässt sich eine Datei nicht als Programm starten. Ist ein Benutzer weder Eigentümer noch Mitglied der definierten Gruppe, gehört er zu „Andere“. Auch für ihn lassen sich die drei genannten Modi einstellen.
 
