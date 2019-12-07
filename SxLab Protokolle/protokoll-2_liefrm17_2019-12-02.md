@@ -95,6 +95,7 @@ ls........list directory content (Liste Verzeichniss Inhalt auf)
 a.........all (Alles auflisten)
 l.........line ( In Linie)
 F.........freedom
+```
 
 **Bsp.:**
 
