@@ -11,7 +11,8 @@
 ## Inhaltsverzeichnis:
 
 1. [Letzte Einheit](#letzte-einheit)
-1. [Benutzer:](#benutzer)
+1. [Benutzerverwaltung:](#benutzerverwaltung)
+    * [Benutzer:](#benutzer)
     * [Passwörter:](#passwörter)
 1. [Dateirechte:](#dateirechte)
 
