@@ -82,9 +82,17 @@ Linux ist ein Multiusersystem, dass heißt, das jeder auf alles zugreifen kann. 
 
 Jedes Element im Dateisystem hat unter Linux einen Eigentümerund gehört einer Gruppe an. Die Zugriffsrechte werden getrennt für Eigentümer (user), Gruppe (group) und Andere (others), also fremden Benutzern. Über die Wörter „Lesen“, „Schreiben“ und „Ausführen/ Suchen“ werden diese Modi definiert. Letzterer bezieht sich bei Ordnern auf das fundamentale Recht, den Ordner zu öffnen, bei Dateien hingegen auf das Ausführungsrecht. Wenn dieses fehlt, lässt sich eine Datei nicht starten. 
 
+**Bei Dateien:**
+
 1. r...read: Lesen (Dateien dürfen gelesen werden)
 2. w...write: Schreiben (Dateien dürfen angelegt,gelöscht, aber auch geändert weden)
 3. x...execute: Ausführen/Suchen (Es darf auf Eigenschaften der aktuellen Datei zugegriffen werden)
+
+**Bei Verzeichnissen:**
+
+1. r...read: Lesen (Inhalt gelesen werden)
+2. w...write: Schreiben (Inhalt löschen, bzw. anlegen)
+3. x...execute: Ausführen/Suchen (Ins Verzeichnis wechseln dürfenn)
 
 Wenn die jeweiligen Rechte zutreffen, sieht man bei der aufgelisteten Datei die entsprechenden buchstaben dazu, ansonsten werden diese durch ein```-```ersetzt
 
