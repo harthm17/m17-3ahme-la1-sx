@@ -49,7 +49,7 @@ Wenn man ein Passwort in der Shell ändern möchte, so lässt es sich unter dem 
 
 ![](https://static.giga.de/wp-content/uploads/2015/04/linux-passwort-%C3%A4ndern-terminal.jpg)
 
-Der Super-User root kann dabei dass Kennwort eines jeden Benutzers neu vergeben. In diesem Fall wird der Benutzername als Argument angegeben.
+Der Super-User root kann auch das Kennwort jedes Benutzers neu vergeben! 
 
 -------------------------------------------------------------------------------------------------------------------------------------------
 ## Dateirechte:
