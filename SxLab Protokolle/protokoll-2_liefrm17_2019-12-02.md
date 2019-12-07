@@ -96,9 +96,9 @@ Jedes Element im Dateisystem hat unter Linux einen Eigentümerund gehört einer 
 
 Wenn die jeweiligen Rechte zutreffen, sieht man bei der aufgelisteten Datei die entsprechenden buchstaben dazu, ansonsten werden diese durch ein```-```ersetzt
 
-Der erste Buchstabe kennzeichnet datei Typ:
+Das erste Zeichen kennzeichnet datei Typ:
 
-| Buchstabe | Steht für |
+| Zeichen | Steht für |
 |-----------|-------------------|
 | "-" | Datei |
 | d | Directory |
@@ -108,11 +108,11 @@ Der erste Buchstabe kennzeichnet datei Typ:
 
  ![](http://i.imgur.com/OzXZ6.png)
  
- Wie im oben angeführte Bsp. sieht man, dass die ersten 9 Zeichen die Zugriffsrechte managen.
+ Wie im oben angeführte Bsp. sieht man, dass die nächsten 9 Zeichen die Zugriffsrechte managen.
  ```
  Zeichen 2-4 für Eigentümer....user
  Zeichen 5-7 für Gruppe....group
- Zeichen 8-9 für Andere....others
+ Zeichen 8-10 für Andere....others
  ```
 
 
