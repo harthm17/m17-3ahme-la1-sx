@@ -76,7 +76,7 @@ Wenn man das Passwort doch vergessen sollte, dann kann man es durch ein paar Sch
 -------------------------------------------------------------------------------------------------------------------------------------------
 ## Datei-und Ordnerrechte
 
-### Dateirechte in Linux:
+### Datei+Ordnerrechte in Linux:
 
 Linux ist ein Multiusersystem, dass heißt, das jeder auf alles zugreifen kann. Um dies zu vermeiden benötigt Linux diverse Datei-und Ordnerrechte die man in der Shell festlegen kann und sollte.
 
