@@ -20,3 +20,8 @@
 
 -------------------------------------------------------------------------------------------------------------------------------------------
 ## Letzte Einheit:
+-------------------------------------------------------------------------------------------------------------------------------------------
+## Dateirechte:
+Linux ist ein Mehrbenutzer-Betriebssystem. Alle benutzer haben nicht unbedingt dieselben Rechte und Privilegien. Daher muss es für das Arbeiten vieler Benutzer auf diesem System geeignete Mechanismen geben.
+
+Für die Verwaltung von Benutzern, Gruppen und Passwörtern sind folgende Dateien in Verwendung:
