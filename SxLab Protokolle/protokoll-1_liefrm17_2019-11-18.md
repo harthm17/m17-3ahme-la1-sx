@@ -5,7 +5,7 @@
 * **Gefehlt:** -
 * **Erstellt von:** Franz Lieleg 
 * **Protokoll der letzten Einheit:**
-* **Protokoll der nächsten Einheit:** 25.11.2019
+* **Protokoll der nächsten Einheit:** 2.12.2019(https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/liefrm17/SxLab%20Protokolle/protokoll-2_liefrm17_2019-12-02.md)
 
 -------------------------------------------------------------------------------------------------------------------------------------------
 
