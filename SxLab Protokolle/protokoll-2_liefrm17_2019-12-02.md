@@ -24,6 +24,7 @@
 -------------------------------------------------------------------------------------------------------------------------------------------
 ## Benutzer:
 Linux ist als Mehrbenutzer-Betriebssystem konzipiert. Alle benutzer haben nicht unbedingt dieselben Rechte und Privilegien. Ein Standardbenutzerkonto erhält vollen Zugriff auf das eigene Home-Verzeichnis, aber sonst nur auf wenige andere Ordner. Das Systemverwalterkonto „root“ hat dagegen alle Rechte im gesamten Dateisystem. Zwischen diesen Extremen liegen jedoch zahlreiche Abstufungen. Obwohl das Linux-Rechtesystem nicht besonders kompliziert ist, kommt es immer wieder zu Problemen aufgrund mangelnder Benutzerrechte. Dann ist beispielsweise kein Zugriff auf eine zweite Festplatte oder auf die Dateien einer Netzwerkfreigabe möglich.
+
 -------------------------------------------------------------------------------------------------------------------------------------------
 ## Dateirechte:
 
