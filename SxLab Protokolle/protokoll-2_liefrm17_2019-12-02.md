@@ -53,10 +53,11 @@ Wenn man ein Passwort in der Shell ändern möchte, so lässt es sich unter dem 
 
 Der Super-User root kann auch das Kennwort jedes Benutzers neu vergeben!
 
-'''
-user@ubuntu:~$ sudo -i
-root@ubuntu:~# passwd schueler
-'''
+```
+ user@ubuntu:~$ sudo-i
+ root@ubuntu:~$ passwd liefrm
+ 
+```
 
 
 Was aber passiert wenn man das Benutzer Passwort und das root Passwort vergisst?
