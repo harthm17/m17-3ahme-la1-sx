@@ -34,7 +34,7 @@ Linux ist als Mehrbenutzer-Betriebssystem konzipiert. Alle benutzer haben nicht 
 
 (Alle Gruppen + Mitglieder werden in /etc/group festgelegt)
 
-(Passwörter/Kennwörter werden in Datei /ect/shadow in Form von Hash-Prüfsummen gespeichert(Achtung,mann kann hier sehr                    vieles falsch machen!!!))
+(Passwörter/Kennwörter werden in Datei /ect/shadow in Form von Hash-Prüfsummen gespeichert(Achtung, man kann hier sehr                    vieles falsch machen!!!))
 
 Mann sollte darauf achten, dass Benutzer, sowie Gruppennamen, mit einem Kleinbuchstaben beginnen, dahinter können z.B. auch Ziffern und Underlines folgen. Aber Achtung!!! Verwendete Namen dürfen nur einmalig im System Vorkommen.
 
