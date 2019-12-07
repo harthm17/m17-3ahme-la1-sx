@@ -88,7 +88,9 @@ Jedes Element im Dateisystem hat unter Linux einen Eigentümerund gehört einer 
 
 Wenn die jeweiligen Rechte zutreffen, sieht man bei der aufgelisteten Datei die entsprechenden buchstaben dazu, ansonsten werden diese durch ein```-```ersetzt
 
-Bsp.:
+**Bsp.:**
 
  ![](http://i.imgur.com/OzXZ6.png)
+ 
+ Gleiches gilt auch für Ordner/Verzeichnisse. Die sind am Anfang mit einem d gekennzeivhnet
 
