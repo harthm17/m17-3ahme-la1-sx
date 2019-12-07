@@ -74,7 +74,7 @@ Was aber passiert wenn man das Benutzer Passwort und das root Passwort vergisst?
 Wenn man das Passwort doch vergessen sollte, dann kann man es durch ein paar Schritte händisch auf dem Rechner zurücksetzten, ist die einfachste Methode. 
 
 -------------------------------------------------------------------------------------------------------------------------------------------
-## Dateirechte-und Ordnerrechte:
+## Datei-und Ordnerrechte:
 
 ### Dateirechte im Allgemeinen:
 
