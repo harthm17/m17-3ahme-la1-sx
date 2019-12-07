@@ -27,9 +27,15 @@ Linux ist als Mehrbenutzer-Betriebssystem konzipiert. Alle benutzer haben nicht 
 
 Für Verwaltung von Gruppen, Benutzern und Passwörter gibt es folgende Dateien:
 
-* */etc/passwd*
-* */etc/group*
+* */etc/passwd* 
+* */etc/group* (Alle Gruppen + Mitglieder werden in /etc/group festgelegt)
 * */etc/shadow*
+
+## Löschen und Anlegen von Benutzern oder Gruppen:
+In Linux gibt es verschiedene Möglichkeiten. Unsere verwendete Möglichkeit:
+
+* **In der Shell durch Veränderung der dieser Textdateien:
+/etc/passwd, /etc/group und /etc/shadow
 
 -------------------------------------------------------------------------------------------------------------------------------------------
 ## Dateirechte:
