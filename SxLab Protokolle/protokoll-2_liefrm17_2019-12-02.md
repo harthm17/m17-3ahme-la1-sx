@@ -54,6 +54,7 @@ Wenn man ein Passwort in der Shell ändern möchte, so lässt es sich unter dem 
 Der Super-User root kann auch das Kennwort jedes Benutzers neu vergeben! 
 
 **Was aber passiert wenn man das Benutzer Passwort und das root Passwort vergistt?**
+
 Dann kann man das Passwort durch ein paar Schritte häöndisch zurücksetzten, ist einfacher:
 
 -------------------------------------------------------------------------------------------------------------------------------------------
