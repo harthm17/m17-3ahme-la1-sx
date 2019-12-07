@@ -40,10 +40,12 @@ Linux ist als Mehrbenutzer-Betriebssystem konzipiert. Alle benutzer haben nicht 
 
 Bei dieser Variante muss vielleicht das Home-Verzeichnis des Benutzers manuell erstellt (mkdir /home/ ...) oder gelöscht werden.
 
+
+
 **Passwörter:**
 Wenn man ein Passwort in der Shell ändern möchte, so lässt es sich unter dem Kommando passwd ändern.
 
-**Grafik dazu:**![](https://static.giga.de/wp-content/uploads/2015/04/linux-passwort-%C3%A4ndern-terminal.jpg)
+![](https://static.giga.de/wp-content/uploads/2015/04/linux-passwort-%C3%A4ndern-terminal.jpg)
 
 Der Super-User root kann dabei dass Kennwort eines jeden Benutzers neu vergeben. In diesem Fall wird der Benutzername als Argument angegeben.
 
