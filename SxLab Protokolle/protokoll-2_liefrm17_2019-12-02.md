@@ -88,9 +88,19 @@ Jedes Element im Dateisystem hat unter Linux einen Eigentümerund gehört einer 
 
 Wenn die jeweiligen Rechte zutreffen, sieht man bei der aufgelisteten Datei die entsprechenden buchstaben dazu, ansonsten werden diese durch ein```-```ersetzt
 
+Mit dem Kommando ```ll```, ander geschrieben```ls-alF``` weden alle Dateien im derzeitigen Ordner aufgelistet:
+
+```
+ls........list directory content (Liste Verzeichniss Inhalt auf)
+a.........all (Alles auflisten)
+l.........line ( In Linie)
+F.........freedom
+
 **Bsp.:**
 
  ![](http://i.imgur.com/OzXZ6.png)
  
- Gleiches gilt auch für Ordner/Verzeichnisse. Die sind am Anfang mit einem d gekennzeivhnet
+ Gleiches gilt auch für Ordner/Verzeichnisse. Die sind am Anfang mit einem d gekennzeichnet
+ 
+ 
 
