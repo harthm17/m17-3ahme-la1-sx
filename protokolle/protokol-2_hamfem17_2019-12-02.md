@@ -99,9 +99,26 @@ Dieser Befehl öffnet ein Texteditor dies sollte dann ca. so ausschauen
 
 ![Bild](https://linux4one.com/wp-content/uploads/2018/11/How-to-list-users-in-Linux-Cat-Command.png)
 
+Dort erstelst man eine neu Zeile und schreibts dort dan `Benutzername:x:Zahl:Zahl:Name Nachname,,,:/home/Benutzername:/bin/bash`
 
+Die **Zahl** ist die id Adresse und die darf es nur einmal in passwd geben.
 
+Als nächstes kann man den Benutzer einer Gruppe hinzufügen. Das geht mit dem Befehl `nano  /etc/group`.
 
+Das solte dan so aus schauen
+
+![Bild](https://1.bp.blogspot.com/-UyQCXchT0BM/XIuowI_MzKI/AAAAAAAAAXM/LGCSKuQL1BwnFdk4GWy-0PKMHIidrdqFwCLcBGAs/s1600/108.png)
+
+Dort schreibt man hinter den anderen Usern seinen Username.
+
+Jetzt macht man mit `mkdir /home/Benutzername` ein Verzeichnis.
+
+Danach solte man mit `passwd Benutzername` eine password für den Benutzer eingeben.
+
+zB.
+![Bild](https://media.geeksforgeeks.org/wp-content/uploads/passwd1-1.png)
+
+Dann hat man einen Benutzer angelegt und kann jetzt sich mit dem Befehl `login Benutzername` einlogen.
 
 
 
