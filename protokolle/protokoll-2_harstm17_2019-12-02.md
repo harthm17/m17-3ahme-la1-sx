@@ -34,6 +34,8 @@ Um zu verstehen wie es mit den Dateirechten aussieht, könnte diese Grafik sehr 
 ![Bild](https://www.ceonaires.com/ceodocs/uploads/2017/05/Dateirechte-symbolisch-1030x278.png)
 Quelle: https://www.ceonaires.com/ceodocs/uploads/2017/05/Dateirechte-symbolisch-1030x278.png
 
+
+
 **ls -alF** bedeutet folgendes:
 * ls ... list directory content
 * a ... all
@@ -100,6 +102,7 @@ Alle anderen haben nur das read-Recht
 
 ### Kommandos um Rechte zu ändern
 Falls man die Rechte dazu hat, Rechte zu verwalten, kann man in der shell die Rechte anderer mit Hilfe von Befehlen verändern.
+
 Befehl | Anwendung
 -------|----------
 chown(change owner) ... Dateiname | Eigentümer verändern
