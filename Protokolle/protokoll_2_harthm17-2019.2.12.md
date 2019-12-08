@@ -24,7 +24,7 @@ Wenn man den Command **ll** in der Shell eingibt, kann man alle Rechte der Datei
 Der Befehl **ll** ist ein Alias für **ls -alF**.
 Ein Alias ist abgekürzte Version eines Befehls.
 
-Nach den Aufrufen von ll sieht man, wer hier Rechte hat. Daraus kann man erkennen, ob es eine Datei oder ein Verzeichniss ist und 
+Nach den Aufrufen von ll sieht man, wer hier Rechte hat. Daraus kann man erkennen, ob es eine Datei oder ein Verzeichniss ist und wer
 hier Rechte hat.
 
 Dies kann so aussehen:
@@ -42,7 +42,7 @@ Es gibt drei verschiedene Dateitypen. Den Datentyp erkennt man am **ersten** Zei
 * l,c oder b (wurde im Unterricht nur erwähnt)
 
 ### Benutzer
-Es gibt drei verschiedene Benutzer. Hier werden 9 Zeichen hintereinander aufgezählt. Oben habe ich sie in 3 Bereiche zerteilt.
+Es gibt drei verschiedene Benutzer. Hier werden neun Zeichen hintereinander aufgezählt. Oben sind sie in drei Bereiche zerteilt.
 
 * 2 bis 4 ist der Eigentümer selbst (user oder u)
 * 5 bis 7 ist eine Gruppe (group oder g)
@@ -72,7 +72,7 @@ In diesem Beispiel handelt sich es um ein Verzeichniss, indem der Eigentümer al
 
 
 ## Commands um Rechte zu ändern
-Man kann die Rechte mit Hitlfe von Befehlern ändern, angenommen man hat selbst die Rechte dazu, Rechte zu verwalten.
+Man kann die Rechte mit Hilfe von Befehlen ändern, angenommen man hat selbst die Rechte dazu, Rechte zu verwalten.
 
 ```
   chown ... Datei -> Eigentümmer verändern (chown = change owner)
@@ -107,7 +107,7 @@ Es gibt 2 Kommandos wie man es direkt macht, jedoch haben wir keines dieser benu
 * adduser -> high level
 * useradd -> low level
 
-Der Grund, warum es zwei Kommandos gibt ist, dass useradd als erstes da war und dann wurde adduser hinzugefügt. Da bestimmt Beschwerden aufgekommen wären, wieso man alle neu lernen müsse, wurde die "leichte" Version nicht entfernt.
+Der Grund, warum es zwei Kommandos gibt ist, dass useradd als erstes da war und dann wurde adduser hinzugefügt. Da bestimmt Beschwerden eingetreten wären, wieso man alle neu lernen müsse, wurde die "leichte" Version nicht entfernt.
 
 Zuerst muss man als Superuser einsteigen. 
 ```
@@ -124,7 +124,7 @@ root = Superuser
 Gibt man in der Shell "man man" ein, bekommt man eine Auflistung von 1 bis 8. Wo 1 Programme sind und 2 dann .....
               
 Gibt man sich den Punkt 5 genauer aus mit "man 5 man" zeigt es uns genauere Information an.
-passwd ist auch dafür da um sich als Superuser einzuloggen.
+passwd ist auch dafür um Benutzer zu erstellen.
 
 
 Mit sudo -i und dann mit dem Passwort ist man als Superuser eingeloggt.
@@ -134,7 +134,7 @@ Hier tragen wir unseren Benutzer ein.
 Im Unterricht haben wir die Daten des schuelers koopiert und unseren HTL-Kürzel eingesetzt und wir haben auch die ID geändert.
 Mit STRG + O speichert man (Buchstabe O und nicht Zahl 0) und man beendet es mit STRG + X.
 
-Mit ****nano/etc/group** haben wir die Gruppe bearbeitet.
+Mit **nano/etc/group** haben wir die Gruppe bearbeitet.
 ```
   harthm17;x;1001;
 ```
@@ -152,6 +152,7 @@ Um den Benutzer perfekt zu machen brauchen wir nur noch die Ordner.
 
 Mit dem Befehl **sudo nano /etc/sudoers** kann man alles ändern. **-> sehr gefährlich**
 
+
 ### Hash
 Passwörter sind mit einem Hash verschlüsselt. Ein Hash ist ein zufälliger Algorithmus.
 Ein Hash ist ein elektronischer Fingerabdruck.
@@ -160,12 +161,9 @@ Ein Hash ist ein elektronischer Fingerabdruck.
 Beim gleichen Passwort ist nicht der gleiche Hash.
 Kleine Änderungen wirken große Änderungen beim Hash aus.
 
+
 ### History
 Alle Befehle werden in der History gespeichert.
 Man kann sie ansehen mit dem Befehl -> .bash_history.
 
 Falls man was löschen möchte gibt man nano .bash_history ein.
-
-
-
-
