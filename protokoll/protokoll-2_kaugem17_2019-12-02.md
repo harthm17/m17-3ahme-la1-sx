@@ -17,9 +17,18 @@ Anwesend:      Felix Hamrle, Stefan Haring, Thomas Harrer, Georg Kaufmann, Andre
 
 ### Inhaltsverzeichnis
 1) [Dateirechte](#dateirechte) 
-      * [Allgemein](#allgemein) 
+      * [Grundlagen](#grundlagen) 
       * [Kommandos](#kommandos)
-1) [Benutzer anlegen](#benutzer_anlegen)
+1) [Benutzer anlegen](#benutzer-anlegen)
 
 -------------------------------------------------
 
+### Dateirechte
+#### Grundlagen
+Die Dateirechte in Unix-Dateisystemen werden unterteilt in Benutzerklassen. 
+Diese werden lauten:
+* **Eigentümer bzw. User** 
+* **Gruppe bzw. group**
+* **alle anderen bzw. others**
+
+![Bild](https://www.webhostone.de/images/FAQ/Webpakete/dateirechte3.png)
