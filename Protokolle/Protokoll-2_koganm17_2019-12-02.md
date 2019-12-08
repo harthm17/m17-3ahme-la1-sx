@@ -106,6 +106,11 @@ Der low level Befehl war zuerst da, wurde aber nicht entfernt, als der neue high
 
 ### Sonstiges
 
+#### Weitere Befehle
+* mit dem Befehl *id Benutzerkürzel* kann manDaten über den Benutzer ausgeben  
+* anmelden ist mit dem Befehl *login Benutzername* möglich  
+* die sudoers kann man sich mit dem Befehl *sudo/nano/etc/sudoers* anzeigen lassen
+
 #### History
 * Alle Befehle, die man eingibt werden in der History gespeichert. 
 * Man kann mit den Pfeiltasten nach oben zum davor benutzten Befehl hüpfen.
@@ -117,12 +122,5 @@ Der low level Befehl war zuerst da, wurde aber nicht entfernt, als der neue high
 Das Passwort kann mit dem Befehl *passwd Benutzername* geändert werden.
 
 Passwörter werden mit einem Hash verschlüsselt. Ein solcher Hash ist ein Algorithmus, welcher mit dem **Salt and Pepper**-Prinzip arbeitet. Das heißt, dass gleiche Passwörter nicht denselben Hash aufweisen.
-
-#### Weitere Befehle
-* danach kann man mit dem Befehl *id Benutzerkürzel* Daten über den angelegten Benutzer ausgeben  
-* das Passwort kann mit dem Befehl *passwd Benutzername* geändert werden
-* anmelden ist mit dem Befehl *login Benutzername* möglich  
-* die sudoers kann man sich mit dem Befehl *sudo/nano/etc/sudoers* anzeigen lassen
-
 
 ----------------------------------------------------------------------------------------------
