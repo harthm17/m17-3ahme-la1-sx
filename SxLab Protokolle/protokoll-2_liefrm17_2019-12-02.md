@@ -10,20 +10,16 @@
 ---------------------------------------------------------------------------------------------------------------------------------------
 ## Inhaltsverzeichnis:
 
-1. [Letzte Einheit](#letzte-einheit)
 1. [Benutzerverwaltung in der Shell](#benutzerverwaltung-in-der-shell)
     * [Benutzer:](#benutzer)
     * [Passwörter:](#passwörter)
+    * [Benutzer anlegen:](#benutzer-anlegen)
 1. [Datei-und Ordnerrechte](#datei-und-ordnerrechte)
     * [Datei plus Ordnerrechte in Linux:](#datei-plus-ordnerrechte-in-linux)
     * [Ändern der Rechte für Benutzer plus Gruppen:](#ändern-der-rechte-für-benutzer-plus-gruppen)
 
 
 
-
-
--------------------------------------------------------------------------------------------------------------------------------------------
-## Letzte Einheit:
 -------------------------------------------------------------------------------------------------------------------------------------------
 ## Benutzerverwaltung in der Shell
 
