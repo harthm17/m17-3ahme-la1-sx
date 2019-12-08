@@ -177,10 +177,3 @@ Kommando dafür: sudo-i
 ```
 user@ubuntu:~$ sudo -i
 ```
-
-
-
-
- 
- 
-
