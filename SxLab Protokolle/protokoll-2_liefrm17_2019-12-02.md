@@ -143,10 +143,17 @@ chgrp....Datei (Gruppe ändern)
 **Bsp:**
 ```
 chmod g+x....Datei (Die Gruppe darf nun das Recht execute verwenden)
-chmod u+rwx....Datei
+chmod u+rwx....Datei ("User", Benutzer, hat alle Rechte bekommen)
 chmod o-rw....Datei (Besitzer werden das Recht "read" und "write" entnommen)
 chmod 751....Datei (Rechte werden im Oktalen Modus vergeben: 111 101 001 (rwx-r-x--x)
-                    
+```
+
+Mann kann die Rechte aller nur ändern, wenn man sich im Super-User Modus befindet.
+
+Kommando dafür: sudo-i
+```
+user@ubuntu:~$ sudo -i
+```
 
 
 
