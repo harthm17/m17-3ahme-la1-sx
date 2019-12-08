@@ -25,10 +25,44 @@ Anwesend:      Felix Hamrle, Stefan Haring, Thomas Harrer, Georg Kaufmann, Andre
 
 ### Dateirechte
 #### Grundlagen
+Warum gibt es Dateirechte?
+In einem MultiUserSystem ist es wichtig zu kennzeichnen wer was darf. Deswegen gibt es sogennante Rechte.
 Die Dateirechte in Unix-Dateisystemen werden unterteilt in Benutzerklassen. 
-Diese werden lauten:
+Diese lauten:
 * **Eigentümer bzw. User** 
 * **Gruppe bzw. group**
 * **alle anderen bzw. others**
 
 ![Bild](https://www.webhostone.de/images/FAQ/Webpakete/dateirechte3.png)
+[Quelle](https://www.webhostone.de/images/FAQ/Webpakete/dateirechte3.png) 
+
+Die Rechte der jeweiligen Benutzerklassen werden in Buchstaben wiedergegeben. 
+Diese lauten:
+
+Buchstabe | Ausgeschrieben | Funktion
+--------- | -------------- | --------
+r | read | Inhalt lesen
+w | write | Inhalt löschen bzw. anlegen
+x | execute | in Verzeichnis wechseln dürfen
+
+#### Kommandos
+
+Zum verändern des Eigentümers:              
+```
+chown
+```
+
+Zum verändern der Gruppe:          
+```         
+chgrp
+```
+
+Zum verändern der Rechte:  
+```
+chmod
+```
+
+-------------------------------------------------
+
+### Benutzer anlegen
+
