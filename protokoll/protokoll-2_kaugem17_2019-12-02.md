@@ -30,6 +30,7 @@ In einem MultiUserSystem ist es wichtig zu kennzeichnen wer was darf. Deswegen g
 
 Wikipedia sagt folgendes dazu:
 > Die Unix-Dateirechte sind Dateiberechtigungen bei Unix und Unix-Derivaten wie Linux und Mac OS X.           
+
 [Quelle](https://de.wikipedia.org/wiki/Unix-Dateirechte), 08.12.2019
 
 Das erste Zeichen einer Datei steht immer für den Typ.      
