@@ -73,6 +73,29 @@ Der Super-User root kann auch das Kennwort jedes Benutzers neu vergeben!
 Was aber passiert wenn man das Benutzer Passwort und das root Passwort vergisst?
 Wenn man das Passwort doch vergessen sollte, dann kann man es durch ein paar Schritte händisch auf dem Rechner zurücksetzten, ist die einfachste Methode. 
 
+### Benutzer anlegen:
+
+Wenn man einen neuen benutzer anlegen möchte, muss man in den Super-Uder Modus wechseln mit Kommando ```user@ubuntu:~$ sudo -i```.
+Wenn man danach das gefragte Kennwort eingibt, ist man Super-User.
+
+Man kann einen Benutzer unter Linux auf **2 Arten** anlegen:
+
+```
+adduser Benutzername (Man hat hier mehr Freiheiten und Spielraum)
+
+uderadd Benutzername (Einfachere Art)
+```
+Mit den Befehlen:
+```nano/etc/passwd
+nano/etc/group
+nano/etc/shadow
+nano/etc/home
+```
+Können wir uns in diesen Dateien eintragen
+
+Mit strg-O speichern
+Mit strg-X beenden
+
 -------------------------------------------------------------------------------------------------------------------------------------------
 ## Datei-und Ordnerrechte
 
@@ -154,7 +177,6 @@ Kommando dafür: sudo-i
 ```
 user@ubuntu:~$ sudo -i
 ```
-
 
 
 
