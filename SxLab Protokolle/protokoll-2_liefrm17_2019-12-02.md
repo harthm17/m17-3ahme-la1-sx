@@ -80,7 +80,7 @@ Wenn man das Passwort doch vergessen sollte, dann kann man es durch ein paar Sch
 
 Linux ist ein Multiusersystem, dass heißt, das jeder auf alles zugreifen kann. Um dies zu vermeiden benötigt Linux diverse Datei-und Ordnerrechte die man in der Shell festlegen kann und sollte.
 
-Jedes Element im Dateisystem hat unter Linux einen Eigentümerund gehört einer Gruppe an. Die Zugriffsrechte werden getrennt für Eigentümer (user), Gruppe (group) und Andere (others), also fremden Benutzern. Über die Wörter „Lesen“, „Schreiben“ und „Ausführen/ Suchen“ werden diese Modi definiert. Letzterer bezieht sich bei Ordnern auf das fundamentale Recht, den Ordner zu öffnen, bei Dateien hingegen auf das Ausführungsrecht. Wenn dieses fehlt, lässt sich eine Datei nicht starten. 
+Jedes Element im Dateisystem hat unter Linux einen Eigentümerund gehört einer Gruppe an. Die Zugriffsrechte werden getrennt für Eigentümer (user), Gruppe (group) und Andere (others), also fremden Benutzern. Über die Wörter „Lesen“, „Schreiben“ und „Ausführen/ Suchen“ werden diese Modi definiert. Letzteres bezieht sich bei Ordnern auf das fundamentale Recht, den Ordner zu öffnen, bei Dateien hingegen auf das Ausführungsrecht. Wenn dieses fehlt, lässt sich eine Datei nicht starten. 
 
 **Bei Dateien:**
 
@@ -94,9 +94,9 @@ Jedes Element im Dateisystem hat unter Linux einen Eigentümerund gehört einer 
 2. w...write: Schreiben (Inhalt löschen, bzw. anlegen)
 3. x...execute: Ausführen/Suchen (Ins Verzeichnis wechseln dürfenn)
 
-Wenn die jeweiligen Rechte zutreffen, sieht man bei der aufgelisteten Datei die entsprechenden buchstaben dazu, ansonsten werden diese durch ein```-```ersetzt
+Wenn die jeweiligen Rechte zutreffen, sieht man bei der aufgelisteten Datei die entsprechenden Buchstaben dazu, ansonsten werden diese durch ein```-```ersetzt
 
-Das erste Zeichen kennzeichnet datei Typ:
+Das erste Zeichen kennzeichnet Datei Typ:
 
 | Zeichen | Steht für |
 |-----------|-------------------|
