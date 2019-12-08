@@ -26,6 +26,12 @@
 Mit dem Befehl *ll*, den man in der Shell eingibt, werden die Rechte aller Dateien und Verzeichnisse im aktuellen Verzeichnis ausgeben. *ll* ist der Alias für den Befehl *ls -alF* (Ein Alias ist eine verkürzte Variante eines Befehls etc.).
 Weiters ist noch zu beachten, wenn man eine Datei in ein anderes Verzeichnis kopiert, ändern sich die Rechte für die jeweilige Datei.
 
+**ls -alF** bedeutet folgendes:
+* ls ... list directory content
+* a ... all
+* l ... list(line)
+* F ... freedom
+
 *[Wikipedia](https://de.wikipedia.org/wiki/Unix-Dateirechte) definiert folgendes:*
 >Die Unix-Dateirechte sind Dateiberechtigungen bei Unix und Unix-Derivaten wie Linux und Mac OS X. Die Berechtigungsaufteilung in Eigentümer, Gruppe und Andere gibt es seit UNIX-V4 (1974). In früheren UNIX-Versionen gab es nur 6 Bit für die Dateirechte (Lesen/Schreiben für Eigentümer und Nicht-Eigentümer, Execute und Set-UID). Die aktuellen UNIX-Dateirechte zeichnen sich durch eine einfache Struktur aus, die einerseits intuitiv von Menschen verwendet werden kann und andererseits keine hohen Ansprüche an Computer stellt. Trotzdem lassen sich mit diesen Dateirechten selbst komplexe Alltagsprobleme in einem Mehrbenutzerumfeld lösen.
 
@@ -34,13 +40,10 @@ Um zu verstehen wie es mit den Dateirechten aussieht, könnte diese Grafik sehr 
 ![Bild](https://www.ceonaires.com/ceodocs/uploads/2017/05/Dateirechte-symbolisch-1030x278.png)
 Quelle: https://www.ceonaires.com/ceodocs/uploads/2017/05/Dateirechte-symbolisch-1030x278.png
 
+----------------------------------------------------------------------------------------------------
 
 
-**ls -alF** bedeutet folgendes:
-* ls ... list directory content
-* a ... all
-* l ... list(line)
-* F ... freedom
+***Folgende 3 Überschriften beschreiben die obige Grafik etwas genauer***
 
 #### Dateityp
 *Das erste Zeichen steht für den Dateityp. Dieser kann folgfende Zeichen annehmen:*
@@ -51,13 +54,13 @@ Zeichen | Beschreibung
 d | für directories 
 l, c oder b | wurde nicht genau besprochen
 
-***Folgende 3 Überschriften beschreiben die obige Grafik etwas genauer***
 
 #### Benutzer
 Die weiteren neun Zeichen werden auf drei Arten von Benutzer aufgeteilt:
 * Zeichen 2-4 für den Eigentümer ... u (user)
 * Zeichen 5-7 für die Gruppe ... g (group)
 * Zeichen 8-10 für alle anderen ... o (others)
+
 
 #### Rechte bei Dateien
 *Es gibt drei Arten von Rechten:*
@@ -67,6 +70,7 @@ Kurzform | Ausgeschrieben | Übersetzung/Beschreibung
 r | read | lesen
 w | write | erstellen, ändern
 x | execute | Skripte, Binäre Dateien etc. ausführen
+
 
 #### Rechte bei Verzeichnissen
 *Es gibt wieder drei Arten von Rechten:*
@@ -79,6 +83,7 @@ x | execute | ins Verzeichnis wechseln
 
 Wenn ein Benutzer das Recht besitzt, wird der Buchstabe des Rechtes geschrieben. Ansonsten ist ein Minus anstelle des Buchstabens.
 
+
 #### Folgende Beispiele bringen das Arbeiten mit Dateirechten näher
 
 ##### Beispiel 1:
@@ -88,6 +93,7 @@ d rwx rw- ---
 Es handelt sich um ein Verzeichnis, inder der Eigentümer alle drei Rechte hat.
 Die Gruppe hat das read- und das write-Recht.
 Alle anderen besitzen keine der 3 Arten von Rechten.
+
 
 ##### Beispiel 2
 ```
@@ -110,9 +116,10 @@ chown ...:... Dateiname | Eigentümer + Gruppe verändern
 chgrp(change group) ... Dateiname | Gruppe ändern
 chmod(zu verändernte Rechte) |Rechte ändern
 
-Folgendes Bild beschreibt diesen Vorgang recht gut:
+Folgendes Bild beschreibt einen dieser Vorgänge:
 ![bild](https://slideplayer.org/slide/5194705/16/images/64/%C3%84nderung+der+Rechte+Der+Eigent%C3%BCmer+einer+Datei%2Feines+Verzeichnisses+kann+die+Zugriffsrechte+mit+Hilfe+des+chmod-Befehls+%C3%A4ndern..jpg)
 Quelle: https://slideplayer.org/slide/5194705/16/images/64/%C3%84nderung+der+Rechte+Der+Eigent%C3%BCmer+einer+Datei%2Feines+Verzeichnisses+kann+die+Zugriffsrechte+mit+Hilfe+des+chmod-Befehls+%C3%A4ndern..jpg
+
 
 ***Beispiele:***
 
@@ -155,11 +162,13 @@ In jedem dieser Verzeichnisse kann/soll man den Benutzer eintragen
 Diese Vorgänge kann man mit Strg+O speichern und mit Strg+X beenden.
 
 
+
 Befehl | Eigenschaft
 ------ | -----------
 id *Benutzername* | Daten über Benutzer ausgeben
 passwd *Benutzername* | Passwort des Benutzers ändern
 login *Benutzername* | Anmelden des Benutzers
+
 
 **Wichtig**
 Acht zu geben ist, bei der Eingabe des Passworts.
