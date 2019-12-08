@@ -1,7 +1,7 @@
 # Protokoll LA2/SX 3AHME (2019/20)
 
 * **Thema:** Dateirechte, Benutzer anlegen
-* **Datum:** 02.122019
+* **Datum:** 02.12.2019
 * **Gefehlt:** keiner
 * **Erstellt von:** Felix Hamrle
 * **Protokoll nächste Einheit:** --
@@ -16,8 +16,8 @@
 ## Dateirechte
 
 
-Wenn man den Befehl `ls-l` in der Shell ein gibt wird der Verzeichnisinhalt auflisten mit einem langem Listungsformat. Dort wird dann 
-aufgelistet wann die Datei erstelt wurde,wie viel Byte sie hat, wie sie benannt wurde und welche Rechte der Super User, die Gruppe und 
+Wenn man den Befehl `ls-l` in der Shell ein gibt wird der Verzeichnisinhalt aufgelistet mit einem langem Listungsformat. Dort wird dann 
+aufgelistet wann die Datei erstellt wurde,wie viele Byte sie hat, wie sie benannt wurde und welche Rechte der Super User, die Gruppe und 
 andere haben.
 
 Wenn man jetzt den Befehl eingibt schaut das ca. so aus.
@@ -40,7 +40,7 @@ r     |Read|Dateiinhalt lesen
 w     |Write|Dateiinhalt bearbeiten
 x     |Execute|Datei ausführen
 
-bei Verzeichnissen schaut es zimlich gleich aus mit den Rechten.
+bei Verzeichnissen schaut es ziemlich gleich aus mit den Rechten.
 
 Rechte|Bedeutung|Funktionsumfang
 ------|---------|-----
@@ -50,7 +50,7 @@ x     |Execute|in dieses Verzeichnis hineinwechseln
 
 ### Befehle für Dateirechte  
 
-Um Dateirechte zuveränder muss man der Super User sein.    
+Um Dateirechte zu veränder muss man der Super User sein.    
 Das geht mit dem Befehl `sudo -i`.  
 
 #### Rechte ändern
@@ -80,54 +80,41 @@ rwx --x r-x
 
 #### Besitzer, Gruppe der Datei ändern
 
-Befehl `chown besitzer:gruppe dateiname`
-Beispiel `chown hamfem:3Ahme test.txt`
+Befehl `chown besitzer:gruppe dateiname`  
+Beispiel `chown hamfem:3Ahme test.txt`  
 
-#### Nur Gruppe ändern
+#### Nur Gruppe ändern  
 
-Befehl `chgrp gruppe dateiname`
-Beispiel `chown 3Ahme test.txt`
+Befehl `chgrp gruppe dateiname`  
+Beispiel `chown 3Ahme test.txt`  
 
-## Benutzer anlegen
+## Benutzer anlegen   
 
-Um einen Benuter zu erstellen muss man der **Super User** sei das geht mit dem Befehl `sudo -i`. Weil man mit dem normalen Benutzer nicht
-die benötigten Datein veräbdern kann.
+Um einen Benutzer zu erstellen muss man der **Super User** sein das geht mit dem Befehl `sudo -i`. Weil man mit dem normalen Benutzer nicht  
+die benötigten Dateien verändern kann.  
 
-Der erste Schritt um einen Benuzer zuerstellen ist der Befehl `nano  /etc/passwd`.
-
-Dieser Befehl öffnet ein Texteditor dies sollte dann ca. so ausschauen
+Der erste Schritt um einen Benutzer zu erstellen ist der Befehl `nano  /etc/passwd`.  
+ 
+Dieser Befehl öffnet ein Texteditor dies sollte dann ca. so  ausschauen  
 
 ![Bild](https://linux4one.com/wp-content/uploads/2018/11/How-to-list-users-in-Linux-Cat-Command.png)
 
-Dort erstelst man eine neu Zeile und schreibts dort dan `Benutzername:x:Zahl:Zahl:Name Nachname,,,:/home/Benutzername:/bin/bash`
+Dort erstellt man eine neu Zeile und schreibt dort dann  
+`Benutzername:x:Zahl:Zahl:Name Nachname,,,:/home/Benutzername:/bin/bash`
 
 Die **Zahl** ist die id Adresse und die darf es nur einmal in passwd geben.
 
 Als nächstes kann man den Benutzer einer Gruppe hinzufügen. Das geht mit dem Befehl `nano  /etc/group`.
 
-Das solte dan so aus schauen
+Das sollte dann so aus schauen
 
 ![Bild](https://1.bp.blogspot.com/-UyQCXchT0BM/XIuowI_MzKI/AAAAAAAAAXM/LGCSKuQL1BwnFdk4GWy-0PKMHIidrdqFwCLcBGAs/s1600/108.png)
 
-Dort schreibt man hinter den anderen Usern seinen Username.
+Dort schreibt man hinter der Gruppe seinen Benutzername.
 
-Jetzt macht man mit `mkdir /home/Benutzername` ein Verzeichnis.
+Danach sollte man mit `passwd Benutzername` eine Password für den Benutzer eingeben.
 
-Danach solte man mit `passwd Benutzername` eine password für den Benutzer eingeben.
-
-zB.
+zB.  
 ![Bild](https://media.geeksforgeeks.org/wp-content/uploads/passwd1-1.png)
 
 Dann hat man einen Benutzer angelegt und kann jetzt sich mit dem Befehl `login Benutzername` einlogen.
-
-
-
-
-
-
-
-
-
-
-
-
