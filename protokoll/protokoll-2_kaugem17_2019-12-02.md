@@ -33,6 +33,10 @@ Wikipedia sagt folgendes dazu:
 
 [Quelle](https://de.wikipedia.org/wiki/Unix-Dateirechte), 08.12.2019
 
+Ein Beispiel:       
+![Bild](https://www.webhostone.de/images/FAQ/Webpakete/dateirechte3.png)                
+[Quelle](https://www.webhostone.de/images/FAQ/Webpakete/dateirechte3.png), 08.12.2019 
+
 Das erste Zeichen einer Datei steht immer für den Typ.      
 Diese können lauten:
 * **- für Dateien**
@@ -43,10 +47,6 @@ Diese lauten:
 * **Eigentümer bzw. User** 
 * **Gruppe bzw. group**
 * **alle anderen bzw. others**
-
-Ein Beispiel:       
-![Bild](https://www.webhostone.de/images/FAQ/Webpakete/dateirechte3.png)                
-[Quelle](https://www.webhostone.de/images/FAQ/Webpakete/dateirechte3.png), 08.12.2019 
 
 Die Rechte der jeweiligen Benutzerklassen werden in Buchstaben wiedergegeben.        
 Diese lauten:
