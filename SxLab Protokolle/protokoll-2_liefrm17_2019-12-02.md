@@ -3,7 +3,7 @@
 * **Themen:** Dateirechte, Benutzer anlegen
 * **Datum:** 2.12.2019
 * **Gefehlt:** -
-* **Erstellt von:** Franz Lieleg 
+* **Erstellt von:** Franz Lieleg (liefrm)
 * **Protokoll der letzten Einheit:** [18.11.2019](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/liefrm17/SxLab%20Protokolle/protokoll-1_liefrm17_2019-11-18.md)
 * **Protokoll der nächsten Einheit:** -
 
@@ -16,7 +16,7 @@
     * [Passwörter:](#passwörter)
 1. [Datei-und Ordnerrechte](#datei-und-ordnerrechte)
     * [Datei plus Ordnerrechte in Linux:](#datei-plus-ordnerrechte-in-linux)
-
+    * [Ändern der Rechte für Benutzer plus Gruppen:](#ändern-der-rechte-für-benutzer-plus-gruppen)
 
 
 
@@ -88,11 +88,15 @@ Jedes Element im Dateisystem hat unter Linux einen Eigentümerund gehört einer 
 2. w...write: Schreiben (Dateien dürfen angelegt,gelöscht, aber auch geändert weden)
 3. x...execute: Ausführen/Suchen (Es darf auf Eigenschaften der aktuellen Datei zugegriffen werden)
 
+Manche Dateien besitzen auch Sonderrechte!!!
+
 **Bei Verzeichnissen:**
 
 1. r...read: Lesen (Inhalt gelesen werden)
 2. w...write: Schreiben (Inhalt löschen, bzw. anlegen)
 3. x...execute: Ausführen/Suchen (Ins Verzeichnis wechseln dürfenn)
+
+Manche Verzeichnisse besitzen auch Sonderrechte!!!
 
 Wenn die jeweiligen Rechte zutreffen, sieht man bei der aufgelisteten Datei die entsprechenden Buchstaben dazu, ansonsten werden diese durch ein```-```ersetzt
 
@@ -124,6 +128,11 @@ a.........all (Alles auflisten)
 l.........line (In Linie)
 F.........freedom
 ```
+
+### Ändern der Rechte für Benutzer plus Gruppen
+Der Besitzer einer Datei (dazu zählen auch Verzeichnisse) kann mit Hilfe des Kommandos chown geändert werden.
+
+Soll auch die Gruppe gleich mit geändert werden, kann hinter dem Namen ein Doppelpunkt und die neue Gruppe angegeben werden.
 
 
 
