@@ -6,7 +6,7 @@
 * **Datum:** 02.12.2019
 * **Gefehlt:** -
 * **Erstellt von:** Stefan Haring (harstm17)
-* **Protokoll letzte Einheit:** [18.11.2019](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/harstm17/protokolle/protokoll-1_harstm17_2019-11-18_.md)
+* **Protokoll der letzten Einheit:** [18.11.2019](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/harstm17/protokolle/protokoll-1_harstm17_2019-11-18_.md)
 
 ----------------------------------------------------------------------------------------------
 
@@ -51,7 +51,7 @@ Zeichen | Beschreibung
 d | für directories 
 l, c oder b | wurde nicht genau besprochen
 
-***Folgende 3 Überschriften beschreiben die Grafik etwas genauer***
+***Folgende 3 Überschriften beschreiben die obige Grafik etwas genauer***
 
 #### Benutzer
 Die weiteren neun Zeichen werden auf drei Arten von Benutzer aufgeteilt:
@@ -116,7 +116,7 @@ Quelle: https://slideplayer.org/slide/5194705/16/images/64/%C3%84nderung+der+Rec
 
 ***Beispiele:***
 
-Befehl | Eigenschaft
+Befehl | Auswirkung
 -------|-------------
 chmod g+x | Gruppe darf nun auch ausführen
 chmod o-rw | Andere dürfen nun nicht mehr lesen und verändern
@@ -126,13 +126,13 @@ chmod 651 Datei |  Rechte in Oktalzahlen: 110 101 001 = rw- r-x --x
 ----------------------------------------------------------------------------------------------
 
 ### Benutzer anlegen
-Aufgabe ist es einen Benutzer über die Shell anzulegen.
+Aufgabe ist es, einen Benutzer über die Shell anzulegen.
 Voraussetzung ist der Superuser-Zustand. Der Superuser weiß, kann und darf alles.
 Folgender Befehl bewirkt das Gelangen in diesen Zustand.
 ```
 sudo -i 
 ```
-Anschließend wird nach dem Passwort gefragt. Sobald diese Anforderung erfüllt ist, ist man Superuser.
+Anschließend wird nach dem Passwort gefragt. Sobald das korrekte Passwort eingegeben wurde, ist man Superuser.
 
 Es gibt zwei Arten einen Benutzer anzulegen. Die folgenden Befehle können das bewirken:
 ```
