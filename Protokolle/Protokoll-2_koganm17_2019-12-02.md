@@ -107,7 +107,7 @@ Der low level Befehl war zuerst da, wurde aber nicht entfernt, als der neue high
 ### Sonstiges
 
 #### Weitere Befehle
-* mit dem Befehl *id Benutzerkürzel* kann manDaten über den Benutzer ausgeben  
+* mit dem Befehl *id Benutzerkürzel* kann man Daten über den Benutzer ausgeben  
 * anmelden ist mit dem Befehl *login Benutzername* möglich  
 * die sudoers kann man sich mit dem Befehl *sudo/nano/etc/sudoers* anzeigen lassen
 
@@ -116,7 +116,7 @@ Der low level Befehl war zuerst da, wurde aber nicht entfernt, als der neue high
 * Man kann mit den Pfeiltasten nach oben zum davor benutzten Befehl hüpfen.
 * Wenn man die shell mit der Tastenkombination Strg+d schließt, kann man das auch beim nächsten öffnen noch tun.
 * Man kann sie mit dem Befehl -> .bash_history aufrufen.
-* Falls man die history löschen möchte, gibt man nano .bash_history ein.
+* Falls man die history löschen möchte, gibt man das Kommando nano .bash_history ein.
 
 #### Passwort
 Das Passwort kann mit dem Befehl *passwd Benutzername* geändert werden.
