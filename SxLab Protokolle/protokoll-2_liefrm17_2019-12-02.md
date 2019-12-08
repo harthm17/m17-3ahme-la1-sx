@@ -130,9 +130,23 @@ F.........freedom
 ```
 
 ### Ändern der Rechte für Benutzer plus Gruppen
-Der Besitzer einer Datei (dazu zählen auch Verzeichnisse) kann mit Hilfe des Kommandos chown geändert werden.
 
-Soll auch die Gruppe gleich mit geändert werden, kann hinter dem Namen ein Doppelpunkt und die neue Gruppe angegeben werden.
+Mit dem Kommando ```chown```kann der Eigentümer einer Datei geändert werden, wenn man die Rechte dazu besitzt.
+Eine gruppe kann auch mit geändert werden, wenn hinter dem Namen ein Doppelpunkt steht, hier wird neue Gruppe angegeben.
+
+Folgende Kommandos
+```chown....Datei (Eigentümer ändern)
+chown....:....Datei (Eigentümer+Gruppe verändern
+chmod....Datei (Rechte ändern)
+chgrp....Datei (Gruppe ändern)
+```
+**Bsp:**
+```
+chmod g+x....Datei (Die Gruppe darf nun das Recht execute verwenden)
+chmod u+rwx....Datei
+chmod o-rw....Datei (Besitzer werden das Recht "read" und "write" entnommen)
+chmod 751....Datei (Rechte werden im Oktalen Modus vergeben: 111 101 001 (rwx-r-x--x)
+                    
 
 
 
