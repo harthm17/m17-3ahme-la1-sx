@@ -90,7 +90,15 @@ Beispiel `chown 3Ahme test.txt`
 
 ## Benutzer anlegen
 
-Um einen Benuter zu erstellen muss man der **Super User** sei das geht mit dem Befehl `sudo -i`. Weil man mit 
+Um einen Benuter zu erstellen muss man der **Super User** sei das geht mit dem Befehl `sudo -i`. Weil man mit dem normalen Benutzer nicht
+die benötigten Datein veräbdern kann.
+
+Der erste Schritt um einen Benuzer zuerstellen ist der Befehl `nano  /etc/passwd`.
+
+Dieser Befehl öffnet ein Texteditor dies sollte dann ca. so ausschauen
+
+![Bild](https://linux4one.com/wp-content/uploads/2018/11/How-to-list-users-in-Linux-Cat-Command.png)
+
 
 
 
