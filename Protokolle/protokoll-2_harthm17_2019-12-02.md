@@ -17,7 +17,7 @@
 
 ---------------------------------------------
 ## Dateirechte Grundlagen
-Dateirechte sind heutzutage sehr wichtig. Arbeitet man in einem Multiusersystem, dass ich ein Betriebssystem, das mehrere Benutzer 
+Dateirechte sind heutzutage sehr wichtig. Arbeitet man auf einem Multiusersystem, dass ich ein Betriebssystem, das mehrere Benutzer 
 bereitstellt und von einander abgrenzt. Würde es keine Dateirechte geben, könnte jeder Benutzer auf deine Datein und Verzeichnisse einsehen.
 Wenn man den Command **ll** in der Shell eingibt, kann man alle Rechte der Datein und Verzeichnisse im aktuellen Verzeichniss ausgeben.
 
