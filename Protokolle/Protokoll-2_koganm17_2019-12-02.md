@@ -13,6 +13,7 @@
 1. [Dateirechte grundlegend](#dateirechte-grundlegend)
 1. [Rechtekommandos](#rechtekommandos)
 2. [Benutzer anlegen](#benutzer-anlegen)
+1. [Sonstiges](#sonstiges)
 
 
 ----------------------------------------------------------------------------------------------
@@ -95,10 +96,33 @@ nano /etc/home
 ```
 Diese Vorgänge speichern wir immer mit Strg+O ab und beenden sie mit Strg+X.
 
+#### Benutzer direkt hinzufügen
+* adduser //low level
+* useradd //high level
+
+Der low level Befehl war zuerst da, wurde aber nicht entfernt, als der neue high level hinzugefügt wurde.
+
+----------------------------------------------------------------------------------------------
+
+### Sonstiges
+
+#### History
+* Alle Befehle, die man eingibt werden in der History gespeichert. 
+* Man kann mit den Pfeiltasten nach oben zum davor benutzten Befehl hüpfen.
+* Wenn man die shell mit der Tastenkombination Strg+d schließt, kann man das auch beim nächsten öffnen noch tun.
+* Man kann sie mit dem Befehl -> .bash_history aufrufen.
+* Falls man die history löschen möchte, gibt man nano .bash_history ein.
+
+#### Passwort
+Das Passwort kann mit dem Befehl *passwd Benutzername* geändert werden.
+
+Passwörter werden mit einem Hash verschlüsselt. Ein solcher Hash ist ein Algorithmus, welcher mit dem **Salt and Pepper**-Prinzip arbeitet. Das heißt, dass gleiche Passwörter nicht denselben Hash aufweisen.
+
 #### Weitere Befehle
 * danach kann man mit dem Befehl *id Benutzerkürzel* Daten über den angelegten Benutzer ausgeben  
 * das Passwort kann mit dem Befehl *passwd Benutzername* geändert werden
 * anmelden ist mit dem Befehl *login Benutzername* möglich  
 * die sudoers kann man sich mit dem Befehl *sudo/nano/etc/sudoers* anzeigen lassen
+
 
 ----------------------------------------------------------------------------------------------
