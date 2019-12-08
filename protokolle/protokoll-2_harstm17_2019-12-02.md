@@ -6,7 +6,7 @@
 * **Datum:** 02.12.2019
 * **Gefehlt:** -
 * **Erstellt von:** Stefan Haring (harstm17)
-* **Protokoll der letzten Einheit:** [18.11.2019](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/harstm17/protokolle/protokoll-1_harstm17_2019-11-18_.md)
+* **Protokoll der letzten Einheit:** [Protokoll 1](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/harstm17/protokolle/protokoll-1_harstm17_2019-11-18_.md)
 
 ----------------------------------------------------------------------------------------------
 
