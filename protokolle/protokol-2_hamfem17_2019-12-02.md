@@ -7,13 +7,14 @@
 * **Protokoll nächste Einheit:** --
 
 ## Inhaltsverzeichniss
-  
-  
-    
-      
-      
-      
-## Dateirechte
+1. [Dateirechte](#dateirechte)    
+   1. [Befehle für Dateirechte](#befehle-für-dateirechte)  
+      1.[Rechte ändern](#rechte-ändern)  
+      2.[Besitzer, Gruppe der Datei ändern](#besitzer-gruppe-der-datei-ändern)   
+      3.[Nur Gruppe ändern](#nur-gruppe-ändern)  
+2. [Benutzer anlegen](#benutzer-anlegen)  
+
+# Dateirechte
 
 
 Wenn man den Befehl `ls-l` in der Shell ein gibt wird der Verzeichnisinhalt aufgelistet mit einem langem Listungsformat. Dort wird dann 
@@ -48,12 +49,12 @@ r     |Read|Verzeichnisinhalt lesen
 w     |Write|Verzeichnisinhalt ändern (Dateien hinzufügen, löschen und umbenennen)
 x     |Execute|in dieses Verzeichnis hineinwechseln
 
-### Befehle für Dateirechte  
+## Befehle für Dateirechte  
 
 Um Dateirechte zu veränder muss man der Super User sein.    
 Das geht mit dem Befehl `sudo -i`.  
 
-#### Rechte ändern
+### Rechte ändern
 
 Befehl `chmod Dateiname`  
 Beispiel `chmod u+rwx Test.txt`  
@@ -78,17 +79,17 @@ rwx --x r-x
 
 `Test.txt` ist die Datei.  
 
-#### Besitzer, Gruppe der Datei ändern
+### Besitzer, Gruppe der Datei ändern
 
 Befehl `chown besitzer:gruppe dateiname`  
 Beispiel `chown hamfem:3Ahme test.txt`  
 
-#### Nur Gruppe ändern  
+### Nur Gruppe ändern  
 
 Befehl `chgrp gruppe dateiname`  
 Beispiel `chown 3Ahme test.txt`  
 
-## Benutzer anlegen   
+# Benutzer anlegen   
 
 Um einen Benutzer zu erstellen muss man der **Super User** sein das geht mit dem Befehl `sudo -i`. Weil man mit dem normalen Benutzer nicht  
 die benötigten Dateien verändern kann.  
