@@ -74,7 +74,7 @@ chgrp(change group) ... Datei //Gruppe ändern
 ```
 chmod(Rechte ändern)
 chmod ...g+x Datei //Gruppe darf nun ausführen
-chmod ...o-rw Datei //Besitzer darf nun nicht mehr lesen und verändern
+chmod ...o-rw Datei //Alle anderen dürfen nun nicht mehr lesen und verändern
 chmod 751 Datei //Rechte in Oktalzahlen: 111101001 = rwxr-x--x
 ```
 ----------------------------------------------------------------------------------------------
