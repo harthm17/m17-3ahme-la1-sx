@@ -170,7 +170,7 @@ passwd *Benutzername* | Passwort des Benutzers ändern
 login *Benutzername* | Anmelden des Benutzers
 
 
-**Wichtig**
+#### Wichtig
 Acht zu geben ist, bei der Eingabe des Passworts.
 Es kann immer wieder passieren, dass man irrtümlich das Passwort an einer nicht geforderten Stelle eingibt.
 In der History ist das Passwort dann ersichtlich und somit ist es ein leichtes Spiel für Hacker oder Andere,
