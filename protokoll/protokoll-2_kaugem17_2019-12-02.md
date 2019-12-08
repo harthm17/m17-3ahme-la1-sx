@@ -29,7 +29,7 @@ Warum gibt es Dateirechte?
 In einem MultiUserSystem ist es wichtig zu kennzeichnen wer was darf. Deswegen gibt es sogennante Rechte oder Dateirechte.        
 
 Wikipedia sagt folgendes dazu:
-> Die Unix-Dateirechte sind Dateiberechtigungen bei Unix und Unix-Derivaten wie Linux und Mac OS X.           
+> Die Unix-Dateirechte sind Dateiberechtigungen bei Unix und Unix-Derivaten wie Linux und Mac OS X. Die aktuellen UNIX-Dateirechte zeichnen sich durch eine einfache Struktur aus, die einerseits intuitiv von Menschen verwendet werden kann und andererseits keine hohen Ansprüche an Computer stellt.                    
 
 [Quelle](https://de.wikipedia.org/wiki/Unix-Dateirechte), 08.12.2019
 
@@ -90,11 +90,10 @@ useradd -> low level
 
 Wir wollen einen neuen Benutzer über die Shell anlegen. Unten wird gezeigt wie man dies am leichtersten macht.
 
-Um einen Benutzer anlegen zu können muss man zu alles erst **Superuser** werden. 
+Um einen Benutzer anlegen zu können muss man zu aller erst **Superuser** werden. 
 Ein Superuser hat die Eigenschaft das er alle Rechte aufweist.
 ```
 sudo -i
-Password:
 ```
 Um Superuser zu werden muss man dessen Passwort wissen.
 
