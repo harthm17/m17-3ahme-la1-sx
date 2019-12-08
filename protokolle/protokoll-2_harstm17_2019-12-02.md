@@ -38,12 +38,12 @@ Weiters ist noch zu beachten, wenn man eine Datei in ein anderes Verzeichnis kop
 **Beispiel:**
 Um zu verstehen wie es mit den Dateirechten aussieht, könnte diese Grafik sehr hilfreich sein:
 ![Bild](https://www.ceonaires.com/ceodocs/uploads/2017/05/Dateirechte-symbolisch-1030x278.png)
-Quelle: https://www.ceonaires.com/ceodocs/uploads/2017/05/Dateirechte-symbolisch-1030x278.png
+[Quelle vom Bild](https://www.ceonaires.com/ceodocs/uploads/2017/05/Dateirechte-symbolisch-1030x278.png)
 
 ----------------------------------------------------------------------------------------------------
 
 
-***Folgende 3 Überschriften beschreiben die obige Grafik etwas genauer***
+***Folgende 3 Überschriften und deren Inhalte beschreiben die obige Grafik etwas genauer***
 
 #### Dateityp
 *Das erste Zeichen steht für den Dateityp. Dieser kann folgfende Zeichen annehmen:*
@@ -118,7 +118,7 @@ chmod(zu verändernte Rechte) |Rechte ändern
 
 Folgendes Bild beschreibt einen dieser Vorgänge:
 ![bild](https://slideplayer.org/slide/5194705/16/images/64/%C3%84nderung+der+Rechte+Der+Eigent%C3%BCmer+einer+Datei%2Feines+Verzeichnisses+kann+die+Zugriffsrechte+mit+Hilfe+des+chmod-Befehls+%C3%A4ndern..jpg)
-Quelle: https://slideplayer.org/slide/5194705/16/images/64/%C3%84nderung+der+Rechte+Der+Eigent%C3%BCmer+einer+Datei%2Feines+Verzeichnisses+kann+die+Zugriffsrechte+mit+Hilfe+des+chmod-Befehls+%C3%A4ndern..jpg
+[Quelle des Bildes](https://slideplayer.org/slide/5194705/16/images/64/%C3%84nderung+der+Rechte+Der+Eigent%C3%BCmer+einer+Datei%2Feines+Verzeichnisses+kann+die+Zugriffsrechte+mit+Hilfe+des+chmod-Befehls+%C3%A4ndern..jpg)
 
 
 ***Beispiele:***
