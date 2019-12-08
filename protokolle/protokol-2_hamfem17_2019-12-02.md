@@ -88,6 +88,9 @@ Beispiel `chown hamfem:3Ahme test.txt`
 Befehl `chgrp gruppe dateiname`
 Beispiel `chown 3Ahme test.txt`
 
+## Benutzer anlegen
+
+Um einen Benuter zu erstellen muss man der **Super User** sei das geht mit dem Befehl `sudo -i`. Weil man mit 
 
 
 
