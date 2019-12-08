@@ -112,6 +112,6 @@ nano/etc/home
 
 Befehl | Eigenschaft
 ------ | -----------
-id <Benutzername> | Daten über Benutzer ausgeben
-passwd <Benutzername> | Passwort des Benutzers ändern
-login <Benutzername> | Anmelden des Benutzers
+id *Benutzername* | Daten über Benutzer ausgeben
+passwd *Benutzername* | Passwort des Benutzers ändern
+login *Benutzername* | Anmelden des Benutzers
