@@ -52,6 +52,7 @@ Mann sollte darauf achten, dass Benutzer, sowie Gruppennamen, mit einem Kleinbuc
 
 Bei dieser Variante muss vielleicht das Home-Verzeichnis des Benutzers manuell erstellt (mkdir /home/ ...) oder gelöscht werden.
 
+**Mit Befehl```login Benutzername``` kann man sich anmelden.**
 
 
 ### Passwörter:
@@ -94,7 +95,10 @@ nano/etc/home
 Können wir uns in diesen Dateien eintragen
 
 Mit strg-O speichern
+
 Mit strg-X beenden
+
+
 
 -------------------------------------------------------------------------------------------------------------------------------------------
 ## Datei-und Ordnerrechte
