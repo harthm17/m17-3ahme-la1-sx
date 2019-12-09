@@ -7,6 +7,14 @@
 * **Protokoll letzte Einheit:** [Protokoll 18.11.2019](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/marsim17/protokolle/protokoll-1-marsim17-2019-18-11.md)
 
 # Inhaltsverzeichnis
+[Benutzer](#benutzer)
+[Gruppen](#gruppen)
+[Rechte](#rechte)
+[Ändern der Dateirechte](#ändern-der-dateirechte)
+[Ändern des Eigentümers bzw. der Eigentümergruppe](##ndern-des-eigentümers-bzw-der-eigentümergruppe)
+[Neuen Benutzer anlegen](#neuen-benutzer-anlegen)
+	[Neuen Benutzer manuell anlegen](#neuen-benutzer-manuell-anlegen)
+[Hashes](#hashes)
 
 # Benutzer
 Linux basierte Betriebssysteme sind meist Multiuser-Systeme, heißt mehrere Benutzer mit eigenen Dateien, Einstellungen und Rechten können parallel auf dem gleichen System arbeiten.
@@ -45,5 +53,36 @@ Für eine erweiterte Verwaltung von Rechten gibt es [ACL](https://wiki.archlinux
 # Ändern der Dateirechte
 Man kann die Rechte einer Datei mit dem Command `chmod` ändern. Dies geht in zwei Varianten:
 * Oktal
-Man nimm
-	
+Man schreibt die Rechte in binär auf und wandelt sie in Oktalform um. Zum Beispiel: rw-rw-r-- -> 110 110 100 -> 664. Der Command lautet `chmod 664 chmod`. 
+Eine etwas einfachere Variante ist `chmod [u/g/o][+/-][r/g/w] file`. `u` steht für user/user, `g` für group und `o` für others. Ist kein Buchstabe vorhanden wird der aktuelle Benutzer genommen.
+Leserecht der Gruppe entfernen:
+`chmod g+x file` <- Gruppe erhält Ausführrechte
+`chmod o-r file` <- allen anderen werden die Leserechte entzogen.
+`chmod +x file` <- Dem aktuellen Benutzer erhält ausführrechte.
+Um `chown` ausführen zu können, muss man entweder Eigentümer der Datei oder Superuser sein.
+
+# Ändern des Eigentümers bzw. der Eigentümergruppe
+
+Mit `chown owner file` kann der Eigentümer einer Datei geändert werden. Mit `chown owner:group file` kann man Eigentümer und Eigentümergruppe einer Datei ändern. Will man nur die Eigentümergruppe ändern, verwendet man `chgrp group file`.
+
+# Neue Benutzer anlegen
+Um neue Benutzer anzulegen kann man den Befehl `useradd` (low level) oder `adduser` (high level) verwenden. Um die Hintergründe kennenzulernen und tiefer ins System einzutauchen kann man einen Benutzer auch manuell anlegen.
+
+## Neuen Benutzer manuell anlegen
+* Neuer Eintrag in `/etc/passwd`
+	* zB. `user:x:1001:1001:Name:/home/user:/bin/bash`
+* Neuer Eintrag in `/etc/group`
+ 	* zB. `user:x:1000:` (Der User muss nicht seiner eigenen Gruppe zugewiesen werden, da das automatisch der Fall ist.
+* User zur Gruppe `sudo` hinzufügen
+* Neuer Eintrag in `/etc/shadow`
+* Home-Verzeichnis anlegen
+* Ändern des Eigentümers des Home-Verzeichnis
+	* `chown user:group /home/user`
+* Erstellen des Passwortes für den neuen Benutzer
+	* `passwd user`
+* Skeleton-Verzeichnis kopieren
+	* Im Skeleton-Verzeichnis werden config-Dateien gespeichert
+	* `cp /etc/skel/.* /home/user/`
+
+# Hashes
+Passwörter in Linux werden als Hashes gespeichert. Ein Hash ist ein Algorithmus, mit dem man aus unterschiedlich langen Passwörtern gleich lange hexadezimale Ziffern erstellt. Mit dem "salt and pepper" schafft man es, dass man mit einem gleichen Passwort unterschiedliche Hashes generiert
