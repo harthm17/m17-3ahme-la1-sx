@@ -13,7 +13,7 @@
     * [Nachteile](#nachteile)
 1. [Dokumentieren](#dokumentieren)
     * [Handschriftlich](#handschriftlich)
-    * [Bild](#bild-erstellen)
+    * [Bild](#bild-erstellen-(zB.-Smartphone))
     * [Textverarbeitung](#textverarbeitung)
 1. [Markdown](#markdown)
 ---------------------------------
