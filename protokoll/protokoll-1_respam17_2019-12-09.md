@@ -13,8 +13,8 @@
     * [Nachteile](#nachteile)
 1. [Dokumentieren](#dokumentieren)
     * [Handschriftlich](#handschriftlich)
-    * [Bild](#**bild-erstellen**)
-    * [Textverarbeitung](#**textverarbeitung**)
+    * [Bild](#bild-erstellen)
+    * [Textverarbeitung](#textverarbeitung)
 1. [Markdown](#markdown)
 ---------------------------------
 ### Themen der Einheiten
@@ -59,7 +59,7 @@ Definition laut [Wikipedia](https://de.wikipedia.org/wiki/Dokumentation):
   * nicht elektronisch verarbeitbar
 (man kann zB. nicht nach bestimmten Wörtern suchen) 
 
-2) **Bild erstellen** zB. Smartphone
+2) #### Bild erstellen (zB. Smartphone)
 * **Vorteile:** 
   * schnell
   * oft verfügbar
@@ -68,8 +68,8 @@ Definition laut [Wikipedia](https://de.wikipedia.org/wiki/Dokumentation):
 * **Nachteile:** 
   * elektronisch nicht verarbeitbar
   * Speicherplatz
-
-3) **Textverarbeitung**
+  
+3) #### Textverarbeitung
 * **Vorteile:**
   * elektronisch verarbeitbar
   * gut verbreitbar
@@ -77,8 +77,8 @@ Definition laut [Wikipedia](https://de.wikipedia.org/wiki/Dokumentation):
   * immer leserlich
 * **Nachteile:**
   * Zeitaufwendig
-  
-4) **Markdown (Web)**
+    
+4) #### Markdown (Web)
 
 Soll alle Vorteile kombinieren
 
