@@ -13,7 +13,7 @@
     * [Nachteile](#nachteile)
 1. [Dokumentieren](#dokumentieren)
     * [Handschriftlich](#handschriftlich)
-    * [Bild](#bild-erstellen-(zB.-Smartphone))
+    * [Bild](#bild-erstellen)
     * [Textverarbeitung](#textverarbeitung)
 1. [Markdown](#markdown)
 ---------------------------------
@@ -59,7 +59,9 @@ Definition laut [Wikipedia](https://de.wikipedia.org/wiki/Dokumentation):
   * nicht elektronisch verarbeitbar
 (man kann zB. nicht nach bestimmten Wörtern suchen) 
 
-2) #### Bild erstellen (zB. Smartphone)
+2) #### Bild erstellen
+
+    mit zB. einem Smartphone
 * **Vorteile:** 
   * schnell
   * oft verfügbar
