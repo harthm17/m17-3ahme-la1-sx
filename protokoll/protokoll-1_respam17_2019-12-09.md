@@ -52,13 +52,7 @@ Definition laut [Wikipedia](https://de.wikipedia.org/wiki/Dokumentation):
       * nicht elektronisch verarbeitbar
 (man kann zB. nicht nach bestimmten Wörtern suchen) 
 
-2) **Bild erstellen** (zB. Smartphone)
-* **Vorteile:** 
-      * schnell 
-      * oft verfügbar 
-      * gut verbreitbar 
-      * Backup
+2) **Bild erstellen** zB. Smartphone
+* **Vorteile:** * schnell, * oft verfügbar, * gut verbreitbar, * Backup
 
-* **Nachteile:**
-      * elektronisch nict verarbeitbar 
-      * Speicherplatz
+* **Nachteile:** * elektronisch nicht verarbeitbar, * Speicherplatz
