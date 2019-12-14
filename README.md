@@ -1,5 +1,4 @@
-# Laborprotokolle - Marcher Simon
+# Laborprotokolle - Pfanner Jan
 
-[Protokoll 18.11.2019](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/marsim17/protokolle/protokoll_marsim17_2019-18-11.md)
+[Protokoll 09.12.2019](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/pfajam17/protokolle/protokoll-1_pfajam17_2019-12-09.md)
 
-[Protokoll 25.11.2019](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/marsim17/protokolle/protokoll_marsim17_2019-25-11.md)
