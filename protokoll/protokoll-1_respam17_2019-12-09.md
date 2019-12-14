@@ -40,28 +40,26 @@ Alle Versionen von zB. einem Projekt werden in einer Datenbank ***(Repository)**
 #### Dokumentieren Allgemein
 Definition laut [Wikipedia](https://de.wikipedia.org/wiki/Dokumentation):
 > Unter Dokumentation versteht man die Nutzbarmachung von Informationen zur weiteren Verwendung.
- 1) **Handschriftlich**
- * **Vorteile:** 
-schnell 
-oft verfügbar
-
- * **Nachteile:** 
-manchmal unleserlich 
-verbreitung schwierig
-kein Backup 
-nicht elektronisch verarbeitbar
+1) **Handschriftlich**
+* **Vorteile:** 
+  * schnell 
+  * oft verfügbar
+* **Nachteile:** 
+  * manchmal unleserlich 
+  * verbreitung schwierig
+  * kein Backup 
+  * nicht elektronisch verarbeitbar
 (man kann zB. nicht nach bestimmten Wörtern suchen) 
 
 2) **Bild erstellen** zB. Smartphone
 * **Vorteile:** 
-schnell
-oft verfügbar
-gut verbreitbar
-Backup
-
+  * schnell
+  * oft verfügbar
+  * gut verbreitbar
+  * Backup
 * **Nachteile:** 
-elektronisch nicht verarbeitbar
-Speicherplatz
+  * elektronisch nicht verarbeitbar
+  * Speicherplatz
 
 3) **Textverarbeitung**
 * **Vorteile:**
