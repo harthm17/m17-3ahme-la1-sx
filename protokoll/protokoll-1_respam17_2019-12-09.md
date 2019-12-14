@@ -33,3 +33,32 @@ Alle Versionen von zB. einem Projekt werden in einer Datenbank ***(Repository)**
 * #### Nachteile
 1) Umgang muss erlernt werden
 1) bei kostenloser Version kann jeder auf Daten zugreifen
+----------------------------------
+
+### Dokumentieren
+
+#### Dokumentieren Allgemein
+Definition laut [Wikipedia](https://de.wikipedia.org/wiki/Dokumentation):
+> Unter Dokumentation versteht man die Nutzbarmachung von Informationen zur weiteren Verwendung.
+ 1) **Handschriftlich**
+ * **Vorteile:** 
+      * schnell 
+      * oft verfügbar
+
+ * **Nachteile:** 
+      * manchmal unleserlich 
+      * verbreitung schwierig
+      * kein Backup 
+      * nicht elektronisch verarbeitbar
+(man kann zB. nicht nach bestimmten Wörtern suchen) 
+
+2) **Bild erstellen** (zB. Smartphone)
+* **Vorteile:** 
+      * schnell 
+      * oft verfügbar 
+      * gut verbreitbar 
+      * Backup
+
+* **Nachteile:**
+      * elektronisch nict verarbeitbar 
+      * Speicherplatz
