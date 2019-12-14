@@ -16,6 +16,7 @@
     * [Bild](#bild-erstellen)
     * [Textverarbeitung](#textverarbeitung)
 1. [Markdown](#markdown)
+1. [Branch](#branch)
 ---------------------------------
 ### Themen der Einheiten
 1. Einheit: Versionsverwaltung, Dokumentation mit Markdown bzw. Web (Protokoll)
@@ -104,3 +105,5 @@ Dateiendung ist entweder *.md* oder *.markdown*.
 
 In GitHub gibt es einen *Masterbranch*. Jedoch arbeitet man nicht in diesem sondern erstellt einen Nebenzweig (Nebenbranch).
 Anschließend kann man den Nebenbranch wieder zurück zum Masterbranch bringen. 
+
+----------------------------------
