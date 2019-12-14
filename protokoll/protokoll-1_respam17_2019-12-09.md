@@ -12,7 +12,7 @@
     * [Vorteile](#vorteile)
     * [Nachteile](#nachteile)
 1. [Dokumentieren](#dokumentieren)
-    * [Handschriftlich](#**handschriftlich**)
+    * [Handschriftlich](#--handschriftlich--)
     * [Bild](#**bild-erstellen**)
     * [Textverarbeitung](#**textverarbeitung**)
 1. [Markdown](#markdown)
