@@ -29,3 +29,7 @@ Alle Versionen von zB. einem Projekt werden in einer Datenbank ***(Repository)**
 1) Alles bleibt gespeichert **->** *zB. Fehler nachweislich*
 1) Grundlage für Teamworking
 1) "Schutz vor sich selbst" (man macht Laptop/PC kaputt; etc.)
+
+* #### Nachteile
+1) Umgang muss erlernt werden
+1) bei kostenloser Version kann jeder auf Daten zugreifen
