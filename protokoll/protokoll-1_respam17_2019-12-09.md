@@ -81,4 +81,4 @@ Soll alle Vorteile kombinieren
 [Markdown](https://de.wikipedia.org/wiki/Markdown) aus Wikipedia:
 > Markdown ist eine vereinfachte Auszeichnungssprache, die von John Gruber und Aaron Swartz entworfen und im Dezember 2004 mit Version 1.0.1 spezifiziert wurde. Ein Ziel von Markdown ist, dass schon die Ausgangsform ohne weitere Konvertierung leicht lesbar ist.
 
-Markdown kombiniert Vorteile vom dokumentieren mit Textverarbeitung, soll aber auch schnell funktionieren wie zB. das Handschriftliche dokumentieren.
+Markdown kombiniert Vorteile vom Dokumentieren mit Textverarbeitung, soll aber auch schnell funktionieren wie zB. das Handschriftliche dokumentieren.
