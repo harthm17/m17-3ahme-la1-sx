@@ -8,6 +8,14 @@
 ## Inhaltsverzeichnis
 1. [Themen der Einheiten](#themen-der-einheiten)
 1. [Versionsverwaltung](#versionsverwaltung)
+    * [Definition](#definition)
+    * [Vorteile](#vorteile)
+    * [Nachteile](#nachteile)
+1. [Dokumentieren](#dokumentieren)
+    * [Handschriftlich](#handschriftlich)
+    * [Bild](#bild-erstellen)
+    * [Textverarbeitung](#textverarbeitung)
+    * [Markdown](#markdown)
 ---------------------------------
 ### Themen der Einheiten
 1. Einheit: Versionsverwaltung, Dokumentation mit Markdown bzw. Web (Protokoll)
@@ -82,3 +90,8 @@ Soll alle Vorteile kombinieren
 > Markdown ist eine vereinfachte Auszeichnungssprache, die von John Gruber und Aaron Swartz entworfen und im Dezember 2004 mit Version 1.0.1 spezifiziert wurde. Ein Ziel von Markdown ist, dass schon die Ausgangsform ohne weitere Konvertierung leicht lesbar ist.
 
 Markdown kombiniert Vorteile vom Dokumentieren mit Textverarbeitung, soll aber auch schnell funktionieren wie zB. das Handschriftliche dokumentieren.
+
+Dateiendung ist entweder *.md* oder *.markdown*.
+
+-----------------------------------
+
