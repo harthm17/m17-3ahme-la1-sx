@@ -12,10 +12,10 @@
     * [Vorteile](#vorteile)
     * [Nachteile](#nachteile)
 1. [Dokumentieren](#dokumentieren)
-    * [Handschriftlich](#handschriftlich)
-    * [Bild](#bild-erstellen)
-    * [Textverarbeitung](#textverarbeitung)
-    * [Markdown](#markdown)
+    * [Handschriftlich](#**handschriftlich**)
+    * [Bild](#**bild-erstellen**)
+    * [Textverarbeitung](#**textverarbeitung**)
+1. [Markdown](#markdown)
 ---------------------------------
 ### Themen der Einheiten
 1. Einheit: Versionsverwaltung, Dokumentation mit Markdown bzw. Web (Protokoll)
