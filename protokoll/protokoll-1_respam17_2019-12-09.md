@@ -97,3 +97,8 @@ Dateiendung ist entweder *.md* oder *.markdown*.
 
 -----------------------------------
 
+### Branch
+
+[Branch(Abspaltung)](https://de.wikipedia.org/wiki/Abspaltung_(Softwareentwicklung)) laut Wikipedia:
+> Eine Abspaltung (auch Fork; englisch fork ‚Gabel‘, üblicherweise im Maskulinum verwendet) ist in der Softwareentwicklung ein Entwicklungszweig nach der Aufspaltung eines Projektes in zwei oder mehrere Folgeprojekte; die Quelltexte oder Teile davon werden hierbei unabhängig vom ursprünglichen Mutterprojekt weiterentwickelt.
+
