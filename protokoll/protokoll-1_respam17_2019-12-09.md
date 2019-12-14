@@ -12,7 +12,7 @@
     * [Vorteile](#vorteile)
     * [Nachteile](#nachteile)
 1. [Dokumentieren](#dokumentieren)
-    * [Handschriftlich](#--handschriftlich--)
+    * [Handschriftlich](#handschriftlich)
     * [Bild](#**bild-erstellen**)
     * [Textverarbeitung](#**textverarbeitung**)
 1. [Markdown](#markdown)
@@ -48,7 +48,7 @@ Alle Versionen von zB. einem Projekt werden in einer Datenbank ***(Repository)**
 #### Dokumentieren Allgemein
 Definition laut [Wikipedia](https://de.wikipedia.org/wiki/Dokumentation):
 > Unter Dokumentation versteht man die Nutzbarmachung von Informationen zur weiteren Verwendung.
-1) **Handschriftlich**
+1) ####Handschriftlich
 * **Vorteile:** 
   * schnell 
   * oft verfügbar
