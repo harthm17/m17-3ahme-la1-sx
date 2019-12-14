@@ -11,7 +11,7 @@
 
 1. [Versionsverwaltung](#versionsverwaltung)
   * [Was ist Versionsverwaltung?](#was-ist-versionsverwaltung-und-wofür-brauche-ich-es)
-  * [Was kann Git)](#was-kann-git)
+  * [Was kann Git](#was-kann-git)
   * [Anfänge mit Github](#wie-fange-ich-mit-github-an)
 2. [Markdown](#markdown)
   * [Was ist Markdown?](#was-ist-markdown)
