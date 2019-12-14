@@ -53,6 +53,12 @@ Definition laut [Wikipedia](https://de.wikipedia.org/wiki/Dokumentation):
 (man kann zB. nicht nach bestimmten Wörtern suchen) 
 
 2) **Bild erstellen** zB. Smartphone
-* **Vorteile:** * schnell, * oft verfügbar, * gut verbreitbar, * Backup
+* **Vorteile:** 
+      * schnell
+      * oft verfügbar
+      * gut verbreitbar
+      * Backup
 
-* **Nachteile:** * elektronisch nicht verarbeitbar, * Speicherplatz
+* **Nachteile:** 
+      * elektronisch nicht verarbeitbar
+      * Speicherplatz
