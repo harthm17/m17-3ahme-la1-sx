@@ -160,12 +160,12 @@ Vor und nach dem Wort zwei ~~.
 
 * ### Hyperlink
 
-      [Link](https://....)
+      [beliebigesWort](https://....)
 [Link](https://de.wikipedia.org/wiki/Hyperlink)
 
 * ### Bilder
       
-      ![Bild](https://...)
+      ![beliebigesWort](https://...)
 ![Bild](https://webserver.x-technik.com/upload/images/113087.jpg)
 
 * ### Tabelle
@@ -220,5 +220,5 @@ Zweimaliges drücken der Tabulatortaste
 
 * ### Inhaltsverzeichnis
 
-      [Inhaltsverzeichnis](#inhaltsverzeichnis)
+      [beliebigesWort](#inhaltsverzeichnis)
 [Inhaltsverzeichnis](#inhaltsverzeichnis)
