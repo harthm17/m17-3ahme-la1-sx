@@ -179,3 +179,46 @@ Einheit | Thema | Datum
 ------- | ----- | -----
 1 | Versionsverwaltung | 09.12.2019
 2 | Linux Grundlagen 1 | 16.12.201
+
+* ### Listen
+entweder mit Punkten oder automatischer Nummerierung.
+
+      1) Wort
+      1) Wort
+  1) Wort
+  1) Wort
+      
+* ### Programm
+mit Highlighting
+      
+      ``` C
+      int main() {
+      printf("GitHub");
+      return 0;
+      }
+      ```
+``` C
+int main() {
+printf("GitHub");
+return 0;
+}
+```
+
+* ### Zitat
+      
+      > Zitat
+> Zitat
+
+* ### Abtrennung
+Mehrmals Bindestrichtaste
+      
+      ---------------
+---------------
+
+* ### Hinterlegen
+Zweimaliges drücken der Tabulatortaste
+
+* ### Inhaltsverzeichnis
+
+      [Inhaltsverzeichnis](#inhaltsverzeichnis)
+[Inhaltsverzeichnis](#inhaltsverzeichnis)
