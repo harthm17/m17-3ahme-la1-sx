@@ -1,6 +1,6 @@
 # Protokoll LA1/SX 3AHME (2019/20)
 
-* **Thema:** Versionsverwaltung, Markdown
+* **Thema:** Versionsverwaltung, Git, Markdown
 * **Datum:** 09.12.2019
 * **Gefehlt:** -
 * **Erstellt von:** Peyer Kassandra
