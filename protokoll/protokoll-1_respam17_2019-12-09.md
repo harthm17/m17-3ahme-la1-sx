@@ -109,6 +109,16 @@ Anschließend kann man den Nebenbranch wieder zurück zum Masterbranch bringen.
 
 ----------------------------------
 
+### Git
+
+aus [Wikipedia](https://de.wikipedia.org/wiki/Git):
+> Git [ɡɪt] ist eine freie Software zur verteilten Versionsverwaltung von Dateien, die durch Linus Torvalds initiiert wurde. 
+
+![Bild](https://www.stephenmarron.com/wp-content/uploads/2017/02/git.png)
+[Bildquelle](https://www.stephenmarron.com/wp-content/uploads/2017/02/git.png) (https://www.stephenmarron.com/wp-content/uploads/2017/02/git.png)
+
+-----------------------------------
+
 ### GitHub
 
 > [Github](https://de.wikipedia.org/wiki/GitHub) ist ein Onlinedienst, der Software-Entwicklungsprojekte auf seinen Servern bereitstellt (Filehosting). Namensgebend war das Versionsverwaltungssystem Git. Die GitHub, Inc. hat ihren Sitz in San Francisco in den USA. Ähnliche Dienste sind GitLab und Bitbucket. Seit 26. Dezember 2018 gehört das Unternehmen zu Microsoft.
@@ -165,7 +175,7 @@ Vor und nach dem Wort zwei ~~.
 
 * ### Bilder
       
-      ![beliebigesWort](https://...)
+      ![beliebigesWort](https://webserver.x-technik.com/upload/images/113087.jpg)
 ![Bild](https://webserver.x-technik.com/upload/images/113087.jpg)
 
 * ### Tabelle
@@ -222,3 +232,5 @@ Zweimaliges drücken der Tabulatortaste
 
       [beliebigesWort](#inhaltsverzeichnis)
 [Inhaltsverzeichnis](#inhaltsverzeichnis)
+
+-------------------------------
