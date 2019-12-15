@@ -34,9 +34,10 @@ Alle Versionen von zB. einem Projekt werden in einer Datenbank ***(Repository)**
 [Repository (Wikipedia)](https://de.wikipedia.org/wiki/Repository)
 
 * #### Vorteile
-1) Zugriff auf alle bisherigen Varianten/Versionen **->** *es geht nichts verloren*
-1) Alles bleibt gespeichert **->** *zB. Fehler nachweislich*
+1) Zugriff auf alle bisherigen Varianten/Versionen *-> es geht nichts verloren*
+1) Alles bleibt gespeichert *-> zB. Fehler nachweislich*
 1) Grundlage für Teamworking
+1) Übersichtlich
 1) "Schutz vor sich selbst" (man macht Laptop/PC kaputt; etc.)
 
 * #### Nachteile
@@ -107,3 +108,74 @@ In GitHub gibt es einen *Masterbranch*. Jedoch arbeitet man nicht in diesem sond
 Anschließend kann man den Nebenbranch wieder zurück zum Masterbranch bringen. 
 
 ----------------------------------
+
+### GitHub
+
+> [Github](https://de.wikipedia.org/wiki/GitHub) ist ein Onlinedienst, der Software-Entwicklungsprojekte auf seinen Servern bereitstellt (Filehosting). Namensgebend war das Versionsverwaltungssystem Git. Die GitHub, Inc. hat ihren Sitz in San Francisco in den USA. Ähnliche Dienste sind GitLab und Bitbucket. Seit 26. Dezember 2018 gehört das Unternehmen zu Microsoft.
+
+> Genutzt wird **Markdown** oder eine Markdown-ähnliche Syntax vorwiegend auf Entwicklerplattformen eher technikaffinem Publikum wie **GitHub**, Stack Overflow oder der Blogging-Plattform Ghost.
+
+*Vor-* und *Nachteile* siehe : [Versionsverwaltung](#versionsverwaltung)
+
+#### Lizenz
+
+Auch auf der Plattform GitHub gibt es Lizenzen. Benutzer können aus bestimmten Lizenzen wählen, an die sich in weiterer Folge alle halten müssen.
+Man kann sich mit einer Lizenz absichern (zB. Rechtsstreit).
+
+--------------------------------------------
+
+## Grundwissen in GitHub
+
+* ### Überschriften
+Man setzt ein **Doppelkreuz/Hash** vor die Überschrift.
+In GitHub kann man bis zu 6 Hashes verwenden.
+
+      # Überschrift
+      ## Überschrift
+      ###### Überschrift
+
+* ### Fett
+Vor und nach dem Wort zwei *.
+    
+      **Fett**
+**Fett**
+
+* ### Kursiv
+Vor und nach dem Wort ein *.
+
+      *Kursiv*
+*Kursiv*
+
+* ### Fett und Kursiv
+Vor und nach dem Wort drei ***.
+
+      ***FettKursiv***
+***FettKursiv***
+
+* ### Durchgestrichen
+Vor und nach dem Wort zwei ~~.
+
+      ~~Durchstreichen~~
+~~Durchstreichen~~
+
+* ### Hyperlink
+
+      [Link](https://....)
+[Link](https://de.wikipedia.org/wiki/Hyperlink)
+
+* ### Bilder
+      
+      ![Bild](https://...)
+![Bild](https://webserver.x-technik.com/upload/images/113087.jpg)
+
+* ### Tabelle
+
+      Einheit | Thema | Datum
+      ------- | ----- | -----
+      1 | Versionsverwaltung | 09.12.2019
+      2 | Linux Grundlagen 1 | 16.12.2019
+
+Einheit | Thema | Datum
+------- | ----- | -----
+1 | Versionsverwaltung | 09.12.2019
+2 | Linux Grundlagen 1 | 16.12.201
