@@ -17,6 +17,10 @@
     * [Textverarbeitung](#textverarbeitung)
 1. [Markdown](#markdown)
 1. [Branch](#branch)
+1. [Git](#git)
+1. [GitHub](#github)
+    * [Lizenz](#lizenz)
+1. [Grundwissen](#grundwissen-in-github)
 ---------------------------------
 ### Themen der Einheiten
 1. Einheit: Versionsverwaltung, Dokumentation mit Markdown bzw. Web (Protokoll)
@@ -116,6 +120,8 @@ aus [Wikipedia](https://de.wikipedia.org/wiki/Git):
 
 ![Bild](https://www.stephenmarron.com/wp-content/uploads/2017/02/git.png)
 [Bildquelle](https://www.stephenmarron.com/wp-content/uploads/2017/02/git.png) (https://www.stephenmarron.com/wp-content/uploads/2017/02/git.png)
+
+Änderungen werden erst im **index** gespeichert. Mit *git commit* werden die Änderungen dann von **index** ins **local rpository** gebracht und mit *git push* weiter ins **remote repository**. Um Daten dann vom **remote -** ins **local repository** zu bringen verwendet man *git pull*.
 
 -----------------------------------
 
@@ -219,12 +225,6 @@ return 0;
       > Zitat
 > Zitat
 
-* ### Abtrennung
-Mehrmals Bindestrichtaste
-      
-      ---------------
----------------
-
 * ### Hinterlegen
 Zweimaliges drücken der Tabulatortaste
 
@@ -232,5 +232,10 @@ Zweimaliges drücken der Tabulatortaste
 
       [beliebigesWort](#inhaltsverzeichnis)
 [Inhaltsverzeichnis](#inhaltsverzeichnis)
+
+* ### Abtrennung
+Mehrmals Bindestrichtaste
+      
+      ---------------
 
 -------------------------------
