@@ -118,7 +118,7 @@ Es gibt einen Masterbranch und einen Nebenbranch, wenn man nicht im Masterbranch
   Man kann maximal 5 Unterüberschriften haben und je mehr # sind umso kleiner ist die Überschrift.
   ```
   
-  * **Nuummerierung**
+  * **Nummerierung**
   ```
   1. A
   1. B
