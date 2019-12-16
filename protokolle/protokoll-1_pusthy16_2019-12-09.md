@@ -12,7 +12,7 @@
 --------------------------------------------------------------
 
 ## Inhaltsverzeichnis
-1. [Themen der Laboreinheiten](#themen-der-labroeinnheit)
+1. [Themen der Laboreinheiten](#themen-der-laboreinnheit)
 1. [Versionsverwaltung](#versionsverwaltung)
     * [Definition](#definition)
     * [Vorteile](#vorteile)
@@ -75,7 +75,7 @@
 [GitHub](https://de.wikipedia.org/wiki/GitHub) ist eine Web-Plattform für Git verwaltete Projekte.
 
 ##### Vorteile
-1. Daten gehen schwert verloren
+1. Daten gehen schwer verloren
 1. Teamworking(Grundlage)
 1. kostenlos
 
