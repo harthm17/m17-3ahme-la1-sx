@@ -1,12 +1,6 @@
-# m17-3ahme-la1-sx
-3AHME (2019/20) LA1 SX
+# Laborprotokolle von Riegelnegg
 
-Die Protokolle sind im eigenen Branch unter dem Verzeichnis `protokolle` abzulegen. Für den Dateinamen gilt die Namenskonvention `protokoll-nr_userid_YYYY-MM-DD.md`. Es gilt:
 
-  * `nr` ist eine fortlaufende Nummer, die mit 1 beginnt
-  * `userid` ist durch die eigene 8-stellige User-ID zu ersetzen
-  * `YYYY-MM-DD` ist durch das Datum der Übung (Jahr Monat Tag, also zB `2020-01-09`) zu ersetzen
-
-Beispiel: **protokolle/protokoll-1_koganm17_2019-10-03.md**
-
-In der Datei `README.md` des eigenen Branch ist die Überschrift geeignet anzupassen (zB Laborprotokolle von ...). Weiters ist hier eine Liste oder Tabelle mit den Protokollen zu führen (Datum, Inhalt, Link auf das Protokoll). 
+Protokoll NR | Datum | Thema | Link
+------------ | ----- | ----- | ----
+1 | 09.12.2019 | Versionsverwaltung | [Protokoll 1](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/respam17/protokoll/protokoll-1_respam17_2019-12-09.md)
