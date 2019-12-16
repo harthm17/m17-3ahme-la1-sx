@@ -17,7 +17,7 @@
     * [Definition](#definition)
     * [Vorteile](#vorteile)
     * [Nachteile](#nachteile)
-1. [Dokumentieren](#dokumentieren)
+1. [Arten des Dokumentierens](#dokumentieren)
     * [Arten](#arten)
 1. [Markdown](markdown)
 1. [GitHub](github)
@@ -58,37 +58,36 @@
 
 ### Dokumentieren
 #### Arten:
-##### Handschrif:
-* **Vorteile-->** schnell, oft verfügbar, flexibel
-* **Nachteile-->** manchmal unleserlich, Verbreitung schwierig, kein Backup,  nicht elektronisch verarbeitbar
+##### Handschrift:
+* **Vorteile** schnell, oft verfügbar, flexibel
+* **Nachteile** manchmal unleserlich, Verbreitung schwierig, kein Backup,  nicht elektronisch verarbeitbar
                               
 #### Bild erstellen:
-* **Vorteile-->** schnell, gut zu verarbeiten, Backup
-* **Nachteile-->** elektronisch nicht verarbeitbar, viel Speicherplatz erforderlich
+* **Vorteile** schnell, gut zu verarbeiten, Backup
+* **Nachteile** elektronisch nicht verarbeitbar, viel Speicherplatz erforderlich
 
 ##### Textverarbeitung:
-* **Vorteile-->** leserlich, übersichtlich, veränderbar, einfach
-* **Nachteile-->** zeitaufwändig
+* **Vorteile-** leserlich, übersichtlich, veränderbar, einfach
+* **Nachteile** zeitaufwändig
 
 --------------------------------------------------------------------------------------------------------------------------------------
+### GitHub
+[GitHub](https://de.wikipedia.org/wiki/GitHub) ist eine Web-Plattform für Git verwaltete Projekte.
+
+##### Vorteile
+1. Daten gehen schwert verloren
+1. Teamworking(Grundlage)
+1. kostenlos
+
+#### Nachteile
+1. PC benötigt
 
 ### Markdown
 *Was ist Markdown?*
 [Wikipedia](https://de.wikipedia.org/wiki/Markdown):
 >Markdown ist eine vereinfachte Auszeichnungssprache, die von John Gruber und Aaron Swartz entworfen und im Dezember 2004 mit Version 1.0.1 spezifiziert wurde. Ein Ziel von Markdown ist, dass schon die Ausgangsform ohne weitere Konvertierung leicht lesbar ist. Als Auszeichnungselemente wurden daher vor allem Auszeichnungsarten verwendet, die in Plain text und E-Mails üblich sind. Auch andere Auszeichnungssprachen mit ähnlichen Zielen zur Lesbarkeit hatten Einfluss auf die Syntax.
 
--------------------------------------------------------------------------------------------------------------------------------------
-
-### GitHub
-[GitHub](https://de.wikipedia.org/wiki/GitHub) ist eine Web-Plattform für Git verwaltete Projekte.
-
-##### Vorteile
-1. Daten gehen schwert verloren
-1. Teamworking
-1. kostenlos
-
-#### Nachteile
-1. PC benötigt
+---------------------------------------------------------------------------------------------------------------------------------
 
 #### Grundkenntnisse
 
