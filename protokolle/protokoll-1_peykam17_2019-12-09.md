@@ -15,7 +15,7 @@
 
 ----------------------------------------------------------------------------------------------
 ## Versionsverwaltung
-Versionsverwaltung, auch **Version control systems** (CVS) genannt, ist ein System, dass alle Versionen einer beliebigen Datei in einem sogennanten **Repository** (engl. Aufbewahrungsort) speichert. Somit kann man auch nach vielen Änderungen sehen wer, was, wann verändert hat.
+Versionsverwaltung, auch **Version control systems** (VCS) genannt, ist ein System, dass alle Versionen einer beliebigen Datei in einem sogennanten **Repository** (engl. Aufbewahrungsort) speichert. Somit kann man auch nach vielen Änderungen sehen wer, was, wann verändert hat.
 
 Dieses System ist auch noch praktisch für Teamworking, da man die Repositories Online erstellt und somit auch mehrere Leute, ohne große Umstände, an einem Projekt arbeiten können. Ein weiterer Punkt der für die Versionsverwaltung spricht ist der Schutz vor Datenverlust, der durch z.B. Zerstörung einer Festplatte oder eines PC's erfolgen kann, da die Daten nicht lokal aufbewahrt werden.
 
