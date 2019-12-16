@@ -23,7 +23,7 @@ Das einzig "Negative" am Versionsverwaltungssystem ist, dass die Verwendung dies
 
 ## Git
 
-Die heutzutage populärste Software der Versionsverwaltung ist **Git**, welches von [Linus Torvalds](https://de.wikipedia.org/wiki/Linus_Torvalds) entwickelt wurde. Git ist bekannt für seine **nicht-lineare Entwicklung** die hauptsächlich durch das **branching** entsteht. Jedes Repository besitzt einen Hauptentwicklungszweig, bei Git heißt dieser **master-Branch**. Wenn man etwas an diesem ändern möchte erstellt man einen **side-Branch** welcher zuerst eine exakte Kopie von dem master-Branch ist. Wenn man dann Dateien verändert hat kann man einen **pull request** beantragen und wenn dieser angenommen wurde werden der side-Branch und der master-Branch verschmolzen, man spricht von einem **merge**.
+Die heutzutage populärste Software der Versionsverwaltung ist **Git**, welches von [Linus Torvalds](https://de.wikipedia.org/wiki/Linus_Torvalds) entwickelt wurde. Git ist bekannt für seine **nicht-lineare Entwicklung** die hauptsächlich durch das **branching** (engl. verzweigend) entsteht. Jedes Repository besitzt einen Hauptentwicklungszweig, bei Git heißt dieser **master-Branch**. Wenn man etwas an diesem ändern möchte erstellt man einen **side-Branch** welcher zuerst eine exakte Kopie von dem master-Branch ist. Wenn man dann Dateien verändert hat kann man einen **pull request** beantragen und wenn dieser angenommen wurde werden der side-Branch und der master-Branch verschmolzen, man spricht von einem **merge**.
 
 Eine weitere Funktion von Git ist das Erstellen von **lokalen Repositories**, welche eine Kopie der Online Version ist und man somit auch ohne Internetzugriff weiter arbeiten kann.
 
