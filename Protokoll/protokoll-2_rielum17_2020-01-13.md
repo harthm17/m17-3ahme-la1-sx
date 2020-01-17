@@ -13,8 +13,6 @@
 ## Inhaltsverzeichnis
 1. [Themen der Einheiten](#themen-der-einheit)
 1. [Befehle](#Befehle)
-1. [Dokumentieren](#dokumentieren)
-    * [Arten](#arten)
 
 
 ------------------------------------------------------------
@@ -50,25 +48,25 @@
 **du**   |    disk usage           |     Byte-Verbrauch in Verzeichnis(sen) zeigen
 **mount**  |  mount a filesystem    |    Partition einbinden
 **umount**  | unmount a filesystem   |   Eingebundene Partition trennen  
-whoami    |   who am i                 |  aktuellen Benutzer ausgeben
-who       |   who is logged on         |  wer ist gerade angemeldet
-w         |   who is logged on and ... |  wer ist wie angemeldet
-passwd    |  set new password          |  Passwort neu setzen
-su        |   set (change) user id     |  andere Benutzer-ID annehmen
-sudo      |   super-user do            |  in den Super-User Mode (root) wechseln
-sudo -s   |                            | -> Neue Shell mit user root
-sudo -i   |                            | -> Neuer Login mit user root  
-login     |   login with new session   |  startet eine neue Session im System
-id        |   display user id ...      |  Benutzerinfos anzeigen
-groups    |   display groups           |  Gruppenmitgliedschaft anzeigen
-adduser   |   add new user             |  Neuen Benutzer hinzufügen
-deluser   |   delete user              |  Benutzer entfernen
-logout   |  log out from shell     |     Aus aktueller Login-Shell abmelden
-login    |  log in in new shell   |      Neue Login-Shell (bash) starten
-reset    | reset terminal  | Terminal in den Grundzustand zurücksetzen
-clear    | clear screen   |  Terminalschirm leeren (scroll nach unten)
-ssh      | secure shell  |   OpenSSH SSH client, verschlüsselte remote client shell
-nano     |  Terminalbasierender Editor
-gedit    |  GUI-Editor für Ubuntu (Unity/Gnome3)
-leafpad  |  GUI-Editor für Lubuntu (LXDE)
-vi       |  Standard-Editor für Linux (Modal-Editor)
+**whoami**    |   who am i                 |  aktuellen Benutzer ausgeben
+**who**       |   who is logged on         |  wer ist gerade angemeldet
+**w**         |   who is logged on and ... |  wer ist wie angemeldet
+**passwd**    |  set new password          |  Passwort neu setzen
+**su**        |   set (change) user id     |  andere Benutzer-ID annehmen
+**sudo**      |   super-user do            |  in den Super-User Mode (root) wechseln
+**sudo -s**   |                            | -> Neue Shell mit user root
+**sudo -i**   |                            | -> Neuer Login mit user root  
+**login**     |   login with new session   |  startet eine neue Session im System
+**id**       |   display user id ...      |  Benutzerinfos anzeigen
+**groups**   |   display groups           |  Gruppenmitgliedschaft anzeigen
+**adduser**   |   add new user             |  Neuen Benutzer hinzufügen
+**deluser**   |   delete user              |  Benutzer entfernen
+**logout**   |  log out from shell     |     Aus aktueller Login-Shell abmelden
+**login**    |  log in in new shell   |      Neue Login-Shell (bash) starten
+**reset**    | reset terminal  | Terminal in den Grundzustand zurücksetzen
+**clear**    | clear screen   |  Terminalschirm leeren (scroll nach unten)
+**vssh**      | secure shell  |   OpenSSH SSH client, verschlüsselte remote client shell
+**nano**     |  Terminalbasierender Editor
+**gedit**    |  GUI-Editor für Ubuntu (Unity/Gnome3)
+**leafpad**  |  GUI-Editor für Lubuntu (LXDE)
+**vi**       |  Standard-Editor für Linux (Modal-Editor)
