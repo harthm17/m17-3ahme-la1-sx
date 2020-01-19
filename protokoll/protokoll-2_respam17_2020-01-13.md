@@ -13,6 +13,7 @@ Das Terminal bzw. die Shell ist ein Program zur Komunikation mit dem Betriebssys
 
 Unix-Shell laut [Wikipedia](https://de.wikipedia.org/wiki/Unix-Shell):
 > Die Unix-Shell oder kurz Shell (englisch für Hülle, Schale) bezeichnet die traditionelle Benutzerschnittstelle unter Unix oder unixoiden Computer-Betriebssystemen.
+
 Wir verwenden die *Bourne-again shell ([bash](https://de.wikipedia.org/wiki/Bash_(Shell)))*.
 
 --------------------------------
