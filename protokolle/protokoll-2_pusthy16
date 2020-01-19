@@ -6,7 +6,7 @@
 * **Datum:** 13.01.2020
 * **Gefehlt:** -
 * **Erstellt von:** Thomas Pust
-* **Protokoll der letzten Einheit:**
+* **Protokoll der letzten Einheit:**https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/pusthy16/protokolle/protokoll-1_pusthy16_2019-12-09.md
 
 ----------------------------------------------------------------------------------------------
 
@@ -21,10 +21,6 @@
 ### Dateirechte allgemein
 
 #### Begriffsbestimmung
-*Eigendefinition:*
->Bei einem Multiusersystem ist es wesentlich, Rechte zu haben/vergeben. Ohne sie, kann jeder auf alles zugreifen.  
-Mit dem Befehl *ll*, den man in der Shell eingibt, werden die Rechte aller Dateien und Verzeichnisse im aktuellen Verzeichnis ausgeben. *ll* ist der Alias für den Befehl *ls -alF* (Ein Alias ist eine verkürzte Variante eines Befehls etc.).
-Weiters ist noch zu beachten, wenn man eine Datei in ein anderes Verzeichnis kopiert, ändern sich die Rechte für die jeweilige Datei.
 
 **ls -alF** bedeutet folgendes:
 * ls ... list directory content
@@ -81,8 +77,6 @@ r | read | Inhalt lesen
 w | write | Inhalt löschen, anlegen
 x | execute | ins Verzeichnis wechseln
 
-Wenn ein Benutzer das Recht besitzt, wird der Buchstabe des Rechtes geschrieben. Ansonsten ist ein Minus anstelle des Buchstabens.
-
 
 #### Folgende Beispiele bringen das Arbeiten mit Dateirechten näher
 
@@ -107,7 +101,7 @@ Alle anderen haben nur das read-Recht
 ----------------------------------------------------------------------------------------------
 
 ### Kommandos um Rechte zu ändern
-Falls man die Rechte dazu hat, Rechte zu verwalten, kann man in der shell die Rechte anderer mit Hilfe von Befehlen verändern.
+Falls man die Rechte dazu hat, Rechte zu verwalten, kann man in der Shell die Rechte anderer mit Hilfe von Befehlen verändern.
 
 Befehl | Anwendung
 -------|----------
