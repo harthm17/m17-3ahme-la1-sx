@@ -62,6 +62,8 @@ _ | *Pfeiltaste* ⇦⇨ | Cursor bewegen
 
 ### Kommandos
 
+Kommandos aus [Skript (8 Grundlegende Kommandos)](https://lms.at/dotlrn/classes/informatik/610437.3AHME_LA1SX.19_20/xolrn/7BF1B31508DF3.symlink?resource_id=0-385942208&m=view#154334970) sowie [Skript (14 Weitere Kommandos)](https://lms.at/dotlrn/classes/informatik/610437.3AHME_LA1SX.19_20/xolrn/7BF1B31508DF3.symlink?resource_id=0-385942208&m=view#155382209)
+
 #### Für Dateien und Verzeichnisse
 Kommando | Bedeutung | Beschreibung
 ------- | ---- | ------------
