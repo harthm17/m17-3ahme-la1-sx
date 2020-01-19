@@ -7,10 +7,16 @@
 ---------------------------------
 ## Inhaltsverzeichnis
 1. [Konsole](#konsole)
-    * [Shell](#unix-shell)
-    * [Vorteile](#vorteile)
-    * [Nachteile](#nachteile)
-2. [Grundlegendes und Tastenkombinationen](#grundlegendes-und-tastenkombinationen)
+      * [Vorteile](#vorteile)
+      * [Nachteile](#nachteile)
+1. [Grundlegendes und Tastenkombinationen](#grundlegendes-und-tastenkombinationen)
+1. [Kommandos](#kommandos)
+      * [Für Dateien und Verzeichnisse](#für-dateien-und-verzeichnisse)
+      * [Für Betriebssystem und Prozesse](#für-betriebssystem-und-prozesse)
+      * [Für die Benutzerverwaltung](#für-die-benutzerverwaltung)
+      * [Systemkommandos](#systemkommandos)
+      * [Terminalkommandos](#terminalkommandos)
+      * [Editoren](#editoren)
 ---------------------------------
 ### Konsole
 Die Konsole bzw. die Shell ist ein Program zur Komunikation mit dem Betriebssystem.
@@ -37,22 +43,84 @@ Tastenkombination | Taste | Beschreibung
 ----------------- |------ | ------------
 *Strg Alt T* | | öffnet die Konsole (bei Linux)
 *Strg D* | | Shell beenden
-*Strg L* | | löscht den Bildschirm (mit dem Komando *reset* wird die Shell zurückgesetzt)
-*Strg C* | | Komando abbrechen
-*Strg Z* | | Komando pausieren
+*Strg L* | | löscht den Bildschirm (mit dem Kommando *reset* wird die Shell zurückgesetzt)
+*Strg C* | | Kommando abbrechen
+*Strg Z* | | Kommando pausieren
 *Strg +* | | Schriftgröße verändern -> vergrößern
 *Strg -* | | Schriftgröße verändern -> verkleinern
 *Strg Shift C* | | kopieren
 *Strg Shift V* | | einfügen
-_ | *Enter* | Komandos werden mit der *Entertaste* abgeschlossen und somit anschließend ausgeführt
+_ | *Enter* | Kommandos werden mit der *Entertaste* abgeschlossen und somit anschließend ausgeführt
 _ | *Tabulator* | Autovervollständigung
-_ | *Pfeiltaste* ⇧⇩ | History (fühere Komandos auswählen)
+_ | *Pfeiltaste* ⇧⇩ | History (fühere Kommandos auswählen)
 _ | *Pfeiltaste* ⇦⇨ | Cursor bewegen
 
-* Mit dem **&** am Ende eines Komandos wird dies im **Hintergrund ausgeführt**
-* Mit dem **Pipe Operator |** kann man Komandos **verketten**
-* Mit dem **;** als Trennzeichen kann man **mehrere Komandos** in einer Zeile verwenden
+* Mit dem **&** am Ende eines Kommandos wird dies im **Hintergrund ausgeführt**
+* Mit dem **Pipe Operator |** kann man Kommandos **verketten**
+* Mit dem **;** als Trennzeichen kann man **mehrere Kommandos** in einer Zeile verwenden
 --------------------------------------------
 
-### Komandos
+### Kommandos
 
+#### Für Dateien und Verzeichnisse
+Kommando | Bedeutung | Beschreibung
+------- | ---- | ------------
+pwd | print working directory | Aktuelles Arbeitsverzeichnis (.) ausgeben
+**ls** | list directory content | Dateien und Verzeichnisse von ./ ausgegeben
+ls /etc/apt | | Dateien und Verzeichnisse von /etc/apt ausgeben
+ls -l | | Line-Mode, mehr Infos anzeigen
+ls -a | | all, auch verborgene Dateien anzeigen
+**cd** | change directory | In ein (anderes) Verzeichnis wechseln
+cd /etc/apt | | in das verzeichnis /etc/apt wechseln
+cd .. | | in das übergeordnete Verzeichnis wechseln
+mkdir | make directory | Verzeichnis erstellen
+rmdir | remove directory | Verzeichnis löschen (muss leer sein!)
+mv | move | Datei/Verzeichnis verschieben oder umbenennen
+cp | copy | Datei/Verzeichnis kopieren
+rm | remove | Datei löschen
+rm -r | | Datei oder Verzeichnis samt Inhalt löschen
+cat |  concatenate | Dateien verbinden und auf stdout ausgeben
+less | less (is more) | Dateiinhalt im Viewer less anzeigen
+hexdump | hexadecimal file dump | Dateiinhalt als Hexdump ausgeben
+find | find files | Dateien oder Verzeichnisse finden
+
+#### Für Betriebssystem und Prozesse
+Kommando | Bedeutung | Beschreibung
+------- | ---- | ------------
+date | print system date and time | Aktuelle Zeit ausgeben
+jobs | show user processes | Eigene Prozesse anzeigen
+kill | kill/signal process | Signal an Prozess senden, Prozess beenden
+
+#### Für die Benutzerverwaltung
+Kommando | Bedeutung | Beschreibung
+------- | ---- | ------------
+whoami | who am i | aktuellen Benutzer ausgeben
+who | who is logged on | wer ist gerade angemeldet
+passwd | set new password | Passwort neu setzen
+sudo | super-user do | in den Super-User Mode (root) wechseln
+groups | display groups | Gruppenmitgliedschaft anzeigen
+adduser | add new user | Neuen Benutzer hinzufügen
+deluser | delete user | Benutzer entfernen
+
+#### Systemkommandos
+Kommando | Bedeutung | Beschreibung
+------- | ---- | ------------
+exit | exit from current process | Beende aktuelles Programm (bash, screen, ...)
+login | log in in new shell | Neue Login-Shell (bash) starten
+logout | log out from shell | Aus aktueller Login-Shell abmelden
+poweroff | power off the system | System abschalten
+reboot | reboot the system | System neu starten
+
+#### Terminalkommandos
+Kommando | Bedeutung | Beschreibung
+------- | ---- | ------------
+reset | reset terminal | Terminal in den Grundzustand zurücksetzen
+clear | clear screen | Terminalschirm leeren (scroll nach unten)
+echo | echo text | Text oder Variable auf stdout (Terminal) ausgaben
+
+#### Editoren
+Kommando/Name | Beschreibung
+------------- | ------------
+nano | Terminalbasierender Editor
+vi | Standard-Editor für Linux (Modal-Editor)
+emacs | Mächtiger Editor für Programmierer
