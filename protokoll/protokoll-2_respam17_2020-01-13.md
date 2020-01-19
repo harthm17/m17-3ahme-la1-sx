@@ -6,14 +6,19 @@
 * **Erstellt von:** Paul Resch
 ---------------------------------
 ## Inhaltsverzeichnis
-1. [Terminal](#terminal)
+1. [Konsole](#konsole)
 ---------------------------------
-### Terminal
-Das Terminal bzw. die Shell ist ein Program zur Komunikation mit dem Betriebssystem.
+### Konsole
+Die Konsole bzw. die Shell ist ein Program zur Komunikation mit dem Betriebssystem.
 
 Unix-Shell laut [Wikipedia](https://de.wikipedia.org/wiki/Unix-Shell):
 > Die Unix-Shell oder kurz Shell (englisch für Hülle, Schale) bezeichnet die traditionelle Benutzerschnittstelle unter Unix oder unixoiden Computer-Betriebssystemen.
 
 Wir verwenden die *Bourne-again shell ([bash](https://de.wikipedia.org/wiki/Bash_(Shell)))*.
 
+#### Vorteile
+* Effizientes Arbeiten
+* Auch bei schlechter Netzwerkverbuindung verwendbar
+* Auch ohne Grafische Benutzeroberfläche verwendbar
 --------------------------------
+
