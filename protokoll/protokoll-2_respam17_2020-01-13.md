@@ -2,7 +2,7 @@
 ---------------------------------
 * **Thema:** Linux Grundlagen (Konsole/Komandos)
 * **Datum:** 13.01.2020
-* **Fehlend:** Jan Pfanner
+* **Fehlend:** *Jan Pfanner*
 * **Erstellt von:** Paul Resch
 ---------------------------------
 ## Inhaltsverzeichnis
