@@ -10,7 +10,7 @@
 1.  [Vorteile und Nachteile des Raspberry PI und Arduino Nano](#vorteile-und-nachteile-des-raspberry-pi-und-arduino-nano)
 1.  [Betriebssysteme am Raspberry](#Betriebssysteme-am-raspberry)
 1.  [Installation](#installation)
-1.  [Passwort Ändern](#passwort-ändern)
+1.  [Name und Passwort Ändern](#name-und-passwort-ändern)
 1.  [Man in the Middle](#man-in-the-middle)
 
 --------------------------------------------------------------------------------------------------------------------------------
@@ -75,13 +75,35 @@ Die Secure Shell kann verschlüsselte Netzwerkverbindung mit einem entfernten Ge
 
 Früher war die Secure Shell standardmäßig aktiviert, aber das wurde zum Problem, da der Standarbenutzer und das Passwort auf jedem Raspberry PI gleich ist. Wenn das Passwort nicht wird kann ein jeder auf den PI zugreifen und möglicherweise eine Schaden anrichten.
 
-mount /dev/mmcblk0p1
+          mount /dev/mmcblk0p1
+          touch /media/schueler/boot/ssh
+          unmount /dev/mmcblk0p1
+          unmount /dev/mmcblk0p2
+ 
+ Über SSH auf dem Gerät einsteigen
+ Ip-Adresse des Raspberry PI's: 10.200.114.216
+          sshpi@10.200.114.216
+          passwort: raspberry
+
+Nun überprüft man ob man auf seinem eigenen Gerät ist mit dem Komando 'ip a'.
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
-## Paswort Ändern
+## Name und Paswort Ändern
+
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Man in the Middle
+
+Man in the Middle: 
+![alt text][logo]
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+[logo](https://www.google.com/search?q=Man+in+the+middle&client=firefox-b-d&sxsrf=ACYBGNSuGjLEeM2CIidNJrTV1gNq2g-S_A:1579964683052&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiqnMONg5_nAhUkx4sKHft5BHsQ_AUoAXoECBEQAw&biw=1920&bih=976#imgrc=1qb5EHVvzpCVSM:)
+
 
