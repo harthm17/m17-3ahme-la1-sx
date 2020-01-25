@@ -10,7 +10,7 @@
 1.  [Vorteile und Nachteile des Raspberry PI und Arduino Nano](#vorteile-und-nachteile-des-raspberry-pi-und-arduino-nano)
 1.  [Betriebssysteme am Raspberry](#Betriebssysteme-am-raspberry)
 1.  [Installation](#installation)
-1.  [Neuen Benutzer anlegen](#neuen-benutzer-anlegen)
+1.  [Passwort Ändern](#passwort-ändern)
 1.  [Man in the Middle](#man-in-the-middle)
 
 --------------------------------------------------------------------------------------------------------------------------------
@@ -75,4 +75,13 @@ Die Secure Shell kann verschlüsselte Netzwerkverbindung mit einem entfernten Ge
 
 Früher war die Secure Shell standardmäßig aktiviert, aber das wurde zum Problem, da der Standarbenutzer und das Passwort auf jedem Raspberry PI gleich ist. Wenn das Passwort nicht wird kann ein jeder auf den PI zugreifen und möglicherweise eine Schaden anrichten.
 
-                                            
+mount /dev/mmcblk0p1
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+## Paswort Ändern
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+## Man in the Middle
+
