@@ -23,16 +23,16 @@
 Ein Microcontroller kann für seinen Preis sehr viel aber es ist nicht möglich ihn in ein Netzwerk einzubinden, weil er keine Daten verschlüsseln kann.
 Der Raspberry hat mehr Rechenleistung und ist größer weil die CPU mehr Pins hat.
 
-| Arduino                             | Raspberry PI                    |
-| ----------------------------------- |---------------------------------| 
-| **CPU**  | geringe Leistungsfähigkeit          | wesentlicher Leistungsfähiger   |
-| einfache kostengpünstige            | sehr leistungsfähige            |
-| 8-Bit Architektur                   | 32-Bit Architektur              |
-| **Preis** | 1-3€                    | Raspberry Zero: 12-14€     |
-| **Preis** |                         | Volle RPI: 30€                  |
-| **Betriebssystem**|kein Standardbetriebssystem möglich | Standard Betriebssystem möglich |
-| **Leistung** | 0,022kWh (auf ein Jahr) | 8,70kWh(auf ein Jahr) |
-| echtzeitfähig                       | nicht echtzeitfähig             |
+
+|     | Arduino Nano | Raspberry PI | 
+|-----|--------------|--------------|
+| CPU |geringe Leistungsfähigkeit| wesentlich leistungsfähiger (Faktor 1000)|
+|Architektur|8-Bit Architektur|32-Bit Architektur|
+|Preis| 1-3€ |  12-14€ (Zero) , 30€ (voller PI)|
+|Betriebssystem| kein Standard Betriebssystem| Standard Betriebssystem möglich|
+| | |- Raspian(Linux, Debian)|
+|Leistung|~0,022kWh(auf ein Jahr)|~8,70kWh(auf ein Jahr)|
+|Echtzeitfähig|Ja|Nein|
 
 
 Anwendung des Arduino:
@@ -40,6 +40,7 @@ Anwendung des Arduino:
 
 Anwendung des Raspberry PI's:
 Home Server & Mediacenter, ...
+
 
 
 
