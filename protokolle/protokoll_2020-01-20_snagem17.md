@@ -8,3 +8,5 @@
 * **Protokoll nächste Einheit:**
 
 ## Inhaltsverzeichnis
+1. [RaspberryPie](https://de.wikipedia.org/wiki/Raspberry_Pi)
+2. [Arduino Nano](http://www.geeetech.com/wiki/index.php/Arduino_Nano)
