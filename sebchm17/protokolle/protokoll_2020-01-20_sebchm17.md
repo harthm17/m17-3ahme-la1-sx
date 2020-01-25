@@ -93,6 +93,19 @@ Nun überprüft man ob man auf seinem eigenen Gerät ist mit dem Komando 'ip a'.
 
 ## Name und Paswort Ändern
 
+Name ändern:
+
+          sudo /nano/etc/hostname
+
+Aussteigen:
+
+          sudo reboot
+
+Passwort ändern:
+         
+         passwd
+         
+Man ändert den Namen und das Passwort, weil der Standard Login bei jedem Raspberry PI gleich ist und nachdem der Login geändert wurde kann kein anderer mehr auf den Raspberry PI zugreifen.
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
