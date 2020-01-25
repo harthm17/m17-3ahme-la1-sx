@@ -25,13 +25,13 @@ Der Raspberry hat mehr Rechenleistung und ist größer weil die CPU mehr Pins ha
 
 | Arduino                             | Raspberry PI                    |
 | ----------------------------------- |---------------------------------| 
-| geringe Leistungsfähigkeit          | wesentlicher Leistungsfähiger   |
+| **CPU**  | geringe Leistungsfähigkeit          | wesentlicher Leistungsfähiger   |
 | einfache kostengpünstige            | sehr leistungsfähige            |
 | 8-Bit Architektur                   | 32-Bit Architektur              |
-| Preis: 1-3€                         | Raspberry Zero: 12-14€          |
-|                                     | Volle RPI: 30€                  |
-| kein Standardbetriebssystem möglich | Standard Betriebssystem möglich |
-| Leistung: 0,022kWh (auf ein Jahr)   | Leistung: 8,70kWh(auf ein Jahr) |
+| **Preis** | 1-3€                    | Raspberry Zero: 12-14€     |
+| **Preis** |                         | Volle RPI: 30€                  |
+| **Betriebssystem**|kein Standardbetriebssystem möglich | Standard Betriebssystem möglich |
+| **Leistung** | 0,022kWh (auf ein Jahr) | 8,70kWh(auf ein Jahr) |
 | echtzeitfähig                       | nicht echtzeitfähig             |
 
 
