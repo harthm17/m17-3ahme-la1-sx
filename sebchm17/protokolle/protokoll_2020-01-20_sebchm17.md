@@ -3,6 +3,7 @@
 * **Thema** : Einführung Raspberry PI
 * **Datum** : 20.01.2020
 * **Gruppe** : 4
+* **Gefehlt** : Richard Strohrigel
 * **Protokollverfasser** : Christoph Sebernegg
 * **Protokoll letzte Einheit** : [2.Protokoll](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/sebchm17/sebchm17/protokolle/protokoll_2019-10-14_sebchm17.md)
 --------------------------------------------------------------------------------------------------------------------------------
@@ -64,6 +65,7 @@ Auf den neuesten Modelle des Raspberry PI ist es sogar möglich Windows darauf l
 3. Windows benötigt ein zusätzliches Tool. Windows braucht ein Dateisystem.
 
 4. Secure Shell aktivieren
+   Den Raspberry Pi sollte man wenn möglich per Bildschirm, Tastatur und Maus in Betrieb nehemen, weil dann ist es möglich auf der MMC Karte                                                  in der Boot Partition eine Datei mit dem Namen ssh anzulegen. Bei Windows darf man keine Dateiendung dazuschreiben weil dann beim boot die datei von der ssh gelöscht wird.
    
 
 
@@ -99,8 +101,12 @@ Nun überprüft man ob man auf seinem eigenen Gerät ist mit dem Komando 'ip a'.
 Man in the Middle: 
 ![alt text][logo]
 
+Login name und passwort werden über das Netzwerk transportiert. Ein "*Man in the Middle*" ist ein Angreifer der logisch zwischen den kommunizierenden Geräten steht und hat dabei mit seinem System vollständige Kontrolle über den Datenverkehr zwischen zwei oder mehreren Netzwerkteilnehmern und kann die Informationen nach Belieben einsehen und sogar manipulieren.
 
+Hostkeys:
+>Mithilfe des Netzwerkprotokolls SSH können Sie eine sichere und verschlüsselte Netzwerkverbindung zu einem entfernten Gerät wie z. B. einem Server herstellen. Mit einer solchen SSH-Verbindung warten Sie den Server von Ihrem lokalen Computer aus oder bedienen ihn per Kommandozeile. Abhängig von der genutzten Version des Protokolls kommen dabei verschiedene Verschlüsselungsalgorithmen zum Einsatz – SSH-2 greift beispielsweise standardmäßig auf AES zurück. Der Verschlüsselung der Verbindung muss allerdings zunächst eine erfolgreiche Authentifizierung vorausgehen. Während der Server sich gegenüber dem Client mit einem Sicherheitszertifikat identifiziert, gibt es verschiedene Varianten zur Anmeldung des Clients auf dem Server. Neben der bekannten klassischen Variante mit Benutzername und Passwort können Sie unter anderem auch Schlüsselpaare nutzen, die aus einem privaten und einem öffentlichen SSH-Schlüssel bestehen.
 
+[Ionos](https://www.ionos.de/digitalguide/server/sicherheit/ssh-keys-fuer-ihre-netzwerkverbindung-nutzen/)
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
