@@ -9,12 +9,9 @@
 ## Inhaltsverzeichnis
 1.  [Vorteile und Nachteile des Raspberry PI und Arduino Nano](#vorteile-und-nachteile-des-raspberry-pi-und-arduino-nano)
 1.  [Betriebssysteme am Raspberry](#Betriebssysteme-am-raspberry)
-1.  [Installation]((#installation)
+1.  [Installation](#installation)
 1.  [Neuen Benutzer anlegen](#neuen-benutzer-anlegen)
-1.  [Dll](#dll)
-      * [Dll-Hölle](#dll-hölle)
-1.  [Rechte](#rechte)
-      * [Rechte ändern](#rechte-ändern)
+1.  [Man in the Middle](#man-in-the-middle)
 
 --------------------------------------------------------------------------------------------------------------------------------
 ## Vorteile und Nachteile des Raspberry PI und Arduino Nano
