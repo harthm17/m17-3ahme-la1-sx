@@ -8,5 +8,14 @@
 * **Protokoll nächste Einheit:**
 
 ## Inhaltsverzeichnis
-1. [RaspberryPie](https://de.wikipedia.org/wiki/Raspberry_Pi)
+1. [Raspberry Pie](https://de.wikipedia.org/wiki/Raspberry_Pi)
 2. [Arduino Nano](http://www.geeetech.com/wiki/index.php/Arduino_Nano)
+
+
+### Raspberry Pie
+Ein [Raspberry Pie](https://de.wikipedia.org/wiki/Raspberry_Pi) ist ein vollwärtiger Computer.
+
+### Informationen über RPI
+1. Er ist sehr Leistungsfähig (32Bit Architektur)
+2. Volle RPI kostet ca. 30 Euro
+3. Auf einem RPI ist auch ein Standardbetriebssystem möglich (z.B. Linux Debian)
