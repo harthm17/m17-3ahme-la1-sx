@@ -26,9 +26,9 @@ Der Raspberry hat mehr Rechenleistung und ist größer weil die CPU mehr Pins ha
 
 |     | Arduino Nano | Raspberry PI | 
 |-----|--------------|--------------|
-| CPU |geringe Leistungsfähigkeit| wesentlich leistungsfähiger (Faktor 1000)|
+| CPU |geringe Leistungsfähigkeit| wesentlich leistungsfähiger (um das 1000-fache als ein Arduino Nano)|
 |Architektur|8-Bit Architektur|32-Bit Architektur|
-|Preis| 1-3€ |  12-14€ (Zero) , 30€ (voller PI)|
+|Preis| 1-3€ |  Raspberry Zero: 12-14€  , Voller PI: 30€|
 |Betriebssystem| kein Standard Betriebssystem| Standard Betriebssystem möglich|
 | | |- Raspian(Linux, Debian)|
 |Leistung|~0,022kWh(auf ein Jahr)|~8,70kWh(auf ein Jahr)|
@@ -36,12 +36,15 @@ Der Raspberry hat mehr Rechenleistung und ist größer weil die CPU mehr Pins ha
 
 
 Anwendung des Arduino:
+
 Überwachungssysteme, Sensoren, ...
 
 Anwendung des Raspberry PI's:
+
 Home Server & Mediacenter, ...
 
-
+Echtzeit bedeuted, wenn eine Aufgabe mit einer Zeitschranke zeitnah erfüllt wird.
+ 
 
 
 
