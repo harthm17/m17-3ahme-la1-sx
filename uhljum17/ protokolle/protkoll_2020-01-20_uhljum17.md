@@ -74,8 +74,6 @@ Um Namen und passwort zu ändern folgendes machen:
     sudo nano /etc/hostname
 
     sudo nano /etc/hosts
-    
-    Danach wieder aussteigen um das passwort zu ändern.
 
     sudo reboot
     
