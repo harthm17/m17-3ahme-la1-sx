@@ -7,7 +7,8 @@
   --------------------------------------------------
   ## Inhaltsverzeichnis
   1.  [Vergleich Arduino, Raspberry PI](#vergleich-arduino-raspberry-pi)
-  2.  [Dateisysteme](#dateisysteme)
+      * [Installation](#installation)
+  2.  [SSH](#ssh)
   3.  [Verzeichnisse unter Linux](#verzeichnisse-unter-linux)
   4.  [Einhängen von Dateisystemen](#einhängen-von-dateisystemen)
       * [Manuelles Einhängen von Geräten](#manuelles-einhängen-von-geräten)
@@ -54,6 +55,41 @@ Laut
 [wiki.ubuntuuseres](https://wiki.ubuntuusers.de/dd/)
 
 dd (disk dump) dient zum bit-genauen Kopieren von Festplatten, Partitionen oder Dateien. "Bit-genaues" Kopieren bedeutet, dass der Datenträger Bit-für-Bit bzw. Byte-für-Byte ausgelesen und beschrieben wird, unabhängig von dessen Inhalt und Belegung. dd ignoriert Dateisysteme und funktioniert mit allen blockorientierten Datenträgern, also auch mit Daten-CDs/DVDs.
+  3) Aktivierung der SSH: Dazu muss man auf der SD-Karte in der Boot Partition eine leere Datei mit dem Namen SSH erstellen. Starten man nun Raspbian wird die SSH gestartet und die Datei gelöscht.
+  
+  ## SSH
+  Laut [checkdomain.de](https://www.checkdomain.de/hosting/lexikon/ssh/)
+  
+> SSH ist die Abkürzung für Secure Shell. Mit Hilfe von Secure Shell lassen sich sichere Netzwerkverbindungen zu anderen Geräten herstellen, etwa von einem PC zu einem Webserver. SSH ermöglicht die gegenseitige Authentifizierung und eine verschlüsselte Datenübertragung, so dass sensible Daten wie Passwörter oder Benutzernamen nicht von Unberechtigten ausgespäht werden können. Secure Shell bietet dabei ein hohes Sicherheitsniveau.
+
+Mit diesem Befehlm haben wir über SSH auf den Raspberry PI zugegriffen.
+
+ ````bash
+ssh pi@10.200.114.222
+````
+
+## Raspberry Name und Passwort ändern und Benutzer erstellen
+
+Hostname ändern
+
+ ````bash
+sudo nano /etc/hostname
+sudo nano /etc/hosts
+````
+Passwort ändern
+
+ ````bash
+sudo passwd
+````
+Benutzer erstellen
+
+ ````bash
+sudo adduser <name>
+````
+
+
+
+     
 
 
    
