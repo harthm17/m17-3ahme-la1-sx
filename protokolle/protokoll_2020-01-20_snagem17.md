@@ -8,7 +8,7 @@
 * **Protokoll nächste Einheit:**
 
 ## Inhaltsverzeichnis
-1. [Raspberry Pie](https://de.wikipedia.org/wiki/Raspberry_Pi),[Arduino Nano](http://www.geeetech.com/wiki/index.php/Arduino_Nano)
+1. [Raspberry Pie](https://de.wikipedia.org/wiki/Raspberry_Pi), [Arduino Nano](http://www.geeetech.com/wiki/index.php/Arduino_Nano)
 * Informationen über RPI
 * Informationen über Arduino Nano
 2. Inbetriebnahme des [Raspberry Pies](https://de.wikipedia.org/wiki/Raspberry_Pi)
