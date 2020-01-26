@@ -61,8 +61,11 @@ Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Secure_Shell)
  Datei anlegen
    
     touch /media/boot/ssh
+    
     unmount /dev/mmcblk0p1
+    
     unmount /dev/mmcblk0p2
+    
 
 ##### Name und Passwort ändern
 
