@@ -1,4 +1,4 @@
-# 3. Protpkoll
+# 3. Protopkoll
 
 ------------------------------
 
@@ -40,4 +40,16 @@
 
 --------------------------------------
 
+## Betriebssysteme
+
+-----------------------------
+
+## Man in the Middle
+
+>Ein Man-in-the-Middle-Angriff (MITM-Angriff), auch Janusangriff (nach dem doppelgesichtigen Janus der römischen Mythologie) genannt,    ist eine Angriffsform, die in Rechnernetzen ihre Anwendung findet. Der Angreifer steht dabei entweder physisch oder – heute meist –   logisch zwischen den beiden Kommunikationspartnern, hat dabei mit seinem System vollständige Kontrolle über den Datenverkehr zwischen zwei oder mehreren Netzwerkteilnehmern und kann die Informationen nach Belieben einsehen und sogar manipulieren. Die Janusköpfigkeit des Angreifers besteht darin, dass er den Kommunikationspartnern vortäuscht, das jeweilige Gegenüber zu sein. 
+
+
+  ![MIA](http://wiki.cas.mcmaster.ca/images/3/38/Man_in_the_Middle.jpg)
+
+Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Man-in-the-Middle-Angriff)
 
