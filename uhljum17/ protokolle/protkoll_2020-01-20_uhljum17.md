@@ -53,3 +53,12 @@
 
 Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Man-in-the-Middle-Angriff)
 
+
+Um die Schlüssel zu vergelichen muss man
+
+       schueler@pxx: ssh-keysan 10.200.114.227
+       
+       uhljum17@pi27: ssh-keyscan pi17
+       
+       
+eingeben.
