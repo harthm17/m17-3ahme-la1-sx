@@ -9,13 +9,8 @@
   1.  [Vergleich Arduino, Raspberry PI](#vergleich-arduino-raspberry-pi)
       * [Installation](#installation)
   2.  [SSH](#ssh)
-  3.  [Verzeichnisse unter Linux](#verzeichnisse-unter-linux)
-  4.  [Einhängen von Dateisystemen](#einhängen-von-dateisystemen)
-      * [Manuelles Einhängen von Geräten](#manuelles-einhängen-von-geräten)
-      * [Manuelles Aushängen von Geräten](#manuelles-aushängen-von-geräten)
-  5.  [Einen neuen Benutzer hinzufügen](#einen-neuen-benutzer-hinzufügen)
-  6. [Dateirechte unter Linux](#dateirechte-unter-linux)
-      * [Ändern von Rechten](#ändern-von-rechten)
+  3.  [Raspberry Name und Passwort ändern und Benutzer erstellen](#raspberry-name-und-passwort-ändern-und-benutzer-erstellen)
+
       
    ## Vergleich Arduino, Raspberry PI
    Ein Rasperry PI ist quasi ein vollwertiger PC. Bei einem Mykrocontroller mit 8 Bit ist es kaum möglich 
