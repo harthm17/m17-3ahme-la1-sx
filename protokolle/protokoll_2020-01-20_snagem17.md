@@ -16,8 +16,8 @@
 
 ### Raspberry Pie und Arduino Nano
 Ein [Raspberry Pie](https://de.wikipedia.org/wiki/Raspberry_Pi) ist ein vollwärtiger Computer.
-Quelle :
->Der Raspberry Pi (Aussprache in Britischem Englisch: ˈrɑːzb(ə)rɪ ˈpaɪ) ist ein Einplatinencomputer, der von der britischen Raspberry Pi Foundation entwickelt wurde. Der Rechner enthält ein Ein-Chip-System (SoC) von Broadcom mit einer ARM-CPU. Die Platine hat das Format einer Kreditkarte.<
+Quelle : (https://de.wikipedia.org/wiki/Raspberry_Pi)
+>Der Raspberry Pi ist ein Einplatinencomputer, der von der britischen Raspberry Pi Foundation entwickelt wurde. Der Rechner enthält ein Ein-Chip-System (SoC) von Broadcom mit einer ARM-CPU. Die Platine hat das Format einer Kreditkarte.<
 
 [Arduino Nano](http://www.geeetech.com/wiki/index.php/Arduino_Nano) ist eine kostengünstigere Variante, hat aber weniger zum bieten.
 
