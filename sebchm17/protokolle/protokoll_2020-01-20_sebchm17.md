@@ -124,5 +124,14 @@ Hostkeys:
 
 Quelle: [Ionos](https://www.ionos.de/digitalguide/server/sicherheit/ssh-keys-fuer-ihre-netzwerkverbindung-nutzen/)
 
+
+          schueler@pxx:ssh -keyscan 10.200.114.216
+
+Es muss mit dem Gerät verglichen werden.
+
+          sebchm17@pi16:ssh -keyscan pi16
+
+Es ist aber nicht zu 100 Prozent sicher. Man muss am Gerät arbeiten um sicher zu gehne das kein MIA dazwische ist.
+
 --------------------------------------------------------------------------------------------------------------------------------------------
 
