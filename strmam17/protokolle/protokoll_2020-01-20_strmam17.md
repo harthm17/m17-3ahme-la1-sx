@@ -86,6 +86,8 @@ Man kann den alten Benutzer mit dem neuen Benutzer deaktiviern, aber nur wenn de
 
 ![MIA](http://wiki.cas.mcmaster.ca/images/3/38/Man_in_the_Middle.jpg)
 
+Quelle: http://wiki.cas.mcmaster.ca/images/3/38/Man_in_the_Middle.jpg
+
 Da der Login-Name und das passwort über das Netzwerk geht kann es sein, dass wir einen Hacker dazwischen haben also einen "Man in the middle". Also muss man überprüfen dass man keinen MIA dazwischen haben.
 
     schueler@pxx:ssh -keyscan 10.200.114.217
