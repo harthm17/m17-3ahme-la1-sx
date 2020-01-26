@@ -6,7 +6,7 @@
   * **Erstellt von:** Michael Ully 
   --------------------------------------------------
   ## Inhaltsverzeichnis
-  1.  [Paritionen](#partitionen)
+  1.  [Vergleich Arduino, Raspberry PI](#vergleich-arduino-raspberry-pi)
   2.  [Dateisysteme](#dateisysteme)
   3.  [Verzeichnisse unter Linux](#verzeichnisse-unter-linux)
   4.  [Einhängen von Dateisystemen](#einhängen-von-dateisystemen)
