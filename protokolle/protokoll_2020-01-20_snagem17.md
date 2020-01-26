@@ -4,7 +4,7 @@
 * **Datum:** 20.01.2020
 * **Gefehlt:** Strohriegl
 * **Erstellt von:** Georg Schnabel
-* **Protokoll letzte Einheit:** [protokoll_2019-10-14_snagem17.md](
+* **Protokoll letzte Einheit:** [protokoll_2019-10-14_snagem17.md](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/snagem17/protokolle/protokoll_2019-10-14_snagem17.md)
 * **Protokoll nächste Einheit:**
 
 ## Inhaltsverzeichnis
