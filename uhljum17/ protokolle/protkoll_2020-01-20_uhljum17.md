@@ -11,6 +11,11 @@
 * **Nächstes Protkoll:**
 
 ------------------------------
+
+# Inhaltsverzeichnis
+  1.
+
+------------------------------
 ## Arduino Nano und Raspberry Pi
 
   Arduino Nano                                | Raspberry Pi
@@ -32,15 +37,28 @@
        |       |
     Ubuntu ~ Raspbian
      (PC)     (RPI)
-    
-    
+ 
+--------------------------------------
+
+## Betriebssysteme
+
+  In der Schule benutze wir Raspian Buster Lite, da das die minimalistische Version ist und wir mehr nicht brauchen. Die anderen beiden     Versionen sind auf der Website zu finden.
+
 [Webseite von Raspberry](https://www.raspberrypi.org) 
 
 [Zum Download](https://www.raspberrypi.org/downloads)
 
---------------------------------------
+AUf den neusten Paspberries ist auch auch möglich Windows laufen zu lassen.
 
-## Betriebssysteme
+### SSH
+
+#### Über SSH auf das Netzwerk zugreifen
+ 
+ Datei anlegen
+   
+    touch /media/boot/ssh
+    unmount /dev/mmcblk0p1
+    unmount /dev/mmcblk0p2
 
 -----------------------------
 
