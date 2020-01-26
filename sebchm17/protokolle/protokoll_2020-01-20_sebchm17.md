@@ -131,7 +131,7 @@ Es muss mit dem Gerät verglichen werden.
 
           sebchm17@pi16:ssh -keyscan pi16
 
-Es ist aber nicht zu 100 Prozent sicher. Man muss am Gerät arbeiten um sicher zu gehne das kein MIA dazwische ist.
+Es ist aber nicht zu 100 Prozent sicher. Man muss am Gerät arbeiten um sicher zu gehen das kein MIA dazwischen ist.
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
