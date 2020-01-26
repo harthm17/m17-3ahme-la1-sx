@@ -61,3 +61,14 @@ So legt man eine SSH an:
 touch/media/Schnabel/boot/ssh
 ```
 #### Veränderungen vornehmen
+
+Der Grund warum man z.B. Name und Passwort ändert ist, weil es bei den Raspberrys gleich ist. Erst wenn amn das Login geändert hat, kann kein anderer mehr auf dem RPI zugreifen und man ist viel sicherer.
+
+**Name ändern:**
+```
+sudo /nano/etc/hostname
+```
+**Passwort ändern:**
+```
+passwd
+```
