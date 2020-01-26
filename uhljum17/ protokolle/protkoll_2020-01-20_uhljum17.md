@@ -13,13 +13,13 @@
 ------------------------------
 ## Arduino Nano und Raspberry Pi
 
-  Arduino Nano                              | Raspberry Pi
-  ------------------------------------------|-----------------------------------------
-  einfeche, kostengünstige 8Bit Architektur | leistungsfähigere 32Bit Architektur
-  Preis ca. 1-3€                            | Preis ca. 30€+
-  kein Standartbetriebsystem                | Standartbetriebssystem möglich (Respbian, Linux Debian)
-  Verbrauch ca. 5mA (umgerechntet 4 Cent)   | Verbrauch ca. 1W (umgerechnet ca. 1-2€)
-  nicht echtzeitfähig                       | echtzeitfähig 
+  Arduino Nano                                | Raspberry Pi
+  --------------------------------------------|-----------------------------------------
+  einfeche, kostengünstige 8Bit Architektur   | leistungsfähigere 32Bit Architektur
+  Preis ca. 1-3€                              | Preis ca. 30€+
+  kein Standartbetriebsystem                  | Standartbetriebssystem möglich (Respbian, Linux Debian)
+  Verbrauch ca. 5mA (umgerechntet 4 Cent/Jahr)| Verbrauch ca. 1W (umgerechnet ca. 1-2€/Jahr)
+  nicht echtzeitfähig                         | echtzeitfähig 
   
   Echtzeitfähig Bedeutet: es muss 100% gewährleistet sein, dass eine Aufgabe in z.B. in 1ms erledigt ist. (z.B. beim Röntegn)
   
@@ -31,3 +31,12 @@
        |       |
     Ubuntu ~ Raspbian
      (PC)     (RPI)
+    
+    
+[Webseite von Raspberry](https://www.raspberrypi.org) 
+
+[Zum Download](https://www.raspberrypi.org/downloads)
+
+--------------------------------------
+
+
