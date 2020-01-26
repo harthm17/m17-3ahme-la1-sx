@@ -43,7 +43,7 @@
    1) Herunterladen der [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) ZipDatei.
    2) Unter Linux können wir die ZIP-Datei mit folgendem Befehl auf der MMC entpacken.
    ````bash
-unzip-p Downloads/NamederZipDatei.zip | dd bs=4M of=/dev/nmcblk0
+michael@michael-GL752VW:~$ unzip-p Downloads/NamederZipDatei.zip | dd bs=4M of=/dev/nmcblk0
 ````
 Laut 
 
@@ -60,7 +60,7 @@ dd (disk dump) dient zum bit-genauen Kopieren von Festplatten, Partitionen oder 
 Mit diesem Befehlm haben wir über SSH auf den Raspberry PI zugegriffen.
 
  ````bash
-ssh pi@10.200.114.222
+michael@michael-GL752VW:~$ ssh pi@10.200.114.222
 ````
 
 ## Raspberry Name und Passwort ändern und Benutzer erstellen
@@ -68,23 +68,25 @@ ssh pi@10.200.114.222
 Hostname ändern
 
  ````bash
-sudo nano /etc/hostname
-sudo nano /etc/hosts
+michael@michael-GL752VW:~$ sudo nano /etc/hostname
+michael@michael-GL752VW:~$ sudo nano /etc/hosts
 ````
 Passwort ändern
 
  ````bash
-sudo passwd
+michael@michael-GL752VW:~$ sudo passwd
 ````
 Benutzer erstellen
 
  ````bash
-sudo adduser <name>
+michael@michael-GL752VW:~$ sudo adduser <name>
 ````
+Benutzer in die Sudo Gruppe hinzufügen:
 
-
-
-     
+````bash
+michael@michael-GL752VW:~$ sudo usermod -G sudo <name>
+````
+   
 
 
    
