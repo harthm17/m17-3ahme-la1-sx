@@ -25,6 +25,9 @@ Ein [Raspberry Pie](https://de.wikipedia.org/wiki/Raspberry_Pi) ist ein vollwär
 4. Wesentlich mehr Leistung als Arduino Nano (>>1000)
 5. Benötigt auf das Jahr gerechnet 8,76kWh Leistung
 
+![RPI](https://www.bing.com/images/search?view=detailV2&ccid=qqtVnd8N&id=2A5A6FBD810A790BDD42E2701552486CB35DFBF2&thid=OIP.qqtVnd8NwCvhzJ2_hPbdnQHaEW&mediaurl=https%3a%2f%2fupload.wikimedia.org%2fwikipedia%2fcommons%2fthumb%2ff%2ff1%2fRaspberry_Pi_4_Model_B_-_Side.jpg%2f1200px-Raspberry_Pi_4_Model_B_-_Side.jpg&exph=706&expw=1200&q=raspberry+pi&simid=607991455301960062&selectedIndex=0&ajaxhist=0)
+
+
 #### Informationen über Arduino Nano
 1. Hat eine 8Bit Architektur
 2. Der Preis liegt zwischen 1-3 Euro
