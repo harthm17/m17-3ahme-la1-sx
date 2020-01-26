@@ -48,11 +48,15 @@ Ein [Raspberry Pie](https://de.wikipedia.org/wiki/Raspberry_Pi) ist ein vollwär
 
 ### Inbetriebnahme des Raspberry Pies
 #### Installation
+1. Das gewünschte Betriebssystem als Zip-Datei downloaden.
+2. Windows braucht ein zusätzliches Tool und ein Dateisystem. Linux braucht kein Zusatz Tool und die Zip-Datei kann direkt auf die MMC-Karte kopiert werden.
+3. Über die Secure Shell auf das Netzwerk des RPIs zugreifen. Man sollte den Raspberry Pie über Bildschirm und Maus in Betrieb nehmen, weil man dann eine Datei mit dem Namen ssh anlegen kann.
+**Wichtig:** Bei Windows darf man keine Dateieendung hinzufügen, da beim boot dann die Datei von der ssh gelöscht wird.
 
 #### SSH
 Wir wollen über die [SSH](https://de.wikipedia.org/wiki/Secure_Shell) auf das Netzwerk zugreifen. Früher war die SSH standardmäßig aktiviert, doch heutzutage ist das nicht mehr so, weil wenn man ein ungeeignetes Passwort hat, können andere auf dem Raspberry Pi zugreifen und Veränderungen vornehmen bzw. Schaden anrichten.
 
-Solegtman eine SSH an:
+So legt man eine SSH an:
 ```
 touch/media/Schnabel/boot/ssh
 ```
