@@ -18,12 +18,12 @@
 Ein [Raspberry Pie](https://de.wikipedia.org/wiki/Raspberry_Pi) ist ein vollwärtiger Computer.
 
 >Der Raspberry Pi ist ein Einplatinencomputer, der von der britischen Raspberry Pi Foundation entwickelt wurde. Der Rechner enthält ein Ein-Chip-System (SoC) von Broadcom mit einer ARM-CPU. Die Platine hat das Format einer Kreditkarte.<
-Quelle : (https://de.wikipedia.org/wiki/Raspberry_Pi)
+* Quelle : (https://de.wikipedia.org/wiki/Raspberry_Pi)
 
 [Arduino Nano](http://www.geeetech.com/wiki/index.php/Arduino_Nano) ist eine kostengünstigere Variante, hat aber weniger zum bieten.
 
->Das Arduino Nano ist ein kleines, komplettes und Brotbrett-freundliches Board, das auf dem ATmega328 (Arduino Nano 3.0) oder ATmega168 (Arduino Nano 2.x) basiert. Es hat mehr oder weniger die gleiche Funktionalität wie die Arduino Duemilanove, aber in einem anderen Paket. Es fehlt nur eine DC-Netzbuchse und funktioniert mit einem Mini-B USB-Kabel anstelle eines Standard-Kabels. Der Nano wurde von Gravitech entwickelt und wird produziert.<
-Quelle: (http://www.geeetech.com/wiki/index.php/Arduino_Nano)
+>Das Arduino Nano ist ein kleines, komplettes und breadboard-freundliches Board, das auf dem ATmega328 (Arduino Nano 3.0) oder ATmega168 (Arduino Nano 2.x) basiert. Es hat mehr oder weniger die gleiche Funktionalität wie die Arduino Duemilanove, aber in einem anderen Paket. Es fehlt nur eine DC-Netzbuchse und funktioniert mit einem Mini-B USB-Kabel anstelle eines Standard-Kabels. Der Nano wurde von Gravitech entwickelt und wird produziert.<
+* Quelle: (http://www.geeetech.com/wiki/index.php/Arduino_Nano)
 
 #### Informationen über RPI
 1. Er ist sehr Leistungsfähig (32Bit Architektur)
