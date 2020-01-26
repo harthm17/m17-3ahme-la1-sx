@@ -11,7 +11,7 @@
 1. [Raspberry Pie](https://de.wikipedia.org/wiki/Raspberry_Pi),[Arduino Nano](http://www.geeetech.com/wiki/index.php/Arduino_Nano)
 2. Inbetriebnahme des [Raspberry Pies](https://de.wikipedia.org/wiki/Raspberry_Pi)
 
-
+'''
 ### Raspberry Pie
 Ein [Raspberry Pie](https://de.wikipedia.org/wiki/Raspberry_Pi) ist ein vollwärtiger Computer.
 
@@ -19,3 +19,4 @@ Ein [Raspberry Pie](https://de.wikipedia.org/wiki/Raspberry_Pi) ist ein vollwär
 1. Er ist sehr Leistungsfähig (32Bit Architektur)
 2. Volle RPI kostet ca. 30 Euro
 3. Auf einem RPI ist auch ein Standardbetriebssystem möglich (z.B. Linux Debian)
+'''
