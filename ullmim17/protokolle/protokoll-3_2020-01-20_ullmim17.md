@@ -88,9 +88,9 @@ michael@michael-GL752VW:~$ sudo usermod -G sudo <name>
 ````
 ## Man in the middle
 
-Laut [Wikipedia](https://de.wikipedia.org/wiki/Man-in-the-Middle-Angriff)
+Laut [Kaspersky](https://www.kaspersky.de/blog/was-ist-eine-man-in-the-middle-attacke/905/)
 
->Ein Man-in-the-Middle-Angriff (MITM-Angriff), auch Janusangriff (nach dem doppelgesichtigen Janus der römischen Mythologie) genannt, ist eine Angriffsform, die in Rechnernetzen ihre Anwendung findet. Der Angreifer steht dabei entweder physisch oder – heute meist – logisch zwischen den beiden Kommunikationspartnern, hat dabei mit seinem System vollständige Kontrolle über den Datenverkehr zwischen zwei oder mehreren Netzwerkteilnehmern und kann die Informationen nach Belieben einsehen und sogar manipulieren. Die Janusköpfigkeit des Angreifers besteht darin, dass er den Kommunikationspartnern vortäuscht, das jeweilige Gegenüber zu sein.
+>Das Konzept hinter der MITM-Attacke ist erstaunlich einfach und ist nicht auf die Computersicherheit oder Online-Bereiche beschränkt. In seiner einfachsten Form braucht sich der Angreifer nur zwischen zwei Parteien zu schalten, die miteinander kommunizieren, und muss dann nur die gesendeten Nachrichten abhören und sich zumindest als eine der beiden Parteien ausgeben. In der realen Welt kann so ein Angreifer zum Beispiel gefälschte Rechnungen an ein Opfer senden und dann einfach die von ihm zurückgeschickten Schecks abfangen. In der Online-Welt sind die Angriffe etwas komplexer, die Grundlagen sind aber die gleichen. Der Angreifer schaltet sich zwischen sein Opfer und eine Ressource ein, die das Opfer versucht zu erreichen. Um erfolgreich zu sein, muss dabei die Anwesenheit des Angreifers sowohl für das Opfer als auch für die andere Ressource unentdeckt bleiben.
 
 ![Man in the Middle](https://wiki.botfrei.de/images/7/73/Mitm.jpg)
 
