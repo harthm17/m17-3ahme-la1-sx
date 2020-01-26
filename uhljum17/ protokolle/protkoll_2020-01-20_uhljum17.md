@@ -67,7 +67,7 @@ Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Secure_Shell)
     unmount /dev/mmcblk0p2
     
 
-##### Name und Passwort ändern
+#### Name und Passwort ändern
 
 Um Namen und passwort zu ändern folgendes machen:
 
@@ -84,6 +84,8 @@ Passwort ändern mit:
      passwd
 
 Danach einfach neuen Namen und Passwort eingeben.
+
+mit `ip a` kann man überpfüfen ob man man auf seinem Gerät ist(Ip-Adresse)
 
 -----------------------------
 
