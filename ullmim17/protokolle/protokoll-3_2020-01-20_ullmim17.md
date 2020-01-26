@@ -42,4 +42,18 @@
    2) Raspbian Buster mit Desktop
    3) Raspbian Buster Lite 
    
+   ### Installation
+   
+   1) Herunterladen der [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) ZipDatei.
+   2) Unter Linux können wir die ZIP-Datei mit folgendem Befehl auf der MMC entpacken.
+   ````bash
+unzip-p Downloads/NamederZipDatei.zip | dd bs=4M of=/dev/nmcblk0
+````
+Laut 
+
+[wiki.ubuntuuseres](https://wiki.ubuntuusers.de/dd/)
+
+dd (disk dump) dient zum bit-genauen Kopieren von Festplatten, Partitionen oder Dateien. "Bit-genaues" Kopieren bedeutet, dass der Datenträger Bit-für-Bit bzw. Byte-für-Byte ausgelesen und beschrieben wird, unabhängig von dessen Inhalt und Belegung. dd ignoriert Dateisysteme und funktioniert mit allen blockorientierten Datenträgern, also auch mit Daten-CDs/DVDs.
+
+
    
