@@ -13,8 +13,7 @@
   4.  [Man in the middle](#man-in-the-middle)
       
    ## Vergleich Arduino, Raspberry PI
-   Ein Rasperry PI ist quasi ein vollwertiger PC. Bei einem Mykrocontroller mit 8 Bit ist es kaum möglich 
-   ins Netzwerk zu gehen oder zu verschlüsseln.
+   Ein Rasperry PI ist quasi ein vollwertiger PC. Bei einem Mykrocontroller wie dem Arduino Nano mit 8 Bit ist es kaum möglich ins Netzwerk zu gehen oder zu verschlüsseln.
    
    
    |      | Arduino Nano | Raspberry PI |
