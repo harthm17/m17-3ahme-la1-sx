@@ -83,6 +83,9 @@ Man kann den alten Benutzer mit dem neuen Benutzer deaktiviern, aber nur wenn de
       passwd nologin
       
 ### Man in the middle
+
+![MIA](http://wiki.cas.mcmaster.ca/images/3/38/Man_in_the_Middle.jpg)
+
 Da der Login-Name und das passwort über das Netzwerk geht kann es sein, dass wir einen Hacker dazwischen haben also einen "Man in the middle". Also muss man überprüfen dass man keinen MIA dazwischen haben.
 
     schueler@pxx:ssh -keyscan 10.200.114.217
@@ -92,3 +95,5 @@ Dann muss man es mit seinem Gerät vergleichen.
     strmam17@pi17:ssh -keyscan pi17
     
 Wenn man zu 100 prozent sicher sein will, dass es keinen MIA gibt muss man direkt zum Gerät gehen und dort arbeiten.
+
+
