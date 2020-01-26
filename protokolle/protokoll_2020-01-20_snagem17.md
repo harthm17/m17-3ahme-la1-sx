@@ -45,6 +45,9 @@ Ein [Raspberry Pie](https://de.wikipedia.org/wiki/Raspberry_Pi) ist ein vollwär
 4. Hat eine geringe Leistung
 5. Benötigt auf das Jahr gerechnet 0,022kWh Leistung
 
+![Arduino Nano](https://www.distrelec.biz/Web/WebShopImages/landscape_large/73/3f/arduino-nano-A000005-11096733f.jpg)
+
+
 ### Inbetriebnahme des Raspberry Pies
 #### Installation
 1. Das gewünschte Betriebssystem als Zip-Datei downloaden.
