@@ -4,7 +4,7 @@
 * **Datum:** 20.01.2020
 * **Gefehlt:** Strohriegl
 * **Erstellt von:** Georg Schnabel
-* **Protokoll letzte Einheit:**
+* **Protokoll letzte Einheit:** [protokoll_2019-10-14_snagem17.md](
 * **Protokoll nächste Einheit:**
 
 ## Inhaltsverzeichnis
