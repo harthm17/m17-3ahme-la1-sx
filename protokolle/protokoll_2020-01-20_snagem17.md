@@ -8,16 +8,16 @@
 * **Protokoll nächste Einheit:**
 
 ## Inhaltsverzeichnis
-1. [Raspberry Pie](https://de.wikipedia.org/wiki/Raspberry_Pi), [Arduino Nano](http://www.geeetech.com/wiki/index.php/Arduino_Nano)
+1. [Raspberry Pi](https://de.wikipedia.org/wiki/Raspberry_Pi), [Arduino Nano](http://www.geeetech.com/wiki/index.php/Arduino_Nano)
 * Informationen über RPI
 * Informationen über Arduino Nano
-2. Inbetriebnahme des [Raspberry Pies](https://de.wikipedia.org/wiki/Raspberry_Pi)
+2. Inbetriebnahme des [Raspberry Pi](https://de.wikipedia.org/wiki/Raspberry_Pi)
 * Installation
 * über SSH zugreifen
 * Veränderungen vornehmen
 
 
-### Raspberry Pie und Arduino Nano
+### Raspberry Pi und Arduino Nano
 Ein [Raspberry Pie](https://de.wikipedia.org/wiki/Raspberry_Pi) ist ein vollwärtiger Computer.
 
 >Der Raspberry Pi ist ein Einplatinencomputer, der von der britischen Raspberry Pi Foundation entwickelt wurde. Der Rechner enthält ein Ein-Chip-System (SoC) von Broadcom mit einer ARM-CPU. Die Platine hat das Format einer Kreditkarte.<
@@ -46,4 +46,10 @@ Ein [Raspberry Pie](https://de.wikipedia.org/wiki/Raspberry_Pi) ist ein vollwär
 4. Hat eine geringe Leistung
 5. Benötigt auf das Jahr gerechnet 0,022kWh Leistung
 
-## Inbetriebnahme des Raspberry Pies
+### Inbetriebnahme des Raspberry Pies
+#### Installation
+
+#### SSH
+Wir wollen über die [SSH](https://de.wikipedia.org/wiki/Secure_Shell) auf das Netzwerk zugreifen. Früher war die SSH standardmäßig aktiviert, doch heutzutage ist das nicht mehr so, weil wenn man ein ungeeignetes Passwort hat, können andere auf dem Raspberry Pi zugreifen und Veränderungen vornehmen bzw. Schaden anrichten.
+
+#### Veränderungen vornehmen
