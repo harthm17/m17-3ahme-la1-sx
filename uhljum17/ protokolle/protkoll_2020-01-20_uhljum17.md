@@ -7,7 +7,7 @@
 * **Gefehlt:** Strohtiegl
 * **Gruppe:** 4
 * **Protkollverfasser:** Uhl Julian
-* **Letztes Protokoll:**1. [Protokoll]()
+* **Letztes Protokoll:**1.  [Protokol 2019-10-14](
 * **Nächstes Protkoll:**
 
 ------------------------------
