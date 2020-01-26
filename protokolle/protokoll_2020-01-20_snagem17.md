@@ -12,6 +12,9 @@
 * Informationen über RPI
 * Informationen über Arduino Nano
 2. Inbetriebnahme des [Raspberry Pies](https://de.wikipedia.org/wiki/Raspberry_Pi)
+* Installation
+* über SSH zugreifen
+* Veränderungen vornehmen
 
 
 ### Raspberry Pie und Arduino Nano
