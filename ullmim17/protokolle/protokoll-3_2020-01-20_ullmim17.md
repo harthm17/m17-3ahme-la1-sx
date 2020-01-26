@@ -10,7 +10,7 @@
       * [Installation](#installation)
   2.  [SSH](#ssh)
   3.  [Raspberry Name und Passwort ändern und Benutzer erstellen](#raspberry-name-und-passwort-ändern-und-benutzer-erstellen)
-
+  4.  [Man in the middle](#man-in-the-middle)
       
    ## Vergleich Arduino, Raspberry PI
    Ein Rasperry PI ist quasi ein vollwertiger PC. Bei einem Mykrocontroller mit 8 Bit ist es kaum möglich 
@@ -86,7 +86,13 @@ Benutzer in die Sudo Gruppe hinzufügen:
 ````bash
 michael@michael-GL752VW:~$ sudo usermod -G sudo <name>
 ````
-   
+## Man in the middle
+
+Laut [Wikipedia](https://de.wikipedia.org/wiki/Man-in-the-Middle-Angriff)
+
+>Ein Man-in-the-Middle-Angriff (MITM-Angriff), auch Janusangriff (nach dem doppelgesichtigen Janus der römischen Mythologie) genannt, ist eine Angriffsform, die in Rechnernetzen ihre Anwendung findet. Der Angreifer steht dabei entweder physisch oder – heute meist – logisch zwischen den beiden Kommunikationspartnern, hat dabei mit seinem System vollständige Kontrolle über den Datenverkehr zwischen zwei oder mehreren Netzwerkteilnehmern und kann die Informationen nach Belieben einsehen und sogar manipulieren. Die Janusköpfigkeit des Angreifers besteht darin, dass er den Kommunikationspartnern vortäuscht, das jeweilige Gegenüber zu sein.
+
+![Man in the Middle](https://wiki.botfrei.de/images/7/73/Mitm.jpg)
 
 
    
