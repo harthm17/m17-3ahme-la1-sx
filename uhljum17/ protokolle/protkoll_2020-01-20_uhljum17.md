@@ -17,10 +17,17 @@
   ------------------------------------------|-----------------------------------------
   einfeche, kostengünstige 8Bit Architektur | leistungsfähigere 32Bit Architektur
   Preis ca. 1-3€                            | Preis ca. 30€+
-  kein Standartbetriebsystem                | Standartbetriebssystem möglich (Respian, Linux Debian)
+  kein Standartbetriebsystem                | Standartbetriebssystem möglich (Respbian, Linux Debian)
   Verbrauch ca. 5mA (umgerechntet 4 Cent)   | Verbrauch ca. 1W (umgerechnet ca. 1-2€)
   nicht echtzeitfähig                       | echtzeitfähig 
   
   Echtzeitfähig Bedeutet: es muss 100% gewährleistet sein, dass eine Aufgabe in z.B. in 1ms erledigt ist. (z.B. beim Röntegn)
   
-  Das Pi in Raspberry steht für: Python(Programmiersprache)
+  Das Pi in Raspberry steht für: Python (Programmiersprache)
+  
+         Linux 
+           |
+         Debian
+       |       |
+    Ubuntu ~ Raspbian
+     (PC)     (RPI)
