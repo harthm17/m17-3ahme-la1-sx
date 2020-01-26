@@ -49,6 +49,8 @@ Es gibt drei verschiedene Varianten vom Raspain-Betriebssystem.
 * Raspbian Buster with desktop
 * Raspbian Buster Lite
 
+[Download Raspbain](https://www.raspberrypi.org/downloads/raspbian/)
+
 Für die den Gebrauch in der Schule benutzten wir das Raspbian Buster Lite.
 
 Auf den neuesten Modelle des Raspberry PI ist es sogar möglich Windows darauf laufen zu lassen, weil sie so leistungsfähig sind.
@@ -112,9 +114,10 @@ Man ändert den Namen und das Passwort, weil der Standard Login bei jedem Raspbe
 ## Man in the Middle
 
 Man in the Middle: 
-![alt text][logo]
 
 Login name und passwort werden über das Netzwerk transportiert. Ein "*Man in the Middle*" ist ein Angreifer der logisch zwischen den kommunizierenden Geräten steht und hat dabei mit seinem System vollständige Kontrolle über den Datenverkehr zwischen zwei oder mehreren Netzwerkteilnehmern und kann die Informationen nach Belieben einsehen und sogar manipulieren.
+
+![MIA](http://wiki.cas.mcmaster.ca/images/3/38/Man_in_the_Middle.jpg)
 
 Hostkeys:
 >Mithilfe des Netzwerkprotokolls SSH können Sie eine sichere und verschlüsselte Netzwerkverbindung zu einem entfernten Gerät wie z. B. einem Server herstellen. Mit einer solchen SSH-Verbindung warten Sie den Server von Ihrem lokalen Computer aus oder bedienen ihn per Kommandozeile. Abhängig von der genutzten Version des Protokolls kommen dabei verschiedene Verschlüsselungsalgorithmen zum Einsatz – SSH-2 greift beispielsweise standardmäßig auf AES zurück. Der Verschlüsselung der Verbindung muss allerdings zunächst eine erfolgreiche Authentifizierung vorausgehen. Während der Server sich gegenüber dem Client mit einem Sicherheitszertifikat identifiziert, gibt es verschiedene Varianten zur Anmeldung des Clients auf dem Server. Neben der bekannten klassischen Variante mit Benutzername und Passwort können Sie unter anderem auch Schlüsselpaare nutzen, die aus einem privaten und einem öffentlichen SSH-Schlüssel bestehen.
@@ -122,7 +125,4 @@ Hostkeys:
 [Ionos](https://www.ionos.de/digitalguide/server/sicherheit/ssh-keys-fuer-ihre-netzwerkverbindung-nutzen/)
 
 --------------------------------------------------------------------------------------------------------------------------------------------
-
-[logo](https://www.google.com/search?q=Man+in+the+middle&client=firefox-b-d&sxsrf=ACYBGNSuGjLEeM2CIidNJrTV1gNq2g-S_A:1579964683052&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiqnMONg5_nAhUkx4sKHft5BHsQ_AUoAXoECBEQAw&biw=1920&bih=976#imgrc=1qb5EHVvzpCVSM:)
-
 
