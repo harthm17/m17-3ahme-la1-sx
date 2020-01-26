@@ -13,7 +13,12 @@
 ------------------------------
 
 # Inhaltsverzeichnis
-  1.
+  1. [Arduino Nano und Raspberry Pi](Arduino-Nano-und-Raspberry-Pi)
+  2. [Betriebssysteme](Betriebssysteme)
+      1. [SSH](SSH)
+      2. [Über SSH auf das Netzwerk zugreifen](Über-SSH-auf-das-Netzwerk-zugreifen)
+  3.[Man in the Middle](Man-in-the-Middle)
+      
 
 ------------------------------
 ## Arduino Nano und Raspberry Pi
@@ -48,7 +53,7 @@
 
 [Zum Download](https://www.raspberrypi.org/downloads)
 
-AUf den neusten Paspberries ist auch auch möglich Windows laufen zu lassen.
+Auf den neusten Paspberries ist auch auch möglich Windows laufen zu lassen.
 
 ### SSH
 
