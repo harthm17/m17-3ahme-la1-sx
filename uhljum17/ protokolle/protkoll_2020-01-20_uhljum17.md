@@ -111,6 +111,7 @@ falls man alle rechte kann man den anderen Benutzer deaktivieren
 
 Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Man-in-the-Middle-Angriff)
 
+Der Man in the Midle könnte bei uns den Nutzernamen und das Passwort bekommen.
 
 Um die Schlüssel zu vergelichen muss man
 
