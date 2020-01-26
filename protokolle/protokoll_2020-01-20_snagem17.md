@@ -15,7 +15,7 @@
   * Installation
   * über SSH zugreifen
   * Veränderungen vornehmen
-
+3. [Man in the Middle](https://de.wikipedia.org/wiki/Man-in-the-Middle-Angriff)
 
 ### Raspberry Pi und Arduino Nano
 Ein [Raspberry Pie](https://de.wikipedia.org/wiki/Raspberry_Pi) ist ein vollwärtiger Computer.
@@ -72,3 +72,6 @@ sudo /nano/etc/hostname
 ```
 passwd
 ```
+### Man in the Middle
+>Ein Man-in-the-Middle-Angriff (MITM-Angriff), auch Janusangriff (nach dem doppelgesichtigen Janus der römischen Mythologie) genannt, ist eine Angriffsform, die in Rechnernetzen ihre Anwendung findet. Der Angreifer steht dabei entweder physisch oder – heute meist – logisch zwischen den beiden Kommunikationspartnern, hat dabei mit seinem System vollständige Kontrolle über den Datenverkehr zwischen zwei oder mehreren Netzwerkteilnehmern und kann die Informationen nach Belieben einsehen und sogar manipulieren. Die Janusköpfigkeit des Angreifers besteht darin, dass er den Kommunikationspartnern vortäuscht, das jeweilige Gegenüber zu sein.<
+* Quelle:(https://de.wikipedia.org/wiki/Man-in-the-Middle-Angriff)
