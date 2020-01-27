@@ -49,6 +49,8 @@
 ## Betriebssysteme
 
   In der Schule benutze wir Raspian Buster Lite, da das die minimalistische Version ist und wir mehr nicht brauchen. Die anderen beiden     Versionen sind auf der Website zu finden.
+  
+  Zum Endzippen wird bei Windows ein zusatzprogramm benötigt, bei Ubuntu gibt es dafür dd.
 
 [Webseite von Raspberry](https://www.raspberrypi.org) 
 
