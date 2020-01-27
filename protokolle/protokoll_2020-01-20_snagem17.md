@@ -48,18 +48,18 @@ Ein [Raspberry Pie](https://de.wikipedia.org/wiki/Raspberry_Pi) ist ein vollwär
 ![Arduino Nano](https://www.distrelec.biz/Web/WebShopImages/landscape_large/73/3f/arduino-nano-A000005-11096733f.jpg)
 
 
-### Inbetriebnahme des Raspberry Pies
+### Inbetriebnahme des Raspberry Pis
 #### Installation
 1. Das gewünschte Betriebssystem als Zip-Datei downloaden.
 2. Windows braucht ein zusätzliches Tool und ein Dateisystem. Linux braucht kein Zusatz Tool und die Zip-Datei kann direkt auf die MMC-Karte kopiert werden.
-3. Über die Secure Shell auf das Netzwerk des RPIs zugreifen. Man sollte den Raspberry Pie über Bildschirm und Maus in Betrieb nehmen, weil man dann eine Datei mit dem Namen ssh anlegen kann.
+3. Über die Secure Shell auf das Netzwerk des RPIs zugreifen. Man sollte den Raspberry Pi über Bildschirm und Maus in Betrieb nehmen, weil man dann eine Datei mit dem Namen ssh anlegen kann.
 **Wichtig:** Bei Windows darf man keine Dateieendung hinzufügen, da beim boot dann die Datei von der ssh gelöscht wird.
 
 #### SSH
 Wir wollen über die [SSH](https://de.wikipedia.org/wiki/Secure_Shell) auf das Netzwerk zugreifen. Früher war die SSH standardmäßig aktiviert, doch heutzutage ist das nicht mehr so, weil wenn man keine Passwortänderungen durchführt, können andere auf dem Raspberry Pi zugreifen und Veränderungen vornehmen bzw. Schaden anrichten.
 
 Jeder von uns hat einen Pi mit einer eigenen IP-Adresse zugewiesen bekommen.
-**Meine IP-Adresse:** 10.200.114.224
+* **Meine IP-Adresse:** 10.200.114.224
 ```
 ssh pi@10.200.114.224
 ```
