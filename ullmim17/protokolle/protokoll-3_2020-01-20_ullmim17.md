@@ -18,7 +18,7 @@
    
    |      | Arduino Nano | Raspberry PI |
    |:----:|:------------:|:------------:|
-   | CPU  | geringe Leistung | wesentlich Leistungsstärker(1000x größer im Vergleich zum Nano)|
+   | CPU  | geringe Leistung | wesentlich mehr Leistung(1000x größer im Vergleich zum Nano)|
    | Kosten | 1-3€ | Zero 12-14€ voller RPI 30€ |
    | Architektur | 8 Bit Architektur | 32 Bit Architektur |
    | Betriebssystem | keine Standardbetriebssysteme | Standard Betriebssysteme möglich |
