@@ -13,7 +13,7 @@
   * Informationen über Arduino Nano
 2. Inbetriebnahme des [Raspberry Pi](https://de.wikipedia.org/wiki/Raspberry_Pi)
   * Installation
-  * über SSH zugreifen
+  * über [SSH](https://de.wikipedia.org/wiki/Secure_Shell) zugreifen
   * Veränderungen vornehmen
 3. [Man in the Middle](https://de.wikipedia.org/wiki/Man-in-the-Middle-Angriff)
 
