@@ -74,11 +74,38 @@ Mit -x kann man den Desktop auf den Raspberry Speigeln, dass geht aber nur z.B. 
      }  
      ```     
  
- 2. **Beim Hochfahren Programm Starten**
+ **2. Beim Hochfahren Programm Starten**
  
  Das das Programm beim beim Hochfahren Startet geht mit 
  
   * rc.local
   
-![rc.local](http://1.bp.blogspot.com/_ZohlokReQFY/SiHgcAr94nI/AAAAAAAAACc/i8fSbXh2N24/s320/slrl.png)
+       ![rc.local](http://1.bp.blogspot.com/_ZohlokReQFY/SiHgcAr94nI/AAAAAAAAACc/i8fSbXh2N24/s320/slrl.png)
        
+>Viele Betriebssysteme durchlaufen beim Start (Booten) mehrere abgestufte Systemzustände, bzw. starten in einen bestimmten Zustand, den Runlevel. Jedem Runlevel sind bestimmte System-Dienste zugeordnet, die beim Booten als Prozesse in wohldefinierter Reihenfolge innerhalb des Betriebssystems gestartet werden. Auf diese Weise werden Betriebsmittel des Computers stufenweise in Betrieb genommen. Bei Beendigung des Betriebssystems (Shutdown) werden die Runlevel in umgekehrter Reihenfolge durchlaufen, die laufenden Prozesse werden stufenweise beendet, bis der Computer ausgeschaltet werden kann. Daneben kann auch direkter Wechsel von einem Runlevel in einen anderen erfolgen. 
+Runlevel kennt man vor allem aus den unterschiedlichen Unix-Systemen wie Solaris (vor Solaris 10), GNU/Linux, HP-UX oder AIX. Doch auch in Windows entsprechen die Startoptionen Abgesicherter Modus, Abgesicherter Modus mit Netzwerk oder Windows normal Starten im Windows-Bootmenü jeweils genau einem Runlevel. Solaris 10 verwendet runlevel nur noch rudimentär, die Hauptsystemsteuerung wird dort durch Service Management Facility (SMF) erledigt. 
+Idee der unterschiedlichen Runlevel ist es, Sicherheitsstufen bereitzustellen, in denen nur bestimmte Systemprozesse aktiv sind. Dies ist wichtig, falls beispielsweise ein System von Computerviren befallen ist und ohne Netzwerk-Anbindung laufen soll. 
+Im Gegensatz zu den am System V orientierten Betriebssystemen kennt FreeBSD keine Runlevels, sondern hält am traditionellen init von BSD fest. 
+
+Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Runlevel)
+ 
+ 
+ * man schreibt Service Units
+       
+       ll /etc/systemd/system
+       
+       cd /etc/systemd/system
+       
+       sudo nano programm.dervice
+       
+    Programm starten
+       
+       sudo systemctl start programm
+       
+    Status anzeigen lassen
+    
+       sudo systemctl status programm
+    
+    Programm stopen
+    
+       sudo systemctl stop programm
