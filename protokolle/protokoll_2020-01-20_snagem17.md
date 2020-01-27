@@ -56,9 +56,18 @@ Ein [Raspberry Pie](https://de.wikipedia.org/wiki/Raspberry_Pi) ist ein vollwär
 **Wichtig:** Bei Windows darf man keine Dateieendung hinzufügen, da beim boot dann die Datei von der ssh gelöscht wird.
 
 #### SSH
-Wir wollen über die [SSH](https://de.wikipedia.org/wiki/Secure_Shell) auf das Netzwerk zugreifen. Früher war die SSH standardmäßig aktiviert, doch heutzutage ist das nicht mehr so, weil wenn man ein ungeeignetes Passwort hat, können andere auf dem Raspberry Pi zugreifen und Veränderungen vornehmen bzw. Schaden anrichten.
+Wir wollen über die [SSH](https://de.wikipedia.org/wiki/Secure_Shell) auf das Netzwerk zugreifen. Früher war die SSH standardmäßig aktiviert, doch heutzutage ist das nicht mehr so, weil wenn man keine Passwortänderungen durchführt, können andere auf dem Raspberry Pi zugreifen und Veränderungen vornehmen bzw. Schaden anrichten.
 
-So legt man eine SSH an:
+Jeder von uns hat einen Pi mit einer eigenen IP-Adresse zugewiesen bekommen.
+**Meine IP-Adresse:** 10.200.114.224
+```
+ssh pi@10.200.114.224
+```
+**Pi Neustarten:**
+```
+sudo reboot
+```
+**So legt man eine SSH an:**
 ```
 touch/media/Schnabel/boot/ssh
 ```
@@ -74,6 +83,16 @@ sudo /nano/etc/hostname
 ```
 passwd
 ```
+**Benutzer hinzufügen:**
+```
+sudo adduser <Benutzer>
+```
+**Superuser vergeben:**
+```
+pi@pi24 sudo usermod -G sudo <Benutzer>
+```
+
+
 ### Man in the Middle
 >Ein Man-in-the-Middle-Angriff, auch Janusangriff genannt, ist eine Angriffsform, die in Rechnernetzen ihre Anwendung findet. Der Angreifer steht dabei entweder physisch oder – heute meist – logisch zwischen den beiden Kommunikationspartnern, hat dabei mit seinem System vollständige Kontrolle über den Datenverkehr zwischen zwei oder mehreren Netzwerkteilnehmern und kann die Informationen nach Belieben einsehen und sogar manipulieren. Die Janusköpfigkeit des Angreifers besteht darin, dass er den Kommunikationspartnern vortäuscht, das jeweilige Gegenüber zu sein.<
 * Quelle:(https://de.wikipedia.org/wiki/Man-in-the-Middle-Angriff)
