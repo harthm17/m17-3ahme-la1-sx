@@ -8,7 +8,7 @@
 * **Gruppe:** 4
 * **Protkollverfasser:** Uhl Julian
 * **Letztes Protokoll:** [2. Protokol](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/uhljum17/uhljum17/protokolle/protkoll_2019-10-14_uhljum17.md)
-* **Nächstes Protkoll:**
+* **Nächstes Protkoll:** [4. Protokoll](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/uhljum17/uhljum17/%20protokolle/protkoll_2020-01-27_uhljum17.md)
 
 ------------------------------
 
