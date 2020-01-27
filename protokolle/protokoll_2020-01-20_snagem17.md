@@ -1,6 +1,6 @@
 # Protokoll Labor/SX 3AHME (2019/20)
 
-* **Thema:** Raspberry Pie
+* **Thema:** Raspberry Pi
 * **Datum:** 20.01.2020
 * **Gefehlt:** Strohriegl
 * **Erstellt von:** Georg Schnabel
@@ -18,22 +18,23 @@
 3. [Man in the Middle](https://de.wikipedia.org/wiki/Man-in-the-Middle-Angriff)
 
 ### Raspberry Pi und Arduino Nano
-Ein [Raspberry Pie](https://de.wikipedia.org/wiki/Raspberry_Pi) ist ein vollwärtiger Computer.
+Ein [Raspberry Pi](https://de.wikipedia.org/wiki/Raspberry_Pi) ist ein vollwärtiger Computer.
 
 >Der Raspberry Pi ist ein Einplatinencomputer, der von der britischen Raspberry Pi Foundation entwickelt wurde. Der Rechner enthält ein Ein-Chip-System (SoC) von Broadcom mit einer ARM-CPU. Die Platine hat das Format einer Kreditkarte.<
 * Quelle : (https://de.wikipedia.org/wiki/Raspberry_Pi)
 
-[Arduino Nano](http://www.geeetech.com/wiki/index.php/Arduino_Nano) ist eine kostengünstigere Variante, hat aber weniger zum bieten.
+[Arduino Nano](http://www.geeetech.com/wiki/index.php/Arduino_Nano) ist eine kostengünstigere Variante, hat aber weniger Rechenleistung.
 
 >Das Arduino Nano ist ein kleines, komplettes und breadboard-freundliches Board, das auf dem ATmega328 (Arduino Nano 3.0) oder ATmega168 (Arduino Nano 2.x) basiert. Es hat mehr oder weniger die gleiche Funktionalität wie die Arduino Duemilanove, aber in einem anderen Paket. Es fehlt nur eine DC-Netzbuchse und funktioniert mit einem Mini-B USB-Kabel anstelle eines Standard-Kabels. Der Nano wurde von Gravitech entwickelt und wird produziert.<
 * Quelle: (http://www.geeetech.com/wiki/index.php/Arduino_Nano)
 
 #### Informationen über RPI
-1. Er ist sehr Leistungsfähig (32Bit Architektur)
+1. Er ist sehr Leistungsfähig
 2. Volle RPI kostet ca. 30 Euro
 3. Auf einem RPI ist auch ein Standardbetriebssystem möglich (z.B. Linux Debian)
 4. Wesentlich mehr Leistung als Arduino Nano (>>1000)
 5. Benötigt auf das Jahr gerechnet 8,76kWh Leistung
+6. Hat eine 32Bit Architektur
 
 ![RPI](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Raspberry_Pi_4_Model_B_-_Side.jpg/1200px-Raspberry_Pi_4_Model_B_-_Side.jpg)
 
@@ -73,7 +74,7 @@ touch/media/Schnabel/boot/ssh
 ```
 #### Veränderungen vornehmen
 
-Der Grund warum man z.B. Name und Passwort ändert ist, weil es bei den Raspberrys gleich ist. Erst wenn amn das Login geändert hat, kann kein anderer mehr auf dem RPI zugreifen und man ist viel sicherer.
+Der Grund warum wir z.B. Name und Passwort ändern, ist, weil die Passwörter bei den Raspberrys gleich sind. Erst wenn amn das Login geändert hat, kann kein anderer mehr auf dem RPI zugreifen und man ist viel sicherer.
 
 **Name ändern:**
 ```
