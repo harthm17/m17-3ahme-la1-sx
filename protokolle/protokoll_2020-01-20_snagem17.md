@@ -78,4 +78,4 @@ passwd
 >Ein Man-in-the-Middle-Angriff, auch Janusangriff genannt, ist eine Angriffsform, die in Rechnernetzen ihre Anwendung findet. Der Angreifer steht dabei entweder physisch oder – heute meist – logisch zwischen den beiden Kommunikationspartnern, hat dabei mit seinem System vollständige Kontrolle über den Datenverkehr zwischen zwei oder mehreren Netzwerkteilnehmern und kann die Informationen nach Belieben einsehen und sogar manipulieren. Die Janusköpfigkeit des Angreifers besteht darin, dass er den Kommunikationspartnern vortäuscht, das jeweilige Gegenüber zu sein.<
 * Quelle:(https://de.wikipedia.org/wiki/Man-in-the-Middle-Angriff)
 
-![Man in the Middle](http://wiki.cas.mcmaster.ca/images/3/38/Man_in_the_Middle.jpg)
+![Man in the Middle](https://cdn.arstechnica.net/wp-content/uploads/2015/02/man-in-the-middle-640x316.png)
