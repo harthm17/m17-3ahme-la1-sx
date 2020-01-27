@@ -31,7 +31,9 @@ Mit -x kann man den Desktop auf den Raspberry Speigeln, dass geht aber nur z.B. 
 
 ### Programm schreiben
 
-### **Anmelden und Programm schreiben**
+#### Anmelden und Programm schreiben
+
+1. Folgendes machen:
 
        ssh uhljum17@10.200.114.227
        
@@ -83,7 +85,7 @@ Mit -x kann man den Desktop auf den Raspberry Speigeln, dass geht aber nur z.B. 
  
 #### Beim Hochfahren Programm Starten
  
- Das das Programm beim beim Hochfahren Startet geht mit 
+2. Das das Programm beim beim Hochfahren Startet geht mit 
  
   * rc.local
   
