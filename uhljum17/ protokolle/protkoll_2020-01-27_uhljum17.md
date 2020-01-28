@@ -1,9 +1,8 @@
-       3. [Beim Hochfahren Programm Starten]()
 # 4. Protopkoll
 
 ------------------------------
 
-* **Thema:** Raspberry, Arduino, Rasperry einrichten
+* **Thema:** Programmiren am Raspberry
 * **Datum:** 27.01.2020
 * **Gefehlt:** -
 * **Gruppe:** 4
@@ -115,6 +114,6 @@ Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Runlevel)
     
        sudo systemctl status programm
     
-    Programm stopen
+    Programm stoppen
     
        sudo systemctl stop programm
