@@ -99,6 +99,18 @@ Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Runlevel)
  
  
  * man schreibt Service Units
+ 
+   ``` 
+   [Unit]
+   Description=Labor Programm
+   
+   [Service]
+   Type=simple
+   ExecStart=/home/uhljum17/programm/a.out
+   
+   [Install]
+   WantedBY=multi-user.target
+    ``` 
        
        ll /etc/systemd/system
        
