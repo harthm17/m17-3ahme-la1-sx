@@ -9,7 +9,7 @@
 ## Inhaltsverzeichnis
 1. [SSH](https://de.wikipedia.org/wiki/Secure_Shell)
 * Ein C-Programm erstellen
-* 
+* Direkter Start beim Hochfahren
 
 ### SSH
 In der [SSH](https://de.wikipedia.org/wiki/Secure_Shell) haben wir eine Man-Page aufgerufen und darin ein C-Programm geschrieben, welches Zahlen in einem gewissen Zeitabstand ausgeben soll. Dieses sollte am [Raspberry Pi](https://de.wikipedia.org/wiki/Raspberry_Pi) laufen. Außerdem soll diese Programm beim Hochfahren des PC's direkt starten.
