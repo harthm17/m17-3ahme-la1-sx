@@ -21,6 +21,10 @@ In der [SSH](https://de.wikipedia.org/wiki/Secure_Shell) haben wir eine Man-Page
 ssh snagem17@10.200.114.224
 ```
 
+**Verzeichnis erstellen:**
+```
+mkdir programm
+```
 
      ```C
      #include <stdio.h>
