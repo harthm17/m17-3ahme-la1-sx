@@ -1,6 +1,6 @@
 # Protokoll Labor/SX 3AHME (2019/20)
 
-* **Thema:** RaspberryPi Programmieren
+* **Thema:** Raspberry Pi Programmieren
 * **Datum:** 27.01.2020
 * **Gefehlt:** keiner
 * **Erstellt von:** Georg Schnabel
@@ -12,7 +12,7 @@
 * 
 
 ### SSh
-In der [SSH](https://de.wikipedia.org/wiki/Secure_Shell) haben wir 
+In der [SSH](https://de.wikipedia.org/wiki/Secure_Shell) haben wir eine Man-Page aufgerufen und darin ein C-Programm geschrieben, welches Zahlen in einem gewissen Zeitabstand ausgeben soll. Dieses sollte am [Raspberry Pi](https://de.wikipedia.org/wiki/Raspberry_Pi) laufen. Außerdem soll diese Programm beim Hochfahren des PC's direkt starten.
 
      ```C
      #include <stdio.h>
