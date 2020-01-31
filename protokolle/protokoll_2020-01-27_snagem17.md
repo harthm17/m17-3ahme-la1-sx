@@ -9,7 +9,8 @@
 ## Inhaltsverzeichnis
 1. [SSH](https://de.wikipedia.org/wiki/Secure_Shell)
 * Ein C-Programm erstellen
-* Direkter Start beim Hochfahren
+2. Direkter Start beim Hochfahren
+* Runlevel
 
 ### SSH
 In der [SSH](https://de.wikipedia.org/wiki/Secure_Shell) haben wir eine Man-Page aufgerufen und darin ein C-Programm geschrieben, welches Zahlen in einem gewissen Zeitabstand ausgeben soll. Dieses sollte am [Raspberry Pi](https://de.wikipedia.org/wiki/Raspberry_Pi) laufen. Außerdem soll diese Programm beim Hochfahren des PC's direkt starten.
@@ -39,19 +40,24 @@ nano main.c
      #include <stdio.h>
      #include <unistd.h>
      
-     void delay (int seconds) {
+     void delay (int seconds) 
+     {
      double x = 0;
-     for(int j = 0; j < seconds; j++){
-     for(int i = 0; i < 1000; i++){
+     for(int j = 0; j < seconds; j++)
+     {
+     for(int i = 0; i < 1000; i++)
+     {
        x = x +0.1;
        }
       }
      }
      
-     int main () {
+     int main () 
+     {
          int cnt = 0;
          
-         for(int i = 0; i < 5000000; i++){
+         for(int i = 0; i < 5000000; i++)
+         {
          cnt++;
          printf("cnt=%d\n", cnt);
          sleep(1);
@@ -59,4 +65,6 @@ nano main.c
          }
         return 0;
      }  
-     ``` 
+    ``` 
+## Direkter Start beim Hochfahren
+### Runlevel
