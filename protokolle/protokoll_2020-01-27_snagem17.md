@@ -10,7 +10,7 @@
 1. [SSH](https://de.wikipedia.org/wiki/Secure_Shell)
 * Ein C-Programm erstellen
 2. Direkter Start beim Hochfahren
-* Runlevel
+* [Runlevel](https://de.wikipedia.org/wiki/Runlevel)
 
 ### SSH
 In der [SSH](https://de.wikipedia.org/wiki/Secure_Shell) haben wir eine Man-Page aufgerufen und darin ein C-Programm geschrieben, welches Zahlen in einem gewissen Zeitabstand ausgeben soll. Dieses sollte am [Raspberry Pi](https://de.wikipedia.org/wiki/Raspberry_Pi) laufen. Außerdem soll diese Programm beim Hochfahren des PC's direkt starten.
@@ -68,3 +68,7 @@ nano main.c
     ``` 
 ## Direkter Start beim Hochfahren
 ### Runlevel
+
+[Runlevel](https://de.wikipedia.org/wiki/Runlevel) ist ein Betriebszustand von Computern, der vor allem beim Start des Betriebssystem von Bedeutung ist. 
+>Viele Betriebssysteme durchlaufen beim Start (Booten) mehrere abgestufte Systemzustände, bzw. starten in einen bestimmten Zustand, den Runlevel. Jedem Runlevel sind bestimmte System-Dienste zugeordnet, die beim Booten als Prozesse in wohldefinierter Reihenfolge innerhalb des Betriebssystems gestartet werden. Auf diese Weise werden Betriebsmittel des Computers stufenweise in Betrieb genommen.<
+Quelle:[Runlevel](https://de.wikipedia.org/wiki/Runlevel)
