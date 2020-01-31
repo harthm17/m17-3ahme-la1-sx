@@ -36,7 +36,7 @@ nano main.c
 ```
 
 **Unser Programm:**
-     ```C
+     ```
      #include <stdio.h>
      #include <unistd.h>
      
