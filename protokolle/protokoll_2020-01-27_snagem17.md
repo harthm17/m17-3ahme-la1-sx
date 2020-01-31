@@ -25,7 +25,16 @@ ssh snagem17@10.200.114.224
 ```
 mkdir programm
 ```
+**Ins Verzeichnis wechseln:**
+```
+cd programm/
+```
+**C-Programm erstellen:**
+```
+nano main.c
+```
 
+**Unser Programm:**
      ```C
      #include <stdio.h>
      #include <unistd.h>
