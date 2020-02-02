@@ -112,6 +112,8 @@ Wir wollten das von uns erstellte Programm automatisch starten lassen. Dafür gi
 
 
 
+
+
 ## GNU-Project
 Laut [Wikipedia](https://de.wikipedia.org/wiki/GNU-Projekt)
 >Das GNU-Projekt entwickelt das Betriebssystem GNU (Aussprache: [ɡnuː][1]), das von Richard Stallman mit dem Ziel gegründet wurde, ein freies, unixähnliches Betriebssystem zu schaffen, das sicherstellt, dass die Endbenutzer die Freiheiten haben, es verwenden, untersuchen, verbreiten (kopieren) und verändern zu dürfen. Software, deren Lizenz diese Freiheiten garantiert, wird Freie Software (engl. Free Software) genannt, GNU ist in diesem Sinne frei.
