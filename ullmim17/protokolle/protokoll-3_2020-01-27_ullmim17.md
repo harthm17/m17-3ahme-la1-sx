@@ -2,7 +2,7 @@
 
 --------------
 
-* **Thema:** Erstellen von C Programmen auf dem Raspberry und das automatische Starten lassen von Programmen
+* **Thema:** Erstellen von C Programmen auf dem Raspberry und das automatische Starten der Programme beim Systemstart
 
   * **Datum:** 27.1.2020
 
@@ -15,22 +15,20 @@
   ## Inhaltsverzeichnis
 
   1.  [Erstellen von C Programmen auf dem Raspberry](#erstellen-von-c-programmen-auf-dem-raspberry)
+  
+  2. [rc.local](#rc.local)
+  
+  3. [Service Units](#service-units)
 
-  2.  [GNU-Project](#gnu-project)
+  4.  [GNU-Project](#gnu-project)
     * [GNU-Compiler](#gnu-compiler)
-  3.  [Raspberry Name und Passwort ändern und Benutzer erstellen](#raspberry-name-und-passwort-ändern-und-benutzer-erstellen)
-
-  4.  [Man in the middle](#man-in-the-middle)
+ 
 
   ----------------------
 
-  ## Erstellen von C Programmen auf dem Raspberry
+  ## Erstellen von C Programmen auf dem Raspberry  
 
-  In dieser Laboreinheit wollten wir C-Programme auf dem Raspberry erstellen und diese anschließend automatisch starten lassen.
-
-  
-
-  1) Zuerst haben wir uns wieder über SSH mit dem Raspberry verbunden. Will man sich über SSH mit dem Raspberry verbinden braucht man die IP-Adresse und die Portnummer. Die Portnummer der SSH ist immer 22.
+1) Zuerst haben wir uns wieder über SSH mit dem Raspberry verbunden. Will man sich über SSH mit dem Raspberry verbinden braucht man die IP-Adresse und die Portnummer. Die Portnummer der SSH ist immer 22.
 
   
 
@@ -94,6 +92,26 @@ int main(){
         }
 }
 ```
+
+## rc.local
+
+Laut [Wiki.Ubuntuusers](https://wiki.ubuntuusers.de/rc.local/)
+
+> rc.local ist seit dem Jahre 1983 obsolet. Es diente bei der Einführung des damals neuen, heute veralteten SysV-Init-Systems als Workaround für die Beibehaltung noch älterer Methoden zur Systeminitialisierung. Der unten zitierte Beitrag "Forget about rc.local" von JdeBP auf Stack Exchange enthält Hintergründe und Details mit vielen Links dazu.
+Dienste und Skripte werden seit Version Ubuntu 15.04 über Service Units gestartet. 
+
+## Service Units
+
+Laut [Wiki.Ubuntuusers](https://wiki.ubuntuusers.de/systemd/Service_Units/)
+
+> Dieser Artikel befasst sich mit systemd Service Units. Diese dienen dazu, Dienste zu starten und zu stoppen - und entsprechen damit den früheren Init-Skripten von SysVinit bzw. Archiv/Upstart. Zur Steuerung dient der systemd-eigene Befehl systemctl.
+
+## Programme automatisch starten
+
+Wir wollten das von uns erstellte Programm automatisch starten lassen. Dafür gibt es zwei Möglichkeiten systemd.d und rc.local. Da rc.local veraltet ist, entschieden wir uns für system.d .
+
+
+
 ## GNU-Project
 Laut [Wikipedia](https://de.wikipedia.org/wiki/GNU-Projekt)
 >Das GNU-Projekt entwickelt das Betriebssystem GNU (Aussprache: [ɡnuː][1]), das von Richard Stallman mit dem Ziel gegründet wurde, ein freies, unixähnliches Betriebssystem zu schaffen, das sicherstellt, dass die Endbenutzer die Freiheiten haben, es verwenden, untersuchen, verbreiten (kopieren) und verändern zu dürfen. Software, deren Lizenz diese Freiheiten garantiert, wird Freie Software (engl. Free Software) genannt, GNU ist in diesem Sinne frei.
