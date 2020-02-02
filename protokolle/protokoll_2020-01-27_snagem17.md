@@ -49,6 +49,23 @@ nano main.c
 ```
 
 **Unser Programm:**
+```c 
+      #include  <stdio.h>
+      #include  <unistd.h>
+      
+      int main()
+      {
+        int cnt=0;
+        
+        for(int i=0; i<10; i++)
+        {
+          cnt++;
+          printf("cnt=%d\n", cnt);
+          sleep(1);                  
+         }
+        return 0;
+       }
+```
 
 ## Direkter Start beim Hochfahren
 ### Runlevel
