@@ -14,11 +14,14 @@
    2. [Schul Programm](#schul-programm)
    3. [SSH Protokoll](#ssh-protokoll)
       1. [Start / Status / Stop Befehle](#start-/-status-/-stop-befehle)
+2. [Links](#links)
 
 ------------------------------------------------------------------------------------------------------------------------
 
 ### Rasperry
 Der Raspberry Pi ist ein Einplatinencomputer. Der Rechner enthält ein Ein-Chip-System, kurz gesagt SoC. Die Platine hat das Format einer Kreditkarte. Der im Vergleich zu üblichen Personal Computern sehr einfach aufgebaute Rechner wurde von der Stiftung mit dem Ziel entwickelt, jungen Menschen den Erwerb von Programmier- und Hardware-Kenntnissen zu erleichtern.
+
+Quelle: [https://de.wikipedia.org/wiki/Raspberry_Pi]
 
 #### Vorteile / Nachteile
 
@@ -118,3 +121,11 @@ This is a security risk - please login as the 'pi' user and type 'passwd' to set
   ```
   sudo systemctl stop programm
   ```
+
+------------------------------------------------------------------------------------------------------------------------
+
+### Links
+Hier sind alle Links aufgelistet die oben angegeben worden sind:
+
+[Rasperry]: https://de.wikipedia.org/wiki/Raspberry_Pi
+[SSH Protokoll]: https://de.wikipedia.org/wiki/Secure_Shell#Funktionsweise
