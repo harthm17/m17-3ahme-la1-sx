@@ -19,8 +19,10 @@
   2. [rc.local](#rc.local)
   
   3. [Service Units](#service-units)
+  
+  4. [Programme automatisch starten](#programme-automatisch-starten)
 
-  4.  [GNU-Project](#gnu-project)
+  5.  [GNU-Project](#gnu-project)
     * [GNU-Compiler](#gnu-compiler)
  
 
@@ -108,9 +110,51 @@ Laut [Wiki.Ubuntuusers](https://wiki.ubuntuusers.de/systemd/Service_Units/)
 
 ## Programme automatisch starten
 
-Wir wollten das von uns erstellte Programm automatisch starten lassen. Dafür gibt es zwei Möglichkeiten systemd.d und rc.local. Da rc.local veraltet ist, entschieden wir uns für system.d .
+Wir wollten das von uns erstellte Programm automatisch starten lassen. Dafür gibt es zwei Möglichkeiten systemd.d und rc.local. Da rc.local veraltet ist, entschieden wir uns für system.d.
 
+1) Zuerst mussten wir eine Service Unit erstellen.
+```
+bash
+michael@michael-GL752VW:/etc/systemd/system$ sudo nano programm.service
 
+```
+
+```
+bash
+[Unit]
+Description=Labor Programm
+
+[Service]
+Type=simple
+ExecStart=/home/strmam17/programm/a.out
+
+[Install]
+WantedBy=multi-user.target
+```
+2) Dienst starten
+```
+bash
+michael@michael-GL752VW:/etc/systemd/system$ sudo systemctl start programm
+
+```
+3) Status des Dienstes abfragen
+```
+bash
+michael@michael-GL752VW:/etc/systemd/system$ sudo systemctl status programm.service
+● programm.service - Labor Programm
+   Loaded: loaded (/etc/systemd/system/programm.service; disabled; vendor preset
+   Active: active (running) since Sun 2020-02-02 13:04:50 CET; 7s ago
+ Main PID: 12837 (a.out)
+    Tasks: 1 (limit: 4915)
+   CGroup: /system.slice/programm.service
+           └─12837 /home/michael/Schreibtisch/a.out
+
+```
+4) Dienst stoppen
+```
+bash
+michael@michael-GL752VW:/etc/systemd/system$ sudo systemctl stop programm.service
+```
 
 
 
