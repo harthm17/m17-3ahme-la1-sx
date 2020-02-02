@@ -24,6 +24,7 @@ Man kann Raspberrys in vielen verschiedenen programmiersprachen programmieren. W
 * [Java](https://www.programmierenlernen24.de/java-programmieren-lernen/)
 * [Typescript](https://jaxenter.de/typescript-lernen-praxis-63696)
 
+![Quelle](http://sogrady-media.redmonk.com/sogrady/files/2018/03/lang.rank_.118-1024x726.png)
 ### SSH
 In der [SSH](https://de.wikipedia.org/wiki/Secure_Shell) haben wir eine Man-Page aufgerufen und darin ein C-Programm geschrieben, welches Zahlen in einem gewissen Zeitabstand ausgeben soll. Dieses sollte am [Raspberry Pi](https://de.wikipedia.org/wiki/Raspberry_Pi) laufen. Außerdem soll diese Programm beim Hochfahren des PC's direkt starten.
 
