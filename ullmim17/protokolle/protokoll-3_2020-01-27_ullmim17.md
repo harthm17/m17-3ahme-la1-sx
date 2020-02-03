@@ -126,7 +126,7 @@ Description=Labor Programm
 
 [Service]
 Type=simple
-ExecStart=/home/strmam17/programm/a.out
+ExecStart=/home/ullmim17/programm/a.out
 
 [Install]
 WantedBy=multi-user.target
