@@ -36,7 +36,7 @@
 
  ````bash
 
-michael@michael-GL752VW:~$ ssh pi@10.200.114.222
+michael@michael-GL752VW:~$ ssh ullmim17@10.200.114.222
 
 ````
 2) Dann haben wir im home Verzeichnis mit dem Befehl mkdir ein Verzeichnis mit dem Namen programm angelegt.
