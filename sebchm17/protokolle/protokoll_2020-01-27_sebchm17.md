@@ -127,7 +127,7 @@ Programm stoppen
 
     sudo systemctl stop programm
     
-Den Raspberry mit dem folgenden Befehl verlassen.
+Den Raspberry mit dem folgenden Befehl ausschalten.
 
     sudo poweroff
 
