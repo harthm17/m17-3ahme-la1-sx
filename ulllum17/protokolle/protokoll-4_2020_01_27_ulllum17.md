@@ -51,3 +51,6 @@ gcc main.c
 ````bash
 ./a.out
 ````
+### Regeln für Zeitverzögerung
+
+* die Funktion *sleep* benutzen
