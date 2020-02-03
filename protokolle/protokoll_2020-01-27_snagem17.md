@@ -9,10 +9,11 @@
 ## Inhaltsverzeichnis
 1. [Port](https://de.wikipedia.org/wiki/Port_%28Protokoll%29)
 2. [Programmiersprachen](https://de.wikipedia.org/wiki/Liste_von_Programmiersprachen)
-1. [SSH](https://de.wikipedia.org/wiki/Secure_Shell)
+3. [SSH](https://de.wikipedia.org/wiki/Secure_Shell)
 * Ein C-Programm erstellen
-2. Direkter Start beim Hochfahren
+4. Direkter Start beim Hochfahren
 * [Runlevel](https://de.wikipedia.org/wiki/Runlevel)
+5. sonstige Kommandos
 
 ### Port
 Da wir über die [SSH](https://de.wikipedia.org/wiki/Secure_Shell), gleichzeitig unser Netzwerk, auf unserem Raspberry Pi programmieren, benötigen wir auch eine Portnummer. Diese Potnummer ist beiuns immer die Zahl **22**.
@@ -73,3 +74,46 @@ nano main.c
 [Runlevel](https://de.wikipedia.org/wiki/Runlevel) ist ein Betriebszustand von Computern, der vor allem beim Start des Betriebssystem von Bedeutung ist. 
 >Viele Betriebssysteme durchlaufen beim Start (Booten) mehrere abgestufte Systemzustände, bzw. starten in einen bestimmten Zustand, den Runlevel. Jedem Runlevel sind bestimmte System-Dienste zugeordnet, die beim Booten als Prozesse in wohldefinierter Reihenfolge innerhalb des Betriebssystems gestartet werden. Auf diese Weise werden Betriebsmittel des Computers stufenweise in Betrieb genommen.<
 Quelle:[Runlevel](https://de.wikipedia.org/wiki/Runlevel)
+
+Wir starteten unser Programm mit systemd, da rc.local sehr lange beim Hochfahren benötigt.
+
+```
+systemd
+```
+**Eigenen Dienst anlegen**
+1.
+```
+cd /etc/systemd/system
+```
+2.
+```
+sudo nano programm.service
+```
+
+**Programm starten**
+```
+sudo systemctl start programm
+```
+**Programm stoppen**
+```
+sudo systemctl stop programm
+```
+
+## Sonstige Kommandos
+
+**Programm beenden**
+```
+sudo poweroff
+```
+**Programm aufrufen**
+```
+./a.out
+```
+**Version von GNU-Compiler
+```
+gcc -version
+```
+**Compilieren
+```
+gcc main.c
+```
