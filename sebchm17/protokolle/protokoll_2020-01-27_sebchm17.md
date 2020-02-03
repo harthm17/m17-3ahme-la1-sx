@@ -12,7 +12,7 @@
 ## Inhaltsverzeichnis 
 
 1.  [Programmiersprachen](#programmiersprachen)
-1.  [Portnummer](#portnummer)
+1.  [Portnummern](#portnummern)
 1.  [Richard Stallman](#richard-stallman)
 1.  [Über SSH einsteigen](#über-ssh-einsteigen) 
 1.  [C-Programm erstellen, compelieren und ausführen](#c-programm-erstellen-compelieren-und-ausführen) 
@@ -95,18 +95,18 @@ Programm ausführen:
 
 ## Autostartprogramm erstellen
 
-Wir wollten dass das Programm automatisch startet. Es gibt zwei Varianten entweder rc.local oder systemd. Wir machten es mit systemd, da rc.local sehr veraltet ist und es sehr lange beim Hochfahren dauert.
+Um das Programm automatisch starten zu lassen gibt es zwei Möglichkeiten. 1. mit rc.local aber diese Methode ist sehr veraltet. 2.mit systemd. Wir verwendeten systemd, weil die andere Methode zu lange beim hochfahren brauchen würde.
 
-Service units schreiben
+Service schreiben
     
     systemd
       
-Eigenen Dienst anlegen
+Dienst anlegen
 
     cd /etc/systemd/system
     sudo nano programm.service
     
-Beispiel
+Das ist die Service-Datei
 
     [Unit]
     Description=Labor Programm
@@ -126,7 +126,7 @@ Programm stoppen
 
     sudo systemctl stop programm
     
-Wenn man fertig ist mit programmiern des Raspberrys sollte man es mit dem folgenden Befehl beenden
+Den Raspberry mit dem folgenden Befehl verlassen.
 
     sudo poweroff
 
