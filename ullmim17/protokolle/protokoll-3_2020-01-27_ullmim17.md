@@ -110,7 +110,7 @@ Laut [Wiki.Ubuntuusers](https://wiki.ubuntuusers.de/systemd/Service_Units/)
 
 ## Programme automatisch starten
 
-Wir wollten das von uns erstellte Programm automatisch starten lassen. Dafür gibt es zwei Möglichkeiten systemd.d und rc.local. Da rc.local veraltet ist, entschieden wir uns für system.d.
+Wir wollten das von uns erstellte Programm automatisch starten lassen.Zuerst haben wir unser Programm in ein Dienst Programm umgewandelt. Dafür gibt es zwei Möglichkeiten systemd.d und rc.local. Da rc.local veraltet ist, entschieden wir uns für system.d.
 
 1) Zuerst mussten wir eine Service Unit erstellen.
 ```
