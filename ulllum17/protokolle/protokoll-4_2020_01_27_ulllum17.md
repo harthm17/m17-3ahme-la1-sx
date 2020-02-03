@@ -9,6 +9,14 @@
 * **Protokoll nächste Einheit:**
 --------------------------------------------------------------------------
 # Inhaltsverzeichnis
+1. [SSH](#ssh)    
+1. [Programmieren auf dem PI](#programmieren_auf_dem_pi)   
+1. [Zeitverzögerung](#zeitverzögerung)   
+1. [Service Unit](#service_unit)   
+    1. [Dienst anlegen](#dienst_anlegen)   
+    1. [Service Unit Ausführen](#service_unit_ausführen)  
+1. [Herunterfahren vom PI](#herunterfahren_vom_pi)  
+    
 
 
 --------------------------------------------------------------------------
@@ -41,6 +49,27 @@ Auf dem Raspberry PI gibt es viele Programmiersprachen, da der Raspberry PI ein 
 ````bash
 nano main.c
 ````
+
+### Beispiel
+
+````bash
+      #include  <stdio.h>
+      #include  <unistd.h>
+      
+      int main()
+      {
+        int cnt=0;
+        
+        for(int i=0; i<10; i++)
+        {
+          cnt++;
+          printf("cnt=%d\n", cnt);
+          sleep(1);                     //Verzögerung des zählen
+         }
+         return 0;
+       }
+````
+
 ### Compilieren
 
 ````bash
@@ -51,6 +80,63 @@ gcc main.c
 ````bash
 ./a.out
 ````
-### Regeln für Zeitverzögerung
+### Zeitverzögerung
+**sleep(1) vs. delay**
 
-* die Funktion *sleep* benutzen
+|sleep(1)|delay|
+|:------:|:---:|
+|Programm wird in eine art Tiefschlaf versetzt|Programm berechnet unötig etwas --> Rechenleistungsverschwendung|
+
+## Service Unit
+
+Dieser Dienst dienen dazu, Dienste zu starten und zu stoppen - und entsprechen damit den früheren Init-Skripten von SysVinit bzw. Archiv/Upstart. Zur Steuerung dient der systemd-eigene Befehl systemctl.
+
+### Dienst anlegen
+
+**Verzeichnis aufrufen**
+
+````bash
+cd /etc/systemd/system
+````
+**Service Unit erstelle**
+
+````bash
+sudo nano programm.service
+````
+
+**Minimale Service Unit**
+
+````bash
+[Unit]
+Description=Labor Programm
+
+[Service]
+Type=simple
+ExecStart=/home/ulllum17/programm/a.out
+
+[Install]
+WantedBy=multi-user.target
+````
+
+> Der Schlüssel ExecStart enthält den Befehl zum Starten des Dienstes. Wichtig ist, dass immer der volle Pfad zum Befehl angegeben wird. In diesem Abschnitt kann z.B. auch eingetragen werden, welche Befehle vor oder nach dem Start des eigentlichen Services ausgeführt werden sollen, unter welchem Benutzer und welcher Gruppe der Dienst läuft (Standard: root). Außerdem wird hier festgelegt, welchen Typ der Service haben soll. Das Type=simple im obigen Beispiel müsste nicht explizit angegeben werden, da dies der Vorgabewert ist.
+
+Quelle [Service Units](https://wiki.ubuntuusers.de/systemd/Service_Units/)
+
+
+### Service Unit Ausführen
+
+**start**
+````bash
+sudo systemctl start programm
+````
+**stop**
+````bash
+sudo systemctl stop programm
+````
+
+### Herunterfahren vom PI
+Das der PI ordungsgemäß abgeschaltet wird sollte man folgendne Befehl benutzen.
+
+````bash
+poweroff
+````
