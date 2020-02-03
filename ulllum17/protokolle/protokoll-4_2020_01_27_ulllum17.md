@@ -10,12 +10,12 @@
 --------------------------------------------------------------------------
 # Inhaltsverzeichnis
 1. [SSH](#ssh)    
-1. [Programmieren auf dem PI](#programmieren_auf_dem_pi)   
+1. [Programmieren auf dem PI](#programmieren-auf-dem-pi)   
 1. [Zeitverzögerung](#zeitverzögerung)   
-1. [Service Unit](#service_unit)   
-    1. [Dienst anlegen](#dienst_anlegen)   
-    1. [Service Unit Ausführen](#service_unit_ausführen)  
-1. [Herunterfahren vom PI](#herunterfahren_vom_pi)  
+1. [Service Unit](#service-unit)   
+    1. [Dienst anlegen](#dienst-anlegen)   
+    1. [Service Unit Ausführen](#service-unit-ausführen)  
+1. [Herunterfahren vom PI](#herunterfahren-vom-pi)  
     
 
 
@@ -135,6 +135,7 @@ sudo systemctl stop programm
 ````
 
 ### Herunterfahren vom PI
+
 Das der PI ordungsgemäß abgeschaltet wird sollte man folgendne Befehl benutzen.
 
 ````bash
