@@ -52,7 +52,7 @@ nano main.c
 
 ### Beispiel
 
-````bash
+````c
       #include  <stdio.h>
       #include  <unistd.h>
       
