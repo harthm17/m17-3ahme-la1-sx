@@ -16,7 +16,7 @@
 5. sonstige Kommandos
 
 ### Port
-Da wir über die [SSH](https://de.wikipedia.org/wiki/Secure_Shell), gleichzeitig unser Netzwerk, auf unserem Raspberry Pi programmieren, benötigen wir auch eine Portnummer. Diese Potnummer ist beiuns immer die Zahl **22**.
+Da wir über die [SSH](https://de.wikipedia.org/wiki/Secure_Shell), gleichzeitig unser Netzwerk, auf unserem Raspberry Pi programmieren, benötigen wir auch eine Portnummer. Diese Potnummer ist bei uns immer die Zahl **22**.
 
 ### Programmiersprachen
 Man kann Raspberrys in vielen verschiedenen programmiersprachen programmieren. Wir machen das mit der [Programmiersprache C](https://de.wikipedia.org/wiki/C_(Programmiersprache)), da wir erst diese erlernt haben. Man kann es aber auch mit anderen Programmiersprachen tun:
