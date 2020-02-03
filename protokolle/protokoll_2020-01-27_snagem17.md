@@ -81,11 +81,11 @@ Wir starteten unser Programm mit systemd, da rc.local sehr lange beim Hochfahren
 systemd
 ```
 **Eigenen Dienst anlegen**
-1.
+* 1.
 ```
 cd /etc/systemd/system
 ```
-2.
+* 2.
 ```
 sudo nano programm.service
 ```
@@ -109,11 +109,11 @@ sudo poweroff
 ```
 ./a.out
 ```
-**Version von GNU-Compiler
+**Version von GNU-Compiler**
 ```
 gcc -version
 ```
-**Compilieren
+**Compilieren**
 ```
 gcc main.c
 ```
