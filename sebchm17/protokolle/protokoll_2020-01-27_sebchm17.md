@@ -64,7 +64,8 @@ Zuerst erstellen wir ein verzeichnis, um dort das C-Programm zu speichern.
 
     sebchm@pi16:~/programm $ nano main.c 
 
-```C  #include  <stdio.h>
+```C  
+      #include  <stdio.h>
       #include  <unistd.h>
       
       int main()
