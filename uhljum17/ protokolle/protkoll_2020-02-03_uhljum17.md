@@ -2,7 +2,7 @@
 
 ------------------------------
 
-* **Thema:** 
+* **Thema:** Raspberry Pi
 * **Datum:** 27.01.2020
 * **Gefehlt:** -
 * **Gruppe:** 4
