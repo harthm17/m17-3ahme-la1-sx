@@ -13,14 +13,12 @@
 1.  [Programmeigenschaften](#programmeigenschaften)
 1.  [Standardinput,Standardoutput,Standarderror](#standardinput-standardoutput-standarderror)
 1.  [Autostart](#autostart)
-1.  [LOG-Datei](#log-datei)
-1.  [Richard Stallman](#richard-stallman)
-1.  [Über SSH einsteigen](#über-ssh-einsteigen) 
-1.  [C-Programm erstellen, compelieren und ausführen](#c-programm-erstellen-compelieren-und-ausführen) 
-1.  [Autostartprogramm erstellen](#autostartprogramm-erstellen) 
+1.  [LOG-Datei](#log-datei) 
 
 ---------------------------------------------------------------------------------------------------------------------------------
 ## Programmeigenschaften
+
+
     systemctl status programm
 
 abfragen ob das Programm läuft
@@ -37,13 +35,55 @@ stopt das Programm
 
 zeigt laufend an was das Programm macht
 
---------------------------------------------------------------------------------------------------------------------------------
+    root@pi16 tail -f /var/log/programm.log
+
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Standardinput,Standardoutput,Standarderror
 
  ![Bild](https://www.linuxunit.com/io-redirection-stdin-stdout-stderr-streams/)
 
---------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+## Autostart
+
+Wir haben das Programm als Dienst verfügbar gemacht. Den Dienst können wir mit folgendem Befehl automatisch starten.
+
+    systemctl enable programm
+    
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+## LOG-Datei
+
+>Eine Logdatei (auch Protokolldatei, Ereignisprotokolldatei; englisch log file) enthält das automatisch geführte Protokoll aller oder bestimmter Aktionen von Prozessen auf einem Computersystem. Wichtige Anwendungen finden sich vor allem bei der Prozesskontrolle und Automatisierung.
+
+[Wikipedia](https://de.wikipedia.org/wiki/Logdatei)
+   
+    logrotate
+
+
+eigentliche LOG-Datei kern.log
+
+Nach einer Woche wird die kern.log kommpremiert und zur kern.log.1 überschrieben
+
+Nach zwei Wochen wird die kern.log.1 kommpremiert und zur kern.log.2 überschrieben
+
+Das wiederholt sich bis zur 4.ten kompremierten Version, weil ab dann löscht er die Log-Datein
+
+
+Eigene LOG-Datei erstellen
+
+``` bash
+     /var/log/programm.log
+     {
+       rotate 4
+       weekly
+       missingok
+       notifempty
+     }
+```
+
+--------------------------------------------------------------------------------------------------------------------------------------------
 
     sebchm@pi16:~/programm $ nano main.c 
 
@@ -69,56 +109,4 @@ zeigt laufend an was das Programm macht
          
          }
          return 0;
-```  
-
--------------------------------------------------------------------------------------------------------------------------------------
-
-## Autostart
-
-    systemctl enable programm
-    
-
--------------------------------------------------------------------------------------------------------------------------------------
-
-## LOG-Datei
-
->Eine Logdatei (auch Protokolldatei, Ereignisprotokolldatei; englisch log file) enthält das automatisch geführte Protokoll aller oder bestimmter Aktionen von Prozessen auf einem Computersystem. Wichtige Anwendungen finden sich vor allem bei der Prozesskontrolle und Automatisierung.
-
-[Wikipedia](https://de.wikipedia.org/wiki/Logdatei)
-
-
-
-logrotate
-
-
-
-``` bash
-     /var/log/programm.log
-     {
-       rotate 4
-       weekly
-       missingok
-       notifempty
-     }
 ```
-
---------------------------------------------------------------------------------------------------------------------------------------
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
