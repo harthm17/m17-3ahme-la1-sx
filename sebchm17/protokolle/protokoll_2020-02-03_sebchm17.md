@@ -10,15 +10,40 @@
 -------------------------------------------------------------------------------------------------------------------------------- 
 
 ## Inhaltsverzeichnis 
-
-1.  [Einsteigen auf dem Raspberry](#einsteigen-auf-dem-raspberry)
-1.  [Portnummern](#portnummern)
+1.  [Programmeigenschaften](#programmeigenschaften)
+1.  [Standardinput,Standardoutput,Standarderror](#standardinput-standardoutput-standarderror)
+1.  [Autostart](#autostart)
+1.  [LOG-Datei](#log-datei)
 1.  [Richard Stallman](#richard-stallman)
 1.  [Über SSH einsteigen](#über-ssh-einsteigen) 
 1.  [C-Programm erstellen, compelieren und ausführen](#c-programm-erstellen-compelieren-und-ausführen) 
 1.  [Autostartprogramm erstellen](#autostartprogramm-erstellen) 
 
 ---------------------------------------------------------------------------------------------------------------------------------
+## Programmeigenschaften
+    systemctl status programm
+
+abfragen ob das Programm läuft
+
+    systemctl start programm
+    
+startet das Programm
+
+    systemctl stop programm
+    
+stopt das Programm
+
+    journalctl -f -u programm
+
+zeigt laufend an was das Programm macht
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+## Standardinput,Standardoutput,Standarderror
+
+ ![Bild](https://www.linuxunit.com/io-redirection-stdin-stdout-stderr-streams/)
+
+--------------------------------------------------------------------------------------------------------------------------------
 
     sebchm@pi16:~/programm $ nano main.c 
 
@@ -46,6 +71,27 @@
          return 0;
 ```  
 
+-------------------------------------------------------------------------------------------------------------------------------------
+
+## Autostart
+
+    systemctl enable programm
+    
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+## LOG-Datei
+
+>Eine Logdatei (auch Protokolldatei, Ereignisprotokolldatei; englisch log file) enthält das automatisch geführte Protokoll aller oder bestimmter Aktionen von Prozessen auf einem Computersystem. Wichtige Anwendungen finden sich vor allem bei der Prozesskontrolle und Automatisierung.
+
+[Wikipedia](https://de.wikipedia.org/wiki/Logdatei)
+
+
+
+logrotate
+
+
+
 ``` bash
      /var/log/programm.log
      {
@@ -56,6 +102,7 @@
      }
 ```
 
+--------------------------------------------------------------------------------------------------------------------------------------
 
 
 
