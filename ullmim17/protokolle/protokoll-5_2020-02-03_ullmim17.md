@@ -14,7 +14,7 @@
 
   ## Inhaltsverzeichnis
 
-  1.  [Erstellen von C Programmen auf dem Raspberry](#erstellen-von-c-programmen-auf-dem-raspberry)
+  1.  [Dienst bei Systemstart automatisch starten lassen](#dienst-bei-systemstart-automatisch-starten-lassen)
   
   2. [rc.local](#rc.local)
   
@@ -39,3 +39,5 @@
   michael@michael-GL752VW:/var/log$ systemctl enable programm
 Created symlink /etc/systemd/system/multi-user.target.wants/programm.service → /etc/systemd/system/programm.service.
  ```
+ ## Log-Dateien
+ Laut [ip-insider](#https://www.ip-insider.de/was-ist-eine-log-datei-a-794350/)
