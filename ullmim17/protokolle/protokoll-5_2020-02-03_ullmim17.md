@@ -18,7 +18,7 @@
       
   2. [Log-Dateien](#log-dateien)
      1. [Log-Rotate](#log-rotate)
-  3. [Service Units](#service-units)
+  3. [Eigenen Benutzer für den Dienst anlegen](#eigenen-benutzer-für-den-dienst-anlegen)
   
   4. [Programme automatisch starten](#programme-automatisch-starten)
 
@@ -146,3 +146,14 @@ User=programm
 [Install]
 WantedBy=multi-user.target
 ```
+
+## Login mit Zertifikaten
+Laut [Wikipedia](https://de.wikipedia.org/wiki/Public-Key-Authentifizierung)
+> Die Public-Key-Authentifizierung ist eine Authentifizierungsmethode, die unter anderem von SSH und OpenSSH verwendet wird, um Benutzer mit Hilfe eines Schlüsselpaars, bestehend aus privatem und öffentlichem Schlüssel, an einem Server anzumelden. Ein solches Schlüsselpaar ist wesentlich schwerer zu kompromittieren als ein Kennwort.
+
+>Bei einer Authentisierung mittels eines Kennworts wird dieses Kennwort, oder dessen Hash-Wert, auf einem Server gespeichert. Hat jemand Zugang zur Kennwortdatei auf diesem Server, gelangt er damit im ersten Fall auch in den Besitz des Kennworts. Im zweiten Fall kann er, mit Hilfe entsprechender Software, eine Zeichenkombination finden, die den gleichen Hash-Wert wie das Kennwort ergibt. Wird das gleiche Kennwort zur Anmeldung auf mehreren Systemen benutzt, so sind damit alle diese Systeme kompromittiert.
+
+>Im Gegensatz dazu wird bei der Public-Key-Authentifizierung nur der öffentliche Schlüssel auf einem Server gespeichert. Der private Schlüssel wird auf dem eigenen Rechner gespeichert, kann damit geheim gehalten und zusätzlich mit einer Kennung verschlüsselt werden. Die Kennung kann aus mehreren Wörtern bestehen (im Englischen passphrase).
+
+>Die Berechnung des privaten Schlüssels aus dem öffentlichen ist je nach Wahl der Länge des Schlüssels sehr aufwändig bis praktisch unmöglich.
+
