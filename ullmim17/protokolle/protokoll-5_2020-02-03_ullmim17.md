@@ -20,10 +20,9 @@
      1. [Log-Rotate](#log-rotate)
   3. [Eigenen Benutzer für den Dienst anlegen](#eigenen-benutzer-für-den-dienst-anlegen)
   
-  4. [Programme automatisch starten](#programme-automatisch-starten)
+  4. [Login mit Zertifikaten](#login-mit-zertifikaten)
 
-  5.  [GNU-Project](#gnu-project)
-    * [GNU-Compiler](#gnu-compiler)
+  
  
 
   ---------------------------------------------------------------
