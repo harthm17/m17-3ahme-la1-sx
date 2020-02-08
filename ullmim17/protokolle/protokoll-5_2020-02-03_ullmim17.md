@@ -15,9 +15,9 @@
   ## Inhaltsverzeichnis
 
   1.  [Dienst bei Systemstart automatisch starten lassen](#dienst-bei-systemstart-automatisch-starten-lassen)
-  
+      
   2. [Log-Dateien](#log-dateien)
-  
+     1. [Log-Rotate](#log-rotate)
   3. [Service Units](#service-units)
   
   4. [Programme automatisch starten](#programme-automatisch-starten)
@@ -45,3 +45,81 @@ Created symlink /etc/systemd/system/multi-user.target.wants/programm.service →
  > Eine Log-Datei ist eine Datei, in der IT-Systeme Ereignisse eintragen und protokollieren. Die Datei soll helfen, bestimmte Vorgänge nachzuvollziehen und kann beispielsweise für die Problemanalyse oder die Rekonstruktion von Transaktionen zum Einsatz kommen. Die Log-Datei ist in der Regel textbasiert.
 
 Weil wir die count-Ausgabe im [journal](https://wiki.ubuntuusers.de/systemd/journald/) nicht gefunden haben, wollten wir die Ausgabe des Dienstes in eine Lod-Datei schreiben.
+
+1) Zuerst haben wir unser Programm so verändert, dass es die Ausgabe in unsere Log-Datei speichert.
+```C
+#include <stdio.h>
+#include <unistd.h>
+int main()   
+
+  { 
+
+        int cnt = 0; 
+
+//      for(int i = 0;i<10;i++) 
+
+        while(1) 
+
+        { 
+
+                cnt++; 
+
+                printf("cnt=%d\n",cnt); 
+
+                FILE *f; 
+
+                f = fopen("/var/log/programm.log","a"); 
+
+                if(f!=NULL) 
+
+                { 
+
+                        fprintf(f, "cnt=%d\n",cnt); 
+
+                        fclose(f); 
+
+                        sleep(1); 
+
+        //              delay(1); 
+
+        } 
+
+                } 
+}
+
+
+
+
+
+```
+2) Mit dem Befehl [tail](https://wiki.ubuntuusers.de/tail/) können wir nun die letzten Zeilen der Datei ausgeben. Die Option -f folgt dem Ende der Datei, wenn sie wächst.
+
+```
+bash
+michael@michael-GL752VW:~/programm$ tail -f /var/log/programm.log
+cnt: 1
+cnt: 2
+cnt: 3
+```
+### Log-Rotate
+
+logrotate ist dazu entworfen, die Verwaltung von Systemen zu vereinfachen, die eine große Anzahl von Log-Dateien generieren. Es erlaubt eine automatische Rotation, Kompression, Entfernung und Verschickung der Logdateien. Jede Logdatei kann täglich, wöchentlich, monatlich oder dann erfolgen, wenn sie zu groß geworden ist.
+
+Log-Rotate-Datei erstellen: 
+
+```
+bash
+sudo nano /etc/logrotate.d/programm
+
+------------------------
+
+
+/var/log/programm.log
+{
+        weekly
+        rotate 4
+        missingok
+        notifempty
+}
+
+```
