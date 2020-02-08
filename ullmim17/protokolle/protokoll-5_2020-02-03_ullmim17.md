@@ -16,7 +16,7 @@
 
   1.  [Dienst bei Systemstart automatisch starten lassen](#dienst-bei-systemstart-automatisch-starten-lassen)
   
-  2. [rc.local](#rc.local)
+  2. [Log-Dateien](#log-dateien)
   
   3. [Service Units](#service-units)
   
@@ -40,4 +40,8 @@
 Created symlink /etc/systemd/system/multi-user.target.wants/programm.service → /etc/systemd/system/programm.service.
  ```
  ## Log-Dateien
- Laut [ip-insider](#https://www.ip-insider.de/was-ist-eine-log-datei-a-794350/)
+ Laut [ip-insider](https://www.ip-insider.de/was-ist-eine-log-datei-a-794350/)
+ 
+ > Eine Log-Datei ist eine Datei, in der IT-Systeme Ereignisse eintragen und protokollieren. Die Datei soll helfen, bestimmte Vorgänge nachzuvollziehen und kann beispielsweise für die Problemanalyse oder die Rekonstruktion von Transaktionen zum Einsatz kommen. Die Log-Datei ist in der Regel textbasiert.
+
+Weil wir die count-Ausgabe im [journal](https://wiki.ubuntuusers.de/systemd/journald/) nicht gefunden haben, wollten wir die Ausgabe des Dienstes in eine Lod-Datei schreiben.
