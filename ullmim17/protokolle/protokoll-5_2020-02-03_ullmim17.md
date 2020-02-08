@@ -123,3 +123,26 @@ sudo nano /etc/logrotate.d/programm
 }
 
 ```
+## Eigenen Benutzer für den Dienst anlegen
+
+Wir wollten unserem Dienst auch einen eigenen Benutzer erstellen.
+
+1) Benutzer erstellen:
+```
+bash
+michael@michael-GL752VW:~/programm$ sudo adduser --disabled-password –system –no-create-home programm
+
+```
+2) Service-Datei ändern:
+```
+[Unit]
+Description=Labor Programm
+
+[Service]
+Type=simple
+ExecStart=/home/ullmim17/programm/a.out
+User=programm
+
+[Install]
+WantedBy=multi-user.target
+```
