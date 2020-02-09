@@ -9,8 +9,14 @@
 --------------------------------------------------------------------------
 ## Inhaltsverzeichnis
 
-
-
+1. [Autostart](autostart)   
+1. [Logrotate](logrotate)   
+    1. [Logrotate erstellen](logrotate-erstellen)
+1. [Programm als System Account laufen](programm-als-system-account-laufen)
+1. [SSH Schlüssel](sSH-schlüssel)
+    1. [Schlüssel erzeugen](schlüssel-erzeugen)
+    1. [Schlüssel kopieren](schlüssel-kopieren)
+    
 
 --------------------------------------------------------------------------
 
@@ -42,7 +48,7 @@ Logrotate Beispiel:
 }
 ````
 
-## Programm als System Account
+## Programm als System Account laufen
 
 1. System Account anlegen 
 ````bash
@@ -101,6 +107,37 @@ Ausgabe:
 ````
 **Main PID: 1586 (a.out)** ==> PID = 1586
 
-## SSH Schlüssel erstellen
+## SSH Schlüssel
+
+![ssh_verbindung](https://user-images.githubusercontent.com/55395678/74107695-10005180-4b73-11ea-86e9-6675ade9e493.png)
 
 
+
+Es gibt ein Asymetrisches Schlüsselpaar
+* Öffentlicher Schlüssel
+* Privater Schlüssel
+
+### Schlüssel erzeugen
+Auf dem PC muss unter Linux Folgender Befehl ausgeführt werden um ein Schlüsselpaar zuerzeugen.
+
+````bash
+ssh-keygen
+````
+
+Unter windows wird ein Zusatzprogramm benötigt Putty und Puttygen, um eine Schlüsselpaar zu erzeugen
+
+
+### Schlüssel kopieren
+
+Mit Folgendem Befehl kann der öffentliche Schlüssel automatisch auf dem PI kopiert werden.
+
+````bash
+ssh-copy-id ulllum17@10.200.114.226
+````
+
+oder man fügt den Schlüssel manuel hinzu.
+
+````bash
+sudo nano .ssh/authorized_keys
+````
+und kopiert den Schlüssel hinein.
