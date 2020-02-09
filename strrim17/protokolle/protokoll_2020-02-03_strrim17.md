@@ -9,15 +9,16 @@
 
 ## Inhaltsverzeichnis
 
-1. [Start; Status; Stop - Befehle](#start;-status;-stop---befehle)
-2. [Tail; Head - Befehle](#tail;-head---befehle)
+1. [Start / Status / Stop - Befehle](#start-/-status-/-stop---befehle)
+2. [Tail / Head - Befehle](#tail-/-head---befehle)
 3. [Autostart](#autostart)
 4. [Passwort erstellen](#passwort-erstellen)
 5. [Programm installieren](#programm-installieren)
+6. [Links](#links)
 
 ------------------------------------------------------------------------------------------------------------------------
 
-## Start; Status; Stop - Befehle
+## Start / Status / Stop - Befehle
 **Programm starten**
 Befehl zum starten des Programms.
 
@@ -38,7 +39,7 @@ Befehl zum stoppen des Programms.
   ```
   sudo systemctl stop programm
   ```
-## Tail; Head - Befehle
+## Tail / Head - Befehle
 In den Folgenden beiden Befehlen wird angegeben, dass in unserem Schul programm folgende Zeilen ausgegeben werden.
 
 **Zeilen am Anfang ausgeben**
@@ -254,3 +255,8 @@ Schul Programm bzw. Beispiel:
   Reading state information... Done
   0 upgraded, 0 newly installed, 0 to remove and 67 not upgraded.
   ```
+
+## Links
+Hier sind alle Links aufgelistet die oben angegeben worden sind:
+
+---
