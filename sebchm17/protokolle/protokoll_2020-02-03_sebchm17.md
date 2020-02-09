@@ -7,7 +7,7 @@
 * **Protokollverfasser** : Christoph Sebernegg 
 * **Protokoll letzte Einheit** : [4.Protokoll](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/sebchm17/sebchm17/protokolle/protokoll_2020-01-27_sebchm17.md) 
 
--------------------------------------------------------------------------------------------------------------------------------- 
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Inhaltsverzeichnis 
 1.  [Programmeigenschaften](#programmeigenschaften)
@@ -17,7 +17,7 @@
 1.  [System Account Programm](#system-account-programm)
 1.  [Passwort estellen und auf den Raspberry bekommen](#passwort-estellen-und-auf-den-raspberry-bekommen)
 
---------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Programmeigenschaften
 
@@ -40,13 +40,13 @@ zeigt laufend an was das Programm macht
 
     root@pi16 tail -f /var/log/programm.log
 
---------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Standardinput,Standardoutput,Standarderror
 
  ![Bild](https://www.linuxunit.com/io-redirection-stdin-stdout-stderr-streams/)
 
---------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Autostart
 
@@ -54,7 +54,7 @@ Wir haben das Programm als Dienst verfügbar gemacht. Den Dienst können wir mit
 
     systemctl enable programm
     
---------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 ## LOG-Datei
 
@@ -86,7 +86,7 @@ Eigene LOG-Datei erstellen
      }
 ```
 
---------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 ## System Account Programm
 
@@ -114,7 +114,7 @@ User=programm
 WantedBy=multi-user.target
 ````
 
---------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Passwort estellen und auf den Raspberry bekommen
 
@@ -128,7 +128,7 @@ Erstellen eines Schlüsselparres
 
     ssh-keygen
 
-#### Öffentlicher Schlüssel:
+#### Öffentlicher Schlüssel
 
     cat .ssh/id-rsa.pub
 
@@ -144,30 +144,3 @@ Im folgenden wird gezeigt wie man das Passwort auf den Raspberry PI bekommt
              chmod 700.ssh
              cp /home/sebchm/.ssh/authrized_keys.ssh/
     rsync root@10.200.114.216 /home/tmp
-
-
-    sebchm@pi16:~/programm $ nano main.c 
-
-```C  
-      #include  <stdio.h>
-      #include  <unistd.h>
-      
-      int main()
-      {
-        int cnt=0;
-        
-        for(int i=0; i<10; i++)
-        {
-          cnt++;
-          printf("cnt=%d\n", cnt);
-          FILE *f;
-          f=fopen("/var/log/programm.log","a");
-          if(f!= NULL){
-          fprintf(f, "cnt=%d\n",cnt);
-          fclose(f);
-          }
-          sleep(1); 
-         
-         }
-         return 0;
-```
