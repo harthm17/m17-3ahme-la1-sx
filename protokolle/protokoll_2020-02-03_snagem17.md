@@ -20,6 +20,9 @@ Mit dem Befehl **systemctl** und der Option **enable** können wir das System au
  ```
 ## Log-Dateien
 
+Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Logdatei)
+>Eine Logdatei (auch Protokolldatei, Ereignisprotokolldatei; englisch log file) enthält das automatisch geführte Protokoll aller oder bestimmter Aktionen von Prozessen auf einem Computersystem.<
+
 **In das Verzeichnis wechseln:**
 ```
 cd /etc/logrotate.d
