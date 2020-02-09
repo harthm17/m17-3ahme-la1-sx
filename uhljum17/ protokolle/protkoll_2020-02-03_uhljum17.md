@@ -14,7 +14,7 @@
 
 # Inhaltsverzeichnis
 
-1. [Autostart](Autosart)
+1. 
 
 -----------------------
 
@@ -65,5 +65,74 @@ Nach einer gewissen Zeit werden die Daten vom Ersten in Zweiten, vom Zweiten in 
 
 Vorteil der Speicher wird nie voll.
 
+### Logrotate erstellen
 
+Der Logrotate ist im Verzeichnis ***/etc/logrotate.d/*** zu finden.
+
+unser Logrotete:
+
+     /var/log/programm.log {
+      rotate 4
+      weekly
+      compress
+      missingok
+      notifempty
+     }
+
+### System Account
+
+System Account ohne Homeverzeichnis erstellen:
+
+        adduser --disabled password --system programm --no-create home
+
+Benutzer unter dem der Service läuft:
+
+        nano /etc/systemd/system/programm.service
+
+Dann muss man unter [Service] User=Programm dazu schreiben.
+
+Dann sollte man es neustarten:
+
+        systemctl daemon-reload
+        systemctl restart programm
+
+Kontrollieren unter welchen Benutzer das Programm läuft
+
+        ps -ef / grep <Nummer von systemctl status>
+
+Bentzer wechsel:
+        
+        chown programm /var/log/programm.log
+
+### Passwort
+
+Damit man auch sicher arbeiten kann gibt es ein asymetrisches Schlüsselpaar: öffentlicher und privater Schlüssel.
+
+Schlüsseldateien:
+
+        ll.ssh
+
+Schlüsselpaar erstellen:
+
+        ssh-keygen
+
+Öffentlicher Schlüssel:
+        
+        cat .ssh/id-rsa.pub
+
+Privater Schlüssel:
+
+        cat .ssh/id-rsa
+
+Das Passwort auf den Raspberry bringen:
+
+        ssh-copy-id uhljum17@10.200.114.217
+
+        root@pi17:~# mkdir.ssh
+
+                     chmod 700.ssh
+        
+                     cp /home/strmam17/.ssh/authrized_keys.ssh/
+        
+        rsync root@10.200.114.217 /home/tmp
 
