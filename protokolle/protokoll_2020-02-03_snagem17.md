@@ -8,9 +8,10 @@
 
 
 ## Inhaltsverzeichnis
+1. System automatisch starten lassen
+2. [Log-Dateien](https://de.wikipedia.org/wiki/Logdatei)
 
-
-  ## Dienst bei Systemstart automatisch starten lassen
+  ## System automatisch starten lassen
   
 Mit dem Befehl **systemctl** und der Option **enable** können wir das System automatisch starten lassen. Das macht man wenn man das System nicht immer selbst starten will.
   
@@ -18,6 +19,16 @@ Mit dem Befehl **systemctl** und der Option **enable** können wir das System au
  systemctl enable programm
  ```
 ## Log-Dateien
+
+**In das Verzeichnis wechseln:**
+```
+cd /etc/logrotate.d
+```
+**Programm erstellen:**
+```
+nano programm
+```
+**Unser Programm sah folgendermaßen aus:**
 ```C
 #include <stdio.h>
 #include <unistd.h>
@@ -26,42 +37,27 @@ int main()
   { 
 
         int cnt = 0; 
-
 //      for(int i = 0;i<10;i++) 
-
         while(1) 
 
         { 
 
                 cnt++; 
-
                 printf("cnt=%d\n",cnt); 
-
                 FILE *f; 
-
                 f = fopen("/var/log/programm.log","a"); 
-
                 if(f!=NULL) 
 
                 { 
-
-                        fprintf(f, "cnt=%d\n",cnt); 
-
-                        fclose(f); 
-
-                        sleep(1); 
+                 fprintf(f, "cnt=%d\n",cnt); 
+                 fclose(f); 
+                 sleep(1); 
 
         //              delay(1); 
 
         } 
-
-                } 
+    } 
 }
-
-
-
-
-
 ```
 
 2) Service-Datei ändern:
