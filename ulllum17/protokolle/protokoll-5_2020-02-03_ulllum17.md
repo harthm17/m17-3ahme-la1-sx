@@ -16,7 +16,7 @@
 1. [SSH Schlüssel](sSH-schlüssel)
     1. [Schlüssel erzeugen](schlüssel-erzeugen)
     1. [Schlüssel kopieren](schlüssel-kopieren)
-    
+1. [Programm installieren](programm-installieren)
 
 --------------------------------------------------------------------------
 
