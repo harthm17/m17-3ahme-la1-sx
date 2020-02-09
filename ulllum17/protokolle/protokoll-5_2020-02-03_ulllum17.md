@@ -141,3 +141,11 @@ oder man fügt den Schlüssel manuel hinzu.
 sudo nano .ssh/authorized_keys
 ````
 und kopiert den Schlüssel hinein.
+
+## Programm installieren
+APT(Advanced Packaging Tool) ist ein Paketmanagement-System, das im Bereich des Betriebssystems Debian GNU/Linux entstanden ist. Mittels APT ist es sehr einfach, Programmpakete zu suchen, zu installieren oder auch das ganze System auf den neuesten Stand zu bringen.
+````bash
+apt uptdate
+apt install <Programm_name>
+````
+Mehr Informationen auf [Ubuntuusers](https://wiki.ubuntuusers.de/APT/)
