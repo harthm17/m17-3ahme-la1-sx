@@ -13,7 +13,7 @@
 1. [Logrotate](logrotate)   
     1. [Logrotate erstellen](logrotate-erstellen)
 1. [Programm als System Account laufen](programm-als-system-account-laufen)
-1. [SSH Schlüssel](sSH-schlüssel)
+1. [SSH Schlüssel](ssh-schlüssel)
     1. [Schlüssel erzeugen](schlüssel-erzeugen)
     1. [Schlüssel kopieren](schlüssel-kopieren)
 1. [Programm installieren](programm-installieren)
