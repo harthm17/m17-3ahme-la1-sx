@@ -122,28 +122,28 @@ Es gibt öffentliche Schlüssel und private Schlüssel
 
 Schlüsseldateien
 
-ll.ssh
+    ll.ssh
 
 Erstellen eines Schlüsselparres
 
-ssh-keygen
+    ssh-keygen
 
 #### Öffentlicher Schlüssel:
 
-cat .ssh/id-rsa.pub
+    cat .ssh/id-rsa.pub
 
 #### Privater Schlüssel
 
-cat .ssh/id-rsa
+    cat .ssh/id-rsa
 
 Im folgenden wird gezeigt wie man das Passwort auf den Raspberry PI bekommt
 
-ssh-copy-id sebchm@10.200.114.216
+    ssh-copy-id sebchm@10.200.114.216
 
-root@pi16:~# mkdir.ssh
+    root@pi16:~# mkdir.ssh
              chmod 700.ssh
              cp /home/sebchm/.ssh/authrized_keys.ssh/
-rsync root@10.200.114.216 /home/tmp
+    rsync root@10.200.114.216 /home/tmp
 
 
     sebchm@pi16:~/programm $ nano main.c 
