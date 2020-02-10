@@ -20,6 +20,7 @@
      1. [Logrotate erstellen](Logrotate-erstellen)        
      2. [System Account](System-Account)
      3. [Passwort](Passwort)
+     4. [Programm installieren](Programm-installieren)
 
 -----------------------
 
@@ -152,3 +153,11 @@ Das Passwort auf den Raspberry bringen:
         
         rsync root@10.200.114.227 /home/tmp
 
+-----------------------------
+
+Programm installieren
+
+Das Programm Installieren
+
+     apt uptdate
+     apt insatll <zu installierentes Programm>
