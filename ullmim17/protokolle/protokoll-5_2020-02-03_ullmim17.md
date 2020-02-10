@@ -47,7 +47,7 @@ Created symlink /etc/systemd/system/multi-user.target.wants/programm.service →
  
  > Eine Log-Datei ist eine Datei, in der IT-Systeme Ereignisse eintragen und protokollieren. Die Datei soll helfen, bestimmte Vorgänge nachzuvollziehen und kann beispielsweise für die Problemanalyse oder die Rekonstruktion von Transaktionen zum Einsatz kommen. Die Log-Datei ist in der Regel textbasiert.
 
-Weil wir die count-Ausgabe im [journal](https://wiki.ubuntuusers.de/systemd/journald/) nicht gefunden haben, wollten wir die Ausgabe des Dienstes in eine Lod-Datei schreiben.
+Weil wir die count-Ausgabe im [journal](https://wiki.ubuntuusers.de/systemd/journald/) nicht gefunden haben, wollten wir die Ausgabe des Dienstes in eine Log-Datei schreiben.
 
 1) Zuerst haben wir unser Programm so verändert, dass es die Ausgabe in unsere Log-Datei speichert.
 ```C
