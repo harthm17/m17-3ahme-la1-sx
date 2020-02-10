@@ -6,7 +6,7 @@
 * **Gefehlt:** Richard Strohriegel
 * **Erstellt von:** ulllum17
 * **Protokoll letzte Einheit:** [2.Protokoll](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/ulllum17/ulllum17/protokolle/protokoll-2_2019-10-14_ulllum17.md) 
-* **Protokoll nächste Einheit:**
+* **Protokoll nächste Einheit:** [4.Protokoll](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/ulllum17/ulllum17/protokolle/protokoll-4_2020_01_27_ulllum17.md)
 --------------------------------------------------------------------------
 # Inhaltsverzeichnis
 1. [Vergleich Arduino Nano und Raspberry](#vergleich-arduino-nano-und-raspberry)    
