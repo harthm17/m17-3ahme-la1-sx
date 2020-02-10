@@ -88,3 +88,44 @@ User=programm
 [Install]
 WantedBy=multi-user.target
 ```
+
+## Kontrollieren ob der System-Account läuft
+Das funktioniert mit dem Befehl **top**.
+```
+top
+```
+
+
+## SSH Schlüssel
+
+
+
+
+Es gibt ein Asymetrisches Schlüsselpaar
+* Öffentlicher Schlüssel
+* Privater Schlüssel
+
+### Schlüssel erzeugen
+Auf dem PC muss unter Linux Folgender Befehl ausgeführt werden um ein Schlüsselpaar zuerzeugen.
+
+````bash
+ssh-keygen
+````
+
+Unter windows wird ein Zusatzprogramm benötigt Putty und Puttygen, um eine Schlüsselpaar zu erzeugen
+
+
+### Schlüssel kopieren
+
+Mit Folgendem Befehl kann der öffentliche Schlüssel automatisch auf dem PI kopiert werden.
+
+````bash
+ssh-copy-id ulllum17@10.200.114.226
+````
+
+oder man fügt den Schlüssel manuel hinzu.
+
+````bash
+sudo nano .ssh/authorized_keys
+````
+und kopiert den Schlüssel hinein.
