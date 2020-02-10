@@ -142,7 +142,7 @@ Im folgenden wird gezeigt wie man das Passwort auf den Raspberry PI bekommt
 ## Programm installieren
 >Das Advanced Packaging Tool (APT) ist ein Paketverwaltungssystem, das im Bereich des Betriebssystems Debian entstanden ist und dpkg zur eigentlichen Paketverwaltung benutzt. Ziel ist es, eine einfache Möglichkeit zur Suche, Installation und Aktualisierung von Programmpaketen zur Verfügung zu stellen.
 
-[Wikipedia](#https://de.wikipedia.org/wiki/Advanced_Packaging_Tool)
+[Wikipedia](https://de.wikipedia.org/wiki/Advanced_Packaging_Tool)
 
 ````bash
 apt uptdate
