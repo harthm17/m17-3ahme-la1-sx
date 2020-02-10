@@ -98,34 +98,26 @@ top
 
 ## SSH Schlüssel
 
-
-
-
-Es gibt ein Asymetrisches Schlüsselpaar
-* Öffentlicher Schlüssel
-* Privater Schlüssel
+Es gibt einen **öffentlichen Schlüssel**und einen **privaten Schlüssel**.
 
 ### Schlüssel erzeugen
-Auf dem PC muss unter Linux Folgender Befehl ausgeführt werden um ein Schlüsselpaar zuerzeugen.
-
-````bash
+Der Schlüssel kann mit dem Befehl **keygen** erzeugt werden.
+```
 ssh-keygen
-````
-
-Unter windows wird ein Zusatzprogramm benötigt Putty und Puttygen, um eine Schlüsselpaar zu erzeugen
+```
+Unter Windows werden Zusatzprogramme benötigt um einen Schlüssel zu erzeugen.
 
 
 ### Schlüssel kopieren
 
-Mit Folgendem Befehl kann der öffentliche Schlüssel automatisch auf dem PI kopiert werden.
+Mit **copy** kann der Schlüssel kopiert werden.
 
-````bash
-ssh-copy-id ulllum17@10.200.114.226
-````
+```
+ssh-copy-id snagem17@10.200.114.226
+```
 
-oder man fügt den Schlüssel manuel hinzu.
+Man kann den Schlüssel aber auch manuell hinzufügen.
 
-````bash
+```
 sudo nano .ssh/authorized_keys
-````
-und kopiert den Schlüssel hinein.
+```
