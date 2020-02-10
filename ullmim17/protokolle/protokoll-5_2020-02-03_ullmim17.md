@@ -37,8 +37,7 @@
   
   > enable UNITDATEI:	Aktiviert die Unit-Datei UNITDATEI. Danach kann die zugehörige Unit automatisch (z.B. beim Systemstart) gestartet werden.
   
- ```
-  bash
+ ``` bash
   michael@michael-GL752VW:/var/log$ systemctl enable programm
 Created symlink /etc/systemd/system/multi-user.target.wants/programm.service → /etc/systemd/system/programm.service.
  ```
@@ -97,8 +96,7 @@ int main()
 ```
 2) Mit dem Befehl [tail](https://wiki.ubuntuusers.de/tail/) können wir nun die letzten Zeilen der Datei ausgeben. Die Option -f folgt dem Ende der Datei, wenn sie wächst.
 
-```
-bash
+```bash
 michael@michael-GL752VW:~/programm$ tail -f /var/log/programm.log
 cnt: 1
 cnt: 2
@@ -110,8 +108,7 @@ logrotate ist dazu entworfen, die Verwaltung von Systemen zu vereinfachen, die e
 
 Log-Rotate-Datei erstellen: 
 
-```
-bash
+```bash
 sudo nano /etc/logrotate.d/programm
 
 ------------------------
@@ -131,8 +128,7 @@ sudo nano /etc/logrotate.d/programm
 Wir wollten unserem Dienst auch einen eigenen Benutzer erstellen.
 
 1) Benutzer erstellen:
-```
-bash
+```bash
 michael@michael-GL752VW:~/programm$ sudo adduser --disabled-password –system –no-create-home programm
 
 ```
