@@ -28,6 +28,8 @@ Mit dem Befehl **systemctl** und der Option **enable** können wir das System au
 Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Logdatei)
 >Eine Logdatei (auch Protokolldatei, Ereignisprotokolldatei) enthält das automatisch geführte Protokoll aller oder bestimmter Aktionen von Prozessen auf einem Computersystem.<
 
+Ein [Logrotate](http://www.linux-praxis.de/lpic1/manpages/logrotate.html) benötigen wir, damit die Dateien nicht zu groß werden.
+
 **In das Verzeichnis wechseln um ein Logrotate festzulegen**
 ```
 cd /etc/logrotate.d
