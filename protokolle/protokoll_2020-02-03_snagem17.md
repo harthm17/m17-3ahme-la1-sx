@@ -69,7 +69,7 @@ int main()
 ```
 ## Programm als System Account laufen lassen
 
-1. Account anlegen 
+1. Einen Account anlegen 
 ```
 adduser --disabled-password --no-create-home --system programm
 ```
@@ -79,7 +79,7 @@ adduser --disabled-password --no-create-home --system programm
 nano /etc/systemd/system/programm.service
 ```
 
-**Unsere Service-Datei sah so aus:**
+**Unsere Service-Datei sah folgendermaßen aus:**
 ```
 [Unit]
 Description=Labor Programm
@@ -94,7 +94,7 @@ WantedBy=multi-user.target
 ```
 
 ## Kontrollieren ob der System-Account läuft
-Das funktioniert mit dem Befehl **top**. Mit der PID kann man im Tool **top** checken ob der System-Account läuft.
+Das funktioniert mit dem Befehl **top**. 
 ```
 top
 ```
