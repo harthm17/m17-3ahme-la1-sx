@@ -9,6 +9,10 @@
   * **Gefehlt:** Niemand
 
   * **Erstellt von:** Michael Ully
+  
+  * **Letztes Protokoll:** [4. Protokoll](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/ullmim17/ullmim17/protokolle/protokoll-4_2020-01-27_ullmim17.md)
+  
+  * **Nächstes Protokoll:**
 
   --------------------------------------------------
 
