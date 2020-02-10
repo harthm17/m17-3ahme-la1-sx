@@ -161,18 +161,15 @@ Laut [Wikipedia](https://de.wikipedia.org/wiki/Public-Key-Authentifizierung)
 >Die Berechnung des privaten Schlüssels aus dem öffentlichen ist je nach Wahl der Länge des Schlüssels sehr aufwändig bis praktisch unmöglich.
 
 1) Schlüssel erstellen
-````
-bash
+````bash
 ssh-keygen
 ````
 2) Öffentlicher Schlüssel
-````
-bash
+````bash
  cat .ssh/id-rsa.pub
 ````
 3) Privater Schlüssel
-````
-bash
+````bash
  cat .ssh/id-rsa
 ````
 4) Schlüssel auf den Raspberry kopieren
@@ -183,7 +180,5 @@ bash
                  chmod 700.ssh
                  cp /home/ullmim17/.ssh/authrized_keys.ssh/
     rsync root@10.200.114.217 /home/tmp
-
- bash
  
  ````
