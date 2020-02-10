@@ -102,7 +102,7 @@ Dann muss man unter [Service] User=Programm dazu schreiben.
 
           [Service]
           Type=simple
-          ExecStart=/home/ullmim17/programm/a.out
+          ExecStart=/home/uhljum17/programm/a.out
           User=programm
 
           [Install]
