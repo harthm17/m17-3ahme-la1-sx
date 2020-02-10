@@ -14,6 +14,7 @@
 4. [SSH-Schlüssel](https://www.zdv.uni-mainz.de/ssh-schluessel/)
 * Schlüssel erzeugen
 * Schlüssel kopieren
+5. Ein Programm installieren
 
   ## System automatisch starten lassen
   
@@ -123,4 +124,11 @@ Man kann den Schlüssel aber auch manuell hinzufügen.
 
 ```
 sudo nano .ssh/authorized_keys
+```
+## Ein Programm installieren
+Mit dem System APT(Advanced Packaging Tool) kann man sehr leicht Programmpakete suchen, instellieren und noch dazu das ganze System auf den neuesten Stand bringen,
+
+```
+apt update
+apt install <Programm_name>
 ```
