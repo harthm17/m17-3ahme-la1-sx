@@ -60,7 +60,7 @@ adduser --disabled-password --no-create-home --system programm
 nano /etc/systemd/system/programm.service
 ````
 Hinzuzufügen ist **User=programm**.    
-Die Service Datei sieht wie folgt aus. 
+Die Service Datei sieht danach wie folgt aus. 
 
 ````service
 [Unit]
@@ -76,7 +76,7 @@ WantedBy=multi-user.target
 ````
 ### Überprüfen ob das Programm mit dem System Account läuft
 
-Tool *Top*
+Mit dem Tool *Top*
 
 ````bash
 top
