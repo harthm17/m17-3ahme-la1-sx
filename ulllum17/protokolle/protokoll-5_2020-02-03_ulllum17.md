@@ -1,7 +1,7 @@
 # 5. Protokoll | AHME17 
 # Uller Lucas
 -------------------------------------------------------------------------
-* **Thema:** Versionsverwaltungssystem, Git-Befehle(Shell), Shell
+* **Thema:** Raspberry PI, SSH-Verbindungen
 * **Datum:** 03.02.2020
 * **Gefehlt:** ---
 * **Erstellt von:** ulllum17
