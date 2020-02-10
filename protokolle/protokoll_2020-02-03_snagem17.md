@@ -11,6 +11,9 @@
 1. System automatisch starten lassen
 2. [Log-Dateien](https://de.wikipedia.org/wiki/Logdatei)
 3. Programm als System-Account laufen lassen
+4. [SSH-Schlüssel](https://www.zdv.uni-mainz.de/ssh-schluessel/)
+* Schlüssel erzeugen
+* Schlüssel kopieren
 
   ## System automatisch starten lassen
   
