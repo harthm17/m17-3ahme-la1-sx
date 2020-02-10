@@ -11,12 +11,11 @@
 
 ## Inhaltsverzeichnis 
 1.  [Programmeigenschaften](#programmeigenschaften)
-1.  [Standardinput,Standardoutput,Standarderror](#standardinput-standardoutput-standarderror)
 1.  [Autostart](#autostart)
 1.  [LOG-Datei](#log-datei) 
 1.  [System Account Programm](#system-account-programm)
 1.  [Passwort estellen und auf den Raspberry bekommen](#passwort-estellen-und-auf-den-raspberry-bekommen)
-
+1.  [Programm installieren](#programm-installieren)
 --------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Programmeigenschaften
@@ -39,12 +38,6 @@ stopt das Programm
 zeigt laufend an was das Programm macht
 
     root@pi16 tail -f /var/log/programm.log
-
---------------------------------------------------------------------------------------------------------------------------------------------
-
-## Standardinput,Standardoutput,Standarderror
-
- ![Bild](https://www.linuxunit.com/io-redirection-stdin-stdout-stderr-streams/)
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
