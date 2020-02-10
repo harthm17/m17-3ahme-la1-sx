@@ -96,7 +96,18 @@ Benutzer unter dem der Service läuft:
 
 Dann muss man unter [Service] User=Programm dazu schreiben.
 
-Dann sollte man es neustarten:
+
+          [Unit]
+          Description=Labor Programm
+
+          [Service]
+          Type=simple
+          ExecStart=/home/ullmim17/programm/a.out
+          User=programm
+
+          [Install]
+          WantedBy=multi-user.target
+
 
         systemctl daemon-reload
         systemctl restart programm
