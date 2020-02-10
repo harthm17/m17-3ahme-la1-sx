@@ -27,7 +27,7 @@ Mit dem Befehl **systemctl** und der Option **enable** können wir das System au
 Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Logdatei)
 >Eine Logdatei (auch Protokolldatei, Ereignisprotokolldatei) enthält das automatisch geführte Protokoll aller oder bestimmter Aktionen von Prozessen auf einem Computersystem.<
 
-**In das Verzeichnis wechseln:**
+**In das Verzeichnis wechseln um ein Logrotate festzulegen**
 ```
 cd /etc/logrotate.d
 ```
@@ -93,7 +93,7 @@ WantedBy=multi-user.target
 ```
 
 ## Kontrollieren ob der System-Account läuft
-Das funktioniert mit dem Befehl **top**.
+Das funktioniert mit dem Befehl **top**. Mit der PID kann man im Tool **top** checken ob der System-Account läuft.
 ```
 top
 ```
