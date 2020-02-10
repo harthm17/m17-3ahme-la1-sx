@@ -1,7 +1,6 @@
  # Protokoll Labor/SX 3AHME (2019/20) 
 
-
-* **Thema** : Raspberry PI 
+* **Thema** : Autostart, SSH Verbindungen 
 * **Datum** : 03.02.2020 
 * **Gruppe** : 4 
 * **Protokollverfasser** : Christoph Sebernegg 
