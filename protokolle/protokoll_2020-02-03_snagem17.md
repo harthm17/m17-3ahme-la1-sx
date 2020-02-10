@@ -86,7 +86,7 @@ Description=Labor Programm
 
 [Service]
 Type=simple
-ExecStart=/home/pi/programm/a.out
+ExecStart=/home/snagem17/programm/a.out
 User=programm
 
 [Install]
@@ -117,7 +117,7 @@ Unter Windows werden Zusatzprogramme benötigt um einen Schlüssel zu erzeugen.
 Mit **copy** kann der Schlüssel kopiert werden.
 
 ```
-ssh-copy-id snagem17@10.200.114.226
+ssh-copy-id snagem17@10.200.114.224
 ```
 
 Man kann den Schlüssel aber auch manuell hinzufügen.
@@ -126,7 +126,7 @@ Man kann den Schlüssel aber auch manuell hinzufügen.
 sudo nano .ssh/authorized_keys
 ```
 ## Ein Programm installieren
-Mit dem System APT(Advanced Packaging Tool) kann man sehr leicht Programmpakete suchen, instellieren und noch dazu das ganze System auf den neuesten Stand bringen,
+Mit dem System APT(Advanced Packaging Tool) kann man sehr leicht Programmpakete suchen, installieren und noch dazu das ganze System auf den neuesten Stand bringen.
 
 ```
 apt update
