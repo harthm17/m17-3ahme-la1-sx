@@ -10,6 +10,7 @@
 ## Inhaltsverzeichnis
 1. System automatisch starten lassen
 2. [Log-Dateien](https://de.wikipedia.org/wiki/Logdatei)
+3. Programm als System-Account laufen lassen
 
   ## System automatisch starten lassen
   
@@ -21,7 +22,7 @@ Mit dem Befehl **systemctl** und der Option **enable** können wir das System au
 ## Log-Dateien
 
 Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Logdatei)
->Eine Logdatei (auch Protokolldatei, Ereignisprotokolldatei; englisch log file) enthält das automatisch geführte Protokoll aller oder bestimmter Aktionen von Prozessen auf einem Computersystem.<
+>Eine Logdatei (auch Protokolldatei, Ereignisprotokolldatei) enthält das automatisch geführte Protokoll aller oder bestimmter Aktionen von Prozessen auf einem Computersystem.<
 
 **In das Verzeichnis wechseln:**
 ```
@@ -62,15 +63,26 @@ int main()
     } 
 }
 ```
+## Programm als System Account laufen lassen
 
-2) Service-Datei ändern:
+1. Account anlegen 
+```
+adduser --disabled-password --no-create-home --system programm
+```
+2. In der Service Datei den **System Account** hinzufügen.
+
+```
+nano /etc/systemd/system/programm.service
+```
+
+**Unsere Service-Datei sah so aus:**
 ```
 [Unit]
 Description=Labor Programm
 
 [Service]
 Type=simple
-ExecStart=/home/ullmim17/programm/a.out
+ExecStart=/home/pi/programm/a.out
 User=programm
 
 [Install]
