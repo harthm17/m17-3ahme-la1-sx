@@ -1,6 +1,6 @@
 # Protokoll Labor/SX 3AHME (2019/20)
 
-* **Thema:** Raspberry Pi Programmieren
+* **Thema:** Autostart, Log-Dateien, SSH-Schlüssel
 * **Datum:** 27.01.2020
 * **Gefehlt:** keiner
 * **Erstellt von:** Georg Schnabel
