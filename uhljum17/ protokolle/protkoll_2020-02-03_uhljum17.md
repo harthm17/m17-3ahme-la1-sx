@@ -14,7 +14,12 @@
 
 # Inhaltsverzeichnis
 
-1. 
+1. [Prorgamm Status abfragen](Prorgamm-Status-abfragen)
+2. [Autostart](Autostart)
+3. [Logrotate](Logrotate) 
+     1. [Logrotate erstellen](Logrotate-erstellen)        
+     2. [System Account](System-Account)
+     3. [Passwort](Passwort)
 
 -----------------------
 
@@ -126,13 +131,13 @@ Privater Schlüssel:
 
 Das Passwort auf den Raspberry bringen:
 
-        ssh-copy-id uhljum17@10.200.114.217
+        ssh-copy-id uhljum17@10.200.114.227
 
-        root@pi17:~# mkdir.ssh
+        root@pi27:~# mkdir.ssh
 
                      chmod 700.ssh
         
-                     cp /home/strmam17/.ssh/authrized_keys.ssh/
+                     cp /home/uhljum17/.ssh/authrized_keys.ssh/
         
-        rsync root@10.200.114.217 /home/tmp
+        rsync root@10.200.114.227 /home/tmp
 
