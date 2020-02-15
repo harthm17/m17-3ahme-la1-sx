@@ -4,8 +4,8 @@
 * Datum: 14.10.2019
 * Gefehlt: -
 * Erstellt von: strmam17
-* Protokoll letzte Einheit: [1.Protokoll](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/strmam17/strmam17/protokolle/protokoll_2019-09-30_strmam17.md)
-* Protokoll nächste Einheit: [3.Protokoll](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/strmam17/strmam17/protokolle/protokoll_2020-01-20_strmam17.md)
+* Protokoll letzte Einheit: [1.Protokoll](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/strmam17/strmam17/protokolle/protokoll-1_strmam17_2019-09-30.md)
+* Protokoll nächste Einheit: [3.Protokoll](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/strmam17/strmam17/protokolle/protokoll-3_strmam17_2020-01-20.md)
 --------------------------------------------------------------------------------------------------------------------------------------
 ## Inhaltsverzeichnis
 1. [Datenträger](#datenträger)
