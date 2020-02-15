@@ -4,7 +4,7 @@
 * **Gefehlt**:   -
 * **Erstellt von**: strmam17
 * **Protokoll letzte Einheit**:
-* **Protokoll nächste Einheit**: [2.Protokoll](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/strmam17/strmam17/protokolle/protokoll_2019-10-14_strmam17.md)
+* **Protokoll nächste Einheit**: [2.Protokoll](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/strmam17/strmam17/protokolle/protokoll-2_strmam17_2019-10-14.md)
 ----------------------------------------------------------------------------------------------------------------------------------------
 ## Inhaltsverzeichnis
    1. [Github](#github)
