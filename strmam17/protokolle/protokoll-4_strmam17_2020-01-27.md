@@ -4,8 +4,8 @@
 * Datum: 27.01.2020
 * Gefehlt:  -
 * Erstellt von: strmam17
-* Protokoll letzte Einheit: [Protokoll 2020-01-20](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/strmam17/strmam17/protokolle/protokoll_2020-01-20_strmam17.md)
-* Protokoll nächste Einheit:
+* Protokoll letzte Einheit: [3.Protokoll](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/strmam17/strmam17/protokolle/protokoll_2020-01-20_strmam17.md)
+* Protokoll nächste Einheit: [5.Protokoll](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/strmam17/strmam17/protokolle/protokoll_2020-02-03_strmam17.md)
 ---------------------------------------------------------------------------------------
 ## Inhaltsverzeichnis
 1. [Portnummer](#portnummer)
