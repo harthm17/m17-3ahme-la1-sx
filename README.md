@@ -1,30 +1,12 @@
-# m17-3ahme-la1-sx
-3AHME (2019/20) LA1 SX
+# Protokolle | AHME17
 
-Das ist eine Beispieltext mit einigen Worten. Die Umbrüche werden automatisch durchgeführt.
+# Strohmeier Markus
+-------------------------------------------------------------------
+# Protokolle: 
 
-**Liste**:
-  * VW
-  * BMW
-  * Mercedes
-  * Renault
-  
-*Länder* sortiert nach Einwohnerzahl:
-  1. ***Deutschland***
-  1. Tschechien
-  1. Österreich
-  1. Slowenien
-     * Marburg
-     * Laibach
-----------------------------------------------
-
-Laut [Wikipedia](https://de.wikipedia.org/wiki/Markdown):
-
-> Markdown ist eine vereinfachte Auszeichnungssprache, die von John Gruber und Aaron Swartz entworfen und im Dezember 2004 mit Version 1.0.1 spezifiziert wurde. Ein Ziel von Markdown ist, dass schon die Ausgangsform ohne weitere Konvertierung leicht lesbar ist. Als Auszeichnungselemente wurden daher vor allem Auszeichnungsarten verwendet, die in Plain text und E-Mails üblich sind. Auch andere Auszeichnungssprachen mit ähnlichen Zielen zur Lesbarkeit – wie reStructuredText oder Textile – hatten Einfluss auf die Syntax. Der MIME-Type lautet text/markdown.
-
-```C
-int main () {
-    printf("Hallo");
-    return 0;
-}
-```
+[1.Protokoll](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/strmam17/strmam17/protokolle/protokoll_2019-09-30_strmam17.md)
+[2.Protokoll](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/strmam17/strmam17/protokolle/protokoll_2019-10-14_strmam17.md)
+[3.Protokoll](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/strmam17/strmam17/protokolle/protokoll_2020-01-20_strmam17.md)
+[4.Protokoll](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/strmam17/strmam17/protokolle/protokoll_2020-01-27_strmam17.md)
+[5.Protokoll](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/strmam17/strmam17/protokolle/protokoll_2020-02-03_strmam17.md)
+[6.Protokoll](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/strmam17/strmam17/protokolle/protokoll_2020-02-10_strmam17.md)
