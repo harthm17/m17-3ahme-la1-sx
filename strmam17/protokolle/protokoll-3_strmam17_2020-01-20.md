@@ -3,8 +3,8 @@
 * Datum: 20.01.2020
 * Gefehlt: Richard Strohrigl
 * Erstellt von: strmam17
-* Protokoll letzte Einheit: [Protokol 2019-10-14](https://github.com/HTLMechatronics/m17-3ahme-la1sx/blob/strmam17/strmam17/protokolle/protokoll_2019-10-14_strmam17.md)
-* Protokoll nächste Einheit:
+* Protokoll letzte Einheit: [2.Protokoll](https://github.com/HTLMechatronics/m17-3ahme-la1sx/blob/strmam17/strmam17/protokolle/protokoll_2019-10-14_strmam17.md)
+* Protokoll nächste Einheit: [4.Protokoll](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/strmam17/strmam17/protokolle/protokoll_2020-01-27_strmam17.md)
 ----------------------------------------------------------------------------------------------
 ## Inhaltsverzeichnis
 1. [Arduino Nano und Raspberry Pi](#arduino-nano-und-raspberry-pi)
