@@ -3,8 +3,8 @@
 * Datum: 03.02.2020
 * Gefehlt: -
 * Erstellt von: strmam17
-* Protokoll letzte Einheit: [4.Protokoll](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/strmam17/strmam17/protokolle/protokoll_2020-01-27_strmam17.md)
-* Protokoll nächste Einheit: [6.Protokoll](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/strmam17/strmam17/protokolle/protokoll_2020-02-10_strmam17.md)
+* Protokoll letzte Einheit: [4.Protokoll](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/strmam17/strmam17/protokolle/protokoll-4_strmam17_2020-01-27.md)
+* Protokoll nächste Einheit: [6.Protokoll](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/strmam17/strmam17/protokolle/protokoll-6_strmam17_2020-02-10.md)
 --------------------------------------------------------------------------------
 ## Inhaltsverzeichnis
 1. [Programm Status](#programm-status)
