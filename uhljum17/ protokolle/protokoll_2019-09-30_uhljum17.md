@@ -1,4 +1,4 @@
-# 1Protokoll
+# 1.Protokoll
 -----------------------------------------------------
 * **Thema:** Verwaltungssystem (Github)
 * **Datum:** 30.09.2019
