@@ -104,5 +104,15 @@ michael@michael-GL752VW:~$ ip a add 192.168.22.22/24
 Dann haben wir unseren Partner angepingt.
 ```bash
 michael@michael-GL752VW:~$ ping 192.168.22.24
+PING google.com (216.58.214.238) 56(84) bytes of data.
+64 bytes from bud02s24-in-f238.1e100.net (216.58.214.238): icmp_seq=1 ttl=55 time=22.5 ms
+64 bytes from bud02s24-in-f238.1e100.net (216.58.214.238): icmp_seq=2 ttl=55 time=22.2 ms
+64 bytes from bud02s24-in-f238.1e100.net (216.58.214.238): icmp_seq=3 ttl=55 time=66.1 ms
+64 bytes from bud02s24-in-f238.1e100.net (216.58.214.238): icmp_seq=4 ttl=55 time=43.7 ms
+64 bytes from bud02s24-in-f238.1e100.net (216.58.214.238): icmp_seq=5 ttl=55 time=23.7 ms
+64 bytes from bud02s24-in-f238.1e100.net (216.58.214.238): icmp_seq=6 ttl=55 time=54.6 ms
+64 bytes from bud02s24-in-f238.1e100.net (216.58.214.238): icmp_seq=7 ttl=55 time=56.7 ms
+64 bytes from bud02s24-in-f238.1e100.net (216.58.214.238): icmp_seq=8 ttl=55 time=22.4 ms
+
 
 ```
