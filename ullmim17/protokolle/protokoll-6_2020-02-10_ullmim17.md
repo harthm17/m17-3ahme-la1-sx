@@ -2,7 +2,7 @@
 
 --------------
 
-* **Thema:** Dienst bei Systemstart starten, Log-Dateien, Login mit Zertifikaten
+* **Thema:** Netzwerktechnik mit dem RaspberryPI
 
   * **Datum:** 10.2.2020
 
