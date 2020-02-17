@@ -95,3 +95,14 @@ Wir haben gemerkt, dass die angezeigte IP-Adresse vom Partner nicht der Schulnet
 Mit dem Befehl ip link set können wir eine Schnittstelle aktivieren und deaktivieren.
 ```bash 
 michael@michael-GL752VW:~$ sudo ip link set wlp2s0 down
+```
+Mit dem Befehl ip a add können wir eine statische IP-Adresse vergeben. /24 ist die Präfixlänge und gibt an wie viele Bits für den Geräte- und den Netzanteil vergeben sind. /24 heißt, dass die ersten 24 Bits der Netzanteil und die letzen acht der Geräteanteil sind. 
+```bash
+michael@michael-GL752VW:~$ ip a add 192.168.22.22/24
+
+```
+Dann haben wir unseren Partner angepingt.
+```bash
+michael@michael-GL752VW:~$ ping 192.168.22.24
+
+```
