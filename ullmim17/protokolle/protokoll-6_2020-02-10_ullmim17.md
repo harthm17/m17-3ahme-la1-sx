@@ -50,7 +50,9 @@
   ## Netzwerktechnik mit dem Raspberry
   
   ### Netzwerkprotokolle
-  Laut (ip-insider)[https://www.ip-insider.de/was-ist-ein-netzwerk-protokoll-a-711459/]
+  Laut [ipinsider](https://www.ip-insider.de/was-ist-ein-netzwerk-protokoll-a-711459/)
+  > Netzwerk-Protokolle regeln den Datenaustausch in Computernetzen. Sie definieren die erforderlichen Regeln für Aufgaben wie das Adressieren von Datenpaketen, die Vermittlung von Datenpaketen, den Transport von Datenpaketen, den Verbindungsaufbau oder die Fehlerüberprüfung. Wichtige Netzwerk-Protokolle für das Internet sind in der IP-Protokollfamilie zu finden.
   
+  Es gibt zum Beispiel das TCP-Protokoll, das dafür sorgt, dass Programme Daten miteinander austauschen können und diese in richtiger Reihenfolge und fehlerfrei ankommen. Das IP-Protokoll ermöglicht das Verbinden von Computern weltweit. Es gibt verschiedene Versionen z.B IPv4 und IPv6. Dann gibt es noch das Ethernet/WLAN-Protokoll, das die Verbindung von Computern in einem Netzwerk in unmittelbarer Nähe ermöglicht.
   
   
