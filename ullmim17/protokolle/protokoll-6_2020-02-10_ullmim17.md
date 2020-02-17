@@ -18,15 +18,33 @@
 
   ## Inhaltsverzeichnis
 
-  1.  [Dienst bei Systemstart automatisch starten lassen](#dienst-bei-systemstart-automatisch-starten-lassen)
+  1.  [Programme installieren](#programme-installieren)
+      1. [APT](#apt)
       
-  2. [Log-Dateien](#log-dateien)
-     1. [Log-Rotate](#log-rotate)
-  3. [Eigenen Benutzer für den Dienst anlegen](#eigenen-benutzer-für-den-dienst-anlegen)
-  
-  4. [Login mit Zertifikaten](#login-mit-zertifikaten)
+  2. [TCP-Dump](#tcp-dump)
+    
 
   
  
 
   ---------------------------------------------------------------
+  
+  ## Programme installieren
+  
+  ### APT
+  Laut [Wikipedia](https://de.wikipedia.org/wiki/Advanced_Packaging_Tool)
+  > Das Advanced Packaging Tool (APT) ist ein Paketverwaltungssystem, das im Bereich des Betriebssystems Debian entstanden ist und dpkg zur eigentlichen Paketverwaltung benutzt. Ziel ist es, eine einfache Möglichkeit zur Suche, Installation und Aktualisierung von Programmpaketen zur Verfügung zu stellen.
+  
+  **Anwendungsbeispiele:**
+  1) apt-get install paketname installiert ein Paket und sämtliche Abhängigkeiten und in der Standardeinstellung zusätzlich empfohlene Pakete.
+  2) apt-get upgrade bringt, sofern möglich, alle Pakete auf den neuesten Stand, installiert jedoch keine neuen Pakete.
+  3) apt-get update holt die neuesten Informationen über Pakete vom Debian-Server. Sollte man vor apt.get upgrade ausführen.
+  
+  ## TCP-Dump
+  Wir wollten uns das Kommandozeilenprogramm [TCP-Dump](https://wiki.ubuntuusers.de/tcpdump/) installieren. Mit diesem Programm     kann man kontrollieren, welche Pakete am eigenen Rechner ankommen und weggeschickt werden.
+  
+  Wir haben das Programm mit dem Befehl atp-get install installiert.
+  ```bash
+  apt-get install tcpdump
+  ```
+  
