@@ -57,4 +57,9 @@
   
   Es gibt zum Beispiel das TCP-Protokoll, das dafür sorgt, dass Programme Daten miteinander austauschen können und diese in richtiger Reihenfolge und fehlerfrei ankommen. Das IP-Protokoll ermöglicht das Verbinden von Computern weltweit. Es gibt verschiedene Versionen z.B IPv4 und IPv6. Dann gibt es noch das Ethernet/WLAN-Protokoll, das die Verbindung von Computern in einem Netzwerk in unmittelbarer Nähe ermöglicht.
   
+  ### Loopback
+  Laut [Computerweekly](https://www.computerweekly.com/de/definition/Loopback-Test)
+  > Bei einem Loopback-Test wird von einem Kommunikationsgerät ein Testmuster gesendet und dann an es zurückgegeben (Schleifentest). So lässt sich herausfinden, ob das Gerät angemessen funktioniert. Weiterhin können Administratoren damit überprüfen, welcher Knotenpunkt oder Node im Netzwerk ausgefallen ist.
+
+ >Eine Form des Loopback-Tests funktioniert mithilfe eines Sondersteckers, der sich Rückkopplungsstecker oder Wrap Plug     nennt. Dieser wird in einen Port des Kommunikationsgerätes eingesteckt. Im Endeffekt soll der Rückkopplungsstecker bewirken,  dass übertragene (Output) Daten als empfangene (Input) Daten zurückkommen. Somit wird ein kompletter Kommunikationsschaltkreis mithilfe eines einzelnen Computers simuliert.
   
