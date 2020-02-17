@@ -25,6 +25,7 @@
   3. [Netzwerktechnik mit dem Raspberry](#netzwerktechnik-mit-dem-raspberry)
       1. [Netzwerkprotokolle](#netzwerkprotokolle)
       2. [Loopback](#loopback)
+      3. [Private IP-Adressen](#private-ip-adressen)
     
 
   
@@ -63,4 +64,7 @@
   > Bei einem Loopback-Test wird von einem Kommunikationsgerät ein Testmuster gesendet und dann an es zurückgegeben (Schleifentest). So lässt sich herausfinden, ob das Gerät angemessen funktioniert. Weiterhin können Administratoren damit überprüfen, welcher Knotenpunkt oder Node im Netzwerk ausgefallen ist.
 
  >Eine Form des Loopback-Tests funktioniert mithilfe eines Sondersteckers, der sich Rückkopplungsstecker oder Wrap Plug     nennt. Dieser wird in einen Port des Kommunikationsgerätes eingesteckt. Im Endeffekt soll der Rückkopplungsstecker bewirken,  dass übertragene (Output) Daten als empfangene (Input) Daten zurückkommen. Somit wird ein kompletter Kommunikationsschaltkreis mithilfe eines einzelnen Computers simuliert.
+ ### Private IP-Adressen
+ Laut [Wikipedia](#https://de.wikipedia.org/wiki/Private_IP-Adresse)
+ > Private IP-Adressen (abgekürzt Private IP) sind IP-Adressen, die von der IANA nicht im Internet vergeben sind. Sie wurden für die private Nutzung aus dem öffentlichen Adressraum ausgespart, damit sie ohne administrativen Mehraufwand (Registrierung der IP-Adressen) in lokalen Netzwerken genutzt werden können. Als die IP-Adressen des Internet Protokolls v4 knapp wurden und dadurch eine bewusste Einsparung öffentlicher IP-Adressen notwendig wurde, war es umso wichtiger, private IP-Adressen in lokalen Netzwerken zur Verfügung zu haben, die beliebig oft bzw. in beliebigen Netzwerken genutzt werden können. (Siehe auch [Port Address Translation](https://de.wikipedia.org/wiki/Port_Address_Translation) und [Network Address Translation](https://de.wikipedia.org/wiki/Netzwerkadress%C3%BCbersetzung))
   
