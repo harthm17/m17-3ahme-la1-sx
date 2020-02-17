@@ -47,4 +47,10 @@
   ```bash
   apt-get install tcpdump
   ```
+  ## Netzwerktechnik mit dem Raspberry
+  
+  ### Netzwerkprotokolle
+  Laut (ip-insider)[https://www.ip-insider.de/was-ist-ein-netzwerk-protokoll-a-711459/]
+  
+  
   
