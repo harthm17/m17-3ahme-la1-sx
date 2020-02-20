@@ -5,4 +5,4 @@
 * [3.Protokoll](protokoll_2020-01-20_snagem17.md)
 * [4.Protokoll](protokoll_2020-01-27_snagem17.md)
 * [5.Protokoll](protokoll_2020-02-03_snagem17.md)
-* [6.Protokoll](
+* [6.Protokoll](protokoll_2020-02-10_snagem17.md)
