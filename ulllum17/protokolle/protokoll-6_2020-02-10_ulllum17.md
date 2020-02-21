@@ -9,13 +9,41 @@
 --------------------------------------------------------------------------
 ## Inhaltsverzeichnis
 
-1. [Autostart](#autostart)   
-1. [Logrotate](#logrotate)   
-    1. [Logrotate erstellen](#logrotate-erstellen)
-1. [Programm als System Account laufen](#programm-als-system-account-laufen)
-1. [SSH Schlüssel](#ssh-schlüssel)
-    1. [Schlüssel erzeugen](#schlüssel-erzeugen)
-    1. [Schlüssel kopieren](#schlüssel-kopieren)
-1. [Programm installieren](#programm-installieren)
-
 --------------------------------------------------------------------------
+
+## APT
+
+> APT ist ein Paketmanagement-System, das im Bereich des Betriebssystems Debian GNU/Linux entstanden ist. Mittels APT ist es sehr einfach, Programmpakete zu suchen, zu installieren oder auch das ganze System auf den neuesten Stand zu bringen.
+
+Quelle: [Ubuntuusers](https://wiki.ubuntuusers.de/APT/)
+
+### APT Befehle
+
+Mit folgendem Befehl werden die Paketlisten neueingelesen
+````bash
+apt update
+````
+
+Mit folgendem Befehl wird PAKETNAME installiert
+````bash
+install PAKETNAME
+````
+
+Mit folgendem Befehl wird die Paketliste angezeigt
+
+````bash
+apt list --upgradeable
+````
+
+Mit folgendem Befehl werden Installierte Pakete, wenn möglich, auf eine verbesserte Version aktualisiert. Um geänderte Abhängigkeiten zu erfüllen, werden gegebenfalls auch neue Pakete installiert.
+
+````bash
+apt upgrade
+````
+
+## Netzwerk-Technik
+
+> Ein Computer Netzwerk ist eine Verbund zwischen mehreren Computern (mindestens zwei), die Daten gegeneinander austauschen. Die PCs können praktisch miteinander kommunizieren. Ein Computer Netzwerk hat aber nicht nur den Vorteil das Daten gegeneinander ausgetauscht werden können, sondern auch, dass auf man den gleichen Internetzugang verwendet oder auch einen gemeinsamen Drucker verwendet.
+Quelle:[DeinElektriker](https://dein-elektriker-info.de/was-ist-ein-netzwerk/)
+
+Die 
