@@ -64,14 +64,4 @@
     inet6 fe80::bf71:d65:3007:b4ab/64 scope link noprefixroute 
        valid_lft forever preferred_lft forever
 ```
-Wir haben gemerkt, dass die angezeigte IP-Adresse vom Partner nicht der Schulnetzwerkadresse entspricht. Das liegt daran, dass über [Zero-Conf](https://de.wikipedia.org/wiki/Zeroconf) automatisch eine IP-Adresse vergeben wurde.
 
-Mit dem Befehl ip link set können wir eine Schnittstelle aktivieren und deaktivieren.
-```bash 
-michael@michael-GL752VW:~$ sudo ip link set wlp2s0 down
-```
-Mit dem Befehl ip a add können wir eine statische IP-Adresse vergeben. /24 ist die Präfixlänge und gibt an wie viele Bits für den Geräte- und den Netzanteil vergeben sind. /24 heißt, dass die ersten 24 Bits der Netzanteil und die letzen acht der Geräteanteil sind. 
-```bash
-michael@michael-GL752VW:~$ ip a add 192.168.22.22/24
-
-```
