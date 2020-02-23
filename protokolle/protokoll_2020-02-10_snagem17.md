@@ -29,18 +29,19 @@
   * Das [Ethernet/WLAN-Protokoll](https://de.wikipedia.org/wiki/Ethernet) ermöglicht die Verbindung von Computern in einem Netzwerk in unmittelbarer Nähe.
   
   ### Loopback
-  Laut [Computerweekly](https://www.computerweekly.com/de/definition/Loopback-Test)
+  Quelle: [Computerweekly](https://www.computerweekly.com/de/definition/Loopback-Test)
   > Bei einem Loopback-Test wird von einem Kommunikationsgerät ein Testmuster gesendet und dann an es zurückgegeben (Schleifentest). So lässt sich herausfinden, ob das Gerät angemessen funktioniert. Weiterhin können Administratoren damit überprüfen, welcher Knotenpunkt oder Node im Netzwerk ausgefallen ist.
 
- >Eine Form des Loopback-Tests funktioniert mithilfe eines Sondersteckers, der sich Rückkopplungsstecker oder Wrap Plug     nennt. Dieser wird in einen Port des Kommunikationsgerätes eingesteckt. Im Endeffekt soll der Rückkopplungsstecker bewirken,  dass übertragene (Output) Daten als empfangene (Input) Daten zurückkommen. Somit wird ein kompletter Kommunikationsschaltkreis mithilfe eines einzelnen Computers simuliert.
  
  ### Private IP-Adressen
- Laut [Wikipedia](#https://de.wikipedia.org/wiki/Private_IP-Adresse)
- > Private IP-Adressen (abgekürzt Private IP) sind IP-Adressen, die von der IANA nicht im Internet vergeben sind. Sie wurden für die private Nutzung aus dem öffentlichen Adressraum ausgespart, damit sie ohne administrativen Mehraufwand (Registrierung der IP-Adressen) in lokalen Netzwerken genutzt werden können. Als die IP-Adressen des Internet Protokolls v4 knapp wurden und dadurch eine bewusste Einsparung öffentlicher IP-Adressen notwendig wurde, war es umso wichtiger, private IP-Adressen in lokalen Netzwerken zur Verfügung zu haben, die beliebig oft bzw. in beliebigen Netzwerken genutzt werden können. (Siehe auch [Port Address Translation](https://de.wikipedia.org/wiki/Port_Address_Translation) und [Network Address Translation](https://de.wikipedia.org/wiki/Netzwerkadress%C3%BCbersetzung))
+ Quelle: [Wikipedia](#https://de.wikipedia.org/wiki/Private_IP-Adresse)
+ > Private IP-Adressen (abgekürzt Private IP) sind IP-Adressen, die von der IANA nicht im Internet vergeben sind. Sie wurden für die private Nutzung aus dem öffentlichen Adressraum ausgespart. Als die IP-Adressen des Internet Protokolls v4 knapp wurden und dadurch eine bewusste Einsparung öffentlicher IP-Adressen notwendig wurde, war es umso wichtiger, private IP-Adressen in lokalen Netzwerken zur Verfügung zu haben, die beliebig oft bzw. in beliebigen Netzwerken genutzt werden können.
+ 
  ### Ping
- Der ping Befehl ist ein Diagnose Tool mit dem man überprüfen kann, ob ein Host in einem IP-Netzwerk erreichbar ist. Der anpingende Teilnehmer versendet dabei ICMP-Pakete an den angepingenden Netzwerkteilnehmer.Der angepingte Teilnehmer beantwortet diese kurze Anfrage und somit ist die Frage der grundsätzlichen Erreichbarkeit geklärkt. Weiterführende Informationen auf [Wikiubuntuusers](https://wiki.ubuntuusers.de/ping/).
+ Der **ping** Befehl ist ein Tool, mit dem man überprüfen kann, ob ein Host in einem IP-Netzwerk erreichbar ist. Der anpingende Teilnehmer versendet dabei ICMP-Pakete an den angepingenden Netzwerkteilnehmer.Der angepingte Teilnehmer beantwortet diese kurze Anfrage und somit ist die Frage der grundsätzlichen Erreichbarkeit geklärkt.
+ 
  ## Verbinden mit dem Partner
-  Zuerst haben wir die Raspberrys mit einem LAN-Kabel miteinander verbunden. Mit dem Kommando ip addr show konnten wir alle aktuellen Schnittstellen inklusive IP-Adresse sehen.
+ Wir mussten die Raspberrys mit einem LAN-Kabel miteinander verbinden. Mit dem Kommando **ip addr show** konnten wir die aktuellen Schnittstellen sehen mit den dazugehörigen IP-Adressen-
   ```bash
   michael@michael-GL752VW:~$ ip addr show
 1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
