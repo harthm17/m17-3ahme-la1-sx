@@ -16,13 +16,15 @@
 * [update](
 * [tcpdump](
 
-  ## Netzwerktechnik mit dem Raspberry
+  ## Raspberry über Netzwerk verbinden
   
   ### Netzwerkprotokolle
-  Laut [ipinsider](https://www.ip-insider.de/was-ist-ein-netzwerk-protokoll-a-711459/)
-  > Netzwerk-Protokolle regeln den Datenaustausch in Computernetzen. Sie definieren die erforderlichen Regeln für Aufgaben wie das Adressieren von Datenpaketen, die Vermittlung von Datenpaketen, den Transport von Datenpaketen, den Verbindungsaufbau oder die Fehlerüberprüfung. Wichtige Netzwerk-Protokolle für das Internet sind in der IP-Protokollfamilie zu finden.
+  Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Netzwerkprotokoll)
+  > Ein Netzwerkprotokoll ist ein Kommunikationsprotokoll für den Austausch von Daten zwischen Computern bzw. Prozessen, die in einem Rechnernetz miteinander verbunden sind. Die Vereinbarung besteht aus einem Satz von Regeln und Formaten, die das Kommunikationsverhalten der kommunizierenden Instanzen in den Computern bestimmen. 
   
-  Es gibt zum Beispiel das TCP-Protokoll, das dafür sorgt, dass Programme Daten miteinander austauschen können und diese in richtiger Reihenfolge und fehlerfrei ankommen. Das IP-Protokoll ermöglicht das Verbinden von Computern weltweit. Es gibt verschiedene Versionen z.B IPv4 und IPv6. Dann gibt es noch das Ethernet/WLAN-Protokoll, das die Verbindung von Computern in einem Netzwerk in unmittelbarer Nähe ermöglicht.
+  * Das [TCP-Protokoll](https://de.wikipedia.org/wiki/Transmission_Control_Protocol) wird zum Beispiel häufig verwendet. Es sorgt dafür, dass Programme Daten miteinander austauschen können und diese in richtiger Reihenfolge und fehlerfrei ankommen. 
+  * Das [IP-Protokoll](https://de.wikipedia.org/wiki/Internet_Protocol) ermöglicht das Verbinden von Computern weltweit. Es gibt verschiedene Versionen z.B IPv4 und IPv6. 
+  * Das [Ethernet/WLAN-Protokoll](https://de.wikipedia.org/wiki/Ethernet), ermöglicht die Verbindung von Computern in einem Netzwerk in unmittelbarer Nähe ermöglicht.
   
   ### Loopback
   Laut [Computerweekly](https://www.computerweekly.com/de/definition/Loopback-Test)
