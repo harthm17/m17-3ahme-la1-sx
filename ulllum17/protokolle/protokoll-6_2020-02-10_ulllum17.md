@@ -26,7 +26,7 @@ apt update
 
 Mit folgendem Befehl wird PAKETNAME installiert
 ````bash
-install PAKETNAME
+apt install PAKETNAME
 ````
 
 Mit folgendem Befehl wird die Paketliste angezeigt
@@ -87,4 +87,41 @@ Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Loopback)
 * up
 * down
 * unknown
+
+## Netzwerk-Protokolle
+
+* TCP-Protokoll
+   * Portnummern vergabe, für die Programm zuordnung    
+Mehr zu [TCP](https://de.wikipedia.org/wiki/Transmission_Control_Protocol) 
+
+* Ethernet und Wlan Protokoll
+   * Verinden von Computer, im Lokalen Netzwerk
+   
+* IP-Protokoll
+   * Verbinden von Computer, im Internet    
+   Mehr zu [IP](https://de.wikipedia.org/wiki/Internet_Protocol)
+
+## Zwei Raspberry verbinden
+
+In unserem Beispiel haben wir die Raspberry über das Ethernet verbunden und ein Subnetz erzeugt.
+
+Um zu sehen ob die Schnittstelle funktioniert geben wir folgenden Befehl ein.
+
+````bash
+ip a
+````
+
+````bash
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 16436 qdisc noqeue state UNKNOWN
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+    inet6 ::1/128 scope host
+       valid_lft forever preferred_lft forever
+2: eth0: <BRODCAST, MULTICAST> mtu 1500 qdisc noop state UP qlen 1000
+    link/ether 00:08
+
+
+````
+
+
 
