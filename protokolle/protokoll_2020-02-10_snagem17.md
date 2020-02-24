@@ -11,8 +11,8 @@
   * Alternativen zu [rsync](https://de.wikipedia.org/wiki/Rsync)
 2. Raspberry über Netzwerk verbinden
   * [Netzwerkprotokolle](https://de.wikipedia.org/wiki/Netzwerkprotokoll)
-  * [Loopback](
-  * [Private IP-Adressen](
+  * [Loopback](https://de.wikipedia.org/wiki/Loopback)
+  * [Private IP-Adressen](https://de.wikipedia.org/wiki/Private_IP-Adresse)
   * [Ping](
 3. Verbinden mit dem Partner
   
@@ -44,12 +44,13 @@ apt-get install tcpdump
   * Das [Ethernet/WLAN-Protokoll](https://de.wikipedia.org/wiki/Ethernet) ermöglicht die Verbindung von Computern in einem Netzwerk in unmittelbarer Nähe.
   
   ### Loopback
-  Quelle: [Computerweekly](https://www.computerweekly.com/de/definition/Loopback-Test)
-  > Bei einem Loopback-Test wird von einem Kommunikationsgerät ein Testmuster gesendet und dann an es zurückgegeben (Schleifentest). So lässt sich herausfinden, ob das Gerät angemessen funktioniert. Weiterhin können Administratoren damit überprüfen, welcher Knotenpunkt oder Node im Netzwerk ausgefallen ist.
+  Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Loopback)
+  > Ein Loopback oder eine Schleifenschaltung ist ein Nachrichten- oder Informationskanal mit nur einem Endpunkt, so dass Sender und Empfänger identisch sind. 
+In der Kommunikationstechnologie werden Loopbacks gewöhnlich benutzt, um die Erreichbarkeit eines Ziels zu prüfen.
 
  
  ### Private IP-Adressen
- Quelle: [Wikipedia](#https://de.wikipedia.org/wiki/Private_IP-Adresse)
+ Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Private_IP-Adresse)
  > Private IP-Adressen (abgekürzt Private IP) sind IP-Adressen, die von der IANA nicht im Internet vergeben sind. Sie wurden für die private Nutzung aus dem öffentlichen Adressraum ausgespart. Als die IP-Adressen des Internet Protokolls v4 knapp wurden und dadurch eine bewusste Einsparung öffentlicher IP-Adressen notwendig wurde, war es umso wichtiger, private IP-Adressen in lokalen Netzwerken zur Verfügung zu haben, die beliebig oft bzw. in beliebigen Netzwerken genutzt werden können.
  
  ### Ping
