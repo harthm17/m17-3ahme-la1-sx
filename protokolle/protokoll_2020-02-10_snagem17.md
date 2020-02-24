@@ -93,6 +93,7 @@ Diesen Dienst sollte man nicht abschalten, da der Router über dieses Protokoll 
  ```
  ip addr show
  ```
+ oder
  ```
  ip a
  ```
