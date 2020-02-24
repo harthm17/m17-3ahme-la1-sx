@@ -8,6 +8,7 @@
 
 ## Inhaltsverzeichnis
 1. [Programme installieren](#programme-installieren)
+  * [rsync](https://wiki.ubuntuusers.de/rsync/)
 2.  [Alternativen zu rsync](#alternativen-zu-rsync)
   * [APT](https://de.wikipedia.org/wiki/Advanced_Packaging_Tool)
   * [tcpdump](https://wiki.ubuntuusers.de/tcpdump/)
@@ -20,7 +21,7 @@
 4. [Verbinden mit dem Partner](#verbinden-mit-dem-anderen-raspberry)
   
  ## Programme installieren
- 
+ ### rsync
  Quelle: [ubuntuusers](https://wiki.ubuntuusers.de/rsync/)
 > rsync ist ein Programm, um Dateien zwischen lokalen oder über das Netzwerk erreichbaren Pfaden abzugleichen. Dabei werden zunächst die Größe und die Änderungszeit der Dateien in Quelle und Ziel verglichen, so dass nur die Dateien behandelt werden müssen, bei denen es Änderungen gegeben hat.
  
