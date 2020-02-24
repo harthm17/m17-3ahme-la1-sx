@@ -81,8 +81,15 @@ Diesen Dienst sollte man nicht abschalten, da der Router über dieses Protokoll 
  ### Ping
  Der **ping** Befehl ist ein Tool, mit dem man überprüfen kann, ob ein Host in einem IP-Netzwerk erreichbar ist. Der Teilnehmer, der es überprüfen will,  versendet ein ICMP-Pakete an den anderen Netzwerkteilnehmer (er pingt ihn an). Der angepingte Teilnehmer beantwortet diese Anfrage und somit ist die Frage der Erreichbarkeit geklärkt.
  
+ **Ping-Befehl:**
+ ```
+ ping <IP-Adresse
+ ```
+ 
  ## Verbinden mit dem anderen Raspberry
- Wir mussten die Raspberrys mit einem LAN-Kabel miteinander verbinden. Mit dem Kommando **ip addr show** konnten wir die aktuellen Schnittstellen sehen mit den dazugehörigen IP-Adressen. Es gibt auch eine Kurzversion die einfach **ip a** lautet.
+ Wir mussten die Raspberrys mit Ethernet miteinander verbinden, dadurch haben wir ein Subnetz erzeugt. Mit dem Kommando **ip addr show** konnten wir die aktuellen Schnittstellen sehen mit den dazugehörigen IP-Adressen. Es gibt auch eine Kurzversion die einfach **ip a** lautet.
+ 
+ Schaut folgendermaßen aus:
   ```bash
  pi@pi24-GL752VW:~$ ip addr show
 1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
