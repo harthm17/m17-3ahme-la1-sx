@@ -29,10 +29,12 @@ ip a s eth1
 
 Man muss darauf Achten das man beim Vergeben zwischen privaten IPv4 Adressen und öffentlichen IPv4 Adressen unterscheidet.
 
-private:
+privater IPv4 Adressenbereich:
 
 10.0.0.0/8
+
 172.16.0.0/12
+
 192.168.0.0/16
 
 8 | 12 | 16 ist die Netzmaske.
