@@ -9,7 +9,7 @@
 ## Inhaltsverzeichnis
 1. Programme installieren
   * Alternativen zu [rsync](https://de.wikipedia.org/wiki/Rsync)
-2. Raspberry über Netzwerk verbinden
+2. [Raspberry über Netzwerk verbinden](#raspberry-über-netzwerk-verbinden)
   * [Netzwerkprotokolle](https://de.wikipedia.org/wiki/Netzwerkprotokoll)
   * [Loopback](https://de.wikipedia.org/wiki/Loopback)
   * [Private IP-Adressen](https://de.wikipedia.org/wiki/Private_IP-Adresse)
