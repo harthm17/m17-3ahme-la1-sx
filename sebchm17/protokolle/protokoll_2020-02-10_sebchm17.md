@@ -37,4 +37,5 @@ privater IPv4 Adressenbereich:
 
 192.168.0.0/16
 
+
 8 | 12 | 16 ist die Netzmaske.
