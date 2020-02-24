@@ -5,7 +5,7 @@
 * **Gefehlt:** Strohriegl
 * **Erstellt von:** Georg Schnabel
 * **Protokoll letzte Einheit:** [2.Protokoll](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/snagem17/protokolle/protokoll_2019-10-14_snagem17.md)
-* **Protokoll nächste Einheit:**
+* **Protokoll nächste Einheit:** [4.Protokoll](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/snagem17/protokolle/protokoll_2020-01-27_snagem17.md)
 
 ## Inhaltsverzeichnis
 1. [Raspberry Pi](https://de.wikipedia.org/wiki/Raspberry_Pi) und [Arduino Nano](http://www.geeetech.com/wiki/index.php/Arduino_Nano)
