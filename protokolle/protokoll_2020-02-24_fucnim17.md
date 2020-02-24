@@ -47,3 +47,5 @@ Mit einem screen kann man Prozesse auch weiterlaufen lassen, wenn man sich auslo
 * nano /etc/hosts
 
 ### SSH Schlüssel
+* ssh-keygen
+* ssh-copy-id fucnim17@10.200.114.222
