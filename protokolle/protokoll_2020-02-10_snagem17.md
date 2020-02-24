@@ -10,7 +10,7 @@
 
 1. [Programme installieren](#programme-installieren)
    1. [rsync](https://wiki.ubuntuusers.de/rsync/)
-1.  [Alternativen zu rsync](#alternativen-zu-rsync)
+1. [Alternativen zu rsync](#alternativen-zu-rsync)
    1. [APT](https://de.wikipedia.org/wiki/Advanced_Packaging_Tool)     
    1. [tcpdump](https://wiki.ubuntuusers.de/tcpdump/)      
 1. [Raspberry über Netzwerk verbinden](#raspberry-über-netzwerk-verbinden)
