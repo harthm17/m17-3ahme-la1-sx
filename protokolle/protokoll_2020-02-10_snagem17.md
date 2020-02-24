@@ -7,14 +7,14 @@
 * **Protokoll letzte Einheit:** [5.Protokoll](protokoll_2020-02-03_snagem17.md)
 
 ## Inhaltsverzeichnis
-1. Programme installieren
+1. [Programme installieren](#programme-installieren)
   * Alternativen zu [rsync](https://de.wikipedia.org/wiki/Rsync)
 2. [Raspberry über Netzwerk verbinden](#raspberry-über-netzwerk-verbinden)
   * [Netzwerkprotokolle](https://de.wikipedia.org/wiki/Netzwerkprotokoll)
   * [Loopback](https://de.wikipedia.org/wiki/Loopback)
   * [Private IP-Adressen](https://de.wikipedia.org/wiki/Private_IP-Adresse)
   * [Ping](https://de.wikipedia.org/wiki/Ping_(Datenübertragung))
-3. Verbinden mit dem Partner
+3. [Verbinden mit dem Partner](#verbinden-mit-dem-partner)
   
  ## Programme installieren
  
