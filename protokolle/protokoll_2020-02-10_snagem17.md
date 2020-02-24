@@ -85,7 +85,7 @@ Diesen Dienst sollte man nicht abschalten, da der Router über dieses Protokoll 
  
  **Ping-Befehl:**
  ```
- ping <IP-Adresse
+ ping <IP-Adresse>
  ```
  
  ## Verbinden mit dem anderen Raspberry
