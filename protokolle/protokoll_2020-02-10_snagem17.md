@@ -18,13 +18,11 @@
   
  ## Programme installieren
  
- Damit man Programme installieren kann, wird häufig das Kommando **rsync** verwendet.
- 
 ### Alternativen zu rsync
 * [APT](https://de.wikipedia.org/wiki/Advanced_Packaging_Tool)
 
-Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Advanced_Packaging_Tool)
->Das Advanced Packaging Tool (APT) ist ein Paketverwaltungssystem, das dpkg zur eigentlichen Paketverwaltung benutzt. Ziel ist es, eine einfache Möglichkeit zur Suche, Installation und Aktualisierung von Programmpaketen zur Verfügung zu stellen.
+Quelle: [ubuntuusers](https://wiki.ubuntuusers.de/rsync/)
+> rsync ist ein Programm, um Dateien zwischen lokalen oder über das Netzwerk erreichbaren Pfaden abzugleichen. Dabei werden zunächst die Größe und die Änderungszeit der Dateien in Quelle und Ziel verglichen, so dass nur die Dateien behandelt werden müssen, bei denen es Änderungen gegeben hat.
 
 * [tcpdump](https://wiki.ubuntuusers.de/tcpdump/)
 
