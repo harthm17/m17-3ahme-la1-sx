@@ -88,7 +88,7 @@ Diesen Dienst sollte man nicht abschalten, da der Router über dieses Protokoll 
  ```
  
  ## Verbinden mit dem anderen Raspberry
- Wir mussten die Raspberrys mit Ethernet miteinander verbinden, dadurch haben wir ein Subnetz erzeugt. Mit dem Kommando **ip addr show** konnten wir die aktuellen Schnittstellen sehen mit den dazugehörigen IP-Adressen. Es gibt auch eine Kurzversion die einfach **ip a** lautet.
+ Wir mussten die Raspberrys mit Ethernet verbinden, dadurch haben wir ein Subnetz erzeugt. Mit dem Kommando **ip addr show** konnten wir die aktuellen Schnittstellen mit den dazugehörigen IP-Adressen sehen. Es gibt auch eine Kurzversion die einfach **ip a** lautet.
  
  Schaut folgendermaßen aus:
   ```bash
