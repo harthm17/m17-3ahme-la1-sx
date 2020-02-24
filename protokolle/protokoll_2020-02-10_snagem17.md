@@ -57,7 +57,7 @@ In der Kommunikationstechnologie werden Loopbacks gewöhnlich benutzt, um die Er
  ## Verbinden mit dem Partner
  Wir mussten die Raspberrys mit einem LAN-Kabel miteinander verbinden. Mit dem Kommando **ip addr show** konnten wir die aktuellen Schnittstellen sehen mit den dazugehörigen IP-Adressen.
   ```bash
-  michael@michael-GL752VW:~$ ip addr show
+ pi@pi24-GL752VW:~$ ip addr show
 1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
     link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
     inet 127.0.0.1/8 scope host lo
