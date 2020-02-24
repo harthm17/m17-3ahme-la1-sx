@@ -37,3 +37,7 @@ SSH Schnittstelle ist standartmäßig aus Sicherheitsgründen deaktiviert. Um si
 Mit einem screen kann man Prozesse auch weiterlaufen lassen, wenn man sich ausloggt.
 * screen .......... screen erstellen
 * screen -r ....... screen wieder anzeigen
+
+### User hinzufügen
+* adduser username (z.B. adduser fucnim17)
+* less etc/group........... bei sudo Benutzername hinzufügen
