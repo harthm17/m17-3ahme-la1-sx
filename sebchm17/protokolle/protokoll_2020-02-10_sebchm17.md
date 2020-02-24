@@ -15,7 +15,7 @@
 1. [Netzwerktechnik](netzwerktechnik)
 1. [Netzwerk Protokolle](netzwerk-protokolle)
 1. [IP Adressen statisch vergeben](ip-adressen-statisch-vergeben)
-1. [
+1. [Ping](ping)
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -130,3 +130,11 @@ privater IPv4 Adressenbereich:
 
 
 8 | 12 | 16 ist die Netzmaske.
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+## Ping
+
+>Ping ist ein Diagnose-Werkzeug, mit dem überprüft werden kann, ob ein bestimmter Host in einem IP-Netzwerk erreichbar ist. Daneben geben die meisten heutigen Implementierungen dieses Werkzeuges auch die Zeitspanne zwischen dem Aussenden eines Paketes zu diesem Host und dem Empfangen eines daraufhin unmittelbar zurückgeschickten Antwortpaketes an (= Paketumlaufzeit, meist round trip time oder RTT genannt). Das Programm wird üblicherweise als Konsolenbefehl ausgeführt. Entwickelt wurde Ping ursprünglich Ende 1983 von Mike Muuss und erschien zum ersten Mal in BSD 4.3.
+
+[Quelle](https://de.wikipedia.org/wiki/Ping_(Daten%C3%BCbertragung)
