@@ -4,8 +4,7 @@
 * **Datum:** 30.09.2019
 * **Gefehlt:** Niemand
 * **Erstellt von:** Georg Schnabel
-* **Protokoll letzte Einheit:**
-* **Protokoll nächste Einheit:**
+* **Protokoll nächste Einheit:** [2.Protokoll](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/snagem17/protokolle/protokoll_2019-10-14_snagem17.md)
 
 ## Inhaltsverzeichnis
 1. [Markdown](https://de.wikipedia.org/wiki/Markdown)
