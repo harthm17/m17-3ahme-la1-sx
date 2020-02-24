@@ -8,7 +8,7 @@
 
 ## Inhaltsverzeichnis
 1. [Programme installieren](#programme-installieren)
-       1. [rsync](https://wiki.ubuntuusers.de/rsync/)
+  * [rsync](https://wiki.ubuntuusers.de/rsync/)
 2.  [Alternativen zu rsync](#alternativen-zu-rsync)
   * [APT](https://de.wikipedia.org/wiki/Advanced_Packaging_Tool)
   * [tcpdump](https://wiki.ubuntuusers.de/tcpdump/)
