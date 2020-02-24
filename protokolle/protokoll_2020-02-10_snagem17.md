@@ -33,7 +33,7 @@ apt-get install tcpdump
   Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Netzwerkprotokoll)
   > Ein Netzwerkprotokoll ist ein Kommunikationsprotokoll für den Austausch von Daten zwischen Computern bzw. Prozessen, die in einem Rechnernetz miteinander verbunden sind. Die Vereinbarung besteht aus einem Satz von Regeln und Formaten, die das Kommunikationsverhalten der kommunizierenden Instanzen in den Computern bestimmen. 
   
-  * Das [TCP-Protokoll](https://de.wikipedia.org/wiki/Transmission_Control_Protocol) wird zum Beispiel häufig verwendet. Es sorgt dafür, dass Programme Daten miteinander austauschen können und diese in richtiger Reihenfolge und fehlerfrei ankommen. 
+  * Das [TCP-Protokoll](https://de.wikipedia.org/wiki/Transmission_Control_Protocol) wird häufig verwendet. Es sorgt dafür, dass Programme Daten miteinander austauschen können und diese in richtiger Reihenfolge und fehlerfrei ankommen. 
   * Das [IP-Protokoll](https://de.wikipedia.org/wiki/Internet_Protocol) ermöglicht das Verbinden von Computern weltweit.(IPv4, IPv6)
   * Das [Ethernet/WLAN-Protokoll](https://de.wikipedia.org/wiki/Ethernet) ermöglicht die Verbindung von Computern in einem Netzwerk in unmittelbarer Nähe.
   
@@ -47,7 +47,7 @@ apt-get install tcpdump
  > Private IP-Adressen (abgekürzt Private IP) sind IP-Adressen, die von der IANA nicht im Internet vergeben sind. Sie wurden für die private Nutzung aus dem öffentlichen Adressraum ausgespart. Als die IP-Adressen des Internet Protokolls v4 knapp wurden und dadurch eine bewusste Einsparung öffentlicher IP-Adressen notwendig wurde, war es umso wichtiger, private IP-Adressen in lokalen Netzwerken zur Verfügung zu haben, die beliebig oft bzw. in beliebigen Netzwerken genutzt werden können.
  
  ### Ping
- Der **ping** Befehl ist ein Tool, mit dem man überprüfen kann, ob ein Host in einem IP-Netzwerk erreichbar ist. Der anpingende Teilnehmer versendet dabei ICMP-Pakete an den angepingenden Netzwerkteilnehmer.Der angepingte Teilnehmer beantwortet diese kurze Anfrage und somit ist die Frage der grundsätzlichen Erreichbarkeit geklärkt.
+ Der **ping** Befehl ist ein Tool, mit dem man überprüfen kann, ob ein Host in einem IP-Netzwerk erreichbar ist. Der Teilnehmer, der es überprüfen will,  versendet ein ICMP-Pakete an den anderen Netzwerkteilnehmer (er pingt ihn an). Der angepingte Teilnehmer beantwortet diese Anfrage und somit ist die Frage der Erreichbarkeit geklärkt.
  
  ## Verbinden mit dem Partner
  Wir mussten die Raspberrys mit einem LAN-Kabel miteinander verbinden. Mit dem Kommando **ip addr show** konnten wir die aktuellen Schnittstellen sehen mit den dazugehörigen IP-Adressen-
