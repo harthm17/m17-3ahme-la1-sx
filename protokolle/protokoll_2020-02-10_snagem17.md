@@ -8,8 +8,14 @@
 
 ## Inhaltsverzeichnis
 1. Programme installieren
-  * Alternativen zu rsync
-
+  * Alternativen zu [rsync](https://de.wikipedia.org/wiki/Rsync)
+2. Raspberry über Netzwerk verbinden
+  * [Netzwerkprotokolle](https://de.wikipedia.org/wiki/Netzwerkprotokoll)
+  * [Loopback](
+  * [Private IP-Adressen](
+  * [Ping](
+3. Verbinden mit dem Partner
+  
  ## Programme installieren
  
  Damit man Programme installieren kann, wird häufig das Kommando **rsync** verwendet.
@@ -50,7 +56,7 @@ apt-get install tcpdump
  Der **ping** Befehl ist ein Tool, mit dem man überprüfen kann, ob ein Host in einem IP-Netzwerk erreichbar ist. Der Teilnehmer, der es überprüfen will,  versendet ein ICMP-Pakete an den anderen Netzwerkteilnehmer (er pingt ihn an). Der angepingte Teilnehmer beantwortet diese Anfrage und somit ist die Frage der Erreichbarkeit geklärkt.
  
  ## Verbinden mit dem Partner
- Wir mussten die Raspberrys mit einem LAN-Kabel miteinander verbinden. Mit dem Kommando **ip addr show** konnten wir die aktuellen Schnittstellen sehen mit den dazugehörigen IP-Adressen-
+ Wir mussten die Raspberrys mit einem LAN-Kabel miteinander verbinden. Mit dem Kommando **ip addr show** konnten wir die aktuellen Schnittstellen sehen mit den dazugehörigen IP-Adressen.
   ```bash
   michael@michael-GL752VW:~$ ip addr show
 1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
