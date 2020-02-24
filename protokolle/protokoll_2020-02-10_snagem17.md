@@ -14,6 +14,7 @@
 3. [Raspberry über Netzwerk verbinden](#raspberry-über-netzwerk-verbinden)
   * [Netzwerkprotokolle](https://de.wikipedia.org/wiki/Netzwerkprotokoll)
   * [Loopback](https://de.wikipedia.org/wiki/Loopback)
+  * [ICMP-Protokoll](https://de.wikipedia.org/wiki/Internet_Control_Message_Protocol)
   * [Private IP-Adressen](https://de.wikipedia.org/wiki/Private_IP-Adresse)
   * [Ping](https://de.wikipedia.org/wiki/Ping_(Datenübertragung))
 4. [Verbinden mit dem Partner](#verbinden-mit-dem-partner)
@@ -28,7 +29,7 @@
 Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Advanced_Packaging_Tool)
 > Das Advanced Packaging Tool (APT) ist ein Paketverwaltungssystem, das im Bereich des Betriebssystems Debian entstanden ist und dpkg zur eigentlichen Paketverwaltung benutzt. Ziel ist es, eine einfache Möglichkeit zur Suche, Installation und Aktualisierung von Programmpaketen zur Verfügung zu stellen.
 
-#### Befehle von apt
+#### Befehle von APT
 **Pakete neu einlesen**
 ```
 apt update
@@ -70,11 +71,18 @@ apt-get install tcpdump
   > Ein Loopback oder eine Schleifenschaltung ist ein Nachrichten- oder Informationskanal mit nur einem Endpunkt, so dass Sender und Empfänger identisch sind. 
 In der Kommunikationstechnologie werden Loopbacks gewöhnlich benutzt, um die Erreichbarkeit eines Ziels zu prüfen.
 
+### ICMP-Protokoll
+
+Quelle:[Wikipedia](https://de.wikipedia.org/wiki/Internet_Control_Message_Protocol)
+> Das Internet Control Message Protocol (ICMP) dient in Rechnernetzwerken dem Austausch von Informations- und Fehlermeldungen über das Internet-Protokoll in der Version 4 (IPv4). Für IPv6 existiert ein ähnliches Protokoll mit dem Namen ICMPv6. 
+
+Diesen Dienst sollte man nicht abschalten, da der Router über dieses Protokoll kommuniziert.
+
  ### Ping
  Der **ping** Befehl ist ein Tool, mit dem man überprüfen kann, ob ein Host in einem IP-Netzwerk erreichbar ist. Der Teilnehmer, der es überprüfen will,  versendet ein ICMP-Pakete an den anderen Netzwerkteilnehmer (er pingt ihn an). Der angepingte Teilnehmer beantwortet diese Anfrage und somit ist die Frage der Erreichbarkeit geklärkt.
  
  ## Verbinden mit dem anderen Raspberry
- Wir mussten die Raspberrys mit einem LAN-Kabel miteinander verbinden. Mit dem Kommando **ip addr show** konnten wir die aktuellen Schnittstellen sehen mit den dazugehörigen IP-Adressen.
+ Wir mussten die Raspberrys mit einem LAN-Kabel miteinander verbinden. Mit dem Kommando **ip addr show** konnten wir die aktuellen Schnittstellen sehen mit den dazugehörigen IP-Adressen. Es gibt auch eine Kurzversion die einfach **ip a** lautet.
   ```bash
  pi@pi24-GL752VW:~$ ip addr show
 1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
@@ -83,13 +91,13 @@ In der Kommunikationstechnologie werden Loopbacks gewöhnlich benutzt, um die Er
        valid_lft forever preferred_lft forever
     inet6 ::1/128 scope host 
        valid_lft forever preferred_lft forever
-2: enp3s0f1: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc fq_codel state DOWN group default qlen 1000
+2: eth0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc fq_codel state DOWN group default qlen 1000
     link/ether 70:8b:cd:24:5b:de brd ff:ff:ff:ff:ff:ff
-3: wlp2s0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP group default qlen 1000
+3: eth1: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP group default qlen 1000
     link/ether b8:8a:60:64:a7:35 brd ff:ff:ff:ff:ff:ff
     inet 10.0.0.5/24 brd 10.0.0.255 scope global dynamic noprefixroute wlp2s0
        valid_lft 83229sec preferred_lft 83229sec
     inet6 fe80::bf71:d65:3007:b4ab/64 scope link noprefixroute 
        valid_lft forever preferred_lft forever
 ```
-
+Mit der Schnittstelle **eth1** ist unser Raspberry verbunden.
