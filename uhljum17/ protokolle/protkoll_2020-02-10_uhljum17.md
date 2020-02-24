@@ -101,4 +101,16 @@ Uhljum17@pi27:~$ sudo ip link set wlp2s0 down
 Mit dem Befehl ip a add können wir eine statische IP-Adresse vergeben. /24 ist die Präfixlänge und gibt an wie viele Bits für den Geräte- und den Netzanteil vergeben sind. /24 heißt, dass die ersten 24 Bits der Netzanteil und die letzen acht der Geräteanteil sind. 
 ```bash
 uhljum17@pi27:~$ ip a add 192.168.22.26/27
+```
 
+**Partner anpingen**
+
+```bash
+uhljum17@pi27:~$ ping 192.168.22.24
+PING google.com (216.58.214.238) 56(84) bytes of data.
+64 bytes from bud02s24-in-f238.1e100.net (216.58.214.238): icmp_seq=1 ttl=55 time=22.5 ms
+64 bytes from bud02s24-in-f238.1e100.net (216.58.214.238): icmp_seq=2 ttl=55 time=22.2 ms
+64 bytes from bud02s24-in-f238.1e100.net (216.58.214.238): icmp_seq=3 ttl=55 time=66.1 ms
+64 bytes from bud02s24-in-f238.1e100.net (216.58.214.238): icmp_seq=4 ttl=55 time=43.7 ms
+64 bytes from bud02s24-in-f238.1e100.net (216.58.214.238): icmp_seq=5 ttl=55 time=23.7 ms
+```
