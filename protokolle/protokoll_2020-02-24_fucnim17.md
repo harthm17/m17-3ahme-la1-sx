@@ -40,4 +40,10 @@ Mit einem screen kann man Prozesse auch weiterlaufen lassen, wenn man sich auslo
 
 ### User hinzufügen
 * adduser username (z.B. adduser fucnim17)
-* less etc/group........... bei sudo Benutzername hinzufügen
+* less /etc/group........... bei sudo Benutzername hinzufügen
+
+### Hostname ändern
+* nano /etc/hostname
+* nano /etc/hosts
+
+### SSH Schlüssel
