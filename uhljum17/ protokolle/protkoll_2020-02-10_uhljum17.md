@@ -33,6 +33,13 @@
   * apt-get upgrade bringt, sofern möglich, alle Pakete auf den neuesten Stand, installiert jedoch keine neuen Pakete.
   * apt-get install paketname installiert ein Paket und sämtliche Abhängigkeiten und in der Standardeinstellung zusätzlich empfohlene Pakete.
   
+**Befehle**
+
+      apt update
+      apt install PAKETNAME     
+      apt list --upgradeable
+      apt upgrade
+  
 ## TCP-Dump
   Mit TCP-Dump kann man kontrolierenwelche Pakete ankommen und weggehen [TCP-Dump](https://wiki.ubuntuusers.de/tcpdump/) installieren
   
