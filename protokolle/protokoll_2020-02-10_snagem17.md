@@ -17,7 +17,7 @@
   * [ICMP-Protokoll](https://de.wikipedia.org/wiki/Internet_Control_Message_Protocol)
   * [Private IP-Adressen](https://de.wikipedia.org/wiki/Private_IP-Adresse)
   * [Ping](https://de.wikipedia.org/wiki/Ping_(Datenübertragung))
-4. [Verbinden mit dem Partner](#verbinden-mit-dem-partner)
+4. [Verbinden mit dem Partner](#verbinden-mit-dem-anderen-raspberry)
   
  ## Programme installieren
  
