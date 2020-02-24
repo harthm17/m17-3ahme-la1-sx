@@ -3,22 +3,23 @@
 * **Thema:** Raspberry über Netzwerk verbinden
 * **Datum:** 10.02.2020
 * **Gefehlt:** Kilian Wade, Richard Strohriegl
-* **Erstellt von:** Georg Schnabel
+* **Erstellt von:** Georg Schnabel                 
 * **Protokoll letzte Einheit:** [5.Protokoll](protokoll_2020-02-03_snagem17.md)
 
 ## Inhaltsverzeichnis
+
 1. [Programme installieren](#programme-installieren)
    1. [rsync](https://wiki.ubuntuusers.de/rsync/)
-2.  [Alternativen zu rsync](#alternativen-zu-rsync)
-   1. [APT](https://de.wikipedia.org/wiki/Advanced_Packaging_Tool)
-   2. [tcpdump](https://wiki.ubuntuusers.de/tcpdump/)
-3. [Raspberry über Netzwerk verbinden](#raspberry-über-netzwerk-verbinden)
-  * [Netzwerkprotokolle](https://de.wikipedia.org/wiki/Netzwerkprotokoll)
-  * [Loopback](https://de.wikipedia.org/wiki/Loopback)
-  * [ICMP-Protokoll](https://de.wikipedia.org/wiki/Internet_Control_Message_Protocol)
-  * [Private IP-Adressen](https://de.wikipedia.org/wiki/Private_IP-Adresse)
-  * [Ping](https://de.wikipedia.org/wiki/Ping_(Datenübertragung))
-4. [Verbinden mit dem Partner](#verbinden-mit-dem-anderen-raspberry)
+1.  [Alternativen zu rsync](#alternativen-zu-rsync)
+   1. [APT](https://de.wikipedia.org/wiki/Advanced_Packaging_Tool)     
+   1. [tcpdump](https://wiki.ubuntuusers.de/tcpdump/)      
+1. [Raspberry über Netzwerk verbinden](#raspberry-über-netzwerk-verbinden)
+   1. [Netzwerkprotokolle](https://de.wikipedia.org/wiki/Netzwerkprotokoll)
+   1. [Loopback](https://de.wikipedia.org/wiki/Loopback)
+   1. [ICMP-Protokoll](https://de.wikipedia.org/wiki/Internet_Control_Message_Protocol)
+   1. [Private IP-Adressen](https://de.wikipedia.org/wiki/Private_IP-Adresse)
+   1. [Ping](https://de.wikipedia.org/wiki/Ping_(Datenübertragung))
+1. [Verbinden mit dem Partner](#verbinden-mit-dem-anderen-raspberry)
   
  ## Programme installieren
  ### rsync
