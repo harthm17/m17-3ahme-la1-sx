@@ -13,7 +13,7 @@
   * [Netzwerkprotokolle](https://de.wikipedia.org/wiki/Netzwerkprotokoll)
   * [Loopback](https://de.wikipedia.org/wiki/Loopback)
   * [Private IP-Adressen](https://de.wikipedia.org/wiki/Private_IP-Adresse)
-  * [Ping](
+  * [Ping](https://de.wikipedia.org/wiki/Ping_(Datenübertragung))
 3. Verbinden mit dem Partner
   
  ## Programme installieren
