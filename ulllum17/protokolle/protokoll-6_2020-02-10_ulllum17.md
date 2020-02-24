@@ -3,7 +3,7 @@
 -------------------------------------------------------------------------
 * **Thema:** Raspberry PI, SSH-Verbindungen
 * **Datum:** 10.02.2020
-* **Gefehlt:** ---
+* **Gefehlt:** Richard Strohriegel, Kilian Wade
 * **Erstellt von:** ulllum17
 * **Protokoll letzte Einheit:** [5.Protokoll](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/ulllum17/ulllum17/protokolle/protokoll-5_2020-02-03_ulllum17.md)
 --------------------------------------------------------------------------
@@ -156,7 +156,7 @@ Wenn ein Rechner eine Link-Local-IP-Adresse konfigurieren will, wählt er eine z
 
 Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Ping_(Daten%C3%BCbertragung))
 
-Der Ping sendet sogenannte ICMP-Pakete.
+* Der Ping sendet sogenannte ICMP-Pakete.
 
 Der Ping Befehl sieht wie folgt aus
 
@@ -179,8 +179,8 @@ Der Befehl dafür lautet
 ````bash
 ip link set <Schnittstelle> <status>
 ````
-Für Schnittstelle kann Beispielsweise *eth0*, *eth1* eingesetzwerden   
-Für Status  *up* oder *down*
+* Für Schnittstelle kann Beispielsweise *eth0*, *eth1* eingesetzwerden   
+* Für Status  *up* oder *down*
 
 ### Address Resolution Protocol (ARP)
 
