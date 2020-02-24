@@ -7,7 +7,8 @@
 * **Protokoll letzte Einheit:** [5.Protokoll](protokoll_2020-02-03_snagem17.md)
 
 ## Inhaltsverzeichnis
-
+1. Programme installieren
+  * Alternativen zu rsync
 
  ## Programme installieren
  
