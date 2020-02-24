@@ -8,21 +8,24 @@
 
 ## Inhaltsverzeichnis
 1. [Programme installieren](#programme-installieren)
-  * Alternativen zu [rsync](https://de.wikipedia.org/wiki/Rsync)
-2. [Raspberry über Netzwerk verbinden](#raspberry-über-netzwerk-verbinden)
+2.  [Alternativen zu rsync](#alternativen-zu-rsync)
+  * [APT](https://de.wikipedia.org/wiki/Advanced_Packaging_Tool)
+  * [tcpdump](https://wiki.ubuntuusers.de/tcpdump/)
+3. [Raspberry über Netzwerk verbinden](#raspberry-über-netzwerk-verbinden)
   * [Netzwerkprotokolle](https://de.wikipedia.org/wiki/Netzwerkprotokoll)
   * [Loopback](https://de.wikipedia.org/wiki/Loopback)
   * [Private IP-Adressen](https://de.wikipedia.org/wiki/Private_IP-Adresse)
   * [Ping](https://de.wikipedia.org/wiki/Ping_(Datenübertragung))
-3. [Verbinden mit dem Partner](#verbinden-mit-dem-partner)
+4. [Verbinden mit dem Partner](#verbinden-mit-dem-partner)
   
  ## Programme installieren
  
-### Alternativen zu rsync
-* [APT](https://de.wikipedia.org/wiki/Advanced_Packaging_Tool)
-
-Quelle: [ubuntuusers](https://wiki.ubuntuusers.de/rsync/)
+ Quelle: [ubuntuusers](https://wiki.ubuntuusers.de/rsync/)
 > rsync ist ein Programm, um Dateien zwischen lokalen oder über das Netzwerk erreichbaren Pfaden abzugleichen. Dabei werden zunächst die Größe und die Änderungszeit der Dateien in Quelle und Ziel verglichen, so dass nur die Dateien behandelt werden müssen, bei denen es Änderungen gegeben hat.
+ 
+## Alternativen zu rsync
+* [APT](https://de.wikipedia.org/wiki/Advanced_Packaging_Tool)
+> Das Advanced Packaging Tool (APT) ist ein Paketverwaltungssystem, das im Bereich des Betriebssystems Debian entstanden ist und dpkg zur eigentlichen Paketverwaltung benutzt. Ziel ist es, eine einfache Möglichkeit zur Suche, Installation und Aktualisierung von Programmpaketen zur Verfügung zu stellen.
 
 * [tcpdump](https://wiki.ubuntuusers.de/tcpdump/)
 
