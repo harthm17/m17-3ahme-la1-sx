@@ -4,8 +4,8 @@
 * **Datum:** 27.01.2020
 * **Gefehlt:** keiner
 * **Erstellt von:** Georg Schnabel
-* **Protokoll letzte Einheit:** [Protokoll](protokoll_2020-01-27_snagem17.md)
-* **Protokoll nächste Einheit:** [Protokoll](protokoll_2020-02-10_snagem17.md)
+* **Protokoll letzte Einheit:** [4.Protokoll](protokoll_2020-01-27_snagem17.md)
+* **Protokoll nächste Einheit:** [6.Protokoll](protokoll_2020-02-10_snagem17.md)
 
 
 ## Inhaltsverzeichnis
