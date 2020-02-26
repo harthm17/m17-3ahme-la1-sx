@@ -30,7 +30,7 @@ Verbindung mit z.B. einem Raspberry Pi über ein Netzwerk (Internet/LAN)
 SSH Schnittstelle ist standartmäßig aus Sicherheitsgründen deaktiviert. Um sie zu aktivieren muss mann eine Datei mit dem Namen 'ssh' auf der ersten Patition der MCC erstellen.
 
 ### Über SSH mit Raspberry verbinden:
-1. ssh ***benutzer*@*ipadresse***
+1. ssh ***benutzer*@*ipadresse*** (z.B. ssh fucnim17@10.200.114.222)
 1. standartpassword von raspberry eingeben
 1. mit **passwd** password ändern
 
@@ -61,4 +61,4 @@ Mit einem screen kann man Prozesse auch weiterlaufen lassen, wenn man sich auslo
 
 ### SSH Schlüssel
 * **ssh-keygen**
-* **ssh-copy-id *benutzer*@*ipadresse***
+* **ssh-copy-id *benutzer*@*ipadresse*** (z.B. ssh-copy-id fucnim17@10.200.114.222)
