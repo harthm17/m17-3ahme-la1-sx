@@ -27,7 +27,7 @@
 ## SSH (Secure Shell)
 Verbindung mit z.B. einem Raspberry Pi über ein Netzwerk (Internet/LAN)
 
-SSH Schnittstelle ist standartmäßig aus Sicherheitsgründen deaktiviert. Um sie zu aktivieren muss mann eine Datei mit dem Namen 'ssh' auf der ersten Patition der MSD erstellen.
+SSH Schnittstelle ist standartmäßig aus Sicherheitsgründen deaktiviert. Um sie zu aktivieren muss mann eine Datei mit dem Namen 'ssh' auf der ersten Patition der MCC erstellen.
 
 ### Über SSH mit Raspberry verbinden:
 * ssh benutzer@ipadresse
