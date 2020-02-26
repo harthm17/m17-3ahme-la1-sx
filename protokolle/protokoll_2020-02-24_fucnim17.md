@@ -21,8 +21,8 @@
 * Flash MMC (8/16/32GiB)
 
 ## Linux Debian
-### Ubunto  
-### Raspian
+* Ubunto  
+* Raspian
 
 ## SSH (Secure Shell)
 Verbindung mit z.B. einem Raspberry Pi über ein Netzwerk (Internet/LAN)
