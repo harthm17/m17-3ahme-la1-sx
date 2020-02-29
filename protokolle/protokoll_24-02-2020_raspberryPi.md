@@ -74,50 +74,50 @@ Laut [Kaspersky](https://www.kaspersky.de/blog/was-ist-eine-man-in-the-middle-at
 
 ## Übungsbeispiele
 
-Passwort von pi25 ändern mit Befehl:
+**Passwort von pi25 ändern mit Befehl:**
 
 ````bash
 pi@raspberrypi:~$ passwd
 ````
 --------------
-Konfigurations - Tool öffnen:
+**Konfigurations - Tool öffnen:**
 
 ````bash
 pi@raspberrypi:~$ sudo raspi-config
 ````
 --------------
-Software zuerst auflisten und dann updaten:
+**Software zuerst auflisten und dann updaten:**
 
 ````bash
 pi@raspberrypi:~$ apt update
 pi@raspberrypi:~$ apt upgrade
 ````
 ---------------
-screen:
+**screen:**
 
 screen ist ein Programm womit der Raspberry PI wenn ein update/ eine Installation mit screen geöffnet gestartet wird, weiter arbeitet, wenn man die Konsole verlässt.
 
-screen installieren:
+*screen installieren:*
 
 ````bash
 pi@raspberrypi:~$ apt install screen
 ````
 
-screen schließen mit strg + a + d
+*screen schließen* mit strg + a + d
 
-zum aktiven screen wieder einloggen:
+*zum aktiven screen wieder einloggen:*
 
 ````bash
 pi@raspberrypi:~$ screen -r
 ````
 
-neuen screen erstellen mit anderen Namen:
+*neuen screen erstellen mit anderen Namen:*
 
 ````bash
 pi@raspberrypi:~$ screen -s backup(Beispiel Name)
 ````
 ---------------------------------------------------------------------------   
-Eine java-version suchen diese Suche im viewer öffnen und die dann installieren und dann anzeigen:
+**Eine java-version suchen diese Suche im viewer öffnen und die dann installieren und dann anzeigen:**
 
 ````bash
 pi@raspberrypi:~$ apt search java
@@ -126,13 +126,13 @@ pi@raspberrypi:~$ apt install java2516(nur Beispiel)
 pi@raspberrypi:~$ java-version
 ````
 --------------------------------------------------
-Neuen User erstellen:
+**Neuen User erstellen:**
 
 ````bash
 pi@raspberrypi:~$ adduser golram17
 ````
 ----------------------
-Superuserrechte bekommen:
+**Superuserrechte bekommen:**
 
 ````bash
 pi@raspberrypi:~$ nano /etc/group
@@ -140,7 +140,7 @@ pi@raspberrypi:~$ nano /etc/group
 Um Superuserrechte zu bekommen muss man sich neu einloggen.
 
 ---------------------------
-Hostname ändern:
+**Hostname ändern:**
 
 ````bash
 pi@raspberrypi:~$ nano /etc/hostname
@@ -151,7 +151,7 @@ pi@raspberrypi:~$ reboot
 nach reboot hat pi@raspberrypi jetzt den hostname pi@pi25.
 
 -----------------------
-SSH - Schüsselpaar erstellen:
+**SSH - Schüsselpaar erstellen:**
 
 ````bash
 schueler@pcxx:~$ ssh - keygen
