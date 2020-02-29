@@ -137,7 +137,8 @@ Superuserrechte bekommen:
 ````bash
 pi@raspberrypi:~$ nano /etc/group
 ````
-Um Superuserrechte zu bekommen neu einloggen.
+Um Superuserrechte zu bekommen muss man sich neu einloggen.
+
 ---------------------------
 Hostname ändern:
 
@@ -148,6 +149,7 @@ pi@raspberrypi:~$ reboot
 ````
 
 nach reboot hat pi@raspberrypi jetzt den hostname pi@pi25.
+
 -----------------------
 SSH - Schüsselpaar erstellen:
 
