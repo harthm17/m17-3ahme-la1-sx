@@ -79,7 +79,7 @@ sudo -i
 apt update
 apt upgrade
 ```   
-
+-----
 
 ## Sonstiges
   
