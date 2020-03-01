@@ -1,11 +1,30 @@
 # Protokoll 24.02.2020
+------------------------------
+**Einführung zum Raspberry Pi**   
+**Datum: 24.02.2020**   
+**Protokollführer: Mike Adam** 
+
+------------------------------
 ## Inhaltsverzeichnis:
+* [Microcontroler](#microcontroler)  
+* [Raspberry Pi](#raspberry-pi)  
+* [Betriebssysteme Für den Raspberry Pi](#betriebssysteme-für-den-raspberry-pi)  
+* [Mit Raspberry über SSH verbinden](#mit-raspberry-über-ssh-verbinden)  
+* [Befehle](#befehle) 
+  * [Update](#update)  
+  * [Konfiguration](#konfiguration)    
+  * [Sicherheit und Benutzer](#sicherheit-und-benutzer) 
+  * [Screen](#screen) 
+  * [Installationen](#installationen)  
+  * [SSH Schlüsselpaar](#ssh-schlüsselpaar)  
+
 ## Microcontroler:
   * Kosten 1-2€
   * Geringe CPU Leistung
   * Geringer Stromverbrauch 1 mW - 10 mW
   * 3kiB Abeitsspeicher
   * 8 bit - Architektur
+  * Echtzeitfähig
   
 ## Raspberry Pi:
   * Kosten 30 - 40€
