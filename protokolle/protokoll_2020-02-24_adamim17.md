@@ -26,7 +26,7 @@
   * 8 bit - Architektur
   * Echtzeitfähig
   
-## Raspberry Pi:
+## [Raspberry Pi](https://www.raspberrypi.org/products/):
   * Kosten 30 - 40€
   * CPU Leistung für kompliziertere Aufgaben
   * Stromverbrauch von 1 - 2 mW im Leerlauf
