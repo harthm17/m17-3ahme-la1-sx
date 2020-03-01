@@ -1,4 +1,4 @@
-# Protokoll m17-3ahme-la1
+# Protokoll Raspberry PI
 
 -----
 
@@ -26,6 +26,7 @@
 • 32 KiB Flash (programme)
 • 2 KiB SRAM
 • Stromverbrauch: 1mW ~ 10 mW
+• Preis 1€ ~ 3€
 ```
 
 * Ein wesentlicher vorteil dieser µc`s ist die Echtzeitfähigkeit!  
@@ -53,7 +54,15 @@
 -> Ubuntu  
 
 RPI...Fingerabdruck (sicherheit)  
--> man in the middle attack (passwort wird über das internet an den raspberry vermittelt und das will man verhindern)
+*-> Ein Man-in-the-Middle-Angriff (MITM) ist ein Angriff, bei dem der Angreifer heimlich die Kommunikation zwischen zwei Parteien,   die glauben, dass sie direkt miteinander kommunizieren, weiterleitet und möglicherweise verändert.*  
+
+**Quelle:** https://en.wikipedia.org/wiki/Man-in-the-middle_attack  
+
+![Bild](https://www.imperva.com/learn/wp-content/uploads/sites/13/2017/09/man-in-the-middle-mitm-attack.png)  
+
+
+
+**Quelle:** https://www.imperva.com/learn/wp-content/uploads/sites/13/2017/09/man-in-the-middle-mitm-attack.png
 
 -----
 
@@ -90,4 +99,4 @@ apt upgrade
 * SSH-Keygen:
 *ist eine Standardkomponente der Secure Shell (SSH)-Protokollsuite, die auf Unix-, Unix-ähnlichen und Microsoft-Windows-Computersystemen zu finden ist und dazu dient, sichere Shell-Sitzungen zwischen entfernten Computern über unsichere Netzwerke durch den Einsatz verschiedener kryptographischer Techniken aufzubauen. Das Dienstprogramm ssh-keygen wird zur Erzeugung, Verwaltung und Konvertierung von Authentifizierungsschlüsseln verwendet.*  
 
-*Quelle:* https://en.wikipedia.org/wiki/Ssh-keygen 
+**Quelle:** https://en.wikipedia.org/wiki/Ssh-keygen 
