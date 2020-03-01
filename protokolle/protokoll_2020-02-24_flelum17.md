@@ -11,6 +11,7 @@
 2) [Erste Schritte](#erste-schritte)
    * [Betriebssystem](#betriebssystem)
    * [SSH](#ssh)
+   * [Befehle](#befehle)
 
 ----------------------------
 ## µC und Raspberry Pi
@@ -48,6 +49,8 @@
 Mit der SSH (Secure Shell) kann man sich z.B. mit einem Raspberry über das Netzwerk verbinden.
 Sie ist anfangs immer deaktiviert, um unbefugtes verbinden zu verhindern. 
 
+### Befehle
+
 **Verbinden**  
 
     ssh flelum17@10.200.114.226 (benutzer@IPadresse)              
@@ -58,17 +61,36 @@ Sie ist anfangs immer deaktiviert, um unbefugtes verbinden zu verhindern.
 
     
     
-**Konfigurieren**
+**Konfigurieren**          
 
     sudo raspi-config (Einstellungen: Kammera einschalten, Zeitzone festlegen, usw.)               
     
-**Updaten**
+**Updaten**                
 
     sudo -i
     apt update
-    apt upgrade
+    apt upgrade                       
     
-**Installieren
+**Installieren**           
+
+    sudo -i
+    apt search java (suche nach dem Programm z.B. java)
+    apt install java ( installieren von z.B. java)
+    
+ **User hinzufügen**                
+ 
+    adduser flelum17 (username)                  
+    less/etc/group (benutzername bei sudo hinzufügen)          
+    
+**Hostname ändern**                 
+
+    nano /etc/hostname
+    nano /etc/hosts
+    reboot
+    
+    
+ 
+ 
     
     
     
