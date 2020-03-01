@@ -45,6 +45,13 @@
  Bei Ubuntu kann das mit dem **dd** -tool gemacht werden.
 
 ### SSH
+Mit der SSH (Secure Shell) kann man sich z.B. mit einem Raspberry über das Netzwerk verbinden.
+Sie ist anfangs immer deaktiviert, um unbefugtes verbinden zu verhindern. 
+
+**Verbinden**              
+    ssh flelum17@10.200.114.226 (benutzer@IPadresse)           
+    
+   
 
 
 
