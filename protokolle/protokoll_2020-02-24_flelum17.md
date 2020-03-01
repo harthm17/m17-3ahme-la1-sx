@@ -11,7 +11,9 @@
 2) [Erste Schritte](#erste-schritte)
    * [Betriebssystem](#betriebssystem)
    * [SSH](#ssh)
+   * [screen](#screen)
    * [Befehle](#befehle)
+3) [Man in the middle](#man-in-the-middle)
 
 ----------------------------
 ## µC und Raspberry Pi
@@ -49,6 +51,14 @@
 Mit der SSH (Secure Shell) kann man sich z.B. mit einem Raspberry über das Netzwerk verbinden.
 Sie ist anfangs immer deaktiviert, um unbefugtes verbinden zu verhindern. 
 
+### screen
+Mit Hilfe eines screens kann man z.B. einen Download laufen lassen, auch wenn man sich auslogt. 
+
+     apt install screen (screen installieren)
+     screen (screen wird erstellt)
+     screen schließen mit strg + a + d
+     screen -r (screen wieder anzeigen)               
+
 ### Befehle
 
 **Verbinden**  
@@ -56,11 +66,7 @@ Sie ist anfangs immer deaktiviert, um unbefugtes verbinden zu verhindern.
     ssh flelum17@10.200.114.226 (benutzer@IPadresse)              
     passwort eingeben (y = z wegen amerikanischer Tastatur)             
     passwd (passwort ändern)  
-    
-**Überprüfen**
-
-    
-    
+       
 **Konfigurieren**          
 
     sudo raspi-config (Einstellungen: Kammera einschalten, Zeitzone festlegen, usw.)               
@@ -88,6 +94,33 @@ Sie ist anfangs immer deaktiviert, um unbefugtes verbinden zu verhindern.
     nano /etc/hosts
     reboot
     
+**SSH Schlüsselpaar erstellen**
+
+    sshkeygen (es werden 2 Schlüssel erstellt, ein privater und ein öffentlicher)
+    
+-----------------------------------
+## Man in the middle
+         
+         Ein Man-in-the-Middle-Angriff (MITM-Angriff), auch Janusangriff
+         (nach dem doppelgesichtigen Janus der römischen Mythologie)genannt,
+         ist eine Angriffsform, die in Rechnernetzen ihre Anwendung findet.
+         Der Angreifer steht dabei entweder physisch oder – heute meist – 
+         logisch zwischen den beiden Kommunikationspartnern, hat dabei mit
+         seinem System vollständige Kontrolle über den Datenverkehr zwischen
+         zwei oder mehreren Netzwerkteilnehmern und kann die Informationen
+         nach Belieben einsehen und sogar manipulieren. Die Janusköpfigkeit
+         des Angreifers besteht darin, dass er den Kommunikationspartnern
+         vortäuscht, das jeweiligeGegenüber zu sein. 
+         
+aus Wikipedia: [Man in the Middle Angriff](https://de.wikipedia.org/wiki/Man-in-the-Middle-Angriff)
+
+
+
+![Man in the Middle](https://phoenixnap.com/blog/wp-content/uploads/2019/03/example-of-mitm-attack-min.png)
+[Bild](https://phoenixnap.com/blog/wp-content/uploads/2019/03/example-of-mitm-attack-min.png)
+
+Um 100% sicher vor einem Man in the Middle Angriff zu sein, sollte man gleich direkt am Gerät abreiten.
+
     
  
  
