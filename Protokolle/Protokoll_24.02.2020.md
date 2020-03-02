@@ -1,48 +1,52 @@
 # Protokoll 24.02.2020
 -----------------------------------------------------------------------
-**Einführung Raspberry Pi**   
+**Einführung Microcontroller und Raspberry Pi**   
 **Datum: 24.02.2020**   
 **Protokollführer: Danko Sebastian** 
 
 ------------------------------------------------------------------------
 ## Inhaltsverzeichnis:
-* [Microcontroler](#Microcontroler)  
-* [Raspberry Pi](#Raspbrry-Pi)  
+* [µ controler](#µ-controler)  
+* [Raspberry Pi](#Raspberry-Pi)  
 * [Raspberry über SSH steuern](#raspberry-über-ssh-steuern) 
 * [Betriebssysteme Für den Raspberry Pi](#Betriebssysteme-auf-einen-Raspberry-Pi)   
 * [Befehle](#befehle) 
 ------------------------------------------------------------------------------
 
-## Microcontroler
+## µ controler
 * Leistungsschwache CPU 
-* Verbrauch 1-10mW
+* Verbrauch: 1-10mW
 * Flash Player 32KiB 
 * SRAM Arbeitsspeicher 2 KiB 
 * 8 Bit µC
 * Kosten: 1-2€
 * Echtzeitfähigkeit
 
+![Bild](https://cdn.prod.www.spiegel.de/images/48a41de2-0001-0004-0000-000001028706_w948_r1.77_fpx61.3_fpy50.jpg)
+
+
 ## Raspberry Pi
 * Leistungstarke CPU
-* Verbrauch 1-2W
+* Verbrauch: 1-2W
 * Flash MMC 8,16,32,... GiB
 * Arbeitsspeicher 1,2,4GiB
 * 32/64 Bit 
 * Kosten: 30-40€
 
+![Bild](https://images-na.ssl-images-amazon.com/images/I/91zSu44%2B34L._AC_SX466_.jpg)
 ## Raspberry über SSH Steuern
-Um sich zu verbinden muss man mit der Schnittstelle des Raspberry Verbinden und aktievieren, weil es wegen Sichergründen nicht anders geht.
+Um sich zu verbinden muss man mit der Schnittstelle des Raspberry Verbinden und aktivieren, weil es wegen Sichergründen nicht anders funktioniert.
 Danach geht es über die IP-Adresse mit dem Befehl: ssh
 z.B.  ssh pi@10.200.114.227
 
-## Betriebsystem Auf einen Raspberry Pi
+## Betriebsystem auf einen Raspberry Pi
 * Raspbian Buster Lite
 * Raspbian Buster mit Desktop 
 * Raspbian Buster mit Desktop und recommended software
 
 Um das betriebsystem zu instalieren muss man die ausgewählte datei herunterladen und dan mit dem dd Befehl entpacken und auf eine SD Karte kopieren.
 
-## Befehle:
+## Befehle
 Befehl   | Bedeutung                | Erklärung<br>
 --------|--------------------------|---------------------------------------------------
  dd      | duplicate data          |        Daten 1:1 kopieren (auch auf Geräte anwendbar)<br> 
@@ -57,3 +61,4 @@ screen |<br>
 exit      |      exit               |       Ende der Sitzung<br>
 reboot     |                       |        Rechner neu starten<br>
 chomd      |      change mod        |        Benutzer rechte verändern<br>
+
