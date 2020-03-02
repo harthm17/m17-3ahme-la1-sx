@@ -18,7 +18,7 @@
   * [Installationen](#installationen)  
   * [SSH Schlüsselpaar](#ssh-schlüsselpaar)  
 
-## Microcontroler:
+## Microcontroller:
   * Kosten 1-2€
   * Geringe CPU Leistung
   * Geringer Stromverbrauch 1 mW - 10 mW
