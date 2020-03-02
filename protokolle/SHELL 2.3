@@ -1,0 +1,382 @@
+auganm17@pi21:~/programm $ nano main.c
+auganm17@pi21:~/programm $ gcc main.c
+auganm17@pi21:~/programm $ ./a.out
+Start i = 1027
+i = 1027
+i = 1028
+i = 1029
+i = 1030
+i = 1031
+i = 1032
+i = 1033
+i = 1034
+i = 1035
+i = 1036
+i = 1037
+i = 1038
+i = 1039
+i = 1040
+i = 1041
+i = 1042
+i = 1043
+i = 1044
+i = 1045
+i = 1046
+i = 1047
+i = 1048
+i = 1049
+i = 1050
+i = 1051
+i = 1052
+i = 1053
+i = 1054
+i = 1055
+i = 1056
+i = 1057
+i = 1058
+^C
+auganm17@pi21:~/programm $ nano main.c
+auganm17@pi21:~/programm $ gcc main.c
+main.c:2:10: fatal error: unisdt.h: No such file or directory
+ #include <unisdt.h>
+          ^~~~~~~~~~
+compilation terminated.
+auganm17@pi21:~/programm $ nano main.c
+auganm17@pi21:~/programm $ gcc main.c
+auganm17@pi21:~/programm $ ./a.out
+Start i = 1027
+i = 1027
+i = 1028
+i = 1029
+i = 1030
+i = 1031
+i = 1032
+i = 1033
+i = 1034
+i = 1035
+i = 1036
+i = 1037
+^C
+auganm17@pi21:~/programm $ nano main.c
+auganm17@pi21:~/programm $ ll /var/log
+-bash: ll: command not found
+auganm17@pi21:~/programm $ ls /var/log
+alternatives.log    auth.log       btmp        daemon.log.1  dpkg.log    fontconfig.log  lastlog     private   user.log
+alternatives.log.1  auth.log.1     btmp.1      debug         dpkg.log.1  kern.log        messages    syslog    user.log.1
+apt                 bootstrap.log  daemon.log  debug.1       faillog     kern.log.1      messages.1  syslog.1  wtmp
+auganm17@pi21:~/programm $ nano main.c
+auganm17@pi21:~/programm $ gcc main.c
+auganm17@pi21:~/programm $ ./a.out
+Start i = 1027
+Kann Datei /var/log/programm nicht oeffnen
+Kann Datei /var/log/programm nicht oeffnen
+Kann Datei /var/log/programm nicht oeffnen
+Kann Datei /var/log/programm nicht oeffnen
+Kann Datei /var/log/programm nicht oeffnen
+Kann Datei /var/log/programm nicht oeffnen
+^C
+auganm17@pi21:~/programm $ sudo touch /var/log/programm.log
+[sudo] password for auganm17: 
+Sorry, try again.
+[sudo] password for auganm17: 
+Sorry, try again.
+[sudo] password for auganm17: 
+sudo: 3 incorrect password attempts
+auganm17@pi21:~/programm $ sudo touch /var/log/programm.log
+[sudo] password for auganm17: 
+auganm17@pi21:~/programm $ sudo chmod 666 /var/log/programm.log
+auganm17@pi21:~/programm $ ls -al /var/log/programm.log
+-rw-rw-rw- 1 root root 0 Mar  2 14:53 /var/log/programm.log
+auganm17@pi21:~/programm $ ./a.out
+Start i = 1027
+Kann Datei /var/log/programm nicht oeffnen
+Kann Datei /var/log/programm nicht oeffnen
+Kann Datei /var/log/programm nicht oeffnen
+Kann Datei /var/log/programm nicht oeffnen
+Kann Datei /var/log/programm nicht oeffnen
+^C
+auganm17@pi21:~/programm $ nano main.c
+auganm17@pi21:~/programm $ gcc main.c
+auganm17@pi21:~/programm $ ./a.out
+Start i = 1027
+Kann Datei /var/log/programm nicht oeffnen
+Kann Datei /var/log/programm nicht oeffnen
+^C
+auganm17@pi21:~/programm $ ^C
+auganm17@pi21:~/programm $ nano main.c
+auganm17@pi21:~/programm $ gcc main.c
+auganm17@pi21:~/programm $ ./a.out
+Start i = 1027
+Kann Datei /var/log/programm nicht oeffnen
+schueler@pcxx:~$ ssh auganm17@10.200.114.221
+Linux pi21 4.19.97-v7+ #1294 SMP Thu Jan 30 13:15:58 GMT 2020 armv7l
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Mon Feb 24 15:12:31 2020 from 10.200.112.6
+
+Wi-Fi is currently blocked by rfkill.
+Use raspi-config to set the country before use.
+
+auganm17@pi21:~ $ exit
+logout
+Connection to 10.200.114.221 closed.
+schueler@pcxx:~$ 
+schueler@pcxx:~$ nano .ssh/config
+schueler@pcxx:~$ ssh pi21
+Linux pi21 4.19.97-v7+ #1294 SMP Thu Jan 30 13:15:58 GMT 2020 armv7l
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Mon Feb 24 15:17:24 2020 from 10.200.112.6
+
+Wi-Fi is currently blocked by rfkill.
+Use raspi-config to set the country before use.
+
+root@pi21:~# cat .ssh/id_rsa.pub
+cat: .ssh/id_rsa.pub: No such file or directory
+root@pi21:~# 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+root@pi21:~# exit
+logout
+Connection to 10.200.114.221 closed.
+schueler@pcxx:~$ nano .ssh/config
+schueler@pcxx:~$ ssh pi21
+/home/schueler/.ssh/config: line 5: Bad configuration option: hostname10.200.114.221
+/home/schueler/.ssh/config: terminating, 1 bad configuration options
+schueler@pcxx:~$ nano .ssh/config
+schueler@pcxx:~$ ssh pi21
+Linux pi21 4.19.97-v7+ #1294 SMP Thu Jan 30 13:15:58 GMT 2020 armv7l
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Mon Mar  2 13:57:46 2020 from 10.200.112.6
+
+Wi-Fi is currently blocked by rfkill.
+Use raspi-config to set the country before use.
+
+auganm17@pi21:~ $ 
+
+
+
+
+
+
+
+
+
+auganm17@pi21:~ $ mkdir programm
+auganm17@pi21:~ $ ls
+programm
+auganm17@pi21:~ $ ll
+-bash: ll: command not found
+auganm17@pi21:~ $ alias
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias grep='grep --color=auto'
+alias ls='ls --color=auto'
+auganm17@pi21:~ $ cd programm
+auganm17@pi21:~/programm $ 
+auganm17@pi21:~/programm $ alias ll = "ls -al"
+-bash: alias: ll: not found
+-bash: alias: =: not found
+-bash: alias: ls -al: not found
+auganm17@pi21:~/programm $ nano main.c
+auganm17@pi21:~/programm $ ll
+-bash: ll: command not found
+auganm17@pi21:~/programm $ cat main.c
+#include <stdio.h>
+
+int main () {
+
+	int i;
+
+	i = 100;
+
+	return 0;
+}
+auganm17@pi21:~/programm $ ls
+main.c
+auganm17@pi21:~/programm $ ./main.c
+-bash: ./main.c: Permission denied
+auganm17@pi21:~/programm $ gcc main.c
+auganm17@pi21:~/programm $ ls
+a.out  main.c
+auganm17@pi21:~/programm $ ./a.out
+auganm17@pi21:~/programm $ nano main.c
+auganm17@pi21:~/programm $ ./a.out
+auganm17@pi21:~/programm $ cat main.c
+#include <stdio.h>
+
+int main () {
+
+	int i;
+
+	i = 100 * 10 + 27;
+	printf ("i = %d\n", i);
+
+	return 0;
+}
+auganm17@pi21:~/programm $ 
+auganm17@pi21:~/programm $ gcc main.c
+auganm17@pi21:~/programm $ ./a.out
+i = 1027
+auganm17@pi21:~/programm $ nano main.c
+auganm17@pi21:~/programm $ gcc main.c
+auganm17@pi21:~/programm $ ./a.out
+Start i = 1027
+schueler@pcxx:~$ ssh pi21
+Linux pi21 4.19.97-v7+ #1294 SMP Thu Jan 30 13:15:58 GMT 2020 armv7l
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Mon Mar  2 14:11:10 2020 from 10.200.112.6
+
+Wi-Fi is currently blocked by rfkill.
+Use raspi-config to set the country before use.
+
+auganm17@pi21:~ $ nano /var/log/programm.log
+auganm17@pi21:~ $ nano /var/log/programm.log
+auganm17@pi21:~ $ nano /var/log/programm.log
+auganm17@pi21:~ $ nano /var/log/programm.log
+auganm17@pi21:~ $ nano /var/log/programm.log
+auganm17@pi21:~ $ ./a.out
+-bash: ./a.out: No such file or directory
+auganm17@pi21:~ $ watch ls -l /var/log/programm.log
+auganm17@pi21:~ $ gcc main.c
+gcc: error: main.c: No such file or directory
+gcc: fatal error: no input files
+compilation terminated.
+auganm17@pi21:~ $ cd /programm
+-bash: cd: /programm: No such file or directory
+auganm17@pi21:~ $ cd programm
+auganm17@pi21:~/programm $ gcc main.c
+auganm17@pi21:~/programm $ .a/.out
+-bash: .a/.out: No such file or directory
+auganm17@pi21:~/programm $ ls
+a.out  main.c
+auganm17@pi21:~/programm $ ./a.out
+Start i = 1027
+tail -f /var/log/programm.log
+^C
+auganm17@pi21:~/programm $ 
+
+
+
+/var/log/programm.log
+{ 
+        rotate 4
+        weekly
+}
+
+
+auganm17@pi21:~ $ watch ls -l /var/log/programm.log
+auganm17@pi21:~ $ gcc main.c
+gcc: error: main.c: No such file or directory
+gcc: fatal error: no input files
+compilation terminated.
+auganm17@pi21:~ $ cd /programm
+-bash: cd: /programm: No such file or directory
+auganm17@pi21:~ $ cd programm
+auganm17@pi21:~/programm $ gcc main.c
+auganm17@pi21:~/programm $ .a/.out
+-bash: .a/.out: No such file or directory
+auganm17@pi21:~/programm $ ls
+a.out  main.c
+auganm17@pi21:~/programm $ ./a.out
+Start i = 1027
+tail -f /var/log/programm.log
+^C
+auganm17@pi21:~/programm $ 
+auganm17@pi21:~/programm $ 
+auganm17@pi21:~/programm $ ll /var/log
+-bash: ll: command not found
+auganm17@pi21:~/programm $ ls -al /var/log
+total 616
+drwxr-xr-x  4 root root   4096 Mar  2 14:53 .
+drwxr-xr-x 11 root root   4096 Feb 13 16:10 ..
+-rw-r--r--  1 root root      0 Mar  2 13:57 alternatives.log
+-rw-r--r--  1 root root   3463 Feb 24 14:40 alternatives.log.1
+drwxr-xr-x  2 root root   4096 Mar  2 13:57 apt
+-rw-r-----  1 root adm    4258 Mar  2 15:03 auth.log
+-rw-r-----  1 root adm   12774 Feb 24 15:19 auth.log.1
+-rw-r--r--  1 root root      0 Feb 13 16:09 bootstrap.log
+-rw-rw----  1 root utmp      0 Mar  2 13:57 btmp
+-rw-rw----  1 root utmp   1920 Feb 24 15:16 btmp.1
+-rw-r-----  1 root adm   10804 Mar  2 15:03 daemon.log
+-rw-r-----  1 root adm   88537 Mar  2 13:57 daemon.log.1
+-rw-r-----  1 root adm       0 Mar  2 13:57 debug
+-rw-r-----  1 root adm    3205 Feb 24 15:19 debug.1
+-rw-r--r--  1 root root      0 Mar  2 13:57 dpkg.log
+-rw-r--r--  1 root root  72137 Feb 24 14:40 dpkg.log.1
+-rw-r--r--  1 root root  24048 Feb 24 14:45 faillog
+-rw-r--r--  1 root root    539 Feb 24 14:40 fontconfig.log
+-rw-r-----  1 root adm       0 Mar  2 13:57 kern.log
+-rw-r-----  1 root adm   79375 Feb 24 15:19 kern.log.1
+-rw-rw-r--  1 root utmp 292584 Mar  2 14:59 lastlog
+-rw-r-----  1 root adm     146 Mar  2 13:57 messages
+-rw-r-----  1 root adm   75715 Mar  2 13:57 messages.1
+drwx------  2 root root   4096 Feb 13 16:09 private
+-rw-rw-rw-  1 root root   2736 Mar  2 15:07 programm.log
+-rw-r-----  1 root adm   11188 Mar  2 15:03 syslog
+-rw-r-----  1 root adm  170692 Mar  2 13:57 syslog.1
+-rw-r-----  1 root adm       0 Mar  2 13:57 user.log
+-rw-r-----  1 root adm     572 Feb 24 15:19 user.log.1
+-rw-rw-r--  1 root utmp  14976 Mar  2 15:03 wtmp
+auganm17@pi21:~/programm $ sudo -i
+[sudo] password for auganm17: 
+
+Wi-Fi is currently blocked by rfkill.
+Use raspi-config to set the country before use.
+
+root@pi21:~# cd /etc/log
+-bash: cd: /etc/log: No such file or directory
+root@pi21:~# cd /etc/log
+-bash: cd: /etc/log: No such file or directory
+root@pi21:~# cd /etc/logrotate nano programm
+-bash: cd: too many arguments
+root@pi21:~# /etc/logrotate nano programm
+-bash: /etc/logrotate: No such file or directory
+root@pi21:~# cd /etc/logrotate.d/
+root@pi21:/etc/logrotate.d# ls -l
+total 24
+-rw-r--r-- 1 root root 120 Apr 19  2019 alternatives
+-rw-r--r-- 1 root root 173 May 28  2019 apt
+-rw-r--r-- 1 root root 130 Aug 28  2018 btmp
+-rw-r--r-- 1 root root 112 Apr 19  2019 dpkg
+-rw-r--r-- 1 root root 501 Feb 26  2019 rsyslog
+-rw-r--r-- 1 root root 145 Feb 19  2018 wtmp
+root@pi21:/etc/logrotate.d# nano programm
+root@pi21:/etc/logrotate.d# 
+
+
+
