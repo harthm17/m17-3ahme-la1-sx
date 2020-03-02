@@ -44,6 +44,17 @@ fucnim17@pi22:~ $ tail -f /var/log/programm.log
 
 Logrotate
 
+root@pi22:~# cd /etc/logrotate.d
+root@pi22:/etc/logrotate.d# nano programm
+
+folgendes eingeben:::
+/var/log/programm.log
+{ 
+  rotate 4
+  weekly
+}
+
+
 
 
 
