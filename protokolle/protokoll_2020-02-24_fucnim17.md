@@ -7,6 +7,7 @@
 1. [µC versus Raspberry Pi](#µc-versus-raspberry-pi)
    1. [Atmel 324P](#atmel-324p)
    1. [Rasperry Pi](#raspberry-pi)
+1. [Linux Debian](#linux-debian)
 1. [Secure Shell](#ssh-secure-shell)
 
 ## µC versus Raspberry Pi
@@ -29,6 +30,7 @@
 ## Linux Debian
 * Ubuntu
 * Raspian
+[weitere Informationen](https://www.debian.org)
 
 ## SSH (Secure Shell)
 Verbindung mit z.B. einem Raspberry Pi über ein Netzwerk (Internet/LAN)
