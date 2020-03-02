@@ -31,7 +31,7 @@
 * Ubuntu
 * Raspian
 
-[weitere Informationen](https://www.debian.org)
+-->[weitere Informationen](https://www.debian.org)
 
 ## SSH (Secure Shell)
 Verbindung mit z.B. einem Raspberry Pi über ein Netzwerk (Internet/LAN)
