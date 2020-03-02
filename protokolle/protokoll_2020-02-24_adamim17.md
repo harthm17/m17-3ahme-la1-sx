@@ -34,7 +34,7 @@
   * 32 (64) bit Architektur 
   
 ## Betriebssysteme für den Raspberry Pi:
-  ### Es gibt verschieden arten von [Betriebssystemen](https://www.raspberrypi.org/downloads/raspbian/) für den Raspberry Pi
+  ### Es gibt verschieden Arten von [Betriebssystemen](https://www.raspberrypi.org/downloads/raspbian/) für den Raspberry Pi
   * Raspbian Buster Lite
   * Raspbian Buster mit Desktop 
   * Raspbian Buster mit Desktop und Programmen
@@ -52,7 +52,7 @@ bsp. SSH raspberrypi@10.200.114.229
 ## Befehle:
 
 ### Update:
-* Um diese Befehle Benutzen zu können muss man als Superuser eingeloggt sein.
+* Um diese Befehle benutzen zu können muss man als Superuser eingeloggt sein.
 ````
 sudo -i
 ````
@@ -70,7 +70,7 @@ Befehl: apt upgrade
 ### Konfiguration:
 * Für den Raspberry Pi gibt es ein eigenes Konfigurations - Tool
 ````
-Befehl: sudo raspi config
+Befehl: sudo raspi-config
 ````
 
 ### Sicherheit und Benutzer:
@@ -96,9 +96,9 @@ Befehl: apt install screen
 ````
 Tastenkombination: strg + a + d
 ````
-* In das Screen Fenster einsteigen (in dem Konsolenfenster vom Raspberry Pi:
+* In das Screen Fenster einsteigen (in dem Konsolenfenster vom Raspberry Pi):
 ````
-Befehl: Screen -r
+Befehl: screen -r
 ````
 
 ### Installationen:
