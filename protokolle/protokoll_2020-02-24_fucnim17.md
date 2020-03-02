@@ -5,8 +5,9 @@
 ## Inhaltsverzeichniss
 
 1. [µC versus Raspberry Pi](#µc-versus-raspberry-pi)
+   1.
 1. [SSH](#ssh-secure-shell)
-1. [User hinzufügen](#user-hinzufügen)
+   1. [User hinzufügen](#user-hinzufügen)
 
 ## µC versus Raspberry Pi
 ### Atmel 324P
