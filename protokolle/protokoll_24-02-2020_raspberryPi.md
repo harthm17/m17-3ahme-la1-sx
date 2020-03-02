@@ -154,7 +154,7 @@ nach reboot hat pi@raspberrypi jetzt den hostname pi@pi25.
 **SSH - Schüsselpaar erstellen:**
 
 ````bash
-schueler@pcxx:~$ ssh - keygen
+schueler@pcxx:~$ ssh-keygen
 ````
 
 nach der Erstellung  des Schlüsselpaars hat man zwei Dateien erstens id_rsa, das ist der private Schlüssel und zweitens id_rsa.pub, das ist der öffentliche Schlüssel.
