@@ -19,13 +19,19 @@
 * Kosten: 1-2 €
 * ECHTZEITFÄHIGKEIT
 
-### Raspery Pi
+![Bild1](http://www.hobbytronics.co.uk/image/cache/data/atmel/atmega32u4-500x500.jpg)
+[Bild1](http://www.hobbytronics.co.uk/image/cache/data/atmel/atmega32u4-500x500.jpg)
+
+### Raspberry Pi
 * Mini-Computer mit Ethernet, WLAN, USB, HDMI
 * 32Bit/64Bit Leistungsstarke CPU
 * 1GiB/2GiB/4GiB Arbeitsspeicher
 * Stromverbrauch 1-2W bei Leerlauf
 * Kosten: 30-40€
 * Flash MMC (8/16/32GiB)
+
+![Bild2](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Raspberry_Pi_4_Model_B_-_Side.jpg/1200px-Raspberry_Pi_4_Model_B_-_Side.jpg)
+[Bild2](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Raspberry_Pi_4_Model_B_-_Side.jpg/1200px-Raspberry_Pi_4_Model_B_-_Side.jpg)
 
 ## Linux Debian
 * Ubuntu
