@@ -20,6 +20,7 @@
 * ECHTZEITFÄHIGKEIT
 
 ![Bild1](http://www.hobbytronics.co.uk/image/cache/data/atmel/atmega32u4-500x500.jpg)
+
 [Bild1](http://www.hobbytronics.co.uk/image/cache/data/atmel/atmega32u4-500x500.jpg)
 
 ### Raspberry Pi
@@ -31,6 +32,7 @@
 * Flash MMC (8/16/32GiB)
 
 ![Bild2](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Raspberry_Pi_4_Model_B_-_Side.jpg/1200px-Raspberry_Pi_4_Model_B_-_Side.jpg)
+
 [Bild2](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Raspberry_Pi_4_Model_B_-_Side.jpg/1200px-Raspberry_Pi_4_Model_B_-_Side.jpg)
 
 ## Linux Debian
