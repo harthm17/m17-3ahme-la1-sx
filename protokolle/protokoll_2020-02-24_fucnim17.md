@@ -4,8 +4,8 @@
 -----------------------------------------------------------
 ## Inhaltsverzeichniss
 
-1. [µC versus Raspberry Pi](#µcversusraspberrypi)
-1.1. [Atmel 324P]
+1. [µC versus Raspberry Pi](#µc-versus-raspberry-pi)
+1.1. [Atmel 324P](#atmel-324p)
 1. [Kommandos](#kommandos)
 1. [Berechtigungen](#berechtigungen)
 1. [Neuen Benutzer erstellen](#neuen-benutzer-erstellen)
