@@ -30,6 +30,7 @@
 ## Linux Debian
 * Ubuntu
 * Raspian
+
 [weitere Informationen](https://www.debian.org)
 
 ## SSH (Secure Shell)
