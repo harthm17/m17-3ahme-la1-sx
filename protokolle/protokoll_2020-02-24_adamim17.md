@@ -115,7 +115,7 @@ Befehl: apt install
 Beim erstellen eines SSH - Schlüsselpaares hat man zwei Schlüssel, einen privaten und einen öffentlichen.
 * Ein Schlüsselpaar erstellen:
 ````
-ssh - keygen
+ssh-keygen
 ````
 
 
