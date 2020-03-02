@@ -35,7 +35,8 @@
 
 ![Bild](https://images-na.ssl-images-amazon.com/images/I/91zSu44%2B34L._AC_SX466_.jpg)
 ## Raspberry über SSH Steuern
-Um sich zu verbinden muss man mit der Schnittstelle des Raspberry Verbinden und aktivieren, weil es wegen Sichergründen nicht anders funktioniert.<br>
+SSH Secure Shell
+Um sich zu verbinden muss man mit der Schnittstelle des Raspberry Verbinden und die IP-Adresse aktivieren, weil es wegen Sichergründen nicht anders funktioniert.<br>
 Danach geht es über die IP-Adresse mit dem Befehl: ssh<br>
 z.B.  ssh pi@10.200.114.227
 
@@ -49,7 +50,7 @@ Um das betriebsystem zu instalieren muss man die ausgewählte Datei herunterlade
 ## Befehle
 Befehl   | Bedeutung                | Erklärung<br>
 --------|--------------------------|---------------------------------------------------
- dd      | duplicate data          |        Daten 1:1 kopieren (auch auf Geräte anwendbar)<br> 
+ dd      | duplicate data          |        Daten 1:1 kopieren (auch auf Geräte anwendbar) <br> 
   sudo    |     super-user do      |        in den Super-User Mode (root) wechseln<br>
   apt-get  |     get data from repository |  Daten/Files herunterladen<br>
   apt-get update        |     apt-get update        |   -> Lokale Software-Datenbank aktualisieren <br>
@@ -61,4 +62,11 @@ screen |<br>
 exit      |      exit               |       Ende der Sitzung<br>
 reboot     |                       |        Rechner neu starten<br>
 chomd      |      change mod        |        Benutzer rechte verändern<br>
+
+dd um Datei zum entpacken der Instalierten Datei für die instalation<br>
+sudo um die berechtigungen zu verändern<br>
+apt uptade um die Datenbank zu aktualiesieren um neu Updates zu sehen<br>
+screen instalieren mit apt
+
+
 
