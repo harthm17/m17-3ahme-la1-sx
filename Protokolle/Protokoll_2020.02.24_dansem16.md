@@ -13,7 +13,7 @@
 * [Befehle](#befehle) 
 ------------------------------------------------------------------------------
 
-## µ controler
+## µ controller
 * Leistungsschwache CPU 
 * Verbrauch: 1-10mW
 * Flash Player 32KiB 
@@ -35,8 +35,8 @@
 
 ![Bild](https://images-na.ssl-images-amazon.com/images/I/91zSu44%2B34L._AC_SX466_.jpg)
 ## Raspberry über SSH Steuern
-Um sich zu verbinden muss man mit der Schnittstelle des Raspberry Verbinden und aktivieren, weil es wegen Sichergründen nicht anders funktioniert.
-Danach geht es über die IP-Adresse mit dem Befehl: ssh
+Um sich zu verbinden muss man mit der Schnittstelle des Raspberry Verbinden und aktivieren, weil es wegen Sichergründen nicht anders funktioniert.<br>
+Danach geht es über die IP-Adresse mit dem Befehl: ssh<br>
 z.B.  ssh pi@10.200.114.227
 
 ## Betriebsystem auf einen Raspberry Pi
@@ -44,7 +44,7 @@ z.B.  ssh pi@10.200.114.227
 * Raspbian Buster mit Desktop 
 * Raspbian Buster mit Desktop und recommended software
 
-Um das betriebsystem zu instalieren muss man die ausgewählte datei herunterladen und dan mit dem dd Befehl entpacken und auf eine SD Karte kopieren.
+Um das betriebsystem zu instalieren muss man die ausgewählte Datei herunterladen und dan mit dem dd Befehl entpacken und auf eine SD Karte kopieren.
 
 ## Befehle
 Befehl   | Bedeutung                | Erklärung<br>
@@ -53,7 +53,7 @@ Befehl   | Bedeutung                | Erklärung<br>
   sudo    |     super-user do      |        in den Super-User Mode (root) wechseln<br>
   apt-get  |     get data from repository |  Daten/Files herunterladen<br>
   apt-get update        |     apt-get update        |   -> Lokale Software-Datenbank aktualisieren <br>
-  apt-get upgrade         |     apt-get upgrade      |    -> Software aktualisieren<br>
+  apt-get upgrade     d    |     apt-get upgrade      |    -> Software aktualisieren<br>
 mount   |        mount a filesystem |              Partition einbinden<br>
 umount   |       unmount a filesystem      Eingebundene Partition trennen<br>
 mkdir     |      make directory     |       Verzeichnis erstellen<br>
