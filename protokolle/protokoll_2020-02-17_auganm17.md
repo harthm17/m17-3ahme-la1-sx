@@ -12,8 +12,8 @@
 ## Inhaltsverzeichniss
 
 1) [ATmel 324P](#atmel324P)
-1) [Raspberry PI](#raspberrypi)  
-1) [Linux Debian System](#linuxdebiansystem)
+1) [Raspberry PI](#raspberry-pi)  
+1) [Linux Debian System](#linux-debian-system)
 1) [Kommandos](#kommandos)
    * [Sonstiges](#sonstiges)
 
