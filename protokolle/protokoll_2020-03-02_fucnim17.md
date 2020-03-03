@@ -1,8 +1,9 @@
 # Raspberry#2
 ## Inhaltsverzeichniss
-1. [Nickname](#nickname)
-   1.1 [Nickname erstellen](#nickname-erstellen)
-2. [C-Programm](#c-programm)
+1) [Nickname](#nickname)
+      * [Nickname erstellen](#nickname-erstellen)
+2) [C-Programm](#c-programm)
+      * [C-Programm in Terminal erstellen](#c-programm-in-terminal-erstellen)
 
 ## Nickname
 ### Nickname erstellen:
