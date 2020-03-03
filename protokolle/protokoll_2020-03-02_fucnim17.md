@@ -29,10 +29,6 @@ Ein Nickname hat Ähnlichkeiten mit einem alias. In unserem Fall hilft er indem 
  Nun kann man indem man **ssh pi16** eingiebt, sich mit dem Raspberry sehr einfach verbinden.
    
 ## C-Programm
-Unser geschriebenes C-Programm:
-```
-
-```
 ### C-Programm in Terminal erstellen:
 #### Ordner erstellen
 ``` 
@@ -59,14 +55,17 @@ fucnim17@pi22:~/programm $ gcc main.c--
 fucnim17@pi22:~/programm $ ./a.out
 ```
 #### Ausgabe in einer Datei:
-
-ls -al /var/log
-sudo touch /var/log/programm.log
-sudo chmod 666/var/log/programm.log
-ls -al /var/log/programm.log
-gcc main.c
-./a.out
-
+Der einzige Unterschied ist, dass die Asugabe nicht im Terminal, sondern in einer Datei geschieht.
+Hier wierd die erforderliche Datei erstellt, und daraufhin das Programm ausgeführt.
+Natürlich muss der C-Quelltext dementsprechend geändert werden!
+```
+fucnim17@pi22:~ $ ls -al /var/log
+fucnim17@pi22:~ $ sudo touch /var/log/programm.log
+fucnim17@pi22:~ $ sudo chmod 666/var/log/programm.log
+fucnim17@pi22:~ $ ls -al /var/log/programm.log
+fucnim17@pi22:~ $ gcc main.c
+fucnim17@pi22:~ $ ./a.out
+```
 Datei "überwachen":
 fucnim17@pi22:~ $ watch ls -l /var/log/programm.log
 
