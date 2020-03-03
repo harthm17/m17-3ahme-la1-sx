@@ -32,9 +32,9 @@ fucnim17@pi22:~ $ mkdir programm
 fucnim17@pi22:~ $ /programm nano main.c
 ```
 #### Textdatei in Programm umwandeln:
-mit Compiler (z.B. GNU Compiler) --> [GNU Project](#https://de.wikipedia.org/wiki/GNU-Projekt)
+mit Compiler (z.B. GNU Compiler) --> [GNU Project](https://de.wikipedia.org/wiki/GNU-Projekt)
 ```
-fucnim17@pi22:~/programm $ gcc main.c
+fucnim17@pi22:~/programm $ gcc main.c--
 ```
 Ausführen: fucnim17@pi22:~/programm $ ./a.out
 
