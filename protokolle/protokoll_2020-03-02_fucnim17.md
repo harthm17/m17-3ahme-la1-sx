@@ -9,6 +9,7 @@
           * [Kompellieren](#textdatei-in-programm-umwandeln)
           * [Programm ausführen](#programm-ausführen)
           * [Ausgabe in einer Datei](#ausgabe-in-einer-datei)
+          * [Datei überwachen](#datei-"überwachen")
                
 
 ## Nickname
@@ -66,13 +67,14 @@ fucnim17@pi22:~ $ ls -al /var/log/programm.log
 fucnim17@pi22:~ $ gcc main.c
 fucnim17@pi22:~ $ ./a.out
 ```
-Datei "überwachen":
+#### Datei "überwachen":
+```
 fucnim17@pi22:~ $ watch ls -l /var/log/programm.log
-
+```
 oder
-
+```
 fucnim17@pi22:~ $ tail -f /var/log/programm.log
-
+```
 
 Logrotate
 
