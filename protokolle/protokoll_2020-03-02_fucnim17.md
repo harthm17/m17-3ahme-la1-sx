@@ -9,7 +9,7 @@
           * [Kompellieren](#textdatei-in-programm-umwandeln)
           * [Programm ausführen](#programm-ausführen)
           * [Ausgabe in einer Datei](#ausgabe-in-einer-datei)
-          * [Datei überwachen](#datei-"überwachen")
+          * [Datei überwachen](#datei-überwachen)
                
 
 ## Nickname
