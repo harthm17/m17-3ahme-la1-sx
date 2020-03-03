@@ -7,6 +7,8 @@
           * [Ordner erstellen](#ordner-erstellen)
           * [Quelltext schreiben](#quelltext-schreiben)
           * [Kompellieren](#textdatei-in-programm-umwandeln)
+          * [Programm ausführen](#programm-ausführen)
+          * [Ausgabe in einer Datei](#ausgabe-in-einer-datei)
                
 
 ## Nickname
@@ -42,9 +44,11 @@ mit Compiler (z.B. GNU Compiler)
 ```
 fucnim17@pi22:~/programm $ gcc main.c--
 ```
-Ausführen: fucnim17@pi22:~/programm $ ./a.out
-
-Ausgabe in einer Datei:
+#### Programm ausführen: 
+```
+fucnim17@pi22:~/programm $ ./a.out
+```
+#### Ausgabe in einer Datei:
 
 ls -al /var/log
 sudo touch /var/log/programm.log
