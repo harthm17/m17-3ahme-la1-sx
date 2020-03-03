@@ -29,6 +29,10 @@ Ein Nickname hat Ähnlichkeiten mit einem alias. In unserem Fall hilft er indem 
  Nun kann man indem man **ssh pi16** eingiebt, sich mit dem Raspberry sehr einfach verbinden.
    
 ## C-Programm
+Unser geschriebenes C-Programm:
+```
+
+```
 ### C-Programm in Terminal erstellen:
 #### Ordner erstellen
 ``` 
@@ -40,7 +44,7 @@ fucnim17@pi22:~ $ /programm nano main.c
 ```
 #### Textdatei in Programm umwandeln:
 mit Compiler (z.B. GNU Compiler) 
-![](https://upload.wikimedia.org/wikipedia/en/thumb/2/22/Heckert_GNU_white.svg/1200px-Heckert_GNU_white.svg.png){ width=50% }
+![](https://cdn.discordapp.com/attachments/420277853033332736/684470234962198548/Untitled-1.png)
 --> [GNU Project](https://de.wikipedia.org/wiki/GNU-Projekt)
 ```
 fucnim17@pi22:~/programm $ gcc main.c--
