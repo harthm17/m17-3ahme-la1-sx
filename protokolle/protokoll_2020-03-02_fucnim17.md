@@ -1,9 +1,13 @@
 # Raspberry#2
 ## Inhaltsverzeichniss
 1) [Nickname](#nickname)
-      * [Nickname erstellen](#nickname-erstellen)
+     * [Nickname erstellen](#nickname-erstellen)
 2) [C-Programm](#c-programm)
-      * [C-Programm in Terminal erstellen](#c-programm-in-terminal-erstellen)
+     * [C-Programm in Terminal erstellen](#c-programm-in-terminal-erstellen)
+          * [Ordner erstellen](#ordner-erstellen)
+          * [Quelltext schreiben](#quelltext-schreiben)
+          * [Kompellieren](#textdatei-in-programm-umwandeln)
+               
 
 ## Nickname
 ### Nickname erstellen:
@@ -33,7 +37,8 @@ fucnim17@pi22:~ $ mkdir programm
 fucnim17@pi22:~ $ /programm nano main.c
 ```
 #### Textdatei in Programm umwandeln:
-mit Compiler (z.B. GNU Compiler) --> [GNU Project](https://de.wikipedia.org/wiki/GNU-Projekt)
+mit Compiler (z.B. GNU Compiler) 
+--> [GNU Project](https://de.wikipedia.org/wiki/GNU-Projekt)
 ```
 fucnim17@pi22:~/programm $ gcc main.c--
 ```
