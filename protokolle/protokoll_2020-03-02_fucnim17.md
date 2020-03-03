@@ -44,13 +44,16 @@ fucnim17@pi22:~ $ /programm nano main.c
 ```
 #### Textdatei in Programm umwandeln:
 mit Compiler (z.B. GNU Compiler) 
----------------------------------
-![](https://cdn.discordapp.com/attachments/420277853033332736/684470234962198548/Untitled-1.png)
---> [GNU Project](https://de.wikipedia.org/wiki/GNU-Projekt)
----------------------------------
 ```
 fucnim17@pi22:~/programm $ gcc main.c--
 ```
+
+---------------------------------
+![](https://cdn.discordapp.com/attachments/420277853033332736/684470234962198548/Untitled-1.png)
+--> [GNU Project](https://de.wikipedia.org/wiki/GNU-Projekt)
+
+---------------------------------
+
 #### Programm ausführen: 
 ```
 fucnim17@pi22:~/programm $ ./a.out
