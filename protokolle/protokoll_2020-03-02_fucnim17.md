@@ -40,7 +40,7 @@ fucnim17@pi22:~ $ /programm nano main.c
 ```
 #### Textdatei in Programm umwandeln:
 mit Compiler (z.B. GNU Compiler) 
-![](https://upload.wikimedia.org/wikipedia/en/thumb/2/22/Heckert_GNU_white.svg/1200px-Heckert_GNU_white.svg.png =250x)
+![](https://upload.wikimedia.org/wikipedia/en/thumb/2/22/Heckert_GNU_white.svg/1200px-Heckert_GNU_white.svg.png){ width=50% }
 --> [GNU Project](https://de.wikipedia.org/wiki/GNU-Projekt)
 ```
 fucnim17@pi22:~/programm $ gcc main.c--
