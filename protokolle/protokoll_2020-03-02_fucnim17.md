@@ -10,6 +10,7 @@
           * [Programm ausführen](#programm-ausführen)
           * [Ausgabe in einer Datei](#ausgabe-in-einer-datei)
           * [Datei überwachen](#datei-überwachen)
+          * [Logrotate](#logrotate)
                
 
 ## Nickname
@@ -76,18 +77,20 @@ oder
 fucnim17@pi22:~ $ tail -f /var/log/programm.log
 ```
 
-Logrotate
-
+#### Logrotate
+Mit diesem Feature kann man automatisch nach einer bestimmten Zeit Backups erstellen lassen.
+```
 root@pi22:~# cd /etc/logrotate.d
 root@pi22:/etc/logrotate.d# nano programm
-
-folgendes eingeben:::
+```
+folgendes eingeben:
+```
 /var/log/programm.log
 { 
   rotate 4
   weekly
 }
-
+```
 
 
 
