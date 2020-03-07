@@ -17,7 +17,7 @@
    * [In Datei ausgeben](#in-datei-ausgeben)
    * [Datei beobachten](#datei-beobachten)
    * [Logrotate](#logrotate)                 
-         * [Erstellen](#erstellen)
+         * [Log-Datei erstellen](#log-datei-erstellen)
 ----------------------------
 ## Nickname
 ### Wofür
@@ -106,7 +106,19 @@ sich die Dateien in /var/log an, die den Namen "syslog" tragen:
 
 Laut [wiki.ubuntuusers.de](https://wiki.ubuntuusers.de/Logdateien/)
 
-#### Erstellen
+#### Log-Datei erstellen
+
+         root@pi26:~# cd /etc/logrotate.d             (ins Verzeichnis wechseln)
+         root@pi26:/etc/logrotate.d# nano programm    (Datei erstellen)
+         
+         (eingeben:)
+         
+         /var/log/programm.log
+         { 
+         rotate 4
+         weekly
+         }
+         
 
 
       
