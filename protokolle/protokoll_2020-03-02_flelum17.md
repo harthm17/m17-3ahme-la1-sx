@@ -11,11 +11,13 @@
 2) [C-Programm](#c-programm)
    * [Verzeichnis erstellen](#verzeichnis-erstellen)
    * [Quelltext schreiben](#quelltext-schreiben)
-   * [Compilieren](#compilieren)
+   * [Compilieren](#compilieren)             
          * [GNU Project](#gnu-project)
    * [Programm ausführen](#programm-ausführen)
-3) [Man in the middle](#man-in-the-middle)
-
+   * [In Datei ausgeben](#in-datei-ausgeben)
+   * [Datei beobachten](#datei-beobachten)
+   * [Logrotate](#logrotate)                 
+         * [Erstellen](#erstellen)
 ----------------------------
 ## Nickname
 ### Wofür
@@ -42,11 +44,11 @@ Jetzt geht es auch nur mit **ssh pi26**
 ## C-Programm
 ### Verzeichnis erstellen
 
-         flelum17@pi26:~$ mkdir programm              
+         flelum17@pi26:~ $ mkdir programm              
 
 ### Quelltext schreiben
 
-         flelum17@pi26:~$ /programm nano main.c
+         flelum17@pi26:~ $ /programm nano main.c
          
 ### Compilieren
 Mithilfe des *GNU-Compilers*
@@ -71,5 +73,41 @@ Richard Stallman
 ### Programm ausführen
 
       flelum17@pi26:~/programm $ ./a.out
+      
+### In Datei ausgeben
+Die Ausgabe des Programmes wird nicht in der Konsole angezeigt, sondern in einer Datei.
+Dies geschied aber nur wenn auch der Quelltext des Programmes umgeändert wird.
+
+         flelum17@pi26:~ $ ll /var/log
+         flelum17@pi26:~ $ sudo touch /var/log/programm.log
+         flelum17@pi26:~ $ sudo chmod 666/var/log/programm.log
+         flelum17@pi26:~ $ ll /var/log/programm.log
+         flelum17@pi26:~ $ gcc main.c
+         flelum17@pi26:~ $ ./a.out
+         
+### Datei beobachten
+
+         flelum17@pi26:~ $ watch ll /var/log/programm.log
+         
+### Logrotate 
+>Logrotate wurde entwickelt, um die Verwaltung von Logdateien zu vereinfachen.            
+Die Dateien können automatisch komprimiert, gelöscht oder per Mail verschickt             
+werden. Logrotate kann dies täglich, wöchentlich, monatlich durchführen oder              
+wenn eine Logdatei eine vorgegebene Größe überschreitet. Üblicherweise wird               
+Logrotate einmal am Tag aktiv.
+                  
+Am Beispiel des "Syslogs" kann man sehen, wie logrotate arbeitet. Schaut man              
+sich die Dateien in /var/log an, die den Namen "syslog" tragen:                  
+                  
+>-rw-r----- 1 root adm  82484 2006-10-15 00:29 syslog                                     
+-rw-r----- 1 root adm  23503 2006-10-13 01:30 syslog.1               
+-rw-r----- 1 root adm  36587 2006-10-12 11:18 syslog.2               
+-rw-r----- 1 root adm  38361 2006-10-11 02:47 syslog.3
+
+Laut [wiki.ubuntuusers.de](https://wiki.ubuntuusers.de/Logdateien/)
+
+#### Erstellen
+
+
       
 
