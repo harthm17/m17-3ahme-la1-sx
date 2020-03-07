@@ -96,8 +96,8 @@ werden. Logrotate kann dies täglich, wöchentlich, monatlich durchführen oder
 wenn eine Logdatei eine vorgegebene Größe überschreitet. Üblicherweise wird               
 Logrotate einmal am Tag aktiv.
                   
-Am Beispiel des "Syslogs" kann man sehen, wie logrotate arbeitet. Schaut man              
-sich die Dateien in /var/log an, die den Namen "syslog" tragen:                  
+>Am Beispiel des "Syslogs" kann man sehen, wie logrotate arbeitet. Schaut man               
+sich die Dateien in /var/log an, die den Namen "syslog" tragen:                         
                   
 >-rw-r----- 1 root adm  82484 2006-10-15 00:29 syslog                                     
 -rw-r----- 1 root adm  23503 2006-10-13 01:30 syslog.1               
