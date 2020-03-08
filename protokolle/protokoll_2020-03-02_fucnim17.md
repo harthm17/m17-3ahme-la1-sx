@@ -79,6 +79,22 @@ fucnim17@pi22:~ $ tail -f /var/log/programm.log
 
 #### Logrotate
 Mit diesem Feature kann man automatisch nach einer bestimmten Zeit Backups erstellen lassen.
+
+>"logrotate" ist ein Werkzeug um Logdateien zu verwalten. Wird Logdateien
+keine Beachtung geschenkt, so werden sie immer größer und belegen am Ende den
+gesamten verfügbaren Plattenplatz. Weiterhin ist das Durchsuchen vieler/großer
+Logdateien zeitaufwendig. Um dies zu verhindern und Platz auf der Festplatte
+zu sparen, ist "logrotate" entwickelt worden.
+Mit "logrotate" kann man Logdateien ab einer bestimmten Größe (z.B. 1 MByte)
+und/oder einem bestimmten Alter (z.B. 1 Tag, 1 Woche, 1 Monat, 1 Jahr) rotieren
+lassen. Mit "Rotieren" ist gemeint, dass die aktuelle Logdatei und frühere
+Versionen von ihr umbenannt/verschoben und dabei evtl. komprimiert werden. Die
+aktuelle Logdatei wird geleert. Frühere Versionen der Logdatei werden dabei
+durchnumeriert und ggf. auch gelöscht, sobald sie ein gewisses Alter oder eine
+gewisse Anzahl erreichen.
+
+--> [Logrotate](https://www.ostc.de/howtos/logrotate-HOWTO.html)
+
 ```
 root@pi22:~# cd /etc/logrotate.d
 root@pi22:/etc/logrotate.d# nano programm
