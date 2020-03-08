@@ -20,9 +20,9 @@ Ein Nickname hat Ähnlichkeiten mit einem alias. In unserem Fall hilft er indem 
 2. Folgendes in die Datei eintregen:
  
  ```
- Host pi16-root
+ Host pi16
  Hostname 10.200.114.222
- User root 
+ User fucnim17 
  
  Host pi16-root
  Hostname 10.200.114.222
