@@ -11,18 +11,18 @@
 
 ## Inhaltsverzeichniss
 
-1) [ATmel 324P](#atmel324P)
-1) [Raspberry PI](#raspberrypi)  
-1) [Linux Debian System](#linuxdebiansystem)
-1) [Diverse Operationen](#diverseoperationen)
-   * [Über SSH mit Raspberry verbinden](#übersshmitraspberryverbinden)
-   * [Programme updaten](#programmeupdaten)
-   * [Programme installieren](#programmeinstallieren)
+1) [ATmel 324P](#atmel-324P)
+1) [Raspberry PI](#raspberry-pi)  
+1) [Linux Debian System](#linux-debian-system)
+1) [Diverse Operationen](#diverse-operationen)
+   * [Über SSH mit Raspberry verbinden](#über-ssh-mit-raspberry-verbinden)
+   * [Programme updaten](#programme-updaten)
+   * [Programme installieren](#programme-installieren)
    * [screen](#screen)
-   * [User hinzufügen](#userhinzufügen)
-   * [Hostname ändern](#hostnameändern)
+   * [User hinzufügen](#user-hinzufügen)
+   * [Hostname ändern](#hostname-ändern)
    * [Sonstiges](#sonstiges)
-   * [SSH Schlüssel](#sshschlüssel)
+   * [SSH Schlüssel](#ssh-schlüssel)
 
 -----
 
