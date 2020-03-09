@@ -1,0 +1,483 @@
+[Unit]
+Description=C-Programm mit Ausgabe
+
+[Service]
+ExecStart=/home/auganm17/programm/a.out
+
+[install]
+WantedBy=multi-user.target
+
+
+schueler@pcxx:~$ ssh pi21
+Linux pi21 4.19.97-v7+ #1294 SMP Thu Jan 30 13:15:58 GMT 2020 armv7l
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Mon Mar  9 14:09:19 2020 from 10.200.112.6
+
+Wi-Fi is currently blocked by rfkill.
+Use raspi-config to set the country before use.
+
+auganm17@pi21:~ $ sudo -i
+[sudo] password for auganm17: 
+
+Wi-Fi is currently blocked by rfkill.
+Use raspi-config to set the country before use.
+
+root@pi21:~# systemctl stop alsa-state
+root@pi21:~# systemctl start alsa-state
+root@pi21:~# 
+root@pi21:~# nano /etc/systemd/system/programm.service
+root@pi21:~# ls -la /home/auganm17/programm/a.out
+-rwxr-xr-x 1 auganm17 auganm17 8148 Mar  2 15:05 /home/auganm17/programm/a.out
+root@pi21:~# systemctl start programm
+root@pi21:~# systemctl status programm
+● programm.service - C-Programm mit Ausgabe
+   Loaded: loaded (/etc/systemd/system/programm.service; static; vendor preset: 
+   Active: active (running) since Mon 2020-03-09 14:28:03 GMT; 8s ago
+ Main PID: 955 (a.out)
+    Tasks: 1 (limit: 2200)
+   Memory: 188.0K
+   CGroup: /system.slice/programm.service
+           └─955 /home/auganm17/programm/a.out
+
+Mar 09 14:28:03 pi21 systemd[1]: Started C-Programm mit Ausgabe.
+root@pi21:~# journalctl -u programm
+-- Logs begin at Mon 2020-03-02 15:17:01 GMT, end at Mon 2020-03-09 14:28:03 GMT
+Mar 09 14:28:03 pi21 systemd[1]: Started C-Programm mit Ausgabe.
+root@pi21:~# systemctl stop programm
+root@pi21:~# systemctl status programm
+● programm.service - C-Programm mit Ausgabe
+   Loaded: loaded (/etc/systemd/system/programm.service; static; vendor preset: 
+   Active: inactive (dead)
+
+Mar 09 14:28:03 pi21 systemd[1]: Started C-Programm mit Ausgabe.
+Mar 09 14:29:25 pi21 systemd[1]: Stopping C-Programm mit Ausgabe...
+Mar 09 14:29:25 pi21 systemd[1]: programm.service: Main process exited, code=kil
+Mar 09 14:29:25 pi21 systemd[1]: programm.service: Succeeded.
+Mar 09 14:29:25 pi21 systemd[1]: Stopped C-Programm mit Ausgabe.
+root@pi21:~# 
+root@pi21:~# 
+root@pi21:~# 
+root@pi21:~# 
+root@pi21:~# 
+root@pi21:~# systemctl enable programm
+The unit files have no installation config (WantedBy=, RequiredBy=, Also=,
+Alias= settings in the [Install] section, and DefaultInstance= for template
+units). This means they are not meant to be enabled using systemctl.
+ 
+Possible reasons for having this kind of units are:
+• A unit may be statically enabled by being symlinked from another unit's
+  .wants/ or .requires/ directory.
+• A unit's purpose may be to act as a helper for some other unit which has
+  a requirement dependency on it.
+• A unit may be started when needed via activation (socket, path, timer,
+  D-Bus, udev, scripted systemctl call, ...).
+• In case of template units, the unit is meant to be enabled with some
+  instance name specified.
+root@pi21:~# nano /etc/systemd/system/programm.service
+root@pi21:~# systemctl enable programm
+The unit files have no installation config (WantedBy=, RequiredBy=, Also=,
+Alias= settings in the [Install] section, and DefaultInstance= for template
+units). This means they are not meant to be enabled using systemctl.
+ 
+Possible reasons for having this kind of units are:
+• A unit may be statically enabled by being symlinked from another unit's
+  .wants/ or .requires/ directory.
+• A unit's purpose may be to act as a helper for some other unit which has
+  a requirement dependency on it.
+• A unit may be started when needed via activation (socket, path, timer,
+  D-Bus, udev, scripted systemctl call, ...).
+• In case of template units, the unit is meant to be enabled with some
+  instance name specified.
+root@pi21:~# nano /etc/systemd/system/programm.service
+root@pi21:~# systemctl enable programm
+The unit files have no installation config (WantedBy=, RequiredBy=, Also=,
+Alias= settings in the [Install] section, and DefaultInstance= for template
+units). This means they are not meant to be enabled using systemctl.
+ 
+Possible reasons for having this kind of units are:
+• A unit may be statically enabled by being symlinked from another unit's
+  .wants/ or .requires/ directory.
+• A unit's purpose may be to act as a helper for some other unit which has
+  a requirement dependency on it.
+• A unit may be started when needed via activation (socket, path, timer,
+  D-Bus, udev, scripted systemctl call, ...).
+• In case of template units, the unit is meant to be enabled with some
+  instance name specified.
+root@pi21:~# nano /etc/systemd/system/programm.service
+root@pi21:~# systemctl enable programm
+The unit files have no installation config (WantedBy=, RequiredBy=, Also=,
+Alias= settings in the [Install] section, and DefaultInstance= for template
+units). This means they are not meant to be enabled using systemctl.
+ 
+Possible reasons for having this kind of units are:
+• A unit may be statically enabled by being symlinked from another unit's
+  .wants/ or .requires/ directory.
+• A unit's purpose may be to act as a helper for some other unit which has
+  a requirement dependency on it.
+• A unit may be started when needed via activation (socket, path, timer,
+  D-Bus, udev, scripted systemctl call, ...).
+• In case of template units, the unit is meant to be enabled with some
+  instance name specified.
+root@pi21:~# nano /etc/systemd/system/programm.service
+root@pi21:~# systemctl enable programm
+The unit files have no installation config (WantedBy=, RequiredBy=, Also=,
+Alias= settings in the [Install] section, and DefaultInstance= for template
+units). This means they are not meant to be enabled using systemctl.
+ 
+Possible reasons for having this kind of units are:
+• A unit may be statically enabled by being symlinked from another unit's
+  .wants/ or .requires/ directory.
+• A unit's purpose may be to act as a helper for some other unit which has
+  a requirement dependency on it.
+• A unit may be started when needed via activation (socket, path, timer,
+  D-Bus, udev, scripted systemctl call, ...).
+• In case of template units, the unit is meant to be enabled with some
+  instance name specified.
+root@pi21:~# nano /etc/systemd/system/programm.service
+root@pi21:~# systemctl enable programm
+The unit files have no installation config (WantedBy=, RequiredBy=, Also=,
+Alias= settings in the [Install] section, and DefaultInstance= for template
+units). This means they are not meant to be enabled using systemctl.
+ 
+Possible reasons for having this kind of units are:
+• A unit may be statically enabled by being symlinked from another unit's
+  .wants/ or .requires/ directory.
+• A unit's purpose may be to act as a helper for some other unit which has
+  a requirement dependency on it.
+• A unit may be started when needed via activation (socket, path, timer,
+  D-Bus, udev, scripted systemctl call, ...).
+• In case of template units, the unit is meant to be enabled with some
+  instance name specified.
+root@pi21:~# nano /etc/systemd/system/programm.service
+root@pi21:~# systemctl enable programm
+Created symlink /etc/systemd/system/multi.user.target.wants/programm.service → /etc/systemd/system/programm.service.
+root@pi21:~# reboot
+Connection to 10.200.114.221 closed by remote host.
+Connection to 10.200.114.221 closed.
+schueler@pcxx:~$ ssh pi21
+Linux pi21 4.19.97-v7+ #1294 SMP Thu Jan 30 13:15:58 GMT 2020 armv7l
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Mon Mar  9 14:19:59 2020 from 10.200.112.6
+
+Wi-Fi is currently blocked by rfkill.
+Use raspi-config to set the country before use.
+
+auganm17@pi21:~ $ exit
+logout
+Connection to 10.200.114.221 closed.
+schueler@pcxx:~$ ssh pi21-root
+Linux pi21 4.19.97-v7+ #1294 SMP Thu Jan 30 13:15:58 GMT 2020 armv7l
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Mon Mar  9 13:58:59 2020 from 10.200.112.6
+
+Wi-Fi is currently blocked by rfkill.
+Use raspi-config to set the country before use.
+
+root@pi21:~# systemctl enabl programm
+Unknown operation enabl.
+root@pi21:~# systemctl status programm
+● programm.service - C-Programm mit Ausgabe
+   Loaded: loaded (/etc/systemd/system/programm.service; enabled; vendor preset:
+   Active: inactive (dead)
+root@pi21:~# systemctl enable programm
+root@pi21:~# reboot
+Connection to 10.200.114.221 closed by remote host.
+Connection to 10.200.114.221 closed.
+schueler@pcxx:~$ ssh pi21-root
+ssh: connect to host 10.200.114.221 port 22: Connection refused
+schueler@pcxx:~$ ssh pi21-root
+Linux pi21 4.19.97-v7+ #1294 SMP Thu Jan 30 13:15:58 GMT 2020 armv7l
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Mon Mar  9 14:38:42 2020 from 10.200.112.6
+
+Wi-Fi is currently blocked by rfkill.
+Use raspi-config to set the country before use.
+
+root@pi21:~# systemctl status programm
+● programm.service - C-Programm mit Ausgabe
+   Loaded: loaded (/etc/systemd/system/programm.service; enabled; vendor preset:
+   Active: inactive (dead)
+root@pi21:~# nano /etc/systemd/system/programm.service
+root@pi21:~# systemctl enable programm
+Created symlink /etc/systemd/system/multi-user.target.wants/programm.service → /etc/systemd/system/programm.service.
+root@pi21:~# reboot
+root@pi21:~# Connection to 10.200.114.221 closed by remote host.
+Connection to 10.200.114.221 closed.
+schueler@pcxx:~$ ssh pi21-root
+Linux pi21 4.19.97-v7+ #1294 SMP Thu Jan 30 13:15:58 GMT 2020 armv7l
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Mon Mar  9 14:40:11 2020 from 10.200.112.6
+
+Wi-Fi is currently blocked by rfkill.
+Use raspi-config to set the country before use.
+
+root@pi21:~# systemctl status programm
+● programm.service - C-Programm mit Ausgabe
+   Loaded: loaded (/etc/systemd/system/programm.service; enabled; vendor preset:
+   Active: active (running) since Mon 2020-03-09 14:41:26 GMT; 30s ago
+ Main PID: 294 (a.out)
+    Tasks: 1 (limit: 2200)
+   Memory: 164.0K
+   CGroup: /system.slice/programm.service
+           └─294 /home/auganm17/programm/a.out
+
+Mar 09 14:41:26 pi21 systemd[1]: Started C-Programm mit Ausgabe.
+root@pi21:~# 
+root@pi21:~# 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+root@pi21:~# rsync -aP /schreibtisch/Java_auganm17_3ahme.jar pi21:/tmp/
+The authenticity of host 'pi21 (127.0.1.1)' can't be established.
+ECDSA key fingerprint is SHA256:NYxd00w67mNg6E096MWcBFTIVdj09kXaHiB8ItS3wZg.
+Are you sure you want to continue connecting (yes/no)? y
+Please type 'yes' or 'no': y
+Please type 'yes' or 'no': yes
+Warning: Permanently added 'pi21' (ECDSA) to the list of known hosts.
+root@pi21's password: 
+Permission denied, please try again.
+root@pi21's password: 
+Permission denied, please try again.
+root@pi21's password: 
+root@pi21: Permission denied (publickey,password).
+rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+rsync error: unexplained error (code 255) at io.c(235) [sender=3.1.3]
+root@pi21:~# exit
+logout
+Connection to 10.200.114.221 closed.
+schueler@pcxx:~$ rsync -aP Schreibtisch/Java_auganm17_3ahme.jar pi21:/tmp/
+sending incremental file list
+Java_auganm17_3ahme.jar
+          1,242 100%    0.00kB/s    0:00:00 (xfr#1, to-chk=0/1)
+schueler@pcxx:~$ ssh pi21
+Linux pi21 4.19.97-v7+ #1294 SMP Thu Jan 30 13:15:58 GMT 2020 armv7l
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Mon Mar  9 14:38:19 2020 from 10.200.112.6
+
+Wi-Fi is currently blocked by rfkill.
+Use raspi-config to set the country before use.
+
+auganm17@pi21:~ $ sudo -i
+[sudo] password for auganm17: 
+
+Wi-Fi is currently blocked by rfkill.
+Use raspi-config to set the country before use.
+
+root@pi21:~# 
+root@pi21:~# cd /tmp
+root@pi21:/tmp# copy Java_auganm17_3ahme.jar
+-bash: copy: command not found
+root@pi21:/tmp# cp Java_auganm17_3ahme.jar
+cp: missing destination file operand after 'Java_auganm17_3ahme.jar'
+Try 'cp --help' for more information.
+root@pi21:/tmp# cp Java_auganm17_3ahme.jar pi21
+root@pi21:/tmp# cp Java_auganm17_3ahme.jar ~
+root@pi21:/tmp# cd
+root@pi21:~# ls -a
+.  ..  .bash_history  .bashrc  .config	.gnupg	Java_auganm17_3ahme.jar  .local  .profile  .ssh
+root@pi21:~# nano /etc/
+Display all 174 possibilities? (y or n)
+root@pi21:~# nano /etc/
+Display all 174 possibilities? (y or n)
+root@pi21:~# nano /etc/
+root@pi21:~# nano /etc/systemd/system/programm
+root@pi21:~# 
+root@pi21:~# 
+root@pi21:~# 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+root@pi21:~# systemctl start auganm17-java-programm
+Failed to start auganm17-java-programm.service: Unit auganm17-java-programm.service not found.
+root@pi21:~# systemctl start programm
+root@pi21:~# systemctl enable programm
+root@pi21:~# reboot
+Connection to 10.200.114.221 closed by remote host.
+Connection to 10.200.114.221 closed.
+schueler@pcxx:~$ ssh pi21
+Linux pi21 4.19.97-v7+ #1294 SMP Thu Jan 30 13:15:58 GMT 2020 armv7l
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Mon Mar  9 14:50:19 2020 from 10.200.112.6
+
+Wi-Fi is currently blocked by rfkill.
+Use raspi-config to set the country before use.
+
+auganm17@pi21:~ $ exit
+logout
+Connection to 10.200.114.221 closed.
+schueler@pcxx:~$ ssh pi21-root
+Linux pi21 4.19.97-v7+ #1294 SMP Thu Jan 30 13:15:58 GMT 2020 armv7l
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Mon Mar  9 14:41:50 2020 from 10.200.112.6
+
+Wi-Fi is currently blocked by rfkill.
+Use raspi-config to set the country before use.
+
+root@pi21:~# systemctl status programm
+● programm.service - C-Programm mit Ausgabe
+   Loaded: loaded (/etc/systemd/system/programm.service; enabled; vendor preset: enabled)
+   Active: active (running) since Mon 2020-03-09 15:07:45 GMT; 52s ago
+ Main PID: 297 (a.out)
+    Tasks: 1 (limit: 2200)
+   Memory: 180.0K
+   CGroup: /system.slice/programm.service
+           └─297 /home/auganm17/programm/a.out
+
+Mar 09 15:07:45 pi21 systemd[1]: Started C-Programm mit Ausgabe.
+root@pi21:~# systemctl start Java_auganm17_3ahme
+Failed to start Java_auganm17_3ahme.service: Unit Java_auganm17_3ahme.service not found.
+root@pi21:~# systemctl start Java_auganm17_3ahme.jar
+Failed to start Java_auganm17_3ahme.jar.service: Unit Java_auganm17_3ahme.jar.service not found.
+root@pi21:~# systemctl start auganm17-java-programm
+Failed to start auganm17-java-programm.service: Unit auganm17-java-programm.service not found.
+root@pi21:~# systemctl start programm.service
+root@pi21:~# systemctl status programm.service
+● programm.service - C-Programm mit Ausgabe
+   Loaded: loaded (/etc/systemd/system/programm.service; enabled; vendor preset: enabled)
+   Active: active (running) since Mon 2020-03-09 15:07:45 GMT; 2min 51s ago
+ Main PID: 297 (a.out)
+    Tasks: 1 (limit: 2200)
+   Memory: 180.0K
+   CGroup: /system.slice/programm.service
+           └─297 /home/auganm17/programm/a.out
+
+Mar 09 15:07:45 pi21 systemd[1]: Started C-Programm mit Ausgabe.
+root@pi21:~# systemctl enable programm.service
+root@pi21:~# reboot
+Connection to 10.200.114.221 closed by remote host.
+Connection to 10.200.114.221 closed.
+schueler@pcxx:~$ ssh pi21-root
+ssh: connect to host 10.200.114.221 port 22: Connection refused
+schueler@pcxx:~$ ssh pi21-root
+Linux pi21 4.19.97-v7+ #1294 SMP Thu Jan 30 13:15:58 GMT 2020 armv7l
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Mon Mar  9 15:08:31 2020 from 10.200.112.6
+
+Wi-Fi is currently blocked by rfkill.
+Use raspi-config to set the country before use.
+
+root@pi21:~# systemctl status programm.service
+● programm.service - C-Programm mit Ausgabe
+   Loaded: loaded (/etc/systemd/system/programm.service; enabled; vendor preset: enabled)
+   Active: active (running) since Mon 2020-03-09 15:11:59 GMT; 26s ago
+ Main PID: 297 (a.out)
+    Tasks: 1 (limit: 2200)
+   Memory: 172.0K
+   CGroup: /system.slice/programm.service
+           └─297 /home/auganm17/programm/a.out
+
+Mar 09 15:11:59 pi21 systemd[1]: Started C-Programm mit Ausgabe.
+root@pi21:~# 
+root@pi21:~# rsync -aP pi21:/home/auganm17 ./
+root@pi21's password: 
+Permission denied, please try again.
+root@pi21's password: 
+Permission denied, please try again.
+root@pi21's password: 
+root@pi21: Permission denied (publickey,password).
+rsync: connection unexpectedly closed (0 bytes received so far) [Receiver]
+rsync error: unexplained error (code 255) at io.c(235) [Receiver=3.1.3]
+root@pi21:~# ^C
+root@pi21:~# 
+
+
+
+
+
+
+
+
+
+
+
