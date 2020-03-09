@@ -26,16 +26,16 @@
   ````
   Um das Einloggen zu erleichtern haben wir eine Datei angelegt in der wir die Daten die wir zum einloggen benötigten reinschrieben. 
   ````bash
-  schueler@pcxx:~$ nano .ssh/config
+  schueler@pcxx:~$ nano /.ssh/config
   ````
-  In dem Verzeichnis ````.ssh/config```` werden die Dateien zum einloggen auf dem Computer gespeichert. Die Datei ````.ssh/config ````speichert sich nun der Computer die Vereinfachte Version des einloggens.
+  In dem Verzeichnis ````/.ssh/config```` werden die Dateien zum einloggen auf dem Computer gespeichert. Die Datei ````/.ssh/config ````speichert sich nun der Computer die Vereinfachte Version des einloggens.
   ````bash
   schueler@pcxx:~$ ssh pi25
   ````
   Nun hatten wir es so eingestellt das wir mit ````ssh pi25```` uns direkt mit dem superuser einloggen.
   ````bash
   schueler@pcxx:~$ ls -la
-  schueler@pcxx:~$ nano .ssh/config
+  schueler@pcxx:~$ nano /.ssh/config
   schueler@pcxx:~$ ssh pi25
   ````
   Zuerst wurden alle Dateien in Listenform angezeigt um zu sehen wo die Datei .ssh zu finden ist. Danach haben wir die Datei .ssh/config geändert und die Nicknamen so geändert das ````ssh pi25````uns in unsere eigenen Usern auf dem Raspberry einloggt und ````ssh pi25-root````in den Superuser.
