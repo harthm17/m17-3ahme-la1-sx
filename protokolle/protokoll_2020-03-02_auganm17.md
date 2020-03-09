@@ -57,9 +57,7 @@ alias ll = 'ls -al'
 vorher: ls -al
 danach: ll
 ```
-```
-Dieser Alias ist allerdings nur ein vorübergehender Alias und existiert beim nächsten Start der shell nicht mehr! Um ihn dauerhaft anzulegen muss man in die ".bashrc" Datei
-```
+Dieser Alias ist allerdings nur ein vorübergehender Alias und existiert beim nächsten Start der shell nicht mehr! Um ihn dauerhaft anzulegen muss man in die ".bashrc" Datei.
 
 -----
 
