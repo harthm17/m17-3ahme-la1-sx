@@ -14,6 +14,7 @@
 1) [Namenskürzel](#namenskürzel)
 1) [C-Programm erstellen](#c-programm-erstellen)  
 1) [Alias](#alias)  
+1) [C Programm erstellen](#c-programm-erstellen)
    * [Verzeichniss erstellen und öffnen](#verzeichniss-erstellen-und-öffnen)
    * [Queltext schreiben](#queltext-schreiben)
    * [Kompelieren](#kompelieren)
@@ -61,7 +62,7 @@ Dieser Alias ist allerdings nur ein vorübergehender Alias und existiert beim n�
 
 -----
 
-# C-Programm erstellen
+# C Programm erstellen
 
 -----
 
