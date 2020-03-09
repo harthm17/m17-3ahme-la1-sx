@@ -16,7 +16,7 @@
 ## Nickname
 ### Nickname erstellen:
 Ein Nickname hat Ähnlichkeiten mit einem alias. In unserem Fall hilft er indem wir uns nun noch schneller in unseren Raspberry einloggen können.
-1. Die Datei *.ssh/config* öffnen (z.B. nano /ssh/config)
+1. Die Datei *.ssh/config* öffnen (z.B. nano ~/ssh/config)
 2. Folgendes in die Datei eintregen:
  
  ```
