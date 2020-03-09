@@ -53,7 +53,7 @@ Früher musste man **ssh gsimim17@10.200.114.224** und das Passwort eingeben. Je
 ### C-Programm schreiben
 Mithilfe des Editors *nano*
 
-         gsimim17@pi24:~ $ /programm nano main.c
+         gsimim17@pi24:~/programm $ nano main.c
          
 Einfaches C-Programm schreiben, welches eine Ganzzahl *i* immer weiterzählt.
 
