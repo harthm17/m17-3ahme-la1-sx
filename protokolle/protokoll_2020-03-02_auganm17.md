@@ -11,7 +11,7 @@
 
 ## Inhaltsverzeichniss
 
-1) [Namenskürzel](#namenskürzel)
+1) [Namensabkürzung](#namensabkürzung)
 1) [C-Programm erstellen](#c-programm-erstellen)  
 1) [Alias](#alias)  
 1) [C Programm erstellen](#c-programm-erstellen)
@@ -27,7 +27,7 @@
 
 -----
 
-# Namenskürzel
+# Namensabkürzung
 
 Da es umständlich ist bei jedem Login auf dem Raspberry PI den ganzen Namen (ssh auganm17@10.200.114.221) einzugeben kann man man sich ein Kürzel anlegen.
 
@@ -111,7 +111,7 @@ Bevor man etwas kompelieren kann muss man natürlich einen Compiler (zb: GNU GCC
 
 ```
 auganm17@pi21:~ $ apt-get install gcc
-auganm17@pi21:~ $ apt-get install libstdc++6-4.6-dev
+auganm17@pi21:~ $ apt-get ikürzelnstall libstdc++6-4.6-dev
 auganm17@pi21:~ $ sudo apt install build-essential
 ```
 >Das GNU-Projekt entwickelt das Betriebssystem GNU, das von Richard Stallman mit dem Ziel gegründet wurde, ein freies, unixähnliches Betriebssystem zu schaffen, das sicherstellt, dass die Endbenutzer die Freiheiten haben, es verwenden, untersuchen, verbreiten (kopieren) und verändern zu dürfen. Software, deren Lizenz diese Freiheiten garantiert, wird Freie Software (engl. Free Software) genannt, GNU ist in diesem Sinne frei.
