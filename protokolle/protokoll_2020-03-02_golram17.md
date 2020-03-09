@@ -86,12 +86,12 @@ int main(){
       int i = 100 x 10 +27;
       printf("i = %d", i);
       for(long l = 0; l < 100000; l++){
-      /* i++;
-      printf("i = %d", i);
-      schlechte Lösung weil der Raspberry PI auf dauer belastet wird*/
-      i++;
-      printf("i = %d", i);
-      sleep(1);//Bessere Lösung weil Raspberry nicht auf dauer Belastet wird
+         /* i++;
+         printf("i = %d", i);
+         schlechte Lösung weil der Raspberry PI auf dauer belastet wird*/
+         i++;
+         printf("i = %d", i);
+         sleep(1);//Bessere Lösung weil Raspberry nicht auf dauer Belastet wird
       }
       return 0;
  }
