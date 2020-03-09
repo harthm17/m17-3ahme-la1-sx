@@ -28,7 +28,7 @@
   ````bash
   schueler@pcxx:~$ nano .ssh/config
   ````
-  In dem Verzeichnis ````.ssh```` werden die Dateien zum einloggen auf dem Computer gespeichert. Die Datei ````.ssh/config ````speichert sich der Computer die Vereinfachte Version des einloggens.
+  In dem Verzeichnis ````.ssh/config```` werden die Dateien zum einloggen auf dem Computer gespeichert. Die Datei ````.ssh/config ````speichert sich nun der Computer die Vereinfachte Version des einloggens.
   ````bash
   schueler@pcxx:~$ ssh pi25
   ````
