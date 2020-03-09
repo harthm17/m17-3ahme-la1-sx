@@ -70,6 +70,20 @@ WantedBy=multi-user.target
 progamm automatisch starten bei computer start: root@pi22:~# systemctl enable fucnim17-programm
 
 Für jeden Service sollte man einen eigenen Benutzer erstellen!
+systemd servicedatei aktualisieren:
+root@pi22:~# nano /etc/systemd/system/fucnim17-java-programm.service
+folgendes eintragen:
+
+[Unit]
+Description=Java Programm mit Ausgabe
+
+[Service]
+ExecStart=java -jar /root/Java_fucnim17_3ahme.jar
+User=java
+
+[Install]
+WantedBy=multi-user.target
+
 
 
 
