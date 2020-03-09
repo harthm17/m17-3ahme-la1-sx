@@ -58,11 +58,11 @@ golram17@pi25:~$ cd programm
 ````
 In diesem haben wir ein C-Programm erstellt:
 ````
-golram17@pi25:~$ nano main.c
+golram17@pi25:~/programm $ nano main.c
 ````
 Nun wollten wir unser Programm im Terminal nochmals sehen:
 ````
-golram17@pi25:~$ cat main.c
+golram17@pi25:~/programm $ cat main.c
 #include <stdio.h>
 
 int main(){
@@ -77,8 +77,8 @@ golram17@pi25:~$ gcc main.c
 ````
 Nun wollen wir das Programm zuerst umschreiben so dass das Programm etwas sichtbares tut und danach auch noch ausführen:
 ````
-golram17@pi25:~$ nano main.c
-golram17@pi25:~$ cat main.c
+golram17@pi25:~/programm $ nano main.c
+golram17@pi25:~/programm $ cat main.c
 #include <stdio.h>
 #include <unistd.h>
 
@@ -95,8 +95,8 @@ int main(){
       }
       return 0;
  }
- golram17@pi25:~$ gcc main.c
- golram17@pi25:~$ ./a.out
+ golram17@pi25:~/programm $ gcc main.c
+ golram17@pi25:~/programm $ ./a.out
  ````
  mit ````./````können wir Programme ausführen und mit ````strg + c```` können wir das ausgeführte Programm beenden.
  
