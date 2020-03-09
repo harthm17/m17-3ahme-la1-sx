@@ -107,14 +107,3 @@ folgendes eingeben:
   weekly
 }
 ```
-
-
-
-
-
-
-
-
-
-
-
