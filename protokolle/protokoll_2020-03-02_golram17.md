@@ -164,3 +164,7 @@ Bekanntheit erlangte das Projekt vor allem auch durch die von ihm eingeführte G
 Laut [Wikipedia](https://de.wikipedia.org/wiki/GNU_Compiler_Collection)
 >GCC ist der Name der Compiler-Suite des GNU-Projekts. GCC stand ursprünglich für GNU C Compiler. Da GCC heute aber außer C noch einige andere Programmiersprachen übersetzen kann, hat GCC inzwischen die Bedeutung GNU Compiler Collection erhalten (englisch für GNU-Compilersammlung). Das Kommando gcc (in Kleinbuchstaben) steht weiterhin für den C-Compiler.
  
+ ![Richard Stallman](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Richard_Stallman_at_CommonsFest_Athens_2015_2.JPG/295px-Richard_Stallman_at_CommonsFest_Athens_2015_2.JPG)
+
+*Richard Stallman*
+
