@@ -69,6 +69,8 @@ WantedBy=multi-user.target
 
 progamm automatisch starten bei computer start: root@pi22:~# systemctl enable fucnim17-programm
 
+Für jeden Service sollte man einen eigenen Benutzer erstellen!
+
 
 
 
