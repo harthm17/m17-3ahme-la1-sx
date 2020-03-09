@@ -21,7 +21,6 @@
    * [screen](#screen)
    * [User hinzufügen](#user-hinzufügen)
    * [Hostname ändern](#hostname-ändern)
-   * [Sonstiges](#sonstiges)
    * [SSH Schlüssel](#ssh-schlüssel)
 
 -----
