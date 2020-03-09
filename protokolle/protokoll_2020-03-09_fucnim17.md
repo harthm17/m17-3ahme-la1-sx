@@ -32,7 +32,7 @@ programm stoppen root@pi22:~# systemctl stop fucnim17-programm
 systemd servicedatei aktualisieren:
 
 root@pi22:~# nano /etc/systemd/system/fucnim17-programm.service
-
+folgendes eintragen:
 [Unit]
 Description=C-Programm mit Ausgabe
 
@@ -41,6 +41,36 @@ ExecStart=/home/fucnim17/programm/a.out
 
 [Install]
 WantedBy=multi.user.target
+
+progamm automatisch starten bei computer start: root@pi22:~# systemctl enable fucnim17-programm
+
+java programm zum raspberry senden: schueler@pcxx:~$ rsync -aP Schreibtisch/Java_fucnim17_3ahme.jar pi22:/tmp/
+
+Komprimieren: zip (Windows) | gnu-zip (Linux)
+
+
+Java Programm am Raspberry laufen lassen:
+
+systemd servicedatei erstellen:
+root@pi22:~# nano /etc/systemd/system/fucnim17-java-programm.service
+
+folgendes eintragen:
+[Unit]
+Description=Java Programm mit Ausgabe
+
+[Service]
+ExecStart=java -jar /root/Java_fucnim17_3ahme.jar
+
+[Install]
+WantedBy=multi-user.target
+
+ root@pi22:~# systemctl start [programmname]
+ root@pi22:~# systemctl stop [programmname]
+
+progamm automatisch starten bei computer start: root@pi22:~# systemctl enable fucnim17-programm
+
+
+
 
 
 
