@@ -6,7 +6,13 @@
 
 --------------------------------
 ## Inhaltsverzeichnis:
-
+* [Anlegen von einem Kürzel](#anlegen-von-einem-kürzel-für-schnelleres-einloggen)
+* [Erstellen und Ausführen von einem C Programm am Raspberry Pi](#erstellen-und-ausführen-von-einem-c-programm-am-raspberry-pi)
+  * [Erstellen](#erstellen)
+  * [Ausführen](#ausführen)
+* [Log eines C Programmes](#log-eines-c-programmes)
+  * [Überwachen einer C Datei](#überwachen-einer-c-datei)
+  * [Logrotate](#logrotate)
 
 ## Anlegen von einem Kürzel für schnelleres einloggen:
 * Als ersten Schritt haben wir uns angemeldet.
@@ -22,7 +28,7 @@ bsp. schueler@pcxx:~$ nano .ssh/config
 ````
 bsp. schueler@pcxx:~$ ssh pi29
 ````
-## Erstellen und Ausführen von einem C - Programm am Raspberry Pi
+## Erstellen und Ausführen von einem C Programm am Raspberry Pi
 
 ### Erstellen:
 
@@ -91,7 +97,7 @@ bsp. adamim17@pi29:~$ main.c ./a.out
 ````
 Mit der Tastenkombination **strg + c** kann man das Programm, das ausgeführt wird beenden.
 
-## Log eines C - Programmes:
+## Log eines C Programmes:
 
 * Als erstes mussten wir eine log datei erstellen.
 * Bevor wir das machen können, müssen wir uns als Superuser anmelden.
@@ -105,7 +111,7 @@ bsp. adamim17@pi29:~$ touch var/log/programm.log
 ````
 bsp. adamim17@pi29:~$ chmod 666 var/log/programm.log
 ````
-### Überwachen einer C - Datei:
+### Überwachen einer C Datei:
 * Das Programm kann man mit folgendem Befehl überwachen:
 ````
 bsp. adamim17@pi29:~$ watch var/log/programm.log
