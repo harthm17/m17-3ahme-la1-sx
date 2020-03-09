@@ -6,7 +6,7 @@
 
 --------------------------------
 ## Inhaltsverzeichnis:
-* [Anlegen von einem Kürzel](#anlegen-von-einem-kürzel-für-schnelleres-einloggen)
+* [Anlegen von einem Nickname](#anlegen-von-einem-nickname-für-schnelleres-einloggen)
 * [Erstellen und Ausführen von einem C Programm am Raspberry Pi](#erstellen-und-ausführen-von-einem-c-programm-am-raspberry-pi)
   * [Erstellen](#erstellen)
   * [Ausführen](#ausführen)
@@ -14,7 +14,7 @@
   * [Überwachen einer C Datei](#überwachen-einer-c-datei)
   * [Logrotate](#logrotate)
 
-## Anlegen von einem Kürzel für schnelleres einloggen:
+## Anlegen von einem Nickname für schnelleres einloggen:
 * Als ersten Schritt haben wir uns angemeldet.
 ````
 bsp. schueler@pcxx:~$ SSH adamim17@10.200.114.229
