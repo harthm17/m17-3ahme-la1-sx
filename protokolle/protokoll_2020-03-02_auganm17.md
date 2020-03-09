@@ -115,7 +115,7 @@ auganm17@pi21:~ $ sudo apt install build-essential
 ```
 >Das GNU-Projekt entwickelt das Betriebssystem GNU, das von Richard Stallman mit dem Ziel gegründet wurde, ein freies, unixähnliches Betriebssystem zu schaffen, das sicherstellt, dass die Endbenutzer die Freiheiten haben, es verwenden, untersuchen, verbreiten (kopieren) und verändern zu dürfen. Software, deren Lizenz diese Freiheiten garantiert, wird Freie Software (engl. Free Software) genannt, GNU ist in diesem Sinne frei.
 
-Bekanntheit erlangte das Projekt vor allem auch durch die von ihm eingeführte GNU General Public License (GPL), unter der viele weitere Softwareprojekte veröffentlicht werden, sowie zahlreiche GNU-Programme wie die GNU Compiler Collection, der GNU Debugger sowie Werkzeuge der GNU Core Utilities, der Editor Emacs und andere.
+>Bekanntheit erlangte das Projekt vor allem auch durch die von ihm eingeführte GNU General Public License (GPL), unter der viele weitere Softwareprojekte veröffentlicht werden, sowie zahlreiche GNU-Programme wie die GNU Compiler Collection, der GNU Debugger sowie Werkzeuge der GNU Core Utilities, der Editor Emacs und andere.
 
 **GNU Projekt:** https://de.wikipedia.org/wiki/GNU-Projekt
 
