@@ -19,7 +19,7 @@
 ````
 bsp. schueler@pcxx:~$ SSH adamim17@10.200.114.229
 ````
-* Als nächstes haben wir in der .ssh Datei ein Kürzel für den Benutzer erstellt.
+* Als nächstes haben wir in der .ssh Datei ein Nickname für den Benutzer erstellt.
 ````
 bsp. schueler@pcxx:~$ nano .ssh/config
 ````
