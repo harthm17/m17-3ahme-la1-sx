@@ -20,15 +20,15 @@ Ein Nickname hat Ähnlichkeiten mit einem alias. In unserem Fall hilft er indem 
 2. Folgendes in die Datei eintregen:
  
  ```
- Host pi16
+ Host pi22
  Hostname 10.200.114.222
  User fucnim17 
  
- Host pi16-root
+ Host pi22-root
  Hostname 10.200.114.222
  User root 
  ```  
- Nun kann man indem man **ssh pi16** eingiebt, sich mit dem Raspberry sehr einfach verbinden.
+ Nun kann man indem man **ssh pi22** eingiebt, sich mit dem Raspberry sehr einfach verbinden.
    
 ## C-Programm
 ### C-Programm in Terminal erstellen:
