@@ -1,4 +1,4 @@
-# Protokoll 2020.03.020
+# Protokoll 2020.03.02
 -------------------------------
 **Programm ausführen am Raspberry Pi**  
 **Protokollführer: Mike Adam**  
@@ -56,8 +56,8 @@ int main()
       printf("i = %d", i);
       for(long l = 0; l < 100000; l++)
       {
-      i++;
-      printf("i = %d", i);
+        i++;
+        printf("i = %d", i);
       }
       return 0;
  }
@@ -93,7 +93,7 @@ Wenn keine weiteren Meldungen in der Konsole angezeigt werden, ist das Program f
 
 * Wenn alles ohne fehler geklappt hat, dann kann man das Programm mit dem folgendem Befehl ausführen.
 ````
-bsp. adamim17@pi29:~$ main.c ./a.out
+bsp. adamim17@pi29:~$ ./a.out main.c
 ````
 Mit der Tastenkombination **strg + c** kann man das Programm, das ausgeführt wird beenden.
 
@@ -120,7 +120,7 @@ bsp. adamim17@pi29:~$ watch var/log/programm.log
 bsp. adamim17@pi29:~$ tail -f var/log/programm.log
 ````
 ### Logrotate:
-Die Log - Dateien werden nach der Zeit immer voller bis es keinen Platz mehr gibt. Logrotate ist eine Sicherheitsmaßnahme dafür.   
+Die Log - Dateien werden nach der Zeit immer voller bis es keinen Platz mehr gibt. Logrotate ist ein Tool dafür.   
 * Für diese Befehle muss man sich als Superuser anmelden:
 ````
 bsp. adamim17@pi29:~$ sudo -i
