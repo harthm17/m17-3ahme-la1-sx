@@ -6,7 +6,7 @@
 **Datum**: 09.03.2020  
 **Klasse**: 3AHME  
 **Gruppe**: 1  
-
+------
 
 
 ### Kopie von Daten auf dem Raspberry machen
