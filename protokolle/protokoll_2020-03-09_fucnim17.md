@@ -31,14 +31,21 @@ schueler@pcxx:~$ rsync -a pi22:/home/fucnim17 ./
 --> [Startup Systeme](https://lms.at/dotlrn/classes/informatik/610437.3AHME_LA1SX.19_20/xolrn/9F2714A93B69A.symlink?resource_id=0-420357452&m=view#155470713)
 
 Heutzutage verwendet man nur mehr systemd!
+------
+#### Status vom Computer abfragen
+```
+root@pcxx:~# systemctl status
+```
+##### Mehr details: 
+```
+root@pcxx:~# systemctl status [programmname]
+```
+#### Starten/Stoppen von programmen:
+``
+root@pcxx:~# systemctl start [programmname]
+root@pcxx:~# systemctl stop [programmname]
+``                 
 
-
-systemctl status.......... status vom computer abfragen
-mehr details: root@pi22:~# systemctl status [programmname]
-
-Starten/stoppen: root@pi22:~# systemctl start [programmname]
-                 root@pi22:~# systemctl stop [programmname]
-                 
 root@pi22:~# journalctl -u [alsa-state]
 root@pi22:~# journalctl -f -u [alsa-state]  (wird aktualisiert)
 
