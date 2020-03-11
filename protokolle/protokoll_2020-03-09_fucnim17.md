@@ -1,8 +1,29 @@
-Kopie von Daten auf dem Raspberry machen:
+# Raspberry PI #3
+         
+-----
 
+**Name**: Fuchshofer Niklas  
+**Datum**: 09.03.2020  
+**Klasse**: 3AHME  
+**Gruppe**: 1  
+
+
+
+### Kopie von Daten auf dem Raspberry machen
+ ```
 schueler@pcxx:~$ rsync -a pi22:/home/fucnim17 ./
+ ```
+> rsync gleicht Dateien und Ordner zwischen Lokalen oder Remote Systemen ab. die Synchronisation findet von der Quelle zum Ziel statt. Ist die Quelle oder das Ziel ein Remote System findet der Datenabgleich via SSH oder einen rsync-daemon statt. Rsync wird oft in Backupscripten verwendet oder zum kopieren (sichern) Großer Datenmengen. Es kann bei einem Abbruch jederzeit neu starten und macht an der „letzten stelle einfach weiter“. Rsync kopiert dabei auch nur neue oder geänderte Daten, was es wirklich gut für Backups macht. Wir behandeln hier nur die gängigsten Optionen!
 
-Startup Systeme ............... Linux 2 skript
+##### Syntax:
+```
+rsync [optionen] quelle ziel
+```
+--> [rsync](https://www.shellbefehle.de/befehle/rsync/)
+
+
+### Startup Systeme 
+............... Linux 2 skript
 
 
 systemctl status.......... status vom computer abfragen
