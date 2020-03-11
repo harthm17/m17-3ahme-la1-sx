@@ -41,10 +41,11 @@ root@pcxx:~# systemctl status
 root@pcxx:~# systemctl status [programmname]
 ```
 #### Starten/Stoppen von programmen:
-``
+```
 root@pcxx:~# systemctl start [programmname]
+
 root@pcxx:~# systemctl stop [programmname]
-``                 
+```                
 
 root@pi22:~# journalctl -u [alsa-state]
 root@pi22:~# journalctl -f -u [alsa-state]  (wird aktualisiert)
