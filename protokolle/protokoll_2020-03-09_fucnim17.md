@@ -9,12 +9,12 @@
 ------
 
 
-### Kopie von Daten auf dem Raspberry machen
-##### Syntax:
+## Kopie von Daten auf dem Raspberry machen
+#### Syntax:
 ```
 rsync [optionen] quelle ziel
 ```
-##### Anwendung:
+#### Anwendung:
 ```
 schueler@pcxx:~$ rsync -a pi22:/home/fucnim17 ./
 ```
@@ -23,12 +23,12 @@ schueler@pcxx:~$ rsync -a pi22:/home/fucnim17 ./
 --> [rsync](https://www.shellbefehle.de/befehle/rsync/)
 
 
-### Startup Systeme 
+## Startup Systeme 
 * Sys-V-Init
 * Upstart
 * systemd
 
---> [Startuo Systeme](https://lms.at/dotlrn/classes/informatik/610437.3AHME_LA1SX.19_20/xolrn/9F2714A93B69A.symlink?resource_id=0-420357452&m=view#155470713)
+--> [Startup Systeme](https://lms.at/dotlrn/classes/informatik/610437.3AHME_LA1SX.19_20/xolrn/9F2714A93B69A.symlink?resource_id=0-420357452&m=view#155470713)
 
 Heutzutage verwendet man nur mehr systemd!
 
