@@ -8,6 +8,15 @@
 **Gruppe**: 1  
 ------
 
+## Inhaltsverzeichniss
+1) [rsync](#kopie-von-daten-auf-dem-raspberry-machen)
+     * [Syntax](#syntax:)
+     * [Anwendung](#anwendung:)
+2) [Linux - Startup Systeme](#startup-systeme)
+     * [systemd](#systemd)
+          * [Status abfragen](#status-vom-computer-abfragen)
+          * [Starten/Stoppen](#starten/stoppen-von-programmen)
+
 
 ## Kopie von Daten auf dem Raspberry machen
 #### Syntax:
@@ -41,7 +50,7 @@ root@pcxx:~# systemctl status
 ```
 root@pcxx:~# systemctl status [programmname]
 ```
-#### Starten/Stoppen von programmen:
+#### Starten/Stoppen von Programmen
 ```
 root@pcxx:~# systemctl start [programmname]
 
