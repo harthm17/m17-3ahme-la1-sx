@@ -15,7 +15,7 @@
 2) [Linux - Startup Systeme](#startup-systeme)
      * [systemd](#systemd)
           * [Status abfragen](#status-vom-computer-abfragen)
-          * [Starten/Stoppen](#starten/stoppen-von-programmen)
+          * [Starten/Stoppen](#starten-und-stoppen-von-programmen)
 
 
 ## Kopie von Daten auf dem Raspberry machen
@@ -50,7 +50,7 @@ root@pcxx:~# systemctl status
 ```
 root@pcxx:~# systemctl status [programmname]
 ```
-#### Starten/Stoppen von Programmen
+#### Starten und Stoppen von Programmen
 ```
 root@pcxx:~# systemctl start [programmname]
 
