@@ -31,7 +31,8 @@ schueler@pcxx:~$ rsync -a pi22:/home/fucnim17 ./
 --> [Startup Systeme](https://lms.at/dotlrn/classes/informatik/610437.3AHME_LA1SX.19_20/xolrn/9F2714A93B69A.symlink?resource_id=0-420357452&m=view#155470713)
 
 Heutzutage verwendet man nur mehr systemd!
-------
+
+### systemd
 #### Status vom Computer abfragen
 ```
 root@pcxx:~# systemctl status
@@ -50,20 +51,35 @@ root@pcxx:~# systemctl stop [programmname]
 root@pi22:~# journalctl -u [alsa-state]
 root@pi22:~# journalctl -f -u [alsa-state]  (wird aktualisiert)
 
-Systemd servicedatei erstellen:
+#### Systemd servicedatei erstellen:
 
+```
 root@pi22:~# nano /etc/systemd/system/fucnim17-programm.service
-flogendes eingeben: 
+``` 
+##### flogendes eingeben: 
+```
 [Unit]
 Description=C-Programm mit Ausgabe
 
 [Service]
 ExecStart=/home/fucnim17/programm/a.out
-
-berprüfen ob es existiert: root@pi22:~# ls -la /home/fucnim17/programm/a.out
-starten: root@pi22:~# systemctl start fucnim17-programm
-status abrufen: root@pi22:~# systemctl status fucnim17-programm
-programm stoppen root@pi22:~# systemctl stop fucnim17-programm
+```
+##### überprüfen ob die Datei nun existiert: 
+```
+root@pi22:~# ls -la /home/fucnim17/programm/a.out
+``` 
+##### starten: 
+``` 
+root@pi22:~# systemctl start fucnim17-programm
+```
+##### status abrufen: 
+```
+root@pi22:~# systemctl status fucnim17-programm
+```
+##### programm stoppen: 
+```
+root@pi22:~# systemctl stop fucnim17-programm
+``` 
 
 systemd servicedatei aktualisieren:
 
