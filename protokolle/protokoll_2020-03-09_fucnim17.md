@@ -1,11 +1,10 @@
 # Raspberry PI #3
          
------
-
 **Name**: Fuchshofer Niklas  
 **Datum**: 09.03.2020  
 **Klasse**: 3AHME  
 **Gruppe**: 1  
+------
 ------
 
 ## Inhaltsverzeichniss
@@ -16,6 +15,8 @@
      * [systemd](#systemd)
           * [Status abfragen](#status-vom-computer-abfragen)
           * [Starten/Stoppen](#starten-und-stoppen-von-programmen)
+3) [C-Programm](#c-programm-auf-raspberry-laufen-lassen)
+      * [Systemd Servicedatei erstellen](#systemd-servicedatei-erstellen)
 
 
 ## Kopie von Daten auf dem Raspberry machen
@@ -60,12 +61,25 @@ root@pcxx:~# systemctl stop [programmname]
 root@pi22:~# journalctl -u [alsa-state]
 root@pi22:~# journalctl -f -u [alsa-state]  (wird aktualisiert)
 
-#### Systemd servicedatei erstellen:
-
+## C-Programm auf Raspberry laufen lassen
+```
+int main ()
+{
+    int counter = 0;
+    for (int i = 0; i < 10; i++)
+    {
+        counter += i;
+        printf("%d\n", counter);
+    }
+    
+    return 0;
+}
+```
+### Systemd Servicedatei erstellen
 ```
 root@pi22:~# nano /etc/systemd/system/fucnim17-programm.service
 ``` 
-##### flogendes eingeben: 
+#### flogendes eingeben: 
 ```
 [Unit]
 Description=C-Programm mit Ausgabe
@@ -73,11 +87,11 @@ Description=C-Programm mit Ausgabe
 [Service]
 ExecStart=/home/fucnim17/programm/a.out
 ```
-##### überprüfen ob die Datei nun existiert: 
+#### überprüfen ob die Datei nun existiert: 
 ```
 root@pi22:~# ls -la /home/fucnim17/programm/a.out
 ``` 
-##### starten: 
+#### starten: 
 ``` 
 root@pi22:~# systemctl start fucnim17-programm
 ```
