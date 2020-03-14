@@ -2,7 +2,7 @@
 
 -------------------------
 
-* **Thema:** Erstellen und Starten von C -Programmen auf dem Raspberry PI
+* **Thema:** Kopieren von Daten/Dateien und automatischer Start von C/Java-Programmen
   * **Datum:** 09.03.2020
   * **Gefehlt:** Danko Sebastian
   * **Erstellt von:** Golser Raphael
