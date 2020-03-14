@@ -87,19 +87,19 @@ Description=C-Programm mit Ausgabe
 [Service]
 ExecStart=/home/fucnim17/programm/a.out
 ```
-#### überprüfen ob die Datei nun existiert: 
+### überprüfen ob die Datei nun existiert: 
 ```
 root@pi22:~# ls -la /home/fucnim17/programm/a.out
 ``` 
-#### starten: 
+### starten: 
 ``` 
 root@pi22:~# systemctl start fucnim17-programm
 ```
-##### status abrufen: 
+### status abrufen: 
 ```
 root@pi22:~# systemctl status fucnim17-programm
 ```
-##### programm stoppen: 
+### programm stoppen: 
 ```
 root@pi22:~# systemctl stop fucnim17-programm
 ``` 
