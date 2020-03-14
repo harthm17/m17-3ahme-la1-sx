@@ -64,20 +64,20 @@ Nun können wir mit dem Befehl ````rsync```` Daten vom Raspberry PI auf unseren 
   golram17@pi25:~$ systemctl status alsa-state
   ````
   Daher wir nicht genug Rechte hatten mussten wir wieder einmal in den Superuser um das Programm zu stoppen:
-  ````bash
+  ````
   root@pi25:~# systemctl stop alsa-state
   ````
   Da wir mit dem Programm weiter arbeiten wollten haben wir es wieder gestartet:
-  ````bash
+  ````
   root@pi25:~# systemctl start alsa-state
   ````
   Daher dass das Programm ````als-state```` verwendet und bzw. bearbeitet wurde kann man diese Änderungen sehen:
-  ````bash
+  ````
   root@pi25:~# journalctl -u /alsa-state
   ````
   Das ````-u```` steht für Unit und das bedeutet das man nur diese Date sehen will.
   Weil der Befehl ````journal```` dem Befehl ````tail```` Ähnlich ist kann man mit dem Kommando ````-f```` die gleiche Funktion nutzen:
-  ````bash
+  ````
   root@pi25:~# journal -f /alsa-state
  ````
  
@@ -86,7 +86,7 @@ Nun können wir mit dem Befehl ````rsync```` Daten vom Raspberry PI auf unseren 
  ## Automatisches Starten von C-Programmen
  
  Zuerst müssen wir eine Datei erstellen mit der wir das automatische Starten ausführen können:
- ````bash
+ ````
  root@pi25:~# nano /etc/systemd/system/golram17-programm.service
  ````
  In dieser Datei steht:
@@ -104,7 +104,7 @@ Nun können wir mit dem Befehl ````rsync```` Daten vom Raspberry PI auf unseren 
  ---------------------------------------------------------
  
  Um den automatischen Start zu aktivieren, müssen wir zuerst erst ````systemctl````aktivieren und dann den Raspberry Neustarten:
- ````bash
+ ````
  root@pi25:~# systemctl enable golram17-programm
  root@pi25:~# reboot
  ````
@@ -112,7 +112,7 @@ Nun können wir mit dem Befehl ````rsync```` Daten vom Raspberry PI auf unseren 
  -------------------------------------------------------------
  
  Als der Raspberry wieder gestartet wurde wollten wir sehen ob unsere Datei sich selbst gestartet hat:
- ````bash
+ ````
  root@pi25:~# tail -f /var/log/programm.log
  ````
  
@@ -121,7 +121,7 @@ Nun können wir mit dem Befehl ````rsync```` Daten vom Raspberry PI auf unseren 
  ## Automatisches Starten von Java-Programmen
  
  Nachdem wir nicht wussten welche Java Version wir hatten haben wir zuerst die geprüft:
- ````bash
+ ````
  root@pi25:~# java --version
  ````
 
@@ -150,7 +150,7 @@ public class Main {
 --------------------------------------------------------------
 
 Um auf das java Programm zugreifen zu können mussten wir zuerst in das ````/tmp````Verzeichnis um dann das Programm in das ````/home/````Verzeichis zu kopieren:
-````bash
+````
 root@pi25:~# cd /tmp/
 root@pi25:~/tmp # cp java_3ahme_golram17/dist/java_3ahme_golram17.jar ~
 ````
@@ -172,7 +172,7 @@ WantedBy=multi-user.target
 ------------------------------------------
 
 Jetzt ist es gleich wie beim C-Programm, den atomatischen Start aktivieren und den Raspberry Neustarten:
-````bash
+````
 root@pi25:~# systemctl enable golram17-java-programm
 root@pi25:~# reboot
 ````
@@ -180,7 +180,6 @@ root@pi25:~# reboot
 ---------------------------------------------------------
 
 Nun wurde das Programm wieder angezeigt diesmal aber mit ````journal````:
-````bash
+````
 root@pi25:~# journal -u-golram17-java-programm
 ````
-
