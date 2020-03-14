@@ -16,11 +16,11 @@
           * [Status abfragen](#status-vom-computer-abfragen)
           * [Starten/Stoppen](#starten-und-stoppen-von-programmen)
 3) [C-Programm auf Raspberry laufen lassen](#c-programm-auf-raspberry-laufen-lassen)
-      * [Systemd Servicedatei erstellen](#systemd-servicedatei-erstellen)
+      * [Systemd Servicedatei erstellen](#systemd-servicedatei-für-c-programm-erstellen)
 4) [C-Programm auf Raspberry im Hintergrund laufen lassen](#c-programm-auf-raspberry-im-hintergrund-laufen-lassen)
       * [Systemd Servicedatei aktualisieren](#systemd-servicedatei-aktualisieren)
 5) [Java-Programm auf Raspberry im Hintergrund laufen lassen](#java-programm-auf-raspberry-im-hintergrund-laufen-lassen)
-      * [Systemd Servicedatei erstellen](#systemd-servicedatei-erstellen)
+      * [Systemd Servicedatei erstellen](#systemd-servicedatei-für-java-programm-erstellen)
 
 
 ## Kopie von Daten auf dem Raspberry machen
@@ -61,10 +61,6 @@ root@pcxx:~# systemctl start [programmname]
 
 root@pcxx:~# systemctl stop [programmname]
 ```                
-
-root@pi22:~# journalctl -u [alsa-state]
-root@pi22:~# journalctl -f -u [alsa-state]  (wird aktualisiert)
-
 ## C-Programm auf Raspberry laufen lassen
 ```
 int main ()
@@ -79,7 +75,7 @@ int main ()
     return 0;
 }
 ```
-### Systemd Servicedatei erstellen
+### Systemd Servicedatei für C- Programm erstellen
 ```
 root@pi22:~# nano /etc/systemd/system/fucnim17-programm.service
 ``` 
@@ -146,7 +142,7 @@ public class Main {
 ```
 schueler@pcxx:~$ rsync -aP Schreibtisch/Java_fucnim17_3ahme.jar pi22:/tmp/
 ```
-### Systemd Servicedatei erstellen:
+### Systemd Servicedatei für Java-Programm erstellen:
 ```
 root@pi22:~# nano /etc/systemd/system/fucnim17-java-programm.service
 ```
