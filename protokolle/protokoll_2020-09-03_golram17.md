@@ -35,15 +35,14 @@ Nun können wir mit dem Befehl ````rsync```` Daten vom Raspberry PI auf unseren 
   # Startup Systeme
   Laut: [LMS-Skriptum](https://lms.at/dotlrn/classes/informatik/610437.3AHME_LA1SX.19_20/xolrn/9F2714A93B69A.symlink?resource_id=0-420357452&m=view#155470713)
   > Mittlerweile sind drei unterschiedliche Systeme zu finden:
-
     Sys-V-Init
-    Sys-V-Init ist das init-System des Unix-Betriebssystems System V. Die einzelnen Dienste werden hintereinander gestartet, wodurch der Startup sehr überschaubar aber auch sehr langsam ist. Ein Nachbau wird in vielen Linux-Distributionen genutzt. So auch beim Debian System, also auch im Raspbian am Raspberry PI.
+    Sys-V-Init ist das init-System des Unix-Betriebssystems System V. Die einzelnen Dienste werden hintereinander gestartet,      wodurch der Startup sehr überschaubar aber auch sehr langsam ist. Ein Nachbau wird in vielen Linux-Distributionen genutzt. So auch beim Debian System, also auch im Raspbian am Raspberry PI.
     Upstart
     Hier handelt es sich um ein Ubuntu-Projekt zur Beschleunigung des Systemstarts. Es verfügt über die Möglichkeit Prozesse mittels Events parallel zu starten. Upstart arbeitet nach dem Prinzip "greedy event-based". Alle Dienste die ein Start-Event erhalten werden so schnell wie möglich gestartet.
     Upstart kommt bis Ubuntu 14.10 zu Einsatz und eine Weiterentwicklung wurde eingestellt.
     systemd
     In Konkurrenz zu Upstart entstand systemd. Nachdem Debian auf systemd gewechselt hat, ist auch Ubuntu ab Version 15.10 auf systemd gewechselt. systemd arbeitet nach dem Prinzip "lazy dependency-based", das heisst, eine "Unit" wird nur dann gestartet wenn eine andere "Unit" davon abhängt.
-
     Aufgrund dieser historischen Entwicklung sind in einem Ubuntu 15.04 System alle drei Init-Systeme parallel im Einsatz. Langfristig wird ein Wechsel zu systemd erfolgen.
+   
    Siehe auch: [wiki.ubuntuusers](https://wiki.ubuntuusers.de/Dienste/)
   
