@@ -166,6 +166,8 @@ Um das C-Progamm nun automatisch bei Computerstart zu starten folgendes in das T
 ```
 root@pi22:~# systemctl enable fucnim17-programm
 ```
+
+
 Für jeden Service sollte man einen eigenen Benutzer erstellen!
 systemd servicedatei aktualisieren:
 root@pi22:~# nano /etc/systemd/system/fucnim17-java-programm.service
