@@ -20,7 +20,7 @@
 4) [C-Programm auf Raspberry im Hintergrund laufen lassen](#c-programm-auf-raspberry-im-hintergrund-laufen-lassen)
       * [Systemd Servicedatei aktualisieren](#systemd-servicedatei-aktualisieren)
 5) [Java-Programm auf Raspberry im Hintergrund laufen lassen](#java-programm-auf-raspberry-im-hintergrund-laufen-lassen)
-      * [Systemd Servicedatei erstellen](#systemd-servicedatei-erstellen:)
+      * [Systemd Servicedatei erstellen](#systemd-servicedatei-erstellen)
 
 
 ## Kopie von Daten auf dem Raspberry machen
