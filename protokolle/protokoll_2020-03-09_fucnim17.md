@@ -81,7 +81,7 @@ int main ()
 ```
 root@pi22:~# nano /etc/systemd/system/fucnim17-programm.service
 ``` 
-#### flogendes eingeben: 
+#### flogendes eingeben:
 ```
 [Unit]
 Description=C-Programm mit Ausgabe
@@ -89,25 +89,25 @@ Description=C-Programm mit Ausgabe
 [Service]
 ExecStart=/home/fucnim17/programm/a.out
 ```
-### überprüfen ob die Datei nun existiert: 
+### überprüfen ob die Datei nun existiert
 ```
 root@pi22:~# ls -la /home/fucnim17/programm/a.out
 ``` 
-### starten: 
+### starten
 ``` 
 root@pi22:~# systemctl start fucnim17-programm
 ```
-### status abrufen: 
+### Status abrufen
 ```
 root@pi22:~# systemctl status fucnim17-programm
 ```
-### programm stoppen: 
+### Programm stoppen
 ```
 root@pi22:~# systemctl stop fucnim17-programm
 ``` 
 ## C-Programm auf Raspberry im Hintergrunf laufen lassen
 
-### Systemd Servicedatei aktualisieren:
+### Systemd Servicedatei aktualisieren
 ```
 root@pi22:~# nano /etc/systemd/system/fucnim17-programm.service
 ```
@@ -126,17 +126,30 @@ Um das C-Progamm nun automatisch bei Computerstart zu starten folgendes in das T
 ```
 root@pi22:~# systemctl enable fucnim17-programm
 ```
-java programm zum raspberry senden: schueler@pcxx:~$ rsync -aP Schreibtisch/Java_fucnim17_3ahme.jar pi22:/tmp/
-
-Komprimieren: zip (Windows) | gnu-zip (Linux)
-
-
-Java Programm am Raspberry laufen lassen:
-
-systemd servicedatei erstellen:
+## Java-Programm auf Raspberry im Hintergrunf laufen lassen
+```
+public class Main {
+    
+    private static int counter; //Zählereigenschaft
+    
+    public static void main (String[] args) { //psvm \t
+        for (int i = 0; i < 10; i++) {
+            counter += i;
+            System.out.println(counter); //sout \t
+        }
+    }
+}
+```
+### Java programm zum raspberry senden
+```
+schueler@pcxx:~$ rsync -aP Schreibtisch/Java_fucnim17_3ahme.jar pi22:/tmp/
+```
+### Systemd servicedatei erstellen
+```
 root@pi22:~# nano /etc/systemd/system/fucnim17-java-programm.service
-
-folgendes eintragen:
+```
+#### folgendes eintragen:
+```
 [Unit]
 Description=Java Programm mit Ausgabe
 
@@ -145,9 +158,12 @@ ExecStart=java -jar /root/Java_fucnim17_3ahme.jar
 
 [Install]
 WantedBy=multi-user.target
-
- root@pi22:~# systemctl start [programmname]
- root@pi22:~# systemctl stop [programmname]
+``` 
+### Starten/Stoppen
+```
+root@pi22:~# systemctl start [programmname]
+root@pi22:~# systemctl stop [programmname]
+```
 
 progamm automatisch starten bei computer start: root@pi22:~# systemctl enable fucnim17-programm
 
@@ -167,7 +183,7 @@ User=java
 WantedBy=multi-user.target
 
 
-
+Komprimieren: zip (Windows) | gnu-zip (Linux)
 
 
 
