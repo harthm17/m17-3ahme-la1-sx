@@ -15,8 +15,10 @@
      * [systemd](#systemd)
           * [Status abfragen](#status-vom-computer-abfragen)
           * [Starten/Stoppen](#starten-und-stoppen-von-programmen)
-3) [C-Programm](#c-programm-auf-raspberry-laufen-lassen)
+3) [C-Programm auf Raspberry laufen lassen](#c-programm-auf-raspberry-laufen-lassen)
       * [Systemd Servicedatei erstellen](#systemd-servicedatei-erstellen)
+4) [C-Programm auf Raspberry im Hintergrund laufen lassen](#c-programm-auf-raspberry-im-hintergrund-laufen-lassen)
+      * [Systemd Servicedatei aktualisieren](#systemd-servicedatei-aktualisieren)
 
 
 ## Kopie von Daten auf dem Raspberry machen
@@ -103,11 +105,14 @@ root@pi22:~# systemctl status fucnim17-programm
 ```
 root@pi22:~# systemctl stop fucnim17-programm
 ``` 
+## C-Programm auf Raspberry im Hintergrunf laufen lassen
 
-systemd servicedatei aktualisieren:
-
+### Systemd Servicedatei aktualisieren:
+```
 root@pi22:~# nano /etc/systemd/system/fucnim17-programm.service
-folgendes eintragen:
+```
+#### folgendes eintragen:
+``` 
 [Unit]
 Description=C-Programm mit Ausgabe
 
@@ -116,9 +121,11 @@ ExecStart=/home/fucnim17/programm/a.out
 
 [Install]
 WantedBy=multi.user.target
-
-progamm automatisch starten bei computer start: root@pi22:~# systemctl enable fucnim17-programm
-
+```
+Um das C-Progamm nun automatisch bei Computerstart zu starten folgendes in das Terminal eingeben: 
+```
+root@pi22:~# systemctl enable fucnim17-programm
+```
 java programm zum raspberry senden: schueler@pcxx:~$ rsync -aP Schreibtisch/Java_fucnim17_3ahme.jar pi22:/tmp/
 
 Komprimieren: zip (Windows) | gnu-zip (Linux)
