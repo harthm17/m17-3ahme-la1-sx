@@ -19,6 +19,8 @@
       * [Systemd Servicedatei erstellen](#systemd-servicedatei-erstellen)
 4) [C-Programm auf Raspberry im Hintergrund laufen lassen](#c-programm-auf-raspberry-im-hintergrund-laufen-lassen)
       * [Systemd Servicedatei aktualisieren](#systemd-servicedatei-aktualisieren)
+5) [Java-Programm auf Raspberry im Hintergrund laufen lassen](#java-programm-auf-raspberry-im-hintergrund-laufen-lassen)
+      * [Systemd Servicedatei erstellen](#systemd-servicedatei-erstellen:)
 
 
 ## Kopie von Daten auf dem Raspberry machen
@@ -144,7 +146,7 @@ public class Main {
 ```
 schueler@pcxx:~$ rsync -aP Schreibtisch/Java_fucnim17_3ahme.jar pi22:/tmp/
 ```
-### Systemd servicedatei erstellen
+### Systemd Servicedatei erstellen:
 ```
 root@pi22:~# nano /etc/systemd/system/fucnim17-java-programm.service
 ```
@@ -164,9 +166,10 @@ WantedBy=multi-user.target
 root@pi22:~# systemctl start [programmname]
 root@pi22:~# systemctl stop [programmname]
 ```
-
-progamm automatisch starten bei computer start: root@pi22:~# systemctl enable fucnim17-programm
-
+Um das C-Progamm nun automatisch bei Computerstart zu starten folgendes in das Terminal eingeben: 
+```
+root@pi22:~# systemctl enable fucnim17-programm
+```
 Für jeden Service sollte man einen eigenen Benutzer erstellen!
 systemd servicedatei aktualisieren:
 root@pi22:~# nano /etc/systemd/system/fucnim17-java-programm.service
