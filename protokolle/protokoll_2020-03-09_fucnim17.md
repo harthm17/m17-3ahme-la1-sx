@@ -126,7 +126,7 @@ Um das C-Progamm nun automatisch bei Computerstart zu starten folgendes in das T
 root@pi22:~# systemctl enable fucnim17-programm
 ```
 ## Java-Programm auf Raspberry im Hintergrunf laufen lassen
-```
+```java
 public class Main {
     
     private static int counter; //Zählereigenschaft
