@@ -63,7 +63,7 @@ root@pcxx:~# systemctl start [programmname]
 root@pcxx:~# systemctl stop [programmname]
 ```                
 ## C-Programm auf Raspberry laufen lassen
-```
+```c
 int main ()
 {
     int counter = 0;
