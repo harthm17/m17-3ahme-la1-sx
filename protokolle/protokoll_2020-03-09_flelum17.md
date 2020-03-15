@@ -14,9 +14,13 @@
          * [Programm starten](#programm-starten)               
          * [Programm stoppen](#programm-stoppen)  
 3) [Im Hintergrund laufendes C-Programm](#im-hintergrund-laufendes-c-programm)
-   * [Servicedatei erstellen](#servicedatei-erstellen)
+   * [C-Servicedatei erstellen](#c-servicedatei-erstellen)
    * [automatisch starten](#automatisch-starten)               
 4) [Im Hintergrund laufendes Java-programm](#im-hintergrund-laufendes-java-programm)
+   * [Programm auf Raspberry kopieren](#programm-auf-raspberry-kopieren)
+   * [Java-Servicedatei erstellen](#java-servicedatei-erstellen)
+   * [automatisches Starten](#automatisches-starten)
+5) [Wichtig](#wichtig)
 ----------------------------        
 
 ## Kopie der Raspberry-Dateien
@@ -69,7 +73,7 @@ Mehr zu **systemd** bei [LMS](https://lms.at/dotlrn/classes/informatik/610437.3A
     
 ##   Im Hintergrund laufendes C-Programm 
 
-### Servicedatei erstellen
+### C-Servicedatei erstellen
 
       root@pi26:~# nano /etc/systemd/system/flelum17-programm.service
       
@@ -108,5 +112,36 @@ public class Main {
     }
 }
 ````
+### Programmm auf Raspberry kopieren 
 
+    schueler@pcxx:~$ rsync -aP Schreibtisch/Java_flelum17_3ahme.jar pi26:/tmp/
+    
+### Java-Servicedatei erstellen
+
+    root@pi26:~# nano /etc/systemd/system/flelum17-java-programm.service
+    
+dort eingeben:
+
+    [Unit]
+       Description=Java Programm mit Ausgabe
+
+    [Service]
+       ExecStart=java -jar /root/Java_flelum17_3ahme.jar
+
+    [Install]
+       WantedBy=multi-user.target
+       
+### automatisches Starten
+Gleich wie früher mit ````systemctl enable```` und dem Programmnamen starten              
+     
+     root@pi26:~# systemctl enable flelum17-programm
+  
+danach den Raspberry neustarten:
+
+      root@pi26:~# reboot
+ 
+## Wichtig
+Man sollte sich für jede Anwendung einen neuen und eigenen Benutzer anlegen,                 
+**keinesfalls** den superuser, da Schadsoftware sonnst alle Rechte haben könnte.          
+Im besten Fall nimmt man dem Benutzer alle Rechte, bis auf die notwendigen.               
 
