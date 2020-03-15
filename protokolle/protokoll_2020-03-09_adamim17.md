@@ -67,13 +67,23 @@ schueler@pcxx:~$ rsync -aP /Schreibtisch/Java_adamim17_3ahme.jar pi29:/Schreibti
 root@pi29:~$ nano /home/adamim17/adamim17-programm.service
 ````
 * In die Datei wird dann folgendes eingegeben:
+Bei einem C-Programm:
 ````
 [Unit]
-Description=C-Programm mit Ausgabe (oder Java-Programm)
+Description=C-Programm mit Ausgabe 
 
 [Service]
 ExecStart=/home/adamim17/(programmname)/a.out
 ````
+Bei einem Java-Programm:
+````
+[Unit]
+Description=Java Programm mit Ausgabe
+
+[Service]
+ExecStart=java -jar (Programmname).jar
+````
+
 * Nachdem wird das Programm gestartet:
 ````bash
 root@pi29:~$ systemctl start adamim17-programm
