@@ -8,22 +8,84 @@
 1) [Kopie der Raspberry-Dateien](#kopie-der-raspberry-dateien)  
    * [tmp Verzeichnis](#tmp-verzeichnis)  
    * [rsync](#rsync)   
-
-----------------------------
+2) [Startup Systeme](#startup-systeme)
+   * [systemd](#systemd)            
+         * [Programm Status](#programm-status)                 
+         * [Programm starten](#programm-starten)               
+         * [Programm stoppen](#programm-stoppen)  
+3) [Im Hintergrund laufendes C-Programm](#im-hintergrund-laufendes-c-programm)
+   * [Servicedatei erstellen](#servicedatei-erstellen)
+----------------------------        
 
 ## Kopie der Raspberry-Dateien
 
 ### tmp Verzeichnis
 Mit ````/tmp```` in das temporäre Verzeichnis wechseln.   
-> im Verzeichnis /tmp werden jene Dateien abgelegt, die nach einem Neustart des Systems zweifelsfrei nicht mehr benötigt werden und während des Systemstarts geleert werden können          
+> im Verzeichnis /tmp werden jene Dateien abgelegt, die nach einem Neustart des Systems zweifelsfrei                 
+nicht mehr benötigt werden und während des Systemstarts geleert werden können          
     
 [laut Wikipedia](https://de.wikipedia.org/wiki/Temporäre_Datei)    
 
 ### rsync
-Mit ````rsync```` werden die Daten gespeichert. 
+Mit ````rsync```` werden die Daten am Computer gespeichert. 
 
     schueler@pcxx:~$ rsync -a pi26:/home/flelum17 ./
     
+Man gibt ````rsync```` ein, dann eine Option wie z.B. ````-aP```` , ````-aPn```` oder ````-aP --delete````           
+und dann die Quelle und das Ziel. 
+
+> rsync ist ein Programm, um Dateien zwischen lokalen oder über das Netzwerk erreichbaren          
+Pfaden abzugleichen. Dabei werden zunächst die Größe und die Änderungszeit der Dateien in          
+Quelle und Ziel verglichen ("Quick Check"-Algorithmus), so dass nur die Dateien behandelt                   
+werden müssen, bei denen es Änderungen gegeben hat.            
     
-                 
+[laut wiki.ubuntuusers.de](https://wiki.ubuntuusers.de/rsync/)
+
+## Startup Systeme
+Es sind drei verschiedene Systeme zu finden:          
+
+* **Sys-V-Init**
+* **Upstart**
+* **systemd**
+
+### systemd
+
+#### Programm Status
+
+      root@pi26:~# systemctl status
+
+#### Programm starten
+
+      root@pi26:~# systemctl start [z.B. alsa-state]
+
+#### Programm stoppen
     
+      root@pi26:~# systemctl stop  [z.B. alsa-state]
+      
+Mehr zu **systemd** bei [LMS](https://lms.at/dotlrn/classes/informatik/610437.3AHME_LA1SX.19_20/xolrn/9F2714A93B69A.symlink?resource_id=0-420357452&m=view#155470713)
+    
+    
+##   Im Hintergrund laufendes C-Programm 
+
+### Servicedatei erstellen
+
+      root@pi26:~# nano /etc/systemd/system/flelum17-programm.service
+      
+dort eingeben:
+
+      [Unit]
+         Description=C-Programm mit Ausgabe
+
+      [Service]
+         ExecStart=/home/flelum17/programm/a.out
+         
+      [Install]
+         WantedBy=multi-user.target
+          
+### automatisch starten
+
+      root@pi26:~# systemctl enable flelum17-programm
+  
+danach den Raspberry neustarten:
+
+      root@pi26:~# reboot
