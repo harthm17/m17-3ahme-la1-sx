@@ -6,9 +6,15 @@ Datum: **09.03.2020**
 
 ----------------------
 ## Inhaltsverzeichnis:
-
-
-
+* [Kopieren von Daten von Raspberry Pi](kopieren-von-daten-von-raspberry-pi)
+* [Startup Systeme](startup-systeme)
+* [Systemd Kommandos](systemd-kommandos)
+* [C- oder Java Programme am Raspberry Pi laufen lassen](c--oder-java-programme-am-raspberry-pi-laufen-lassen)
+   * [Kopieren](kopieren)  
+   * [Service-Datei erstellen](service-datei-erstellen)
+   * [Ausführen und überprüfen](ausführen-und-überprüfen)
+   * [Programme im Hintergrund laufen lassen](c--oder-java-programme-am-raspberry-pi-im-hintergrund-laufen-lassen)
+   
 ## Kopieren von Daten von Raspberry Pi
 * Als erstes muss man sich mit dem Raspberry Pi mit SSH verbinden, um an die Daten zugreifen zu können.
 ````bash
@@ -122,7 +128,7 @@ ExecStart=java -jar (Programmname).jar
 WantedBy=multi-user.target
 ````
 * Um dann das Programm automatisch zu starten, muss man folgenden Befehl eingeben:
-````bash
+````
 root@pi29:~$ systemctl enable adamim17-programm
 ````
 * Nach diesem Schritt muss der Raspberry Pi neu gestartet werden
@@ -133,7 +139,3 @@ Nachdem der Raspberry Pi neu gestartet ist, sollte das Programm schon im Hinterg
 ````bash
 root@pi29:~$ systemctl status adamim17-programm
 ````
-
-
-
-
