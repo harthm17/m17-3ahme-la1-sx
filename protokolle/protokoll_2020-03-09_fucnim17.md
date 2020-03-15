@@ -21,7 +21,7 @@
       * [Systemd Servicedatei aktualisieren](#systemd-servicedatei-aktualisieren)
 5) [Java-Programm auf Raspberry im Hintergrund laufen lassen](#java-programm-auf-raspberry-im-hintergrund-laufen-lassen)
       * [Systemd Servicedatei erstellen](#systemd-servicedatei-für-java-programm-erstellen)
-      * [Systemd Servicedatei aktualisieren](#sytemd-servicedatei-für-java-programm-aktualisieren)
+      * [Systemd Servicedatei aktualisieren](#systemd-servicedatei-für-java-programm-aktualisieren)
 
 
 ## Kopie von Daten auf dem Raspberry machen
