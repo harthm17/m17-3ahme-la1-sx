@@ -51,7 +51,7 @@ Um die Befehle zu benutzen, muss man als Superuser angemeldet sein
   schueler@pcxx:~$ systemctl stop (Dateiname)
 ````
 
-## C- oder Java Programme am Raspberry Pi im Hintergrund laufen lassen 
+## C- oder Java Programme am Raspberry Pi laufen lassen 
 ### Kopieren:
 * Wenn man ein Programm an einem anderen Rechner erstellt hat, muss man die Datei erst auf den Raspberry Pi kopieren
 ````bash
@@ -66,7 +66,8 @@ schueler@pcxx:~$ rsync -aP /Schreibtisch/Java_adamim17_3ahme.jar pi29:/Schreibti
 ````bash
 root@pi29:~$ nano /home/adamim17/adamim17-programm.service
 ````
-* In die Datei wird dann folgendes eingegeben:
+* In die Datei wird dann folgendes eingegeben:   
+
 Bei einem C-Programm:
 ````
 [Unit]
@@ -83,13 +84,56 @@ Description=Java Programm mit Ausgabe
 [Service]
 ExecStart=java -jar (Programmname).jar
 ````
+### Ausführen und überprüfen:
 
 * Nachdem wird das Programm gestartet:
 ````bash
 root@pi29:~$ systemctl start adamim17-programm
 ````
-* Man kann überprüfen ob das Programm aktiv ist:
+* Überprüfen, ob das Programm aktiv ist:
 ````bash
 root@pi29:~$ systemctl status adamim17-programm
 ````
+### C- oder Java Programme am Raspberry Pi im Hintergrund laufen lassen:
+Um ein Programm im Hintergrund laufen zu lassen, muss man die gleichen Schritte befolgen wie beim ausführen, mann muss nur in der Service-Datei angeben, dass das Programm beim Hochfahren automatisch ausgeführt wird.
+
+* In die Service-Datei wird folgendes eingegeben:   
+
+Bei einem C-Programm:
+````
+[Unit]
+Description=C-Programm mit Ausgabe 
+
+[Service]
+ExecStart=/home/adamim17/(programmname)/a.out
+
+[Install]
+WantedBy=multi-user.target
+````
+Bei einem Java-Programm:
+````
+[Unit]
+Description=Java Programm mit Ausgabe
+
+[Service]
+ExecStart=java -jar (Programmname).jar
+
+[Install]
+WantedBy=multi-user.target
+````
+* Um dann das Programm automatisch zu starten, muss man folgenden Befehl eingeben:
+````bash
+root@pi29:~$ systemctl enable adamim17-programm
+````
+* Nach diesem Schritt muss der Raspberry Pi neu gestartet werden
+````bash
+root@pi29:~$ reboot
+````
+Nachdem der Raspberry Pi neu gestartet ist, sollte das Programm schon im Hintergrund laufen. Es ist sinvoll zu überprüfen, ob alles fehlerfrei funktioniert hat.
+````bash
+root@pi29:~$ systemctl status adamim17-programm
+````
+
+
+
 
