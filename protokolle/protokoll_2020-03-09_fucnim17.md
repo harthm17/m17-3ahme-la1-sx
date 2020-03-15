@@ -22,7 +22,7 @@
 5) [Java-Programm auf Raspberry im Hintergrund laufen lassen](#java-programm-auf-raspberry-im-hintergrund-laufen-lassen)
       * [Systemd Servicedatei erstellen](#systemd-servicedatei-für-java-programm-erstellen)
       * [Systemd Servicedatei aktualisieren](#systemd-servicedatei-für-java-programm-aktualisieren)
-
+6) [Komprimieren von Verzeichnissen](#komprimieren)
 
 ## Kopie von Daten auf dem Raspberry machen
 #### Syntax:
@@ -185,7 +185,11 @@ User=java
 WantedBy=multi-user.target
 ```
 
-Komprimieren: zip (Windows) | gnu-zip (Linux)
+## Komprimieren:
+* zip (Windows) 
+* gnu-zip (Linux)
+
+gnu-zip ist die bessere Variante, da man ganau das kriegt was man auch haben will und an den Dateiendung perfekt erkennt wie diese Datei/dieses Verzeichnis komprimiert wurde.
 
 
 
