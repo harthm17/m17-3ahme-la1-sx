@@ -15,6 +15,8 @@
          * [Programm stoppen](#programm-stoppen)  
 3) [Im Hintergrund laufendes C-Programm](#im-hintergrund-laufendes-c-programm)
    * [Servicedatei erstellen](#servicedatei-erstellen)
+   * [automatisch starten](#automatisch-starten)               
+4) [Im Hintergrund laufendes Java-programm](#im-hintergrund-laufendes-java-programm)
 ----------------------------        
 
 ## Kopie der Raspberry-Dateien
@@ -83,9 +85,28 @@ dort eingeben:
          WantedBy=multi-user.target
           
 ### automatisch starten
-
-      root@pi26:~# systemctl enable flelum17-programm
+Mit ````systemctl enable```` und dem Programmnamen starten              
+     
+     root@pi26:~# systemctl enable flelum17-programm
   
 danach den Raspberry neustarten:
 
       root@pi26:~# reboot
+      
+## Im Hintergrund laufendes Java-Programm
+
+````java
+public class Main {
+    
+    private static int counter; //Zählereigenschaft
+    
+    public static void main (String[] args) { //psvm \t
+        for (int i = 0; i < 10; i++) {
+            counter += i;
+            System.out.println(counter); //sout \t
+        }
+    }
+}
+````
+
+
