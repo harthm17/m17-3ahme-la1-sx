@@ -62,8 +62,24 @@ Beispiel: Java Programm vom Desktop am Rechner auf den Desktop vom Raspberry Pi 
 schueler@pcxx:~$ rsync -aP /Schreibtisch/Java_adamim17_3ahme.jar pi29:/Schreibtisch
 ````
 ### Service-Datei erstellen:
-Als erstes wird eine Service Datei erstellt
+* Als erstes wird eine Service Datei erstellt:
 ````bash
 root@pi29:~$ nano /home/adamim17/adamim17-programm.service
+````
+* In die Datei wird dann folgendes eingegeben:
+````
+[Unit]
+Description=C-Programm mit Ausgabe (oder Java-Programm)
+
+[Service]
+ExecStart=/home/adamim17/(programmname)/a.out
+````
+* Nachdem wird das Programm gestartet:
+````bash
+root@pi29:~$ systemctl start adamim17-programm
+````
+* Man kann überprüfen ob das Programm aktiv ist:
+````bash
+root@pi29:~$ systemctl status adamim17-programm
 ````
 
