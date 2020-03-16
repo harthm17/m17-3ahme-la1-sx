@@ -11,7 +11,7 @@
 1) [Download von VirtualBox](#download-von-virtualbox)
 1) [Oracle VM VirtualBox Extension Pack installieren](#oracle-vm-virtualbox-extension-pack-installieren)
 1) [Virtuelle Maschine erstellen](#virtuelle-maschine-erstellen)
-         * [Hardwarevisualisierung aktivieren](#hardwarevisualisierung-aktivieren)
+     * [Hardwarevisualisierung aktivieren](#hardwarevisualisierung-aktivieren)
 1) [Ubuntu 18.04 installieren]
 1) [VirtualBox Guest Additions installieren]
 1) [Gemeinsamen Ordner erstellen]
