@@ -62,7 +62,7 @@ schueler@pcxx:/tmp$ rsync -aPn pi21:/home/auganm17 ./
 
 # systemd
 
->systemd 🇬🇧 ist ein System- und Sitzungs-Manager (Init-System), der für die Verwaltung aller auf dem System laufenden Dienste über die gesamte Betriebszeit des Rechners, vom Startvorgang bis zum Herunterfahren, zuständig ist. Prozesse werden dabei immer (soweit möglich) parallel gestartet, um den Bootvorgang möglichst kurz zu halten.
+>systemd ist ein System- und Sitzungs-Manager (Init-System), der für die Verwaltung aller auf dem System laufenden Dienste über die gesamte Betriebszeit des Rechners, vom Startvorgang bis zum Herunterfahren, zuständig ist. Prozesse werden dabei immer (soweit möglich) parallel gestartet, um den Bootvorgang möglichst kurz zu halten.
 
 **Quelle:** [wiki](https://wiki.ubuntuusers.de/systemd/)
 
