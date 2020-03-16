@@ -60,3 +60,5 @@ In diesem Punkt erstellt man einen gemeinsamen Ordner, der sehr gut für den Tra
 Beim Installieren des HTL-Paketes geht man Laut [dieser](http://www.htl-mechatronik.at/ubuntu-htl/readme) Beschreibung vor.
 
 ## Browser Lesezeichen-Menüleisete konfigurieren
+Zu diesem Punkt bin ich aus zeitlichen Gründen leider nicht mehr gekommen.
+[Hier](https://support.mozilla.org/de/kb/Lesezeichen-sichern-und-wiederherstellen) ist es relativ gut beschrieben.
