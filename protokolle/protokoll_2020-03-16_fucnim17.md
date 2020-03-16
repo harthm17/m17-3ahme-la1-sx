@@ -15,9 +15,9 @@
      * [Einstellungen treffen](#einstellungen-treffen)
 1) [Ubuntu 18.04 installieren](#ubuntu-18.04-installieren)
 1) [VirtualBox Guest Additions installieren](#virtualbox-guest-additions-installieren)
-1) [Gemeinsamen Ordner erstellen]
-1) [HTL-Paket installieren]
-1) [Browser Lesezeichen-Menüleisete konfigurieren]
+1) [Gemeinsamen Ordner erstellen](#gemeinsamen-ordner-erstellen)
+1) [HTL-Paket installieren](#htl-paket-installieren)
+1) [Browser Lesezeichen-Menüleisete konfigurieren](#browser-lesezeichen-menüleisete-konfigurieren)
 
 
 ## Download von VirtualBox
@@ -48,3 +48,15 @@ Bei neueren Versionen von Ubuntu ist dieses Paket schon installiert, doch wenn d
 1) Im Fenster der virtuellen Maschine auf den Menüpunkt ```Geräte```klicken
 1) Auf ```Medium mit Gasterweiterungen einlegen```gehen
 1) Auf ```VBoxWindowsAdditions.exe ausführen```klicken
+
+## Gemeinsamen Ordner erstellen
+In diesem Punkt erstellt man einen gemeinsamen Ordner, der sehr gut für den Transfer von Daten zwischen dem Wirt- und dem Gastsystem geeignet ist.
+1) Ordner am Host-System erstellen (z.B. am Desktop)
+1) Im VirtualBox Haptmenü auf ```Geräte```gehen
+1) Bei ```Gemeinsame Ordner```auf das grüne Plus klicken
+1) Den gewüschten Ordner auswählen
+
+## HTL-Paket installieren
+Beim Installieren des HTL-Paketes geht man Laut [dieser](http://www.htl-mechatronik.at/ubuntu-htl/readme) Beschreibung vor.
+
+## Browser Lesezeichen-Menüleisete konfigurieren
