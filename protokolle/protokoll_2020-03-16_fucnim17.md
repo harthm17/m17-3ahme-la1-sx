@@ -8,7 +8,7 @@
 ------
 
 ## Inhaltsverzeichniss
-1) [Download von VirtualBox]
+1) [Download von VirtualBox](#download-von-virtualbox)
 1) [Oracle VM VirtualBox Extension Pack installieren]
 1) [Virtuelle Maschine erstellen]
 1) [Ubuntu 18.04 installieren]
@@ -18,4 +18,4 @@
 1) [Browser Lesezeichen-Menüleisete konfigurieren]
 
 
-##
+## Download von VirtualBox
