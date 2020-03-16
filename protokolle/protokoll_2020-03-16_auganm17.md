@@ -53,21 +53,31 @@ Jetzt ist das Virtuelle System erstellt und man sollte noch ein paar einstellung
          Gemeinsame Zwischenablage: "bidirektional"
                        Drag'n'Drop: "bidirektional"
 ```
-
+### Abbild erstellen
 ```
 * Massenspeicher
       * Controller: IDE
       |- leer 
       
-      Hier leer auswählen und rechts bei Optisches Laufwerk: Sekundäer
+      Hier leer auswählen und rechts bei Optisches Laufwerk: Sekundärer Master
+      Danaben befindet sich eine kleine blaue Cd, diese wählt man aus 
+      und unter "Datei für Optisches Medium auswählen" wählt man    
+      dann die vorher heruntergeladene Ubuntu.iso Datei.
 ```
 
+[Ubuntu Datei:](https://ubuntu.com/download/desktop/thank-you?version=18.04.4&architecture=amd64)
 
+Nach diesen Schritten kann man das virtuelle System starten.
 
+Nun folgt man einfach den ganzen Installationsverlauf und installiert Ubuntu fertig auf dem virtuellen System.
 
+-----
 
+# Guest Additions installieren
 
+Bei den neueren Ubuntu versionen sind die Guest Additions bereits vorinstalliert jedoch kann man sie auch manuel installieren.
 
+Sobald man im Virtuellen System ist kann beim Oracle Fenster unter ```Geräte``` ```Gasterweiterungen einlegen``` das Paket installieren.
 
 
 
