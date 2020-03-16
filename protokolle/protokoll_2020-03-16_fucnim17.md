@@ -21,16 +21,20 @@
 
 
 ## Download von VirtualBox
-Der erste Schritt war [VirtualBox](https://www.virtualbox.org/wiki/Downloads)zu installieren.
+Der erste Schritt war [VirtualBox](https://www.virtualbox.org/wiki/Downloads) zu installieren.
 Dieser Schritt verlief relativ Problemlos.
 
 ## Oracle VM VirtualBox Extension Pack installieren
-Anschließend mussten wir das Oracle VM VirtualBox Extension Pack installieren unter diesem Link installieren: https://download.virtualbox.org/virtualbox/6.1.4/Oracle_VM_VirtualBox_Extension_Pack-6.1.4.vbox-extpack
+Anschließend mussten wir das [Oracle VM VirtualBox Extension Pack](https://download.virtualbox.org/virtualbox/6.1.4/Oracle_VM_VirtualBox_Extension_Pack-6.1.4.vbox-extpack) installieren.
+In diesem SChritt mussten keine weiteren Mßnahmen getroffen werden, da die Installation komplett automatisch ablief.
 
 ## Virtuelle Maschine erstellen
 ### Hardwarevisualisierung aktivieren
 Zuerst muss man im BIOS die Hardwarevisualisierung aktivieren. Dies ist von BIOS zu BIOS unterschiedlich.
 ### Einstellungen treffen
-Im nächsten Schritt muss man einige Einstellungen treffen, wie zum Beispiel die Anzahl der CPU-Kerne, wie viel Arbeitsspeicher mann freigeben will, auf welcher Festplatte man Ubuntu installieren will und man muss die ISO-Datei auswählen.
+Zuerst einmal muss man unter dem Menüpunkt ```Neu``` ein neues virtuelles System erstellen. Man wird unter anderem nach dem Namen und den Ordner des Systems gefragt. Außerdem mussten wir bei ```Typ``` *Linux* und bei ```Version```*Ubuntu (64bit)* einstellen. 
+Im nächsten Schritt muss man einige Einstellungen treffen, wie zum Beispiel die Anzahl der CPU-Kerne, wie viel Arbeitsspeicher mann freigeben will, auf welcher Festplatte man Ubuntu installieren will und man muss die ISO-Datei auswählen. Einen weitereren wichtigen Punkt findet man unter ```Allgemein -> Erweitert```:
+* Gemeinsame Zwischeneinlage: *bidirektional*
+* Drag'n'Drop: *bidirektional*
 
 ## Ubuntu 18.04 installieren
