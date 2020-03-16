@@ -9,7 +9,7 @@
 
 ## Inhaltsverzeichniss
 1) [Download von VirtualBox](#download-von-virtualbox)
-1) [Oracle VM VirtualBox Extension Pack installieren]
+1) [Oracle VM VirtualBox Extension Pack installieren](#oracle-vm-virtualbox-extension-pack-installieren)
 1) [Virtuelle Maschine erstellen]
 1) [Ubuntu 18.04 installieren]
 1) [VirtualBox Guest Additions installieren]
@@ -19,3 +19,7 @@
 
 
 ## Download von VirtualBox
+Der erste Schritt war VirtualBox unter folgendem Link zu installieren: https://www.virtualbox.org/wiki/Downloads
+Dieser Schritt verlief relativ Problemlos
+
+## Oracle VM VirtualBox Extension Pack installieren
