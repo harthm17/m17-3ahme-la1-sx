@@ -14,7 +14,7 @@
      * [Hardwarevisualisierung aktivieren](#hardwarevisualisierung-aktivieren)
      * [Einstellungen treffen](#einstellungen-treffen)
 1) [Ubuntu 18.04 installieren](#ubuntu-18.04-installieren)
-1) [VirtualBox Guest Additions installieren]
+1) [VirtualBox Guest Additions installieren](#virtualbox-guest-additions-installieren)
 1) [Gemeinsamen Ordner erstellen]
 1) [HTL-Paket installieren]
 1) [Browser Lesezeichen-Menüleisete konfigurieren]
@@ -33,8 +33,18 @@ In diesem SChritt mussten keine weiteren Mßnahmen getroffen werden, da die Inst
 Zuerst muss man im BIOS die Hardwarevisualisierung aktivieren. Dies ist von BIOS zu BIOS unterschiedlich.
 ### Einstellungen treffen
 Zuerst einmal muss man unter dem Menüpunkt ```Neu``` ein neues virtuelles System erstellen. Man wird unter anderem nach dem Namen und den Ordner des Systems gefragt. Außerdem mussten wir bei ```Typ``` *Linux* und bei ```Version```*Ubuntu (64bit)* einstellen. 
-Im nächsten Schritt muss man einige Einstellungen treffen, wie zum Beispiel die Anzahl der CPU-Kerne, wie viel Arbeitsspeicher mann freigeben will, auf welcher Festplatte man Ubuntu installieren will und man muss die [ISO-Datei für Ubuntu](https://ubuntu.com/download/desktop/thank-you?version=18.04.4&architecture=amd64) auswählen. Einen weitereren wichtigen Punkt findet man unter ```Allgemein -> Erweitert```:
+Im nächsten Schritt muss man einige Einstellungen treffen, wie zum Beispiel die Anzahl der CPU-Kerne, wie viel Arbeitsspeicher mann freigeben will, auf welcher Festplatte man Ubuntu installieren will und man muss die [ISO-Datei für Ubuntu](https://ubuntu.com/download/desktop/thank-you?version=18.04.4&architecture=amd64) auswählen.
+Einen weitereren wichtigen Punkt findet man unter ```Allgemein -> Erweitert```:
 * Gemeinsame Zwischeneinlage: *bidirektional*
 * Drag'n'Drop: *bidirektional*
 
 ## Ubuntu 18.04 installieren
+Nun einfach die virtuelle Maschine starten und den Anweisungen der Installationssoftware folgen.
+Dies erforderte keine speziellen Kompetenzen.
+
+##  VirtualBox Guest Additions installieren
+Bei neueren Versionen von Ubuntu ist dieses Paket schon installiert, doch wenn das nicht so sein sollte, folgendermaße vorgehen:
+1) Virtuelle Maschine starten, in der die Guest Additions installiert werden sollen
+1) Im Fenster der virtuellen Maschine auf den Menüpunkt ```Geräte```klicken
+1) Auf ```Medium mit Gasterweiterungen einlegen```gehen
+1) Auf ```VBoxWindowsAdditions.exe ausführen```klicken
