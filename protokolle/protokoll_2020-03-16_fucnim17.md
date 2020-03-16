@@ -33,7 +33,7 @@ In diesem SChritt mussten keine weiteren Mßnahmen getroffen werden, da die Inst
 Zuerst muss man im BIOS die Hardwarevisualisierung aktivieren. Dies ist von BIOS zu BIOS unterschiedlich.
 ### Einstellungen treffen
 Zuerst einmal muss man unter dem Menüpunkt ```Neu``` ein neues virtuelles System erstellen. Man wird unter anderem nach dem Namen und den Ordner des Systems gefragt. Außerdem mussten wir bei ```Typ``` *Linux* und bei ```Version```*Ubuntu (64bit)* einstellen. 
-Im nächsten Schritt muss man einige Einstellungen treffen, wie zum Beispiel die Anzahl der CPU-Kerne, wie viel Arbeitsspeicher mann freigeben will, auf welcher Festplatte man Ubuntu installieren will und man muss die ISO-Datei auswählen. Einen weitereren wichtigen Punkt findet man unter ```Allgemein -> Erweitert```:
+Im nächsten Schritt muss man einige Einstellungen treffen, wie zum Beispiel die Anzahl der CPU-Kerne, wie viel Arbeitsspeicher mann freigeben will, auf welcher Festplatte man Ubuntu installieren will und man muss die [ISO-Datei für Ubuntu](https://ubuntu.com/download/desktop/thank-you?version=18.04.4&architecture=amd64) auswählen. Einen weitereren wichtigen Punkt findet man unter ```Allgemein -> Erweitert```:
 * Gemeinsame Zwischeneinlage: *bidirektional*
 * Drag'n'Drop: *bidirektional*
 
