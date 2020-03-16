@@ -12,7 +12,8 @@
 1) [Oracle VM VirtualBox Extension Pack installieren](#oracle-vm-virtualbox-extension-pack-installieren)
 1) [Virtuelle Maschine erstellen](#virtuelle-maschine-erstellen)
      * [Hardwarevisualisierung aktivieren](#hardwarevisualisierung-aktivieren)
-1) [Ubuntu 18.04 installieren]
+     * [Einstellungen treffen](#einstellungen-treffen)
+1) [Ubuntu 18.04 installieren](#ubuntu-18.04-installieren)
 1) [VirtualBox Guest Additions installieren]
 1) [Gemeinsamen Ordner erstellen]
 1) [HTL-Paket installieren]
@@ -29,3 +30,7 @@ Anschließend mussten wir das Oracle VM VirtualBox Extension Pack installieren u
 ## Virtuelle Maschine erstellen
 ### Hardwarevisualisierung aktivieren
 Zuerst muss man im BIOS die Hardwarevisualisierung aktivieren. Dies ist von BIOS zu BIOS unterschiedlich.
+### Einstellungen treffen
+Im nächsten Schritt muss man einige Einstellungen treffen, wie zum Beispiel die Anzahl der CPU-Kerne, wie viel Arbeitsspeicher mann freigeben will, auf welcher Festplatte man Ubuntu installieren will und man muss die ISO-Datei auswählen.
+
+## Ubuntu 18.04 installieren
