@@ -15,6 +15,7 @@
 1) [Virtualbox Extension Pack installieren](#virtualbox-extension-pack-installieren)
 1) [Virtuelle Maschine erstellen](#virtuelle-maschine-erstellen)
     * [Abbild erstellen](#abbild-erstellen)
+    * [Visualisierung](#visualisierung)
 1) [Guest Additions installieren](#guest-additions-installieren)
 1) [Verzeichnis zwischen Gastsystem und virtuellen System erstellen](#verzeichnis-zwischen-gastsystem-und-virtuellen-system-erstellen)
 1) [HTL Paket installieren](#htl-paket-installieren)
@@ -66,6 +67,11 @@ Jetzt ist das Virtuelle System erstellt und man sollte noch ein paar einstellung
 ```
 
 [Ubuntu Datei:](https://ubuntu.com/download/desktop/thank-you?version=18.04.4&architecture=amd64)
+
+### Visualisierung
+
+Es kann sein das bei gewissen Systemen die Visualisierung deaktiviert ist und somit lässt sich das Virtuelle System nicht starten.  
+Die Visualisierung aktiviert man im Bios unter "erweiterten Einstellungen" und hier sucht man die "SVM" und aktiviert diese. Das ist natürlich von Bios zu Bios unterschiedlich.
 
 Nach diesen Schritten kann man das virtuelle System starten.
 
