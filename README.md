@@ -9,4 +9,4 @@
 
 ### [5. Protokoll 09.03.2020](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/auganm17/protokolle/protokoll_2020-03-09_auganm17.md) - Raspberry_3
 
-### [6. Protokoll 16.03.2020](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/auganm17/protokolle/protokoll_2020-03-16_auganm17.md) Virtualbox installieren
+### [6. Protokoll 16.03.2020](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/auganm17/protokolle/protokoll_2020-03-16_auganm17.md) - Virtualbox installieren
