@@ -79,9 +79,23 @@ Bei den neueren Ubuntu versionen sind die Guest Additions bereits vorinstalliert
 
 Sobald man im Virtuellen System ist kann beim Oracle Fenster unter ```Geräte``` ```Gasterweiterungen einlegen``` das Paket installieren.
 
+# Verzeichnis zwischen Gastsystem und virtuellen System erstellen
 
+Zuerst erstellt man einen Ordner auf dem Host-System.
 
+Danach geht man wie folgt vor:
+```
+   *Ändern
+      *Gemeinsame Ordner
+      - unter diesem Punkt kann man beim "grünen Plus" den Ordner hinzufügen.
+```
 
+# HTL Paket installieren
 
+Beim installieren dieses Paket's geht man wie beschrieben auf dieser Seite vor:
+
+[HTL Paket](http://www.htl-mechatronik.at/ubuntu-htl/readme)
+
+# Menüleiste konfigurieren
 
 
