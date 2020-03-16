@@ -21,7 +21,7 @@
 
 
 ## Download von VirtualBox
-Der erste Schritt war VirtualBox unter folgendem Link zu installieren: https://www.virtualbox.org/wiki/Downloads
+Der erste Schritt war [VirtualBox](https://www.virtualbox.org/wiki/Downloads)zu installieren.
 Dieser Schritt verlief relativ Problemlos.
 
 ## Oracle VM VirtualBox Extension Pack installieren
