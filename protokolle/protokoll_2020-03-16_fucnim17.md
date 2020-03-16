@@ -10,7 +10,8 @@
 ## Inhaltsverzeichniss
 1) [Download von VirtualBox](#download-von-virtualbox)
 1) [Oracle VM VirtualBox Extension Pack installieren](#oracle-vm-virtualbox-extension-pack-installieren)
-1) [Virtuelle Maschine erstellen]
+1) [Virtuelle Maschine erstellen](#virtuelle-maschine-erstellen)
+         * [Hardwarevisualisierung aktivieren](#hrdwarevisualisierung-aktivieren)
 1) [Ubuntu 18.04 installieren]
 1) [VirtualBox Guest Additions installieren]
 1) [Gemeinsamen Ordner erstellen]
@@ -20,6 +21,11 @@
 
 ## Download von VirtualBox
 Der erste Schritt war VirtualBox unter folgendem Link zu installieren: https://www.virtualbox.org/wiki/Downloads
-Dieser Schritt verlief relativ Problemlos
+Dieser Schritt verlief relativ Problemlos.
 
 ## Oracle VM VirtualBox Extension Pack installieren
+Anschließend mussten wir das Oracle VM VirtualBox Extension Pack installieren unter diesem Link installieren: https://download.virtualbox.org/virtualbox/6.1.4/Oracle_VM_VirtualBox_Extension_Pack-6.1.4.vbox-extpack
+
+## Virtuelle Maschine erstellen
+### Hardwarevisualisierung aktivieren
+Zuerst muss man im BIOS die Hardwarevisualisierung aktivieren. Dies ist von BIOS zu BIOS unterschiedlich.
