@@ -24,6 +24,14 @@
 
 ## Download der Virtualbox
 
-Um die [Virtualbox](https://www.virtualbox.org/wiki/Downloads) zu  installieren muss man auf der Website sein Betriebssystem auswählen und man bekommt ein Programm dass die endgültige [Virtualbox](https://www.virtualbox.org/wiki/Downloads) installiert.
+Um die [Virtualbox](https://www.virtualbox.org/wiki/Downloads) zu  installieren muss man auf der Website sein Betriebssystem auswählen und man bekommt ein Programm dass die endgültige [Virtualbox](https://www.virtualbox.org/wiki/Downloads) installiert. Weitere Einstellungen muss man selbst durchführen.
 
 ---------------------------------------------
+
+## Installation von Oracle VM VirtualBox Extension Pack
+
+Falls die installierte Virtualbox nicht die neueste/gewünschte Version besitzt, kann man ein [VirtualBox Extension Pack](https://download.virtualbox.org/virtualbox/6.1.4/Oracle_VM_Extension_Pack-6.1.4.vbox-extpack) installieren. Wir bennötigen die Version 6.1.4 weshalb wir dazu ein [Extension Pack](https://download.virtualbox.org/virtualbox/6.1.4/Oracle_VM_Extension_Pack-6.1.4.vbox-extpack) installieren mussten. Da man das [Extension Pack](https://download.virtualbox.org/virtualbox/6.1.4/Oracle_VM_Extension_Pack-6.1.4.vbox-extpack) direkt in der Virtualbox öffnen kann wird dies, wenn man es direkt in der Virtualbox öffnet, auch die Virtualbox direkt updaten.
+
+-----------------------------------------------------------
+
+## Erstellen einer virtuellen Maschine
