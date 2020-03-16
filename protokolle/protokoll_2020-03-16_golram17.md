@@ -15,9 +15,15 @@
 2. [Installation von Oracle VM VirtualBox Extension Pack](#installation-von-oracle-vm-virtualbox-extension-pack)
 3. [Erstellen einer virtuellen Maschine](#erstellen-einer-virtuellen-maschine)
 4. [Installieren von Ubuntu in der virtuellen Maschine](#installieren-von-ubuntu-in-der-virtuellen-maschine)
-5. [VirtualBox Guest Additions in Ubuntu installieren](#virtualbox-guest-additions-in-ubuntu-installieren)
+5. [Virtualbox Guest Additions in Ubuntu installieren](#virtualbox-guest-additions-in-ubuntu-installieren)
 6. [Ein Verzeichnis zwischen dem Gastsystem und dem virtuellen System teilen](#ein-verzeichnis-zwischen-dem-gastsystem-und-dem-virtuellen-system-teilen)
 7. [HTL Paket installieren](#htl-paket-installieren)
 8. [Im Firefox und im Chrome Browser die Lesezeichen Menüleiste konfigurieren](#im-firefox-und-im-chrome-browser-die-lesezeichen-menüleiste-konfigurieren)
 
 ----------------------------------------------------------
+
+## Download der Virtualbox
+
+Um die [Virtualbox](https://www.virtualbox.org/wiki/Downloads) zu  installieren muss man auf der Website sein Betriebssystem auswählen und man bekommt ein Programm dass die endgültige [Virtualbox](https://www.virtualbox.org/wiki/Downloads) installiert.
+
+---------------------------------------------
