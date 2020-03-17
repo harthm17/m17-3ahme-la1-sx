@@ -7,6 +7,15 @@ Datum: **16.02.2020**
 --------------------------
 
 ## Inhaltsverzeichnis
+* [Herunterladen und installieren der Virtual-Box](#herunterladen-und-installieren-der-virtual-box)
+   * [Herunterladen](#herunterladen)
+   * [Installation](#installation)
+* [Installation des Oracle VM VirtualBox Extension Packs](#installation-des-oracle-vm-virtualbox-extension-packs)
+* [Virtuelle Maschine starten und einrichten](#virtuelle-maschine-starten-und-einrichten)
+* [Einrichten der Virtual-Box](#einrichten-der-virtual-box)
+* [HTL-Paket installieren](#htl-paket-installieren)
+* [Lesezeichen in Firefox und Chrome konfigurieren](#lesezeichen-in-firefox-und-chrome-konfigurieren)
+
 
 ## Herunterladen und installieren der Virtual-Box
 ### Herunterladen:
@@ -17,7 +26,7 @@ Nachdem die Installationsdatei heruntergeladen ist, muss man sie ausführen und 
 ## Installation des Oracle VM VirtualBox Extension Packs
 Die [Installationsdatei](https://www.virtualbox.org/wiki/Downloads) Herunterladen und Installieren. Die Installation verläuft komplett automatisch.
 
-## Virtuelle Maschine Starten und einrichten
+## Virtuelle Maschine starten und einrichten
 Herunterladen einer .iso Datei des ausgewählten Betriebssystems. In unserem Fall haben wir eine [Ubuntu 18.04 Datei](https://ubuntu.com/download/desktop/thank-you?version=18.04.4&architecture=amd64) heruntergeladen. 
 
 ## Einrichten der Virtual-Box
@@ -58,5 +67,6 @@ Herunterladen einer .iso Datei des ausgewählten Betriebssystems. In unserem Fal
   root@Mike-Virtual-Box:~$ apt dist-upgrade
   root@Mike-Virtual-Box:~$ apt install htl
 ````
-* Die Lesezeichen im Firefox und Chrome zu konfigurieren habe ich nicht geschafft.
+## Lesezeichen in Firefox und Chrome konfigurieren
+Die Lesezeichen im Firefox und Chrome zu konfigurieren habe ich nicht geschafft.
 
