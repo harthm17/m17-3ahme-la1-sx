@@ -48,3 +48,15 @@ Herunterladen einer .iso Datei des ausgewählten Betriebssystems. In unserem Fal
  
  ## HTL-Paket installieren
  * Um das HTL-Paket zu installieren muss man sich in der Shell als Superuser anmelden.
+````bash
+  adamim17@Mike-Virtual-Box:~$ sudo -i
+````
+* Um das HTL-Paket zu installieren braucht man folgende Befehle:
+````bash
+  root@Mike-Virtual-Box:~$ wget -O - http://www.htl-mechatronik.at/ubuntu-htl/install | bash
+  root@Mike-Virtual-Box:~$ apt update
+  root@Mike-Virtual-Box:~$ apt dist-upgrade
+  root@Mike-Virtual-Box:~$ apt install htl
+````
+* Die Lesezeichen im Firefox und Chrome zu konfigurieren habe ich nicht geschafft.
+
