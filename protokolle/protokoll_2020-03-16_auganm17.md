@@ -104,6 +104,6 @@ Beim installieren dieses Paket's geht man wie beschrieben auf dieser Seite vor:
 
 # Menüleiste konfigurieren
 
-Diesen Punkt habe ich nicht geschafft zu erledigen. Habe mich mit Niklas Fuchshofer unterhalten, der es auch nicht hat, und dann hat er mir diesen Link zukommen lassen, der diese Aufgabe sehr gut beschreibt.
+Diesen Punkt habe ich nicht geschafft zu erledigen. Habe mich mit Herr Niklas Fuchshofer unterhalten, der es auch nicht hat, und dann hat er mir diesen Link zukommen lassen, der diese Aufgabe sehr gut beschreibt.
 
 [konfiguration](https://support.mozilla.org/de/kb/Lesezeichen-sichern-und-wiederherstellen)
