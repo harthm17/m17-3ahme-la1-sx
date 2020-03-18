@@ -133,4 +133,23 @@ Ist diese Option gedrückt worden kommt ein Fenster ob wir uns sicher sind eine 
 
 Es wird das Terminal geöffnet und es werden die Guest Assitions installiert:
 ````bash
+Verifying archive integrity... All good.
+Uncompressing VirtualBox 6.1.4 Guest Additions for Linux........
+VirtualBox Guest Additions installer
+Copying additional installer modules ...
+Installing additional modules ...
+VirtualBox Guest Additions: Starting.
+VirtualBox Guest Additions: Building the VirtualBox Guest Additions kernel 
+modules.  This may take a while.
+VirtualBox Guest Additions: To build modules for other installed kernels, run
+VirtualBox Guest Additions:   /sbin/rcvboxadd quicksetup <version>
+VirtualBox Guest Additions: or
+VirtualBox Guest Additions:   /sbin/rcvboxadd quicksetup all
+VirtualBox Guest Additions: Building the modules for kernel 5.3.0-28-generic.
+
+This system is currently not set up to build kernel modules.
+Please install the gcc make perl packages from your distribution.
+VirtualBox Guest Additions: Running kernel modules will not be replaced until 
+the system is restarted
+Press Return to close this window...
 ````
