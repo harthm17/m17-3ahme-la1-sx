@@ -153,3 +153,7 @@ VirtualBox Guest Additions: Running kernel modules will not be replaced until
 the system is restarted
 Press Return to close this window...
 ````
+
+Wenn man jetzt wieder beim Menüpunkt ````Ändern```` wieder unter ````Massenspeicher```` geht kann man sehen, dass statt dem alten System jetzt eine ````VBoxGuestAdditions.iso```` drinnen ist.
+
+----------------------------------------------------
