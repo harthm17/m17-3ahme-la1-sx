@@ -9,8 +9,11 @@
 2) [Installieren von Oracle VM VirtualBox Extension Pack](#installieren-von-oracle-vm-virtualbox-extension-pack)    
 3) [Erstellen einer virtuellen Maschine](#erstellen-einer-virtuellen-maschine)
       * [Erstellen](#erstellen)     
-      * [Weitere Einstellungen](#weitere-einstellungen)
-  
+      * [Weitere Einstellungen](#weitere-einstellungen)                 
+4) [Installieren von VirtualBox Guest Additions](#installieren-von-virtualbox-guest-additions)
+5) [Verzeichnis zwischen gast- und virtuellen System](#verzeichnis-zwischen-gast--und-virtuellen-system)    
+6) [Installieren von HTL-Paket](#installieren-von-htl-paket)
+7) [Lesezeichen Menüleiste konfigurieren](#lesezeichen-menüleiste-konfigurieren)
 ----------------------------        
 
 ## Installieren von VirtualBox
@@ -37,6 +40,33 @@ es wird min *50GiB* empfohlen.
 ### Weitere Einstellungen
 Unter ````Ändern```` - Allgemein -erweitert sollte man bei:   
 "Gemeinsame Zwischenablage" und "Drag 'n' Drop" beidesmal *bidirektional* auswählen.    
+                  
+Danach wieder bei ````Ändern```` -Massenspeicher und dann sollte unter "Controller: IDE"             
+"leer" stehen, dort raufklicken und mit der blauen CD an der Seite die vorher heruntergeladene              
+Ubuntu ISO-Datei auswählen. Link: [Ubuntu ISO-Datei](https://ubuntu.com/download/desktop/thank-you?version=18.04.4&architecture=amd64)                                                  
+                  
+Falls sich die virtuelle Maschine nicht starten lässt, kann es daran liegen, dass man im BIOS die           
+Hardwarevisualisierung aktivieren muss.               
 
+## Installieren von VirtulBox Guest Additions
+Entwerder ist es schon installiert, wie bei den neueren Ubuntu-Versionen, oder man                 
+muss es selbst installieren.                 
+                  
+Zuerst geht man in die virtuelle Maschine, dann geht man im Fenster auf ````Geräte```` -           
+````Medium mit Gasterweiterung einlegen```` um die Guest Additions zu installieren.                
+
+## Verzeichnis zwischen gast- und virtuellen System
+Als erstes erstellt man sich einen Ordner am Gastsystem z.B. am Desktop.                  
+Dann geht man wieder auf ````Ändern```` - ````Gemeinsame Ordner```` und dort                 
+klickt man auf das *grüne Plus* und wählt den früher angelegten Ordner aus.               
+
+## Installieren von HTL-Paket
+Am besten richtet man sich bei der Installation des HTL-Pakets nach dieser Beschreibung.           
+Link: [HTL Paket](http://www.htl-mechatronik.at/ubuntu-htl/readme)               
+
+## Lesezeichen Menüleiste konfigurieren
+Diesen Punkt habe ich leider noch nicht geschafft, werde ihn aber natürlich nachholen.             
+Mit dem Link, der mir Niklas Fuchshofer gezeigt hat, sollte es kein Problem sein.
+Link: [Konfigurieren](https://support.mozilla.org/de/kb/Lesezeichen-sichern-und-wiederherstellen)
 
 
