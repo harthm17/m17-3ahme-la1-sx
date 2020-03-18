@@ -157,3 +157,55 @@ Press Return to close this window...
 Wenn man jetzt wieder beim Menüpunkt ````Ändern```` wieder unter ````Massenspeicher```` geht kann man sehen, dass statt dem alten System jetzt eine ````VBoxGuestAdditions.iso```` drinnen ist.
 
 ----------------------------------------------------
+
+## Ein Verzeichnis zwischen dem Gastsystem und dem virtuellen System teilen
+
+Um den Transfer von Daten zwischen dem Host- und dem Guestsystem zu vereinfachen erstellt man einen "gemeinsamen" Ordner.
+Dieser Vorgang ist um einiges einfacher als bisherigen Schritte. 
+Als erstes erstelen wir einen Ordner auf unserem Ursprünglichensystem also zB. am Computer Desktop.
+In der VirtualBox haben wir wieder nur auf den Menüpunkt ````Geräte```` zu gehen und dort wählen wir die Option ````Gemeinsame Ordner````. Ist man in dieser Option ist auf der rechten Seite ein Ordner mit einem **grünen** Plus. Hat man diesen Ordner ausgewählt muss man den Ordner Pfad und den Namen des Ordners eingeben. Es gibt noch andere Optionen die man selbst nach belieben auswählen kann.
+
+----------------------------------------------------------
+
+## HTL Paket installieren
+
+Es gibt zwei Varianten dieses Paket zu installieren undich habe mich für Option 1 entschieden. 
+
+Zuerst brauchen wir die Rechte des Superusers:
+````bash
+schueler@pcxx:~$ sudo -i
+````
+
+Jetzt verwenden wir den Befehl ````wget```` dieser wird mit der Option ````-O```` erweitert nun schreibt ````wget```` den Inhalt der heruntergeladenen Datei direkt auf die Standardausgabe (stdout) des Terminals (Quelle: [wiki.ubuntuusers](https://wiki.ubuntuusers.de/wget/)):
+````bash
+schueler@pcxx:~$ wget -O - http://www.htl-mechatronik.at/ubuntu-htl/install | bash
+````
+
+Nun werden wir unsere updates auflisten und dann mit ````dist-upgrade````auch noch updaten: (mehr Zu ````dist-upgrade```` [hier](https://askubuntu.com/questions/81585/what-is-dist-upgrade-and-why-does-it-upgrade-more-than-upgrade))
+````bash
+schueler@pcxx:~$ apt update
+schueler@pcxx:~$ apt dist-upgrade
+````
+
+Zu guter Letzt müssen wir nur noch das Paket installieren:
+````bash
+schueler@pcxx:~$ apt install htl
+````
+
+Gibt es Probleme oder willst due etwa die andere Option ausprobieren gibt es eine nützliche [Datei](http://www.htl-mechatronik.at/ubuntu-htl/readme)
+
+---------------------------------------------
+
+## Im Firefox und im Chrome Browser die Lesezeichen Menüleiste konfigurieren
+
+Ich werde diesen Punkt anhand des Firefox Browsers erklären, nachdem es beim Chromium/Chrome Browser ziemlich gleich ist außer den Zeichen der einzelnen Optionen.
+
+Zuerst geht man zu den Lesezeichen also zu dem ````Bücherregal```` oben in der Menüleiste und dann zum ````Stern````. Jetzt sind wir bei den Lesezeichen drinnen. Man kann jetzt entweder ````strg+Umschalt+B```` drücken oder unten auf ````Lesezeichen verwalten````.
+Nun öffnet sich neues Fenster, in diesen neuen Fenster clicken wir dann auf ````Ìmportieren und Sichern```` oben in der Menüleiste(Das ist ein Pfeil nach oben und einer nach unten). Nun können wir verschiedenes Tun:
+
+1. ````Wiederherstellen```` Mit dieser Option können wir verlorene Lesezeichen von einem vergangenen Datum wiederherstellen.
+2. ````Lesezeichen von HTML importieren...```` hiermit kann man Lesezeichen die als HTML Datei auf dem Computer gespeichert sind in den Browser als Lesezeichen einfügen. 
+3. ````Lesezeichen nach HTML exportieren...````ist dazu da das man die derzeitigen Lesezeichen im HTML Format auf den Computer exportiert und dann speichert.
+4. Mit ````Daten aus einem aderen Browser importieren...```` kann man die Lesezeichen die man zB. im Chrome Browser hat in den Firefox Browser importieren.
+
+Etwas anders aber auch gut erklärt hat es die Website die Herr Fuchshofer gefunden [hat](https://support.mozilla.org/de/kb/Lesezeichen-sichern-und-wiederherstellen).
