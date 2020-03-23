@@ -8,7 +8,7 @@
 
 ----------------------------------------------------------------------------------------------
 
-## Inhaltsverzeichniss
+## Inhaltsverzeichnis
 1) [Download von VirtualBox](#download-von-virtualbox)
 1) [Oracle VM VirtualBox Extension Pack installieren](#oracle-vm-virtualbox-extension-pack-installieren)
 1) [Virtuelle Maschine erstellen](#virtuelle-maschine-erstellen)
@@ -73,7 +73,7 @@ Nun kann man noch folgende Einstellungen treffen:
 ----------------------------------------------------------------------------------------------
 
 ## HTL-Paket installieren
-Beim Installieren des HTL-Paketes geht man nach [dieser](http://www.htl-mechatronik.at/ubuntu-htl/readme) Beschreibung vor.
+Beim Installieren des HTL-Paketes geht man nach [dieser](http://www.htl-mechatronik.at/ubuntu-htl/readme) Beschreibung vor. Das Installieren dauert ziemlich lange, da es viele Daten sind.
 
 ----------------------------------------------------------------------------------------------
 
