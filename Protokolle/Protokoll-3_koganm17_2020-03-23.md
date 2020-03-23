@@ -13,7 +13,7 @@
 1) [Oracle VM VirtualBox Extension Pack installieren](#oracle-vm-virtualbox-extension-pack-installieren)
 1) [Virtuelle Maschine erstellen](#virtuelle-maschine-erstellen)
      * [Hardwarevisualisierung aktivieren](#hardwarevisualisierung-aktivieren)
-     * [Virtuelle_Maschine](#virtuelle-maschine)
+     * [Virtuelle Maschine](#virtuelle-maschine)
 1) [Ubuntu 18.04 installieren](#ubuntu-18.04-installieren)
 1) [VirtualBox Guest Additions installieren](#virtualbox-guest-additions-installieren)
 1) [Gemeinsamen Ordner erstellen](#gemeinsamen-ordner-erstellen)
@@ -36,7 +36,7 @@ Das ist ein Zusatzpaket. Auch dieser Schritt war kein Problem.
 
 ## Virtuelle Maschine erstellen
 ### Hardwarevisualisierung aktivieren
-Zuerst muss man im BIOS die Hardwarevisualisierung aktivieren. Ins BIOS kommt man beim Starten des PCs indem man die richte Taste spamt. 
+Zuerst muss man im BIOS die Hardwarevisualisierung aktivieren. Ins BIOS kommt man beim Starten des PCs indem man die richte Taste spamt.  Die Visualisierung aktiviert man im Bios unter ```erweiterten Einstellungen``` und hier sucht man die ```SVM``` und aktiviert diese.
 ### Virtuelle Maschine
 Zuerst muss man unter dem Menüpunkt ```Neu``` ein neues virtuelles System erstellen. Man muss nun den Namen,den Ordner, den Typ und die Version des Systems eingeben. 
 Im nächsten Schritt muss man einige Einstellungen treffen wie den Arbeitsspeicher und den Festplattenspeicher. Ich habe 4 GiB RAM und 50GiB Festplattenspeicher ausgewählt.
@@ -71,7 +71,7 @@ In diesem Punkt erstellt man einen gemeinsamen Ordner, der sehr gut für den Tra
 ----------------------------------------------------------------------------------------------
 
 ## HTL-Paket installieren
-Beim Installieren des HTL-Paketes geht man Laut [dieser](http://www.htl-mechatronik.at/ubuntu-htl/readme) Beschreibung vor.
+Beim Installieren des HTL-Paketes geht man nach [dieser](http://www.htl-mechatronik.at/ubuntu-htl/readme) Beschreibung vor.
 
 ----------------------------------------------------------------------------------------------
 
