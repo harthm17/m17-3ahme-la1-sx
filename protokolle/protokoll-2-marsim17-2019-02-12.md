@@ -16,7 +16,7 @@
 
 [Ändern der Dateirechte](#ändern-der-dateirechte)
 
-[Ändern des Eigentümers bzw. der Eigentümergruppe](##ndern-des-eigentümers-bzw-der-eigentümergruppe)
+[Ändern des Eigentümers bzw. der Eigentümergruppe](#ändern-des-eigentümers-bzw-der-eigentümergruppe)
 
 [Neuen Benutzer anlegen](#neuen-benutzer-anlegen)
 
