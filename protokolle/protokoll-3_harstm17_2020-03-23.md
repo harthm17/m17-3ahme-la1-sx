@@ -66,7 +66,7 @@ Jetzt ist das Virtuelle System erstellt und man sollte noch ein paar Feineinstel
 ```
 
 #### Ubuntu.iso Datei downloaden
-Unter [folgendem](https://ubuntu.com/download/desktop/thank-you?version=18.04.4&architecture=amd64) Link startet der download der ISO-Datei von selbst.
+Unter [folgendem](https://ubuntu.com/download/desktop/thank-you?version=18.04.4&architecture=amd64) Link startet der Download der ISO-Datei von selbst.
 
 #### Massenspeicher verwalten
 ```
