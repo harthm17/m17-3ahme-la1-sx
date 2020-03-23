@@ -14,11 +14,11 @@
 
 [Installieren des Extention Packs](#installieren-des-extention-packs)
 
-[Alle Features der VirtualBox freischalten](#alle-features-freischalten)
+[Alle Features der VirtualBox freischalten](#alle-features-der-virtualbox-freischalten)
 
 [Aktivieren der Hardwarevisualisierung](#aktivieren-der-hardwarevisualisierung)
 
-[Herunterladen des Ubuntu 18.04 Images](#herunterladen-des-ubuntu-18.04-images)
+[Herunterladen des Ubuntu Images](#herunterladen-des-ubuntu-images)
 
 [Erstellen der virtuellen Maschine](#erstellen-der-virtuellen-maschine)
 
@@ -50,11 +50,11 @@ Das Extention Pack ist im [AUR](https://wiki.manjaro.org/index.php?title=Arch_Us
 Um die volle Funktionalität der VirtualBox, wie das Verwenden von USB-Schnittstellen, zu nutzen, muss man seinen Benutzer zur Gruppe vboxusers hinzufügen.
 Das ist mit `sudo gpasswd -a $USER vboxusers` möglich. `$USER` wird automatisch mit dem Benutzernamen ausgetauscht. Diese Änderung tritt jedoch erst nach einamligen Ausloggen in Kraft.
 
-## Aktivieren der Hardvarevisualisierung
+## Aktivieren der Hardwarevisualisierung
 
 Mit dem Befehl `systemctl reboot --firmware-setup` kommt man direkt ins BIOS, wo man unter `Advanced` die Hardwarevisualisierung aktivieren kann.
 
-## Herunterladen des Ubuntu 18.04 Images
+## Herunterladen des Ubuntu Images
 
 Um die ISO-Datei von Ubuntu 18.04 herunterzuladen muss man im gewünschten Arbeitsverzeichnis `wget http://mirrors.rit.edu/ubuntu-releases/18.04.4/ubuntu-18.04.4-desktop-amd64.iso` ausführen. Die Datei ist in etwa 2GiB groß, wodurch der Download etwas Zeit in Anspruch nehmen könnnte.
 
