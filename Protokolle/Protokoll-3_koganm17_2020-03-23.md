@@ -36,7 +36,7 @@ Das ist ein Zusatzpaket. Auch dieser Schritt war kein Problem.
 
 ## Virtuelle Maschine erstellen
 ### Hardwarevisualisierung aktivieren
-Zuerst muss man im BIOS die Hardwarevisualisierung aktivieren. Ins BIOS kommt man beim Starten des PCs indem man die richte Taste spamt.  Die Visualisierung aktiviert man im Bios unter ```erweiterten Einstellungen``` und hier sucht man die ```SVM``` und aktiviert diese.
+Zuerst muss man im BIOS die Hardwarevisualisierung aktivieren. Ins BIOS kommt man beim Starten des PCs indem man die richtige Taste spamt.  Die Visualisierung aktiviert man im Bios unter ```erweiterten Einstellungen``` und hier sucht man die ```SVM``` und aktiviert diese.
 ### Virtuelle Maschine
 Zuerst muss man unter dem Menüpunkt ```Neu``` ein neues virtuelles System erstellen. Man muss nun den Namen,den Ordner, den Typ und die Version des Systems eingeben. 
 Im nächsten Schritt muss man einige Einstellungen treffen wie den Arbeitsspeicher und den Festplattenspeicher. Ich habe 4 GiB RAM und 50GiB Festplattenspeicher ausgewählt.
