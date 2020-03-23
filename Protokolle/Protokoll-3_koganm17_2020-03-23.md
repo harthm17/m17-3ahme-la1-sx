@@ -1,6 +1,6 @@
 # Protokoll-3 LABOR/SX 3AHME (2019/20)
 
-* **Thema:** Dateirechte
+* **Thema:** Installation von Ubuntu 18.04 LTS + Software in einer virtuellen Maschine
 * **Datum:** 23.03.2020
 * **Gefehlt:** Keiner
 * **Erstellt von:** koganm17
@@ -13,7 +13,7 @@
 1) [Oracle VM VirtualBox Extension Pack installieren](#oracle-vm-virtualbox-extension-pack-installieren)
 1) [Virtuelle Maschine erstellen](#virtuelle-maschine-erstellen)
      * [Hardwarevisualisierung aktivieren](#hardwarevisualisierung-aktivieren)
-     * [Einstellungen treffen](#einstellungen-treffen)
+     * [Virtuelle_Maschine](#virtuelle-maschine)
 1) [Ubuntu 18.04 installieren](#ubuntu-18.04-installieren)
 1) [VirtualBox Guest Additions installieren](#virtualbox-guest-additions-installieren)
 1) [Gemeinsamen Ordner erstellen](#gemeinsamen-ordner-erstellen)
@@ -23,32 +23,32 @@
 ----------------------------------------------------------------------------------------------
 
 ## Download von VirtualBox
-Der erste Schritt war [VirtualBox](https://www.virtualbox.org/wiki/Downloads) zu installieren.
-Dieser Schritt verlief relativ Problemlos.
+
+Zuerst ladet man [VirtualBox](https://www.virtualbox.org/wiki/Downloads) herunter. Dann muss man den Installationspfad angeben und ein paar mal weiterdrücken. Das ging bei mir problemlos vonstatten. 
 
 ----------------------------------------------------------------------------------------------
 
 ## Oracle VM VirtualBox Extension Pack installieren
-Anschließend mussten wir das [Oracle VM VirtualBox Extension Pack](https://download.virtualbox.org/virtualbox/6.1.4/Oracle_VM_VirtualBox_Extension_Pack-6.1.4.vbox-extpack) installieren.
-In diesem SChritt mussten keine weiteren Mßnahmen getroffen werden, da die Installation komplett automatisch ablief.
+Anschließend muss man [Oracle VM VirtualBox Extension Pack](https://download.virtualbox.org/virtualbox/6.1.4/Oracle_VM_VirtualBox_Extension_Pack-6.1.4.vbox-extpack) installieren.
+Das ist ein Zusatzpaket. Auch dieser Schritt war kein Problem.
 
 ----------------------------------------------------------------------------------------------
 
 ## Virtuelle Maschine erstellen
 ### Hardwarevisualisierung aktivieren
-Zuerst muss man im BIOS die Hardwarevisualisierung aktivieren. Dies ist von BIOS zu BIOS unterschiedlich.
-### Einstellungen treffen
-Zuerst einmal muss man unter dem Menüpunkt ```Neu``` ein neues virtuelles System erstellen. Man wird unter anderem nach dem Namen und den Ordner des Systems gefragt. Außerdem mussten wir bei ```Typ``` *Linux* und bei ```Version```*Ubuntu (64bit)* einstellen. 
-Im nächsten Schritt muss man einige Einstellungen treffen, wie zum Beispiel die Anzahl der CPU-Kerne, wie viel Arbeitsspeicher mann freigeben will, auf welcher Festplatte man Ubuntu installieren will und man muss die [ISO-Datei für Ubuntu](https://ubuntu.com/download/desktop/thank-you?version=18.04.4&architecture=amd64) auswählen.
-Einen weitereren wichtigen Punkt findet man unter ```Allgemein -> Erweitert```:
+Zuerst muss man im BIOS die Hardwarevisualisierung aktivieren. Ins BIOS kommt man beim Starten des PCs indem man die richte Taste spamt. 
+### Virtuelle Maschine
+Zuerst muss man unter dem Menüpunkt ```Neu``` ein neues virtuelles System erstellen. Man muss nun den Namen,den Ordner, den Typ und die Version des Systems eingeben. 
+Im nächsten Schritt muss man einige Einstellungen treffen wie den Arbeitsspeicher und den Festplattenspeicher. Ich habe 4 GiB RAM und 50GiB Festplattenspeicher ausgewählt.
+Jetzt muss man noch folgendes einstellen. unter ```Allgemein -> Erweitert```:
 * Gemeinsame Zwischeneinlage: *bidirektional*
 * Drag'n'Drop: *bidirektional*
 
 ----------------------------------------------------------------------------------------------
 
 ## Ubuntu 18.04 installieren
+Jetzt muss man die [ISO-Datei für Ubuntu](https://ubuntu.com/download/desktop/thank-you?version=18.04.4&architecture=amd64) herunterladen und in der virtuellen Maschine installieren.
 Nun einfach die virtuelle Maschine starten und den Anweisungen der Installationssoftware folgen.
-Dies erforderte keine speziellen Kompetenzen.
 
 ----------------------------------------------------------------------------------------------
 
