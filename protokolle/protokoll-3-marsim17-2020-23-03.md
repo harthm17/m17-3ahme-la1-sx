@@ -28,7 +28,7 @@
 
 [Installieren des HTL-Packetes](#installieren-des-htl-packetes)
 
-[Lesezeichen in Firefox und Chrome wiederherstellen]
+[Lesezeichen in Firefox und Chrome wiederherstellen](#lesezeichen-in-firefox-und-chrome-wiederherstellen)
 
 ## Installieren der Software
 
@@ -37,9 +37,9 @@ Das benutzte Betriebssystem war [Manjaro](https://wiki.manjaro.org/index.php?tit
 ### Installieren der VirtualBox
 
 Um VirtualBox zu installieren braucht man die beiden Packages `virtualbox` und `linux*-virtualbox-host-modules`, wobei die Nummer beim zweiten mit der Kernelversion zusammenpassen muss.
-Die Kernelversion findet man mit `mhwd-kernel -li` herausfinden, in meinem Fall linux54. 
+Die Kernelversion kann man mit `mhwd-kernel -li` herausfinden, in meinem Fall linux54. 
 Die Packages werden mit `sudo pacman -Syu virtualbox linux54-virtualbox-host-modules` installiert.
-Nach dem Installieren muss das System entweder neu gestartet werden oder mit `sudo vboxreload` initialisiert werden um direkt benutzt werden zu können.
+Nach dem Installieren muss das System entweder neu gestartet werden, oder mit `sudo vboxreload` initialisiert werden um direkt benutzt werden zu können.
 
 ### Installieren des Extention Packs
 
