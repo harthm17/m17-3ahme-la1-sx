@@ -50,7 +50,7 @@ Zuerst muss man im BIOS die Hardwarevisualisierung aktivieren. Dies ist von BIOS
 
 1) Nächsteres muss man den Festplattenspeicher auswählen. Die Empfehlung lag bei mindestens 50GiB, doch meiner Meinung nach bin ich mit meinen ausgewählten 40GiB schon auf der sicheren Seite.
 
-1)Danach ```Festplatte erzeugen``` und ```VDI (VirtualBox Disk Image)``` wählen. Bei der Art der Speicherung sollte man ```dynamisch alloziert``` wählen da es bei ```feste Größe``` oft zu Systemabstürzen kommt.
+1) Danach ```Festplatte erzeugen``` und ```VDI (VirtualBox Disk Image)``` wählen. Bei der Art der Speicherung sollte man ```dynamisch alloziert``` wählen da es bei ```feste Größe``` oft zu Systemabstürzen kommt.
 
 Jetzt ist das Virtuelle System erstellt und man sollte noch ein paar Feineinstellungen vornehmen, welche man unter den folgenden Punkten ändern kann:
 ```
@@ -111,14 +111,15 @@ Ziel ist es, alle verfügbaren Ressourcen der Lesezeichen Menüleiste, die es in
 
 #### Konfigurieren der Lesezeichen in Firefox
 zu befolgende Schritte:
-1. Firefox öffnen und folgenden Nummerierungen folgen:
-![Schritt1,2](https://htlkaindorfat-my.sharepoint.com/:i:/g/personal/harstm17_htl-kaindorf_at/ES6G9-UMlUBKmIYQJVTOj5kBkzDkF-J4LhSzA-ePRvGOcA?e=I8tOnT)
+1. Firefox öffnen
+1. Rechts von der Suchleiste auf das erste Symbol klicken.
+1. Anschließend "Lesezeichen" und dann "Lesezeichen verwalten auswählen
+1. Danach in der obersten Leiste auf "Importieren und Sichern" 
+1. Dort auf "Lesezeichen von HTML importieren" klicken und anschließend die bestehende HTML-Datei auswählen.
+1. Die Lesezeichenleiste einschalten, falls dies noch nicht erledigt wurde.
 
-
-
-
-
-
-
-
-
+#### Konfigurieren der Lesezeichen in Chromius
+zu befolgende Schritte:
+1. Chromius öffnen und in die Suchleiste ```chrome://bookmarks``` eingeben.
+1. In der blauen Leiste auf die drei Punkte klicken und auf ```Lesezeichen importieren``` klicken.
+1. Jetzt muss nur mehr die zu wünschende HTML-Datei ausgewählt werden, diese dann mit ```OK``` bestätigt werden und schon ist man fertig.
