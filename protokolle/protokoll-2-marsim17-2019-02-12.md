@@ -1,7 +1,7 @@
 # Protokoll LA1/SX 3AHME (2019/20)
 
-* **Thema:** Versionsverwaltungssysteme, git, Github, Markdown
-* **Datum:** 18.11.2019
+* **Thema:** Rechte, Benutzer und Gruppen unter Linux, Hashes
+* **Datum:** 02.12.2019
 * **Gefehlt:** -
 * **Erstellt von:** Marcher Simon
 * **Protokoll letzte Einheit:** [Protokoll 18.11.2019](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/marsim17/protokolle/protokoll-1-marsim17-2019-18-11.md)
