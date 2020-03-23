@@ -4,7 +4,7 @@
 * **Datum:** 23.03.2020
 * **Gefehlt:** Keiner
 * **Erstellt von:** koganm17
-* **Protokoll letzte Einheit:** [02.12.2019](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/edit/koganm17/Protokolle/Protokoll-2_koganm17_2019-12-02.md)
+* **Protokoll letzte Einheit:** [02.12.2019](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/koganm17/Protokolle/Protokoll-2_koganm17_2019-12-02.md)
 
 ----------------------------------------------------------------------------------------------
 
