@@ -15,12 +15,17 @@
 1. [Download von Virtualbox](#download-von-virtualbox)
 1. [Oracle VM VirtualBox Extension Pack installieren](#oracle-vm-virtualbox-extension-pack-installieren)
 1. [Virtuelle Maschine erstellen](#virtuelle-maschine-erstellen)
-    * [Abbild erstellen](#abbild-erstellen)
-    * [Visualisierung](#visualisierung)
+    * [Hardwarevisualisierung aktivieren](#hardwarevisualisierung-aktivieren)
+    * [Einstellungen vornehmen](#einstellungen-vornehmen)
+    * [Ubuntu.iso Datei downloaden](#ubuntu.iso-Datei-downloaden)
+    * [Massenspeicher verwalten](#massenspeicher-verwalten)
+    * [Virtuelle Maschine starten](#virtuelle-maschine-starten)
 1. [Guest Additions installieren](#guest-additions-installieren)
-1. [Verzeichnis zwischen Gastsystem und virtuellen System erstellen](#verzeichnis-zwischen-gastsystem-und-virtuellen-system-erstellen)
+1. [Verzeichnis zwischen dem Gastsystem und dem Wirtsystem erstellen](#verzeichnis-zwischen-dem-gastsystem-und-dem-wirtsystem-erstellen)
 1. [HTL Paket installieren](#htl-paket-installieren)
-1. [Menüleiste konfigurieren](#menüleiste-konfigurieren)
+1. [Lesezeichen Menüleiste in Firefox und Chromius konfigurieren](#lesezeichen-menüleiste-in-firefox-und-chromius-konfigurieren)
+    * [Konfigurieren der Lesezeichen in Firefox](#konfigurieren-der-lesezeichen-in-firefox)
+    * [Konfigurieren der Lesezeichen in Chromius](#konfigurieren-der-lesezeichen-in-chromius)
 
 -------------------------------------------------------------------------------------
 
@@ -59,6 +64,9 @@ Jetzt ist das Virtuelle System erstellt und man sollte noch ein paar Feineinstel
          Gemeinsame Zwischenablage: "bidirektional"
                        Drag'n'Drop: "bidirektional"
 ```
+
+#### Ubuntu.iso Datei downloaden
+Unter [folgendem](https://ubuntu.com/download/desktop/thank-you?version=18.04.4&architecture=amd64) Link startet der download der ISO-Datei von selbst.
 
 #### Massenspeicher verwalten
 ```
@@ -113,8 +121,8 @@ Ziel ist es, alle verfügbaren Ressourcen der Lesezeichen Menüleiste, die es in
 zu befolgende Schritte:
 1. Firefox öffnen
 1. Rechts von der Suchleiste auf das erste Symbol klicken.
-1. Anschließend "Lesezeichen" und dann "Lesezeichen verwalten auswählen
-1. Danach in der obersten Leiste auf "Importieren und Sichern" 
+1. Anschließend ```Lesezeichen``` und dann ```Lesezeichen verwalten auswählen```
+1. Danach in der obersten Leiste auf ```Importieren und Sichern``` 
 1. Dort auf "Lesezeichen von HTML importieren" klicken und anschließend die bestehende HTML-Datei auswählen.
 1. Die Lesezeichenleiste einschalten, falls dies noch nicht erledigt wurde.
 
