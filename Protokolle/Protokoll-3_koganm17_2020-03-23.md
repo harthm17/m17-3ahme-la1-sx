@@ -62,7 +62,7 @@ Bei neueren Versionen von Ubuntu ist dieses Paket schon installiert, doch wenn d
 ## Gemeinsamen Ordner erstellen
 Jetzt erstellen wir einen gemeinsamen Ordner auf den man von beiden Betriebssystemen aus zugreifen kann. 
 1) Ordner am Host-System erstellen (z.B. am Desktop)
-1) Im VirtualBox Haptmenü auf ```Geräte```gehen
+1) Im VirtualBox Hauptmenü auf ```Geräte```gehen
 1) Bei ```Gemeinsame Ordner```auf das grüne Plus klicken
 1) Den gewüschten Ordner auswählen
 
