@@ -41,8 +41,6 @@ Zuerst muss man im BIOS die Hardwarevisualisierung aktivieren. Ins BIOS kommt ma
 Zuerst muss man unter dem Menüpunkt ```Neu``` ein neues virtuelles System erstellen. Man muss nun den Namen,den Ordner, den Typ und die Version des Systems eingeben. 
 Im nächsten Schritt muss man einige Einstellungen treffen wie den Arbeitsspeicher und den Festplattenspeicher. Ich habe 4 GiB RAM und 50GiB Festplattenspeicher ausgewählt.
 Jetzt muss man noch folgendes einstellen. unter ```Allgemein -> Erweitert```:
-* Gemeinsame Zwischeneinlage: *bidirektional*
-* Drag'n'Drop: *bidirektional*
 
 ----------------------------------------------------------------------------------------------
 
@@ -62,11 +60,15 @@ Bei neueren Versionen von Ubuntu ist dieses Paket schon installiert, doch wenn d
 ----------------------------------------------------------------------------------------------
 
 ## Gemeinsamen Ordner erstellen
-In diesem Punkt erstellt man einen gemeinsamen Ordner, der sehr gut für den Transfer von Daten zwischen dem Wirt- und dem Gastsystem geeignet ist.
+Jetzt erstellen wir einen gemeinsamen Ordner auf den man von beiden Betriebssystemen aus zugreifen kann. 
 1) Ordner am Host-System erstellen (z.B. am Desktop)
 1) Im VirtualBox Haptmenü auf ```Geräte```gehen
 1) Bei ```Gemeinsame Ordner```auf das grüne Plus klicken
 1) Den gewüschten Ordner auswählen
+
+Nun kann man noch folgende Einstellungen treffen:
+* Gemeinsame Zwischeneinlage: *bidirektional*
+* Drag'n'Drop: *bidirektional*
 
 ----------------------------------------------------------------------------------------------
 
@@ -76,5 +78,4 @@ Beim Installieren des HTL-Paketes geht man nach [dieser](http://www.htl-mechatro
 ----------------------------------------------------------------------------------------------
 
 ## Browser Lesezeichen-Menüleisete konfigurieren
-Zu diesem Punkt bin ich aus zeitlichen Gründen leider nicht mehr gekommen.
-[Hier](https://support.mozilla.org/de/kb/Lesezeichen-sichern-und-wiederherstellen) ist es relativ gut beschrieben.
+[Hier](https://support.mozilla.org/de/kb/Lesezeichen-sichern-und-wiederherstellen) ist dieser Arbeitsschritt gut erklärt.
