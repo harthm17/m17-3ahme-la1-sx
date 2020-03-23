@@ -8,12 +8,73 @@
 
 ----------------------------------------------------------------------------------------------
 
-## Inhaltsverzeichnis
-
-1. [Dateirechte grundlegend](#dateirechte-grundlegend)
-1. [Rechtekommandos](#rechtekommandos)
-2. [Benutzer anlegen](#benutzer-anlegen)
-1. [Sonstiges](#sonstiges)
-
+## Inhaltsverzeichniss
+1) [Download von VirtualBox](#download-von-virtualbox)
+1) [Oracle VM VirtualBox Extension Pack installieren](#oracle-vm-virtualbox-extension-pack-installieren)
+1) [Virtuelle Maschine erstellen](#virtuelle-maschine-erstellen)
+     * [Hardwarevisualisierung aktivieren](#hardwarevisualisierung-aktivieren)
+     * [Einstellungen treffen](#einstellungen-treffen)
+1) [Ubuntu 18.04 installieren](#ubuntu-18.04-installieren)
+1) [VirtualBox Guest Additions installieren](#virtualbox-guest-additions-installieren)
+1) [Gemeinsamen Ordner erstellen](#gemeinsamen-ordner-erstellen)
+1) [HTL-Paket installieren](#htl-paket-installieren)
+1) [Browser Lesezeichen-Menüleisete konfigurieren](#browser-lesezeichen-menüleisete-konfigurieren)
 
 ----------------------------------------------------------------------------------------------
+
+## Download von VirtualBox
+Der erste Schritt war [VirtualBox](https://www.virtualbox.org/wiki/Downloads) zu installieren.
+Dieser Schritt verlief relativ Problemlos.
+
+----------------------------------------------------------------------------------------------
+
+## Oracle VM VirtualBox Extension Pack installieren
+Anschließend mussten wir das [Oracle VM VirtualBox Extension Pack](https://download.virtualbox.org/virtualbox/6.1.4/Oracle_VM_VirtualBox_Extension_Pack-6.1.4.vbox-extpack) installieren.
+In diesem SChritt mussten keine weiteren Mßnahmen getroffen werden, da die Installation komplett automatisch ablief.
+
+----------------------------------------------------------------------------------------------
+
+## Virtuelle Maschine erstellen
+### Hardwarevisualisierung aktivieren
+Zuerst muss man im BIOS die Hardwarevisualisierung aktivieren. Dies ist von BIOS zu BIOS unterschiedlich.
+### Einstellungen treffen
+Zuerst einmal muss man unter dem Menüpunkt ```Neu``` ein neues virtuelles System erstellen. Man wird unter anderem nach dem Namen und den Ordner des Systems gefragt. Außerdem mussten wir bei ```Typ``` *Linux* und bei ```Version```*Ubuntu (64bit)* einstellen. 
+Im nächsten Schritt muss man einige Einstellungen treffen, wie zum Beispiel die Anzahl der CPU-Kerne, wie viel Arbeitsspeicher mann freigeben will, auf welcher Festplatte man Ubuntu installieren will und man muss die [ISO-Datei für Ubuntu](https://ubuntu.com/download/desktop/thank-you?version=18.04.4&architecture=amd64) auswählen.
+Einen weitereren wichtigen Punkt findet man unter ```Allgemein -> Erweitert```:
+* Gemeinsame Zwischeneinlage: *bidirektional*
+* Drag'n'Drop: *bidirektional*
+
+----------------------------------------------------------------------------------------------
+
+## Ubuntu 18.04 installieren
+Nun einfach die virtuelle Maschine starten und den Anweisungen der Installationssoftware folgen.
+Dies erforderte keine speziellen Kompetenzen.
+
+----------------------------------------------------------------------------------------------
+
+##  VirtualBox Guest Additions installieren
+Bei neueren Versionen von Ubuntu ist dieses Paket schon installiert, doch wenn das nicht so sein sollte, folgendermaße vorgehen:
+1) Virtuelle Maschine starten, in der die Guest Additions installiert werden sollen
+1) Im Fenster der virtuellen Maschine auf den Menüpunkt ```Geräte```klicken
+1) Auf ```Medium mit Gasterweiterungen einlegen```gehen
+1) Auf ```VBoxWindowsAdditions.exe ausführen```klicken
+
+----------------------------------------------------------------------------------------------
+
+## Gemeinsamen Ordner erstellen
+In diesem Punkt erstellt man einen gemeinsamen Ordner, der sehr gut für den Transfer von Daten zwischen dem Wirt- und dem Gastsystem geeignet ist.
+1) Ordner am Host-System erstellen (z.B. am Desktop)
+1) Im VirtualBox Haptmenü auf ```Geräte```gehen
+1) Bei ```Gemeinsame Ordner```auf das grüne Plus klicken
+1) Den gewüschten Ordner auswählen
+
+----------------------------------------------------------------------------------------------
+
+## HTL-Paket installieren
+Beim Installieren des HTL-Paketes geht man Laut [dieser](http://www.htl-mechatronik.at/ubuntu-htl/readme) Beschreibung vor.
+
+----------------------------------------------------------------------------------------------
+
+## Browser Lesezeichen-Menüleisete konfigurieren
+Zu diesem Punkt bin ich aus zeitlichen Gründen leider nicht mehr gekommen.
+[Hier](https://support.mozilla.org/de/kb/Lesezeichen-sichern-und-wiederherstellen) ist es relativ gut beschrieben.
