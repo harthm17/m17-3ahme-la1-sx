@@ -112,7 +112,7 @@ Ziel ist es, alle verfügbaren Ressourcen der Lesezeichen Menüleiste, die es in
 #### Konfigurieren der Lesezeichen in Firefox
 zu befolgende Schritte:
 1. Firefox öffnen und folgenden Nummerierungen folgen:
-![Bild 1]https://htlkaindorfat-my.sharepoint.com/:i:/g/personal/harstm17_htl-kaindorf_at/ES6G9-UMlUBKmIYQJVTOj5kBkzDkF-J4LhSzA-ePRvGOcA?e=I8tOnT
+![]https://htlkaindorfat-my.sharepoint.com/:i:/g/personal/harstm17_htl-kaindorf_at/ES6G9-UMlUBKmIYQJVTOj5kBkzDkF-J4LhSzA-ePRvGOcA?e=I8tOnT
 
 
 
