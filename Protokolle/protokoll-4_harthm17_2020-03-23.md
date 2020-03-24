@@ -19,15 +19,15 @@
 * [Lesezeichen in Firefox konfigurieren](#lesezeichen-in-firefox-konfigurieren)
 
 ---------------------------------------------
-## Download einer Virtuellen Box
+### Download einer Virtuellen Box
 
-## Oracle VM VirtualBox Extension Pack installieren
+### Oracle VM VirtualBox Extension Pack installieren
 
-## Virtuelle Maschine einrichten
+### Virtuelle Maschine einrichten
 
-## Ubuntu installieren
+### Ubuntu installieren
 
-## HTL Paket installieren
+### HTL Paket installieren
 
-## Lesezeichen in Firefox konfigurieren
+### Lesezeichen in Firefox konfigurieren
 
