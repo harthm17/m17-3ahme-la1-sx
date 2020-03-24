@@ -17,7 +17,7 @@ Anwesend:      Felix Hamrle, Stefan Haring, Thomas Harrer, Georg Kaufmann, Andre
 
 ### Inhaltsverzeichnis
 1) [Download von Virtualbox](#downloadvonvirtualbox) 
-1) [Oracle VM VirtualBox Extension Pack installieren](#dokumentation) 
+1) [Oracle VM VirtualBox Extension Pack installieren](#oraclevmvirtualboxextensionpackinstallieren) 
 1) [Markdown](#markdown)
 1) [Installation von Ubuntu 18.04](#github)   
 1) [Virtualbox Guest Additions](#...)
@@ -28,6 +28,8 @@ Anwesend:      Felix Hamrle, Stefan Haring, Thomas Harrer, Georg Kaufmann, Andre
 -------------------------------------------------
 
 ### Download von Virtualbox
-Immer wenn eine neue **Version** entsteht, wird diese in einer Datenbank hochgeladen.   
-Es ist z.B. feststellbar wer die neue Version hochgeladen hat, wann diese hochgeladen wurde, was hochgeladen wurde und vieles mehr.     
+Zu aller erst muss man eine [Virtualbox](https://www.virtualbox.org/wiki/Downloads) installieren. Dies sollte zu keinen großen Problemen führen. 
 
+-------------------------------------------------
+
+### Oracle VM VirtualBox Extension Pack installieren
