@@ -11,7 +11,7 @@
 ---------------------------------------------
 ## Inhaltsverzeichnis
 
-* [Download einer Virtuellen Box](#download-einer-virtuellen-box)
+* [Download und Installation einer Virtual Box](#download-und-installation-einer-virtual-box)
 * [Oracle VM VirtualBox Extension Pack installieren](#oracle-vm-virtualbox-extension-pack-installieren)
 * [Virtuelle Maschine einrichten](#virtuelle-maschine-einrichten)
 * [Ubuntu installieren](#ubuntu-installieren)
@@ -19,7 +19,7 @@
 * [Lesezeichen in Firefox konfigurieren](#lesezeichen-in-firefox-konfigurieren)
 
 ---------------------------------------------
-### Download einer Virtuellen Box
+### Download und Installation einer Virtual Box
 
 ### Oracle VM VirtualBox Extension Pack installieren
 
