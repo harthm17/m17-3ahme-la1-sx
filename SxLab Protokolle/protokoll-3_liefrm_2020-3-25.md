@@ -36,4 +36,4 @@ Diese Grafik unterscheidet sich in gewissen unbeachtlichen Punkten mit der zuers
 
 ---------------------------------------------------------------------------------------------------------------
 ## Erstellen und einrichten einer virtuellen Maschine
-
+Währendessen Punkt 3 hier beschrieben wird, kann Punkt 4 währendessen schon ausgeführt werden. Punkt 4 wird dennoch extra beschrieben.
