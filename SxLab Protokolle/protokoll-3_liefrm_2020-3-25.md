@@ -27,11 +27,13 @@ Mit dem Link https://www.virtualbox.org/wiki/Downloads wird die Seite für die I
 ### Packet aussuchen
 Die Virtualbox für das jeweillige am Computer laufende Betriebssystem herunterladen, in meinem Fall war es für Windows.
 ![](https://cdn.discordapp.com/attachments/691664570208616518/692317087728664606/unknown.png)
+
 -----------------------------------------------------------------------------------------------------------
 ## Installation von Oracle VM VirtualBox Extension Pack
 Mit dem Link https://download.virtualbox.org/virtualbox/6.1.4/Oracle_VM_VirtualBox_Extension_Pack-6.1.4.vbox-extpack gelingt man auf die Seite für die Inastallation von **Oracle VirtualBox Extension Pack**, danach wird mit "Öffnen" der Seite die Virtualbox aufgerufen. Nur die Installation muss ausgeführt werden. Alles funktioniert bis zum nächsten Punkt Automatisch.
 ![](https://cdn.discordapp.com/attachments/691664570208616518/692322046234853436/unknown.png)
 Diese Grafik unterscheidet sich in gewissen unbeachtlichen Punkten mit der zuerst erscheinenden. In diesem Bild ist Ubuntu bereits in der Virtualbox Installiert.
 
+---------------------------------------------------------------------------------------------------------------
 ## Erstellen und einrichten einer virtuellen Maschine
 
