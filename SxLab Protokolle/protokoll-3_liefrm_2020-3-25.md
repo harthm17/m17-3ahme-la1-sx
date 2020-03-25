@@ -30,7 +30,7 @@ Die Virtualbox für das jeweillige am Computer laufende Betriebssystem herunterl
 
 -----------------------------------------------------------------------------------------------------------
 ## Installation von Oracle VM VirtualBox Extension Pack
-Mit dem Link https://download.virtualbox.org/virtualbox/6.1.4/Oracle_VM_VirtualBox_Extension_Pack-6.1.4.vbox-extpack gelingt man auf die Seite für die Inastallation von **Oracle VirtualBox Extension Pack**, danach wird mit "Öffnen" der Seite die VirtualBox, sprich, der Oracle VirtualBox Manager, aufgerufen. Nur die Installation muss ausgeführt werden. Alles funktioniert bis zum nächsten Punkt Automatisch!
+Mit dem Link https://download.virtualbox.org/virtualbox/6.1.4/Oracle_VM_VirtualBox_Extension_Pack-6.1.4.vbox-extpack gelingt man auf die Seite für die Inastallation von **Oracle VirtualBox Extension Pack**, danach wird mit **"Öffnen"** der Seite die VirtualBox, sprich, der Oracle VirtualBox Manager, aufgerufen. Nur die Installation muss ausgeführt werden. Alles funktioniert bis zum nächsten Punkt Automatisch!
 ![](https://cdn.discordapp.com/attachments/691664570208616518/692322046234853436/unknown.png)
 Diese Grafik unterscheidet sich in gewissen unbeachtlichen Punkten mit der zuerst erscheinenden. In diesem Bild ist Ubuntu bereits in der Virtualbox Installiert.
 
@@ -39,12 +39,15 @@ Diese Grafik unterscheidet sich in gewissen unbeachtlichen Punkten mit der zuers
 **Währendessen Punkt 3 hier angeführt wird, kann Punkt 4  schon ausgeführt werden. Punkt 4 wird dennoch extra beschrieben!**
 
 ### Einrichten der Virtualbox
-Im Oracle VirtualBox Manager wird als aller erstes eine neue virtuelle Maschine erstellt, durch Drücken des Symboles "Neu", dass sich oben mittig im Programmfenster befindet.
+Im **Oracle VirtualBox Manager** wird als aller erstes eine neue virtuelle Maschine erstellt, durch Drücken des Symboles **"Neu"**, dass sich oben mittig im Programmfenster befindet.
 
 ![](https://cdn.discordapp.com/attachments/691664570208616518/692330649960448020/unknown.png)
 
 Danach erscheint ein nächstes Fenster, die nächsten Tätigkeiten werden nur in diesem Fenster ausgeführt! 
 * **Ordner:** gewünschten Namen eingeben
+* **Dateipfad:** gewünschten Dateipfad, wo die Dateien gespeichert werden, auswählen
 * **Typ:** Linux auswählen
 * **Version:** Ubuntu (64-Bit) auswählen
 ![](https://media.discordapp.net/attachments/691664570208616518/692334047136841748/unknown.png?width=1443&height=617)
+
+**Nächster Schritt:** Arbeitsspeicher zuweisen
