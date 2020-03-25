@@ -36,9 +36,14 @@ Diese Grafik unterscheidet sich in gewissen unbeachtlichen Punkten mit der zuers
 
 ---------------------------------------------------------------------------------------------------------------
 ## Erstellen und einrichten einer virtuellen Maschine
-**Währendessen Punkt 3 hier beschrieben wird, kann Punkt 4  schon ausgeführt werden. Punkt 4 wird dennoch extra beschrieben!**
+**Währendessen Punkt 3 hier angeführt wird, kann Punkt 4  schon ausgeführt werden. Punkt 4 wird dennoch extra beschrieben!**
 
 ### Einrichten der Virtualbox
 Im Oracle VirtualBox Manager wird als aller erstes eine neue virtuelle Maschine erstellt, durch Drücken des Symboles "Neu", dass sich oben mittig im Programmfenster befindet.
 
 ![](https://cdn.discordapp.com/attachments/691664570208616518/692330649960448020/unknown.png)
+
+Danach erscheint ein nächstes Fenster, die nächsten Tätigkeiten werden nur in diesem Fenster ausgeführt. 
+* **Ordner:** gewünschten Namen eingeben
+* **Typ:** Linux auswählen
+* **Version:** Ubuntu (64-Bit) auswählen
