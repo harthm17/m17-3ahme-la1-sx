@@ -51,8 +51,5 @@ Danach erscheint ein nächstes Fenster, die nächsten Tätigkeiten werden nur in
 ![](https://media.discordapp.net/attachments/691664570208616518/692334047136841748/unknown.png?width=1443&height=617)
 Danach auf **"Weiter"** drücken!
 
-**Nächster Schritt:** Arbeitsspeicher zuweisen
-
-Es werden mindestens 4GiB empfohlen.
-
+**Nächster Schritt:** Arbeitsspeicher zuweisen. Es werden mindestens 4GiB empfohlen.
 ![](https://media.discordapp.net/attachments/691664570208616518/692336097077755944/unknown.png)
