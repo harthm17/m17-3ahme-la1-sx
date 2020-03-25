@@ -43,7 +43,8 @@ Im Oracle VirtualBox Manager wird als aller erstes eine neue virtuelle Maschine 
 
 ![](https://cdn.discordapp.com/attachments/691664570208616518/692330649960448020/unknown.png)
 
-Danach erscheint ein nächstes Fenster, die nächsten Tätigkeiten werden nur in diesem Fenster ausgeführt. 
+Danach erscheint ein nächstes Fenster, die nächsten Tätigkeiten werden nur in diesem Fenster ausgeführt! 
 * **Ordner:** gewünschten Namen eingeben
 * **Typ:** Linux auswählen
 * **Version:** Ubuntu (64-Bit) auswählen
+![](https://media.discordapp.net/attachments/691664570208616518/692334047136841748/unknown.png?width=1443&height=617)
