@@ -30,5 +30,5 @@ Die Virtualbox für das jeweillige am Computer laufende Betriebssystem herunterl
 
 ## Installation von Oracle VM VirtualBox Extension Pack
 Mit dem Link https://download.virtualbox.org/virtualbox/6.1.4/Oracle_VM_VirtualBox_Extension_Pack-6.1.4.vbox-extpack gelingt man auf die Seite für die Inastallation von **Oracle VirtualBox Extension Pack**, danach wird mit "Öffnen" der Seite die Virtualbox aufgerufen. Nur die Installation muss ausgeführt werden. Alles funktioniert bis zum nächsten Punkt Automatisch.
-![](https://cdn.discordapp.com/attachments/691664570208616518/692322046234853436/unknown.png)
+![DD](https://cdn.discordapp.com/attachments/691664570208616518/692322046234853436/unknown.png)
 
