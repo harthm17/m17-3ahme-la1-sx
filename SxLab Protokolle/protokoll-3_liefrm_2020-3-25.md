@@ -10,7 +10,7 @@
 --------------------------------------------------------------------------------------------------------
 ## Inhaltsverzeichnis:
 
-1. [Installation von Virtualbox]
+1. [Installation von Virtualbox](#installatio-von-virtualbox)
 1. [Installation von Oracle VM VirtualBox Extension Pack]
 1. [Erstellen und einrichten einer virtuellen Maschine]
 1. [Installation von Ubuntu 18.04 LTS in der virtuallen Maschine]
