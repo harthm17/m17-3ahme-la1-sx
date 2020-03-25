@@ -96,3 +96,10 @@ Befindet man sich in der virtuellen Maschine, wählt man: **"Geräte"->Medium mi
 ![](https://cdn.discordapp.com/attachments/691664570208616518/692387478677487646/unknown.png)
 
 ------------------------------------------------------------------------------------------------------------------------------------
+## Installation des HTL Paketes
+Mit dem Link http://www.htl-mechatronik.at/ubuntu-htl/readme erhält man genaustens beschrieben, wie die Installation, auszuführen in der Shell, funktioniert.
+
+Im meinem Fall wird die gewünschte Seite, auf der sich die Anweisungen befinden, durch eine Störung sehr schlecht formatiert. Deswegen schreibe ich zur Hilfe die Befehle in das Protokoll:
+
+
+
