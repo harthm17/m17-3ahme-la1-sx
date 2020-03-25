@@ -1,6 +1,6 @@
 # Protokoll LA1/sx AHME17 (2019/20)
 -------------------------------------------------------------
-  * **Thema:** Github und Markdown
+  * **Thema:** Github und Markdown 
   * **Datum:** 20.09.2019
   * **Gefehlt:** ---
   * **Erstellt von:** Raphael Golser
