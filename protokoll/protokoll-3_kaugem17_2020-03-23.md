@@ -73,12 +73,26 @@ macOS:
 Hier wird ein gemeinsamer Ordner erstellt. Dieser dient dazu einen transfer von Daten zwischen dem virtuellen und normalen Betriebsystem zu gewährleisten.
 * Zu aller erst einen Ordner am Host-System erstellen.
 * Anschließend in der VirtualBox das *Hauptmenü* und *Geräte* auswählen.
-* Dannach bei *Gemeinsame Ordner* auf das grüne Plus klicken und den gemeinsamen Ordner auswählen. 
+* Dannach bei *Gemeinsame Ordner* auf das grüne Plus klicken und den gemeinsamen Ordner ausführen. 
 
 -------------------------------------------------
 
 ### Installation des HTL-Paktettes
+Um das HTL-Pakett zu erhalten sollte man [folgendermaßen](http://www.htl-mechatronik.at/ubuntu-htl/readme) vorgehen. 
 
 -------------------------------------------------
 
 ### Lesezeichen Menüleiste im Browser konfigurieren
+Firefox:
+* Erstmals muss man auf das *Bücherregal* klicken, anschließend muss man den *Stern* auswählen.
+* Dort sollte man *Lesezeichen verwalten* auswählen. Im neuen Fenster auf *Importieren und Sichern* klicken. Hier kann man vier Punkte ausfrühen.    
+  * *Daten aus einem Browser importieren* ... import aus beispielsweiße Chrome Browser möglich.    
+  * *Wiederherstellen* ... wiederherstellung von vergangenen Datum möglich.
+  * *Lesezeichen von HTML importieren* ... inform von einer HTML Datei die am Computer gespeichert ist das Format auf den Browser importieren.    
+  * *Lesezeichen von HTML exportieren* ...  hiermit kann man seine Lesezeichen inform von einer HTML Datei am Computer speichern. 
+  
+Chrome:
+* Man muss auf das Dreipunkt-Menü klicken.
+* Anschließend muss man *Lesezeichen* und *Lesezeichen und Einstellungen importieren* auswählen.
+* Nun das Programm auswählen das die gewünschten Lesezeichen enthält und auf *importieren* klicken.     
+Für weitere Einstellungen einfach [hier](https://support.google.com/chrome/answer/96816?hl=de) klicken.
