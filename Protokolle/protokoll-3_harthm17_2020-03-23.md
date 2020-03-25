@@ -12,6 +12,8 @@
 ## Inhaltsverzeichnis
 
 * [Download und Installation einer Virtual Box](#download-und-installation-einer-virtual-box)
+  * [Herunterladen](#)
+  * [](#)
 * [Oracle VM VirtualBox Extension Pack installieren](#oracle-vm-virtualbox-extension-pack-installieren)
 * [Virtuelle Maschine einrichten](#virtuelle-maschine-einrichten)
 * [Ubuntu installieren](#ubuntu-installieren)
@@ -25,9 +27,10 @@ Der erste Schritt ist, eine Virtual Box herunterzuladen. In meinen Fall musste i
 Um auf die Website zu kommen, klicken Sie [hier](https://www.virtualbox.org/wiki/Downloads)
 
 #### Installation
-
+Nachdem Sie die Installationsdatei heruntergeladen haben, müssen Sie diese dann ausführen und die Installationsschritte befolgen.
 
 ### Oracle VM VirtualBox Extension Pack installieren
+Dannach muss das Oracle VM VirtualBox Extension Pack heruntergeladen werden. Dies wird dann auch automatisch installiert. Um das Pack herunterzuladen, klicken Sie [hier](https://download.virtualbox.org/virtualbox/6.1.4/Oracle_VM_VirtualBox_Extension_Pack-6.1.4.vbox-extpack)
 
 ### Virtuelle Maschine einrichten
 
