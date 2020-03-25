@@ -105,6 +105,7 @@ Im meinem Fall wird die gewünschte Seite, auf der sich die Anweisungen befinden
 ´´´bash
 liefrm17@Franz-Virtual-Box:~$ sudo -i
 ´´´
+
 **Zweiter Schritt:** Die Befehle zur Installation des HTL Paketes:
 ´´´bash
 root@Franz-Virtual-Box:~$ wget -O -http://www.htl-mechatronik.at/ubuntu-htl/install | bash
