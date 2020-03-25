@@ -49,12 +49,15 @@ Danach erscheint ein nächstes Fenster, die nächsten Tätigkeiten werden nur in
 * **Typ:** Linux auswählen
 * **Version:** Ubuntu (64-Bit) auswählen
 ![](https://media.discordapp.net/attachments/691664570208616518/692334047136841748/unknown.png?width=1443&height=617)
+
 Danach auf **"Weiter"** drücken!
 
 **Nächster Schritt:** Arbeitsspeicher zuweisen. Es werden mindestens 4GiB empfohlen.
 ![](https://media.discordapp.net/attachments/691664570208616518/692336097077755944/unknown.png)
+
 Danach auf **"Weiter"** drücken!
 
 **Nächster Schritt:** Virtuelle Festplatte zuweisen. Es werden mindestens 50GiB empfohlen.
 ![](https://media.discordapp.net/attachments/691664570208616518/692339161868402738/unknown.png)
+
 Danach auf **"Erzeugen"** drücken!
