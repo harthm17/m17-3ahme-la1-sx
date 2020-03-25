@@ -69,6 +69,8 @@ Danach auf **"Erzeugen"** drücken!
 * **Drag´n´Drop:** bidirektional
 ![](https://media.discordapp.net/attachments/691664570208616518/692342307244212276/unknown.png)
 
+**TIPP:** Falls sich die virtuelle Maschine nicht starten lässt, dann im BIOS des jeweilig verwendeten Computers die Hardwarevisualisierungen aktivieren/umändern. Dieses Problem tritt aber nicht bei jedem Benutzer auf.
+
 -------------------------------------------------------------------------------------------------------------------------
 ## Installation von Ubuntu 18.04 LTS in der virtuallen Maschine
 Mit dem Link https://ubuntu.com/download/desktop/thank-you?version=18.04.4&architecture=amd64 wird die Seite zur Installation der Ubuntu.iso Datei aufgerufen. Um weiterzumachen sofort installieren!
@@ -76,5 +78,10 @@ Mit dem Link https://ubuntu.com/download/desktop/thank-you?version=18.04.4&archi
  Die Ubunto.iso Datei, die dann schon heruntergeladen wurde, in die Virtuelle Maschine einfügen. Dazu geht man unter **"Ändern"->"Massenspeicher"**. Den Pfad **"Controller: IDE"** auswählen und auf das Symbol(**"Blaue CD"**) klicken, wiederrum dann die Ubuntu.iso Datei auswählen.
 ![](https://media.discordapp.net/attachments/691664570208616518/692378909374939165/unknown.png)
 
-Jetzt ist Ubuntu in der virtuellen MAschine Installationsbereit!
+Jetzt ist Ubuntu in der virtuellen Maschine Installationsbereit!
 
+-------------------------------------------------------------------------------------------------------------------------------------
+## Installation von Virtualbox Guest Additions in Ubuntu
+Befindet man sich in der virtuellen Maschine, wählt man: **"Geräte"->Medium mit Gasterweiterung einlegen**, dann die Guest Additions installieren.
+
+![](https://media.discordapp.net/attachments/691664570208616518/692384601942786188/unknown.png)
