@@ -16,14 +16,14 @@ Anwesend:      Felix Hamrle, Stefan Haring, Thomas Harrer, Georg Kaufmann, Andre
 -------------------------------------------------
 
 ### Inhaltsverzeichnis
-1) [Download von Virtualbox](#downloadvonvirtualbox) 
-1) [Oracle VM VirtualBox Extension Pack installieren](#oraclevmvirtualboxextensionpackinstallieren) 
-1) [Erstellen der virtuellen Maschine](#erstellendervirtuellenmaschine)
-1) [Installation von Ubuntu 18.04](#installationvonubuntu18.04)   
-1) [Virtualbox Guest Additions](#virtualboxguestadditions)
-1) [Verzeichnis zwischen dem Gastsystem und dem virtuellen System](#verzeichniszwischendemgastsystemunddemvirtuellensystem)
-1) [Installation des HTL-Paktettes](#installationdeshtl-paktettes)
-1) [Lesezeichen Menüleiste im Browser konfigurieren](#lesezeichenmenüleisteimbrowserkonfigurieren)
+1) [Download von Virtualbox](#download-von-virtualbox) 
+1) [Oracle VM VirtualBox Extension Pack installieren](#oracle-vm-virtualbox-extension-pack-installieren) 
+1) [Erstellen der virtuellen Maschine](#erstellen-der-virtuellen-maschine)
+1) [Installation von Ubuntu 18.04](#installation-von-ubuntu-18.04)   
+1) [Virtualbox Guest Additions](#virtualbox-guest-additions)
+1) [Verzeichnis zwischen dem Gastsystem und dem virtuellen System](#verzeichnis-zwischen-dem-gastsystem-und-dem-virtuellen-system)
+1) [Installation des HTL-Paktettes](#installation-des-htl-paktettes)
+1) [Lesezeichen Menüleiste im Browser konfigurieren](#lesezeichen-menüleiste-im-browser-konfigurieren)
 
 -------------------------------------------------
 
