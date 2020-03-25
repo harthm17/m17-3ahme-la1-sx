@@ -82,6 +82,17 @@ Jetzt ist Ubuntu in der virtuellen Maschine Installationsbereit!
 
 -------------------------------------------------------------------------------------------------------------------------------------
 ## Installation von Virtualbox Guest Additions in Ubuntu
-Befindet man sich in der virtuellen Maschine, wählt man: **"Geräte"->Medium mit Gasterweiterung einlegen**, dann die Guest Additions installieren.
+Befindet man sich in der virtuellen Maschine, wählt man: **"Geräte"->Medium mit Gasterweiterung einlegen**, dann die Guest Additions installieren (**VBoxWindowsAdditions.exe**).
 
 ![](https://media.discordapp.net/attachments/691664570208616518/692384601942786188/unknown.png)
+
+-----------------------------------------------------------------------------------------------------------------------------------
+## Ein Verzeichnis zwischen dem Gastsystem und dem virtuellen System erstellen
+* Im Gastsystem Ordener erstellen
+* Dann in Oracle VM  VirtualBox Manager auf **"Ändern"->"Gemeinsame Ordner"** auswählen
+* Anschließend auf das Symbol (**"Grünes Plus"**) klicken
+* Zum Schluss gewünschten Ordener auswählen
+
+![](https://cdn.discordapp.com/attachments/691664570208616518/692387478677487646/unknown.png)
+
+------------------------------------------------------------------------------------------------------------------------------------
