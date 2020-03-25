@@ -24,4 +24,5 @@
 Mit dem Link https://www.virtualbox.org/wiki/Downloads wird die Seite mit dem Instalationsfähigen Packet im Internet aufgerufen.
 ### Packet aussuchen
 Die Virtualbox für das jeweillige am Computer laufende Betriebssystem herunterladen, in meinem Fall war es für Windows.
+
 ![]https://cdn.discordapp.com/attachments/691664570208616518/692317087728664606/unknown.png
