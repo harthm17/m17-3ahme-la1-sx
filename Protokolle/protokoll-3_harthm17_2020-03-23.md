@@ -37,6 +37,11 @@ Dannach muss das Oracle VM VirtualBox Extension Pack heruntergeladen werden. Die
 ### Ubuntu installieren
 
 ### HTL Paket installieren
+Anschließend muss das HTL Paket installiert werden.
+Um das HTL Paket zu installieren, muss man zu allererst als Superuser einsteigen.
+```
+hallo
+```
 
 ### Lesezeichen in Firefox konfigurieren
 
