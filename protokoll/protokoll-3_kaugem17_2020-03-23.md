@@ -40,7 +40,7 @@ Nachfolgend wird das [Oracle VM Virtual Extension Pack](https://download.virtual
 ### Erstellen der virtuellen Maschine
 Anschließend erstellt man seine virtuelle Maschine. Dazu sind folgende Punkte zu beachten und durch zu führen.
 * Es müssen die BIOS Hardware Visualisierungen aktiviert sein. 
-* Zu allerst muss man auf *NEU* klicken. 
+* Zu aller erst muss man auf *NEU* klicken. 
 * Nun muss man einen angemessenen Namen vergeben (Beispiel: Ubuntu-18.04-Kaufmann). Für die virtuellen Maschine einen Ordner auswählen und das Betriebssystem so wie die Version auswählen. In unserem Fall war dies *Linux* und *Ubuntu 64bit*
 * Dann muss man die Speichergröße des Hauptspeichers vergeben. Empfohlen werden mindestens 4GiB. 
 * Darauf muss man eine Festplatte erstellen. Diese sollte mindestens 50GiB haben.
@@ -50,7 +50,7 @@ Anschließend erstellt man seine virtuelle Maschine. Dazu sind folgende Punkte z
 -------------------------------------------------
 
 ### Installation von Ubuntu
-Wir haben [Ubuntu 18.04](https://ubuntu.com/download/desktop/thank-you?version=18.04.4&architecture=amd64) installiert, hierbei ist zudem darauf zu achten die Desktop Version und nicht die Server Version zu installieren. Sollte eigentlich klar sein. Hier einfach die ISO-Datei herunterladen und alles weitere ist im Punkt [Erstellen der virtuellen Maschine](#erstellen-der-virtuellen-maschine) erklärt. 
+Wir haben [Ubuntu 18.04](https://ubuntu.com/download/desktop/thank-you?version=18.04.4&architecture=amd64) installiert, hierbei ist zudem darauf zu achten, die Desktop Version und nicht die Server Version zu installieren. Sollte eigentlich klar sein. Hier einfach die ISO-Datei herunterladen und alles weitere ist im Punkt [Erstellen der virtuellen Maschine](#erstellen-der-virtuellen-maschine) erklärt. 
 
 -------------------------------------------------
 
@@ -77,7 +77,7 @@ Hier wird ein gemeinsamer Ordner erstellt. Dieser dient dazu einen transfer von 
 
 -------------------------------------------------
 
-### Installation des HTL-Paktettes
+### Installation des HTL-Pakettes
 Um das HTL-Pakett zu erhalten sollte man [folgendermaßen](http://www.htl-mechatronik.at/ubuntu-htl/readme) vorgehen. 
 
 -------------------------------------------------
