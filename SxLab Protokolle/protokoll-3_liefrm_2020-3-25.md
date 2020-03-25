@@ -113,8 +113,10 @@ root@Franz-Virtual-Box:~$ apt update
 root@Franz-Virtual-Box:~$ apt dist-upgrade
 root@Franz-Virtual-Box:~$ apt install htl
 ```
+------------------------------------------------------------------------------------------------------------------------
+## Konfiguration des Lesezeichens in Firefox/Chrome
+**In Arbeit...**
 
-```
-user@ubuntu:~$ sudo -i
-```
-
+--------------------------------------------------------------------------------------------------------------------
+## Resume
+**In Arbeit...**
