@@ -102,17 +102,19 @@ Mit dem Link http://www.htl-mechatronik.at/ubuntu-htl/readme erhält man genaust
 Im meinem Fall wird die gewünschte Seite, auf der sich die Anweisungen befinden, durch eine Störung sehr schlecht formatiert. Deswegen schreibe ich zur Hilfe die Befehle in das Protokoll:
 
 **Erster Schritt:** Man muss sich als Super-User in der Shell anmelden, Passwort nicht vergessen!
-´´´´
+```
 liefrm17@Franz-Virtual-Box:~$ sudo -i
-´´´´ 
+```
 
 **Zweiter Schritt:** Die Befehle zur Installation des HTL Paketes:
-´´´´
+```
 root@Franz-Virtual-Box:~$ wget -O -http://www.htl-mechatronik.at/ubuntu-htl/install | bash
 root@Franz-Virtual-Box:~$ apt update
 root@Franz-Virtual-Box:~$ apt dist-upgrade
 root@Franz-Virtual-Box:~$ apt install htl
-´´´´
+```
 
-
+```
+user@ubuntu:~$ sudo -i
+```
 
