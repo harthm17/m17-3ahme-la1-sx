@@ -69,9 +69,9 @@ Danach auf **"Erzeugen"** drücken!
 * **Drag´n´Drop:** bidirektional
 ![](https://media.discordapp.net/attachments/691664570208616518/692342307244212276/unknown.png)
 
-
-
-**Nächster Schritt:** Die Ubunto.iso Datei, die schon heruntergeladen wurde, in die Virtuelle Maschine einfügen. Dazu geht man unter **"Ändern"->"Massenspeicher"**. Den Pfad **"Controller: IDE"** auswählen und auf das Symbol(**"Blaue CD"**) klicken, wiederrum dann die Ubuntu.iso Datei auswählen.
+-------------------------------------------------------------------------------------------------------------------------
+## Installation von Ubuntu 18.04 LTS in der virtuallen Maschine
+ Die Ubunto.iso Datei, die schon heruntergeladen wurde, in die Virtuelle Maschine einfügen. Dazu geht man unter **"Ändern"->"Massenspeicher"**. Den Pfad **"Controller: IDE"** auswählen und auf das Symbol(**"Blaue CD"**) klicken, wiederrum dann die Ubuntu.iso Datei auswählen.
 ![](https://media.discordapp.net/attachments/691664570208616518/692378909374939165/unknown.png)
 
-*Jetzt ist Ubuntu Installationsbereit!*
+Jetzt ist Ubuntu Installationsbereit!
