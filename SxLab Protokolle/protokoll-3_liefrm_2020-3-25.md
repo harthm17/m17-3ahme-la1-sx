@@ -22,7 +22,7 @@
 
 -------------------------------------------------------------------------------------------------------
 ## Installation von Virtualbox
-Mit dem Link https://www.virtualbox.org/wiki/Downloads wird die Seite für die Installation der **Virtualbox** im Internet aufgerufen.
+Mit dem Link https://www.virtualbox.org/wiki/Downloads wird die Seite für die Installation der **VirtualBox** im Internet aufgerufen.
 
 ### Packet aussuchen
 Die Virtualbox für das jeweillige am Computer laufende Betriebssystem herunterladen, in meinem Fall war es für Windows.
@@ -30,10 +30,14 @@ Die Virtualbox für das jeweillige am Computer laufende Betriebssystem herunterl
 
 -----------------------------------------------------------------------------------------------------------
 ## Installation von Oracle VM VirtualBox Extension Pack
-Mit dem Link https://download.virtualbox.org/virtualbox/6.1.4/Oracle_VM_VirtualBox_Extension_Pack-6.1.4.vbox-extpack gelingt man auf die Seite für die Inastallation von **Oracle VirtualBox Extension Pack**, danach wird mit "Öffnen" der Seite die Virtualbox aufgerufen. Nur die Installation muss ausgeführt werden. Alles funktioniert bis zum nächsten Punkt Automatisch.
+Mit dem Link https://download.virtualbox.org/virtualbox/6.1.4/Oracle_VM_VirtualBox_Extension_Pack-6.1.4.vbox-extpack gelingt man auf die Seite für die Inastallation von **Oracle VirtualBox Extension Pack**, danach wird mit "Öffnen" der Seite die VirtualBox, sprich, der Oracle VirtualBox Manager, aufgerufen. Nur die Installation muss ausgeführt werden. Alles funktioniert bis zum nächsten Punkt Automatisch!
 ![](https://cdn.discordapp.com/attachments/691664570208616518/692322046234853436/unknown.png)
 Diese Grafik unterscheidet sich in gewissen unbeachtlichen Punkten mit der zuerst erscheinenden. In diesem Bild ist Ubuntu bereits in der Virtualbox Installiert.
 
 ---------------------------------------------------------------------------------------------------------------
 ## Erstellen und einrichten einer virtuellen Maschine
-Währendessen Punkt 3 hier beschrieben wird, kann Punkt 4 währendessen schon ausgeführt werden. Punkt 4 wird dennoch extra beschrieben.
+**Währendessen Punkt 3 hier beschrieben wird, kann Punkt 4  schon ausgeführt werden. Punkt 4 wird dennoch extra beschrieben!**
+
+### Einrichten der Virtualbox
+Im Oracle VirtualBox Manager wird als aller erstes eine neue virtuelle Maschine erstellt, durch Drücken des Symboles "Neu", dass sich oben mittig im Programm befindet.
+![]https://cdn.discordapp.com/attachments/691664570208616518/692330649960448020/unknown.png
