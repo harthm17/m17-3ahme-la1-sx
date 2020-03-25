@@ -62,6 +62,9 @@ Danach auf **"Weiter"** drücken!
 
 Danach auf **"Erzeugen"** drücken!
 
-**Ein Wichtiger Punkt:** Unter (**"Ändern"**->**Allgemein**->**Erweitert**) soltte folgendes festgelegt werden:
+
+
+**Ein Wichtiger Punkt:** Unter (**"Ändern"**->**"Allgemein"**->**"Erweitert"**) soltte folgendes festgelegt werden:
 * **Gemeinsame Zwischenablage:** bidirektional
 * **Drag´n´Drop:** bidirektional
+![](https://media.discordapp.net/attachments/691664570208616518/692342307244212276/unknown.png)
