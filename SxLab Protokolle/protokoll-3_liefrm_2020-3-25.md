@@ -7,6 +7,7 @@
 * **Protokoll der letzten Einheit:**
 * **Protokoll der nächsten Einheit:**
 
+**Manche Grafiken, die hier angeführt werden, werden sich mit den aufgerufenen Fenstern, die vor der Installation angezeigt werden, sich minimalst unterscheiden!!!**
 --------------------------------------------------------------------------------------------------------
 ## Inhaltsverzeichnis:
 
