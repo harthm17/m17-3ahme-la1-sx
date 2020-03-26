@@ -40,11 +40,14 @@ Dannach muss das Oracle VM VirtualBox Extension Pack heruntergeladen werden. Die
 Anschließend muss das HTL Paket installiert werden.
 Um das HTL Paket zu installieren, muss man zu allererst als Superuser einsteigen.
 ```
-
+thomas@thomas-VirtualBox:~$ sudo -i
 ```
 Dannach müssen Sie die folgenden Befehle nach der vorgegeben Reihenfolge eingeben.
 ```
-
+root@thomas-VirtualBox:~# wget -O - http://www.htl-mechatronik.at/ubuntu-htl/install | bash
+root@thomas-VirtualBox:~# apt update
+root@thomas-VirtualBox:~# apt dist-upgrade
+root@thomas-VirtualBox:~# install htl
 ```
 
 ### Lesezeichen in Firefox konfigurieren
