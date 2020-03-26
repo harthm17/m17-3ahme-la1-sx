@@ -36,7 +36,7 @@ Dannach muss das Oracle VM VirtualBox Extension Pack heruntergeladen werden. Die
 Als Betriebssystem haben wir uns für Ubuntu entschieden, deswegen haben wir Ubuntu 18.04 LTS heruntergeladen. Dies ist eine .iso Datei. Um zum Download dieser Datei zu kommen, klicken Sie [hier](https://ubuntu.com/download/desktop/thank-you?version=18.04.4&architecture=amd64).
 
 Der erste Schritt ist es eine **neue** Virtual Box zu erstellen.
-![]()
+![](https://cdn.discordapp.com/attachments/692432976503373854/692693827693051974/bild1.PNG)
 
 Der nächste Schritt ist es, seinen Wunschnamen für die VirtualBox eingeben, den Dateipfad angeben, wo die Datein der neuen Distribution gespeichert werden.
 ![]()
