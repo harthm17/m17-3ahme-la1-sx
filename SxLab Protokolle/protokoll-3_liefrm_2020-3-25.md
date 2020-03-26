@@ -117,7 +117,9 @@ root@Franz-Virtual-Box:~$ apt install htl
 ## Konfiguration des Lesezeichens in Firefox/Chrome
 **In Arbeit...**
 
-Hier finden Sie einen Link 
+Hier finden Sie einen Link: https://support.mozilla.org/de/kb/Lesezeichen-sichern-und-wiederherstellen 
+
+Auf dieser Website wird alles gut beschrieben.
 
 --------------------------------------------------------------------------------------------------------------------
 ## Resume
