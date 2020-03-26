@@ -12,8 +12,8 @@
 ## Inhaltsverzeichnis
 
 * [Download und Installation einer Virtual Box](#download-und-installation-einer-virtual-box)
-  * [Herunterladen](#)
-  * [](#)
+  * [Herunterladen](#herunterladen)
+  * [Installation](#installation)
 * [Oracle VM VirtualBox Extension Pack installieren](#oracle-vm-virtualbox-extension-pack-installieren)
 * [Virtuelle Maschine einrichten](#virtuelle-maschine-einrichten)
 * [Ubuntu Auflösung](#ubuntu-auflösung)
