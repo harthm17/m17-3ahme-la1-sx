@@ -48,7 +48,7 @@ Der logisch folgende Schritt ist es, anzugeben wie viel Speicher es zu verfügun
 Nach diesem Schritt kann man die VirtualBox erzeugen.
 ![]()
 
-**WICHTIG**
+**WICHTIG:**
 Nach diesem Schritt kann man logischerweiße die VirtualBox noch nicht starten, da noch kein Betriebssystem ausgewahlt ist. Um ein Betriebssystem auszuwählen, muss man einmal auf "Ändern" klicken und dann auf "Massenspeicher" gehen. Dannach muss man die .iso Datei, die man vorher heruntergeladen hat, auswählen.
 ![]()
 
