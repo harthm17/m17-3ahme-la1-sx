@@ -57,6 +57,10 @@ Nach diesem Schritt kann man logischerweiße die VirtualBox noch nicht starten, 
 
 ![](https://cdn.discordapp.com/attachments/692432976503373854/692693822551097344/bild5.PNG)
 
+Der letzte Schritt vor dem Starten ist es, erneut in "Ändern" zu gehen, dann in "Allgemein" -> "Erweitert" und beide Auswahlmöglichkeiten auf bidirektional zu stellen, wie Sie im unterem Bild sehen können.
+
+![](https://cdn.discordapp.com/attachments/692432976503373854/692707847212892181/bild10.PNG)
+
 Nun kann man die VirtualBox starten.
 Wenn die VirtualBox gestartet ist, muss man oben auf "Geräte" gehen, dann auf "Gästerweiterungen einlegen". Dannach kann man die Guest Additions installieren.
 
@@ -89,4 +93,13 @@ root@thomas-VirtualBox:~# install htl
 ```
 
 ### Lesezeichen in Firefox konfigurieren
+Der erste Schritt ist es Firefox zu öffnen. Dann geht man rechts oben im Eck auf das "Bücherregel"-Logo und dann sieht man dann Lesezeichen. Anschließend geht man dann auf den Stern und dann unten auf "Lesezeichen verwalten". Nun öffnet sich ein neues Fenster, wo man oben in der Menüleisten "Importieren und Sichern" steht. Wenn man diesen klickt, bekommt man eine Auswahl von verschiedenen Möglichkeiten.
 
+**Sichern:** Um die aktuelle Lesezeichen zu sichern.
+**Wiederherstellen:** Mit dieser Funktion können Sie alte Lesezeichen mit Hilfe des Datum wiederherstellen.
+**Lesezeichen von HTML importieren:** Hiermit kann man die aktuelle Lesezeichenleiste als HTML Dokument speichern und diese dann ins Internet geben.
+**Lesezeichen nach HTML exportieren:** Damit kann man Lesezeichen als HTML Format herunterladen und diese dann zu Ihrer Leiste hinzufügen.
+**Daten aus einem aderen Browser importieren:** Hiermit kann man die Lesezeichen aus z.B Chronium exportieren und diese in Firefox importieren.
+
+Man kann sich die HTL-Lesezeichen unter /usr/share/htl/links/firefox/ herunterladen und diese dann in Firefox importieren.
+Ich habe diesen Schritt in der schulischen Zeit nicht geschafft, weil ich es sehr lange mit Chronium versucht habe, aber leider nicht geschafft habe. Jedoch sind in Chronium die Schritte ziemlich ähnlich wie in Firefox.
