@@ -40,7 +40,7 @@ Der erste Schritt ist es eine **neue** Virtual Box zu erstellen.
 ![](https://cdn.discordapp.com/attachments/692432976503373854/692693827693051974/bild1.PNG)
 
 Der nächste Schritt ist es, seinen Wunschnamen für die VirtualBox eingeben, den Dateipfad angeben, wo die Datein der neuen Distribution gespeichert werden.
-![]()
+![](https://cdn.discordapp.com/attachments/692432976503373854/692693816234213386/bild2.PNG)
 
 Dannach muss man angeben, wie viel Arbeitsspeicher dein neues Betriebssystem in Anspruch nehmen darf. In unserem Fall waren das **mindestens** 4GiB.
 ![]()
