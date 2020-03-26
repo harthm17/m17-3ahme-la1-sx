@@ -16,7 +16,7 @@
   * [](#)
 * [Oracle VM VirtualBox Extension Pack installieren](#oracle-vm-virtualbox-extension-pack-installieren)
 * [Virtuelle Maschine einrichten](#virtuelle-maschine-einrichten)
-* [Ubuntu einrichten](#ubuntu-einrichten)
+* [Ubuntu Auflösung](#ubuntu-auflösung)
 * [HTL Paket installieren](#htl-paket-installieren)
 * [Lesezeichen in Firefox konfigurieren](#lesezeichen-in-firefox-konfigurieren)
 
@@ -67,8 +67,11 @@ Wenn die VirtualBox gestartet ist, muss man oben auf "Geräte" gehen, dann auf "
 Wenn man erneut auf "Ändern" geht und dann auf "Gemeinsamer Ordner" geht, kann man einen Gemeinsamen Ordner erstellen. Mit diesem kann man zwischen dem Gastsystem und dem virtuellen System ein Verzeichnis teilen.
 ![](https://cdn.discordapp.com/attachments/692432976503373854/692693823565856809/bild6.PNG)
 
-### Ubuntu einrichten
-Auflösung
+### Ubuntu Auflösung
+Ich hatte das Problem, dass meine Auflösung in der VirtualBox sehr unbrauchbar war. Deswegen musste ich diese auch bearbeiten.
+Als Erstes muss man in Ubuntu "Anzeigegeräte" suchen. Dann wählt man unter Auflösung 1920x1200 (16:10) aus und drückt dann **Rechte Steuerung + F** und startet die Maschine neu. Dann hat man die passende Auflösung für Ihren Bildschirm. In meinem Fall war es 16:9.
+
+![](https://cdn.discordapp.com/attachments/692694428128772116/692702639829286972/bild9.png)
 
 ### HTL Paket installieren
 Anschließend muss das HTL Paket installiert werden.
