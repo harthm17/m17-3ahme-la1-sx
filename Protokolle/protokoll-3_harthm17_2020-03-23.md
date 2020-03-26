@@ -45,9 +45,22 @@ Dannach muss man angeben, wie viel Arbeitsspeicher dein neues Betriebssystem in 
 ![]()
 
 Der logisch folgende Schritt ist es, anzugeben wie viel Speicher es zu verfügung hat. In unserem Fall waren dies **mindestens** 50GiB.
+Nach diesem Schritt kann man die VirtualBox erzeugen.
+![]()
+
+**WICHTIG**
+Nach diesem Schritt kann man logischerweiße die VirtualBox noch nicht starten, da noch kein Betriebssystem ausgewahlt ist. Um ein Betriebssystem auszuwählen, muss man einmal auf "Ändern" klicken und dann auf "Massenspeicher" gehen. Dannach muss man die .iso Datei, die man vorher heruntergeladen hat, auswählen.
+![]()
+
+Nun kann man die VirtualBox starten.
+Wenn die VirtualBox gestartet ist, muss man oben auf "Geräte" gehen, dann auf "Gästerweiterungen einlegen". Dannach kann man die Guest Additions installieren.
+![]()
+
+Wenn man erneut auf "Ändern" geht und dann auf "Gemeinsamer Ordner" geht, kann man einen Gemeinsamen Ordner erstellen. Mit diesem kann man zwischen dem Gastsystem und dem virtuellen System ein Verzeichnis teilen.
+![]()
 
 ### Ubuntu einrichten
-
+Auflösung
 
 ### HTL Paket installieren
 Anschließend muss das HTL Paket installiert werden.
