@@ -36,7 +36,7 @@ Das ist ein Zusatzpaket. Auch dieser Schritt war kein Problem.
 
 ## Virtuelle Maschine erstellen
 ### Hardwarevisualisierung aktivieren
-Zuerst muss man im BIOS die Hardwarevisualisierung aktivieren. Ins BIOS kommt man beim Starten des PCs indem man die richtige Taste spamt.  Die Visualisierung aktiviert man im Bios unter ```erweiterten Einstellungen``` und hier sucht man die ```SVM``` und aktiviert diese.
+Zuerst muss man im BIOS die Hardwarevisualisierung aktivieren. Ins BIOS kommt man beim Starten des PCs indem man die richtige Taste spamt (von Gerät zu Gerät unterschiedlich).  Die Visualisierung aktiviert man im Bios unter ```erweiterten Einstellungen``` und dort sucht man die ```SVM``` und aktiviert diese.
 ### Virtuelle Maschine
 Zuerst muss man unter dem Menüpunkt ```Neu``` ein neues virtuelles System erstellen. Man muss nun den Namen,den Ordner, den Typ und die Version des Systems eingeben. 
 Im nächsten Schritt muss man einige Einstellungen treffen wie den Arbeitsspeicher und den Festplattenspeicher. Ich habe 4 GiB RAM und 50GiB Festplattenspeicher ausgewählt.
@@ -73,9 +73,16 @@ Nun kann man noch folgende Einstellungen treffen:
 ----------------------------------------------------------------------------------------------
 
 ## HTL-Paket installieren
-Beim Installieren des HTL-Paketes geht man nach [dieser](http://www.htl-mechatronik.at/ubuntu-htl/readme) Beschreibung vor. Das Installieren dauert ziemlich lange, da es viele Daten sind.
+Beim Installieren des HTL-Paketes muss man ein paar Befehle eingeben:
+  1. ```sudo -i```
+  2. ```wget -O - http://www.htl-mechatronik.at/ubuntu-htl/install | bash```
+  3. ```apt update```
+  4. ```apt dist-upgrade```
+  5. ```apt install htl```  
+So liegt es auch in [dieser](http://www.htl-mechatronik.at/ubuntu-htl/readme) Beschreibung vor. Das Installieren dauert ziemlich lange, da es viele Daten sind. Ein lesitungsstarkes Netzwerk ist vom Vorteil.
 
 ----------------------------------------------------------------------------------------------
 
 ## Browser Lesezeichen-Menüleisete konfigurieren
-[Hier](https://support.mozilla.org/de/kb/Lesezeichen-sichern-und-wiederherstellen) ist dieser Arbeitsschritt gut erklärt.
+Ich habe die Lesezeichen bei Firefox konfiguriert, weil das in diesem Browser einfacher gehen soll als in anderen. 
+[Hier](https://support.mozilla.org/de/kb/Lesezeichen-sichern-und-wiederherstellen) ist ein Link wo dieser Arbeitsschritt auf Firefox gut erklärt ist.
