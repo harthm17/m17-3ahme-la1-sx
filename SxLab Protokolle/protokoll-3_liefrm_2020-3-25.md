@@ -119,8 +119,8 @@ root@Franz-Virtual-Box:~$ apt install htl
 
 Hier finden Sie einen Link: https://support.mozilla.org/de/kb/Lesezeichen-sichern-und-wiederherstellen 
 
-Auf dieser Website wird alles gut beschrieben.
+Auf dieser Website wird alles benötigte gut beschrieben.
 
 --------------------------------------------------------------------------------------------------------------------
 ## Resümee
-Die Ausführung dieses Arbeitsauftrages hat sich in gewissen Punkten schwieriger erwiesen als gedacht, obwohl alles von Haus aus ziemlich genau und bestens beschrieben war. Mit der Bedienung des eigenen Hausverstandes ist man in vielen Punkten sehr gut voran gekommen. Trotz der schwierigeren Kleinigkeiten ist alles bis zum Punkt "Installation des HTL-Paketes" reibungslos abgelaufen. Mit der Unterstützung und der Kompetenten Hilfe einiger Mitschüler, ist es eine leicht zu meisternde Aufgabe. Aber wie gesagt, in gewissen Punkten, die nicht beschrieben waren habe ich Unterstützung benötigt. 
+Die Ausführung dieses Arbeitsauftrages hat sich in gewissen Punkten schwieriger erwiesen als gedacht, obwohl alles von Haus aus ziemlich genau und bestens beschrieben war. Mit der Bedienung des eigenen Hausverstandes ist man in vielen Punkten sehr gut voran gekommen. Trotz der schwierigeren Kleinigkeiten ist alles bis zum Punkt "Installation des HTL-Paketes" reibungslos abgelaufen. Mit der Unterstützung und der Kompetenten Hilfe einiger Mitschüler, ist es eine leicht zu meisternde Aufgabe. Aber wie gesagt, in gewissen Punkten, die nicht beschrieben waren/sind, habe ich Unterstützung benötigt. 
