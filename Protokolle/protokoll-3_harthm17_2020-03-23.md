@@ -96,10 +96,16 @@ root@thomas-VirtualBox:~# install htl
 Der erste Schritt ist es Firefox zu öffnen. Dann geht man rechts oben im Eck auf das "Bücherregel"-Logo und dann sieht man dann Lesezeichen. Anschließend geht man dann auf den Stern und dann unten auf "Lesezeichen verwalten". Nun öffnet sich ein neues Fenster, wo man oben in der Menüleisten "Importieren und Sichern" steht. Wenn man diesen klickt, bekommt man eine Auswahl von verschiedenen Möglichkeiten.
 
 **Sichern:** Um die aktuelle Lesezeichen zu sichern.
+
 **Wiederherstellen:** Mit dieser Funktion können Sie alte Lesezeichen mit Hilfe des Datum wiederherstellen.
+
 **Lesezeichen von HTML importieren:** Hiermit kann man die aktuelle Lesezeichenleiste als HTML Dokument speichern und diese dann ins Internet geben.
+
 **Lesezeichen nach HTML exportieren:** Damit kann man Lesezeichen als HTML Format herunterladen und diese dann zu Ihrer Leiste hinzufügen.
+
 **Daten aus einem aderen Browser importieren:** Hiermit kann man die Lesezeichen aus z.B Chronium exportieren und diese in Firefox importieren.
 
 Man kann sich die HTL-Lesezeichen unter /usr/share/htl/links/firefox/ herunterladen und diese dann in Firefox importieren.
 Ich habe diesen Schritt in der schulischen Zeit nicht geschafft, weil ich es sehr lange mit Chronium versucht habe, aber leider nicht geschafft habe. Jedoch sind in Chronium die Schritte ziemlich ähnlich wie in Firefox.
+
+Ich habe von Mitschülern eine Link bekommen, wo diese Schritte genauer erklärt wurden. Um zu dieser Website zu kommen, klicken sie [hier](https://support.mozilla.org/de/kb/Lesezeichen-sichern-und-wiederherstellen)
