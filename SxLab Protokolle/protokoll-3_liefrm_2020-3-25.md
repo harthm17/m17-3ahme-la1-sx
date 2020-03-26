@@ -18,7 +18,7 @@
 1. [Ein Verzeichnis zwischen dem Gastsystem und dem virtuellen System erstellen](#ein-verzeichnis-zwischen-dem-gastsystem-und-dem-virtuellen-system-erstellen)
 1. [Installation des HTL Paketes](#installation-des-htl-paketes)
 1. [Konfiguration des Lesezeichens in Firefox/Chrome](#konfiguration-des-lesezeichens-in-firefoxchrome)
-1. [Resume](#resume)
+1. [Resümee](#resümee)
 
 -------------------------------------------------------------------------------------------------------
 ## Installation von Virtualbox
@@ -122,5 +122,5 @@ Hier finden Sie einen Link: https://support.mozilla.org/de/kb/Lesezeichen-sicher
 Auf dieser Website wird alles gut beschrieben.
 
 --------------------------------------------------------------------------------------------------------------------
-## Resume
-**In Arbeit...**
+## Resümee
+Die Ausführung dieses Arbeitsauftrages hat sich in gewissen Punkten schwieriger erwiesen als gedacht, obwohl alles von Haus aus ziemlich genau und bestens beschrieben ist, mit der Bedienung des eigenen Hausverstandes ist man in vielen Punkten sehr gut voran gekommen. Trotz der schwierigeren Kleinigkeiten ist alles bis zum Punkt "Installation des HTL-Paketes" reibungslos abgelaufen. Mit der Unterstützung und der Kompetenten Hilfe einiger Mitschüler, ist es eine leicht zu meisternde Aufgabe. Aber wie gesagt, in gewissen Punkten habe ich Unterstützung benötigt. 
