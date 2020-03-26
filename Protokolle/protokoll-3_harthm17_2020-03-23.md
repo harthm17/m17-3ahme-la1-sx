@@ -69,7 +69,7 @@ Wenn man erneut auf "Ändern" geht und dann auf "Gemeinsamer Ordner" geht, kann 
 
 ### Ubuntu Auflösung
 Ich hatte das Problem, dass meine Auflösung in der VirtualBox sehr unbrauchbar war. Deswegen musste ich diese auch bearbeiten.
-Als Erstes muss man in Ubuntu "Anzeigegeräte" suchen. Dann wählt man unter Auflösung 1920x1200 (16:10) aus und drückt dann **Rechte Steuerung + F** und startet die Maschine neu. Dann hat man die passende Auflösung für Ihren Bildschirm. In meinem Fall war es 16:9.
+Als Erstes muss man in Ubuntu "Anzeigegeräte" suchen. Dann wählt man unter Auflösung 1920x1200 (16:10) aus und drückt dann **Rechte Steuerung + F** und startet die Maschine neu. Dann haben Sie die passende Auflösung für Ihren Bildschirm. In meinem Fall war es 1920x1080 (16:9).
 
 ![](https://cdn.discordapp.com/attachments/692694428128772116/692702639829286972/bild9.png)
 
