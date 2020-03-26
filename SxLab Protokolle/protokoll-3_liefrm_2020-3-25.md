@@ -22,7 +22,7 @@
 1. [Resümee](#resümee)
 
 -------------------------------------------------------------------------------------------------------
-**Achtung:Manche Grafiken, die hier angeführt werden, werden sich mit den aufgerufenen Fenstern, die vor der Installation angezeigt werden, sich minimalst unterscheiden!!!**
+**Achtung: So manche Grafiken, die in diesem Protokoll gezeigt  werden, werden sich mit den aufgerufenen Fenstern, die vor der Installation angezeigt werden, sich minimalst unterscheiden!!!**
 
 ## Installation von Virtualbox
 Mit dem Link https://www.virtualbox.org/wiki/Downloads wird die Seite für die Installation der **VirtualBox** im Internet aufgerufen.
