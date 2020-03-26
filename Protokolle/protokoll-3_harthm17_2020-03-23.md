@@ -16,7 +16,7 @@
   * [](#)
 * [Oracle VM VirtualBox Extension Pack installieren](#oracle-vm-virtualbox-extension-pack-installieren)
 * [Virtuelle Maschine einrichten](#virtuelle-maschine-einrichten)
-* [Ubuntu installieren](#ubuntu-installieren)
+* [Ubuntu einrichten](#ubuntu-einrichten)
 * [HTL Paket installieren](#htl-paket-installieren)
 * [Lesezeichen in Firefox konfigurieren](#lesezeichen-in-firefox-konfigurieren)
 
@@ -34,13 +34,16 @@ Dannach muss das Oracle VM VirtualBox Extension Pack heruntergeladen werden. Die
 
 ### Virtuelle Maschine einrichten
 
-### Ubuntu installieren
+
+### Ubuntu einrichten
+
 
 ### HTL Paket installieren
 Anschließend muss das HTL Paket installiert werden.
 Um das HTL Paket zu installieren, muss man zu allererst als Superuser einsteigen.
 ```
 thomas@thomas-VirtualBox:~$ sudo -i
+-> [sudo] Passwort für Thomas: 
 ```
 Dannach müssen Sie die folgenden Befehle nach der vorgegeben Reihenfolge eingeben.
 ```
