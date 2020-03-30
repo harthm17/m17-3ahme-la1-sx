@@ -46,9 +46,54 @@ Beim Folgen des [Links](https://lms.at/mybib/MjM3NDc1ODU5/bibs/dotlrn_class_inst
 
 1. Was bedeutet der Begriff Dämon in Linux-Systemen und in Java?
 
-* Ein Dämon ist ein Hintergrundprogramm, welches bestimmte Dienste zur Verfügung stellt.
+Ein Dämon ist ein Hintergrundprogramm, welches bestimmte Dienste zur Verfügung stellt.
 
-* [Wikipedia](https://de.wikipedia.org/wiki/Daemon) zitiert folgendes:
+[Wikipedia](https://de.wikipedia.org/wiki/Daemon) zitiert folgendes:
 >Als Daemon [ˈdiːmən] oder Dämon (auch häufig in der Schreibweise Demon) bezeichnet man unter Unix oder unixartigen Systemen ein Programm, das im Hintergrund abläuft und bestimmte Dienste zur Verfügung stellt. Benutzerinteraktionen finden hierbei nur auf indirektem Weg statt, zum Beispiel über Signale, Pipes und vor allem (Netzwerk-)Sockets. Der Begriff Daemon wird auch als Abkürzung von disk and execution monitor interpretiert, was jedoch ein Backronym ist.<
 
+1. Die Übung 1 wie im e-Book beschrieben durchführen
 
+##### Aufgabenstellung
+
+Mit dem folgenden C-Programm kann man auf zB. einem Raspberry Pi (Jessi) einen Dienst erstellen. Der Dienst hat die Aufgabe 4x Text im Abstand von 2 Sekunden ins Log schreiben. Dies geschieht gewöhnlich für einen Dienst im Hintergrund.
+
+##### C-Programm
+
+Die klassische Vorgangsweise bestand darin in einem Programm mittels fork() einen Kindprozess abzuspalten, und diesen dann im Hintergrund weiterlaufen zu lassen. Mit systemd ist das nicht mehr erforderlich. Es wird lediglich ein C-Programm benötigt, das die gewünschte Aufgabe erfüllt.
+
+Datei *mydaemon.c*
+```C
+#include <stdio.h>
+#include <stdlib.h>
+#include <syslog.h>
+#include <unistd.h>
+
+int main () {
+    openlog ("mydaemon", LOG_PID, LOG_DAEMON);
+
+    syslog (LOG_NOTICE, "mydaemon started.");
+    printf("Hello 1\n"); fflush(stdout);
+    sleep (2);
+    printf("Hello 2\n"); fflush(stdout);
+    sleep (2);
+    printf("Hello 3\n"); fflush(stdout);
+    sleep (2);
+    syslog(LOG_WARNING, "bin bei der letzten Ausgabe...");
+    printf("Hello 4\n"); fflush(stdout);
+
+    usleep(1000);
+    syslog (LOG_NOTICE, "mydaemon terminated.");
+    closelog();
+    usleep(1000);
+
+    return 0;
+}
+```
+Dieses C-Programm musste in unserem Fall auf der Virtual-box gespeichert werden. Das Dateiende sollte ***.c*** lauten. Ich habe das Programm zuerst unter dem Dateiende ***.txt*** gespeichert gehabt. Dies führte später zu Komplikationen, wie bald folgt.
+
+##### Programm übersetzen
+
+Folgende Befehle waren anschließend auszuführen:
+![](https://cdn.discordapp.com/attachments/692288920716705812/694187716388323358/shell1.PNG)
+
+Man bemerkt, dass manche Befehle öfters ausgeführt worden sind. Grund waren eben die Komplikationen mit dem Dateiende, wie oben beschrieben.
