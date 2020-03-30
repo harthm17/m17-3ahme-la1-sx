@@ -12,7 +12,7 @@
 1) [Vorraussetzungen](#vorraussetzungen)
 1) [Unterlagen](#unterlagen)
 1) [Dämon in Linux-Systemen und Java](#dämon-in-linux-systemen-und-java)
-1) [Uebung 1: Systemdienst mit syslog-Ausgabe](#uebung-1:-systemdienst-mit-syslog-Ausgabe)
+1) [Uebung 1: Systemdienst mit syslog-Ausgabe](#uebung-1:-systemdienst-mit-syslog-ausgabe)
 
 ----------------------------------------------------------------------------------------------
 ## Vorraussetzungen
@@ -38,14 +38,38 @@ laut [wikipedia](https://de.wikipedia.org/wiki/Daemon)
 
 ----------------------------------------------------------------------------------------------
 ## Uebung 1: Systemdienst mit syslog-Ausgabe
-### Programm übersetzen
+In dieser Uebung sollen wir einen Dienst mit Hilfe der Programmiersprache C erstellen.
+Der Dienst soll im Hintergrund laufen und viermal einen Text im Abstand von zwei Sekunden schreiben.
 
+[Hier](https://lms.at/dotlrn/classes/informatik/610437.3AHME_LA1SX.19_20/xolrn/9F2714A93B69A.symlink?resource_id=0-420357452&m=view#155470740) ist die Datei nach der wir vorgegangen sind.
+### Programm übersetzen
+In diesem Punkt übersetzen wir das vorgefertigte C-Programm mit dem Gnu gcc Compiler. 
+
+verwendete Befehle:
+```
+1. mkdir mydaemon
+1. cd mydaemon
+1. nano mydaemon.c
+1. gcc -o mydaemon mydaemon.c
+1. ls -l
+```
 ### Programm testen
 
-### systemd Service erstellen
+In diesem Punkt starten wir das Programm in der Shell mit
+``` ./mydaemon ```
+ 
+Danach können wir uns in neuen seperaten Shells mit Hilfe von folgenden Befehlen die Ausgaben im Log oder im journald anzeigen lassen.
+```
+1. journalctl -f
+1. journalctl -f -p 4
+1. journalctl -f -v verbose
+1. tail -f /var/log/syslog
+```
 
-### Service starten, stoppen und beobachten
+### weitere Punkte
 
-### Autostart
+Die nächsten Punkte sind systemd Service erstellen, Service starten, stoppen und beobachten und Autostart.  
+Ich bin leider nur bis zum Punkt systemd Service erstellen gekommen, da es dort ein Problem gab.  
+Das Problem war, dass ich keinen Link erstellen konnte, weil er laut Fehlermeldung schon erstellt war und beim nächsten Punkt konnte ich keinen Dienst starten, da kein Link vorhanden war. Ich habe über eine halbe Stunde in die Fehlerbehebung investiert und das leider zu unnütz. Ich habe Hilfe von Herrn Augustin bekommen, aber auch er konnte mir nicht helfen. Wir versuchten diese Datei mit dem Link zu löschen und neu zu erstellen, aber das hat leider nicht funktioniert.
 
 ----------------------------------------------------------------------------------------------
