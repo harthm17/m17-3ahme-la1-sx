@@ -1,1 +1,54 @@
+# Protokoll-4 LABOR/SX 3AHME (2019/20)
+
+---------------------------------------------------------------------------------------------
+
+* **Thema:** Dienste in Linux-Systemen
+* **Datum:** 30.03.2020
+* **Gefehlt:** -
+* **Erstellt von:** Stefan Haring (harstm17)
+* **Protokoll der letzten Einheit:** [Protokoll 3](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/edit/harstm17/protokolle/protokoll-3_harstm17_2020-03-23.md)
+
+----------------------------------------------------------------------------------------------
+
+## Inhaltsverzeichnis  
+
+1. [Vorraussetzungen](#vorraussetzungen)
+1. [Teil 1](#teil-1.-durcharbeiten-der-unterlagen)
+1. [Teil 2](#teil-2.-erstellung-eines-dienstes-(dämon))
+1. [Teil 3](#teil-3)
+
+    
+-------------------------------------------------------------------------------------------------------------------
+
+### Vorraussetzungen
+
+Vorraussetzend ist es, [die Linux Grundkenntnisse (e-Book LMS Bibliothek / Linux-1)](https://lms.at/mybib/MjM3NDc1ODU5/bibs/dotlrn_class_instance/xolrn__381036830.symlink/7BF1B31508DF3.symlink?resource_id=0-237477244-237484829-381037558-385942208&m=view#150874536) zu beherrschen und entweder eine Virtualbox installiert zu haben oder auf einem Ubuntu 18.04 System zu arbeiten. Ein funktionierender Internetzugang ist ebenso vorrausgesetzt.
+
+-------------------------------------------------------------------------------------------------------------
+
+### Teil 1. Durcharbeiten der Unterlagen
+
+Hier gilt es [das LMS e-book Bibliothek / Linux-2 / Kapitel 1, 1.1, 1.3](https://lms.at/mybib/MjM3NDc1ODU5/bibs/dotlrn_class_instance/xolrn__381036830.symlink/9F2714A93B69A.symlink?resource_id=0-237477244-237484829-381037558-420357452&m=view#155470713) und [diese Internetseite](https://wiki.ubuntuusers.de/systemd/) durchzuarbeiten. Im Sinne von Durcharbeiten ist gemeint, das vollständige Verstehen des gelesenen Stoffes und das falls notwendige Nachrecherieren von nicht verstandenen Themen. 
+
+-----------------------------------------------------------------------------------------------------------------
+
+### Teil 2. Erstellung eines Dienstes (Dämon)
+
+#### Ablauf der Übung
+
+Normalerweise würde die Übung auf einem Raspberry PI mit Raspbian Lite System (ohne Desktop GUI)
+stattfinden. Daher sollte auf IDE, Nautilus etc. verzichtet werden. Nur eine (oder mehrere) Shell(s) öffnen
+und darin mit Shell-Kommandos und Text-Editor nano arbeiten.
+
+Beim Folgen des [Links](https://lms.at/mybib/MjM3NDc1ODU5/bibs/dotlrn_class_instance/xolrn__381036830.symlink/9F2714A93B69A.symlink?resource_id=0-237477244-237484829-381037558-420357452&m=view#155470740) stößt man auf eine Aufgabenstellung, mit der man mit Hilfe der Programmiersprache C einen Dienst erstellt.
+
+#### Beantwortung der Fragen
+
+1. Was bedeutet der Begriff Dämon in Linux-Systemen und in Java?
+
+* Ein Dämon ist ein Hintergrundprogramm, welches bestimmte Dienste zur Verfügung stellt.
+
+* [Wikipedia](https://de.wikipedia.org/wiki/Daemon) zitiert folgendes:
+>Als Daemon [ˈdiːmən] oder Dämon (auch häufig in der Schreibweise Demon) bezeichnet man unter Unix oder unixartigen Systemen ein Programm, das im Hintergrund abläuft und bestimmte Dienste zur Verfügung stellt. Benutzerinteraktionen finden hierbei nur auf indirektem Weg statt, zum Beispiel über Signale, Pipes und vor allem (Netzwerk-)Sockets. Der Begriff Daemon wird auch als Abkürzung von disk and execution monitor interpretiert, was jedoch ein Backronym ist.<
+
 
