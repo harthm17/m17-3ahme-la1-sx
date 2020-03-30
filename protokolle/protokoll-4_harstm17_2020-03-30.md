@@ -15,7 +15,12 @@
 1. [Vorraussetzungen](#vorraussetzungen)
 1. [Teil 1 Durcharbeiten der Unterlagen](#teil-1-durcharbeiten-der-unterlagen)
 1. [Teil 2 Erstellung eines Dienstes](#teil-2-erstellung-eines-dienstes)
-1. [Teil 3](#teil-3)
+    * [Ablauf der Übung](#ablauf-der-übung)
+    * [Beantwortung der Fragen](#beantwortung-der-fragen)
+        * [Aufgabenstellung](#aufgabenstellung)
+        * [C-Programm](#c-programm)
+        * [Programm übersetzen](#programm-übersetzen)
+        * [Programm testen](#programm-testen)
 
     
 -------------------------------------------------------------------------------------------------------------------
@@ -58,7 +63,7 @@ Ein Dämon ist ein Hintergrundprogramm, welches bestimmte Dienste zur Verfügung
 
 Mit dem folgenden C-Programm kann man auf zB. einem Raspberry Pi (Jessi) einen Dienst erstellen. Der Dienst hat die Aufgabe 4x Text im Abstand von 2 Sekunden ins Log schreiben. Dies geschieht gewöhnlich für einen Dienst im Hintergrund.
 
-##### C-Programm
+##### C Programm
 
 Die klassische Vorgangsweise bestand darin in einem Programm mittels fork() einen Kindprozess abzuspalten, und diesen dann im Hintergrund weiterlaufen zu lassen. Mit systemd ist das nicht mehr erforderlich. Es wird lediglich ein C-Programm benötigt, das die gewünschte Aufgabe erfüllt.
 
@@ -126,3 +131,10 @@ user@pi:~/mydaemon $ journalctl -f -v verbose
 ```
 user@pi:~/mydaemon $ tail -f /var/log/syslog
 ```
+
+
+Folgende Bildschirmaufnahmen veranschaulichen den 1. und den 4. der ausgeführten Befehle grafisch:
+
+![](https://media.discordapp.net/attachments/692288920716705812/694214053471715328/shell2.PNG?width=1023&height=216)
+
+![](https://media.discordapp.net/attachments/692288920716705812/694214039974182963/shell4.PNG?width=1023&height=232)
