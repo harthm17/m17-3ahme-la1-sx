@@ -52,7 +52,8 @@ Beim Folgen des [Links](https://lms.at/mybib/MjM3NDc1ODU5/bibs/dotlrn_class_inst
 
 1. Was bedeutet der Begriff Dämon in Linux-Systemen und in Java?
 
-Ein Dämon ist ein Hintergrundprogramm, welches bestimmte Dienste zur Verfügung stellt.
+Selbstinterpretation:
+>Ein Dämon ist ein Hintergrundprogramm, welches bestimmte Dienste zur Verfügung stellt.<
 
 [Wikipedia](https://de.wikipedia.org/wiki/Daemon) zitiert folgendes:
 >Als Daemon [ˈdiːmən] oder Dämon (auch häufig in der Schreibweise Demon) bezeichnet man unter Unix oder unixartigen Systemen ein Programm, das im Hintergrund abläuft und bestimmte Dienste zur Verfügung stellt. Benutzerinteraktionen finden hierbei nur auf indirektem Weg statt, zum Beispiel über Signale, Pipes und vor allem (Netzwerk-)Sockets. Der Begriff Daemon wird auch als Abkürzung von disk and execution monitor interpretiert, was jedoch ein Backronym ist.<
@@ -99,7 +100,7 @@ Dieses C-Programm musste in unserem Fall auf der Virtual-box gespeichert werden.
 
 ##### Programm übersetzen
 
-Folgende Befehle waren anschließend auszuführen:
+In diesem Punkt übersetzen wir das vorgefertigte C-Programm mit dem GNU GCC Compiler. Folgende Befehle wurden dabei angewandt (Grafik ist eine Bildschirmaufnahme):
 ![](https://cdn.discordapp.com/attachments/692288920716705812/694187716388323358/shell1.PNG)
 
 Man bemerkt, dass manche Befehle öfters ausgeführt worden sind. Grund waren eben die obenbeschriebenen Komplikationen mit dem Dateiende.
@@ -107,9 +108,11 @@ Man bemerkt, dass manche Befehle öfters ausgeführt worden sind. Grund waren eb
 
 ##### Programm testen
 
-Unter Eintippen des folgenden Befehls, kann man testen ob das Programm funktioniert:
+Das Programm wurde mit Hilfe des folgenden Befehls gestartet.
+```./mydaemon```
+Mit diesem Befehl kann man testen ob das Programm funktioniert. In der Shell schaut das dann wie folgt aus:
 ```
-user@pi:~/mydaemon $                                                                ./mydaemon 
+user@pi:~/mydaemon $ ./mydaemon 
 Hello 1
 Hello 2
 Hello 3
