@@ -141,6 +141,7 @@ Folgende Bildschirmaufnahmen veranschaulichen den 1. und den 4. der ausgeführte
 ![](https://media.discordapp.net/attachments/692288920716705812/694214053471715328/shell2.PNG?width=1023&height=216)
 
 ![](https://media.discordapp.net/attachments/692288920716705812/694214039974182963/shell4.PNG?width=1023&height=232)
+*Bilder können durch Tippen vergrößert werden*
 
 ----------------------------------------------------------------------------------------------------------------------
 
