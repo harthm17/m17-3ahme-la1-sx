@@ -8,7 +8,7 @@
 ---------
 ## Inhaltsverzeichnis
 ![Begriffserklärung](begriffserklärung)  
-	![Deamons in Linux](daemons-in-linux)  
+        ![Deamons in Linux](daemons-in-linux)  
 	![Daemons in Java](daemons-in-java)  
 ![Erstellen eines eigenen Deamons](erstellen-eines-eigenen-deamons)  
 	![Programm erstellen](programm-erstellen)  
