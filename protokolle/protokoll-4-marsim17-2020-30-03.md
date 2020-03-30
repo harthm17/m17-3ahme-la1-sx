@@ -8,13 +8,13 @@
 ---------
 ## Inhaltsverzeichnis
 ![Begriffserklärung](begriffserklärung)  
-        ![Deamons in Linux](daemons-in-linux)  
-	![Daemons in Java](daemons-in-java)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Deamons in Linux](daemons-in-linux)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Daemons in Java](daemons-in-java)  
 ![Erstellen eines eigenen Deamons](erstellen-eines-eigenen-deamons)  
-	![Programm erstellen](programm-erstellen)  
-	![systemd Service erstellen](systemd-service-erstellen)  
-	![Service ausführen und überwachen](service-ausführen-und-überwachen)  
-	![Autostart](autostart)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Programm erstellen](programm-erstellen)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![systemd Service erstellen](systemd-service-erstellen)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Service ausführen und überwachen](service-ausführen-und-überwachen)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Autostart](autostart)
 
 ## Begriffserklärung
 ### Deamons in Linux
