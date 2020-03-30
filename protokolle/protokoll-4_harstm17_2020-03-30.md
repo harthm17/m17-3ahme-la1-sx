@@ -13,8 +13,8 @@
 ## Inhaltsverzeichnis  
 
 1. [Vorraussetzungen](#vorraussetzungen)
-1. [Teil 1](#teil-1-durcharbeiten-der-unterlagen)
-1. [Teil 2](#teil-2-erstellung-eines-dienstes-(dämon))
+1. [Teil 1 Durcharbeiten der Unterlagen](#teil-1-durcharbeiten-der-unterlagen)
+1. [Teil 2 Erstellung eines Dienstes](#teil-2-erstellung-eines-dienstes)
 1. [Teil 3](#teil-3)
 
     
@@ -32,7 +32,8 @@ Hier gilt es [das LMS e-book Bibliothek / Linux-2 / Kapitel 1, 1.1, 1.3](https:/
 
 -----------------------------------------------------------------------------------------------------------------
 
-### Teil 2 Erstellung eines Dienstes (Dämon)
+### Teil 2 Erstellung eines Dienstes
+      *auch Dämon gennant*
 
 #### Ablauf der Übung
 
@@ -51,7 +52,7 @@ Ein Dämon ist ein Hintergrundprogramm, welches bestimmte Dienste zur Verfügung
 [Wikipedia](https://de.wikipedia.org/wiki/Daemon) zitiert folgendes:
 >Als Daemon [ˈdiːmən] oder Dämon (auch häufig in der Schreibweise Demon) bezeichnet man unter Unix oder unixartigen Systemen ein Programm, das im Hintergrund abläuft und bestimmte Dienste zur Verfügung stellt. Benutzerinteraktionen finden hierbei nur auf indirektem Weg statt, zum Beispiel über Signale, Pipes und vor allem (Netzwerk-)Sockets. Der Begriff Daemon wird auch als Abkürzung von disk and execution monitor interpretiert, was jedoch ein Backronym ist.<
 
-1. Die Übung 1 wie im e-Book beschrieben durchführen
+2. Die Übung 1 wie im e-Book beschrieben durchführen
 
 ##### Aufgabenstellung
 
@@ -96,4 +97,32 @@ Dieses C-Programm musste in unserem Fall auf der Virtual-box gespeichert werden.
 Folgende Befehle waren anschließend auszuführen:
 ![](https://cdn.discordapp.com/attachments/692288920716705812/694187716388323358/shell1.PNG)
 
-Man bemerkt, dass manche Befehle öfters ausgeführt worden sind. Grund waren eben die obenbeschriebenen Komplikationen mit dem Dateiende. 
+Man bemerkt, dass manche Befehle öfters ausgeführt worden sind. Grund waren eben die obenbeschriebenen Komplikationen mit dem Dateiende.
+**Das fertige Programm *mydaemon* steht nun bereit, um als Dienst im Hintergrund gestartet zu werden.**
+
+##### Programm testen
+
+Unter Eintippen des folgenden Befehls, kann man testen ob das Programm funktioniert:
+```
+user@pi:~/mydaemon $                                                                ./mydaemon 
+Hello 1
+Hello 2
+Hello 3
+Hello4
+user@pi:~/mydaemon $ 
+```
+Dieser Befehl wurde auch schon in der obigen Bildschirmaufnahme ausgeführt.
+Danach kann man in weiteren Shells parallel dazu die Ausgabe im Log und journald anzeigen lassen:
+*(Befehl folgt immer nach dem Dollar-Zeichen ($))*
+```
+user@pi:~/mydaemon $ journalctl -f
+```
+```
+user@pi:~/mydaemon $ journalctl -f -p 4
+```
+```
+user@pi:~/mydaemon $ journalctl -f -v verbose
+```
+```
+user@pi:~/mydaemon $ tail -f /var/log/syslog
+```
