@@ -8,10 +8,10 @@
 ---------
 
 ## Begriffserklärung
-### Unter Linux
+### Deamons unter Linux
 Unter Linux werden die Prozesse vom Kernel in 3 Unterkategorien: Interaktive Prozesse, Bash Prozesse, und [Deamons](https://en.wikipedia.org/wiki/Daemon_(computing)#Unix-like_systems). Deamons sind Hintergrundprozesse, die von anderen Prozessen benötigt werden. Sie werden automatisch beim Booten gestartet und werden erst beim Herunterfahren wieder beendet.
 
-### Unter Java
+### Deamons unter Java
 Ein Deamon Thread in Java ist ein spezieller thread der die JVM nicht daran hindert zu schließen. Auf der anderen Seite gibt es die High-Priority Threads, die zuerst schließen müssen bevor die JVM es tut. Alle Threads innerhalb der main() Methode sind zum Beispiel High-Priority Threads. Ein Beispiel eines Deamons-Threads ist der Garbage Collector. 
 
 ## Erstellen eines eigenen Deamons
