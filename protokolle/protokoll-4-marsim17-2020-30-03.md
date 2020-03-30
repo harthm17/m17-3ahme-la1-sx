@@ -8,8 +8,8 @@
 ---------
 ## Inhaltsverzeichnis
 [Begriffserklärung](#begriffserklärung)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Deamons in Linux](#daemons-in-linux)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Daemons in Java](#daemons-in-java)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Deamons in Linux](#deamons-in-linux)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Daemons in Java](#deamons-in-java)  
 [Erstellen eines eigenen Deamons](#erstellen-eines-eigenen-deamons)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Programm erstellen](#programm-erstellen)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[systemd Service erstellen](#systemd-service-erstellen)  
