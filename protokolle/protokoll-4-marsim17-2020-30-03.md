@@ -6,12 +6,21 @@
 * **Erstellt von:** Marcher Simon
 * **Protokoll letzte Einheit:** [Protokoll 23.03.2020](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/marsim17/protokolle/protokoll-3-marsim17-2020-23-03.md)
 ---------
+## Inhaltsverzeichnis
+![Begriffserklärung](begriffserklärung)
+	![Deamons in Linux](daemons-in-linux)
+	![Daemons in Java](daemons-in-java)
+![Erstellen eines eigenen Deamons](erstellen-eines-eigenen-deamons)
+	![Programm erstellen](programm-erstellen)
+	![systemd Service erstellen](systemd-service-erstellen)
+	![Service ausführen und überwachen](service-ausführen-und-überwachen)
+	![Autostart](autostart)
 
 ## Begriffserklärung
-### Deamons unter Linux
+### Deamons in Linux
 Unter Linux werden Prozesse vom Kernel in 3 Unterkategorien geteilt: Interaktive Prozesse, Bash-Prozesse und [Deamons](https://en.wikipedia.org/wiki/Daemon_(computing)#Unix-like_systems). Deamons sind Hintergrundprozesse, die von anderen Prozessen benötigt werden. Sie werden automatisch beim Booten gestartet und werden erst beim Herunterfahren wieder beendet.
 
-### Deamons unter Java
+### Deamons in Java
 Ein Deamon Thread in Java ist ein spezieller Thread, der die JVM nicht daran hindert zu schließen. Auf der anderen Seite gibt es die High-Priority Threads, die zuerst schließen müssen bevor die JVM es tun kann. Alle Threads innerhalb der main() Methode sind zum Beispiel High-Priority Threads. Ein Beispiel eines Deamons-Threads ist der Garbage Collector. 
 
 ## Erstellen eines eigenen Deamons
@@ -189,4 +198,17 @@ int main () {
 }
 ```
 Damit erfolgen die Ausgaben in einer Endlosschleife. Der Sourcecode muss natürlich neu kompiliert werden.  
-Mit `sudo reboot` startet man das System neu und mydeamon wird gestartet.
+Mit `sudo reboot` startet man das System neu und mydeamon wird gestartet. Mit `journalctl -f` sieht man, dass das Programm nun in Endlosschleife ausgeführt wird:  
+```console
+Mar 30 19:01:19 simon mydaemon[8405]: mydaemon started.
+Mar 30 19:01:19 simon mydeamon[8405]: Hello 1
+Mar 30 19:01:21 simon mydeamon[8405]: Hello 2
+Mar 30 19:01:23 simon mydeamon[8405]: Hello 3
+Mar 30 19:01:25 simon mydaemon[8405]: bin bei der letzten Ausgabe...
+Mar 30 19:01:25 simon mydeamon[8405]: Hello 4
+Mar 30 19:01:25 simon mydaemon[8405]: mydaemon terminated.
+Mär 30 19:01:25 simon mydaemon[8405]: mydaemon started.
+Mar 30 19:01:25 simon mydeamon[8405]: Hello 1
+Mär 30 19:01:27 simon mydeamon[8405]: Hello 2
+Mar 30 19:01:29 simon mydeamon[8405]: Hello 3
+```
