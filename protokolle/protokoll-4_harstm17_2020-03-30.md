@@ -21,7 +21,7 @@
         * [C-Programm](#c-programm)
         * [Programm übersetzen](#programm-übersetzen)
         * [Programm testen](#programm-testen)
-
+1. [Grund für die Erfüllung keiner weiterer Aufgaben](#grund-für-die-erfüllung-keiner-weiterer-aufgaben)
     
 -------------------------------------------------------------------------------------------------------------------
 
@@ -53,10 +53,10 @@ Beim Folgen des [Links](https://lms.at/mybib/MjM3NDc1ODU5/bibs/dotlrn_class_inst
 1. Was bedeutet der Begriff Dämon in Linux-Systemen und in Java?
 
 Selbstinterpretation:
->Ein Dämon ist ein Hintergrundprogramm, welches bestimmte Dienste zur Verfügung stellt.<
+>Ein Dämon ist ein Hintergrundprogramm, welches bestimmte Dienste zur Verfügung stellt.
 
 [Wikipedia](https://de.wikipedia.org/wiki/Daemon) zitiert folgendes:
->Als Daemon [ˈdiːmən] oder Dämon (auch häufig in der Schreibweise Demon) bezeichnet man unter Unix oder unixartigen Systemen ein Programm, das im Hintergrund abläuft und bestimmte Dienste zur Verfügung stellt. Benutzerinteraktionen finden hierbei nur auf indirektem Weg statt, zum Beispiel über Signale, Pipes und vor allem (Netzwerk-)Sockets. Der Begriff Daemon wird auch als Abkürzung von disk and execution monitor interpretiert, was jedoch ein Backronym ist.<
+>Als Daemon [ˈdiːmən] oder Dämon (auch häufig in der Schreibweise Demon) bezeichnet man unter Unix oder unixartigen Systemen ein Programm, das im Hintergrund abläuft und bestimmte Dienste zur Verfügung stellt. Benutzerinteraktionen finden hierbei nur auf indirektem Weg statt, zum Beispiel über Signale, Pipes und vor allem (Netzwerk-)Sockets. Der Begriff Daemon wird auch als Abkürzung von disk and execution monitor interpretiert, was jedoch ein Backronym ist.
 
 2. Die Übung 1 wie im e-Book beschrieben durchführen
 
@@ -141,3 +141,9 @@ Folgende Bildschirmaufnahmen veranschaulichen den 1. und den 4. der ausgeführte
 ![](https://media.discordapp.net/attachments/692288920716705812/694214053471715328/shell2.PNG?width=1023&height=216)
 
 ![](https://media.discordapp.net/attachments/692288920716705812/694214039974182963/shell4.PNG?width=1023&height=232)
+
+----------------------------------------------------------------------------------------------------------------------
+
+### Grund für die Erfüllung keiner weiterer Aufgaben
+
+Ich habe mich viel zu lange mit dem Durchlesen und Verstehen der Internetseite + der e-Books befasst und somit fehlte leider die Zeit im Arbeitsauftrag weiter zu kommen.
