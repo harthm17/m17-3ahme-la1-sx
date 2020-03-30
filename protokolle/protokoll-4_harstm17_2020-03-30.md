@@ -13,8 +13,8 @@
 ## Inhaltsverzeichnis  
 
 1. [Vorraussetzungen](#vorraussetzungen)
-1. [Teil 1](#teil-1.-durcharbeiten-der-unterlagen)
-1. [Teil 2](#teil-2.-erstellung-eines-dienstes-(dämon))
+1. [Teil 1](#teil-1-durcharbeiten-der-unterlagen)
+1. [Teil 2](#teil-2-erstellung-eines-dienstes-(dämon))
 1. [Teil 3](#teil-3)
 
     
@@ -26,13 +26,13 @@ Vorraussetzend ist es, [die Linux Grundkenntnisse (e-Book LMS Bibliothek / Linux
 
 -------------------------------------------------------------------------------------------------------------
 
-### Teil 1. Durcharbeiten der Unterlagen
+### Teil 1 Durcharbeiten der Unterlagen
 
 Hier gilt es [das LMS e-book Bibliothek / Linux-2 / Kapitel 1, 1.1, 1.3](https://lms.at/mybib/MjM3NDc1ODU5/bibs/dotlrn_class_instance/xolrn__381036830.symlink/9F2714A93B69A.symlink?resource_id=0-237477244-237484829-381037558-420357452&m=view#155470713) und [diese Internetseite](https://wiki.ubuntuusers.de/systemd/) durchzuarbeiten. Im Sinne von Durcharbeiten ist gemeint, das vollständige Verstehen des gelesenen Stoffes und das falls notwendige Nachrecherieren von nicht verstandenen Themen. 
 
 -----------------------------------------------------------------------------------------------------------------
 
-### Teil 2. Erstellung eines Dienstes (Dämon)
+### Teil 2 Erstellung eines Dienstes (Dämon)
 
 #### Ablauf der Übung
 
