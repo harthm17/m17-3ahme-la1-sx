@@ -96,4 +96,4 @@ Dieses C-Programm musste in unserem Fall auf der Virtual-box gespeichert werden.
 Folgende Befehle waren anschließend auszuführen:
 ![](https://cdn.discordapp.com/attachments/692288920716705812/694187716388323358/shell1.PNG)
 
-Man bemerkt, dass manche Befehle öfters ausgeführt worden sind. Grund waren eben die Komplikationen mit dem Dateiende, wie oben beschrieben.
+Man bemerkt, dass manche Befehle öfters ausgeführt worden sind. Grund waren eben die obenbeschriebenen Komplikationen mit dem Dateiende. 
