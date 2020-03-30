@@ -12,8 +12,11 @@
 1) [Vorraussetzungen](#vorraussetzungen)
 1) [Unterlagen](#unterlagen)
 1) [Dämon in Linux-Systemen und Java](#dämon-in-linux-systemen-und-java)
-1) [Uebung 1: Systemdienst mit syslog-Ausgabe](#uebung-1:-systemdienst-mit-syslog-ausgabe)
-
+1) [Uebung1: Systemdienst mit syslog-Ausgabe](#systemdienst-mit-syslog-ausgabe)  
+          [Programm übersetzen](programm-übersetzen)  
+          [Programm testen](programm-testen)  
+          [Weitere Punkte](weitere-punkte)  
+         
 ----------------------------------------------------------------------------------------------
 ## Vorraussetzungen
 
@@ -37,7 +40,7 @@ laut [wikipedia](https://de.wikipedia.org/wiki/Daemon)
 >Als Daemon [ˈdiːmən] oder Dämon (auch häufig in der Schreibweise Demon) bezeichnet man unter Unix oder unixartigen Systemen ein Programm, das im Hintergrund abläuft und bestimmte Dienste zur Verfügung stellt. Benutzerinteraktionen finden hierbei nur auf indirektem Weg statt, zum Beispiel über Signale, Pipes und vor allem (Netzwerk-)Sockets. Der Begriff Daemon wird auch als Abkürzung von disk and execution monitor interpretiert, was jedoch ein Backronym ist.
 
 ----------------------------------------------------------------------------------------------
-## Uebung 1: Systemdienst mit syslog-Ausgabe
+## Systemdienst mit syslog-Ausgabe
 In dieser Uebung sollen wir einen Dienst mit Hilfe der Programmiersprache C erstellen.
 Der Dienst soll im Hintergrund laufen und viermal einen Text im Abstand von zwei Sekunden schreiben.
 
