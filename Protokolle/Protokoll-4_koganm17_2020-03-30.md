@@ -13,9 +13,6 @@
 1) [Unterlagen](#unterlagen)
 1) [Dämon in Linux-Systemen und Java](#dämon-in-linux-systemen-und-java)
 1) [Uebung1: Systemdienst mit syslog-Ausgabe](#systemdienst-mit-syslog-ausgabe)  
-          [Programm übersetzen](programm-übersetzen)  
-          [Programm testen](programm-testen)  
-          [Weitere Punkte](weitere-punkte)  
          
 ----------------------------------------------------------------------------------------------
 ## Vorraussetzungen
