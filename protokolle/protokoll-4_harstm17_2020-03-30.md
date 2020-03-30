@@ -146,4 +146,4 @@ Folgende Bildschirmaufnahmen veranschaulichen den 1. und den 4. der ausgeführte
 
 ### Grund für die Erfüllung keiner weiterer Aufgaben
 
-Ich habe mich viel zu lange mit dem Durchlesen und Verstehen der Internetseite + der e-Books befasst und somit fehlte leider die Zeit im Arbeitsauftrag weiter zu kommen.
+Ich habe mich viel zu lange mit dem Durchlesen und Verstehen der Internetseite + der e-Books befasst und somit fehlte leider die Zeit, um im Arbeitsauftrag weiter zu kommen.
