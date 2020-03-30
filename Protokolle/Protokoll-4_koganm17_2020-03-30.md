@@ -38,11 +38,14 @@ laut [wikipedia](https://de.wikipedia.org/wiki/Daemon)
 
 ----------------------------------------------------------------------------------------------
 ## Uebung 1: Systemdienst mit syslog-Ausgabe
+### Programm übersetzen
 
+### Programm testen
 
+### systemd Service erstellen
+
+### Service starten, stoppen und beobachten
+
+### Autostart
 
 ----------------------------------------------------------------------------------------------
-
-## Dämon in Linux-Systemen und Java
-----------------------------------------------------------------------------------------------
-
