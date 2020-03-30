@@ -17,7 +17,11 @@
 
 ---------------------------------------------
 ### Grundlegendes
+Voraussetzungen...
+Unterlagen...
 
 ### Erstellung eines Dienstes
+Ein Dämon ist ein Programm, das im Hintergrund abläuft und bestimmte Dienste zur Verfügung stellt, welches auf einem Unix bzw ein unixartiges Systemen läuft.
 
 ### Endlos-Dienst automatisch starten lassen
+
