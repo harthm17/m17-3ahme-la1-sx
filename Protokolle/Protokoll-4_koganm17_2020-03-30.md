@@ -12,6 +12,7 @@
 1) [Vorraussetzungen](#vorraussetzungen)
 1) [Unterlagen](#unterlagen)
 1) [Dämon in Linux-Systemen und Java](#dämon-in-linux-systemen-und-java)
+1) [Uebung 1: Systemdienst mit syslog-Ausgabe](#uebung-1:-systemdienst-mit-syslog-Ausgabe)
 
 ----------------------------------------------------------------------------------------------
 ## Vorraussetzungen
@@ -30,12 +31,16 @@ Diese Unterlagen müssen wir durcharbeiten. Durcharbeiten heißt lesen, verstehe
 ----------------------------------------------------------------------------------------------
 ## Dämon in Linux-Systemen und Java
 
+Eigendefinition: Ein Dämon ist ein Hintergrundprogramm, dass bestimmte Dienste zur Verfügung stellt.
+
 laut [wikipedia](https://de.wikipedia.org/wiki/Daemon)
 >Als Daemon [ˈdiːmən] oder Dämon (auch häufig in der Schreibweise Demon) bezeichnet man unter Unix oder unixartigen Systemen ein Programm, das im Hintergrund abläuft und bestimmte Dienste zur Verfügung stellt. Benutzerinteraktionen finden hierbei nur auf indirektem Weg statt, zum Beispiel über Signale, Pipes und vor allem (Netzwerk-)Sockets. Der Begriff Daemon wird auch als Abkürzung von disk and execution monitor interpretiert, was jedoch ein Backronym ist.
 
 ----------------------------------------------------------------------------------------------
+## Uebung 1: Systemdienst mit syslog-Ausgabe
 
-## Dämon in Linux-Systemen und Java
+
+
 ----------------------------------------------------------------------------------------------
 
 ## Dämon in Linux-Systemen und Java
