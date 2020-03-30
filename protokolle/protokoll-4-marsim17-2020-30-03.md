@@ -9,14 +9,14 @@
 
 ## Begriffserklärung
 ### Deamons unter Linux
-Unter Linux werden die Prozesse vom Kernel in 3 Unterkategorien: Interaktive Prozesse, Bash Prozesse, und [Deamons](https://en.wikipedia.org/wiki/Daemon_(computing)#Unix-like_systems). Deamons sind Hintergrundprozesse, die von anderen Prozessen benötigt werden. Sie werden automatisch beim Booten gestartet und werden erst beim Herunterfahren wieder beendet.
+Unter Linux werden Prozesse vom Kernel in 3 Unterkategorien geteilt: Interaktive Prozesse, Bash-Prozesse und [Deamons](https://en.wikipedia.org/wiki/Daemon_(computing)#Unix-like_systems). Deamons sind Hintergrundprozesse, die von anderen Prozessen benötigt werden. Sie werden automatisch beim Booten gestartet und werden erst beim Herunterfahren wieder beendet.
 
 ### Deamons unter Java
-Ein Deamon Thread in Java ist ein spezieller thread der die JVM nicht daran hindert zu schließen. Auf der anderen Seite gibt es die High-Priority Threads, die zuerst schließen müssen bevor die JVM es tut. Alle Threads innerhalb der main() Methode sind zum Beispiel High-Priority Threads. Ein Beispiel eines Deamons-Threads ist der Garbage Collector. 
+Ein Deamon Thread in Java ist ein spezieller Thread, der die JVM nicht daran hindert zu schließen. Auf der anderen Seite gibt es die High-Priority Threads, die zuerst schließen müssen bevor die JVM es tun kann. Alle Threads innerhalb der main() Methode sind zum Beispiel High-Priority Threads. Ein Beispiel eines Deamons-Threads ist der Garbage Collector. 
 
 ## Erstellen eines eigenen Deamons
 ### Programm erstellen
-Der C-Quellcode für den eigenen Deamons ist:
+Der C-Quellcode für den Deamons ist:
 ```C
 #include <stdio.h>
 #include <stdlib.h>
@@ -61,7 +61,7 @@ Hello 2
 Hello 3
 Hello 4
 ```
-Nach dem Beenden sollten auch die Nachrichten im Log stehen. Das kann man mit dem Befehl `journalctl` überprüfen. Brauchbare Parameter sind `-f` um nur die aktuellsten Einträge anzuzeigen, `-p 4`, um nur Warnungen anzuzeigen, `-o verbose`, um mehr Informationen anzeigen zu lassen und `-u name`, um einen bestimmten Deamon zu beobachten. Weitere Informationen findet man unter `man journalctl`.  
+Nach dem Beenden sollten auch die Nachrichten im Log stehen. Das kann man mit dem Befehl `journalctl` überprüfen. Brauchbare Parameter sind `-f` um die Daten live auszugeben, `-p 4`, um nur Warnungen anzuzeigen, `-o verbose`, um mehr Informationen anzeigen zu lassen und `-u name`, um einen bestimmten Deamon zu beobachten. Weitere Informationen findet man unter `man journalctl`.  
 Der Output von `journalctl -f` ist unter anderem:  
 ```console
 Mar 30 17:05:55 simon mydaemon[5684]: mydaemon started.
@@ -83,13 +83,13 @@ IgnoreSIGPIPE=false
 KillMode=process
 ```
 [`ExecStart`](https://www.freedesktop.org/software/systemd/man/systemd.service.html#ExecStart=) gibt den Pfad des zu ausführenden Programs an.  
-[`IgnoreSIGPIPE`](https://www.freedesktop.org/software/systemd/man/systemd.exec.html#IgnoreSIGPIPE=) - Als Sigpipe ist ein Signal, das einem Prozess gesendet wird, wenn es versucht in eine [Pipeline](https://de.wikipedia.org/wiki/Pipeline_(Unix)) zu schreiben, die nicht für read geöffnet ist. Im Normalfall bewirkt ein Sigpipe die Beendung des Programms.  
+[`IgnoreSIGPIPE`](https://www.freedesktop.org/software/systemd/man/systemd.exec.html#IgnoreSIGPIPE=) - Ein Sigpipe ist ein Signal, das einem Prozess gesendet wird, wenn es versucht in eine [Pipeline](https://de.wikipedia.org/wiki/Pipeline_(Unix)) zu schreiben, die nicht für read geöffnet ist. Im Normalfall bewirkt ein Sigpipe die Beendigung des Programms.  
 [`KillMode`](https://www.freedesktop.org/software/systemd/man/systemd.kill.html#KillMode=) bestimmt welche weiteren Prozesse beim Beenden des Deamons noch beendet werden. Bei `process` wird nur der Hauptprozess beendet.
 
 Als nächstes muss man mit `sudo ln -s PfadZuMyDeamon/mydeamon.service /etc/systemd/system/mydeamon.service` die Datei verlinken. Der `-s` Parameter gibt an, dass es sich um einen Softlink handelt.
 
 ### Service ausführen und überwachen
-Mit `sudo systemctl start mydeamon` kann man den Deamon starten. Mit `sudo journalctl -f -u mydeamon` erhält man folgende Ausgabe:  
+Mit `sudo systemctl start mydeamon` kann man den Deamon starten. Anschließend erhält man mit `sudo journalctl -f -u mydeamon` folgende Ausgabe:  
 ```console
 -- Logs begin at Sat 2020-01-25 17:00:55 CET. --
 Mar 30 17:55:30 simon systemd[1]: Started my background program for testing system services.
@@ -103,7 +103,7 @@ Mar 30 17:55:36 simon mydaemon[7291]: mydaemon terminated.
 Mar 30 17:55:36 simon systemd[1]: mydeamon.service: Succeeded.
 ```
 "my background program for testing system services" ist hier die Beschreibung in der mydeamon.service Datei.  
-Mit `sudo systemctl restart mydeamon` kann der deamon neu gestartet und falls Ängerungen der Service-Datei kann mit `sudo systemctl deamon-reload` eine Aktualisierung durchgeführt werden. Mit `sudo systemctl stop mydeamon` kann der Deamon beendet werden. Mit `sudo systemctl status mydeamon` erhält man sehr übersichtliche Informationen des Deamons, die wie folgt aussehen:  
+Mit `sudo systemctl restart mydeamon` kann der deamon neu gestartet und falls Ängerungen der Service-Datei kann mit `sudo systemctl deamon-reload` eine Aktualisierung durchgeführt werden. Mit `sudo systemctl stop mydeamon` kann der Deamon beendet werden. Mit `sudo systemctl status mydeamon` erhält man sehr übersichtliche Informationen des Deamons, die wie folgt aussieht:  
 ```console
 ● mydeamon.service - my background program for testing system services
      Loaded: loaded (PfadZuMyDeamon/mydeamon.service; linked; vendor preset: disabled)
@@ -126,12 +126,12 @@ Mar 30 18:04:39 simon systemd[1]: mydeamon.service: Succeeded.
 ```
 
 ### Autostart
-Beim Starten des Systems müssen alle Deamons zum richtigen Zeitpunkt gestartet werden. Wenn man seinen Deamon automatisch Starten lassen will muss man also den Startzeitpunkt in der Service-Datei hinzufügen. Der zusätzliche Eintrag lautet:  
+Beim Starten des Systems müssen alle Deamons zum richtigen Zeitpunkt gestartet werden. Wenn man seinen Deamon automatisch starten lassen will muss man also den Startzeitpunkt in der Service-Datei hinzufügen. Der zusätzliche Eintrag lautet:  
 ```console
 [Install]
 WantedBy=multi-user.target
 ```
-"multi-user.target" bedeutet, dass der Deamons gestartet sein muss, bevor das System Muli-User fähig ist. Mit `sudo systemctl enable mydeamon` wird der Dienst zum Autostart hinzugefügt. Versucht man es ohne den [Install]-Eintrag erhält man folgende Fehlermeldung:  
+"multi-user.target" bedeutet, dass der Deamon gestartet sein muss, bevor das System Muli-User fähig ist. Mit `sudo systemctl enable mydeamon` wird der Dienst zum Autostart hinzugefügt. Versucht man diesen Befehl ohne den [Install]-Eintrag erhält man folgende Fehlermeldung:  
 ```console
 The unit files have no installation config (WantedBy=, RequiredBy=, Also=,
 Alias= settings in the [Install] section, and DefaultInstance= for template
@@ -188,5 +188,5 @@ int main () {
 
 }
 ```
-Damit erfolgen die Ausgaben in einer Endlosschleife. Der Sourcecode muss natürlich auch neu kompiliert werden.  
+Damit erfolgen die Ausgaben in einer Endlosschleife. Der Sourcecode muss natürlich neu kompiliert werden.  
 Mit `sudo reboot` startet man das System neu und mydeamon wird gestartet.
