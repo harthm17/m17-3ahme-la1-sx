@@ -38,7 +38,7 @@ Hier gilt es [das LMS e-book Bibliothek / Linux-2 / Kapitel 1, 1.1, 1.3](https:/
 -----------------------------------------------------------------------------------------------------------------
 
 ### Teil 2 Erstellung eines Dienstes
-      *auch Dämon gennant*
+**(auch Dämon gennant)**
 
 #### Ablauf der Übung
 
