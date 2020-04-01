@@ -83,11 +83,21 @@ thomas@thomas-VirtualBox:~$ nano mydaemon.c               <--- Terminal Textedit
 thomas@thomas-VirtualBox:~$ gcc -o mydaemon mydaemon.c    <--- Übersetzten mit GCC Compiler
 thomas@thomas-VirtualBox:~$ ls -l  
 ```
+Ist man in Terminal Texteditor drinnen, muss man mit STRG + O (Buchstabe nicht Zahl) und dann ENTER speichern und mit STRG + X für verlassen, drücken.
 
 Nun haben wir einen neuen Ornder angelegt mit einer main.c Datei. Diese können wir mit dem Befehl ```./mydaemon``` ausführen.  
 Das ausgeführte Programm sieht dann so aus:
 
 ![](https://cdn.discordapp.com/attachments/692432976503373854/694930441769320496/Bild1.png)
+
+
+Als Nächstes testen wir unser Programm. Wir können man mit Hilfe von weiteren Shells mit folgenden Befehelen die Ausgabe im Log oder im journald anzeigen lassen.
+```
+thomas@thomas-VirtualBox:~$ journalctl -f
+thomas@thomas-VirtualBox:~$ journalctl -f -p 4
+thomas@thomas-VirtualBox:~$ journalctl -f -v verbose
+thomas@thomas-VirtualBox:~$ tail -f /var/log/syslog
+```
 
 #### Wichtige Begriffe
 ExecStart: ExecStart ist der Befehl, der beim Start der Unit ausgeführt wird.
