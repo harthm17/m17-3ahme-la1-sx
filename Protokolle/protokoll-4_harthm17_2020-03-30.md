@@ -11,12 +11,12 @@
 ---------------------------------------------
 ## Inhaltsverzeichnis
 
-* [Grundlegendes](#grundlegendes)
+* [Grundlagegn](#grundlagen)
 * [Erstellung eines Dienstes](#erstellung-eines-dienstes)
 * [Endlos-Dienst automatisch starten lassen](#endlos-dienst-automatisch-starten-lassen)
 
 ---------------------------------------------
-### Grundlegendes
+### Grundlagen
 Voraussetzungen...
 Unterlagen...
 
