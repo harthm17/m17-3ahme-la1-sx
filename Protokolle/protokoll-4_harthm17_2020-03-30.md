@@ -22,9 +22,9 @@ Um an dieser Übung teilnehmen zu dürfen benötigt man:
 * Ubuntu 18.04 System native oder via Virtualisierung (zB Virtualbox)
 
 Wir haben zwei verschiedene Skripta für das erledigen der Übung bekommen.
-Das erste war das **Linux 2** Skriptum, wo wir die Befehle und Übungen vorgegeben haben. In diesem Skriptum haben wir uns auf die Kaptiel 1, 1.1 und 1.3 bezogen, um die Grundlagen zu erlernen. 
+Das erste war das **Linux 2** Skriptum, wo wir die Befehle und Übungen vorgegeben haben. In diesem Skriptum haben wir uns auf die Kaptiel 1, 1.1 und 1.3 bezogen, um die Grundlagen zu erlernen.  
 -> Link für das Skriptum: https://lms.at/dotlrn/classes/informatik/610437.3AHME_LA1SX.19_20/xolrn/9F2714A93B69A.symlink?resource_id=0-420357452&m=view#155470713
-Das andere Skriptum erklärt wichtige Begriffe des Themas.
+Das andere Skriptum erklärt wichtige Begriffe des Themas.  
 -> Link für das Skriptum: https://wiki.ubuntuusers.de/systemd/
 
 ### Erstellung eines Dienstes
