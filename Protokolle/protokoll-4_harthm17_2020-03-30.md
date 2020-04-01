@@ -106,7 +106,7 @@ thomas@thomas-VirtualBox:~$ sudo -i
 -> [sudo] Passwort für Thomas: 
 ```
 Leider bin ich nicht weiter als hierhin gekommen.
-Arbeitsstand in der regülaren Unterrichtszeit: "systemd Service erstellen" im Skriptum **Linux 2**
+Arbeitsstand in der regülaren Unterrichtszeit: "systemd Service erstellen" im Skriptum **Linux 2**.
 
 Weiter Schritte wären, den Service starten, stoppen und beobachten. Außerdem ebenso einen Autostart für diesen Dienst zu errichten. Ich habe nachdem erstellen des systemmd versucht das Programm schon starten zu lassen, jedoch logischerweiße funktioniere dies noch nicht.
 
