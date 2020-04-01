@@ -40,9 +40,39 @@ In Java ist es laut dieser [Website](https://www.dpunkt.de/java/Programmieren_mi
 
 
 #### Übung
-Punkt 2
+In dieser Übung sollen wir einen Dienst erstellen, welcher ein C-Programm laufen lässt. Dieses Programm wird im Hintergrund laufen und gibt viermal einen Text aus und zwar alle 2 Sekunden.
 
-Punkt 3 genauer erklären
+Wir haben nach unserem Skriptum **Linux 2**(Kapitel 1.4) gearbeitet.
+
+Der erste Schritt ist es, dass C Programm zu erstellen bzw eine main.c Datei.
+Der Quelltext sieht so aus:
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <syslog.h>
+#include <unistd.h>
+
+int main () {
+    openlog ("mydaemon", LOG_PID, LOG_DAEMON);
+
+    syslog (LOG_NOTICE, "mydaemon started.");
+    printf("Hello 1\n"); fflush(stdout);
+    sleep (2);
+    printf("Hello 2\n"); fflush(stdout);
+    sleep (2);
+    printf("Hello 3\n"); fflush(stdout);
+    sleep (2);
+    syslog(LOG_WARNING, "bin bei der letzten Ausgabe...");
+    printf("Hello 4\n"); fflush(stdout);
+
+    usleep(1000);
+    syslog (LOG_NOTICE, "mydaemon terminated.");
+    closelog();
+    usleep(1000);
+
+    return 0;
+}
+```
 
 #### Wichtige Begriffe
 ExecStart: ExecStart ist der Befehl, der beim Start der Unit ausgeführt wird.
