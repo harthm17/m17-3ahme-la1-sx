@@ -98,13 +98,25 @@ thomas@thomas-VirtualBox:~$ journalctl -f -p 4
 thomas@thomas-VirtualBox:~$ journalctl -f -v verbose
 thomas@thomas-VirtualBox:~$ tail -f /var/log/syslog
 ```
+Dannach muss man eine neue Datei erstellen namens "mydaemon.service".
+Wenn man diese erstellt hat muss man als Super User einsteigen.
+Dies geht mit folgenden Befehlen:  
+```
+thomas@thomas-VirtualBox:~$ sudo -i
+-> [sudo] Passwort für Thomas: 
+```
+Leider bin ich nicht weiter als hierhin gekommen.
+Arbeitsstand in der regülaren Unterrichtszeit: "systemd Service erstellen" im Skriptum **Linux 2**
+
+Weiter Schritte wären, den Service starten, stoppen und beobachten. Außerdem ebenso einen Autostart für diesen Dienst zu errichten. Ich habe nachdem erstellen des systemmd versucht das Programm schon starten zu lassen, jedoch logischerweiße funktioniere dies noch nicht.
 
 #### Wichtige Begriffe
-ExecStart: ExecStart ist der Befehl, der beim Start der Unit ausgeführt wird.
+Die Theoriefragen habe ich schon am Anfang der Unterrichtseinheit ausgearbeitet.
+* ExecStart: ExecStart ist der Befehl, der beim Start der Unit ausgeführt wird.
 
-Ignore SIGPIPE: Wird beim Versuch verschickt, in eine nicht mehr existierende Pipe zu schreiben. (Pipe - "Datenstrom" zwischen zwei Programme)
+* Ignore SIGPIPE: Wird beim Versuch verschickt, in eine nicht mehr existierende Pipe zu schreiben. (Pipe - "Datenstrom" zwischen zwei Programme)
 
-KillMode: Legt fest, wie die Prozesse dieser Unit beendet werden soll bzw getötet werden soll. Entweder mit **control-group**, **process**, **mixed** oder **none**.
+* KillMode: Legt fest, wie die Prozesse dieser Unit beendet werden soll bzw getötet werden soll. Entweder mit **control-group**, **process**, **mixed** oder **none**.
 
 ### Endlos-Dienst automatisch starten lassen
 Zu diesem Punkt bin ich in der regulären Zeit des Unterrichts nicht gekommen.
