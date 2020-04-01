@@ -13,6 +13,7 @@
 * [Voraussetzungen](#voraussetzungen)
   * [Grundlagen](#grundlagen)
 * [Erstellung eines Dienstes](#erstellung-eines-dienstes)
+  * [Übung](#uebung)
 * [Endlos-Dienst automatisch starten lassen](#endlos-dienst-automatisch-starten-lassen)
 
 
@@ -37,7 +38,8 @@ In Java ist es laut dieser [Website](https://www.dpunkt.de/java/Programmieren_mi
 > Daemon-Threads unterscheiden sich dadurch von normalen Threads (auch User-Threads genannt), dass ihr Status nicht bei der Ermittlung des Beendigungszeitpunkts eines Java-Programms berücksichtigt wird. Andersherum formuliert: Bei der Beendigung jedes User-Threads wird geprüft, ob noch andere User-Threads laufen. Ist das nicht der Fall, wird das Programm beendet, und zwar unabhängig davon, ob noch Daemon-Threads laufen und in welchen Zustand sie sich befinden. 
 
 
-Punkt 2 Übung
+#### Übung
+Punkt 2
 
 Punkt 3 genauer erklären
 
