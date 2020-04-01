@@ -14,6 +14,7 @@
   * [Grundlagen](#grundlagen)
 * [Erstellung eines Dienstes](#erstellung-eines-dienstes)
   * [Übung](#übung)
+  * [Wichtige Begriffe](#wichtige-begriffe)
 * [Endlos-Dienst automatisch starten lassen](#endlos-dienst-automatisch-starten-lassen)
 
 
@@ -43,12 +44,12 @@ Punkt 2
 
 Punkt 3 genauer erklären
 
+#### Wichtige Begriffe
+ExecStart: ExecStart ist der Befehl, der beim Start der Unit ausgeführt wird.
 
-ExecStart:
+Ignore SIGPIPE: Wird beim Versuch verschickt, in eine nicht mehr existierende Pipe zu schreiben. (Pipe - "Datenstrom" zwischen zwei Programme)
 
-IgnoreSIGPIPE:
-
-KillMode:
+KillMode: Legt fest, wie die Prozesse dieser Unit beendet werden soll bzw getötet werden soll. Entweder mit **control-group**, **process**, **mixed** oder **none**.
 
 ### Endlos-Dienst automatisch starten lassen
 Zu diesem Punkt bin ich in der regulären Zeit des Unterrichts nicht gekommen.
