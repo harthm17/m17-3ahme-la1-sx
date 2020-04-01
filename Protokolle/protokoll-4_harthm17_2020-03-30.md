@@ -84,7 +84,10 @@ thomas@thomas-VirtualBox:~$ gcc -o mydaemon mydaemon.c    <--- Übersetzten mit 
 thomas@thomas-VirtualBox:~$ ls -l  
 ```
 
-Nun haben wir einen neuen Ornder angelegt mit einer main.c Datei. Diese können wir mit dem Befehl ```./mydaemon``` ausführen.
+Nun haben wir einen neuen Ornder angelegt mit einer main.c Datei. Diese können wir mit dem Befehl ```./mydaemon``` ausführen.  
+Das ausgeführte Programm sieht dann so aus:
+
+![](https://cdn.discordapp.com/attachments/692432976503373854/694930441769320496/Bild1.png)
 
 #### Wichtige Begriffe
 ExecStart: ExecStart ist der Befehl, der beim Start der Unit ausgeführt wird.
