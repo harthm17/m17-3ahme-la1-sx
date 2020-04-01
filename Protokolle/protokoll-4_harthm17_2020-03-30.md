@@ -42,7 +42,7 @@ In Java ist es laut dieser [Website](https://www.dpunkt.de/java/Programmieren_mi
 #### Übung
 In dieser Übung sollen wir einen Dienst erstellen, welcher ein C-Programm laufen lässt. Dieses Programm wird im Hintergrund laufen und gibt viermal einen Text aus und zwar alle 2 Sekunden.
 
-Wir haben nach unserem Skriptum **Linux 2**(Kapitel 1.4) gearbeitet.
+Wir haben nach unserem Skriptum **Linux 2** (Kapitel 1.4) gearbeitet.
 
 Der erste Schritt ist es, dass C Programm zu erstellen bzw eine main.c Datei.
 Der Quelltext sieht so aus:
@@ -72,6 +72,16 @@ int main () {
 
     return 0;
 }
+```
+
+Dannach übersetzten wir das C-Programm in unserem Terminal. Hierbei erstellen wir einen neuen Ordner und eine neue main Datei, wobei die Erstellung der neuen main Datei nicht unbedingt notwendig ist.
+Wir haben folgende Befehle verwendet, mit den Pfeilen wurden die einzelnen Schirtte nochmals genauer erklärt:
+```
+thomas@thomas-VirtualBox:~$ mkdir mydaemon                <--- neuen Ornder erstellen
+thomas@thomas-VirtualBox:~$ cd mydaemon                   <--- in den Ordner reingehen
+thomas@thomas-VirtualBox:~$ nano mydaemon.c               <--- Terminal Texteditor öffen und C Programm einfügen
+thomas@thomas-VirtualBox:~$ gcc -o mydaemon mydaemon.c    <--- Übersetzten mit GCC Compiler
+thomas@thomas-VirtualBox:~$ ls -l  
 ```
 
 #### Wichtige Begriffe
