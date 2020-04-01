@@ -74,7 +74,7 @@ int main () {
 }
 ```
 
-Dannach übersetzten wir das C-Programm in unserem Terminal. Hierbei erstellen wir einen neuen Ordner und eine neue main Datei, wobei die Erstellung der neuen main Datei nicht unbedingt notwendig ist.
+Dannach übersetzten wir das C-Programm in unserem Terminal. Hierbei erstellen wir einen neuen Ordner und eine neue main Datei, wobei die Erstellung der neuen main Datei nicht unbedingt notwendig ist.  
 Wir haben folgende Befehle verwendet, mit den Pfeilen wurden die einzelnen Schirtte nochmals genauer erklärt:
 ```
 thomas@thomas-VirtualBox:~$ mkdir mydaemon                <--- neuen Ornder erstellen
@@ -83,6 +83,8 @@ thomas@thomas-VirtualBox:~$ nano mydaemon.c               <--- Terminal Textedit
 thomas@thomas-VirtualBox:~$ gcc -o mydaemon mydaemon.c    <--- Übersetzten mit GCC Compiler
 thomas@thomas-VirtualBox:~$ ls -l  
 ```
+
+Nun haben wir einen neuen Ornder angelegt mit einer main.c Datei. Diese können wir mit dem Befehl ```./mydaemon``` ausführen.
 
 #### Wichtige Begriffe
 ExecStart: ExecStart ist der Befehl, der beim Start der Unit ausgeführt wird.
