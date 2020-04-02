@@ -44,5 +44,9 @@ Genauere und ausführlichere Definition: [Wikipedia](https://de.wikipedia.org/wi
 >Als Daemon [ˈdiːmən] oder Dämon (auch häufig in der Schreibweise Demon) bezeichnet man unter Unix oder unixartigen Systemen ein Programm, das im Hintergrund abläuft und bestimmte Dienste zur Verfügung stellt. Benutzerinteraktionen finden hierbei nur auf indirektem Weg statt, zum Beispiel über Signale, Pipes und vor allem (Netzwerk-)Sockets. Der Begriff Daemon wird auch als Abkürzung von disk and execution monitor interpretiert, was jedoch ein Backronym ist.
 
 ----------------------------------------------------------------------------------------------------------------------------------------
-## 
+## Übung 1: Erstellen eines Dienstes
+
+**Aufgabenstellung:** Es soll auf einem Raspberry PI (jessi) mit Hilfe eines C-Programmes ein Dienst erstellt werden. Dieser soll, während er im Hintergrund läuft, einen Text im 2 Sekundenabstand viermal hintereinander ausgeben. 
+
+Das ganze geschiet in unserem Fall im Terminal Fall
   
