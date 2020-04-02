@@ -17,6 +17,7 @@
    * [Aufgabenstellung](#aufgabenstellung)
    * [C-Programm](#c-programm)
    * [Programm übersetzen](#programm-übersetzen)
+   * [Programm testen](#programm-testen)
 
 ------------------------------------------------------------------------------------------------------------------------------
 ## Vorausgesetzte Fähigkeiten
@@ -114,6 +115,18 @@ insgesamt 12
     
 * Das vorhin angeführte C-Programm wird korrekt im Texteditor **nano** eingetippt.
 
+## Programm testen
 
+Das Programm wird danach mit dem Befehl ```./mydaemon``` in der Shell gestartet gestartet!
 
+In weiteren geöffneten Shells kann man die Ausgabe im Log und im journald parallel dazu anzeigen lassen.
+
+**Folgende Befehle dazu:**
+```
+user@pi:~/mydaemon $ journalctl -f
+user@pi:~/mydaemon $ journalctl -f -p 4
+user@pi:~/mydaemon $ journalctl -f -v verbose
+user@pi:~/mydaemon $ tail -f /var/log/syslog
+```
+------------------------------------------------------------------------------------------------------------------------------
 
