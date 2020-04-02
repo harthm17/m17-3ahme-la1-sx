@@ -23,6 +23,6 @@ Voraussetzungen für diese Übung sind:
  * Gewisse Vorkenntnisse, nachzulesen im E-Book Linux-Teil 1, Labor Kurs Sx
  * Zugriff auf ein Ubuntu 18.04 System (bereits in der letzten Einheit installiert)
  
-Link (Protokoll) zum Einrichten eines Ubuntu 18.04 Systemes:
+Link (Protokoll) zum Einrichten eines Ubuntu 18.04 Systemes:(https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/liefrm17/SxLab%20Protokolle/protokoll-3_liefrm_2020-3-25.md)
    
   
