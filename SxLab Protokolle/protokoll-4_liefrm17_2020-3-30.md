@@ -109,11 +109,13 @@ insgesamt 12
 -rw-r--r-- 1 franz franz  575 Apr 1 17:00 mydaemon.c
 ```
 
+So sieht das Terminal nach ausführen der erwähnten Befehle dann aus:
+
 ![](https://media.discordapp.net/attachments/691664570208616518/695325691142733875/unknown.png)
 
 **Achtung:** Diese Auffnahme unterscheide sich, zu sehen am ersten Befehl, geringfügig verglichen zu den Befehlen die vorhin angeführt wurden! Grund dafür ist, das diese Datei bereits exestiert.
 
-***Hinweise:*** 
+***Hinweis:*** 
 
 * Die Kenntnisse zu den Befehlen sollten schon vorhanden sein, deswegen werden sie hier nicht mehr angeführt. Wenn sie vergessen    wurden, dann bitte unter [Linux-Teil 1](https://lms.at/dotlrn/classes/informatik/610437.3AHME_LA1SX.19_20/xolrn/7BF1B31508DF3.symlink?resource_id=0-385942208&m=view#154334970) wieder auffrischen.
     
@@ -124,6 +126,10 @@ insgesamt 12
 Das Programm wird danach mit dem Befehl ```./mydaemon``` in der Shell gestartet gestartet!
 
 In weiteren geöffneten Shells kann man die Ausgabe im Log und im journald parallel dazu anzeigen lassen.
+
+So sieht das Terminal nach ausführen des erwähnten Befehles dann aus:
+
+![](https://cdn.discordapp.com/attachments/691664570208616518/695327860205944832/unknown.png)
 
 **Folgende Befehle dazu:**
 ```
