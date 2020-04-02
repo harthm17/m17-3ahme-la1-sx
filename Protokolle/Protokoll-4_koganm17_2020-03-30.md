@@ -46,6 +46,33 @@ Der Dienst soll im Hintergrund laufen und viermal einen Text im Abstand von zwei
 ### Programm übersetzen
 In diesem Punkt übersetzen wir das vorgefertigte C-Programm mit dem Gnu gcc Compiler. 
 
+```C
+#include <stdio.h>
+#include <stdlib.h>
+#include <syslog.h>
+#include <unistd.h>
+
+int main () {
+    openlog ("mydaemon", LOG_PID, LOG_DAEMON);
+
+    syslog (LOG_NOTICE, "mydaemon started.");
+    printf("Hello 1\n"); fflush(stdout);
+    sleep (2);
+    printf("Hello 2\n"); fflush(stdout);
+    sleep (2);
+    printf("Hello 3\n"); fflush(stdout);
+    sleep (2);
+    syslog(LOG_WARNING, "bin bei der letzten Ausgabe...");
+    printf("Hello 4\n"); fflush(stdout);
+
+    usleep(1000);
+    syslog (LOG_NOTICE, "mydaemon terminated.");
+    closelog();
+    usleep(1000);
+
+    return 0;
+}
+```
 verwendete Befehle:
 ```
 1.) mkdir mydaemon
