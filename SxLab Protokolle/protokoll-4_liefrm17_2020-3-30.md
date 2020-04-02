@@ -10,7 +10,7 @@
 ------------------------------------------------------------------------------------------------------------------------
 ## Inhaltsverzeichnis 
 
-1) [Vorausgesetzte] Fähigkeiten(#vorausgesetzte-fähigkeiten)
+1) [Vorausgesetzte] Fähigkeiten(#vorausgesetzte-faehigkeiten)
 1) [Schritt 1: Durcharbeiten der neuen Unterlagen](#schritt-1-durcharbeiten-der-neuen-unterlagen)
 1) [Begriff Dämon]
 1) [Übung 1: Erstellen eines Dienstes]
