@@ -47,11 +47,11 @@ In diesem Punkt übersetzen wir das vorgefertigte C-Programm mit dem Gnu gcc Com
 
 verwendete Befehle:
 ```
-1. mkdir mydaemon
-1. cd mydaemon
-1. nano mydaemon.c
-1. gcc -o mydaemon mydaemon.c
-1. ls -l
+1.) mkdir mydaemon
+2.) cd mydaemon
+3.) nano mydaemon.c
+4.) gcc -o mydaemon mydaemon.c
+5.) ls -l
 ```
 ### Programm testen
 
@@ -60,10 +60,10 @@ In diesem Punkt starten wir das Programm in der Shell mit
  
 Danach können wir uns in neuen seperaten Shells mit Hilfe von folgenden Befehlen die Ausgaben im Log oder im journald anzeigen lassen.
 ```
-1. journalctl -f
-1. journalctl -f -p 4
-1. journalctl -f -v verbose
-1. tail -f /var/log/syslog
+1.) journalctl -f
+2.) journalctl -f -p 4
+3.) journalctl -f -v verbose
+4.) tail -f /var/log/syslog
 ```
 
 ### weitere Punkte
