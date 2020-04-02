@@ -28,7 +28,7 @@ Voraussetzungen für diese Übung sind:
  * Gewisse Vorkenntnisse, nachzulesen auf LMS im E-Book [Linux-Teil 1](https://lms.at/dotlrn/classes/informatik/610437.3AHME_LA1SX.19_20/xolrn/7BF1B31508DF3.symlink?resource_id=0-385942208&m=view#154334970), Laborkurs Sx
  * Zugriff auf ein Ubuntu 18.04 System (bereits in der letzten Einheit installiert)
  
-Link (Eigenes Protokoll) zum Einrichten eines Ubuntu 18.04 Systemes:[Installation von Ubuntu 18.04 LTS + virtuelle Maschine]https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/liefrm17/SxLab%20Protokolle/protokoll-3_liefrm_2020-3-25.md
+Link (Eigenes Protokoll) zum Einrichten eines Ubuntu 18.04 Systemes: [Installation von Ubuntu 18.04 LTS + virtuelle Maschine](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/liefrm17/SxLab%20Protokolle/protokoll-3_liefrm_2020-3-25.md)
 
 ------------------------------------------------------------------------------------------------------------------------------------
 ## Durcharbeiten der neuen Unterlagen
@@ -141,4 +141,4 @@ user@pi:~/mydaemon $ tail -f /var/log/syslog
 ```
 ------------------------------------------------------------------------------------------------------------------------------
 ## Resümee
-Das Ausführen der Aufgabe hat sich als schwerer entpuppt als ich erwatet hatte. Das genaue Arbeiten und das Verstehen des Stoffes empfand ich sehr mühevoll. Ich habe mir mehrmals Hilfe bei meinen Schulkollegen gesucht, dennoch kam ich nur beschwerlich voran. Dadurch schon alleine das Durcharbeiten des Skriptes eine gewisse Zeit in Anspruch genommen hatte, man siehe es am Protokoll, kam ich nicht schnell genung voran, um die andere Aufgabenstellungen erfüllen zu können.
+Das Ausführen der Aufgabe hat sich als schwerer entpuppt als ich erwatet hatte. Das genaue Arbeiten und das Verstehen des Stoffes empfand ich als sehr mühevoll. Ich habe mir mehrmals Hilfe bei meinen Schulkollegen gesucht, dennoch kam ich nur beschwerlich voran. Dadurch schon alleine das Durcharbeiten des Skriptes eine gewisse Zeit in Anspruch genommen hatte, man siehe es am Protokoll, kam ich nicht schnell genung voran, um die andere Aufgabenstellungen erfüllen zu können.
