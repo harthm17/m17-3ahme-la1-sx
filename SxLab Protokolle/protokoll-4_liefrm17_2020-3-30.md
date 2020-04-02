@@ -90,7 +90,7 @@ int main () {
 ```
 ### Programm übersetzen
 
-**Hinweis:** Alle hier im Protokoll angeführten Befehle sind im Terminal einzugeben!
+***Hinweis:*** Alle hier im Protokoll angeführten Befehle sind im Terminal einzugeben!
 
 Zuerst wird als User im Home Verzeichnis ein Arbeitsverzeichnis (mydaemon) erstellt, darin wird die Datei mydaemon angelegt. Anschließend wird der Quelltext übersetzt.
 
@@ -108,7 +108,7 @@ insgesamt 12
 -rw-r--r-- 1 franz franz  575 Apr 1 17:00 mydaemon.c
 ```
 
-**Hinweise:** 
+***Hinweise:*** 
 
 * Die Kenntnisse zu den Befehlen sollten schon vorhanden sein, deswegen werden sie hier nicht mehr angeführt. Wenn sie vergessen    wurden, dann bitte unter [Linux-Teil 1](https://lms.at/dotlrn/classes/informatik/610437.3AHME_LA1SX.19_20/xolrn/7BF1B31508DF3.symlink?resource_id=0-385942208&m=view#154334970) wieder auffrischen.
     
