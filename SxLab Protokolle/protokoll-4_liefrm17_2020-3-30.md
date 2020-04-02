@@ -104,8 +104,8 @@ user@pi:~/mydaemon $ nano mydaemon.c
 user@pi:~/mydaemon $ gcc -o mydaemon mydaemon.c
 user@pi:~/mydaemon $ ls -l
 insgesamt 12
--rwxr-xr-x 1 user user 6508 Nov 11 17:00 mydaemon
--rw-r--r-- 1 user user  547 Nov 11 17:00 mydaemon.c
+-rwxr-xr-x 1 franz franz 8592 Apr 1 17:00 mydaemon
+-rw-r--r-- 1 franz franz  575 Apr 1 17:00 mydaemon.c
 ```
 
 
