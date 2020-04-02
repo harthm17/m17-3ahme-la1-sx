@@ -20,9 +20,13 @@
 
 Für diese Aufgabe sollte/müssen gewisse Vorkentnisse vorhanden sein, denn sonst wird sie um einiges schwieriger.
 Voraussetzungen für diese Übung sind: 
- * Gewisse Vorkenntnisse, nachzulesen im E-Book Linux-Teil 1, Labor Kurs Sx
+ * Gewisse Vorkenntnisse, nachzulesen im E-Book [Linux-Teil 1](https://lms.at/dotlrn/classes/informatik/610437.3AHME_LA1SX.19_20/xolrn/7BF1B31508DF3.symlink?resource_id=0-385942208&m=view#154334970), Laborkurs Sx
  * Zugriff auf ein Ubuntu 18.04 System (bereits in der letzten Einheit installiert)
  
-Link (Protokoll) zum Einrichten eines Ubuntu 18.04 Systemes:(https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/liefrm17/SxLab%20Protokolle/protokoll-3_liefrm_2020-3-25.md)
-   
+Link (Eigenes Protokoll) zum Einrichten eines Ubuntu 18.04 Systemes:(https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/liefrm17/SxLab%20Protokolle/protokoll-3_liefrm_2020-3-25.md)
+
+------------------------------------------------------------------------------------------------------------------------------------
+## Schritt 1: Durcharbeiten der neuen Unterlagen
+
+
   
