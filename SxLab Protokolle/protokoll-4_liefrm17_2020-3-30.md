@@ -59,7 +59,7 @@ Das ganze geschiet in unserem Fall nur im Terminal.
 
 Folgendes **C-Programm** ist gegeben:
 
-``` C  
+```C  
 
 #include <stdio.h>    
 #include <stdlib.h>   
@@ -96,7 +96,7 @@ Zuerst wird als User im Home Verzeichnis ein Arbeitsverzeichnis (mydaemon) erste
 
 **Benötigte Befehle:**
 
-´´´
+```
 user@pi:~$ mkdir mydaemon
 user@pi:~# cd mydaemon
 user@pi:~/mydaemon $ nano mydaemon.c
@@ -104,9 +104,9 @@ user@pi:~/mydaemon $ nano mydaemon.c
 user@pi:~/mydaemon $ gcc -o mydaemon mydaemon.c
 user@pi:~/mydaemon $ ls -l
 insgesamt 12
--rwxr-xr-x 1 user user 6508 Okt 11 15:39 mydaemon
--rw-r--r-- 1 user user  547 Okt 11 15:39 mydaemon.c
-´´´
+-rwxr-xr-x 1 user user 6508 Nov 11 17:00 mydaemon
+-rw-r--r-- 1 user user  547 Nov 11 17:00 mydaemon.c
+```
 
 
 
