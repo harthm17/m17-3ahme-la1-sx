@@ -51,32 +51,35 @@ Genauere und ausführlichere Definition: [Wikipedia](https://de.wikipedia.org/wi
 Das ganze geschiet in unserem Fall nur im Terminal.
 
 
-folgendes C-Programm ist gegeben:
+Folgendes C-Programm ist gegeben:
 
-´´´
-#include <stdio.h>
-#include <stdlib.h>
-#include <syslog.h>
-#include <unistd.h>
+``` C  
 
-int main () {
-    openlog ("mydaemon", LOG_PID, LOG_DAEMON);
+#include <stdio.h>    
+#include <stdlib.h>   
+#include <syslog.h>   
+#include <unistd.h>   
+    
+int main () {   
+    openlog ("mydaemon", LOG_PID, LOG_DAEMON);    
 
-    syslog (LOG_NOTICE, "mydaemon started.");
-    printf("Hello 1\n"); fflush(stdout);
-    sleep (2);
-    printf("Hello 2\n"); fflush(stdout);
-    sleep (2);
-    printf("Hello 3\n"); fflush(stdout);
-    sleep (2);
-    syslog(LOG_WARNING, "bin bei der letzten Ausgabe...");
-    printf("Hello 4\n"); fflush(stdout);
+    syslog (LOG_NOTICE, "mydaemon started.");   
+    printf("Hello 1\n"); fflush(stdout);    
+    sleep (2);    
+    printf("Hello 2\n"); fflush(stdout);    
+    sleep (2);    
+    printf("Hello 3\n"); fflush(stdout);    
+    sleep (2);    
+    syslog(LOG_WARNING, "bin bei der letzten Ausgabe...");    
+    printf("Hello 4\n"); fflush(stdout);    
+    
+    usleep(1000);   
+    syslog (LOG_NOTICE, "mydaemon terminated.");    
+    closelog();   
+    usleep(1000);   
+    
+    return 0;   
+}   
 
-    usleep(1000);
-    syslog (LOG_NOTICE, "mydaemon terminated.");
-    closelog();
-    usleep(1000);
-
-    return 0;
-}
+```
   
