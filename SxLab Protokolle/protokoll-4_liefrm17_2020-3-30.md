@@ -37,6 +37,6 @@ Diese Unterlagen beinhalten die Voraussetzungen für diese Übung.
 ---------------------------------------------------------------------------------------------------------------------------------------
 ## Begriff Dämon
 
-Genauere und ausführlichere Definition: [Wikipedia](https://de.wikipedia.org/wiki/Daemon)
+Genauere und ausführlichere Definition: https://de.wikipedia.org/wiki/Daemon
 
   
