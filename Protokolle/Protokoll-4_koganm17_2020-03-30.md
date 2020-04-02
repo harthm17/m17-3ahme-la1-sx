@@ -13,6 +13,7 @@
 1) [Unterlagen](#unterlagen)
 1) [Dämon in Linux-Systemen und Java](#dämon-in-linux-systemen-und-java)
 1) [Uebung1: Systemdienst mit syslog-Ausgabe](#systemdienst-mit-syslog-ausgabe)  
+1) [Neue Begriffe](#neue-begriffe)
          
 ----------------------------------------------------------------------------------------------
 ## Vorraussetzungen
@@ -41,7 +42,7 @@ laut [wikipedia](https://de.wikipedia.org/wiki/Daemon)
 In dieser Uebung sollen wir einen Dienst mit Hilfe der Programmiersprache C erstellen.
 Der Dienst soll im Hintergrund laufen und viermal einen Text im Abstand von zwei Sekunden schreiben.
 
-[Hier](https://lms.at/dotlrn/classes/informatik/610437.3AHME_LA1SX.19_20/xolrn/9F2714A93B69A.symlink?resource_id=0-420357452&m=view#155470740) ist die Datei nach der wir vorgegangen sind.
+[Hier](https://lms.at/dotlrn/classes/informatik/610437.3AHME_LA1SX.19_20/xolrn/9F2714A93B69A.symlink?resource_id=0-420357452&m=view#155470740) ist die Datei nach der wir vorgegangen sind und auch das vorgefertigte Programm zu finden.
 ### Programm übersetzen
 In diesem Punkt übersetzen wir das vorgefertigte C-Programm mit dem Gnu gcc Compiler. 
 
@@ -73,3 +74,12 @@ Ich bin leider nur bis zum Punkt systemd Service erstellen gekommen, da es dort 
 Das Problem war, dass ich keinen Link erstellen konnte, weil er laut Fehlermeldung schon erstellt war und beim nächsten Punkt konnte ich keinen Dienst starten, da kein Link vorhanden war. Ich habe über eine halbe Stunde in die Fehlerbehebung investiert und das leider zu unnütz. Ich habe Hilfe von Herrn Augustin bekommen, aber auch er konnte mir nicht helfen. Wir versuchten diese Datei mit dem Link zu löschen und neu zu erstellen, aber das hat leider nicht funktioniert.
 
 ----------------------------------------------------------------------------------------------
+
+## Neue Begriffe
+
+Hier sind wichtige Begriffe, die neu dazugekommen sind.
+* ExecStart: ExecStart ist der Befehl, der beim Start der Unit ausgeführt wird.
+
+* Ignore SIGPIPE: Wird beim Versuch verschickt, in eine nicht mehr existierende Pipe zu schreiben. (Pipe - "Datenstrom" zwischen zwei Programme)
+
+* KillMode: Legt fest, wie die Prozesse dieser Unit beendet werden sollen. Entweder mit  **mixed**, **none**, **control-group** oder **process**.
