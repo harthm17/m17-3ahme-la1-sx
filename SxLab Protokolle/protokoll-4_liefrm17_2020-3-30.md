@@ -33,5 +33,10 @@ Diese Unterlagen beinhalten die Voraussetzungen für diese Übung.
 **Auftrag:** 
   * Selbstendiges durcharbeiten des folgenden Dokumentes: [LMS/LAB Sx/E-Book Linux-Teil 2/Kapitel 1.,1.1,1.3](https://lms.at/dotlrn/classes/informatik/610437.3AHME_LA1SX.19_20/xolrn/9F2714A93B69A.symlink?resource_id=0-420357452&m=view#155470713)
   * Recherche auch im Internet möglich: https://wiki.ubuntuusers.de/systemd/
+  
+---------------------------------------------------------------------------------------------------------------------------------------
+## Begriff Dämon
+
+Genauere und ausführlichere Definition: [Wikipedia](https://de.wikipedia.org/wiki/Daemon)
 
   
