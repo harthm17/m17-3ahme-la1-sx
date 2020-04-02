@@ -10,8 +10,19 @@
 ------------------------------------------------------------------------------------------------------------------------
 ## Inhaltsverzeichnis 
 
-1. Vorausgesetzte Fähigkeiten
-1. Schritt 1: Durcharbeiten der neuen Unterlagen 
-1. Übung 1: Erstellen eines Dienstes
-  * Begriff Dämon
+1) Vorausgesetzte Fähigkeiten
+1) Schritt 1: Durcharbeiten der neuen Unterlagen 
+1) Begriff Dämon
+1) Übung 1: Erstellen eines Dienstes
+
+------------------------------------------------------------------------------------------------------------------------------
+## Vorausgesetzte Fähigkeiten
+
+Für diese Aufgabe sollte/müssen gewisse Vorkentnisse vorhanden sein, denn sonst wird sie um einiges schwieriger.
+Voraussetzungen für diese Übung sind: 
+ * Gewisse Vorkenntnisse, nachzulesen im E-Book Linux-Teil 1, Labor Kurs Sx
+ * Zugriff auf ein Ubuntu 18.04 System (bereits in der letzten Einheit installiert)
+ 
+Link (Protokoll) zum Einrichten eines Ubuntu 18.04 Systemes:
+   
   
