@@ -18,6 +18,7 @@
    * [C-Programm](#c-programm)
    * [Programm übersetzen](#programm-übersetzen)
    * [Programm testen](#programm-testen)
+1) [Resümee](#resümee)
 
 ------------------------------------------------------------------------------------------------------------------------------
 ## Vorausgesetzte Fähigkeiten
@@ -139,4 +140,4 @@ user@pi:~/mydaemon $ journalctl -f -v verbose
 user@pi:~/mydaemon $ tail -f /var/log/syslog
 ```
 ------------------------------------------------------------------------------------------------------------------------------
-
+## Resümee
