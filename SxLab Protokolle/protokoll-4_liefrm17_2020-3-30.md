@@ -109,7 +109,7 @@ insgesamt 12
 -rw-r--r-- 1 franz franz  575 Apr 1 17:00 mydaemon.c
 ```
 
-(https://media.discordapp.net/attachments/691664570208616518/695325691142733875/unknown.png)
+![](https://media.discordapp.net/attachments/691664570208616518/695325691142733875/unknown.png)
 
 **Achtung:** Diese Auffnahme unterscheide sich, zu sehen am ersten Befehl, geringfügig verglichen zu den Befehlen die vorhin angeführt wurden! Grund dafür ist, das diese Datei bereits exestiert.
 
