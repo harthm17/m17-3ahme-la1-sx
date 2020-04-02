@@ -41,7 +41,7 @@ Diese Unterlagen beinhalten die Voraussetzungen für diese Übung.
 ---------------------------------------------------------------------------------------------------------------------------------------
 ## Was ist Dämon?
 
-Der Begriff Dämon beschreibt einen Dienst/Programm, dass im Hintergrund läuft. Es stellt diverse Dienste zur Verfügung
+Der Begriff Dämon beschreibt einen Dienst/Programm, der im Hintergrund läuft. Es stellt diverse Dienste zur Verfügung
 
 Genauere und ausführlichere Definition: [Wikipedia](https://de.wikipedia.org/wiki/Daemon)
 
@@ -54,7 +54,7 @@ Genauere und ausführlichere Definition: [Wikipedia](https://de.wikipedia.org/wi
 
 Es soll auf einem Raspberry PI (jessi) mit Hilfe eines C-Programmes ein Dienst erstellt werden. Dieser soll, während er im Hintergrund läuft, einen Text im 2 Sekundenabstand viermal hintereinander im Log ausgeben. 
 
-Das ganze geschiet in unserem Fall nur im Terminal.
+**Die Folgenden Arbeiten werden ausschließlich im Terminal abgewickelt!!!**
 
 ### C-Programm
 
