@@ -29,7 +29,8 @@ Link (Eigenes Protokoll) zum Einrichten eines Ubuntu 18.04 Systemes:https://gith
 ## Durcharbeiten der neuen Unterlagen
 
 Diese Unterlagen waren die Voraussetzung der Übung. 
-**Auftrag:** Selbstendiges durcharbeiten und recherchieren des folgenden Dokumentes: [LMS/LAB Sx/E-Book Linux-Teil 2/Kapitel 1.,1.1,1.3](https://lms.at/dotlrn/classes/informatik/610437.3AHME_LA1SX.19_20/xolrn/9F2714A93B69A.symlink?resource_id=0-420357452&m=view#155470713)
+**Auftrag:** 
+Selbstendiges durcharbeiten des folgenden Dokumentes: [LMS/LAB Sx/E-Book Linux-Teil 2/Kapitel 1.,1.1,1.3](https://lms.at/dotlrn/classes/informatik/610437.3AHME_LA1SX.19_20/xolrn/9F2714A93B69A.symlink?resource_id=0-420357452&m=view#155470713)
 
 
   
