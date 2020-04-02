@@ -141,3 +141,4 @@ user@pi:~/mydaemon $ tail -f /var/log/syslog
 ```
 ------------------------------------------------------------------------------------------------------------------------------
 ## Resümee
+Das Ausführen der Aufgabe hat sich als schwerer entpuppt als ich erwatet hätte. Das genaue Arbeiten und das Verstehen des Stoffes empfand ich mühevoll. Ich habe mir mehrmals Hilfe bei meinen Schulkollegen gesucht, dennoch kam ich nur beschwerlich voran. Dadurch schon alleine das Durcharbeiten des Skriptes eine gewisse Zeit in Anspruch genommen hatte, man siehe es am Protokoll, kam ich nicht schnell genung voran, um die andere Aufgabenstellungen erfüllen zu können.
