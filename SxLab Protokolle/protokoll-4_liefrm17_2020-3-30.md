@@ -52,6 +52,7 @@ Das ganze geschiet in unserem Fall nur im Terminal.
 
 
 folgendes C-Programm ist gegeben:
+
 ´´´
 #include <stdio.h>
 #include <stdlib.h>
