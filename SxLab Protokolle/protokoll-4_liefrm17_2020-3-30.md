@@ -12,7 +12,7 @@
 
 1) [Vorausgesetzte Fähigkeiten](#vorausgesetzte-fähigkeiten)
 1) [Durcharbeiten der neuen Unterlagen](#durcharbeiten-der-neuen-unterlagen)
-1) [Begriff Dämon](#begriff-dämon)
+1) [Was ist Dämon?](#was-ist-dämon-dämon)
 1) [Übung 1: Erstellen eines Dienstes](#übung-1-erstellen-eines-dienstes)
 
 ------------------------------------------------------------------------------------------------------------------------------
@@ -37,9 +37,12 @@ Diese Unterlagen beinhalten die Voraussetzungen für diese Übung.
 ---------------------------------------------------------------------------------------------------------------------------------------
 ## Begriff Dämon
 
-
+Der Begriff Dämon beschreibt einen Dienst/Programm, dass im Hintergrund läuft. Es stellt diverse Dienste zur Verfügung
 
 Genauere und ausführlichere Definition: [Wikipedia](https://de.wikipedia.org/wiki/Daemon)
 
 >Als Daemon [ˈdiːmən] oder Dämon (auch häufig in der Schreibweise Demon) bezeichnet man unter Unix oder unixartigen Systemen ein Programm, das im Hintergrund abläuft und bestimmte Dienste zur Verfügung stellt. Benutzerinteraktionen finden hierbei nur auf indirektem Weg statt, zum Beispiel über Signale, Pipes und vor allem (Netzwerk-)Sockets. Der Begriff Daemon wird auch als Abkürzung von disk and execution monitor interpretiert, was jedoch ein Backronym ist.
+
+----------------------------------------------------------------------------------------------------------------------------------------
+## Was ist Dämon?
   
