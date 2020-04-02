@@ -14,6 +14,9 @@
 1) [Durcharbeiten der neuen Unterlagen](#durcharbeiten-der-neuen-unterlagen)
 1) [Was ist Dämon?](#was-ist-dämon)
 1) [Übung 1: Erstellen eines Dienstes](#übung-1-erstellen-eines-dienstes)
+  * [Aufgabenstellung](#aufgabenstellung)
+  * [C-Programm](#c-programm)
+  * [Übersetzen](#übersetzen)
 
 ------------------------------------------------------------------------------------------------------------------------------
 ## Vorausgesetzte Fähigkeiten
@@ -46,12 +49,15 @@ Genauere und ausführlichere Definition: [Wikipedia](https://de.wikipedia.org/wi
 ----------------------------------------------------------------------------------------------------------------------------------------
 ## Übung 1: Erstellen eines Dienstes
 
-**Aufgabenstellung:** Es soll auf einem Raspberry PI (jessi) mit Hilfe eines C-Programmes ein Dienst erstellt werden. Dieser soll, während er im Hintergrund läuft, einen Text im 2 Sekundenabstand viermal hintereinander ausgeben. 
+## Aufgabenstellung
+
+Es soll auf einem Raspberry PI (jessi) mit Hilfe eines C-Programmes ein Dienst erstellt werden. Dieser soll, während er im Hintergrund läuft, einen Text im 2 Sekundenabstand viermal hintereinander ausgeben. 
 
 Das ganze geschiet in unserem Fall nur im Terminal.
 
+## C-Programm
 
-Folgendes C-Programm ist gegeben:
+Folgendes **C-Programm** ist gegeben:
 
 ``` C  
 
@@ -82,4 +88,6 @@ int main () {
 }   
 
 ```
+
+
   
