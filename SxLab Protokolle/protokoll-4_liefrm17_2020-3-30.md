@@ -16,7 +16,7 @@
 1) [Übung 1: Erstellen eines Dienstes](#übung-1-erstellen-eines-dienstes)
    * [Aufgabenstellung](#aufgabenstellung)
    * [C-Programm](#c-programm)
-   * [Übersetzen](#übersetzen)
+   * [Programm übersetzen](#programm-übersetzen)
 
 ------------------------------------------------------------------------------------------------------------------------------
 ## Vorausgesetzte Fähigkeiten
@@ -49,13 +49,13 @@ Genauere und ausführlichere Definition: [Wikipedia](https://de.wikipedia.org/wi
 ----------------------------------------------------------------------------------------------------------------------------------------
 ## Übung 1: Erstellen eines Dienstes
 
-## Aufgabenstellung
+### Aufgabenstellung
 
-Es soll auf einem Raspberry PI (jessi) mit Hilfe eines C-Programmes ein Dienst erstellt werden. Dieser soll, während er im Hintergrund läuft, einen Text im 2 Sekundenabstand viermal hintereinander ausgeben. 
+Es soll auf einem Raspberry PI (jessi) mit Hilfe eines C-Programmes ein Dienst erstellt werden. Dieser soll, während er im Hintergrund läuft, einen Text im 2 Sekundenabstand viermal hintereinander im Log ausgeben. 
 
 Das ganze geschiet in unserem Fall nur im Terminal.
 
-## C-Programm
+### C-Programm
 
 Folgendes **C-Programm** ist gegeben:
 
@@ -88,6 +88,26 @@ int main () {
 }   
 
 ```
+### Programm übersetzen
+
+**Hinweis:** Alle hier im Protokoll angeführten Befehle sind im Terminal einzugeben!
+
+Zuerst wird als User im Home Verzeichnis ein Arbeitsverzeichnis (mydaemon) erstellt, darin wird die Datei mydaemon angelegt. Anschließend wird der Quelltext übersetzt.
+
+**Benötigte Befehle:**
+
+´´´
+user@pi:~$ mkdir mydaemon
+user@pi:~# cd mydaemon
+user@pi:~/mydaemon $ nano mydaemon.c
+...
+user@pi:~/mydaemon $ gcc -o mydaemon mydaemon.c
+user@pi:~/mydaemon $ ls -l
+insgesamt 12
+-rwxr-xr-x 1 user user 6508 Okt 11 15:39 mydaemon
+-rw-r--r-- 1 user user  547 Okt 11 15:39 mydaemon.c
+´´´
 
 
-  
+
+
