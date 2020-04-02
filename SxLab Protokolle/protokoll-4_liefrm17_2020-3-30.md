@@ -12,7 +12,7 @@
 
 1) [Vorausgesetzte Fähigkeiten](#vorausgesetzte-fähigkeiten)
 1) [Durcharbeiten der neuen Unterlagen](#durcharbeiten-der-neuen-unterlagen)
-1) [Was ist Dämon?](#was-ist-dämon-dämon?)
+1) [Was ist Dämon?](#was-ist-dämon)
 1) [Übung 1: Erstellen eines Dienstes](#übung-1-erstellen-eines-dienstes)
 
 ------------------------------------------------------------------------------------------------------------------------------
