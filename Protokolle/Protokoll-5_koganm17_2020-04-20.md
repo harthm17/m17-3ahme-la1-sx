@@ -67,9 +67,39 @@ sudo systemctl daemon-reload
 ----------------------------------------------------------------------------------------------
 
 ## Service starten stoppen und beobachten
-
+Ein Service kann mit dem Kommando systemctl gestartet und beobachtet werden.
+Die nachfolgenden Befehle wurden zum starten, restarten, stoppen und Status anzeigen eingegeben.
+```
+root@pi:~# systemctl start mydaemon
+root@pi:~# systemctl restart mydaemon
+root@pi:~# systemctl stop mydaemon
+root@pi:~# systemctl status mydaemon
+```
+ Mit den folgenden weiteren Befehlen kann man die Ausgabe verschieden ausgeben lassen. 
+ ```
+ journalctl -u mydaemon
+ journalctl -u mydaemon -p warning
+ ```
 ----------------------------------------------------------------------------------------------
 
 ## Autostart
+Dienste sollen oft beim Systemstart automatisch zum richtigen Zeitpunkt gestartet werden. Bei systemd lässt sich das mit folgendem Kommando leicht realisieren:
+```
+sudo systemctl enable mydaemon
+```
+Dann kommt jedoch eine Fehlermeldung.
+Der Fehler erscheint, da das System noch nicht weiß, wann der Dienst beim Hochfahren gestartet werden soll. Um diesen Fehler zu beseitigen, hängen wir einfach Folgendes an unsere mydaemon.service Datei an.
+```
+[Install]
+WantedBy=multi-user.target
+```
+Damit sagen wir dem System, dass wenn das System den Zustand Multi-User Fähigkeit erreichen soll, auch unser Dienst mydaemon zu starten ist.
+
+Nun aktivieren wir den Daemon noch einmal und rebooten das System. Danach checken wir, ob alles geklappt hat. Dafür benötigen wir folgende Befehle:
+```
+sudo systemctl enable mydaemon
+sudo reboot
+journalctl
+```
 
 ----------------------------------------------------------------------------------------------
