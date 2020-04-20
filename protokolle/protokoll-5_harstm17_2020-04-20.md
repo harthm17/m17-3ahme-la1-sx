@@ -17,26 +17,26 @@
    * [Bereits erledigte Aufgabenstellungen](#bereits-erledigte-aufgabenstellungen)
    * [Systemd Service erstellen](#systemd-service-erstellen)
    * [Fund eines Fehlers während dem Beobachten des Dienstes](#fund-eines-fehlers-während-dem-beobachten-des-dienstes)
-   * [Service starten, stoppen und beobachten](#service-starten,-stoppen-und-beobachten)
    * [Autostart](#autostart)
 1. [Resümee](#resümee)
 -------------------------------------------------------------------------------------------------------------------
 
 ### Arbeitsauftrag
 
-Fertigstellen der Arbeitsaufträge von der letzten Einheit. Falls man damit fertig wird, soll man mit der Durcharbeitung des [Kapitels 2 (Scripting)](#https://lms.at/mybib/MjM3NDc1ODU5/bibs/dotlrn_class_instance/xolrn__381036830.symlink/9F2714A93B69A.symlink?resource_id=0-237477244-237484829-381037558-420357452&m=view#155470705) beginnen.
+Fertigstellen der Arbeitsaufträge von der letzten Einheit. Falls man damit fertig wird, soll man mit der Durcharbeitung des [Kapitels 2 (Scripting)](https://lms.at/mybib/MjM3NDc1ODU5/bibs/dotlrn_class_instance/xolrn__381036830.symlink/9F2714A93B69A.symlink?resource_id=0-237477244-237484829-381037558-420357452&m=view#155470705) beginnen.
 
 --------------------------------------------------------------------------------------------------------------------------
 
 ### Systemdienst mit Syslogausgabe
 
-Folgende Punkte beschreiben diese [Aufgabenstellung](#https://lms.at/mybib/MjM3NDc1ODU5/bibs/dotlrn_class_instance/xolrn__381036830.symlink/9F2714A93B69A.symlink?resource_id=0-237477244-237484829-381037558-420357452&m=view#155470740) näher:
+Folgende Punkte beschreiben diese [Aufgabenstellung](https://lms.at/mybib/MjM3NDc1ODU5/bibs/dotlrn_class_instance/xolrn__381036830.symlink/9F2714A93B69A.symlink?resource_id=0-237477244-237484829-381037558-420357452&m=view#155470740) näher:
 
 #### Bereits erledigte Aufgabenstellungen
 
-Die Aufgabenstellungen * ***C-Programm,
-                       * Programm übersetzen,
-                       * Programm testen*** wurden bei der letzten Einheit schon erledigt.
+Die Aufgabenstellungen
+* ***C-Programm,***
+* ***Programm übersetzen,***
+* ***Programm testen*** wurden bei der letzten Einheit schon erledigt.
                        
 Jedoch hat beim Punkt ***Programm testen*** etwas nicht 100%ig funktioniert, deswegen habe ich diese Aufgabenstellung wiederholt.
 Jetzt verlief der Test ohne Probleme.
@@ -44,7 +44,7 @@ Jetzt verlief der Test ohne Probleme.
 #### Systemd Service erstellen
 
 ##### Erstellen der Datei
-Zu galt es eine neue Datei *mydaemon.service* mit dem Befehl `nano mydaemon.service` zu erstellen. Der Speicherort sollte möglichst dem Speicherort der *mydaemon.c*-Datei gleichen, damit man leichter auf diese Datei zurückgreifen kann.  
+Zu galt es eine neue Datei *mydaemon.service* mit dem Befehl *nano mydaemon.service* zu erstellen. Der Speicherort sollte möglichst dem Speicherort der *mydaemon.c*-Datei gleichen, damit man leichter auf diese Datei zurückgreifen kann.  
 In der neu erstellten Datei musste folgender Text eingefügt werden:  
 
 ```
@@ -94,6 +94,9 @@ Das wird wie folgt in einer paralell ausgeführten Shell gemacht:
 user@pi: ~/mydaemon$ sudo journalctl -f -u mydaemon
 user@pi: ~/mydaemon$ 
 ```
+Ein reibungsfreier Ablauf sollte in der Shell so aussehen:
+![Bild](https://cdn.discordapp.com/attachments/692288920716705812/701867920333996092/nr3.png)
+
 ###### Kommandos und deren Bedeutung
 
 In den man-pages kann man nachschauen, welche Bedeutung Kommandos haben. Die man-pages ruft man mit ***man "gewünschter Befehl"*** auf.
@@ -143,6 +146,9 @@ Bei Änderungen in der Service-Datei muss mit dem Kommando ***sudo systemctl dae
 #### Fund eines Fehlers während dem Beobachten des Dienstes
 
 Die Ursache, das inkorrekte Auführen des Dienstes, ist darauf zurzückzuführen, dass ich beim Link erstellen auf der Service-Datei einen falschen Pfad verwendet habe. Sobald ich diesen mit Hilfe des Terminals wieder richtig gestellt habe, ist der Test reibungsfrei abgelaufen.
+
+Folgendes Bild veranschaulicht die Richtigstellung des Fehlers. In der zweiten Zeile der Shell kann man den richtigen Dateipfad erkennen:
+![Bild](https://media.discordapp.net/attachments/692288920716705812/701867589546016879/nr2.PNG?width=666&height=476)
 
 
 #### Autostart
