@@ -16,9 +16,17 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Service ausführen und überwachen](#service-ausführen-und-überwachen)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Autostart](#autostart)
 
-## Begriffserklärung
-### Deamons in Linux
-Unter Linux werden Prozesse vom Kernel in 3 Unterkategorien geteilt: Interaktive Prozesse, Bash-Prozesse und [Deamons](https://en.wikipedia.org/wiki/Daemon_(computing)#Unix-like_systems). Deamons sind Hintergrundprozesse, die von anderen Prozessen benötigt werden. Sie werden automatisch beim Booten gestartet und werden erst beim Herunterfahren wieder beendet.
+## Die Shell
 
-### Deamons in Java
-Ein Deamon Thread in Java ist ein spezieller Thread, der die JVM nicht daran hindert zu schließen. Auf der anderen Seite gibt es die High-Priority Threads, die zuerst schließen müssen bevor die JVM es tun kann. Alle Threads innerhalb der main() Methode sind zum Beispiel High-Priority Threads. Ein Beispiel eines Deamons-Threads ist der Garbage Collector. 
+Die Linux Shell ermöglicht es dem Benutzer mit dem Kernel zu kommunizieren. Ihr Name kommmt daher, dass sie den Kernel quasi "umhüllt". Sie ist ein [Interpreter](https://en.wikipedia.org/wiki/Interpreter_(computing)), der die eingegebenen Befehle in [System Calls](https://en.wikipedia.org/wiki/System_call) umwandelt und ausführt. Eine gibt auch eine große Anzahl an GUIs (Terminals), mit dem man auf die Shell zugreifen kann.
+
+In den 1980ern wurde die [Bourne-Shell](https://en.wikipedia.org/wiki/Bourne_shell) (sh) entwickelt. Ihr folgten die [Debian Almquist SHell](https://en.wikipedia.org/wiki/Almquist_shell#dash) (dash) mit sehr schnellem Startup, die [Bourne again SHell](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) (bash) mit einigen neuen features und die [Restricted Bourne Again SHell](https://en.wikipedia.org/wiki/Restricted_shell) (rbash) für erhöhte Sicherheit. 
+
+Die fälschich bezeichnete [Remote Shell](https://en.wikipedia.org/wiki/Remote_Shell) (rsh) und die [Secure Shell](https://en.wikipedia.org/wiki/Secure_Shell) (ssh) sind lediglich Schnittstellen zu einem Computer und werden dort zu einer richtigen Shell weitergeleitet.
+
+Die verwendete Shell kann man mit dem Befehl
+`ls -l /bin/sh` 
+herausfinden. Diese Datei ist ein symbolischer Link zur Shell. (Meist `/bin/bash` oder `/bin/dash`
+
+## Das Shellscript
+Die Shell kann nicht nur eingegebene Befehle des Users verarbeiten, sondern auch Scripts, also Textdateien, mit einer Ansammlung an Befehlen.
