@@ -148,6 +148,7 @@ Bei Änderungen in der Service-Datei muss mit dem Kommando ***sudo systemctl dae
 Die Ursache, das inkorrekte Auführen des Dienstes, ist darauf zurzückzuführen, dass ich beim Link erstellen auf der Service-Datei einen falschen Pfad verwendet habe. Sobald ich diesen mit Hilfe des Terminals wieder richtig gestellt habe, ist der Test reibungsfrei abgelaufen.
 
 Folgendes Bild veranschaulicht die Richtigstellung des Fehlers. In der zweiten Zeile der Shell kann man den richtigen Dateipfad erkennen:
+
 ![Bild](https://media.discordapp.net/attachments/692288920716705812/701867589546016879/nr2.PNG?width=666&height=476)
 
 
