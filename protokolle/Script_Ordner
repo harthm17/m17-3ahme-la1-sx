@@ -1,1 +1,7 @@
-
+#!/bin/sh  
+  
+echo "Hallo"  
+echo "ich bin ein"  
+echo "Script"  
+  
+exit 0  
