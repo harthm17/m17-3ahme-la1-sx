@@ -12,13 +12,5 @@
 
 ## Inhaltsverzeichnis  
 
-1. [Teil 2 Erstellung eines Dienstes](#teil-2-erstellung-eines-dienstes)
-    * [Ablauf der Übung](#ablauf-der-übung)
-    * [Beantwortung der Fragen](#beantwortung-der-fragen)
-        * [Aufgabenstellung](#aufgabenstellung)
-        * [C-Programm](#c-programm)
-        * [Programm übersetzen](#programm-übersetzen)
-        * [Programm testen](#programm-testen)
-1. [Grund für die Erfüllung keiner weiterer Aufgaben](#grund-für-die-erfüllung-keiner-weiterer-aufgaben)
-    
+1. 
 -------------------------------------------------------------------------------------------------------------------
