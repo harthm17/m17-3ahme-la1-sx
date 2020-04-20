@@ -6,7 +6,7 @@
 * **Datum:** 20.04.2020
 * **Gefehlt:** -
 * **Erstellt von:** Stefan Haring (harstm17)
-* **Protokoll der letzten Einheit:** [Protokoll 4](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/edit/harstm17/protokolle/protokoll-4_harstm17_2020-03-30.md)
+* **Protokoll der letzten Einheit:** [Protokoll 4](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/harstm17/protokolle/protokoll-4_harstm17_2020-03-30.md)
 
 ----------------------------------------------------------------------------------------------
 
