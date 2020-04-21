@@ -69,3 +69,10 @@ lrwxrwxrwx 1 root root   20 Apr 30 14:40  mydaemon.service -> /home/franz/mydaem
 root@franz-VirtualBox: /etc/systemd/system# exit
 
 ```
+Bedeutung der Befehle:
+
+| `sudo -i` | In Super-User root wechseln |
+| `cd ` | in Verzeichnis wechseln |
+| `ln -s /home/user/mydaemon/mydaemon` | Link erstellen |
+| `ls -l`| Line-Mode | 
+| `exit`|  Super-User root verlassen |  
