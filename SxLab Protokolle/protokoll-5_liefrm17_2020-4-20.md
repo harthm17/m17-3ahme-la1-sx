@@ -44,7 +44,7 @@ Genuaeres ist im 4ten Protokoll nachzulesen, [Erstellung eines Dienstes (Dämon)
 
 Erster Schritt: Das Erstellen der Datei mydaemon.service! Das Erstellen der Datei sollte schon gelingen!
 
-Dann mit dem Befehl ```nano``` in den Texeditor wechseln. Folgender Text muss manuell geschrieben, oder in den Editor kopiert werden:
+Dann mit dem Befehl ```nano``` in den Texteditor wechseln. Folgender Text muss manuell geschrieben, oder hineinkopiert werden:
 
 ```
 [Unit]
@@ -52,9 +52,6 @@ Description=my background program for testing system services
 
 [Service]
 ExecStart=/home/user/mydaemon/mydaemon
-
 IgnoreSIGPIPE=false
-
 KillMode=process
-
 ```
