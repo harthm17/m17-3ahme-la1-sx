@@ -64,8 +64,8 @@ root@franz-VirtualBox: ~# cd /etc/systemd/system
 root@franz-VirtualBox: /etc/systemd/system# ln -s /home/franz/mydaemon/mydaemon
 root@franz-VirtualBox: /etc/systemd/system# ls -l
 ...
-lrwxrwxrwx 1 root root   20 Apr 29 15:23  mydaemon.service -> /home/franz/mydaemon/mydaemon.service
+lrwxrwxrwx 1 root root   20 Apr 30 14:40  mydaemon.service -> /home/franz/mydaemon/mydaemon.service
 ...
 root@franz-VirtualBox: /etc/systemd/system# exit
-franz@franz-VirtualBox: ~/mydaemon$ 
+
 ```
