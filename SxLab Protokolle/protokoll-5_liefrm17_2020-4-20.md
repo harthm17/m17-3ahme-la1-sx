@@ -29,8 +29,8 @@ Danach das Beginnen der nächsten Aufgabe, "Linux Scripting"! Mir blieb nicht ge
 ------------------------------------------------------------------------------------------------------------------------------------
 ## Erledigte Unterpunkte der letzten Einheit
 
-    * **C-Programm**
-    * **Programm übersetzen
-    * **Programm testen**
+   * **C-Programm**
+   * **Programm übersetzen
+   * **Programm testen**
 
 Genuaeres ist im 4ten Protokoll nachzulesen, [Erstellung eines Dienstes (Dämon)](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/liefrm17/SxLab%20Protokolle/protokoll-4_liefrm17_2020-3-30.md)
