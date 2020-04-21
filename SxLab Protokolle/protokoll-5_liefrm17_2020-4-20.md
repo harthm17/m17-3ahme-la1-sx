@@ -69,7 +69,7 @@ lrwxrwxrwx 1 root root   20 Apr 30 14:40  mydaemon.service -> /home/franz/mydaem
 root@franz-VirtualBox: /etc/systemd/system# exit
 
 ```
-**Wichtig: Beim Ausführen dieser Befehle, muss der "user", in meinem Fall franz, unbedingt auf eigenen User geändert werden!!!
+**Wichtig: Beim Ausführen dieser Befehle, muss der "user", in meinem Fall franz, unbedingt auf eigenen User geändert werden!!!**
 
 Bedeutung der Befehle:
 
