@@ -23,5 +23,6 @@ Die Aufgaben die in der 5ten Einheit (20.04.2020) zu erledigen waren:
    * Linux Scripting (Auf LMS im E-Book [Linux-Teil 2](https://lms.at/dotlrn/classes/informatik/610437.3AHME_LA1SX.19_20/xolrn/9F2714A93B69A.symlink?resource_id=0-420357452&m=view#155470740)
 
 Wichtig war es, die Aufgabe der 4ten Einheit zu vollenden! 
+Wenn die Zeit es noch zugelassen hätte, sofort die nächste Aufgabe (Linux Scripting) beginnen.
 
-Wenn die Zeit es noch zulässt, sofort die nächste Aufgabe (Linux Scripting) beginnen.
+------------------------------------------------------------------------------------------------------------------------------------
