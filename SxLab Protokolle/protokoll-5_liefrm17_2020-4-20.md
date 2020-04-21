@@ -41,3 +41,7 @@ Genuaeres ist im 4ten Protokoll nachzulesen, [Erstellung eines Dienstes (Dämon)
 ## Übung 1: Erstellen eines Dienstes, Abschluss:
 
 ### systemd Service erstellen
+
+Erster Schritt: Das Erstellen der Datei mydaemon.service!
+
+Mit dem Befehl ```nano```
