@@ -18,4 +18,4 @@
 
 Die Aufgaben die in dieser Einheit (20.04.2020) zu erledigen waren:
 
-    *Ubuntu Software update
+   * Ubuntu Software update
