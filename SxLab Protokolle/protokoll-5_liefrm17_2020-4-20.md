@@ -42,7 +42,7 @@ Genuaeres ist im 4ten Protokoll nachzulesen, [Erstellung eines Dienstes (Dämon)
 
 ### systemd Service erstellen
 
-Erster Schritt: Das Erstellen der Datei mydaemon.service! Das Erstellen der Datei sollte schon gelingen!
+**Erster Schritt: Das Erstellen der Datei mydaemon.service!** 
 
 Dann mit dem Befehl ```nano``` in den Texteditor wechseln. Folgender Text muss manuell geschrieben, oder hineinkopiert werden:
 
@@ -54,4 +54,18 @@ Description=my background program for testing system services
 ExecStart=/home/user/mydaemon/mydaemon
 IgnoreSIGPIPE=false
 KillMode=process
+```
+
+Nächster Schritt: **In /etc/systemd/system einen Link auf die Servica Datei erstellen!**
+
+```
+franz@franz-VirtualBox: ~/mydaemon$ sudo -i
+root@franz-VirtualBox: ~# cd /etc/systemd/system
+root@franz-VirtualBox: /etc/systemd/system# ln -s /home/franz/mydaemon/mydaemon
+root@franz-VirtualBox: /etc/systemd/system# ls -l
+...
+lrwxrwxrwx 1 root root   20 Apr 29 15:23  mydaemon.service -> /home/franz/mydaemon/mydaemon.service
+...
+root@franz-VirtualBox: /etc/systemd/system# exit
+franz@franz-VirtualBox: ~/mydaemon$ 
 ```
