@@ -56,7 +56,7 @@ IgnoreSIGPIPE=false
 KillMode=process
 ```
 
-Nächster Schritt: **In /etc/systemd/system einen Link auf die Servica Datei erstellen!**
+**Nächster Schritt: In /etc/systemd/system einen Link auf die Servica Datei erstellen!**
 
 ```
 franz@franz-VirtualBox: ~/mydaemon$ sudo -i
