@@ -71,8 +71,12 @@ root@franz-VirtualBox: /etc/systemd/system# exit
 ```
 Bedeutung der Befehle:
 
-| `sudo -i` | In Super-User root wechseln |
-| `cd ` | in Verzeichnis wechseln |
-| `ln -s /home/user/mydaemon/mydaemon` | Link erstellen |
-| `ls -l`| Line-Mode | 
-| `exit`|  Super-User root verlassen |  
+ `sudo -i` (In Super-User root wechseln) 
+ 
+ `cd ` (in Verzeichnis wechseln )
+ 
+ `ln -s` (Link erstellen) 
+ 
+ `ls -l` (Line-Mode, Informationen Anzeigen)
+ 
+ `exit` (Super-User root verlassen)
