@@ -82,3 +82,6 @@ Bedeutung der Befehle:
  `ls -l` (Line-Mode, Informationen Anzeigen)
  
  `exit` (Super-User root verlassen)
+ 
+ Wenn alles funktioniert hat schaut dies folgendermaßen aus:
+ [](https://cdn.discordapp.com/attachments/691664570208616518/702169798712229968/unknown.png)
