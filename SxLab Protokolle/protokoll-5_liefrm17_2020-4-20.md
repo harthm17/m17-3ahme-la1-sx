@@ -19,3 +19,5 @@
 Die Aufgaben die in dieser Einheit (20.04.2020) zu erledigen waren:
 
    * Ubuntu Software update
+   * Fertigstellung des letzten Arbeitsauftrages (30.03.2020, Erstellung eines Dienstes (Dämon))
+   * Linux Scripting (Auf LMS im E-Book [Linux-Teil 2]()
