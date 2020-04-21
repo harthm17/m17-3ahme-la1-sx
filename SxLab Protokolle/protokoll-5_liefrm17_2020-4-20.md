@@ -84,4 +84,4 @@ Bedeutung der Befehle:
  `exit` (Super-User root verlassen)
  
  Wenn alles funktioniert hat schaut dies folgendermaßen aus:
- [](https://cdn.discordapp.com/attachments/691664570208616518/702169798712229968/unknown.png)
+ ![](https://cdn.discordapp.com/attachments/691664570208616518/702169798712229968/unknown.png)
