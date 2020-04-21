@@ -46,7 +46,7 @@ Erster Schritt: Das Erstellen der Datei mydaemon.service! Das Erstellen der Date
 
 Dann mit dem Befehl ```nano``` in den Texeditor wechseln. Folgender Text muss manuell geschrieben, oder in den Editor kopiert werden:
 
-``
+```
 [Unit]
 Description=my background program for testing system services
 
@@ -57,4 +57,4 @@ IgnoreSIGPIPE=false
 
 KillMode=process
 
-``
+```
