@@ -42,7 +42,7 @@ Genuaeres ist im 4ten Protokoll nachzulesen, [Erstellung eines Dienstes (Dämon)
 
 ### systemd Service erstellen
 
-Erster Schritt: Das Erstellen der Datei mydaemon.service! DAs Erstellen der Datei sollte schon gelingen!
+Erster Schritt: Das Erstellen der Datei mydaemon.service! Das Erstellen der Datei sollte schon gelingen!
 
 Dann mit dem Befehl ```nano``` in den Texeditor wechseln. Folgender Text muss manuell geschrieben, oder in den Editor kopiert werden:
 
@@ -52,7 +52,9 @@ Description=my background program for testing system services
 
 [Service]
 ExecStart=/home/user/mydaemon/mydaemon
+
 IgnoreSIGPIPE=false
+
 KillMode=process
 
 ``
