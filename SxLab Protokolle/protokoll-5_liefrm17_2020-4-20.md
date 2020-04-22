@@ -95,6 +95,8 @@ Den Dienst kann man in einer anderen Shell mit diesem Befehl bobachten:
 ```
 franz@franz-VirtualBox:: ~/mydaemon$ sudo journalctl -f -u mydaemon
 ```
+![](https://cdn.discordapp.com/attachments/691664570208616518/702453539112484914/unknown.png)
+
 Nachfolgend den Dienst erneut starten!!!
 
 **Wichtig:** Wenn Änderungen am Dienst in der Service-Dateivorgenommen werden, dann ist es Notwendig mit dem Befehl ```sudo systemctl daemon-reload``` eine Aktualisierung durchzuführen!!!
@@ -119,3 +121,5 @@ Befehle für die Verwendungen des Servivces:
 Mit dem Befehl ```sudo systemctl status mydaemon```erscheint folgendes:
 
 ![](https://cdn.discordapp.com/attachments/691664570208616518/702452673039040552/unknown.png)
+
+
