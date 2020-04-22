@@ -139,6 +139,19 @@ Dies geht mit folgenden Befehlen:
 thomas@thomas-VirtualBox:~$ sudo -i
 -> [sudo] Passwort für Thomas: 
 ```
+Nachdem man sich als Super User registriert hat muss man zu seinem ```mydaemon```Ordner kommen.
+Zuerst führt man den Befehl ```cd /etc/systemd/system```. Nach diesem Befehl ist man seinem Ordner schon näher. Dannach gibt man ```ln -s /home/user/mydaemon/mydaemon``` ein. Zu guter Letzt ```ls -l```.
+
+In meinem Terminal sieht es dann so aus:
+```
+root@thomas-VirtualBox:~# cd /etc/systemd/system
+root@thomas-VirtualBox:/etc/systemd/system# ln -s /home/user/mydaemon/mydaemon
+root@thomas-VirtualBox:/etc/systemd/system# ls -l
+```
+Dannach werden bei mir 124 Datein aufgelistet.
+
+
+
 
 #### Servive starten, stoppen und beobachten
 
