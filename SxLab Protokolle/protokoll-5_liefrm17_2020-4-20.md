@@ -83,5 +83,7 @@ Bedeutung der Befehle:
  
  `exit` (Super-User root verlassen)
  
- Wenn alles funktioniert hat schaut dies folgendermaßen aus:
+ Wenn alles funktioniert hat  dies folgendermaßen auszusehen:
  ![](https://cdn.discordapp.com/attachments/691664570208616518/702169798712229968/unknown.png)
+ 
+ 
