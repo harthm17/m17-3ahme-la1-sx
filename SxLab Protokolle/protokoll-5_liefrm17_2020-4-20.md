@@ -86,7 +86,13 @@ Bedeutung der Befehle:
  Wenn alles funktioniert hat  dies folgendermaßen auszusehen:
  ![](https://cdn.discordapp.com/attachments/691664570208616518/702169798712229968/unknown.png)
  
-Den Dienst dann abschließend Starten:
+Den Dienst dann abschließend mit diesm Befehl Starten:
+```
+user@pi: ~/mydaemon$ sudo systemctl start mydaemon
+```
+Den Dienst kann man in einer anderen Shell mit diesem Befehl bobachten:
 ```
 franz@franz-VirtualBox:: ~/mydaemon$ sudo journalctl -f -u mydaemon
 ```
+
+
