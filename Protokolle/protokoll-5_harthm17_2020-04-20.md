@@ -159,13 +159,13 @@ Falls man sich ausloggen möchte einfach ```exit```eingeben.
 Anschließend benötigt man erneurt eine seperate Shell.
 In einer Shell startet man den Dienst.
 ```
-thomas@thomas-VirtualBox:~$ sudo systemctl start mydaemon
+thomas@thomas-VirtualBox:~/mydaemon$ sudo systemctl start mydaemon
 
 ```
 
 Und in der anderen Shell kann man den Dienst beobachten.
 ```
-thomas@thomas-VirtualBox:~$ sudo journalctl -f -u mydaemon
+thomas@thomas-VirtualBox:~/mydaemon$ sudo journalctl -f -u mydaemon
 ```
 
 Falls man bei der .service Datei etwas änder, muss man den Befhel ```sudo systemctl daemon-reload``` eingeben.
