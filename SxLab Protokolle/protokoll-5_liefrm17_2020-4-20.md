@@ -95,9 +95,6 @@ Den Dienst kann man in einer anderen Shell mit diesem Befehl bobachten:
 ```
 franz@franz-VirtualBox:: ~/mydaemon$ sudo journalctl -f -u mydaemon
 ```
-Durch die Eingabe des BEfehles ```sudo journalctl -f -u mydaemon``` erscheint folgendes:
-
-![](https://cdn.discordapp.com/attachments/691664570208616518/702453539112484914/unknown.png)
 
 Nachfolgend den Dienst erneut starten!!!
 
@@ -123,5 +120,11 @@ Befehle für die Verwendungen des Servivces:
 Mit dem Befehl ```sudo systemctl status mydaemon```erscheint folgendes:
 
 ![](https://cdn.discordapp.com/attachments/691664570208616518/702452673039040552/unknown.png)
+
+Die Ausgabe des Dienstes kann auch mit dem Befehl ```journalctl -f``` laufend ausgegeben werden. Mit dem Befehl ```journalctl -u``` kann sie nachträglich ausgegeben werden.
+
+Mit dem Befehl ```journalctl -u``` sieht dies folgendermaßen aus:
+
+![](https://cdn.discordapp.com/attachments/691664570208616518/702456804013244457/unknown.png)
 
 
