@@ -15,6 +15,7 @@
 1) [Übung 1: Erstellen eines Dienstes, Abschluss:](#übung-1-erstellen-eines-dienstes-abschluss)
     * [systemd Service erstellen](#systemd-service-erstellen)
     * [Service starten, stoppen und beobachten](#service-starten-stoppen-und-beobachten)
+    * [Autostart](#autostart)
 
 ---------------------------------------------------------------------------------------------------------------------------
 ## Aufgabenstellung
@@ -87,7 +88,7 @@ Bedeutung der Befehle:
  Wenn alles funktioniert hat  dies folgendermaßen auszusehen:
  ![](https://cdn.discordapp.com/attachments/691664570208616518/702169798712229968/unknown.png)
  
-Den Dienst dann abschließend mit diesm Befehl Starten:
+Den Dienst dann abschließend mit diesem Befehl Starten:
 ```
 user@pi: ~/mydaemon$ sudo systemctl start mydaemon
 ```
@@ -127,4 +128,13 @@ Mit dem Befehl ```journalctl -u``` sieht dies folgendermaßen aus:
 
 ![](https://cdn.discordapp.com/attachments/691664570208616518/702456804013244457/unknown.png)
 
+--------------------------------------------------------------------------------------------------------------------------------
+## Autostart
 
+Bei einem Systemstart, sollten alle Deamons zum richtigen Zeitpunkt automatisch gestartet werden!!!
+
+Unser System weiß nicht wann es starten soll. Um dies zu gewährleisten, das es zum richtigen Zeitpunkt startet, muss noch ein Eintrag in unsere Service-Datei hinzugefügt werden:
+```
+[Install]
+WantedBy=multi-user.target
+```
