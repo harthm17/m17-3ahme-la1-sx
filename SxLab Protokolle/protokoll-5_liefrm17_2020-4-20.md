@@ -86,4 +86,7 @@ Bedeutung der Befehle:
  Wenn alles funktioniert hat  dies folgendermaßen auszusehen:
  ![](https://cdn.discordapp.com/attachments/691664570208616518/702169798712229968/unknown.png)
  
- 
+Den Dienst dann abschließend Starten:
+```
+franz@franz-VirtualBox:: ~/mydaemon$ sudo journalctl -f -u mydaemon
+```
