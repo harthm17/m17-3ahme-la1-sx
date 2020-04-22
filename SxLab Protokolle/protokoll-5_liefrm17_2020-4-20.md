@@ -16,6 +16,7 @@
     * [systemd Service erstellen](#systemd-service-erstellen)
     * [Service starten, stoppen und beobachten](#service-starten-stoppen-und-beobachten)
     * [Autostart](#autostart)
+1) [Resümee](#resümee)
 
 ---------------------------------------------------------------------------------------------------------------------------
 ## Aufgabenstellung
@@ -148,7 +149,7 @@ Wenn dies nicht geschen ist, und man den Befehl ```sudo systemctl enable mydaemo
 
 Ansonsten sollte die Aktivierung funktionieren.
 
-Mit dem Befehl ```sudo systemctl enable mydaemon``` erscheint folgende MEldung:
+Mit dem Befehl ```sudo systemctl enable mydaemon``` sollte nach dem Eintrag in die Service-Datei, folgende Meldung erscheinen:
 
 ![](https://cdn.discordapp.com/attachments/691664570208616518/702462424220958810/unknown.png)
 
@@ -157,4 +158,4 @@ Wenn alles in Ordnung ist, System rebooten,geschiet mit dem Befehl ```sudo reboo
 Anschließend mit journalctl überprüfen, ob wirklich alles läuft.
 
 -------------------------------------------------------------------------------------------------------------------------------------
-
+## Resümee
