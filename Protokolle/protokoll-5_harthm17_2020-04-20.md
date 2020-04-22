@@ -13,7 +13,8 @@
 * [Voraussetzungen](#voraussetzungen)
   * [Grundlagen](#grundlagen)
 * [Erstellung eines Dienstes](#erstellung-eines-dienstes)
-  * [Übung](#übung)
+* [Übung](#übung)
+  * [Service Datei erstellen](#service-datei-erstellen)
   * [Endlos-Dienst automatisch starten lassen](#endlos-dienst-automatisch-starten-lassen)
 
 ---------------------------------------------
@@ -37,7 +38,7 @@ In Java ist es laut dieser [Website](https://www.dpunkt.de/java/Programmieren_mi
 > Daemon-Threads unterscheiden sich dadurch von normalen Threads (auch User-Threads genannt), dass ihr Status nicht bei der Ermittlung des Beendigungszeitpunkts eines Java-Programms berücksichtigt wird. Andersherum formuliert: Bei der Beendigung jedes User-Threads wird geprüft, ob noch andere User-Threads laufen. Ist das nicht der Fall, wird das Programm beendet, und zwar unabhängig davon, ob noch Daemon-Threads laufen und in welchen Zustand sie sich befinden. 
 
 
-#### Übung
+### Übung
 In dieser Übung sollen wir einen Dienst erstellen, welcher ein C-Programm laufen lässt. Dieses Programm wird im Hintergrund laufen und gibt viermal einen Text aus und zwar alle 2 Sekunden.
 
 Wir haben nach unserem Skriptum **Linux 2** (Kapitel 1.4) gearbeitet.
@@ -102,6 +103,16 @@ thomas@thomas-VirtualBox:~$ journalctl -f -v verbose
 thomas@thomas-VirtualBox:~$ tail -f /var/log/syslog
 ```
 
+Wenn man in einer Shell, das Programm mydaemon startet und in einer zweiten Shell journalctl -f eingibt, kommt dies als Rückmeldung.
+```
+Apr 22 12:20:17 thomas-VirtualBox mydaemon[11917]: mydaemon started.
+Apr 22 12:20:23 thomas-VirtualBox mydaemon[11917]: bin bei der letzten Ausgabe...
+Apr 22 12:20:23 thomas-VirtualBox mydaemon[11917]: mydaemon terminated.
+```
+Was sagt uns diese Ausgabe?
+Wir sehen das um 12:20:17 das Programm startet und zeitgleich die erste Ausgabe "Hallo 1". Alle 2 Sekunden würden "Hallo 2" (Zeitpunkt: 12:20:19) und "Hallo 3" (Zeitpunkt: 12:20:21) erscheinen. Um 12:20:23 erscheint die letzte Ausgabe "Hallo 4" und das Programm schließt sich.
+
+#### Service Datei erstellen
 Dannach muss man eine neue Datei erstellen namens "mydaemon.service". 
 Wie erstellt man aber eine neue Datei?
 Diese kann man im Terminal direkt anlegen. Und öffnet man mit dem Befehl ```nano mydaemon.service``` den Terminaleditor und fügt folgenden Text ein.
