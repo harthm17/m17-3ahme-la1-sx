@@ -159,3 +159,6 @@ Anschließend mit journalctl überprüfen, ob wirklich alles läuft.
 
 -------------------------------------------------------------------------------------------------------------------------------------
 ## Resümee
+
+Ich habe die alte Aufgabenstellung dem Skript nach abgearbeitet, trotzdem bin ich  nur langsam vorangekommen.  
+Mir ist nur ein Fehler passiert, an dem ich nicht mehr weitergekommen bin. Aber durch die perfekte Kompetenz und mit der ausnahmslosen Hilfe meines Lehrers, habe ich den Fehler abschließend gefunde. Danach habe ich die weiteren Schritte bis zu Ende abgearbeitet. Der Dienst wurde noch bis Stunden Ende dieser Einheit erstellt.
