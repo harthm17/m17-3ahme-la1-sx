@@ -151,7 +151,7 @@ root@thomas-VirtualBox:/etc/systemd/system# ls -l
 Dannach werden bei mir 124 Datein aufgelistet.
 Darunter auch eine rote Datei, diese ist unsere mydaemon.servive Datei.
 
-![]https://cdn.discordapp.com/attachments/692432976503373854/702471709927931945/Bildschirmfoto_von_2020-04-22_12-47-29.png
+![](https://cdn.discordapp.com/attachments/692432976503373854/702471709927931945/Bildschirmfoto_von_2020-04-22_12-47-29.png)
 
 
 
