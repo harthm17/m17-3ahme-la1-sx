@@ -102,3 +102,20 @@ Nachfolgend den Dienst erneut starten!!!
 ----------------------------------------------------------------------------------------------------------------------------------------
 ## Service starten, stoppen und beobachten
 
+Mit dem Befehl sysemctl, wird ein Service gestartet, er kann auch beobachtet werden.
+
+Befehle für die Verwendungen des Servivces:
+
+```sudo systemctl start mydaemon``` (Deamon wird gestartet)
+
+```sudo systemctl restart mydaemon``` (Deamon wird neu gestartet)
+
+```sudo systemctl stop mydaemon``` (Deamon wird beendet)
+
+```sudo systemctl deamon-reload``` (Aktuakisierung des Dienstes, wenn Änderungen vorgenommen wurden)
+
+```sudo systemctl status mydaemon``` (Man Erhält ausführliche Information über den Dienstes)
+
+Mit dem Befehl ```sudo systemctl status mydaemon```erscheint folgendes:
+
+![](https://cdn.discordapp.com/attachments/691664570208616518/702452673039040552/unknown.png)
