@@ -15,7 +15,6 @@
 * [Erstellung eines Dienstes](#erstellung-eines-dienstes)
   * [Übung](#übung)
   * [Endlos-Dienst automatisch starten lassen](#endlos-dienst-automatisch-starten-lassen)
-  * [Wichtige Begriffe](#wichtige-begriffe)
 
 ---------------------------------------------
 ### Voraussetzungen
@@ -116,7 +115,7 @@ IgnoreSIGPIPE=false
 KillMode=process
 ```
 
-Wichtig zu erwähne ist, das dieser Pfad natürlich auf Ihren Gerät nicht funktioniert.
+Wichtig zu erwähnen ist, das dieser Pfad natürlich auf Ihren Gerät nicht funktioniert.
 In meinem Fall war das Verzeichnis /home/thomas/mydaemon/mydaemon.
 
 
@@ -128,15 +127,5 @@ thomas@thomas-VirtualBox:~$ sudo -i
 ```
 
 
-
 #### Endlos-Dienst automatisch starten lassen
-
-
-#### Wichtige Begriffe
-Die Theoriefragen habe ich schon am Anfang der Unterrichtseinheit ausgearbeitet.
-* ExecStart: ExecStart ist der Befehl, der beim Start der Unit ausgeführt wird.
-
-* Ignore SIGPIPE: Wird beim Versuch verschickt, in eine nicht mehr existierende Pipe zu schreiben. (Pipe - "Datenstrom" zwischen zwei Programme)
-
-* KillMode: Legt fest, wie die Prozesse dieser Unit beendet werden soll bzw getötet werden soll. Entweder mit **control-group**, **process**, **mixed** oder **none**.
 
