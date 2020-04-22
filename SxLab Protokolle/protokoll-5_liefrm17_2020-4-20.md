@@ -95,6 +95,8 @@ Den Dienst kann man in einer anderen Shell mit diesem Befehl bobachten:
 ```
 franz@franz-VirtualBox:: ~/mydaemon$ sudo journalctl -f -u mydaemon
 ```
+Durch die Eingabe des BEfehles ```sudo journalctl -f -u mydaemon``` erscheint folgendes:
+
 ![](https://cdn.discordapp.com/attachments/691664570208616518/702453539112484914/unknown.png)
 
 Nachfolgend den Dienst erneut starten!!!
@@ -104,7 +106,7 @@ Nachfolgend den Dienst erneut starten!!!
 ----------------------------------------------------------------------------------------------------------------------------------------
 ## Service starten, stoppen und beobachten
 
-Mit dem Befehl sysemctl, wird ein Service gestartet, er kann auch beobachtet werden.
+Mit dem Befehl systemctl, wird ein Service gestartet, er kann auch beobachtet werden.
 
 Befehle für die Verwendungen des Servivces:
 
