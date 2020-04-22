@@ -88,7 +88,7 @@ Das ausgeführte Programm sieht dann so aus:
 
 ![](https://cdn.discordapp.com/attachments/692432976503373854/694930441769320496/Bild1.png)
 
-Was bedeutet journald?
+Was bedeutet journaldctl?
 Dies werde ich mit einem Auszug der Mainpage beschreiben:
 > journalctl may be used to query the contents of the systemd(1) journal as written by systemd-journald.service(8). If called without parameters, it will show the full contents of the
 journal, starting with the oldest entry collected.
