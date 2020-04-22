@@ -44,7 +44,7 @@ Genuaeres ist im 4ten Protokoll nachzulesen, [Erstellung eines Dienstes (Dämon)
 
 **Erster Schritt: Das Erstellen der Datei mydaemon.service!** 
 
-Dann mit dem Befehl ```nano``` in den Texteditor wechseln. Folgender Text muss manuell geschrieben, oder hineinkopiert werden:
+Dann mit dem Befehl ```nano``` in den Texteditor wechseln. Folgender Text muss manuell geschrieben, oder hineinkopiert werden. Wichtig dabei ist, dass der Text keinen Schreibfehler jeglicher Art enhalten darf, sonst funktioniert es nicht.
 
 ```
 [Unit]
@@ -56,7 +56,7 @@ IgnoreSIGPIPE=false
 KillMode=process
 ```
 
-**Nächster Schritt: In /etc/systemd/system einen Link auf die Servica Datei erstellen!**
+**Nächster Schritt: In /etc/systemd/system einen Link auf die Servic Datei erstellen!**
 
 ```
 franz@franz-VirtualBox: ~/mydaemon$ sudo -i
