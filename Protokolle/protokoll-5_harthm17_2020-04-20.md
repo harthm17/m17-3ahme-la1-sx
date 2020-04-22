@@ -183,6 +183,8 @@ Wenn ich den Dienst starte und diesen dann beobachte, sieht das so aus:
 
 ![](https://cdn.discordapp.com/attachments/692432976503373854/702509706610212894/bild.png)
 
+Wenn der Dienst nicht laufen würde, würde bei "Active: inactive (dead)" stehen und der grüne Punkt wäre grau.
+
 #### Endlos-Dienst automatisch starten lassen
 Angenommen man möchte jetzte sofort den Autostart einführen und gibt ```sudo systemctl enable mydaemon``` ein.
 Würde dieser Fehlermeldung kommen:
