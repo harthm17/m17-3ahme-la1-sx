@@ -91,7 +91,9 @@ Das ausgeführte Programm sieht dann so aus:
 
 Was bedeutet journald?
 Dies werde ich mit einem Auszug der Mainpage beschreiben:
-> 
+> journalctl may be used to query the contents of the systemd(1) journal as written by systemd-journald.service(8). If called without parameters, it will show the full contents of the
+journal, starting with the oldest entry collected.
+
 
 Als Nächstes testen wir unser Programm. Wir können man mit Hilfe von weiteren Shells mit folgenden Befehelen die Ausgabe im Log oder im journald anzeigen lassen.
 ```
