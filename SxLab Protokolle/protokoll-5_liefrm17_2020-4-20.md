@@ -69,7 +69,7 @@ lrwxrwxrwx 1 root root   20 Apr 30 14:40  mydaemon.service -> /home/franz/mydaem
 root@franz-VirtualBox: /etc/systemd/system# exit
 
 ```
-**Wichtig: Beim Ausführen dieser Befehle, muss der "user", in meinem Fall franz, unbedingt auf eigenen User geändert werden!!!**
+**Wichtig:** Beim Ausführen dieser Befehle, muss der "user", in meinem Fall franz, unbedingt auf eigenen User geändert werden!!!
 
 Bedeutung der Befehle:
 
@@ -94,5 +94,7 @@ Den Dienst kann man in einer anderen Shell mit diesem Befehl bobachten:
 ```
 franz@franz-VirtualBox:: ~/mydaemon$ sudo journalctl -f -u mydaemon
 ```
+Nachfolgend den Dienst erneut starten!!!
 
+**Wichtig:** Wenn Änderungen am Dienst in der Service-Dateivorgenommen werden, dann ist es Notwendig mit dem Befehl ```sudo systemctl daemon-reload``` eine Aktualisierung durchzuführen!!!
 
