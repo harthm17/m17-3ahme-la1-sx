@@ -14,6 +14,7 @@
 1) [Erledigte Unterpunkte der letzten Einheit](#erledigte-unterpunkte-der-letzten-einheit)
 1) [Übung 1: Erstellen eines Dienstes, Abschluss:](#erstellen-eines-dienstes-abschluss)
     * [systemd Service erstellen](#systemd-service-erstellen)
+    * [Service starten, stoppen und beobachten](#service-starten-stoppen-und-beobachten)
 
 ---------------------------------------------------------------------------------------------------------------------------
 ## Aufgabenstellung
@@ -97,4 +98,7 @@ franz@franz-VirtualBox:: ~/mydaemon$ sudo journalctl -f -u mydaemon
 Nachfolgend den Dienst erneut starten!!!
 
 **Wichtig:** Wenn Änderungen am Dienst in der Service-Dateivorgenommen werden, dann ist es Notwendig mit dem Befehl ```sudo systemctl daemon-reload``` eine Aktualisierung durchzuführen!!!
+
+----------------------------------------------------------------------------------------------------------------------------------------
+## Service starten, stoppen und beobachten
 
