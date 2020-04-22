@@ -15,6 +15,7 @@
 * [Erstellung eines Dienstes](#erstellung-eines-dienstes)
 * [Übung](#übung)
   * [Service Datei erstellen](#service-datei-erstellen)
+  * [Servive starten, stoppen und beobachten](#servive-starten-stoppen-und-beobachten)
   * [Endlos-Dienst automatisch starten lassen](#endlos-dienst-automatisch-starten-lassen)
 
 ---------------------------------------------
@@ -103,7 +104,7 @@ thomas@thomas-VirtualBox:~$ journalctl -f -v verbose
 thomas@thomas-VirtualBox:~$ tail -f /var/log/syslog
 ```
 
-Wenn man in einer Shell, das Programm mydaemon startet und in einer zweiten Shell journalctl -f eingibt, kommt dies als Rückmeldung.
+Wenn man in einer Shell, das Programm mydaemon startet und in einer zweiten Shell ```journalctl -f``` eingibt, kommt dies als Rückmeldung.
 ```
 Apr 22 12:20:17 thomas-VirtualBox mydaemon[11917]: mydaemon started.
 Apr 22 12:20:23 thomas-VirtualBox mydaemon[11917]: bin bei der letzten Ausgabe...
@@ -111,6 +112,8 @@ Apr 22 12:20:23 thomas-VirtualBox mydaemon[11917]: mydaemon terminated.
 ```
 Was sagt uns diese Ausgabe?
 Wir sehen das um 12:20:17 das Programm startet und zeitgleich die erste Ausgabe "Hallo 1". Alle 2 Sekunden würden "Hallo 2" (Zeitpunkt: 12:20:19) und "Hallo 3" (Zeitpunkt: 12:20:21) erscheinen. Um 12:20:23 erscheint die letzte Ausgabe "Hallo 4" und das Programm schließt sich.
+
+Dies könnte man mit den weiteren Ausgaben ebenso erklären, jedoch wäre dies nicht nötig.
 
 #### Service Datei erstellen
 Dannach muss man eine neue Datei erstellen namens "mydaemon.service". 
@@ -136,6 +139,8 @@ Dies geht mit folgenden Befehlen:
 thomas@thomas-VirtualBox:~$ sudo -i
 -> [sudo] Passwort für Thomas: 
 ```
+
+#### Servive starten, stoppen und beobachten
 
 
 #### Endlos-Dienst automatisch starten lassen
