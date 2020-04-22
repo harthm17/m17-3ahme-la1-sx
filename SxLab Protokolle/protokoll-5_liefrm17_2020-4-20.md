@@ -140,7 +140,7 @@ Dieser lautet:
 [Install]
 WantedBy=multi-user.target
 ```
-Mit deisem Eintrag drücken wir aus, dass der Dienst gestaret sein muss, bevor das System Muli-User fähig ist!
+Mit diesem Eintrag drücken wir aus, dass der Dienst gestaret sein muss, bevor das System Muli-User fähig ist!
 
 Wenn dies nicht geschen ist, und man den Befehl ```sudo systemctl enable mydaemon``` vor dieser Änderung benützt, dann erscheint folgende Fehlermeldung:
 
@@ -148,7 +148,13 @@ Wenn dies nicht geschen ist, und man den Befehl ```sudo systemctl enable mydaemo
 
 Ansonsten sollte die Aktivierung funktionieren.
 
-Mit dem Befehl ```sudo systemctl enable mydaemon``` erscheint folgender Eintrag:
+Mit dem Befehl ```sudo systemctl enable mydaemon``` erscheint folgende MEldung:
 
 ![](https://cdn.discordapp.com/attachments/691664570208616518/702462424220958810/unknown.png)
+
+Wenn alles in Ordnung ist, System rebooten,geschiet mit dem Befehl ```sudo reboot```
+
+Anschließend mit journalctl überprüfen, ob wirklich alles läuft.
+
+-------------------------------------------------------------------------------------------------------------------------------------
 
