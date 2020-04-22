@@ -14,9 +14,8 @@
   * [Grundlagen](#grundlagen)
 * [Erstellung eines Dienstes](#erstellung-eines-dienstes)
   * [Übung](#übung)
+  * [Endlos-Dienst automatisch starten lassen](#endlos-dienst-automatisch-starten-lassen)
   * [Wichtige Begriffe](#wichtige-begriffe)
-* [Endlos-Dienst automatisch starten lassen](#endlos-dienst-automatisch-starten-lassen)
-
 
 ---------------------------------------------
 ### Voraussetzungen
@@ -90,6 +89,9 @@ Das ausgeführte Programm sieht dann so aus:
 
 ![](https://cdn.discordapp.com/attachments/692432976503373854/694930441769320496/Bild1.png)
 
+Was bedeutet journald?
+Dies werde ich mit einem Auszug der Mainpage beschreiben:
+> 
 
 Als Nächstes testen wir unser Programm. Wir können man mit Hilfe von weiteren Shells mit folgenden Befehelen die Ausgabe im Log oder im journald anzeigen lassen.
 ```
@@ -98,6 +100,7 @@ thomas@thomas-VirtualBox:~$ journalctl -f -p 4
 thomas@thomas-VirtualBox:~$ journalctl -f -v verbose
 thomas@thomas-VirtualBox:~$ tail -f /var/log/syslog
 ```
+
 Dannach muss man eine neue Datei erstellen namens "mydaemon.service". 
 Wie erstellt man aber eine neue Datei?
 Diese kann man im Terminal direkt anlegen. Und öffnet man mit dem Befehl ```nano mydaemon.service``` den Terminaleditor und fügt folgenden Text ein.
@@ -121,10 +124,11 @@ Dies geht mit folgenden Befehlen:
 thomas@thomas-VirtualBox:~$ sudo -i
 -> [sudo] Passwort für Thomas: 
 ```
-Leider bin ich nicht weiter als hierhin gekommen.
-Arbeitsstand in der regülaren Unterrichtszeit: "systemd Service erstellen" im Skriptum **Linux 2**.
 
-Weiter Schritte wären, den Service starten, stoppen und beobachten. Außerdem ebenso einen Autostart für diesen Dienst zu errichten. Ich habe nachdem erstellen des systemmd versucht das Programm schon starten zu lassen, jedoch logischerweiße funktioniere dies noch nicht.
+
+
+#### Endlos-Dienst automatisch starten lassen
+
 
 #### Wichtige Begriffe
 Die Theoriefragen habe ich schon am Anfang der Unterrichtseinheit ausgearbeitet.
@@ -133,7 +137,4 @@ Die Theoriefragen habe ich schon am Anfang der Unterrichtseinheit ausgearbeitet.
 * Ignore SIGPIPE: Wird beim Versuch verschickt, in eine nicht mehr existierende Pipe zu schreiben. (Pipe - "Datenstrom" zwischen zwei Programme)
 
 * KillMode: Legt fest, wie die Prozesse dieser Unit beendet werden soll bzw getötet werden soll. Entweder mit **control-group**, **process**, **mixed** oder **none**.
-
-### Endlos-Dienst automatisch starten lassen
-Zu diesem Punkt bin ich in der regulären Zeit des Unterrichts nicht gekommen.
 
