@@ -77,8 +77,8 @@ int main () {
 Dannach übersetzten wir das C-Programm in unserem Terminal. Hierbei erstellen wir einen neuen Ordner und eine neue main Datei, wobei die Erstellung der neuen main Datei nicht unbedingt notwendig ist.  
 Wir haben folgende Befehle verwendet, mit den Pfeilen wurden die einzelnen Schirtte nochmals genauer erklärt:
 ```
-thomas@thomas-VirtualBox:~$ mkdir mydaemon                <--- neuen Ornder erstellen
-thomas@thomas-VirtualBox:~$ cd mydaemon                   <--- in den Ordner reingehen
+thomas@thomas-VirtualBox:~$ mkdir mydaemon                         <--- neuen Ornder erstellen
+thomas@thomas-VirtualBox:~$ cd mydaemon                            <--- in den Ordner reingehen
 thomas@thomas-VirtualBox:~/mydaemon$ nano mydaemon.c               <--- Terminal Texteditor öffen und C Programm einfügen
 thomas@thomas-VirtualBox:~/mydaemon$ gcc -o mydaemon mydaemon.c    <--- Übersetzten mit GCC Compiler
 thomas@thomas-VirtualBox:~/mydaemon$ ls -l  
