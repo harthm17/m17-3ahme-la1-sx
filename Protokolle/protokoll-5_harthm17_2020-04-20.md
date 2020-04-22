@@ -149,11 +149,24 @@ root@thomas-VirtualBox:/etc/systemd/system# ln -s /home/user/mydaemon/mydaemon
 root@thomas-VirtualBox:/etc/systemd/system# ls -l
 ```
 Dannach werden bei mir 124 Datein aufgelistet.
-Darunter auch eine rote Datei, diese ist unsere mydaemon.servive Datei.
+Darunter auch eine rote Datei, diese ist unsere mydaemon Datei.
 
 ![](https://cdn.discordapp.com/attachments/692432976503373854/702471709927931945/Bildschirmfoto_von_2020-04-22_12-47-29.png)
 
+Dannach können wir uns als Super User ausloggen, jedoch ist dies nicht Pflicht.
+Falls man sich ausloggen möchte einfach ```exit```eingeben.
 
+Anschließend benötigt man erneurt eine seperate Shell.
+In einer Shell startet man den Dienst.
+```
+thomas@thomas-VirtualBox:~$ sudo systemctl start mydaemon
+
+```
+
+Und in der anderen Shell kann man den Dienst beobachten.
+```
+thomas@thomas-VirtualBox:~$ sudo journalctl -f -u mydaemon
+```
 
 #### Servive starten, stoppen und beobachten
 
