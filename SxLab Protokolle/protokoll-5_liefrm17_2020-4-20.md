@@ -133,8 +133,14 @@ Mit dem Befehl ```journalctl -u``` sieht dies folgendermaßen aus:
 
 Bei einem Systemstart, sollten alle Deamons zum richtigen Zeitpunkt automatisch gestartet werden!!!
 
-Unser System weiß nicht wann es starten soll. Um dies zu gewährleisten, das es zum richtigen Zeitpunkt startet, muss noch ein Eintrag in unsere Service-Datei hinzugefügt werden:
+Unser System weiß beim hochfahren nicht, wann es den Dienst starten soll. Um dies zu gewährleisten, dass es zum richtigen Zeitpunkt geschieht, muss noch ein Eintrag in unsere Service-Datei hinzugefügt werden (nano mydeamon.service).
+
+Dieser lautet:
 ```
 [Install]
 WantedBy=multi-user.target
 ```
+Wenn dies nicht geschen ist, und man den Befehl ```sudo systemctl enable mydaemon``` vor dieser Änderung benützt, dann erscheint folgende Fehlermeldung:
+
+![])(https://cdn.discordapp.com/attachments/691664570208616518/702460531939737700/unknown.png)
+
