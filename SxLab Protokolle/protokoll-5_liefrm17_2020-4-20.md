@@ -142,5 +142,5 @@ WantedBy=multi-user.target
 ```
 Wenn dies nicht geschen ist, und man den Befehl ```sudo systemctl enable mydaemon``` vor dieser Änderung benützt, dann erscheint folgende Fehlermeldung:
 
-![])(https://cdn.discordapp.com/attachments/691664570208616518/702460531939737700/unknown.png)
+![](https://cdn.discordapp.com/attachments/691664570208616518/702460531939737700/unknown.png)
 
