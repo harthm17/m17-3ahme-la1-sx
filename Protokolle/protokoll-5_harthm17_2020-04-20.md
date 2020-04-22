@@ -79,9 +79,9 @@ Wir haben folgende Befehle verwendet, mit den Pfeilen wurden die einzelnen Schir
 ```
 thomas@thomas-VirtualBox:~$ mkdir mydaemon                <--- neuen Ornder erstellen
 thomas@thomas-VirtualBox:~$ cd mydaemon                   <--- in den Ordner reingehen
-thomas@thomas-VirtualBox:~$ nano mydaemon.c               <--- Terminal Texteditor öffen und C Programm einfügen
-thomas@thomas-VirtualBox:~$ gcc -o mydaemon mydaemon.c    <--- Übersetzten mit GCC Compiler
-thomas@thomas-VirtualBox:~$ ls -l  
+thomas@thomas-VirtualBox:~/mydaemon$ nano mydaemon.c               <--- Terminal Texteditor öffen und C Programm einfügen
+thomas@thomas-VirtualBox:~/mydaemon$ gcc -o mydaemon mydaemon.c    <--- Übersetzten mit GCC Compiler
+thomas@thomas-VirtualBox:~/mydaemon$ ls -l  
 ```
 Ist man in Terminal Texteditor drinnen, muss man mit STRG + O (Buchstabe nicht Zahl) und dann ENTER speichern und mit STRG + X für verlassen, drücken.
 
@@ -98,10 +98,10 @@ journal, starting with the oldest entry collected.
 
 Als Nächstes testen wir unser Programm. Wir können man mit Hilfe von weiteren Shells mit folgenden Befehelen die Ausgabe im Log oder im journald anzeigen lassen.
 ```
-thomas@thomas-VirtualBox:~$ journalctl -f
-thomas@thomas-VirtualBox:~$ journalctl -f -p 4
-thomas@thomas-VirtualBox:~$ journalctl -f -v verbose
-thomas@thomas-VirtualBox:~$ tail -f /var/log/syslog
+thomas@thomas-VirtualBox:~/mydaemon$ journalctl -f
+thomas@thomas-VirtualBox:~/mydaemon$ journalctl -f -p 4
+thomas@thomas-VirtualBox:~/mydaemon$ journalctl -f -v verbose
+thomas@thomas-VirtualBox:~/mydaemon$ tail -f /var/log/syslog
 ```
 
 Wenn man in einer Shell, das Programm mydaemon startet und in einer zweiten Shell ```journalctl -f``` eingibt, kommt dies als Rückmeldung.
@@ -168,8 +168,39 @@ Und in der anderen Shell kann man den Dienst beobachten.
 thomas@thomas-VirtualBox:~$ sudo journalctl -f -u mydaemon
 ```
 
+Falls man bei der .service Datei etwas änder, muss man den Befhel ```sudo systemctl daemon-reload``` eingeben.
+
 #### Servive starten, stoppen und beobachten
+Wenn man den das alles erledigt hat, kann man den Service starten, stoppen und beobachten.
+Dies kann man mit folgenden Befehlen machen:
+```
+root@thomas-VirtualBox:~# systemctl start mydaemon
+root@thomas-VirtualBox:~# systemctl restart mydaemon
+root@thomas-VirtualBox:~# systemctl stop mydaemon
+root@thomas-VirtualBox:~# systemctl status mydaemon
+```
 
 
 #### Endlos-Dienst automatisch starten lassen
+Angenommen man möchte jetzte sofort den Autostart einführen und gibt ```sudo systemctl enable mydaemon``` ein.
+Würde dieser Fehlermeldung kommen:
+> The unit files have no installation config (WantedBy=, RequiredBy=, Also=,
+Alias= settings in the [Install] section, and DefaultInstance= for template
+units). ...
 
+Wieso kommt diese Fehlermeldung?
+Da in unserer mydaemon.service Datei nie etwas von einem Autostart erwähnt wurde.
+
+Um dies hinzuzufügen öffnen sie erneut den Terminaleditor mit nano mydaemon.service und fügen Sie dies dazu:
+```
+[Install]
+WantedBy=multi-user.target
+```
+Der target ist der Zeitpunkt wann es gestartet werden soll.
+
+Wenn man dies erledigt hat, muss man folgendene Befehle eingeben. Um es für die User zu aktivieren.
+```
+thomas@thomas-VirtualBox:~/mydaemon$ sudo systemctl enable mydaemon
+thomas@thomas-VirtualBox:~/mydaemon$ sudo reboot
+```
+Der letzte Schritt ist es, dan Autostart zu überprüfen. Dies macht man mit dem Befehl journaldctl.
