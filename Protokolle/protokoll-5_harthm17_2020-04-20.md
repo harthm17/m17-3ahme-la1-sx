@@ -2,7 +2,7 @@
 ---------------------------------------------
 ## Thema: Dienste in Linux Systemen (2)
 ---------------------------------------------
-* Datum:      21.04.2020
+* Datum:      20.04.2020
 * Gruppe:     2  
 * Abwesend:   keiner
 * Verfasser:  Thomas Harrer 
