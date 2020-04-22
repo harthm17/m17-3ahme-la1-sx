@@ -98,7 +98,23 @@ thomas@thomas-VirtualBox:~$ journalctl -f -p 4
 thomas@thomas-VirtualBox:~$ journalctl -f -v verbose
 thomas@thomas-VirtualBox:~$ tail -f /var/log/syslog
 ```
-Dannach muss man eine neue Datei erstellen namens "mydaemon.service".
+Dannach muss man eine neue Datei erstellen namens "mydaemon.service". 
+Wie erstellt man aber eine neue Datei?
+Diese kann man im Terminal direkt anlegen. Und öffnet man mit dem Befehl ```nano mydaemon.service``` den Terminaleditor und fügt folgenden Text ein.
+```
+[Unit]
+Description=my background program for testing system services
+
+[Service]
+ExecStart=/home/user/mydaemon/mydaemon
+IgnoreSIGPIPE=false
+KillMode=process
+```
+
+Wichtig zu erwähne ist, das dieser Pfad natürlich auf Ihren Gerät nicht funktioniert.
+In meinem Fall war das Verzeichnis /home/thomas/mydaemon/mydaemon.
+
+
 Wenn man diese erstellt hat muss man als Super User einsteigen.
 Dies geht mit folgenden Befehlen:  
 ```
