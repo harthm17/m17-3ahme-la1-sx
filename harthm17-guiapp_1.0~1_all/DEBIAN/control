@@ -1,0 +1,7 @@
+Package: harthm17-guiapp
+Version: 1.0~1 
+Architecture: all 
+Depends: default-jre (>=2:1.11) 
+Installed-Size: 36
+Maintainer: Thomas Harrer <harthm17@htl-kaindorf.at>
+Description: My first Java GUI Application
