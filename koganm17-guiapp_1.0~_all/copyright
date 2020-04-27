@@ -1,0 +1,11 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: koganm17-guiapp
+
+Files: * Copyright: 2020 Andreas  <koganm17@htl-kaindorf.at>
+License: GPL-3+ License: GPL-3+
+
+ This program is ... 
+ ...
+ On Debian systems, the complete text of the GNU Lesser General
+ Public License version 3 can be found in
+ "/usr/share/common-licenses/LGPL-3".

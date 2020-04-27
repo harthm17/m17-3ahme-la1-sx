@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=koganm17-java-application
+GenericName=koganm17 Java Gui Application
+GenericName[de]=koganm17 Java Gui Applikation
+Comment=My first Java GUI Application for Ubuntu
+Exec=java -jar /usr/share/koganm17-guiapp/MyJavaApplication.jar
+Icon=/usr/share/koganm17-guiapp/icon.png
+Terminal=false
+Type=Application
+StartupNotify=false
