@@ -38,17 +38,17 @@
 
 Um Schritt 1 gut durchführen zu können, hilft [dieses sehr hilfreiche Tutorial](https://cloud.htl-mechatronik.at/index.php/s/AlyXs7YglQDLZSP) bestimmt weiter. Dieses video zeigte wie man ein Java Swing GUI Programm in NetBeans  korrekt erstellt. Wichtig ist es, die neueste Aktualisierung der IDE zu haben, damit keine Bugs oder Sondergleichen auftreten.
 
- Folgende Schritte mussten erledigt werden: 
-1) Java Projekt erzeugen
-1) Java Paket gui erzeugen
-1) Java Klasse abgeleitet von JFrame erzeugen (Netbeans JFrame Form ...)
-1) Titel und Mindestgröße konfigurieren, Fenster in der Bildschirmmitte öffnen lassen
-1) "Flow Layout" setzen
-1) einen Button "Press me..." einfügen
-1) In der Button-Handler-Methode ein Dialogfenster öffnen und einen Text ausgegeben
-1) Das Projekt ausführen und testen
-1) Das Projekt mit "Clean und Build" übersetzen
-1) Aus dem Ordner dist die fertige Java Archiv Datei entnehmen
+Folgende Schritte mussten erledigt werden: 
+1. Java Projekt erzeugen
+1. Java Paket gui erzeugen
+1. Java Klasse abgeleitet von JFrame erzeugen (Netbeans JFrame Form ...)
+1. Titel und Mindestgröße konfigurieren, Fenster in der Bildschirmmitte öffnen lassen
+1. "Flow Layout" setzen
+1. einen Button "Press me..." einfügen
+1. In der Button-Handler-Methode ein Dialogfenster öffnen und einen Text ausgegeben
+1. Das Projekt ausführen und testen
+1. Das Projekt mit "Clean und Build" übersetzen
+1. Aus dem Ordner dist die fertige Java Archiv Datei entnehmen
 
  #### Schritt 2 - Debian Paketverzeichnis erstellen
  
