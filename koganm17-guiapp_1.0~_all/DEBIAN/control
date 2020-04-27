@@ -1,0 +1,7 @@
+Package: koganm17-guiapp
+Version: 1.0~1
+Architecture: all
+Depends: default-jre (>=2:1.11)
+Installed-Size: 1000
+Maintainer: Andreas <koganm17@htl-kaindorf.at>
+Description: My first Java GUI Application

@@ -1,0 +1,5 @@
+#!/bin/sh
+#set -e
+#set -x
+
+printf '%b' "\033[32;1m [INFO] koganm17-guiapp (postinst) -> $0 $1 \033[0m\n"
