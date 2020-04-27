@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=sx-marsim17-guiapp
+GenericName=marsim17 Java Gui Application
+GenericName[de]=marsim17 Java Gui Applikation
+Comment=My first Java GUI Application for Ubuntu
+Exec=java -jar /usr/share/marsim17-guiapp/marsim17-guiApp.jar
+Icon=/usr/share/marsim17-guiapp/icon.png
+Terminal=false
+Type=Application
+StartupNotify=false

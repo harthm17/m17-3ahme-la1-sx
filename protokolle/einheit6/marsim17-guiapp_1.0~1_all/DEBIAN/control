@@ -1,0 +1,7 @@
+Package: marsim17-guiapp
+Version: 1.0
+Architecture: all
+Depends: default-jre (>=2:1.11)
+Installed-Size: 56
+Maintainer: Marcher simon <marsim17@htl-kaindorf.ac.at>
+Description: My first Java GUI Application
