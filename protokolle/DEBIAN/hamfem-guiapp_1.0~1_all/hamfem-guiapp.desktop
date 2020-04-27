@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=hamfem-java-application
+GenericName=Hamfem Java Gui Application
+GenericName[de]=Hamfem Java Gui Applikation
+Comment=My first Java GUI Application for Ubuntu
+Exec=java -jar /usr/share/hamfem-guiapp/MyjavaGuiApp.jar
+Icon=/usr/share/sx-guiapp/icon.png
+Terminal=false
+Type=Application
+StartupNotify=false
