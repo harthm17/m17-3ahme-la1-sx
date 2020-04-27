@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=harstm17-java-application
+GenericName=harstm17 Java Gui Application
+GenericName[de]=harstm17 Java Gui Applikation
+Comment=My first Java GUI Application for Ubuntu
+Exec=java -jar /home/stefan/harstm17-guiapp_1.0~1_all/usr/share/harstm17_GUI-App.jar
+Icon=/usr/share/harstm17-guiapp/icon.png
+Terminal=false
+Type=Application
+StartupNotify=false
