@@ -4,7 +4,7 @@
 * **Datum:** 27.04.2020
 * **Gefehlt:** Keiner
 * **Erstellt von:** koganm17
-* **Protokoll letzte Einheit:** [27.04.2020](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/koganm17/Protokolle/Protokoll-5_koganm17_2020-04-20.md)
+* **Protokoll letzte Einheit:** [20.04.2020](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/koganm17/Protokolle/Protokoll-5_koganm17_2020-04-20.md)
 
 ----------------------------------------------------------------------------------------------
 
@@ -169,7 +169,6 @@ Zu diesen Schritten bin ich leider nicht mehr gekommen. In diesen Schritten hät
 * Paketgröße in DEBIAN/control korrigieren
 * Paket erzeugen
 * Paket installieren
-* 
 
  ----------------------------------------------------------------------------------------------
 ## Feedback
