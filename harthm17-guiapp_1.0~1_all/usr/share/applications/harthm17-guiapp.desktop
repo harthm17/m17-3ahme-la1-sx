@@ -1,0 +1,10 @@
+[Desktop Entry] 
+Name=sx-java-application 
+GenericName=harthm17 Java Gui Application 
+GenericName[de]=harthm17 Java Gui Applikation 
+Comment=My first Java GUI Application for Ubuntu 
+Exec=java -jar /usr/share/harthm17-guiapp/harthm17.jar 
+Icon=/usr/share/harthm17-guiapp/icon.png 
+Terminal=false 
+Type=Application
+StartupNotify=false
