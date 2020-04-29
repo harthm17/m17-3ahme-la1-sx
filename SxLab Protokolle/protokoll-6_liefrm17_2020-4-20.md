@@ -80,4 +80,11 @@ user@host:~/sx-guiapp_1.0~1_all$
 
 **Wichtig:** Der Kürzel "sx" wird durch den eigenen Kursnamen ersetzt!
 
+Der Verzeichnisname enthält drei Auskünfte die durch ```_``` getrennt sind:
+
 ---------------------------------------------------------------------------------------------------------------------------------
+### Datei DEBIAN/control
+
+
+
+
