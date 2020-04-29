@@ -48,5 +48,7 @@ Link zur Anleitung der Aufgabe: [Übung 1 (Kapitel 3.2)](https://lms.at/dotlrn/c
 
 ### Java Programm erstellen
 
+Um ein Java Swing GUI Programm erstellen zu können, arbeiten wir in Netbeans (bereits durch das Herunterladen HTL-Paketen enthalten).
 
+**Tipp:** Durch das Aktualiseren (angeführt im 5ten Protokoll) der HTL-Pakete, steht uns die neueste Version Netbeans zur Verfügung
 
