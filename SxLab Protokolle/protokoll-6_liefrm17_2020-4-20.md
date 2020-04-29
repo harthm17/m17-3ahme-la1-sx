@@ -70,7 +70,7 @@ Folgende Schritte werden zur Erstellung des Swing GUI Programmes benötigt:
 ----------------------------------------------------------------------------------------------------------------------------------------
 ### Debian Paketverzeichnis erstellen
 
-Erstellen eines Unterordners für das Debianpaket:
+Mit den darunter angeführten Befehlen wir ein Unterordner für das Debianpaket erstellt:
 
 ```
 user@host:~$ mkdir sx-guiapp_1.0~1_all
@@ -91,7 +91,7 @@ zu entnehmen.
 ---------------------------------------------------------------------------------------------------------------------------------
 ### Datei DEBIAN/control
 
-Erstellen eines Unterordners **Debian**. 
+Nun das Erstellen eines Unterordners **Debian**. 
 
 **Wichtig:** In disem Unterordner muss sich die Datei **control** befinden!
 
