@@ -116,10 +116,13 @@ Description: My first Java GUI Application
 
 **Wichtig:** Der Kürzel "sx" wird durch den eigenen Kursnamen ersetzt!
 
-Ein Eintrag muss elbständig herausgefunden werden. Dieser lautet:
+Ein Eintrag, der in die Datei hinzugefügt werden muss, muss selbständig herausgefunden werden. Dieser lautet:
 ```
 Version: 1.0~1
 ```
 
 ------------------------------------------------------------------------------------------------------------------------------------
+## Resümee
+
+Durch Technische Probleme und Verwirrungen, diese nahmen einen beachtlichen Teil der Lab Stunde ein, startete ich verspätet mit der Übung. Aus diesem Grund konnte ich die anderen Punkte nicht mehr in der mir zur verfügung gestellten Zeit abarbeiten. Abgeshen dieser Missstände kam ich mit der Übung ohne Probleme voran.
 
