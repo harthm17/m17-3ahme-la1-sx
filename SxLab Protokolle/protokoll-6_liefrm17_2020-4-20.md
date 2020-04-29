@@ -81,6 +81,11 @@ user@host:~/sx-guiapp_1.0~1_all$
 **Wichtig:** Der Kürzel "sx" wird durch den eigenen Kursnamen ersetzt!
 
 Der Verzeichnisname enthält drei Auskünfte die durch ```_``` getrennt sind:
+   * **Paketname**
+   * **Version des Paketes**
+   * **Unterstützte Architektur**
+
+Genaueres ist im Kapitel [3.2 (Übung 1 - Debian Paket erzeugen)](https://lms.at/dotlrn/classes/informatik/610437.3AHME_LA1SX.19_20/xolrn/9F2714A93B69A.symlink?resource_id=0-420357452&m=view#473068402) unter "Schritt 2 - Debian Paketverzeichnis erstellen" zu entnehmen.
 
 ---------------------------------------------------------------------------------------------------------------------------------
 ### Datei DEBIAN/control
