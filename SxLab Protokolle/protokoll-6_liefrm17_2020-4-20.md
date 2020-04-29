@@ -40,4 +40,8 @@ Kapitel 3: Im Kapitel 3 (Installationspakete) werden die Techniken aufgelistet/a
 -------------------------------------------------------------------------------------------------------------------------------------
 ## Übung 1: Debian Paket erzeugen
 
-Link zur Anleitung der Aufgabe:[Übung 1 (Kapitel 3.2)](https://lms.at/dotlrn/classes/informatik/610437.3AHME_LA1SX.19_20/xolrn/9F2714A93B69A.symlink?resource_id=0-420357452&m=view#473068402)
+Link zur Anleitung der Aufgabe: [Übung 1 (Kapitel 3.2)](https://lms.at/dotlrn/classes/informatik/610437.3AHME_LA1SX.19_20/xolrn/9F2714A93B69A.symlink?resource_id=0-420357452&m=view#473068402)
+
+**Allgemeine Beschreibung der Aufgabe:** In dieser Übung soll ein Java GUI-Programm als Debian Installationsdatei zur Verfügung gestellt werden.
+
+**Wichtig:** Durch Missgeschicke in der Übung können fehlerhafte Pakete entstehen, dies führt dazu, dass reguläre Pakete nicht mehr installiert oder aktualiesiert werden können, daurch wird das System untauglich/nutzlos. Um dies zu vermeiden führen wir die Übung in einer sicheren Umgebung durch (virtuelle Maschine-Ubuntu). 
