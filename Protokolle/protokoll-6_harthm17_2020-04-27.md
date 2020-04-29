@@ -182,6 +182,13 @@ Description: My first Java GUI Application
 
 ### Schritt 8-9
 Diese zwei Schritte wurden nicht mehr erledigt.
+In diesen zwei Schritten wird folgendes gemacht.
+*  Schritt 8 - Paket erzeugen
+*  Schritt 9 - Paket installieren
+
+Hier ist nochmal der Link für die Übung falls Ihr die letzten zwei Punkte nachholen möchtet.
+Um auf das Skript zu kommen, klicken Sie [hier](https://lms.at/dotlrn/classes/informatik/610437.3AHME_LA1SX.19_20/xolrn/9F2714A93B69A.symlink?resource_id=0-420357452&m=view#473068402).
+
 
 ## Feedback
 Der Inhalt wurde verstanden und es gab keine großen Probleme.
