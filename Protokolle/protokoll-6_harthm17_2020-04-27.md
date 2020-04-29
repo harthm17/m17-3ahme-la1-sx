@@ -11,13 +11,13 @@
 ---------------------------------------------
 ## Inhaltsverzeichnis
 * [Grundlegendes](#grundlegendes)
-* [Übung zur Erstellung](#übung-zur-erstellung)
+* [Übung zur Erstellung eines Debian Paketes](#übung-zur-erstellung-eines-debian-pakets)
 * [Feedback](#feedback)
 
 ---------------------------------------------
 ## Grundlegendes
 
-## Übung zur Erstellung
+## Übung zur Erstellung eines Debian Paketes
 
 ## Feedback
 
