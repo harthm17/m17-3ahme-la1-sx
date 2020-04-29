@@ -7,3 +7,4 @@
 | 3 |  23.03.2020 | Ubuntu Installation | [Protokoll-3](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/harthm17/Protokolle/protokoll-3_harthm17_2020-03-23.md)
 | 4 | 30.03.2020 | Erstellung eines Dämons (Dienstes) | [Protokoll-4](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/harthm17/Protokolle/protokoll-4_harthm17_2020-03-30.md)
 | 5 | 20.04.2020 | Erstellung eines Dämons (Dienstes) (2)| [Protokoll-5](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/harthm17/Protokolle/protokoll-5_harthm17_2020-04-20.md)
+| 6 | 27.04.2020 | Debian Paket erzeugen | [Protokoll-6](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/harthm17/Protokolle/protokoll-6_harthm17_2020-04-27.md)
