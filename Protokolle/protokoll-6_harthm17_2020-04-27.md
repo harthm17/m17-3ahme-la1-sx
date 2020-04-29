@@ -11,7 +11,7 @@
 ---------------------------------------------
 ## Inhaltsverzeichnis
 * [Grundlegendes](#grundlegendes)
-* [Übung zur Erstellung eines Debian Paketes](#übung-zur-erstellung-eines-debian-pakets)
+* [Übung zur Erstellung eines Debian Paketes](#übung-zur-erstellung-eines-debian-paketes)
 * [Feedback](#feedback)
 
 ---------------------------------------------
