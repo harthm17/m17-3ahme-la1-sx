@@ -93,13 +93,15 @@ zu entnehmen.
 
 Mit den darunter angeführten Befehlen wir ein Unterordner für **Debian** erstellt.
 
-**Wichtig:** In diesem Unterordner muss sich die Datei **control** befinden!
-
 ```
 user@host:~/sx-guiapp_1.0~1_all$ mkdir DEBIAN
 user@host:~/sx-guiapp_1.0~1_all$ cd DEBIAN
 user@host:~/sx-guiapp_1.0~1_all/DEBIAN$ nano control
 ```
+
+**Wichtig:** In diesem Unterordner muss sich die Datei **control** befinden!
+
+Die control-Datei enthält die wichtigsten und versionsunabhängigen Informationen über das Quellpaket und über die Binärpakete, die es erstellt.
 
 Die Steuerdatei **control** muss folgendes Enthalten (zugriff mit ```nano``` auf Editor von control):
 
