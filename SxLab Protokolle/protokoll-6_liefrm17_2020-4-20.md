@@ -52,3 +52,16 @@ Um ein Java Swing GUI Programm erstellen zu können, arbeiten wir in Netbeans (b
 
 **Tipp:** Durch das Aktualiseren (angeführt im 5ten Protokoll) der HTL-Pakete, steht uns die neueste Version Netbeans zur Verfügung
 
+Folgende Schritte werden zur Erstellung des Swing GUI Programmes benötigt:
+
+1) Java Projekt erzeugen
+1) Java Paket gui erzeugen
+1) Java Klasse abgeleitet von JFrame erzeugen (Netbeans JFrame Form ...)
+1) Titel und Mindestgröße konfigurieren, Fenster in der Bildschirmmitte öffnen lassen
+1) "Flow Layout" setzen
+1) Einen Button "Press me..." einfügen
+1) In der Button-Handler-Methode ein Dialogfenster öffnen und einen Text ausgegeben
+1) Das Projekt ausführen und testen
+1) Das Projekt mit "Clean und Build" übersetzen
+1) Aus dem Ordner dist die fertige Java Archiv Datei entnehmen
+
