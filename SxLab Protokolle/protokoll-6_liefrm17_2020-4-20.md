@@ -32,5 +32,5 @@ Die Aufgaben die in der 6ten Einheit (27.04.2020) zu erledigen waren:
 
 Um uns die Theorie anzueignen, die wir für die Übung 1: Debian Paket erzeugen (im Kapitel 3.2) brauchen, besteht der erste Arbeitsschritt im Durchlesen der Kapitel (alle zu finden auf Lms (Lab Kurs Sx),im E-Book: Linux-2): 
 
-* **Kapitel 3**(https://lms.at/dotlrn/classes/informatik/610437.3AHME_LA1SX.19_20/xolrn/9F2714A93B69A.symlink?resource_id=0-420357452&m=view#472857424)
-* **kapitel 3.1**(https://lms.at/dotlrn/classes/informatik/610437.3AHME_LA1SX.19_20/xolrn/9F2714A93B69A.symlink?resource_id=0-420357452&m=view#472937916)
+      * **[Kapitel 3]**(https://lms.at/dotlrn/classes/informatik/610437.3AHME_LA1SX.19_20/xolrn/9F2714A93B69A.symlink?resource_id=0-420357452&m=view#472857424)
+      * **[Kapitel 3.1]**(https://lms.at/dotlrn/classes/informatik/610437.3AHME_LA1SX.19_20/xolrn/9F2714A93B69A.symlink?resource_id=0-420357452&m=view#472937916)
