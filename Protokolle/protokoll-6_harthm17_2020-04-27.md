@@ -73,16 +73,72 @@ Description: My first Java GUI Application
 Das Version wurde von mir extra hinzugefügt.
 
 ### Schritt 4 - Datei DEBIAN/postinst und DEBIAN/postrm
+In unseren Ordner können verschiedene Scipt-Datein angelegt werden, die bei der Installation oder Deinstallation ausgeführt werden.
+Folgende Datein sind möglich:
+* preinst (wird am Anfang der Installation, bevor Dateien entpackt werden, ausgeführt)
+* postinst (wird am Ende der Installation, nachdem Dateien entpackt werden, ausgeführt)
+* prerm (wird am Anfang der Deinstallation, bevor Dateien gelöscht werden, ausgeführt)
+* postrm (wird am Ende der Installation, nachdem Dateien gelöscht wurden, ausgeführt)
 
+Nun werden wir eine postinst und eine postrm Datei erstellen. Diese haben wir in unserem DEBIAN Ordner erstellt.
+```
+thomas@thomas-VirtualBox:~/harthm17-guiapp_1.0~1_all/DEBIAN$ touch postinst
+thomas@thomas-VirtualBox:~/harthm17-guiapp_1.0~1_all/DEBIAN$ chmod +x postinst
+thomas@thomas-VirtualBox:~/harthm17-guiapp_1.0~1_all/DEBIAN$ nano postinst
+```
+Bei der postrm Datei muss statt "postinst" "postrm" geschrieben werden.
+Der Inhalt er postinst Datei sieht so aus:
+```
+#!/bin/sh 
+set -e 
+set -x
+
+printf '%b' "\033[32;1m [INFO] harthm17-guiapp (postinst) -> $0 $1 \033[0m\n"
+```
 
 ### Schritt 5 - Java Programm einfügen
+Der nächste Schritt ist es das Java Programm von /home/thomas/NetBeansProjects/harthm17/dist/harthm17.java (dies ist mein Pfad für die .java Datei) in usr/share/harthm17-huiapp/.
+Der Pfad usr/share/hartm17-huiapp/ wird in harthm17-guiapp_1.0~1_all/ angelegt.
+```
+thomas@thomas-VirtualBox:~/harthm17-guiapp_1.0~1_all/DEBIAN$ cd ..
+thomas@thomas-VirtualBox:~/harthm17-guiapp_1.0~1_all$ mkdir -p usr/share/harthm17-guiapp
+thomas@thomas-VirtualBox:~/harthm17-guiapp_1.0~1_all$ cp /home/thomas/NetBeansProjects/harthm17/dist/harthm17.java usr/share/hartm17-huiapp/
+```
+
+Nun erstellen wir eine .desktop Datei mit Hilfe des Terminal Editors. Die Datei ist dafür zuständig das es im Ubuntu System als GUI Applikation gefunden wird.
+```
+thomas@thomas-VirtualBox:~/harthm17-guiapp_1.0~1_all$ mkdir usr/share/applications
+thomas@thomas-VirtualBox:~/harthm17-guiapp_1.0~1_all$ nano harthm17-guiapp.desktop
+```
+
+Die .desktop muss mit diesem Inhalt befüllt werden.
+```
+[Desktop Entry]
+Name=harthm17-java-application
+GenericName=harthm17 Java Gui Application
+GenericName[de]=harthm17 Java Gui Applikation
+Comment=My first Java GUI Application for Ubuntu
+Exec=java -jar /usr/share/applications/harthm17.jar
+Icon=/usr/share/harthm17-guiapp/icon.png
+Terminal=false
+Type=Application
+StartupNotify=false
+```
+
+Bei Icon=/usr/share/harthm17-guiapp/icon.png muss man ein Icon (Bild) erstellen.
+Dies habe ich nicht erledigt da in meinen Augen die Übung wichtiger ist.
+Wenn man dies aber macht muss man das Bild unter diesem Pfad speichern.
+Das Bild muss ausßerdem nicht "icon" heißen sonder kann einen beliebigen Namen haben, dieser muss jedoch auch in der .desktop Datei stehen.
 
 ### Schritt 6 - Paketdokumentation
 
+
 ### Schritt 7 - Paketgröße in DEBIAN/control korrigieren
+
 
 ### Schritt 8-9
 Diese zwei Schritte wurden nicht mehr erledigt.
 
 ## Feedback
-
+Der Inhalt wurde verstanden und es gab keine großen Probleme.
+Es gab ab und an Probleme mit der Speicheradresse oder generel mit Adressen aber diese konnten schnell behoben werden.
