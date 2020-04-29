@@ -101,7 +101,7 @@ user@host:~/sx-guiapp_1.0~1_all$ cd DEBIAN
 user@host:~/sx-guiapp_1.0~1_all/DEBIAN$ nano control
 ```
 
-Die Steuerdatei **control** muss folgendes Enthalten:
+Die Steuerdatei **control** muss folgendes Enthalten (zugriff mit ```nano``` auf Editor von control):
 
 ```
 Package: sx-guiapp
