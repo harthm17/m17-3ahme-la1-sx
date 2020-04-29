@@ -30,4 +30,7 @@ Die Aufgaben die in der 6ten Einheit (27.04.2020) zu erledigen waren:
 ------------------------------------------------------------------------------------------------------------------------------------
 ## Theorie
 
-Zu beginn der Einheit
+Um uns die Theorie anzueignen, die wir für die Übung 1: Debian Paket erzeugen (im Kapitel 3.2) brauchen, besteht der erste Arbeitsschritt im Durchlesen der Kapitel (alle zu finden im E-Book: Linux-2): 
+
+* **3**
+* **3.1**
