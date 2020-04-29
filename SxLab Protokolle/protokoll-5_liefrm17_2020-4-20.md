@@ -5,7 +5,7 @@
 * **Gefehlt:** -
 * **Esrtellt von:** Franz Lieleg (liefrm)
 * **Protokoll der letzten Einheit:**![4tes Protokol](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/liefrm17/SxLab%20Protokolle/protokoll-4_liefrm17_2020-3-30.md)
-* **Protokoll der nächsten Einheit:**
+* **Protokoll der nächsten Einheit:**[6tes Protokoll](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/liefrm17/SxLab%20Protokolle/protokoll-6_liefrm17_2020-4-20.md)
 
 ------------------------------------------------------------------------------------------------------------------------
 ## Inhaltsverzeichnis 
