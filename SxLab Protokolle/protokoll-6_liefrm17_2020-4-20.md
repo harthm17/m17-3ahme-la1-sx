@@ -65,5 +65,5 @@ Folgende Schritte werden zur Erstellung des Swing GUI Programmes benötigt:
 1) Das Projekt mit "Clean und Build" übersetzen
 1) Aus dem Ordner dist die fertige Java Archiv Datei entnehmen
 
-**Tipp:** Ein uns bereit gestelltes Video erleichtet die Erstellung des Programmes: https://cloud.htl-mechatronik.at/index.php/s/AlyXs7YglQDLZSP
+**Tipp:** Ein uns bereit gestelltes Video erleichtet die Erstellung: https://cloud.htl-mechatronik.at/index.php/s/AlyXs7YglQDLZSP
 
