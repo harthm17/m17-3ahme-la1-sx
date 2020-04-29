@@ -10,12 +10,19 @@
 * Schuljahr:  2019/20
 ---------------------------------------------
 ## Inhaltsverzeichnis
-* [Grundlegendes](#grundlegendes)
+* [Voraussetzungen](#voraussetzungen)
 * [Übung zur Erstellung eines Debian Paketes](#übung-zur-erstellung-eines-debian-paketes)
 * [Feedback](#feedback)
 
 ---------------------------------------------
-## Grundlegendes
+## Voraussetungen
+Unser erster Arbeitsauftrag war folgende Kapitel im Linux 2 Skriptum durchzulesen.
+* [Kapitel 3](https://lms.at/dotlrn/classes/informatik/610437.3AHME_LA1SX.19_20/xolrn/9F2714A93B69A.symlink?resource_id=0-420357452&m=view#472857424)
+* [Kapitel 3.1](https://lms.at/dotlrn/classes/informatik/610437.3AHME_LA1SX.19_20/xolrn/9F2714A93B69A.symlink?resource_id=0-420357452&m=view#472937916)
+
+In diesen Kapiteln wurden viele Grundlegende Sachen erklärt, wie Installationpakete, Tools und Konfigurationdatein.
+
+Dannach mussten wir die zum [Kapitel 3.1](https://lms.at/dotlrn/classes/informatik/610437.3AHME_LA1SX.19_20/xolrn/9F2714A93B69A.symlink?resource_id=0-420357452&m=view#473068402) erledigen.
 
 ## Übung zur Erstellung eines Debian Paketes
 ### Schritt 1
