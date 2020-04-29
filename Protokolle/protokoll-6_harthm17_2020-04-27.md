@@ -18,6 +18,12 @@
 ## Grundlegendes
 
 ## Übung zur Erstellung eines Debian Paketes
+### Schritt 1
+### Schritt 2
+### Schritt 3
+### Schritt 4
+### Schritt 5
+### Schritt 6
 
 ## Feedback
 
