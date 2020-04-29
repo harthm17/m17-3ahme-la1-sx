@@ -131,10 +131,54 @@ Wenn man dies aber macht muss man das Bild unter diesem Pfad speichern.
 Das Bild muss ausßerdem nicht "icon" heißen sonder kann einen beliebigen Namen haben, dieser muss jedoch auch in der .desktop Datei stehen.
 
 ### Schritt 6 - Paketdokumentation
+In unserem Unterordner /usr/share/doc sind Paketinformationen für alle Pakete zu finden. Wir legen daher in unserem Paketverzeichnis folgende Ordner und Datein ab.
+```
+thomas@thomas-VirtualBox:~/harthm17-guiapp_1.0~1_all$ mkdir -p usr/share/doc/harthm17-guiapp
+thomas@thomas-VirtualBox:~/harthm17-guiapp_1.0~1_all$ touch usr/share/doc/harthm17-guiapp/changelog
+thomas@thomas-VirtualBox:~/harthm17-guiapp_1.0~1_all$ touch usr/share/doc/harthm17-guiapp/copyright
+```
 
+Die Datei "changelog" muss damit befüllt werden. Dies macht man mit dem Befehl ```nano (dateiname)```. In unserem Fall ```nano changelog```.
+```
+harthm17-guiapp (1.0~1) stable; urgency=low
+  * creating debian package
+  -- Thomas Harrer <harthm17@htl-kaindorf.at>  Mon, 27 Apr 2020 15:00:00 +0100
+```
+
+
+Die Datei "copyright" muss damit befüllt werden. Dies ändern wir mit ```nano copyright```.
+```
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/ 
+Upstream-Name: harthm17-guiapp 
+
+Files: * Copyright: 2020 Thomas Harrer <harthm17@htl-kaindorf.at> 
+License: GPL-3+ License: GPL-3+
+
+ This program is ...
+ ...
+ On Debian systems, the complete text of the GNU Lesser General
+ Public License version 3 can be found in
+ "/usr/share/common-licenses/LGPL-3".
+```
 
 ### Schritt 7 - Paketgröße in DEBIAN/control korrigieren
-
+Mit dem Kommando du (disc usage) kann die Größe hanzer Verzeichnisse inklusive Inhalt bestimmt werden. Die Option -s legt fest, dass wir nun den Gesamtwert wissen wolen und mit -b erhalten wir die Anzahl an Bytes anstatt in KiB.
+Diese Größe muss dann in DEBIAN/control geändert werden.
+```
+thomas@thomas-VirtualBox:~/harthm17-guiapp_1.0~1_all$ du -sb usr
+30318	usr
+thomas@thomas-VirtualBox:~/harthm17-guiapp_1.0~1_all$ du -s usr
+36	usr
+thomas@thomas-VirtualBox:~/harthm17-guiapp_1.0~1_all$ nano DEBIAN/control
+thomas@thomas-VirtualBox:~/harthm17-guiapp_1.0~1_all$ cat DEBIAN/control
+Package: harthm17-guiapp
+Version: 1.0~1 
+Architecture: all 
+Depends: default-jre (>=2:1.11) 
+Installed-Size: 36
+Maintainer: Thomas Harrer <harthm17@htl-kaindorf.at>
+Description: My first Java GUI Application
+```
 
 ### Schritt 8-9
 Diese zwei Schritte wurden nicht mehr erledigt.
