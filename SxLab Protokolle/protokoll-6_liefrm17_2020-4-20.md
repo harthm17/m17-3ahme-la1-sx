@@ -44,13 +44,13 @@ Link zur kompletten Anleitung der Übung: [Übung 1 (Kapitel 3.2)](https://lms.a
 
 **Allgemeine Beschreibung der Aufgabe:** In dieser Übung soll ein Java GUI-Programm als Debian Installationsdatei zur Verfügung gestellt werden.
 
-**Wichtig:** Durch Missgeschicke in der Übung können fehlerhafte Pakete entstehen, dies führt dazu, dass reguläre Pakete nicht mehr installiert oder aktualiesiert werden können. Dies hat grobe Auswirkungen auf das System, es wird untauglich/nutzlos. Um solche Komplikationen zu vermeiden führen wir die Übung in einer sicheren Umgebung durch (virtuelle Maschine-Ubuntu). 
+**Wichtig:** Durch Missgeschicke in der Übung können fehlerhafte Pakete entstehen, dies führt dazu, dass reguläre Pakete nicht mehr installiert oder aktualiesiert werden können. Dies hat grobe Auswirkungen auf das System, es wird untauglich/nutzlos. Um solche Komplikationen zu vermeiden führen wir die Übung in einer sicheren Umgebung durch (virtuelle Maschine-Ubuntu)! 
 
 ### Java Programm erstellen
 
 Um ein Java Swing GUI Programm erstellen zu können, arbeiten wir in Netbeans (bereits durch das Herunterladen HTL-Paketen enthalten).
 
-**Tipp:** Durch das Aktualiseren (angeführt im 5ten Protokoll) der HTL-Pakete, steht uns die neueste Version Netbeans zur Verfügung
+**Tipp:** Durch das Aktualiseren (angeführt im 5ten Protokoll) der HTL-Pakete, steht uns die neueste Version Netbeans zur Verfügung.
 
 Folgende Schritte werden zur Erstellung des Swing GUI Programmes benötigt:
 
@@ -67,3 +67,17 @@ Folgende Schritte werden zur Erstellung des Swing GUI Programmes benötigt:
 
 **Tipp:** Ein uns bereit gestelltes Video erleichtet die Erstellung: https://cloud.htl-mechatronik.at/index.php/s/AlyXs7YglQDLZSP
 
+----------------------------------------------------------------------------------------------------------------------------------------
+### Debian Paketverzeichnis erstellen
+
+Erstellen eines Unterordners für das Debianpaket:
+
+```
+user@host:~$ mkdir sx-guiapp_1.0~1_all
+user@host:~$ cd sx-guiapp_1.0~1_all
+user@host:~/sx-guiapp_1.0~1_all$ 
+```
+
+**Wichtig:** Der Kürzel "sx" wird durch den eigenen Kursnamen ersetzt!
+
+---------------------------------------------------------------------------------------------------------------------------------
