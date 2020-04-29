@@ -7,4 +7,4 @@
 | 3   | 23.03.2020 | Installation von Ubuntu 18.04 LTS + virtuelle Maschine | [3. Protokoll](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/liefrm17/SxLab%20Protokolle/protokoll-3_liefrm_2020-3-25.md)
 | 4   | 30.03.2020 | Erstellung eines Dienstes (Dämon) | [4. Protokoll](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/edit/liefrm17/SxLab%20Protokolle/protokoll-4_liefrm17_2020-3-30.md)
 | 5   | 20.04.2020  | Erstellung eines Dienstes (Dämon) Abschluss |[5. Protokoll](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/liefrm17/SxLab%20Protokolle/protokoll-5_liefrm17_2020-4-20.md)
-| 6   | 27.04.2020  | Debian Paket erzeugen | [6. Protokoll]()
+| 6   | 27.04.2020  | Debian Paket erzeugen | [6. Protokoll](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/liefrm17/SxLab%20Protokolle/protokoll-6_liefrm17_2020-4-20.md)
