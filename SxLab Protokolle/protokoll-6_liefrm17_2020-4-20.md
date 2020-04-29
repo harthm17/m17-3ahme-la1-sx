@@ -112,5 +112,12 @@ Maintainer: Manfred Steiner <sx@htl-kaindorf.ac.at>
 Description: My first Java GUI Application
 ```
 
+**Wichtig:** Der Kürzel "sx" wird durch den eigenen Kursnamen ersetzt!
 
+Ein Eintrag muss elbständig herausgefunden werden. Dieser lautet:
+```
+Version: 1.0~1
+```
+
+------------------------------------------------------------------------------------------------------------------------------------
 
