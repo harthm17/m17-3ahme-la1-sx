@@ -15,7 +15,7 @@
 1) [Übung 1: Debian Paket erzeugen](#übung-1-debian-paket-erzeugen)
     * [Java Programm erstellen](#java-programm-erstellen)
     * [Debian Paketverzeichnis erstellen](#debian-paketverzeichnis-erstellen)
-    * [Datei DEBIAN/control](#datei-debian-/-control)
+    * [Datei DEBIAN/control](#datei-debian-control)
 1) [Resümee](#resümee)
 
 --------------------------------------------------------------------------------------------------------------------------------------
