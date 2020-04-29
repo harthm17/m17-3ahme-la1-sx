@@ -15,7 +15,7 @@
 1) [Übung 1: Debian Paket erzeugen](#übung-1-debian-paket-erzeugen)
     * [Java Programm erstellen](#java-programm-erstellen)
     * [Debian Paketverzeichnis erstellen](#debian-paketverzeichnis-erstellen)
-    * [Datei Debian/control](#datei-debian-control)
+    * [Datei DEBIAN/control](#datei-DEBIAN-control)
 1) [Resümee](#resümee)
 
 --------------------------------------------------------------------------------------------------------------------------------------
@@ -89,7 +89,7 @@ Genaueres zu "Debian Paketverzeichnis erstellen" ist im Kapitel [3.2 (Übung 1 -
 zu entnehmen.
 
 ---------------------------------------------------------------------------------------------------------------------------------
-### Datei Debian/control
+### Datei DEBIAN/control
 
 Mit den darunter angeführten Befehlen wir ein Unterordner für **Debian** erstellt.
 
