@@ -44,4 +44,9 @@ Link zur Anleitung der Aufgabe: [Übung 1 (Kapitel 3.2)](https://lms.at/dotlrn/c
 
 **Allgemeine Beschreibung der Aufgabe:** In dieser Übung soll ein Java GUI-Programm als Debian Installationsdatei zur Verfügung gestellt werden.
 
-**Wichtig:** Durch Missgeschicke in der Übung können fehlerhafte Pakete entstehen, dies führt dazu, dass reguläre Pakete nicht mehr installiert oder aktualiesiert werden können, daurch wird das System untauglich/nutzlos. Um dies zu vermeiden führen wir die Übung in einer sicheren Umgebung durch (virtuelle Maschine-Ubuntu). 
+**Wichtig:** Durch Missgeschicke in der Übung können fehlerhafte Pakete entstehen, dies führt dazu, dass reguläre Pakete nicht mehr installiert oder aktualiesiert werden können. Dies hat grobe Auswirkungen auf das System, es wird untauglich/nutzlos. Um dies zu vermeiden führen wir die Übung in einer sicheren Umgebung durch (virtuelle Maschine-Ubuntu). 
+
+### Java Programm erstellen
+
+
+
