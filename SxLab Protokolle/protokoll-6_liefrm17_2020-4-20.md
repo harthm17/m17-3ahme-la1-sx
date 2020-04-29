@@ -21,7 +21,13 @@
 --------------------------------------------------------------------------------------------------------------------------------------
 ## Aufgabenstellung
 
+Die Aufgaben die in der 6ten Einheit (27.04.2020) zu erledigen waren:
 
+   * **Auf Lms,E-book: Linux-2, Kapitel 3 und 3.1 studieren**
+   * **Übung 1 (Kapitel 3.2) erledigen**
+   * **Übung 2 (Kapitel 3.3) erledigen**
+
+------------------------------------------------------------------------------------------------------------------------------------
 ## Theorie
 
 Zu beginn der Einheit
