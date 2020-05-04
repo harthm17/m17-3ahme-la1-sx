@@ -20,5 +20,8 @@ Das benutzte Betriebssystem war Ubunto.
 ### Download von Virtualbox
 
 Unter folgendem Link kann man Virtualbox auf seinem jeweiligen Betriebssystem herunterladen. Bei Linux muss alerdings die Kernversion übereinpassen.
-ich hatte probleme beim download da ich derzeit noch eine etwas ältere Ubunto version habe(15.04). Der download wollte bei imr nicht starten.
+ich hatte probleme beim download da ich derzeit noch eine etwas ältere Ubunto version habe(16.04). Der download wollte bei imr nicht starten.
+
 [Virtualbox Download](https://www.virtualbox.org/wiki/Downloads)
+
+Anschliesend habe ich mich im Internet eingelesse wie ich auf meine Kernversion eine VirtualBox über den Terminal runterladen kann was auch geklappt hat. 
