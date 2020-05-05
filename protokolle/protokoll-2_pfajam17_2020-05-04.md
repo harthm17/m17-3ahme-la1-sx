@@ -6,11 +6,11 @@
 
 ## Inhaltsverzeichnis
 * [Vorbereitung](#vorbereitung-und-beschaffung-der-nötigen-dateien)
-* [Installation und Inbetriebnahme der VM](installation-und-inbetriebnahme-der-vm)
-* [Einlegen der virtuellen Disk](einlegen-der-virtuellen-disk)
-* [Anfang mit Ubuntu](von-0-bis-ubuntu)
-* [Arbeiten mit dem virtuellen System](arbeiten-mit-dem-virtuellen-system)
-* [Ändern der Lesezeichen in Firefox/Chrome](ändern-der-lesezeichen-in-firefox/chrome)
+* [Installation und Inbetriebnahme der VM](#installation-und-inbetriebnahme-der-vm)
+* [Einlegen der virtuellen Disk](#einlegen-der-virtuellen-disk)
+* [Anfang mit Ubuntu](#von-0-bis-ubuntu)
+* [Arbeiten mit dem virtuellen System](#arbeiten-mit-dem-virtuellen-system)
+* [Ändern der Lesezeichen in Firefox/Chrome](#ändern-der-lesezeichen-in-firefox/chrome)
 
 
 ## Vorbereitung und Beschaffung der nötigen Dateien
