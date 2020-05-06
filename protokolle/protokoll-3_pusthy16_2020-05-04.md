@@ -12,8 +12,6 @@
 ## Inhaltsverzeichnis
 
 * [Download und Installation einer Virtual Box](#download-und-installation-einer-virtual-box)
-  * [Herunterladen](#herunterladen)
-  * [Installation](#installation)
 * [Oracle VM VirtualBox Extension Pack installieren](#oracle-vm-virtualbox-extension-pack-installieren)
 * [Virtuelle Maschine einrichten](#virtuelle-maschine-einrichten)
 * [Schwierigkeiten beim Installieren der GuestAddition](#schwierigkeiten-beim-installieren-der-guestaddition)
