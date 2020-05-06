@@ -29,7 +29,7 @@ Man kann Ubuntu auch ohne virtuelle Maschine installieren, jedoch überschreibt 
 
 --------------------------------------------------------
 ### Download der virtuellen Maschine
-Das Installieren der [Oracle VM VirtualBox](https://www.oracle.com/virtualization/technologies/vm/downloads/virtualbox-downloads.html) sollte normalerweise kein Problem darstellen. Einfach das aktuelle Betriebssystem auswählen und den nächten Anweisungen folgen.
+Das Installieren der [Oracle VM VirtualBox](https://www.oracle.com/virtualization/technologies/vm/downloads/virtualbox-downloads.html) sollte normalerweise kein Problem darstellen. Einfach das aktuelle Betriebssystem auswählen und den nächsten Anweisungen folgen.
 
 ------------------------------------------------
 
@@ -116,19 +116,3 @@ Hierfür die Konsole aufrufen und [DIESE](http://www.htl-mechatronik.at/ubuntu-h
 > Weitere Aufgaben sind vom Angabenzettel abzulesen.
 
 ---------------------------------------
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
