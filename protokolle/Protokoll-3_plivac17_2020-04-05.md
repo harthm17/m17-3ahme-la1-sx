@@ -19,15 +19,15 @@
 ------------------------------------------------------------
 
 ### Installation der Virtualbox
-Zuerst musste man die Installationsdatei herunterladen [hier](https://www.virtualbox.org/wiki/Downloads).
+Zuerst musste man die Installationsdatei herunterladen [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads).
 Sobald man dies erledigt hat, muss man nur noch die Installation fertigstellen.
 
 ### Oracle VM VirtualBox Extension Pack
-Sobald man die Installation der Birtualbox erfolgreich abgeschlossen hat, muss man das Oracle VM VirtualBox Extension Pack herunterladen [hier](https://download.virtualbox.org/virtualbox/6.1.4/Oracle_VM_VirtualBox_Extension_Pack-6.1.4.vbox-extpack).
+Sobald man die Installation der Birtualbox erfolgreich abgeschlossen hat, muss man das Oracle VM VirtualBox Extension Pack herunterladen [https://download.virtualbox.org/virtualbox/6.1.4/Oracle_VM_VirtualBox_Extension_Pack-6.1.4.vbox-extpack](https://download.virtualbox.org/virtualbox/6.1.4/Oracle_VM_VirtualBox_Extension_Pack-6.1.4.vbox-extpack).
 Dieses Pack wird dann automatisch installiert!
 
 ### Virtuelle Maschine erstellen und einrichten
-Wir mussten ein Gastsystem in der Virtualbox erstellen, welches als Betriebssystem Ubuntu nutzt. Hierführ mussten wir Ubuntu 20.04 LTS [hier](https://ubuntu.com/download/desktop)
+Wir mussten ein Gastsystem in der Virtualbox erstellen, welches als Betriebssystem Ubuntu nutzt. Hierführ mussten wir Ubuntu 20.04 LTS [https://ubuntu.com/download/desktop](https://ubuntu.com/download/desktop)
 herunterladen und diese Datei dann anschließend in der Virtualbox installieren.
 
 Wenn man eine neue Virtualebox erstellen möchte, muss man auf den Button **Neu** klicken.
