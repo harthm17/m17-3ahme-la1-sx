@@ -32,25 +32,22 @@ Dannach muss das Oracle VM VirtualBox Extension Pack heruntergeladen werden. Die
 ### Virtuelle Maschine einrichten
 Als Betriebssystem haben wir uns für Ubuntu entschieden, deswegen haben wir Ubuntu 18.04 LTS heruntergeladen. Dies ist eine .iso Datei. Um zum Download dieser Datei zu kommen, klicken Sie [hier](https://ubuntu.com/download/desktop/thank-you?version=18.04.4&architecture=amd64).
 
-Der erste Schritt ist es eine **neue** Virtual Box zu erstellen.
-
-![](https://cdn.discordapp.com/attachments/692432976503373854/692693827693051974/bild1.PNG)
+Um eine Virtual Box zu erstellen klicken Sie auf den Button **Neu**.
 
 Der nächste Schritt ist es, seinen Wunschnamen für die VirtualBox eingeben, den Dateipfad angeben, wo die Datein der neuen Distribution gespeichert werden.
 
 ![](https://cdn.discordapp.com/attachments/666676840764801085/707506612750778368/Ubuntu1.PNG)
 
-Dannach muss man angeben, wie viel Arbeitsspeicher dein neues Betriebssystem in Anspruch nehmen darf. In unserem Fall waren das **mindestens** 4GiB.
+Dannach muss man angeben, wie viel Arbeitsspeicher dein neues Betriebssystem in Anspruch nehmen darf.
 
 ![](https://cdn.discordapp.com/attachments/692432976503373854/692693819547975800/bild3.PNG)
 
-Der logisch folgende Schritt ist es, anzugeben wie viel Speicher es zu verfügung hat. In unserem Fall waren dies **mindestens** 50GiB.
+Der logisch folgende Schritt ist es, anzugeben wie viel Speicher es zu verfügung hat.
 Nach diesem Schritt kann man die VirtualBox erzeugen.
 
 ![](https://cdn.discordapp.com/attachments/692432976503373854/692693820961193984/bild4.PNG)
 
-**WICHTIG:**
-Nach diesem Schritt kann man logischerweiße die VirtualBox noch nicht starten, da noch kein Betriebssystem ausgewahlt ist. Um ein Betriebssystem auszuwählen, muss man einmal auf "Ändern" klicken und dann auf "Massenspeicher" gehen. Dannach muss man die .iso Datei, die man vorher heruntergeladen hat, auswählen.
+Im nächsten Schritt ist als Massenspeicher die Iso-Datei von Ubuntu auszuwählen um diese in der VB installieren zu können.
 
 ![](https://cdn.discordapp.com/attachments/692432976503373854/692693822551097344/bild5.PNG)
 
