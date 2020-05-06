@@ -16,7 +16,7 @@
   * [Installation](#installation)
 * [Oracle VM VirtualBox Extension Pack installieren](#oracle-vm-virtualbox-extension-pack-installieren)
 * [Virtuelle Maschine einrichten](#virtuelle-maschine-einrichten)
-* [Schwierigkeiten beim Installieren der GuestAddition](#schwierigkeiten-beim-installieren-der-guestAddition)
+* [Schwierigkeiten beim Installieren der GuestAddition](#schwierigkeiten-beim-installieren-der-guestaddition)
 * [HTL Paket installieren](#htl-paket-installieren)
 
 ---------------------------------------------
@@ -71,8 +71,8 @@ Wenn man erneut auf "Ändern" geht und dann auf "Gemeinsamer Ordner" geht, kann 
 ![](https://cdn.discordapp.com/attachments/692432976503373854/692693823565856809/bild6.PNG)
 
 ### Schwierigkeiten beim installieren der GuestAddition
-    Bei mir trat das Problem auf, dass sich das Bild, bzw. die Auflösung von Ubuntu nicht an den Bildschirm anpasste. Aber mit Hilfe von
-    Herrn Steiner konnte ich das Problem lösen und eine andere GuestAddition installieren.
+Bei mir trat das Problem auf, dass sich das Bild, bzw. die Auflösung von Ubuntu nicht an den Bildschirm anpasste. Aber mit Hilfe von
+Herrn Steiner konnte ich das Problem lösen und eine andere GuestAddition installieren.
     
 ![](https://cdn.discordapp.com/attachments/692694428128772116/692702639829286972/bild9.png)
 
