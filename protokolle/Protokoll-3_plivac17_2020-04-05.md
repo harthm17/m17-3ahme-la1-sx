@@ -3,7 +3,7 @@
 ------------------------------------------------------------
 
 * **Erstellt von:** Vanessa Plieschnegger
-* **Datum:** 04.05. 2020
+* **Datum:** 04. 05. 2020
 * **Thema:** Installation von Ubuntu in der Virtualbox
 * **Fehlend:** keiner
 
