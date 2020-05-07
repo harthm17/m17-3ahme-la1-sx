@@ -78,6 +78,6 @@ Hierfür die Konsole aufrufen und [DIESE](http://www.htl-mechatronik.at/ubuntu-h
 
 ------------------------------------------------------------------------
 
-> Kurz vor der Installation des HTL-Paketes war die Unterrichtseinheit zu Ende.
+> Während der Installation des HTL-Paketes war die Unterrichtseinheit zu Ende.
 
 > Weitere Aufgaben sind vom Angabenzettel abzulesen.
