@@ -70,7 +70,6 @@ Empfohlen wird noch folgendes einzustellen:
 Nun hat man ein Lauffähiges Betriebssystem in der VirtualBox
 
 Wenn man erneut auf "Ändern" geht und dann auf "Gemeinsamer Ordner" geht, kann man einen Gemeinsamen Ordner erstellen. Mit diesem kann man zwischen dem Gastsystem und dem virtuellen System ein Verzeichnis teilen.
-![](https://cdn.discordapp.com/attachments/692432976503373854/692693823565856809/bild6.PNG)
 
 ------------------------------------------------------------------------------
 
