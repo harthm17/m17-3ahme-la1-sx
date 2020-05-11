@@ -2,11 +2,11 @@
 
 ---------------------------------------------------------------------------------------------
 
-* **Thema:** Installation von Ubuntu 18.04 LTS + Software in einer virtuellen Maschine + 
+* **Thema:** Installation von Ubuntu 18.04 LTS + Software in einer virtuellen Maschine + Linux Grundkenntnisse durcharbeiten
 * **Datum:** 11.05.2020
 * **Gefehlt:** -
 * **Erstellt von:** Riegelnegg Lukas (rielum17)
-* **Protokoll der letzten Einheit:** [Protokoll 3](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/rielum17/Protokoll/protokoll-2_rielum17_2020-01-13.md)
+* **Protokoll der letzten Einheit:** [Protokoll 3](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/rielum17/Protokoll/protokoll-3_rielum17_2020-05-04.md)
 ----------------------------------------------------------------------------------------------
 
 ## Inhaltsverzeichnis 
