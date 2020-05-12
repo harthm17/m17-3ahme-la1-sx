@@ -4,5 +4,5 @@
 
 [Protokoll 04.05.2020](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/pfajam17/protokolle/protokoll-2_pfajam17_2020-05-04.md)  (Installation und Inbetriebnahme einer virtuellen Maschine)
 
-[Protokoll 11.05.2020](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/pfajam17/protokolle/protokoll-3_pfajam17_2020-05-11.md#autostart)
+[Protokoll 11.05.2020](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/pfajam17/protokolle/protokoll-3_pfajam17_2020-05-11.md)
 (Daemons)
