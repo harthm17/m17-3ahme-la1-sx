@@ -23,7 +23,7 @@ Um den Chromium Browser zu installieren muss man in das Terminal nur diesen Befe
 $ sudo apt-get install chromium-browser chromium-browser-l10n chromium-codecs-ffmpeg 
 ```
 
-### Leszeichen Menüleiste im Firefox konfigurieren#
+### Leszeichen Menüleiste im Firefox konfigurieren
 Hierführ muss man ersteinmal den Firefox öffnen. 
 Dann muss man rechts oben auf den Button "Öffnen von Chronik, Lesezeichen und mehr gehen.
 Nun geht man auf Lesezeichen und anschließend auf Lesezeichen verwalten.
