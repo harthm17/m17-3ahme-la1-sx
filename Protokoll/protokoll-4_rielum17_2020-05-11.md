@@ -11,9 +11,14 @@
 
 ## Inhaltsverzeichnis 
 
- * [Insterlieren von Pogramme](#insterlieren-der-Pogramme-Qucs-und-pgAdmin)
+ * [Instalieren von Pogramme](#instalieren-der-Pogramme-Qucs-und-pgAdmin)
 
 --------------------------------------------------------------------------------------------------
-Insterlieren der Pogramme Qucs und pgAdmin
 
-
+## Instalieren der Pogramme Qucs und pgAdmin
+Die Pogramme wurden Ubuntu Software installiert.
+ Zuerst wurde diese Pogramm geöffnet danach mithilfe der Suchleiste geschaut, ob das gewünschte Pogramm bei Software erhalten ist.
+ Anschließend mit dem Passwort die Installation akzeptieren.
+ Wenn es nicht in Ubuntu Software enthalten ist, klicken sie [hier](http://opencircuitinstitute.org/content/installing-qucs) um Qucs zu installieren und [hier](https://linuxhint.com/install-pgadmin4-ubuntu/)um pgAdmin zu installieren.
+ 
+-----------------------------------------------------------------------------------------------------------------------
