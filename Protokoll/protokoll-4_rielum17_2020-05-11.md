@@ -12,13 +12,19 @@
 ## Inhaltsverzeichnis 
 
  * [Instalieren von Pogramme](#instalieren-der-Pogramme-Qucs-und-pgAdmin)
-
+* [Durcharbeiten](#linux-2-durcharbeiten)
 --------------------------------------------------------------------------------------------------
 
 ## Instalieren der Pogramme Qucs und pgAdmin
 Die Pogramme wurden Ubuntu Software installiert.
  Zuerst wurde diese Pogramm geöffnet danach mithilfe der Suchleiste geschaut, ob das gewünschte Pogramm bei Software erhalten ist.
  Anschließend mit dem Passwort die Installation akzeptieren.
- Wenn es nicht in Ubuntu Software enthalten ist, klicken sie [hier](http://opencircuitinstitute.org/content/installing-qucs) um Qucs zu installieren und [hier](https://linuxhint.com/install-pgadmin4-ubuntu/)um pgAdmin zu installieren.
+ Wenn es nicht in Ubuntu Software enthalten ist, klicken sie [hier](http://opencircuitinstitute.org/content/installing-qucs) um Qucs zu installieren und [hier](https://linuxhint.com/install-pgadmin4-ubuntu/) um pgAdmin zu installieren.
  
 -----------------------------------------------------------------------------------------------------------------------
+
+## Linux-2 Durcharbeiten
+
+Bei diesem Punkt wurde begonnen das Skript zu Linux durchzuarbeiten. Das heißt Durchlesen ausarbeiten nach lesen und Notizen machen.
+
+
