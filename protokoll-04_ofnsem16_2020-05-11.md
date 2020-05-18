@@ -32,7 +32,7 @@ Wir sollten die Übung eins aus dem ersten Skript machen. Darin geht es um die
 Erstellung eines Dienstes die ein C-Programm ausführt. Es soll alle 2 Sekunden einen Text ausgeben
 
 Als erstes war das CProgramm zu erstellen:
-```
+```C
 #include <stdio.h>
 #include <stdlib.h>
 #include <syslog.h>
