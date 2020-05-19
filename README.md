@@ -6,3 +6,5 @@
 
 [Protokoll 11.05.2020](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/pfajam17/protokolle/protokoll-3_pfajam17_2020-05-11.md)
 (Daemons)
+
+[Protokoll 18.05.2020](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/pfajam17/protokolle/protokoll-4_pfajam17_2020-05-18.md) (Erstellen und Installieren eines Debian-Paketes)
