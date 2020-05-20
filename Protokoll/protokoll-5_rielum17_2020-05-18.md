@@ -11,6 +11,7 @@
 
 * [Dämon](#Dämon)
   * [Übung](#Erstellen eines Dämons)
+* [Endlos-Dienst automatisch starten lassen](#endlos-dienst-automatisch-starten-lassen)
 
 ----------------------------------------------------------------------------------------------------------
 
@@ -77,3 +78,13 @@ rico@ra-s-m005:~$ tail -f /var/log/syslog
 ```
 Danach muss man eine neue Datei erstellen Namens "mydaemon.service".
 Wenn man diese erstellt hat muss man als Super User einsteigen.
+
+### Endlos-Dienst automatisch starten lassen
+Möchte man seinen Daemon per Autostart ausführen lassen, geht das so:
+
+Der Befehl dafür lautet `sudo systemctl enable mydaemon`. Doch dies alleine führt bloß zu einer Fehlermeldung. Durch das Einfügen von
+```
+[Install]
+WantedBy=multi-user.target
+```
+ in die Datei mydaemon.service wird vermittelt, dass mydaemon beim Eintritt in Phase der Multi-User-Fähigkeit gestartet werden soll. Mit dieser getroffenen Maßnahme kann mydaemon nun mit dem obigen Befehl in den Autostart eingegliedert werden. Startet man den Rechner neu (dies geht aus der Shell mit `reboot` oder `sudo reboot`), kann die Ausführung von mydaemon überprüft werden.
