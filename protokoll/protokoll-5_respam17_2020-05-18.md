@@ -7,6 +7,15 @@
 * **Übungsort:** Wegen Corona im Home-Office
 ---------------------------------
 ### Inhaltsangabe
+* [tar.gz Datei](#targz-datei)
+    * [Kommandos](#kommandos)
+    * [Optionen](#optionen)
+* [Fertigstellen des Arbeitsaufrags vom 11.5.](#fertigstellen-des-arbeitsaufrags-vom-115)
+    * [Daemon](#erstellen-eines-daemon)
+    * [Optionen bei den Kommandos](#3-optionen-bei-den-kommandos)
+    * [Service-Datei](#4-service-datei)
+    * [Automatischer Start](#5-automatischer-start)
+* [Teilaufgabe 3](#teilaufgabe-3)
 
 -------------------------------------
 ##### Teilaufgabe 1
@@ -33,11 +42,13 @@ Alles durchgelesen und verstanden.
 
 ###### 2.
 ### Erstellen eines Daemon
-1. Ein sogenannter Daemon (Dienst) ist ein Programm welches im Hintergrund abläuft. Es bedeutet so viel wie ***d**isk **a**nd **e**xecution **mon**itor*. So heißt es aber nur in einem Unixsystem. Unter Windosw wird ein solches Programm *services* oder *Systemdienste* genannt. Mehr Informationen zu einem Daemon auf [Wikipedia](https://de.wikipedia.org/wiki/Daemon).
+#### 1. 
+Ein sogenannter Daemon (Dienst) ist ein Programm welches im Hintergrund abläuft. Es bedeutet so viel wie ***d**isk **a**nd **e**xecution **mon**itor*. So heißt es aber nur in einem Unixsystem. Unter Windosw wird ein solches Programm *services* oder *Systemdienste* genannt. Mehr Informationen zu einem Daemon auf [Wikipedia](https://de.wikipedia.org/wiki/Daemon).
 
-1. Aufgabe so wie im Buch beschrieben durchgeführt.
+#### 2. 
+Aufgabe so wie im Buch beschrieben durchgeführt.
 
-1. Optionen bei den Kommandos
+#### 3. Optionen bei den Kommandos
 * **journalctl**:   *Abfrage der systemd journal*
 > Query the systemd journal
 * **journalctl -f**: --follow  *Zeigt die aktuellsten Einträge an*
@@ -54,13 +65,12 @@ Alles durchgelesen und verstanden.
 * **tail -f /var/log/syslog**:  --follow[={name|descriptor}] *Zeigt angehängte Daten, wenn die Datei wächst*
 > output appended data as the file grows; an absent option argument means 'descriptor'
 
-4. Service-Datei
+#### 4. Service-Datei
 * **ExecStart**: Der Befehl wird beim Start der Unit ausgeführt.
 * **IgnoreSIGPIPE**: Benötigt ein boolschen Wert. falls es *wahr* ist, so wird es im laufenden Prozess ignoriert.
 * **KillMode**: Legt fest, wie die Prozesse dieser Unit getötet(beendet) werden sollen.
 
-##### 3.
-### Automatischer Start
+#### 5. Automatischer Start
 Wie im Buch beschrieben durchgeführt. Alles funktioniert.
 
 --------------------
