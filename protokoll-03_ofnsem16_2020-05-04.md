@@ -10,11 +10,11 @@
 -----------------------------------------
 ## Inhaltsverzeichnis
 
-*[Download und Instalation der VirtualBox](#download-und-instalation-der-virtualbox)
-*[Virtuelle Maschine einrichten](#virtuelle-maschine-einrichten)
-*[Starten](#starten)
-*[HTL-Pakete](#htl-pakete)
-*[Chromium Browser](#chromium-browser)
+* [Download und Instalation der VirtualBox](#download-und-instalation-der-virtualbox)
+* [Virtuelle Maschine einrichten](#virtuelle-maschine-einrichten)
+* [Starten](#starten)
+* [HTL-Pakete](#htl-pakete)
+* [Chromium Browser](#chromium-browser)
 
 -----------------------------------------
 ### Download und Installation der VirtualBox
