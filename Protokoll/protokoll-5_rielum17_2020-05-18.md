@@ -60,3 +60,5 @@ Nano Kommandos: STRG + O zum Speichern udn mit STRG + X verlassen
 
 Nun haben wir einen neuen Ornder angelegt mit einer main.c Datei. Diese können wir mit dem Befehl ```./mydaemon``` ausführen.  
 Das ausgeführte Programm sieht dann so aus:
+
+![](file:///home/rico/Schreibtisch/Home%20office/Lab/SX/Bildschirmfoto_2020-05-20_12-02-43.png)
