@@ -3,7 +3,7 @@
 ## Thema: Dienste in Linux Systemen 2
 ---------------------------------------------
 * Datum:      18.05.2020
-* Gruppe:     2  
+* Gruppe:     3  
 * Abwesend:   keiner
 * Verfasser:  Thomas Pust
 * Klasse:     3AHME
