@@ -9,10 +9,15 @@
 * **Protokoll der letzten Einheit:** [Protokoll 4](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/rielum17/Protokoll/protokoll-4_rielum17_2020-05-11.md)
 ----------------------------------------------------------------------------------------------
 
+* [Dämon](#Dämon)
+  * [Übung](#Erstellen eines Dämons)
 
 ----------------------------------------------------------------------------------------------------------
 
-#### Übung
+### Dämon
+Ein Dämon ist ein Programm, das im Hintergrund abläuft und bestimmte Dienste zur Verfügung stellt, welches auf einem Unix bzw ein unixartiges Systemen läuft.
+
+#### Erstellen eines Dämons
 In dieser Übung sollen wir einen Dienst erstellen, welcher ein C-Programm laufen lässt. Dieses Programm wird im Hintergrund laufen und gibt viermal einen Text aus und zwar alle 2 Sekunden.
 
 Der erste Schritt ist es, dass C Programm zu erstellen bzw eine main.c Datei.
@@ -62,3 +67,13 @@ Nun haben wir einen neuen Ornder angelegt mit einer main.c Datei. Diese können 
 Das ausgeführte Programm sieht dann so aus:
 
 ![](file:///home/rico/Schreibtisch/Home%20office/Lab/SX/Bildschirmfoto_2020-05-20_12-02-43.png)
+
+Als Nächstes testen wir unser Programm. Wir können man mit Hilfe von weiteren Shells mit folgenden Befehelen die Ausgabe im Log oder im journald anzeigen lassen.
+```
+rico@ra-s-m005:~$ journalctl -f
+rico@ra-s-m005:~$ journalctl -f -p 4
+rico@ra-s-m005:~$ journalctl -f -v verbose
+rico@ra-s-m005:~$ tail -f /var/log/syslog
+```
+Danach muss man eine neue Datei erstellen Namens "mydaemon.service".
+Wenn man diese erstellt hat muss man als Super User einsteigen.
