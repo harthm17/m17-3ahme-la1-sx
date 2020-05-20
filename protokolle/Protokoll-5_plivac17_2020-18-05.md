@@ -120,7 +120,7 @@ systemctl restart mydaemon
 systemctl stop mydaemon
 systemctl status mydaemon
 ```
-### Autostart
+## Autostart
 Um einen Dienst automatich starten zulassen, kann man dies mit folgenden Befehlen leicht realisieren:
 ```
 sudo systemctl enable mydaemon
