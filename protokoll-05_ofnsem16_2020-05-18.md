@@ -1,6 +1,6 @@
 # 5. Protokoll
 ------------------------------------
-## Thema: Instalationspakete
+## Thema: Installationspakete
 ------------------------------------
 * Datum:      18.05.2020
 * Gruppe:     3
@@ -9,13 +9,23 @@
 * Klasse:     3AHME/AHME17
 * Schuljahr:  2019/20
 ------------------------------------
-## Inhaltsverzeichniss
+## Inhaltsverzeichnis
+* [tar.gz-Datei](#targz-datei)
 * [Theorie](#theorie)
 * [Erstellung einer Java GUI](#erstellung-einer-java-gui)
 * [Übung 1](#übung-1)
 ------------------------------------
+### tar.gz-Datei
+Herr Professor Steiner zeigte uns nochmals an einem Beispiel wie man eine **tar.gz-Datei** erstellt. Weitere Informationen zur tar.gz finden Sie [Hier](https://wiki.ubuntuusers.de/tar/)
+
+Mit diesem Befehl lässt sich eine tar.gz-Datei über die Konsole erstellen:
+```
+tar Optionen Datei
+```
+Optionen können Sie im [oberen Link](https://wiki.ubuntuusers.de/tar/) nachlesen.
+
 ### Theorie
-Als erstes mussten wir in unserem E-Book **Linux 2** uns **Kapitel 3 und 3.1** durchlesen.
+Als Erstes mussten wir in unserem E-Book **Linux 2** uns **Kapitel 3 und 3.1** durchlesen.
 
 [Hier zum E-Book](https://lms.at/dotlrn/classes/informatik/610437.3AHME_LA1SX.19_20/xolrn/9F2714A93B69A.symlink?resource_id=0-420357452&m=view#473229838)
 
