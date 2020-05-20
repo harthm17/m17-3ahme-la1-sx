@@ -18,6 +18,8 @@
 ### Dämon
 Ein Dämon ist ein Programm, das im Hintergrund abläuft und bestimmte Dienste zur Verfügung stellt, welches auf einem Unix bzw ein unixartiges Systemen läuft.
 
+----------------------------------------------------------------------------------------------------------
+
 #### Erstellen eines Dämons
 In dieser Übung sollen wir einen Dienst erstellen, welcher ein C-Programm laufen lässt. Dieses Programm wird im Hintergrund laufen und gibt viermal einen Text aus und zwar alle 2 Sekunden.
 
@@ -67,7 +69,7 @@ Nano Kommandos: STRG + O zum Speichern udn mit STRG + X verlassen
 Nun haben wir einen neuen Ornder angelegt mit einer main.c Datei. Diese können wir mit dem Befehl ```./mydaemon``` ausführen.  
 Das ausgeführte Programm sieht dann so aus:
 
-![](file:///home/rico/Schreibtisch/Home%20office/Lab/SX/Bildschirmfoto_2020-05-20_12-02-43.png)
+![](https://cdn.discordapp.com/attachments/533640508439003137/712609273674334248/Bildschirmfoto_2020-05-20_12-02-43.png)
 
 Als Nächstes testen wir unser Programm. Wir können man mit Hilfe von weiteren Shells mit folgenden Befehelen die Ausgabe im Log oder im journald anzeigen lassen.
 ```
@@ -78,6 +80,8 @@ rico@ra-s-m005:~$ tail -f /var/log/syslog
 ```
 Danach muss man eine neue Datei erstellen Namens "mydaemon.service".
 Wenn man diese erstellt hat muss man als Super User einsteigen.
+
+----------------------------------------------------------------------------------------------------------
 
 ### Endlos-Dienst automatisch starten lassen
 Möchte man seinen Daemon per Autostart ausführen lassen, geht das so:
