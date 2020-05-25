@@ -1,8 +1,8 @@
 # Protokoll-5 LABOR/SX 3AHME (2019/20)
 
 ---------------------------------------------------------------------------------------------
-
-* **Thema:**Linux Grundkenntnisse 2, Debian Paket
+ 
+* **Thema:** Linux Grundkenntnisse 2, Debian Paket
 * **Datum:** 25.05.2020
 * **Gefehlt:** -
 * **Erstellt von:** Riegelnegg Lukas (rielum17)
