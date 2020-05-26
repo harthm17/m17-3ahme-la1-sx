@@ -8,3 +8,4 @@ Protokoll Nr. | Datum | Thema | Link
 3 | 04.05.2020 | Virtuelle Maschine/Installation von Ubuntu | [Protokoll 3](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/respam17/protokoll/protokoll-3_respam17_2020-05-04.md)
 4 | 11.05.2020 | Virtuelle Maschine/AA 1 | [Protokoll 4](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/respam17/protokoll/protokoll-4_respam17_2020-05-11.md)
 5 | 18.05.2020 | Daemon | [Protokoll 5](https://github.com/HTLMechatronics/m17-3ahme-la1-sx/blob/respam17/protokoll/protokoll-5_respam17_2020-05-18.md)
+6 | 25.05.2020 | Gui-App/Debian Paket | [Protokoll 6]()
